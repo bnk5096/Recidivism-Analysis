@@ -1,0 +1,106 @@
+[
+{
+"cve_id": "CVE-2022-46151",
+"patch_date": [
+"2022-11-28 14:01:09-08:00"
+],
+"patch_files": [
+"querybook/server/app/auth/okta_auth.py",
+"querybook/server/app/auth/oauth_auth.py"
+],
+"earliest_patch_date": "2022-11-28 14:01:09-08:00",
+"earliest_vuln_date": "2020-03-31 12:38:00-04:00",
+"vuln_files": [
+"querybook/server/app/auth/okta_auth.py",
+"querybook/server/app/auth/oauth_auth.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-26148",
+"patch_date": [
+"2024-02-21 13:26:59-08:00"
+],
+"patch_files": [
+"package.json",
+"querybook/webapp/lib/richtext/index.tsx"
+],
+"earliest_patch_date": "2024-02-21 13:26:59-08:00",
+"earliest_vuln_date": "2020-03-31 12:38:00-04:00",
+"vuln_files": [
+"package.json",
+"querybook/webapp/lib/richtext/index.tsx"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-27103",
+"patch_date": [
+"2024-02-27 20:05:37-08:00"
+],
+"patch_files": [
+"querybook/webapp/lib/sql-helper/sql-autocompleter.ts",
+"package.json",
+"yarn.lock",
+"querybook/webapp/components/DataDocStatementExecution/StatementLog.tsx",
+"querybook/webapp/components/Search/SearchResultItem.tsx"
+],
+"earliest_patch_date": "2024-02-27 20:05:37-08:00",
+"earliest_vuln_date": "2020-03-31 12:38:00-04:00",
+"vuln_files": [
+"querybook/webapp/components/DataDocStatementExecution/StatementLog.tsx",
+"querybook/webapp/components/Search/SearchResultItem.tsx",
+"package.json",
+"querybook/webapp/lib/sql-helper/sql-autocompleter.ts"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"package.json"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,101 @@
+[
+{
+"cve_id": "CVE-2021-25986",
+"patch_date": [
+"2021-11-15 13:37:40+01:00"
+],
+"patch_files": [
+"src/wiki/plugins/notifications/static/wiki/plugins/notifications/js/ui.js",
+"docs/release_notes.rst"
+],
+"earliest_patch_date": "2021-11-15 13:37:40+01:00",
+"earliest_vuln_date": "2021-08-01 02:51:31+02:00",
+"vuln_files": [
+"src/wiki/plugins/notifications/static/wiki/plugins/notifications/js/ui.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-28865",
+"patch_date": [
+"2024-03-16 14:20:40+01:00"
+],
+"patch_files": [
+"src/wiki/templatetags/wiki_tags.py",
+"docs/release_notes.rst",
+"tests/plugins/macros/test_toc.py",
+"src/wiki/plugins/macros/mdx/macro.py",
+"src/wiki/core/markdown/mdx/codehilite.py"
+],
+"earliest_patch_date": "2024-03-16 14:20:40+01:00",
+"earliest_vuln_date": "2017-04-15 18:52:04+02:00",
+"vuln_files": [
+"src/wiki/plugins/macros/mdx/macro.py",
+"src/wiki/templatetags/wiki_tags.py",
+"src/wiki/core/markdown/mdx/codehilite.py"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"docs/release_notes.rst"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

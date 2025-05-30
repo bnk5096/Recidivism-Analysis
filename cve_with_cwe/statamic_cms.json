@@ -1,0 +1,172 @@
+[
+{
+"cve_id": "CVE-2023-36828",
+"patch_date": [
+"2023-07-05 12:26:57-04:00"
+],
+"patch_files": [
+"composer.json",
+"tests/Tags/SvgTagTest.php",
+"src/Tags/Svg.php"
+],
+"earliest_patch_date": "2023-07-05 12:26:57-04:00",
+"earliest_vuln_date": "2019-12-18 11:20:17-05:00",
+"vuln_files": [
+"tests/Tags/SvgTagTest.php",
+"src/Tags/Svg.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-47129",
+"patch_date": [
+"2023-11-10 12:13:49-05:00",
+"2023-11-10 10:11:25-05:00"
+],
+"patch_files": [
+"src/Http/Controllers/FormController.php"
+],
+"earliest_patch_date": "2023-11-10 10:11:25-05:00",
+"earliest_vuln_date": "2020-08-28 12:02:16-04:00",
+"vuln_files": [
+"src/Http/Controllers/FormController.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-434"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-48217",
+"patch_date": [
+"2023-11-14 14:32:15-05:00"
+],
+"patch_files": [
+"src/Http/Controllers/FormController.php",
+"src/Http/Controllers/CP/Fieldtypes/FilesFieldtypeController.php",
+"src/Http/Controllers/CP/Assets/AssetsController.php"
+],
+"earliest_patch_date": "2023-11-14 14:32:15-05:00",
+"earliest_vuln_date": "2020-09-02 12:55:52-04:00",
+"vuln_files": [
+"src/Http/Controllers/FormController.php",
+"src/Http/Controllers/CP/Fieldtypes/FilesFieldtypeController.php",
+"src/Http/Controllers/CP/Assets/AssetsController.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-434"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-434"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/Http/Controllers/FormController.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-36119",
+"patch_date": [
+"2024-05-30 10:36:04-04:00"
+],
+"patch_files": [
+"src/Http/Requests/UserRegisterRequest.php",
+"tests/Tags/User/RegisterFormTest.php"
+],
+"earliest_patch_date": "2024-05-30 10:36:04-04:00",
+"earliest_vuln_date": "2024-05-15 18:58:48-04:00",
+"vuln_files": [
+"src/Http/Requests/UserRegisterRequest.php"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

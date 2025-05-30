@@ -1,0 +1,153 @@
+[
+{
+"cve_id": "CVE-2018-6596",
+"patch_date": [
+"2018-02-02 11:41:14-08:00",
+"2018-02-02 11:53:01-08:00"
+],
+"patch_files": [
+"anymail/webhooks/base.py"
+],
+"earliest_patch_date": "2018-02-02 11:41:14-08:00",
+"earliest_vuln_date": "2017-01-19 19:01:36-08:00",
+"vuln_files": [
+"anymail/webhooks/base.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 9.1,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.2
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 6.4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 4.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-200"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2018-1000089",
+"patch_date": [
+"2018-02-08 11:38:15-08:00"
+],
+"patch_files": [
+"docs/esps/sendgrid.rst",
+"tests/test_checks.py",
+"docs/esps/mailgun.rst",
+"docs/tips/securing_webhooks.rst",
+"docs/esps/sparkpost.rst",
+"tests/test_mandrill_webhooks.py",
+"docs/esps/postmark.rst",
+"anymail/apps.py",
+"anymail/checks.py",
+"docs/esps/mailjet.rst",
+"tests/webhook_cases.py",
+"docs/esps/mandrill.rst",
+"docs/installation.rst",
+"anymail/webhooks/base.py"
+],
+"earliest_patch_date": "2018-02-08 11:38:15-08:00",
+"earliest_vuln_date": "2016-04-29 18:10:50-07:00",
+"vuln_files": [
+"docs/tips/securing_webhooks.rst",
+"tests/test_mandrill_webhooks.py",
+"anymail/apps.py",
+"tests/webhook_cases.py",
+"docs/installation.rst",
+"anymail/webhooks/base.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.4,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 5.2
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-532"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"anymail/webhooks/base.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

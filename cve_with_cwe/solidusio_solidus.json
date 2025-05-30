@@ -1,0 +1,178 @@
+[
+{
+"cve_id": "CVE-2021-43805",
+"patch_date": [
+"2021-12-07 10:40:00+01:00"
+],
+"patch_files": [
+"core/lib/tasks/solidus/check_orders_with_invalid_email.rake",
+"core/spec/lib/tasks/solidus/check_orders_with_invalid_email_spec.rb",
+"core/lib/spree/core/validators/email.rb",
+"core/spec/lib/spree/core/validators/email_spec.rb"
+],
+"earliest_patch_date": "2021-12-07 10:40:00+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-43846",
+"patch_date": [
+"2021-12-14 11:59:45+01:00",
+"2021-12-20 09:25:33+01:00"
+],
+"patch_files": [
+"frontend/app/controllers/spree/orders_controller.rb"
+],
+"earliest_patch_date": "2021-12-14 11:59:45+01:00",
+"earliest_vuln_date": "2016-06-28 23:58:29+02:00",
+"vuln_files": [
+"frontend/app/controllers/spree/orders_controller.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-31000",
+"patch_date": [
+"2022-06-01 11:14:05+02:00"
+],
+"patch_files": [
+"backend/config/routes.rb",
+"backend/app/views/spree/admin/adjustments/_adjustments_table.html.erb",
+"backend/spec/features/admin/orders/adjustments_spec.rb"
+],
+"earliest_patch_date": "2022-06-01 11:14:05+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

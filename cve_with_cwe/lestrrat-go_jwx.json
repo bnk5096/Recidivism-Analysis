@@ -1,0 +1,155 @@
+[
+{
+"cve_id": "CVE-2023-49290",
+"patch_date": [
+"2023-12-03 15:35:12+09:00"
+],
+"patch_files": [
+"Changes",
+"jwe/jwe_test.go",
+"jwe/options.yaml",
+"jwe/jwe.go",
+"jwe/options_gen_test.go",
+"jwe/options_gen.go"
+],
+"earliest_patch_date": "2023-12-03 15:35:12+09:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "LOW",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-21664",
+"patch_date": [
+"2024-01-09 09:45:34+09:00",
+"2024-01-09 10:44:48+09:00",
+"2024-01-09 10:52:35+09:00"
+],
+"patch_files": [
+".github/workflows/codeql.yml",
+".github/workflows/lint.yml",
+"tools/cmd/genjws/go.mod",
+"tools/cmd/genjwa/go.sum",
+"tools/cmd/genoptions/go.sum",
+"go.mod",
+"jws/jws_test.go",
+".github/workflows/ci.yml",
+"tools/cmd/genjwt/go.sum",
+"bench/performance/go.sum",
+"Changes",
+".github/workflows/stale.yml",
+"cmd/jwx/go.sum",
+"tools/cmd/genjwa/go.mod",
+"examples/go.sum",
+"jws/jws.go",
+"tools/cmd/genjws/go.sum",
+"go.sum",
+"tools/cmd/genoptions/go.mod",
+"tools/cmd/genjwk/go.sum",
+".github/workflows/smoke.yml",
+"cmd/jwx/go.mod",
+"tools/cmd/genjwt/go.mod",
+"deps.bzl",
+".bazelversion",
+"tools/cmd/genjwe/go.mod",
+"tools/cmd/genjwe/go.sum",
+"tools/cmd/genreadfile/go.sum",
+".github/workflows/benchmark.yml",
+"jws/message.go",
+"tools/cmd/genreadfile/go.mod",
+"tools/cmd/genjwk/go.mod"
+],
+"earliest_patch_date": "2024-01-09 09:45:34+09:00",
+"earliest_vuln_date": "2015-11-04 14:13:30+09:00",
+"vuln_files": [
+".bazelversion",
+".github/workflows/benchmark.yml",
+".github/workflows/ci.yml",
+".github/workflows/codeql.yml",
+".github/workflows/lint.yml",
+".github/workflows/smoke.yml",
+"cmd/jwx/go.mod",
+"cmd/jwx/go.sum",
+"deps.bzl",
+"go.sum",
+"tools/cmd/genjwa/go.mod",
+"tools/cmd/genjwa/go.sum",
+"tools/cmd/genjwe/go.mod",
+"tools/cmd/genjwe/go.sum",
+"tools/cmd/genjwk/go.mod",
+"tools/cmd/genjwk/go.sum",
+"tools/cmd/genjws/go.mod",
+"tools/cmd/genjws/go.sum",
+"tools/cmd/genjwt/go.mod",
+"tools/cmd/genjwt/go.sum",
+"tools/cmd/genoptions/go.mod",
+"tools/cmd/genoptions/go.sum",
+"tools/cmd/genreadfile/go.mod",
+"tools/cmd/genreadfile/go.sum",
+".github/workflows/stale.yml",
+"examples/go.sum",
+"go.mod",
+"jws/jws_test.go",
+"bench/performance/go.sum",
+"jws/message.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"Changes"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,120 @@
+[
+{
+"cve_id": "CVE-2024-21646",
+"patch_date": [
+"2023-12-05 16:07:53-08:00"
+],
+"patch_files": [
+"src/amqpvalue.c"
+],
+"earliest_patch_date": "2023-12-05 16:07:53-08:00",
+"earliest_vuln_date": "2021-02-21 18:19:26-08:00",
+"vuln_files": [
+"src/amqpvalue.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-190"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-25110",
+"patch_date": [
+"2024-02-01 16:37:53-08:00"
+],
+"patch_files": [
+"src/message.c"
+],
+"earliest_patch_date": "2024-02-01 16:37:53-08:00",
+"earliest_vuln_date": "2015-12-11 16:27:03-08:00",
+"vuln_files": [
+"src/message.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-416"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-27099",
+"patch_date": [
+"2024-02-09 13:35:18-08:00"
+],
+"patch_files": [
+"tests/link_ut/main.c",
+"tests/link_ut/link_ut.c",
+"src/link.c",
+"tests/CMakeLists.txt",
+"tests/link_ut/CMakeLists.txt"
+],
+"earliest_patch_date": "2024-02-09 13:35:18-08:00",
+"earliest_vuln_date": "2015-12-11 16:27:03-08:00",
+"vuln_files": [
+"src/link.c"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

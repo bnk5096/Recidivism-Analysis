@@ -1,0 +1,77 @@
+[
+{
+"cve_id": "CVE-2020-28349",
+"patch_date": [
+"2020-08-31 15:28:32+01:00",
+"2020-07-09 08:45:02+02:00"
+],
+"patch_files": [
+"internal/uplink/uplink.go",
+"internal/uplink/collect.go",
+"internal/gateway/rx_info.go",
+"internal/gateway/stats/stats.go",
+"internal/backend/gateway/mqtt/backend.go"
+],
+"earliest_patch_date": "2020-07-09 08:45:02+02:00",
+"earliest_vuln_date": "2016-09-28 20:44:53+02:00",
+"vuln_files": [
+"internal/uplink/collect.go",
+"internal/backend/gateway/mqtt/backend.go",
+"internal/gateway/rx_info.go",
+"internal/gateway/stats/stats.go",
+"internal/uplink/uplink.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:C",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-20"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

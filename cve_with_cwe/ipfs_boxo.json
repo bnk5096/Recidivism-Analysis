@@ -1,0 +1,65 @@
+[
+{
+"cve_id": "CVE-2023-25568",
+"patch_date": [
+"2023-02-17 18:06:35+01:00",
+"2023-02-17 18:06:35+01:00",
+"2023-02-17 18:06:35+01:00"
+],
+"patch_files": [
+"bitswap/network/ipfs_impl.go",
+"bitswap/internal/defaults/defaults.go",
+"go.sum",
+"examples/go.sum",
+"go.mod",
+"bitswap/server/internal/decision/engine_test.go",
+"bitswap/server/internal/decision/engine.go",
+"bitswap/server/server.go",
+"bitswap/options.go",
+"bitswap/server/internal/decision/peer_ledger.go"
+],
+"earliest_patch_date": "2023-02-17 18:06:35+01:00",
+"earliest_vuln_date": "2014-09-22 04:06:13-07:00",
+"vuln_files": [
+"go.sum",
+"examples/go.sum",
+"bitswap/server/internal/decision/engine_test.go",
+"bitswap/server/internal/decision/engine.go",
+"go.mod",
+"bitswap/server/internal/decision/peer_ledger.go",
+"bitswap/network/ipfs_impl.go",
+"bitswap/server/server.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-770"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

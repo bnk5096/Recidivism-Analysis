@@ -1,0 +1,168 @@
+[
+{
+"cve_id": "CVE-2018-19052",
+"patch_date": [
+"2018-08-12 14:43:22-04:00"
+],
+"patch_files": [
+"src/mod_alias.c"
+],
+"earliest_patch_date": "2018-08-12 14:43:22-04:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2018-25103",
+"patch_date": [
+"2018-08-26 18:44:46+02:00",
+"2018-08-12 14:43:22-04:00"
+],
+"patch_files": [
+"src/request.c",
+"src/http-header-glue.c",
+"src/base.h",
+"tests/request.t",
+"src/connections.c",
+"src/t/test_request.c"
+],
+"earliest_patch_date": "2018-08-12 14:43:22-04:00",
+"earliest_vuln_date": "2005-02-20 14:27:00+00:00",
+"vuln_files": [
+"src/request.c",
+"src/base.h",
+"src/connections.c",
+"src/http-header-glue.c",
+"src/t/test_request.c",
+"tests/request.t"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-11072",
+"patch_date": [
+"2019-04-10 11:36:28-04:00"
+],
+"patch_files": [
+"src/t/test_burl.c",
+"src/burl.c"
+],
+"earliest_patch_date": "2019-04-10 11:36:28-04:00",
+"earliest_vuln_date": "2018-08-12 14:43:22-04:00",
+"vuln_files": [
+"src/burl.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-190"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

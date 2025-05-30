@@ -1,0 +1,235 @@
+[
+{
+"cve_id": "CVE-2018-19045",
+"patch_date": [
+"2018-10-31 17:08:51+00:00",
+"2018-10-31 21:57:02+00:00"
+],
+"patch_files": [
+"doc/keepalived.conf.SYNOPSIS",
+"doc/man/man8/keepalived.8",
+"keepalived/include/main.h",
+"keepalived/core/global_parser.c",
+"keepalived/core/main.c",
+"doc/man/man5/keepalived.conf.5",
+"keepalived/include/global_data.h",
+"keepalived/core/global_data.c"
+],
+"earliest_patch_date": "2018-10-31 17:08:51+00:00",
+"earliest_vuln_date": "2016-11-26 13:54:16+00:00",
+"vuln_files": [
+"keepalived/core/main.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-200"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2018-19044",
+"patch_date": [
+"2018-10-31 23:54:13+00:00"
+],
+"patch_files": [
+"lib/utils.h",
+"lib/memory.c",
+"keepalived/vrrp/vrrp_parser.c",
+"keepalived/vrrp/vrrp_scheduler.c",
+"lib/parser.c",
+"keepalived/vrrp/vrrp_print.c",
+"keepalived/core/main.c",
+"keepalived/vrrp/vrrp_dbus.c",
+"keepalived/core/smtp.c",
+"lib/logger.c",
+"lib/utils.c",
+"lib/notify.c",
+"keepalived/vrrp/vrrp_json.c",
+"keepalived/core/pidfile.c"
+],
+"earliest_patch_date": "2018-10-31 23:54:13+00:00",
+"earliest_vuln_date": "2016-02-25 19:37:41+00:00",
+"vuln_files": [
+"lib/memory.c",
+"keepalived/vrrp/vrrp_parser.c",
+"keepalived/vrrp/vrrp_scheduler.c",
+"lib/parser.c",
+"keepalived/vrrp/vrrp_print.c",
+"keepalived/core/main.c",
+"keepalived/vrrp/vrrp_dbus.c",
+"keepalived/core/smtp.c",
+"lib/logger.c",
+"lib/utils.c",
+"lib/notify.c",
+"keepalived/vrrp/vrrp_json.c",
+"keepalived/core/pidfile.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "LOCAL",
+"attackComplexity": "HIGH",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 4.7,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:M/Au:N/C:N/I:P/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 3.3
+},
+"severity": "LOW",
+"exploitabilityScore": 3.4,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-59"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"keepalived/core/main.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-44225",
+"patch_date": [
+"2021-11-23 06:50:59+01:00"
+],
+"patch_files": [
+"keepalived/dbus/org.keepalived.Vrrp1.conf"
+],
+"earliest_patch_date": "2021-11-23 06:50:59+01:00",
+"earliest_vuln_date": "2016-09-12 17:47:09+01:00",
+"vuln_files": [
+"keepalived/dbus/org.keepalived.Vrrp1.conf"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.5
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

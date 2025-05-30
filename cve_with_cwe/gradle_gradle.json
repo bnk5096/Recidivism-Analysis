@@ -1,0 +1,334 @@
+[
+{
+"cve_id": "CVE-2019-16370",
+"patch_date": [
+"2019-09-16 12:39:44-04:00"
+],
+"patch_files": [
+"subprojects/signing/src/main/java/org/gradle/plugins/signing/signatory/pgp/PgpSignatory.java"
+],
+"earliest_patch_date": "2019-09-16 12:39:44-04:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 5.9,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-327"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-23630",
+"patch_date": [
+"2022-02-02 10:08:54+01:00"
+],
+"patch_files": [
+"subprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/ivyservice/ivyresolve/verification/writer/WriteDependencyVerificationFile.java",
+"subprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/ivyservice/ivyresolve/DependencyVerifyingModuleComponentRepository.java",
+"subprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/ivyservice/ivyresolve/verification/ChecksumAndSignatureVerificationOverride.java",
+"subprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/ivyservice/ivyresolve/verification/ArtifactVerificationOperation.java",
+"subprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/ivyservice/modulecache/ResolvedArtifactCaches.java",
+"subprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/ivyservice/ivyresolve/ResolveIvyFactory.java"
+],
+"earliest_patch_date": "2022-02-02 10:08:54+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.6,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 6.8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-26053",
+"patch_date": [
+"2023-02-21 00:49:52+01:00"
+],
+"patch_files": [
+"subprojects/dependency-management/src/integTest/groovy/org/gradle/integtests/resolve/verification/DependencyVerificationSignatureCheckIntegTest.groovy",
+"subprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/verification/exceptions/DependencyVerificationException.java",
+"subprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/verification/exceptions/ComponentVerificationException.java",
+"subprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/ivyservice/ivyresolve/verification/ChecksumAndSignatureVerificationOverride.java",
+"subprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/verification/verifier/DependencyVerifierBuilder.java",
+"subprojects/dependency-management/src/test/groovy/org/gradle/api/internal/artifacts/ivyservice/ivyresolve/verification/writer/PgpKeyGrouperTest.groovy",
+"subprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/verification/exceptions/InvalidGpgKeyIdsException.java",
+"subprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/verification/serializer/DependencyVerificationsXmlReader.java",
+"subprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/ivyservice/ivyresolve/StartParameterResolutionOverride.java",
+"subprojects/dependency-management/src/test/groovy/org/gradle/api/internal/artifacts/verification/serializer/DependencyVerificationsXmlWriterTest.groovy",
+"subprojects/dependency-management/src/test/groovy/org/gradle/api/internal/artifacts/verification/serializer/DependencyVerificationsXmlReaderTest.groovy",
+"subprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/verification/verifier/DependencyVerificationConfiguration.java",
+"subprojects/dependency-management/src/test/groovy/org/gradle/api/internal/artifacts/verification/verifier/DependencyVerifierBuilderTest.groovy",
+"subprojects/docs/src/docs/userguide/dep-man/01-core-dependency-management/dependency_verification.adoc"
+],
+"earliest_patch_date": "2023-02-21 00:49:52+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"subprojects/dependency-management/src/main/java/org/gradle/api/internal/artifacts/ivyservice/ivyresolve/verification/ChecksumAndSignatureVerificationOverride.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-35946",
+"patch_date": [
+"2023-06-20 11:57:05+02:00",
+"2023-06-27 09:32:54+02:00"
+],
+"patch_files": [
+"subprojects/dependency-management/src/integTest/groovy/org/gradle/integtests/resolve/CacheResolveIntegrationTest.groovy",
+"subprojects/core/src/test/groovy/org/gradle/internal/resource/local/DefaultPathKeyFileStoreTest.groovy",
+"subprojects/core/src/main/java/org/gradle/internal/resource/local/DefaultPathKeyFileStore.java"
+],
+"earliest_patch_date": "2023-06-20 11:57:05+02:00",
+"earliest_vuln_date": "2012-03-26 18:20:26+01:00",
+"vuln_files": [
+"subprojects/core/src/test/groovy/org/gradle/internal/resource/local/DefaultPathKeyFileStoreTest.groovy",
+"subprojects/core/src/main/java/org/gradle/internal/resource/local/DefaultPathKeyFileStore.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 5.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-35947",
+"patch_date": [
+"2023-06-27 12:14:44+02:00",
+"2023-06-27 12:17:13+02:00"
+],
+"patch_files": [
+"subprojects/build-cache-packaging/build.gradle.kts",
+"subprojects/wrapper-shared/build.gradle.kts",
+"subprojects/core/src/main/java/org/gradle/api/internal/file/archive/AbstractArchiveFileTreeElement.java",
+"subprojects/core/src/main/java/org/gradle/api/internal/file/archive/TarFileTree.java",
+"subprojects/build-cache-packaging/src/main/java/org/gradle/caching/internal/packaging/impl/TarBuildCacheEntryPacker.java",
+"subprojects/wrapper-shared/src/integTest/groovy/org/gradle/integtests/TarSlipIntegrationTest.groovy",
+"subprojects/core/src/main/java/org/gradle/api/internal/file/archive/ZipFileTree.java",
+"subprojects/build-cache-packaging/src/test/groovy/org/gradle/caching/internal/packaging/impl/TarBuildCacheEntryPackerTest.groovy"
+],
+"earliest_patch_date": "2023-06-27 12:14:44+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-44387",
+"patch_date": [
+"2023-09-29 19:19:16+00:00"
+],
+"patch_files": [
+"subprojects/core/src/main/java/org/gradle/execution/plan/FinalizerGroup.java",
+"subprojects/process-services/src/test/groovy/org/gradle/process/internal/health/memory/MemInfoOsMemoryInfoTest.groovy",
+"subprojects/core/src/main/java/org/gradle/execution/plan/Node.java",
+"subprojects/process-services/src/main/java/org/gradle/process/internal/health/memory/CGroupMemoryInfo.java",
+"subprojects/process-services/src/test/groovy/org/gradle/process/internal/health/memory/CGroupMemoryInfoTest.groovy",
+"subprojects/process-services/src/main/java/org/gradle/process/internal/health/memory/DefaultOsMemoryInfo.java",
+"subprojects/core/src/main/java/org/gradle/execution/plan/TaskNode.java",
+"subprojects/core/src/test/groovy/org/gradle/execution/plan/DefaultExecutionPlanTest.groovy",
+"subprojects/process-services/src/main/java/org/gradle/process/internal/health/memory/MemInfoOsMemoryInfo.java"
+],
+"earliest_patch_date": "2023-09-29 19:19:16+00:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2,
+"impactScore": 4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

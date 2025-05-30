@@ -1,0 +1,182 @@
+[
+{
+"cve_id": "CVE-2022-23067",
+"patch_date": [
+"2022-03-03 20:16:35+05:30"
+],
+"patch_files": [
+"frontend/src/ConfirmationPage/index.js",
+"frontend/src/App/App.jsx",
+"frontend/src/InvitationPage/InvitationPage.jsx",
+"frontend/src/InvitationPage/index.js"
+],
+"earliest_patch_date": "2022-03-03 20:16:35+05:30",
+"earliest_vuln_date": "2021-04-23 13:59:02+05:30",
+"vuln_files": [
+"frontend/src/App/App.jsx",
+"frontend/src/ConfirmationPage/ConfirmationPage.jsx",
+"frontend/src/InvitationPage/index.js"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-23068",
+"patch_date": [
+"2022-04-20 14:46:57+05:30"
+],
+"patch_files": [
+"server/src/services/auth.service.ts",
+"server/src/dto/user.dto.ts",
+"server/src/dto/invite-new-user.dto.ts",
+"frontend/src/_services/authentication.service.js",
+"server/src/dto/data-source.dto.ts",
+"server/test/test.helper.ts",
+"server/src/dto/app-authentication.dto.ts",
+"server/src/controllers/organization_users.controller.ts",
+"server/src/controllers/apps.controller.ts",
+"server/src/controllers/users.controller.ts",
+"server/src/helpers/utils.helper.ts",
+"server/src/services/apps.service.ts",
+"server/src/controllers/data_queries.controller.ts",
+"server/src/dto/create-comment.dto.ts",
+"server/jest.config.ts",
+"server/package.json",
+"server/test/controllers/users.e2e-spec.ts",
+"server/test/jest-e2e.json",
+"server/src/dto/version-create.dto.ts",
+"server/src/dto/app-update.dto.ts",
+"server/src/main.ts",
+"frontend/src/_services/user.service.js",
+"server/src/controllers/metadata.controller.ts",
+"server/src/dto/group-permission.dto.ts",
+"server/src/services/users.service.ts",
+"server/src/services/organization_users.service.ts",
+"frontend/package-lock.json",
+"server/src/controllers/app.controller.ts",
+"server/src/controllers/data_sources.controller.ts",
+"server/test/controllers/data_queries.e2e-spec.ts",
+"server/src/dto/data-query.dto.ts",
+"server/src/controllers/group_permissions.controller.ts",
+"frontend/src/ResetPassword/ResetPasswordPage.jsx",
+"server/src/all-exceptions-filter.ts",
+"server/src/dto/create-thread.dto.ts",
+"server/src/dto/user-onboarding.dto.ts",
+"server/test/controllers/app.e2e-spec.ts",
+"server/src/controllers/folders.controller.ts",
+"server/src/dto/create-folder.dto.ts",
+"server/package-lock.json"
+],
+"earliest_patch_date": "2022-04-20 14:46:57+05:30",
+"earliest_vuln_date": "2021-06-17 12:29:23+05:30",
+"vuln_files": [
+"server/src/services/auth.service.ts",
+"server/test/test.helper.ts",
+"server/src/controllers/organization_users.controller.ts",
+"server/src/controllers/apps.controller.ts",
+"server/src/controllers/users.controller.ts",
+"server/src/services/apps.service.ts",
+"server/src/controllers/data_queries.controller.ts",
+"server/src/dto/create-comment.dto.ts",
+"server/test/controllers/users.e2e-spec.ts",
+"frontend/src/_services/user.service.js",
+"server/src/controllers/metadata.controller.ts",
+"server/src/services/users.service.ts",
+"server/src/services/organization_users.service.ts",
+"frontend/package-lock.json",
+"server/src/controllers/app.controller.ts",
+"server/src/controllers/data_sources.controller.ts",
+"server/src/controllers/group_permissions.controller.ts",
+"frontend/src/ResetPassword/ResetPasswordPage.jsx",
+"server/src/all-exceptions-filter.ts",
+"server/src/dto/create-thread.dto.ts",
+"server/test/controllers/app.e2e-spec.ts",
+"server/src/controllers/folders.controller.ts",
+"server/package-lock.json"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

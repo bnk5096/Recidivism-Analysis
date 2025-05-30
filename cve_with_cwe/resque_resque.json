@@ -1,0 +1,96 @@
+[
+{
+"cve_id": "CVE-2023-50725",
+"patch_date": [
+"2022-03-27 09:45:38-06:00"
+],
+"patch_files": [
+"lib/resque/server/views/failed.erb",
+"lib/resque/server/views/error.erb",
+"lib/resque/server/views/key_string.erb",
+"lib/resque/server/views/queues.erb"
+],
+"earliest_patch_date": "2022-03-27 09:45:38-06:00",
+"earliest_vuln_date": "2009-08-17 10:03:54-07:00",
+"vuln_files": [
+"lib/resque/server/views/failed.erb",
+"lib/resque/server/views/error.erb",
+"lib/resque/server/views/key_string.erb",
+"lib/resque/server/views/queues.erb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-50727",
+"patch_date": [
+"2023-03-07 20:56:39-05:00"
+],
+"patch_files": [
+"lib/resque/server/views/queues.erb"
+],
+"earliest_patch_date": "2023-03-07 20:56:39-05:00",
+"earliest_vuln_date": "2018-02-14 20:57:00-05:00",
+"vuln_files": [
+"lib/resque/server/views/queues.erb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/resque/server/views/queues.erb"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

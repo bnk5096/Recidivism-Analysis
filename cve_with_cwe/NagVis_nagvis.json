@@ -1,0 +1,159 @@
+[
+{
+"cve_id": "CVE-2016-6175",
+"patch_date": [
+"2016-06-25 13:21:48+02:00"
+],
+"patch_files": [
+"share/server/core/ext/php-gettext-1.0.12/gettext.php",
+"ChangeLog"
+],
+"earliest_patch_date": "2016-06-25 13:21:48+02:00",
+"earliest_vuln_date": "2010-03-22 22:08:19+01:00",
+"vuln_files": [
+"share/server/core/ext/php-gettext-1.0.12/gettext.php",
+"ChangeLog"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-94"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3979",
+"patch_date": [
+"2022-08-29 21:23:23+02:00"
+],
+"patch_files": [
+"share/server/core/classes/CoreLogonMultisite.php"
+],
+"earliest_patch_date": "2022-08-29 21:23:23+02:00",
+"earliest_vuln_date": "2020-09-29 09:03:57+02:00",
+"vuln_files": [
+"share/server/core/classes/CoreLogonMultisite.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-704"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-46945",
+"patch_date": [
+"2022-08-29 21:23:53+02:00"
+],
+"patch_files": [
+"share/server/core/classes/NagVisHoverUrl.php"
+],
+"earliest_patch_date": "2022-08-29 21:23:53+02:00",
+"earliest_vuln_date": "2011-08-23 23:24:27+02:00",
+"vuln_files": [
+"share/server/core/classes/NagVisHoverUrl.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

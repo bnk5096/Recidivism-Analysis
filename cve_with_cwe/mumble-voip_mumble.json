@@ -1,0 +1,114 @@
+[
+{
+"cve_id": "CVE-2012-0863",
+"patch_date": [
+"2011-05-27 16:59:15-07:00"
+],
+"patch_files": [
+"src/mumble/Settings.cpp",
+"src/mumble/Database.cpp"
+],
+"earliest_patch_date": "2011-05-27 16:59:15-07:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 2.1
+},
+"severity": "LOW",
+"exploitabilityScore": 3.9,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-310"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-27229",
+"patch_date": [
+"2021-02-06 16:00:07+01:00"
+],
+"patch_files": [
+"src/mumble/ConnectDialog.cpp"
+],
+"earliest_patch_date": "2021-02-06 16:00:07+01:00",
+"earliest_vuln_date": "2009-08-28 02:03:39+02:00",
+"vuln_files": [
+"src/mumble/ConnectDialog.cpp"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-59"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

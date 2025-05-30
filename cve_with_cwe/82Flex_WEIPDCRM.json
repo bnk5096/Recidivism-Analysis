@@ -1,0 +1,110 @@
+[
+{
+"cve_id": "CVE-2015-10007",
+"patch_date": [
+"2015-04-01 21:13:02+08:00"
+],
+"patch_files": [
+"main/index.php",
+"main/commercial.php",
+"main/manage/header.php",
+"main/manage/login.php",
+"main/system/function/core.php",
+"main/install/function.php",
+"main/system/class/db.php"
+],
+"earliest_patch_date": "2015-04-01 21:13:02+08:00",
+"earliest_vuln_date": "2015-03-18 20:32:16+08:00",
+"vuln_files": [
+"main/manage/login.php",
+"main/commercial.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2015-10008",
+"patch_date": [
+"2015-04-01 21:13:02+08:00"
+],
+"patch_files": [
+"main/index.php",
+"main/commercial.php",
+"main/manage/header.php",
+"main/manage/login.php",
+"main/system/function/core.php",
+"main/install/function.php",
+"main/system/class/db.php"
+],
+"earliest_patch_date": "2015-04-01 21:13:02+08:00",
+"earliest_vuln_date": "2015-03-18 20:32:16+08:00",
+"vuln_files": [
+"main/manage/login.php",
+"main/commercial.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"main/index.php",
+"main/commercial.php",
+"main/manage/header.php",
+"main/manage/login.php",
+"main/system/function/core.php",
+"main/install/function.php",
+"main/system/class/db.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

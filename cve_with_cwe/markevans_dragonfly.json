@@ -1,0 +1,245 @@
+[
+{
+"cve_id": "CVE-2013-1756",
+"patch_date": [
+"2013-02-19 10:44:47+00:00"
+],
+"patch_files": [
+"README.md"
+],
+"earliest_patch_date": "2013-02-19 10:44:47+00:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-94"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-33473",
+"patch_date": [
+"2021-05-19 09:49:04+01:00"
+],
+"patch_files": [
+"spec/dragonfly/param_validators_spec.rb",
+"spec/dragonfly/image_magick/processors/thumb_spec.rb",
+"spec/dragonfly/image_magick/generators/text_spec.rb",
+"spec/dragonfly/image_magick/generators/plain_spec.rb",
+"lib/dragonfly/image_magick/generators/plain.rb",
+"lib/dragonfly/param_validators.rb",
+"lib/dragonfly/content.rb",
+"spec/dragonfly/image_magick/processors/encode_spec.rb",
+"spec/dragonfly/image_magick/processors/convert_spec.rb",
+"lib/dragonfly/image_magick/plugin.rb",
+"spec/functional/shell_commands_spec.rb",
+"spec/dragonfly/image_magick/generators/convert_spec.rb",
+"lib/dragonfly/image_magick/commands.rb",
+"lib/dragonfly/image_magick/generators/text.rb",
+"lib/dragonfly/image_magick/generators/plasma.rb",
+"lib/dragonfly/image_magick/processors/convert.rb",
+"spec/dragonfly/image_magick/plugin_spec.rb",
+"lib/dragonfly/image_magick/processors/thumb.rb",
+"spec/dragonfly/image_magick/commands_spec.rb",
+"lib/dragonfly/image_magick/processors/encode.rb",
+"spec/spec_helper.rb",
+"lib/dragonfly/image_magick/generators/convert.rb",
+"spec/dragonfly/image_magick/generators/plasma_spec.rb"
+],
+"earliest_patch_date": "2021-05-19 09:49:04+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 9.1,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.2
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.9
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 6.8,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-88"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-33564",
+"patch_date": [
+"2021-05-19 09:49:04+01:00"
+],
+"patch_files": [
+"spec/dragonfly/param_validators_spec.rb",
+"spec/dragonfly/image_magick/processors/thumb_spec.rb",
+"spec/dragonfly/image_magick/generators/text_spec.rb",
+"spec/dragonfly/image_magick/generators/plain_spec.rb",
+"lib/dragonfly/image_magick/generators/plain.rb",
+"lib/dragonfly/param_validators.rb",
+"lib/dragonfly/content.rb",
+"spec/dragonfly/image_magick/processors/encode_spec.rb",
+"spec/dragonfly/image_magick/processors/convert_spec.rb",
+"lib/dragonfly/image_magick/plugin.rb",
+"spec/functional/shell_commands_spec.rb",
+"spec/dragonfly/image_magick/generators/convert_spec.rb",
+"lib/dragonfly/image_magick/commands.rb",
+"lib/dragonfly/image_magick/generators/text.rb",
+"lib/dragonfly/image_magick/generators/plasma.rb",
+"lib/dragonfly/image_magick/processors/convert.rb",
+"spec/dragonfly/image_magick/plugin_spec.rb",
+"lib/dragonfly/image_magick/processors/thumb.rb",
+"spec/dragonfly/image_magick/commands_spec.rb",
+"lib/dragonfly/image_magick/processors/encode.rb",
+"spec/spec_helper.rb",
+"lib/dragonfly/image_magick/generators/convert.rb",
+"spec/dragonfly/image_magick/generators/plasma_spec.rb"
+],
+"earliest_patch_date": "2021-05-19 09:49:04+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-88"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-88"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"spec/dragonfly/param_validators_spec.rb",
+"spec/dragonfly/image_magick/processors/thumb_spec.rb",
+"spec/dragonfly/image_magick/generators/text_spec.rb",
+"spec/dragonfly/image_magick/generators/plain_spec.rb",
+"lib/dragonfly/image_magick/generators/plain.rb",
+"lib/dragonfly/param_validators.rb",
+"lib/dragonfly/content.rb",
+"spec/dragonfly/image_magick/processors/encode_spec.rb",
+"spec/dragonfly/image_magick/processors/convert_spec.rb",
+"lib/dragonfly/image_magick/plugin.rb",
+"spec/functional/shell_commands_spec.rb",
+"spec/dragonfly/image_magick/generators/convert_spec.rb",
+"lib/dragonfly/image_magick/commands.rb",
+"lib/dragonfly/image_magick/generators/text.rb",
+"lib/dragonfly/image_magick/generators/plasma.rb",
+"lib/dragonfly/image_magick/processors/convert.rb",
+"spec/dragonfly/image_magick/plugin_spec.rb",
+"lib/dragonfly/image_magick/processors/thumb.rb",
+"spec/dragonfly/image_magick/commands_spec.rb",
+"lib/dragonfly/image_magick/processors/encode.rb",
+"spec/spec_helper.rb",
+"lib/dragonfly/image_magick/generators/convert.rb",
+"spec/dragonfly/image_magick/generators/plasma_spec.rb"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

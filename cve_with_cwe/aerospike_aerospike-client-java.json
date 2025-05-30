@@ -1,0 +1,76 @@
+[
+{
+"cve_id": "CVE-2023-36480",
+"patch_date": [
+"2023-07-25 16:52:21-07:00",
+"2023-08-07 13:20:42-07:00",
+"2023-08-07 13:36:16-07:00",
+"2023-08-07 10:58:12-07:00"
+],
+"patch_files": [
+"client/src/com/aerospike/client/command/Buffer.java",
+"test/src/com/aerospike/test/sync/basic/TestSerialize.java",
+"client/src/com/aerospike/client/lua/LuaJavaBlob.java",
+"client/src/com/aerospike/client/lua/LuaUnpacker.java",
+"examples/src/com/aerospike/examples/OperateMap.java",
+"examples/src/com/aerospike/examples/Serialize.java",
+"client/src/com/aerospike/client/lua/LuaInstance.java",
+"client/src/com/aerospike/client/Value.java",
+"client/src/com/aerospike/client/util/Unpacker.java",
+"client/src/com/aerospike/client/Bin.java",
+"examples/src/com/aerospike/examples/Main.java",
+"client/src/com/aerospike/client/command/ParticleType.java",
+"test/src/com/aerospike/test/sync/basic/TestAdd.java",
+"client/src/com/aerospike/client/util/Packer.java",
+"test/src/com/aerospike/test/SuiteSync.java"
+],
+"earliest_patch_date": "2023-07-25 16:52:21-07:00",
+"earliest_vuln_date": "2013-01-03 17:29:59-08:00",
+"vuln_files": [
+"client/src/com/aerospike/client/command/Buffer.java",
+"test/src/com/aerospike/test/sync/basic/TestSerialize.java",
+"client/src/com/aerospike/client/lua/LuaJavaBlob.java",
+"test/src/com/aerospike/test/SuiteSync.java",
+"client/src/com/aerospike/client/lua/LuaUnpacker.java",
+"examples/src/com/aerospike/examples/OperateMap.java",
+"examples/src/com/aerospike/examples/Serialize.java",
+"client/src/com/aerospike/client/Value.java",
+"client/src/com/aerospike/client/util/Unpacker.java",
+"client/src/com/aerospike/client/Bin.java",
+"examples/src/com/aerospike/examples/Main.java",
+"test/src/com/aerospike/test/sync/basic/TestAdd.java",
+"client/src/com/aerospike/client/command/ParticleType.java",
+"client/src/com/aerospike/client/util/Packer.java",
+"client/src/com/aerospike/client/lua/LuaInstance.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

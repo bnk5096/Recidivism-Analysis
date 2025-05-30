@@ -1,0 +1,461 @@
+[
+{
+"cve_id": "CVE-2019-10761",
+"patch_date": [
+"2019-04-08 01:52:30+02:00"
+],
+"patch_files": [
+"lib/contextify.js"
+],
+"earliest_patch_date": "2019-04-08 01:52:30+02:00",
+"earliest_vuln_date": "2016-06-16 02:30:58+02:00",
+"vuln_files": [
+"lib/contextify.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "LOW",
+"baseScore": 8.3,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.7
+}
+},
+"cwes": [
+"CWE-674"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-23449",
+"patch_date": [
+"2021-10-12 19:05:01+02:00"
+],
+"patch_files": [
+"test/vm.js",
+"lib/main.js",
+"lib/contextify.js",
+"lib/sandbox.js"
+],
+"earliest_patch_date": "2021-10-12 19:05:01+02:00",
+"earliest_vuln_date": "2020-03-25 22:38:50+01:00",
+"vuln_files": [
+"test/vm.js",
+"lib/main.js",
+"lib/contextify.js",
+"lib/sandbox.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 10,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-1321"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/contextify.js"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"lib/contextify.js"
+]
+},
+{
+"cve_id": "CVE-2021-23555",
+"patch_date": [
+"2022-02-08 14:26:00+01:00"
+],
+"patch_files": [
+"lib/setup-sandbox.js",
+".editorconfig",
+".eslintignore",
+"lib/resolver.js",
+"test/helpers.js",
+"lib/script.js",
+"lib/sandbox.js",
+"lib/transformer.js",
+"lib/vm.js",
+"package-lock.json",
+"lib/resolver-compat.js",
+"test/vm.js",
+"package.json",
+"test/node_modules/require/index.js",
+"lib/events.js",
+"index.d.ts",
+"lib/setup-node-sandbox.js",
+"lib/compiler.js",
+"lib/contextify.js",
+"CHANGELOG.md",
+"lib/fixasync.js",
+"README.md",
+"lib/main.js",
+"lib/nodevm.js",
+"test/nodevm.js",
+"LICENSE.md",
+"lib/bridge.js",
+"lib/helpers.js"
+],
+"earliest_patch_date": "2022-02-08 14:26:00+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "COMPLETE",
+"integrityImpact": "COMPLETE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 10
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 10,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/sandbox.js",
+"test/vm.js",
+"lib/contextify.js",
+"lib/main.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-29017",
+"patch_date": [
+"2023-04-06 20:11:02+02:00"
+],
+"patch_files": [
+"lib/setup-sandbox.js"
+],
+"earliest_patch_date": "2023-04-06 20:11:02+02:00",
+"earliest_vuln_date": "2022-02-08 14:08:09+01:00",
+"vuln_files": [
+"lib/setup-sandbox.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/setup-sandbox.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-29199",
+"patch_date": [
+"2023-04-11 10:44:44+02:00"
+],
+"patch_files": [
+"CHANGELOG.md",
+"lib/transformer.js",
+"package.json"
+],
+"earliest_patch_date": "2023-04-11 10:44:44+02:00",
+"earliest_vuln_date": "2022-02-08 14:08:09+01:00",
+"vuln_files": [
+"lib/transformer.js",
+"package.json"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 10,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"CHANGELOG.md",
+"lib/transformer.js",
+"package.json"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-30547",
+"patch_date": [
+"2023-04-12 10:27:04+02:00",
+"2023-04-12 10:25:46+02:00"
+],
+"patch_files": [
+"lib/transformer.js",
+"lib/setup-sandbox.js"
+],
+"earliest_patch_date": "2023-04-12 10:25:46+02:00",
+"earliest_vuln_date": "2022-02-08 14:08:09+01:00",
+"vuln_files": [
+"lib/setup-sandbox.js",
+"lib/transformer.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 10,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 6
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"NVD-CWE-noinfo"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/transformer.js",
+"lib/setup-sandbox.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-32314",
+"patch_date": [
+"2023-05-13 21:15:04+02:00"
+],
+"patch_files": [
+"lib/setup-sandbox.js"
+],
+"earliest_patch_date": "2023-05-13 21:15:04+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 10,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 6
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"NVD-CWE-noinfo"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/setup-sandbox.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-32313",
+"patch_date": [
+"2023-05-13 21:15:24+02:00"
+],
+"patch_files": [
+"lib/vm.js"
+],
+"earliest_patch_date": "2023-05-13 21:15:24+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"NVD-CWE-noinfo"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/vm.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

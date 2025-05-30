@@ -1,0 +1,354 @@
+[
+{
+"cve_id": "CVE-2023-0609",
+"patch_date": [
+"2023-02-01 09:30:43+01:00"
+],
+"patch_files": [
+"tests/Wallabag/CoreBundle/Controller/ExportControllerTest.php",
+"src/Wallabag/CoreBundle/Controller/ExportController.php"
+],
+"earliest_patch_date": "2023-02-01 09:30:43+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-0610",
+"patch_date": [
+"2023-02-01 09:32:22+01:00"
+],
+"patch_files": [
+"src/Wallabag/AnnotationBundle/Controller/WallabagAnnotationController.php",
+"tests/Wallabag/CoreBundle/Controller/ConfigControllerTest.php",
+"tests/Wallabag/AnnotationBundle/Controller/AnnotationControllerTest.php",
+"src/Wallabag/AnnotationBundle/DataFixtures/AnnotationFixtures.php",
+"src/Wallabag/AnnotationBundle/Repository/AnnotationRepository.php",
+"src/Wallabag/ApiBundle/Controller/AnnotationRestController.php"
+],
+"earliest_patch_date": "2023-02-01 09:32:22+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-0734",
+"patch_date": [
+"2023-02-07 21:42:46+01:00"
+],
+"patch_files": [
+"src/Wallabag/CoreBundle/Form/Type/NewTagType.php",
+"src/Wallabag/CoreBundle/Controller/TagController.php"
+],
+"earliest_patch_date": "2023-02-07 21:42:46+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-0736",
+"patch_date": [
+"2023-02-07 21:43:04+01:00"
+],
+"patch_files": [
+"src/Wallabag/CoreBundle/Resources/views/themes/common/Entry/share.html.twig"
+],
+"earliest_patch_date": "2023-02-07 21:43:04+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-0735",
+"patch_date": [
+"2023-02-07 21:52:51+01:00"
+],
+"patch_files": [
+"src/Wallabag/CoreBundle/Controller/ConfigController.php",
+"tests/Wallabag/CoreBundle/Controller/ConfigControllerTest.php",
+"src/Wallabag/CoreBundle/Resources/views/themes/material/Config/index.html.twig"
+],
+"earliest_patch_date": "2023-02-07 21:52:51+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"tests/Wallabag/CoreBundle/Controller/ConfigControllerTest.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-0737",
+"patch_date": [
+"2023-02-07 21:52:51+01:00"
+],
+"patch_files": [
+"src/Wallabag/CoreBundle/Controller/ConfigController.php",
+"tests/Wallabag/CoreBundle/Controller/ConfigControllerTest.php",
+"src/Wallabag/CoreBundle/Resources/views/themes/material/Config/index.html.twig"
+],
+"earliest_patch_date": "2023-02-07 21:52:51+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/Wallabag/CoreBundle/Controller/ConfigController.php",
+"tests/Wallabag/CoreBundle/Controller/ConfigControllerTest.php",
+"src/Wallabag/CoreBundle/Resources/views/themes/material/Config/index.html.twig"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-4454",
+"patch_date": [
+"2023-08-21 11:08:24+02:00"
+],
+"patch_files": [
+"src/Wallabag/CoreBundle/Controller/ConfigController.php",
+"tests/Wallabag/CoreBundle/Controller/ConfigControllerTest.php",
+"src/Wallabag/CoreBundle/Resources/views/Config/index.html.twig"
+],
+"earliest_patch_date": "2023-08-21 11:08:24+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 5.7,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.1,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/Wallabag/CoreBundle/Controller/ConfigController.php",
+"tests/Wallabag/CoreBundle/Controller/ConfigControllerTest.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-4455",
+"patch_date": [
+"2023-08-21 11:08:47+02:00"
+],
+"patch_files": [
+"src/Wallabag/CoreBundle/Resources/views/Developer/index.html.twig",
+"tests/Wallabag/ApiBundle/Controller/DeveloperControllerTest.php",
+"src/Wallabag/ApiBundle/Controller/DeveloperController.php"
+],
+"earliest_patch_date": "2023-08-21 11:08:47+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

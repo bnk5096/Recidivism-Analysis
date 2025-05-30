@@ -1,0 +1,168 @@
+[
+{
+"cve_id": "CVE-2023-42801",
+"patch_date": [
+"2023-10-06 18:09:15-05:00",
+"2016-10-05 17:23:59-07:00"
+],
+"patch_files": [
+"src/VideoDepacketizer.c",
+"src/Misc.c",
+"src/Limelight-internal.h",
+"src/VideoStream.c",
+"src/InputStream.c",
+"src/Limelight.h",
+"src/Connection.c",
+"src/ControlStream.c",
+"src/RtspConnection.c",
+"src/SdpGenerator.c"
+],
+"earliest_patch_date": "2016-10-05 17:23:59-07:00",
+"earliest_vuln_date": "2015-02-01 20:16:08-05:00",
+"vuln_files": [
+"src/Misc.c",
+"src/Connection.c",
+"src/Limelight.h",
+"src/RtspConnection.c",
+"src/ControlStream.c",
+"src/InputStream.c",
+"src/Limelight-internal.h",
+"src/SdpGenerator.c",
+"src/VideoStream.c",
+"src/VideoDepacketizer.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "HIGH",
+"baseScore": 7.6,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 4.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-42799",
+"patch_date": [
+"2023-10-06 21:14:30-05:00",
+"2022-11-04 21:44:07-05:00"
+],
+"patch_files": [
+"src/Limelight-internal.h",
+"src/Connection.c",
+"src/RtspConnection.c"
+],
+"earliest_patch_date": "2022-11-04 21:44:07-05:00",
+"earliest_vuln_date": "2015-06-17 23:21:58-07:00",
+"vuln_files": [
+"src/RtspConnection.c",
+"src/Connection.c",
+"src/Limelight-internal.h"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/Limelight-internal.h",
+"src/Connection.c",
+"src/RtspConnection.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-42800",
+"patch_date": [
+"2023-10-06 21:14:30-05:00",
+"2022-11-04 21:44:07-05:00"
+],
+"patch_files": [
+"src/Limelight-internal.h",
+"src/Connection.c",
+"src/RtspConnection.c"
+],
+"earliest_patch_date": "2022-11-04 21:44:07-05:00",
+"earliest_vuln_date": "2015-06-17 23:21:58-07:00",
+"vuln_files": [
+"src/RtspConnection.c",
+"src/Connection.c",
+"src/Limelight-internal.h"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/Limelight-internal.h",
+"src/Connection.c",
+"src/RtspConnection.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

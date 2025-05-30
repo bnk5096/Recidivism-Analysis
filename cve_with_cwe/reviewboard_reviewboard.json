@@ -1,0 +1,100 @@
+[
+{
+"cve_id": "CVE-2011-4312",
+"patch_date": [
+"2011-11-15 02:46:40-08:00"
+],
+"patch_files": [
+"reviewboard/htdocs/media/rb/js/diffviewer.js",
+"reviewboard/reviews/templatetags/reviewtags.py",
+"reviewboard/htdocs/media/rb/js/screenshots.js"
+],
+"earliest_patch_date": "2011-11-15 02:46:40-08:00",
+"earliest_vuln_date": "2007-02-16 10:53:07+00:00",
+"vuln_files": [
+"reviewboard/reviews/templatetags/reviewtags.py"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2013-2209",
+"patch_date": [
+"2013-06-22 00:04:20-07:00"
+],
+"patch_files": [
+"reviewboard/htdocs/media/rb/js/reviews.js"
+],
+"earliest_patch_date": "2013-06-22 00:04:20-07:00",
+"earliest_vuln_date": "2009-09-18 18:53:25-07:00",
+"vuln_files": [
+"reviewboard/htdocs/media/rb/js/reviews.js"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

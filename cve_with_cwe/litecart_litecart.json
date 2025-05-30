@@ -1,0 +1,147 @@
+[
+{
+"cve_id": "CVE-2018-12256",
+"patch_date": [
+"2018-06-15 00:54:20+02:00"
+],
+"patch_files": [
+"public_html/admin/vqmods.app/vqmods.inc.php"
+],
+"earliest_patch_date": "2018-06-15 00:54:20+02:00",
+"earliest_vuln_date": "2014-06-28 01:10:12+02:00",
+"vuln_files": [
+"public_html/admin/vqmods.app/vqmods.inc.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-434"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-27168",
+"patch_date": [
+"2022-06-15 17:40:03+02:00"
+],
+"patch_files": [
+"public_html/admin/orders.app/edit_order.inc.php",
+"public_html/admin/catalog.app/edit_product.inc.php",
+"public_html/admin/countries.app/edit_country.inc.php",
+"public_html/admin/geo_zones.app/edit_geo_zone.inc.php",
+"public_html/admin/catalog.app/edit_category.inc.php",
+"public_html/admin/reports.app/most_shopping_customers.inc.php",
+"public_html/admin/orders.app/orders.inc.php",
+"public_html/includes/templates/default.catalog/pages/order.inc.php"
+],
+"earliest_patch_date": "2022-06-15 17:40:03+02:00",
+"earliest_vuln_date": "2015-01-08 00:18:05+01:00",
+"vuln_files": [
+"public_html/admin/orders.app/edit_order.inc.php",
+"public_html/admin/catalog.app/edit_product.inc.php",
+"public_html/admin/countries.app/edit_country.inc.php",
+"public_html/admin/geo_zones.app/edit_geo_zone.inc.php",
+"public_html/admin/catalog.app/edit_category.inc.php",
+"public_html/admin/reports.app/most_shopping_customers.inc.php",
+"public_html/admin/orders.app/orders.inc.php",
+"public_html/includes/templates/default.catalog/pages/order.inc.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

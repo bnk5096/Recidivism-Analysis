@@ -1,0 +1,145 @@
+[
+{
+"cve_id": "CVE-2020-35460",
+"patch_date": [
+"2020-12-14 12:13:14+00:00"
+],
+"patch_files": [
+"src/main/java/net/sf/mpxj/common/InputStreamHelper.java"
+],
+"earliest_patch_date": "2020-12-14 12:13:14+00:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-41954",
+"patch_date": [
+"2022-11-19 21:19:58+00:00"
+],
+"patch_files": [
+"src/test/java/net/sf/mpxj/junit/legacy/BasicTest.java",
+"src/test/java/net/sf/mpxj/junit/LocaleTest.java",
+"src/test/java/net/sf/mpxj/junit/CustomerDataTest.java",
+"src/main/java/net/sf/mpxj/common/FileHelper.java",
+"src/main/java/net/sf/mpxj/common/InputStreamHelper.java"
+],
+"earliest_patch_date": "2022-11-19 21:19:58+00:00",
+"earliest_vuln_date": "2006-02-28 23:40:38+00:00",
+"vuln_files": [
+"src/test/java/net/sf/mpxj/junit/legacy/BasicTest.java",
+"src/test/java/net/sf/mpxj/junit/LocaleTest.java",
+"src/test/java/net/sf/mpxj/junit/CustomerDataTest.java",
+"src/main/java/net/sf/mpxj/common/FileHelper.java",
+"src/main/java/net/sf/mpxj/common/InputStreamHelper.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 3.3,
+"baseSeverity": "LOW"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/main/java/net/sf/mpxj/common/InputStreamHelper.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-49771",
+"patch_date": [
+"2024-10-17 17:21:19+08:00"
+],
+"patch_files": [
+"src/main/java/net/sf/mpxj/common/InputStreamHelper.java"
+],
+"earliest_patch_date": "2024-10-17 17:21:19+08:00",
+"earliest_vuln_date": "2020-12-14 12:13:14+00:00",
+"vuln_files": [
+"src/main/java/net/sf/mpxj/common/InputStreamHelper.java"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/main/java/net/sf/mpxj/common/InputStreamHelper.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

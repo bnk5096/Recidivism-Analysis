@@ -1,0 +1,1791 @@
+[
+{
+"cve_id": "CVE-2013-0158",
+"patch_date": [
+"2013-01-05 16:55:07-08:00",
+"2013-01-05 15:32:41-08:00",
+"2013-01-05 14:28:57-08:00",
+"2013-01-05 09:26:05-08:00",
+"2013-01-05 09:26:10-08:00"
+],
+"patch_files": [
+"core/src/test/java/jenkins/security/HexStringConfidentialKeyTest.groovy",
+"core/src/main/java/jenkins/security/DefaultConfidentialStore.java",
+"core/src/main/java/jenkins/security/ConfidentialKey.java",
+"core/src/main/java/jenkins/security/ConfidentialStore.java",
+"core/src/main/resources/hudson/slaves/SlaveComputer/slave-agent.jnlp.jelly",
+"core/src/test/java/hudson/util/SecretTest.groovy",
+"core/src/main/java/hudson/model/Job.java",
+"core/src/test/java/hudson/util/SecretRewriterTest.groovy",
+"test/src/test/java/jenkins/security/RekeySecretAdminMonitorTest.java",
+"core/src/main/java/hudson/DNSMultiCast.java",
+"core/src/main/java/jenkins/security/ApiTokenProperty.java",
+"core/src/main/java/hudson/model/UsageStatistics.java",
+"core/pom.xml",
+"core/src/main/java/hudson/UDPBroadcastThread.java",
+"core/src/main/java/hudson/security/SecurityRealm.java",
+"core/src/main/resources/jenkins/security/RekeySecretAdminMonitor/log.groovy",
+"core/src/test/java/jenkins/security/DefaultConfidentialStoreTest.groovy",
+"core/src/main/java/hudson/slaves/SlaveComputer.java",
+"core/src/main/java/hudson/security/RememberMeServicesProxy.java",
+"core/src/main/java/hudson/security/TokenBasedRememberMeServices2.java",
+"test/src/test/java/hudson/bugs/JnlpAccessWithSecuredHudsonTest.java",
+"core/src/test/java/jenkins/security/CryptoConfidentialKeyTest.groovy",
+"core/src/main/java/jenkins/slaves/JnlpSlaveAgentProtocol.java",
+"core/src/test/java/jenkins/security/ConfidentialStoreRule.java",
+"core/src/main/java/hudson/util/SecretRewriter.java",
+"core/src/main/java/jenkins/security/HexStringConfidentialKey.java",
+"core/src/main/java/jenkins/security/CryptoConfidentialKey.java",
+"core/src/main/java/hudson/console/AnnotatedLargeText.java",
+"core/src/main/resources/jenkins/security/RekeySecretAdminMonitor/message.properties",
+"core/src/test/java/jenkins/security/HMACConfidentialKeyTest.groovy",
+"core/src/test/java/hudson/util/SecretTest.java",
+"test/src/test/java/jenkins/security/ApiTokenPropertyTest.java",
+"test/src/main/java/hudson/util/SecretHelper.java",
+"core/src/main/java/hudson/util/Secret.java",
+"pom.xml",
+"core/src/main/resources/jenkins/security/RekeySecretAdminMonitor/message.groovy",
+"core/src/main/java/hudson/security/csrf/DefaultCrumbIssuer.java",
+"core/src/test/java/hudson/util/MockSecretRule.java",
+"core/src/main/java/jenkins/security/HMACConfidentialKey.java",
+"core/src/main/java/jenkins/security/RekeySecretAdminMonitor.java",
+"core/src/main/java/jenkins/model/Jenkins.java",
+"core/src/main/java/jenkins/slaves/JnlpSlaveAgentProtocol2.java"
+],
+"earliest_patch_date": "2013-01-05 09:26:05-08:00",
+"earliest_vuln_date": "2008-01-20 04:34:22+00:00",
+"vuln_files": [
+"core/src/main/java/jenkins/security/ApiTokenProperty.java",
+"core/src/main/java/jenkins/security/RekeySecretAdminMonitor.java",
+"core/src/main/java/jenkins/security/ConfidentialStore.java",
+"core/src/main/java/jenkins/security/DefaultConfidentialStore.java",
+"core/src/main/java/hudson/DNSMultiCast.java",
+"core/src/main/java/hudson/UDPBroadcastThread.java",
+"core/src/main/java/hudson/console/AnnotatedLargeText.java",
+"core/src/main/java/hudson/util/Secret.java",
+"core/src/main/java/hudson/model/UsageStatistics.java",
+"core/src/main/java/hudson/security/csrf/DefaultCrumbIssuer.java",
+"core/src/test/java/hudson/util/SecretTest.java",
+"core/src/main/java/hudson/model/Job.java",
+"core/src/main/java/hudson/security/TokenBasedRememberMeServices2.java",
+"core/src/main/java/jenkins/slaves/JnlpSlaveAgentProtocol.java",
+"core/src/main/java/jenkins/slaves/JnlpSlaveAgentProtocol2.java",
+"core/src/main/resources/hudson/slaves/SlaveComputer/slave-agent.jnlp.jelly",
+"pom.xml",
+"test/src/test/java/hudson/bugs/JnlpAccessWithSecuredHudsonTest.java",
+"core/src/test/java/hudson/util/SecretTest.groovy"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:H/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "HIGH",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 2.6
+},
+"severity": "LOW",
+"exploitabilityScore": 4.9,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2013-7330",
+"patch_date": [
+"2013-02-13 15:32:09-08:00"
+],
+"patch_files": [
+"core/src/main/java/hudson/model/Descriptor.java",
+"core/src/main/java/hudson/tasks/BuildTrigger.java",
+"core/src/main/java/hudson/model/AbstractProject.java",
+"core/src/main/resources/lib/hudson/project/config-upstream-pseudo-trigger.jelly",
+"core/src/main/resources/hudson/tasks/Messages.properties"
+],
+"earliest_patch_date": "2013-02-13 15:32:09-08:00",
+"earliest_vuln_date": "2007-10-29 00:37:30+00:00",
+"vuln_files": [
+"core/src/main/java/hudson/model/Descriptor.java",
+"core/src/main/java/hudson/tasks/BuildTrigger.java",
+"core/src/main/resources/lib/hudson/project/config-upstream-pseudo-trigger.jelly"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": true,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-264"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2014-2068",
+"patch_date": [
+"2014-02-11 14:07:32-05:00"
+],
+"patch_files": [
+"core/src/main/java/hudson/util/RemotingDiagnostics.java"
+],
+"earliest_patch_date": "2014-02-11 14:07:32-05:00",
+"earliest_vuln_date": "2011-05-29 11:00:58+01:00",
+"vuln_files": [
+"core/src/main/java/hudson/util/RemotingDiagnostics.java"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-264"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-264"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2014-2067",
+"patch_date": [
+"2014-02-11 14:08:03-05:00"
+],
+"patch_files": [
+"core/src/main/java/hudson/model/Cause.java"
+],
+"earliest_patch_date": "2014-02-11 14:08:03-05:00",
+"earliest_vuln_date": "2009-02-22 06:59:17+00:00",
+"vuln_files": [
+"core/src/main/java/hudson/model/Cause.java"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2014-2066",
+"patch_date": [
+"2014-02-11 14:08:07-05:00"
+],
+"patch_files": [
+"core/src/main/java/hudson/security/AuthenticationProcessingFilter2.java"
+],
+"earliest_patch_date": "2014-02-11 14:08:07-05:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-287"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2014-2065",
+"patch_date": [
+"2014-02-11 14:17:00-05:00"
+],
+"patch_files": [
+"core/src/main/resources/lib/hudson/setIconSize.jelly",
+"core/src/main/java/hudson/model/View.java",
+"core/src/main/java/jenkins/model/Jenkins.java",
+"core/src/main/java/hudson/Functions.java"
+],
+"earliest_patch_date": "2014-02-11 14:17:00-05:00",
+"earliest_vuln_date": "2006-11-18 14:54:30+00:00",
+"vuln_files": [
+"core/src/main/resources/lib/hudson/setIconSize.jelly",
+"core/src/main/java/jenkins/model/Jenkins.java",
+"core/src/main/java/hudson/model/View.java"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"core/src/main/java/jenkins/model/Jenkins.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2014-2064",
+"patch_date": [
+"2014-02-11 14:17:36-05:00"
+],
+"patch_files": [
+"core/src/main/java/hudson/security/HudsonPrivateSecurityRealm.java"
+],
+"earliest_patch_date": "2014-02-11 14:17:36-05:00",
+"earliest_vuln_date": "2010-03-10 22:44:07+00:00",
+"vuln_files": [
+"core/src/main/java/hudson/security/HudsonPrivateSecurityRealm.java"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-200"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2014-2063",
+"patch_date": [
+"2014-02-11 14:19:04-05:00"
+],
+"patch_files": [
+"core/src/main/resources/lib/layout/layout.jelly"
+],
+"earliest_patch_date": "2014-02-11 14:19:04-05:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": true,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"NVD-CWE-noinfo"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2014-2062",
+"patch_date": [
+"2014-02-11 14:19:31-05:00"
+],
+"patch_files": [
+"core/src/main/java/jenkins/security/ApiTokenFilter.java"
+],
+"earliest_patch_date": "2014-02-11 14:19:31-05:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-287"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-287"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2014-2061",
+"patch_date": [
+"2014-02-11 14:19:39-05:00"
+],
+"patch_files": [
+"test/src/test/java/hudson/model/PasswordParameterDefinitionTest.java",
+"core/src/main/java/hudson/model/PasswordParameterDefinition.java",
+"core/src/main/resources/hudson/model/PasswordParameterDefinition/config.jelly",
+"core/src/main/java/hudson/Functions.java"
+],
+"earliest_patch_date": "2014-02-11 14:19:39-05:00",
+"earliest_vuln_date": "2009-08-04 00:32:13+00:00",
+"vuln_files": [
+"core/src/main/resources/hudson/model/PasswordParameterDefinition/config.jelly"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-310"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"core/src/main/java/hudson/Functions.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2014-2059",
+"patch_date": [
+"2014-02-11 14:22:39-05:00"
+],
+"patch_files": [
+"core/src/main/java/hudson/cli/CreateJobCommand.java"
+],
+"earliest_patch_date": "2014-02-11 14:22:39-05:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2014-2058",
+"patch_date": [
+"2014-02-11 14:22:46-05:00"
+],
+"patch_files": [
+"test/src/test/java/hudson/tasks/BuildTriggerTest.java",
+"core/src/main/java/hudson/model/AbstractProject.java"
+],
+"earliest_patch_date": "2014-02-11 14:22:46-05:00",
+"earliest_vuln_date": "2013-02-13 15:32:09-08:00",
+"vuln_files": [
+"core/src/main/java/hudson/model/AbstractProject.java"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-264"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-264"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"core/src/main/java/hudson/model/AbstractProject.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2014-9634",
+"patch_date": [
+"2014-10-16 19:23:23-07:00"
+],
+"patch_files": [
+"core/src/main/java/hudson/WebAppMain.java",
+"changelog.html",
+"core/src/main/java/jenkins/model/JenkinsLocationConfiguration.java"
+],
+"earliest_patch_date": "2014-10-16 19:23:23-07:00",
+"earliest_vuln_date": "2014-08-29 18:41:44-07:00",
+"vuln_files": [
+"core/src/main/java/jenkins/model/JenkinsLocationConfiguration.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": true,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-254"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2014-9635",
+"patch_date": [
+"2014-10-16 19:23:23-07:00"
+],
+"patch_files": [
+"core/src/main/java/hudson/WebAppMain.java",
+"changelog.html",
+"core/src/main/java/jenkins/model/JenkinsLocationConfiguration.java"
+],
+"earliest_patch_date": "2014-10-16 19:23:23-07:00",
+"earliest_vuln_date": "2014-08-29 18:41:44-07:00",
+"vuln_files": [
+"core/src/main/java/jenkins/model/JenkinsLocationConfiguration.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": true,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-254"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-254"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"core/src/main/java/hudson/WebAppMain.java",
+"changelog.html",
+"core/src/main/java/jenkins/model/JenkinsLocationConfiguration.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2017-2606",
+"patch_date": [
+"2016-12-20 15:12:04-05:00"
+],
+"patch_files": [
+"test/src/test/java/jenkins/security/Security380Test.java",
+"core/src/main/java/jenkins/model/Jenkins.java"
+],
+"earliest_patch_date": "2016-12-20 15:12:04-05:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-200"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-200"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"core/src/main/java/jenkins/model/Jenkins.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2017-2604",
+"patch_date": [
+"2016-12-20 15:16:05-05:00"
+],
+"patch_files": [
+"core/src/main/java/jenkins/diagnostics/SecurityIsOffMonitor.java",
+"core/src/main/java/hudson/diagnosis/ReverseProxySetupMonitor.java",
+"core/src/main/resources/hudson/diagnosis/HudsonHomeDiskUsageMonitor/index.jelly",
+"core/src/main/java/hudson/diagnosis/HudsonHomeDiskUsageMonitor.java",
+"core/src/main/java/hudson/diagnosis/OldDataMonitor.java",
+"core/src/main/java/jenkins/security/s2m/MasterKillSwitchWarning.java",
+"core/src/main/resources/hudson/diagnosis/OldDataMonitor/manage.jelly",
+"core/src/main/java/hudson/diagnosis/TooManyJobsButNoView.java",
+"test/src/test/java/hudson/diagnosis/HudsonHomeDiskUsageMonitorTest.java",
+"core/src/main/java/jenkins/security/s2m/AdminCallableMonitor.java",
+"core/src/main/java/jenkins/security/RekeySecretAdminMonitor.java",
+"core/src/main/java/hudson/model/AdministrativeMonitor.java"
+],
+"earliest_patch_date": "2016-12-20 15:16:05-05:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-287"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-287"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"core/src/main/java/jenkins/security/RekeySecretAdminMonitor.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2017-2601",
+"patch_date": [
+"2017-01-03 14:46:59-05:00"
+],
+"patch_files": [
+"test/src/test/java/hudson/model/ParametersTest.java",
+"core/src/main/resources/hudson/model/PasswordParameterDefinition/index.jelly",
+"core/src/main/resources/hudson/model/RunParameterDefinition/index.jelly",
+"core/src/main/resources/hudson/model/RunParameterValue/value.jelly",
+"core/src/main/resources/hudson/model/FileParameterDefinition/index.jelly",
+"core/src/main/resources/hudson/model/FileParameterValue/value.jelly",
+"core/src/main/resources/hudson/model/ParametersDefinitionProperty/index.jelly",
+"core/src/main/resources/hudson/model/BooleanParameterDefinition/index.jelly",
+"core/src/main/resources/hudson/model/ParametersAction/index.jelly",
+"core/src/main/resources/hudson/model/StringParameterDefinition/index.jelly",
+"core/src/main/resources/hudson/model/PasswordParameterValue/value.jelly",
+"core/src/main/resources/hudson/model/ChoiceParameterDefinition/index.jelly",
+"core/src/main/resources/hudson/model/StringParameterValue/value.jelly",
+"core/src/main/resources/hudson/model/TextParameterDefinition/index.jelly",
+"core/src/main/resources/lib/form/entry.jelly",
+"core/src/main/resources/hudson/model/TextParameterValue/value.jelly",
+"core/src/main/java/hudson/model/ParameterValue.java",
+"core/src/main/resources/hudson/model/BooleanParameterValue/value.jelly"
+],
+"earliest_patch_date": "2017-01-03 14:46:59-05:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2017-2600",
+"patch_date": [
+"2017-01-03 16:12:23-05:00"
+],
+"patch_files": [
+"core/src/main/java/hudson/model/Computer.java",
+"test/src/test/java/hudson/model/ComputerConfigDotXmlTest.java"
+],
+"earliest_patch_date": "2017-01-03 16:12:23-05:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-200"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-200"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2017-2599",
+"patch_date": [
+"2017-01-04 10:01:53-05:00"
+],
+"patch_files": [
+"test/src/test/groovy/hudson/model/AbstractProjectTest.groovy",
+"core/src/main/java/hudson/model/ItemGroupMixIn.java",
+"core/src/main/java/hudson/model/AbstractItem.java",
+"test/src/test/java/hudson/model/ItemsTest.java",
+"core/src/main/java/hudson/model/Items.java"
+],
+"earliest_patch_date": "2017-01-04 10:01:53-05:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.5
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 4.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-863"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2017-2609",
+"patch_date": [
+"2017-01-05 16:11:09-05:00"
+],
+"patch_files": [
+"test/src/test/java/hudson/search/SearchTest.java",
+"core/src/main/java/jenkins/model/Jenkins.java"
+],
+"earliest_patch_date": "2017-01-05 16:11:09-05:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-200"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-200"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"core/src/main/java/jenkins/model/Jenkins.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2017-2611",
+"patch_date": [
+"2017-01-09 09:49:57-05:00"
+],
+"patch_files": [
+"core/src/main/java/jenkins/model/Jenkins.java"
+],
+"earliest_patch_date": "2017-01-09 09:49:57-05:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "LOW",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-863"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-863"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"core/src/main/java/jenkins/model/Jenkins.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2017-2610",
+"patch_date": [
+"2017-01-10 17:21:40-05:00"
+],
+"patch_files": [
+"war/src/main/webapp/scripts/hudson-behavior.js"
+],
+"earliest_patch_date": "2017-01-10 17:21:40-05:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2017-2602",
+"patch_date": [
+"2017-01-10 17:26:00-05:00"
+],
+"patch_files": [
+"core/src/main/resources/jenkins/security/s2m/filepath-filter.conf",
+"test/src/test/java/jenkins/security/s2m/AdminFilePathFilterTest.java",
+"test/src/test/java/jenkins/security/DefaultFilePathFilterTest.java"
+],
+"earliest_patch_date": "2017-01-10 17:26:00-05:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"NVD-CWE-noinfo"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2017-2598",
+"patch_date": [
+"2017-01-23 12:55:54-05:00"
+],
+"patch_files": [
+"test/src/test/resources/hudson/util/SecretCompatTest/canReadPreSec304Secrets/secrets/master.key",
+"core/src/main/java/hudson/util/Secret.java",
+"test/src/test/resources/hudson/util/SecretCompatTest/canReadPreSec304Secrets/config.xml",
+"core/src/main/java/hudson/util/SecretRewriter.java",
+"test/src/test/java/jenkins/security/RekeySecretAdminMonitorTest.java",
+"test/src/test/resources/hudson/util/SecretCompatTest/canReadPreSec304Secrets/jobs/OldSecret/config.xml",
+"test/src/test/java/lib/form/PasswordTest.java",
+"test/src/test/resources/hudson/util/SecretCompatTest/canReadPreSec304Secrets/secrets/hudson.util.Secret",
+"core/src/main/java/hudson/util/HistoricalSecrets.java",
+"core/src/main/java/jenkins/security/CryptoConfidentialKey.java",
+"core/src/main/java/hudson/model/Item.java",
+"core/src/test/groovy/hudson/util/SecretRewriterTest.groovy",
+"core/src/test/groovy/hudson/util/SecretTest.groovy",
+"test/src/test/java/hudson/util/SecretCompatTest.java"
+],
+"earliest_patch_date": "2017-01-23 12:55:54-05:00",
+"earliest_vuln_date": "2009-01-07 01:02:56+00:00",
+"vuln_files": [
+"core/src/main/java/hudson/util/Secret.java",
+"core/src/main/java/hudson/util/SecretRewriter.java",
+"test/src/test/java/jenkins/security/RekeySecretAdminMonitorTest.java",
+"test/src/test/java/lib/form/PasswordTest.java",
+"core/src/main/java/jenkins/security/CryptoConfidentialKey.java",
+"core/src/test/groovy/hudson/util/SecretRewriterTest.groovy",
+"core/src/test/groovy/hudson/util/SecretTest.groovy"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-326"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"core/src/main/java/hudson/util/Secret.java",
+"core/src/main/java/hudson/util/SecretRewriter.java",
+"test/src/test/java/jenkins/security/RekeySecretAdminMonitorTest.java",
+"core/src/main/java/jenkins/security/CryptoConfidentialKey.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2017-2603",
+"patch_date": [
+"2017-01-23 12:55:54-05:00"
+],
+"patch_files": [
+"test/src/test/resources/hudson/model/ComputerTest/removeUserDetailsFromOfflineCause/users/username/config.xml",
+"test/src/test/java/hudson/model/ComputerTest.java",
+"core/src/main/java/hudson/slaves/OfflineCause.java",
+"test/src/test/resources/hudson/model/ComputerTest/removeUserDetailsFromOfflineCause/config.xml",
+"test/src/test/resources/hudson/model/ComputerTest/removeUserDetailsFromOfflineCause/nodes/deserialized/config.xml"
+],
+"earliest_patch_date": "2017-01-23 12:55:54-05:00",
+"earliest_vuln_date": "2014-01-27 18:34:52+01:00",
+"vuln_files": [
+"core/src/main/java/hudson/slaves/OfflineCause.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 3.5,
+"baseSeverity": "LOW"
+},
+"exploitabilityScore": 2.1,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-200"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-200"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2017-2608",
+"patch_date": [
+"2017-01-23 12:55:54-05:00"
+],
+"patch_files": [
+"test/src/test/resources/hudson/util/XStream2Security383Test/config.xml",
+"test/src/test/java/hudson/util/XStream2Security383Test.java",
+"pom.xml"
+],
+"earliest_patch_date": "2017-01-23 12:55:54-05:00",
+"earliest_vuln_date": "2016-11-13 11:23:59-08:00",
+"vuln_files": [
+"pom.xml"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-502"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"pom.xml"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"pom.xml"
+]
+},
+{
+"cve_id": "CVE-2017-2612",
+"patch_date": [
+"2017-01-23 12:55:54-05:00"
+],
+"patch_files": [
+"test/src/test/resources/hudson/util/XStream2Security383Test/config.xml",
+"test/src/test/java/hudson/util/XStream2Security383Test.java",
+"pom.xml"
+],
+"earliest_patch_date": "2017-01-23 12:55:54-05:00",
+"earliest_vuln_date": "2016-11-13 11:23:59-08:00",
+"vuln_files": [
+"pom.xml"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "LOW",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.5
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:N/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 4.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-732"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"test/src/test/resources/hudson/util/XStream2Security383Test/config.xml",
+"test/src/test/java/hudson/util/XStream2Security383Test.java",
+"pom.xml"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"pom.xml"
+]
+},
+{
+"cve_id": "CVE-2017-2613",
+"patch_date": [
+"2017-01-23 14:54:07-05:00"
+],
+"patch_files": [
+"core/src/main/java/hudson/model/User.java",
+"core/src/main/java/jenkins/model/Jenkins.java",
+"test/src/test/java/jenkins/model/JenkinsTest.java"
+],
+"earliest_patch_date": "2017-01-23 14:54:07-05:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "LOW",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.5
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 4.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-352"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"core/src/main/java/jenkins/model/Jenkins.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

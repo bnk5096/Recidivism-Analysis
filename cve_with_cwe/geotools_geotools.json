@@ -1,0 +1,191 @@
+[
+{
+"cve_id": "CVE-2022-24818",
+"patch_date": [
+"2022-04-11 11:08:01+02:00"
+],
+"patch_files": [
+"modules/library/jdbc/src/main/java/org/geotools/data/jdbc/datasource/JNDIDataSourceFactory.java",
+"modules/library/metadata/pom.xml",
+"modules/library/referencing/src/main/java/org/geotools/referencing/factory/epsg/ThreadedEpsgFactory.java",
+"docs/user/welcome/upgrade.rst",
+"modules/library/metadata/src/main/java/org/geotools/util/factory/GeoTools.java",
+"docs/user/library/metadata/geotools.rst",
+"modules/library/metadata/src/test/java/org/geotools/util/factory/GeoToolsTest.java",
+"modules/library/referencing/src/main/java/org/geotools/referencing/factory/epsg/AbstractEpsgFactory.java",
+"modules/library/jdbc/src/main/java/org/geotools/jdbc/JDBCJNDIDataStoreFactory.java",
+"modules/unsupported/postgis-raster/src/main/java/org/geotools/gce/pgraster/PGRasterConfig.java",
+"modules/library/referencing/src/main/java/org/geotools/referencing/factory/AbstractEpsgMediator.java",
+"modules/library/metadata/src/test/java/org/geotools/util/factory/FactoryRegistryTest.java"
+],
+"earliest_patch_date": "2022-04-11 11:08:01+02:00",
+"earliest_vuln_date": "2011-01-26 15:09:24+00:00",
+"vuln_files": [
+"modules/library/jdbc/src/main/java/org/geotools/data/jdbc/datasource/JNDIDataSourceFactory.java",
+"modules/library/referencing/src/main/java/org/geotools/referencing/factory/epsg/ThreadedEpsgFactory.java",
+"modules/library/metadata/src/main/java/org/geotools/util/factory/GeoTools.java",
+"docs/user/library/metadata/geotools.rst",
+"modules/library/referencing/src/main/java/org/geotools/referencing/factory/epsg/AbstractEpsgFactory.java",
+"modules/library/jdbc/src/main/java/org/geotools/jdbc/JDBCJNDIDataStoreFactory.java",
+"modules/unsupported/postgis-raster/src/main/java/org/geotools/gce/pgraster/PGRasterConfig.java",
+"modules/library/referencing/src/main/java/org/geotools/referencing/factory/AbstractEpsgMediator.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-917"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-25158",
+"patch_date": [
+"2023-02-10 11:48:44+01:00"
+],
+"patch_files": [
+"modules/library/jdbc/src/main/java/org/geotools/jdbc/SQLDialect.java",
+"modules/library/jdbc/src/test/java/org/geotools/data/jdbc/FilterToSQLTest.java",
+"modules/plugin/jdbc/jdbc-postgis/src/main/java/org/geotools/data/postgis/PostgisNGDataStoreFactory.java",
+"modules/plugin/jdbc/jdbc-mysql/src/main/java/org/geotools/data/mysql/MySQLDialectBasic.java",
+"modules/library/main/src/main/java/org/geotools/filter/LikeFilterImpl.java",
+"modules/plugin/jdbc/jdbc-mysql/src/test/java/org/geotools/data/mysql/MySQLFilterToSQLTest.java",
+"modules/plugin/jdbc/jdbc-oracle/src/main/java/org/geotools/data/oracle/OracleDialect.java",
+"modules/plugin/jdbc/jdbc-postgis/src/main/java/org/geotools/data/postgis/FilterToSqlHelper.java",
+"modules/library/main/src/test/java/org/geotools/filter/FilterTest.java",
+"modules/library/jdbc/src/main/java/org/geotools/jdbc/EscapeSql.java",
+"modules/plugin/jdbc/jdbc-postgis/src/test/java/org/geotools/data/postgis/PostgisNGDataStoreFactoryTest.java",
+"modules/plugin/jdbc/jdbc-postgis/src/test/java/org/geotools/data/postgis/PostgisFilterToSQLTest.java",
+"modules/plugin/jdbc/jdbc-oracle/src/test/java/org/geotools/data/oracle/OracleFilterToSqlTest.java",
+"modules/plugin/jdbc/jdbc-postgis/src/main/java/org/geotools/data/postgis/PostGISDialect.java",
+"modules/plugin/jdbc/jdbc-postgis/src/main/java/org/geotools/data/postgis/PostGISPSDialect.java",
+"modules/plugin/jdbc/jdbc-oracle/src/main/java/org/geotools/data/oracle/OracleFilterToSQL.java",
+"modules/library/jdbc/src/main/java/org/geotools/data/jdbc/FilterToSQL.java"
+],
+"earliest_patch_date": "2023-02-10 11:48:44+01:00",
+"earliest_vuln_date": "2011-01-26 15:09:24+00:00",
+"vuln_files": [
+"modules/plugin/jdbc/jdbc-oracle/src/main/java/org/geotools/data/oracle/OracleDialect.java",
+"modules/library/main/src/main/java/org/geotools/filter/LikeFilterImpl.java",
+"modules/plugin/jdbc/jdbc-mysql/src/main/java/org/geotools/data/mysql/MySQLDialectBasic.java",
+"modules/plugin/jdbc/jdbc-postgis/src/main/java/org/geotools/data/postgis/FilterToSqlHelper.java",
+"modules/library/main/src/test/java/org/geotools/filter/FilterTest.java",
+"modules/plugin/jdbc/jdbc-postgis/src/test/java/org/geotools/data/postgis/PostgisFilterToSQLTest.java",
+"modules/plugin/jdbc/jdbc-oracle/src/main/java/org/geotools/data/oracle/OracleFilterToSQL.java",
+"modules/library/jdbc/src/main/java/org/geotools/data/jdbc/FilterToSQL.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-89"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-36404",
+"patch_date": [
+"2024-06-05 09:31:19-07:00"
+],
+"patch_files": [
+"modules/extension/xsd/xsd-core/src/test/java/org/geotools/xsd/StreamingParserTest.java",
+"modules/extension/app-schema/app-schema/src/main/java/org/geotools/appschema/util/XmlXpathUtilites.java",
+"modules/extension/complex/src/main/java/org/geotools/data/complex/expression/FeaturePropertyAccessorFactory.java",
+"modules/extension/app-schema/app-schema/src/test/java/org/geotools/appschema/util/XmlXpathUtilitesTest.java",
+"modules/extension/complex/src/test/java/org/geotools/filter/expression/FeaturePropertyAccessorTest.java",
+"modules/extension/xsd/xsd-core/src/main/java/org/geotools/xsd/impl/jxpath/JXPathUtils.java",
+"modules/extension/xsd/xsd-core/pom.xml",
+"modules/extension/complex/src/test/java/org/geotools/filter/expression/MapPropertyAccessorTest.java",
+"modules/extension/xsd/xsd-core/src/main/java/org/geotools/xsd/impl/jxpath/JXPathStreamingParserHandler.java",
+"modules/extension/complex/src/main/java/org/geotools/data/complex/expression/MapPropertyAccessorFactory.java"
+],
+"earliest_patch_date": "2024-06-05 09:31:19-07:00",
+"earliest_vuln_date": "2011-01-26 15:09:24+00:00",
+"vuln_files": [
+"modules/extension/app-schema/app-schema/src/main/java/org/geotools/appschema/util/XmlXpathUtilites.java",
+"modules/extension/complex/src/main/java/org/geotools/data/complex/expression/FeaturePropertyAccessorFactory.java",
+"modules/extension/xsd/xsd-core/pom.xml",
+"modules/extension/xsd/xsd-core/src/main/java/org/geotools/xsd/impl/jxpath/JXPathStreamingParserHandler.java",
+"modules/extension/complex/src/main/java/org/geotools/data/complex/expression/MapPropertyAccessorFactory.java"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,430 @@
+[
+{
+"cve_id": "CVE-2019-11340",
+"patch_date": [
+"2019-04-18 17:20:03+01:00"
+],
+"patch_files": [
+"sydent/util/emailutils.py"
+],
+"earliest_patch_date": "2019-04-18 17:20:03+01:00",
+"earliest_vuln_date": "2015-12-15 19:57:07+00:00",
+"vuln_files": [
+"sydent/util/emailutils.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 5.9,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-20"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-29430",
+"patch_date": [
+"2021-03-17 12:23:06-04:00",
+"2021-04-06 14:10:08+00:00",
+"2021-03-17 12:45:31-04:00"
+],
+"patch_files": [
+"sydent/hs_federation/verifier.py",
+"sydent/http/servlets/registerservlet.py",
+"sydent/http/httpclient.py",
+"sydent/http/matrixfederationagent.py",
+"sydent/http/httpserver.py",
+"sydent/http/httpcommon.py"
+],
+"earliest_patch_date": "2021-03-17 12:23:06-04:00",
+"earliest_vuln_date": "2014-08-21 16:30:34+02:00",
+"vuln_files": [
+"sydent/http/matrixfederationagent.py",
+"sydent/http/httpcommon.py",
+"sydent/hs_federation/verifier.py",
+"sydent/http/httpclient.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-770"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-29431",
+"patch_date": [
+"2021-04-06 12:49:29+00:00",
+"2021-04-06 14:38:32+02:00",
+"2021-03-24 13:50:40+00:00",
+"2021-03-31 15:42:23+00:00"
+],
+"patch_files": [
+"tests/test_blacklisting.py",
+"sydent/threepid/bind.py",
+"sydent/hs_federation/verifier.py",
+"sydent/util/stringutils.py",
+"tests/test_auth.py",
+"sydent/sydent.py",
+"sydent/http/servlets/threepidunbindservlet.py",
+"sydent/util/ip_range.py",
+"sydent/http/servlets/registerservlet.py",
+"tests/utils.py",
+"tests/test_register.py",
+"sydent/http/httpclient.py",
+"sydent/http/blacklisting_reactor.py",
+"tests/test_util.py",
+"matrix_is_test/launcher.py"
+],
+"earliest_patch_date": "2021-03-24 13:50:40+00:00",
+"earliest_vuln_date": "2018-05-23 14:35:58+01:00",
+"vuln_files": [
+"tests/utils.py",
+"sydent/http/httpclient.py",
+"sydent/sydent.py",
+"sydent/hs_federation/verifier.py",
+"sydent/threepid/bind.py",
+"sydent/http/servlets/registerservlet.py",
+"sydent/util/stringutils.py",
+"tests/test_util.py",
+"sydent/http/servlets/threepidunbindservlet.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"sydent/hs_federation/verifier.py",
+"sydent/http/servlets/registerservlet.py",
+"sydent/http/httpclient.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-29432",
+"patch_date": [
+"2021-04-09 12:20:45+00:00"
+],
+"patch_files": [
+"res/matrix-org/verification_template.eml",
+"sydent/http/servlets/store_invite_servlet.py",
+"res/vector-im/invite_template.eml",
+"res/matrix-org/invite_template.eml",
+"sydent/util/emailutils.py",
+"res/vector-im/verification_template.eml"
+],
+"earliest_patch_date": "2021-04-09 12:20:45+00:00",
+"earliest_vuln_date": "2015-04-29 16:10:14+01:00",
+"vuln_files": [
+"res/matrix-org/verification_template.eml",
+"sydent/http/servlets/store_invite_servlet.py",
+"res/vector-im/invite_template.eml",
+"res/matrix-org/invite_template.eml",
+"res/vector-im/verification_template.eml"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 5.7,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.1,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"sydent/util/emailutils.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-29433",
+"patch_date": [
+"2021-04-12 16:32:03+01:00"
+],
+"patch_files": [
+"sydent/http/servlets/store_invite_servlet.py",
+"sydent/http/servlets/emailservlet.py",
+"sydent/util/stringutils.py"
+],
+"earliest_patch_date": "2021-04-12 16:32:03+01:00",
+"earliest_vuln_date": "2020-01-24 14:38:14+00:00",
+"vuln_files": [
+"sydent/http/servlets/emailservlet.py",
+"sydent/util/stringutils.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "LOW",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"sydent/http/servlets/store_invite_servlet.py",
+"sydent/util/stringutils.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-38686",
+"patch_date": [
+"2023-07-31 11:21:28+01:00"
+],
+"patch_files": [
+"sydent/util/emailutils.py",
+"changelog.d/574.bugfix"
+],
+"earliest_patch_date": "2023-07-31 11:21:28+01:00",
+"earliest_vuln_date": "2016-12-12 22:14:04-08:00",
+"vuln_files": [
+"sydent/util/emailutils.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "ADJACENT_NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.6,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"sydent/util/emailutils.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

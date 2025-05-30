@@ -1,0 +1,57 @@
+[
+{
+"cve_id": "CVE-2024-47227",
+"patch_date": [
+"2024-07-16 15:25:37+08:00",
+"2024-07-12 18:17:50+08:00"
+],
+"patch_files": [
+"ChangeLog",
+"templates/default/sql/user/list.html",
+"templates/default/panel/log.html",
+"templates/default/ldap/user/list.html",
+"controllers/ldap/user.py",
+"controllers/sql/user.py",
+"controllers/panel/log.py",
+"libs/sqllib/user.py"
+],
+"earliest_patch_date": "2024-07-12 18:17:50+08:00",
+"earliest_vuln_date": "2020-10-05 15:06:38+08:00",
+"vuln_files": [
+"templates/default/sql/user/list.html",
+"templates/default/ldap/user/list.html",
+"templates/default/panel/log.html"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

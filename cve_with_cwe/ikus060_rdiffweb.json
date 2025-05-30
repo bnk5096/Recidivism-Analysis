@@ -1,0 +1,2497 @@
+[
+{
+"cve_id": "CVE-2022-3167",
+"patch_date": [
+"2022-09-08 08:32:32-04:00"
+],
+"patch_files": [
+"rdiffweb/controller/tests/test_csrf.py",
+"rdiffweb/tools/security.py",
+"README.md"
+],
+"earliest_patch_date": "2022-09-08 08:32:32-04:00",
+"earliest_vuln_date": "2021-12-01 14:40:14+00:00",
+"vuln_files": [
+"rdiffweb/tools/security.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3174",
+"patch_date": [
+"2022-09-12 10:55:40-04:00"
+],
+"patch_files": [
+"rdiffweb/rdw_app.py",
+"rdiffweb/controller/tests/test_csrf.py",
+"rdiffweb/tools/security.py",
+"README.md"
+],
+"earliest_patch_date": "2022-09-12 10:55:40-04:00",
+"earliest_vuln_date": "2021-10-20 11:54:08-04:00",
+"vuln_files": [
+"rdiffweb/rdw_app.py",
+"rdiffweb/controller/tests/test_secure_headers.py",
+"rdiffweb/tools/secure_headers.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-311"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/controller/tests/test_csrf.py",
+"rdiffweb/tools/security.py",
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3175",
+"patch_date": [
+"2022-09-12 11:17:51-04:00"
+],
+"patch_files": [
+"rdiffweb/core/store.py",
+"rdiffweb/controller/tests/test_page_admin.py",
+"rdiffweb/core/config.py",
+"rdiffweb/controller/page_admin.py",
+"rdiffweb/controller/pref_general.py",
+"doc/configuration.md",
+"rdiffweb/controller/tests/test_page_prefs.py",
+"README.md"
+],
+"earliest_patch_date": "2022-09-12 11:17:51-04:00",
+"earliest_vuln_date": "2016-01-07 10:41:20-05:00",
+"vuln_files": [
+"rdiffweb/controller/tests/test_page_prefs.py",
+"rdiffweb/controller/tests/test_page_admin.py",
+"rdiffweb/controller/pref_general.py",
+"rdiffweb/controller/page_admin.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"CWE-755"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3179",
+"patch_date": [
+"2022-09-12 11:17:51-04:00"
+],
+"patch_files": [
+"rdiffweb/core/store.py",
+"rdiffweb/controller/tests/test_page_admin.py",
+"rdiffweb/core/config.py",
+"rdiffweb/controller/page_admin.py",
+"rdiffweb/controller/pref_general.py",
+"doc/configuration.md",
+"rdiffweb/controller/tests/test_page_prefs.py",
+"README.md"
+],
+"earliest_patch_date": "2022-09-12 11:17:51-04:00",
+"earliest_vuln_date": "2016-01-07 10:41:20-05:00",
+"vuln_files": [
+"rdiffweb/controller/tests/test_page_prefs.py",
+"rdiffweb/controller/tests/test_page_admin.py",
+"rdiffweb/controller/pref_general.py",
+"rdiffweb/controller/page_admin.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/core/store.py",
+"rdiffweb/controller/tests/test_page_admin.py",
+"rdiffweb/core/config.py",
+"rdiffweb/controller/page_admin.py",
+"rdiffweb/controller/pref_general.py",
+"doc/configuration.md",
+"rdiffweb/controller/tests/test_page_prefs.py",
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3221",
+"patch_date": [
+"2022-09-14 11:11:30-04:00"
+],
+"patch_files": [
+"rdiffweb/controller/pref_sshkeys.py",
+"rdiffweb/controller/tests/test_page_prefs_ssh.py",
+"README.md"
+],
+"earliest_patch_date": "2022-09-14 11:11:30-04:00",
+"earliest_vuln_date": "2021-10-20 11:54:08-04:00",
+"vuln_files": [
+"rdiffweb/controller/pref_sshkeys.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3232",
+"patch_date": [
+"2022-09-16 15:56:28-04:00"
+],
+"patch_files": [
+"rdiffweb/controller/tests/test_page_admin.py",
+"rdiffweb/controller/page_admin.py",
+"rdiffweb/controller/page_delete.py",
+"rdiffweb/controller/pref_general.py",
+"rdiffweb/controller/tests/test_page_delete.py",
+"README.md"
+],
+"earliest_patch_date": "2022-09-16 15:56:28-04:00",
+"earliest_vuln_date": "2019-10-25 07:49:24-04:00",
+"vuln_files": [
+"rdiffweb/controller/page_delete.py",
+"rdiffweb/controller/pref_general.py",
+"rdiffweb/controller/tests/test_page_delete.py",
+"rdiffweb/controller/page_admin.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/controller/tests/test_page_admin.py",
+"rdiffweb/controller/page_admin.py",
+"rdiffweb/controller/pref_general.py",
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3233",
+"patch_date": [
+"2022-09-20 10:54:54-04:00"
+],
+"patch_files": [
+"rdiffweb/controller/tests/test_page_prefs.py",
+"rdiffweb/controller/pref_notification.py",
+"README.md"
+],
+"earliest_patch_date": "2022-09-20 10:54:54-04:00",
+"earliest_vuln_date": "2019-03-02 07:57:47-05:00",
+"vuln_files": [
+"rdiffweb/controller/pref_notification.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/controller/tests/test_page_prefs.py",
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3267",
+"patch_date": [
+"2022-09-20 11:53:25-04:00"
+],
+"patch_files": [
+"rdiffweb/controller/tests/test_page_settings_remove_older.py",
+"rdiffweb/controller/tests/test_page_settings.py",
+"rdiffweb/controller/page_settings.py",
+"rdiffweb/controller/tests/test_page_settings_set_encoding.py",
+"README.md"
+],
+"earliest_patch_date": "2022-09-20 11:53:25-04:00",
+"earliest_vuln_date": "2019-10-22 19:42:43-04:00",
+"vuln_files": [
+"rdiffweb/controller/page_settings.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3250",
+"patch_date": [
+"2022-09-20 11:54:01-04:00"
+],
+"patch_files": [
+"rdiffweb/controller/tests/test_secure_headers.py",
+"rdiffweb/tools/secure_headers.py",
+"README.md"
+],
+"earliest_patch_date": "2022-09-20 11:54:01-04:00",
+"earliest_vuln_date": "2021-12-01 14:40:14+00:00",
+"vuln_files": [
+"rdiffweb/tools/secure_headers.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"CWE-311"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-311"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3269",
+"patch_date": [
+"2022-09-21 10:31:38-04:00"
+],
+"patch_files": [
+"rdiffweb/controller/page_login.py",
+"README.md"
+],
+"earliest_patch_date": "2022-09-21 10:31:38-04:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3274",
+"patch_date": [
+"2022-09-21 10:36:12-04:00"
+],
+"patch_files": [
+"rdiffweb/controller/pref_general.py",
+"README.md"
+],
+"earliest_patch_date": "2022-09-21 10:36:12-04:00",
+"earliest_vuln_date": "2015-05-16 17:14:26-04:00",
+"vuln_files": [
+"rdiffweb/controller/pref_general.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 3.5,
+"baseSeverity": "LOW"
+},
+"exploitabilityScore": 2.1,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/controller/pref_general.py",
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3301",
+"patch_date": [
+"2022-09-22 13:23:09-04:00"
+],
+"patch_files": [
+"rdiffweb/controller/tests/test_page_error.py",
+"rdiffweb/rdw_app.py",
+"README.md"
+],
+"earliest_patch_date": "2022-09-22 13:23:09-04:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 2.4,
+"baseSeverity": "LOW"
+},
+"exploitabilityScore": 0.9,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/rdw_app.py",
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3272",
+"patch_date": [
+"2022-09-24 07:31:16-04:00"
+],
+"patch_files": [
+"rdiffweb/controller/tests/test_page_admin.py",
+"rdiffweb/controller/page_admin.py",
+"rdiffweb/controller/tests/test_page_login.py",
+"rdiffweb/controller/pref_general.py",
+"rdiffweb/controller/tests/test_page_prefs.py",
+"rdiffweb/controller/page_login.py",
+"README.md"
+],
+"earliest_patch_date": "2022-09-24 07:31:16-04:00",
+"earliest_vuln_date": "2020-05-14 14:28:10-04:00",
+"vuln_files": [
+"rdiffweb/controller/page_login.py",
+"rdiffweb/controller/page_admin.py",
+"rdiffweb/controller/pref_general.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/controller/tests/test_page_admin.py",
+"rdiffweb/controller/page_admin.py",
+"rdiffweb/controller/pref_general.py",
+"rdiffweb/controller/tests/test_page_prefs.py",
+"rdiffweb/controller/page_login.py",
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3290",
+"patch_date": [
+"2022-09-24 07:31:16-04:00"
+],
+"patch_files": [
+"rdiffweb/controller/tests/test_page_admin.py",
+"rdiffweb/controller/page_admin.py",
+"rdiffweb/controller/tests/test_page_login.py",
+"rdiffweb/controller/pref_general.py",
+"rdiffweb/controller/tests/test_page_prefs.py",
+"rdiffweb/controller/page_login.py",
+"README.md"
+],
+"earliest_patch_date": "2022-09-24 07:31:16-04:00",
+"earliest_vuln_date": "2020-05-14 14:28:10-04:00",
+"vuln_files": [
+"rdiffweb/controller/page_login.py",
+"rdiffweb/controller/page_admin.py",
+"rdiffweb/controller/pref_general.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"NVD-CWE-Other"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/controller/tests/test_page_admin.py",
+"rdiffweb/controller/page_admin.py",
+"rdiffweb/controller/tests/test_page_login.py",
+"rdiffweb/controller/pref_general.py",
+"rdiffweb/controller/tests/test_page_prefs.py",
+"rdiffweb/controller/page_login.py",
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3295",
+"patch_date": [
+"2022-09-24 07:31:16-04:00"
+],
+"patch_files": [
+"rdiffweb/controller/tests/test_page_admin.py",
+"rdiffweb/controller/page_admin.py",
+"rdiffweb/controller/tests/test_page_login.py",
+"rdiffweb/controller/pref_general.py",
+"rdiffweb/controller/tests/test_page_prefs.py",
+"rdiffweb/controller/page_login.py",
+"README.md"
+],
+"earliest_patch_date": "2022-09-24 07:31:16-04:00",
+"earliest_vuln_date": "2020-05-14 14:28:10-04:00",
+"vuln_files": [
+"rdiffweb/controller/page_login.py",
+"rdiffweb/controller/page_admin.py",
+"rdiffweb/controller/pref_general.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/controller/tests/test_page_admin.py",
+"rdiffweb/controller/page_admin.py",
+"rdiffweb/controller/tests/test_page_login.py",
+"rdiffweb/controller/pref_general.py",
+"rdiffweb/controller/tests/test_page_prefs.py",
+"rdiffweb/controller/page_login.py",
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3298",
+"patch_date": [
+"2022-09-25 16:59:58-04:00"
+],
+"patch_files": [
+"rdiffweb/controller/pref_sshkeys.py",
+"rdiffweb/controller/tests/test_page_prefs_ssh.py",
+"README.md"
+],
+"earliest_patch_date": "2022-09-25 16:59:58-04:00",
+"earliest_vuln_date": "2022-03-21 13:35:18+00:00",
+"vuln_files": [
+"rdiffweb/controller/pref_sshkeys.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/controller/pref_sshkeys.py",
+"rdiffweb/controller/tests/test_page_prefs_ssh.py",
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3292",
+"patch_date": [
+"2022-09-27 12:56:07-04:00"
+],
+"patch_files": [
+"rdiffweb/tools/secure_headers.py",
+"rdiffweb/controller/tests/test_secure_headers.py",
+"rdiffweb/controller/dispatch.py",
+"README.md"
+],
+"earliest_patch_date": "2022-09-27 12:56:07-04:00",
+"earliest_vuln_date": "2017-05-17 16:28:58-04:00",
+"vuln_files": [
+"rdiffweb/tools/secure_headers.py",
+"rdiffweb/controller/dispatch.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "PHYSICAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.6,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 0.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/tools/secure_headers.py",
+"rdiffweb/controller/tests/test_secure_headers.py",
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3326",
+"patch_date": [
+"2022-09-27 15:57:02-04:00"
+],
+"patch_files": [
+"rdiffweb/core/store.py",
+"rdiffweb/controller/tests/test_page_admin.py",
+"rdiffweb/core/config.py",
+"rdiffweb/controller/page_admin.py",
+"rdiffweb/controller/pref_general.py",
+"doc/configuration.md",
+"rdiffweb/controller/tests/test_page_prefs.py",
+"setup.cfg",
+"debian/control",
+"README.md"
+],
+"earliest_patch_date": "2022-09-27 15:57:02-04:00",
+"earliest_vuln_date": "2016-01-07 10:41:20-05:00",
+"vuln_files": [
+"rdiffweb/controller/tests/test_page_admin.py",
+"rdiffweb/controller/page_admin.py",
+"rdiffweb/controller/pref_general.py",
+"rdiffweb/controller/tests/test_page_prefs.py",
+"rdiffweb/core/store.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"CWE-521"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/core/store.py",
+"rdiffweb/controller/tests/test_page_admin.py",
+"rdiffweb/core/config.py",
+"rdiffweb/controller/page_admin.py",
+"rdiffweb/controller/pref_general.py",
+"doc/configuration.md",
+"rdiffweb/controller/tests/test_page_prefs.py",
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3364",
+"patch_date": [
+"2022-09-28 16:08:09-04:00"
+],
+"patch_files": [
+"rdiffweb/controller/page_pref_general.py",
+"rdiffweb/controller/tests/test_page_prefs_general.py",
+"rdiffweb/controller/tests/test_page_admin_users.py",
+"rdiffweb/controller/tests/test_page_prefs_tokens.py",
+"rdiffweb/controller/page_admin_users.py",
+"rdiffweb/controller/page_pref_tokens.py"
+],
+"earliest_patch_date": "2022-09-28 16:08:09-04:00",
+"earliest_vuln_date": "2022-08-02 13:01:50-04:00",
+"vuln_files": [
+"rdiffweb/controller/page_pref_general.py",
+"rdiffweb/controller/page_admin_users.py",
+"rdiffweb/controller/tests/test_page_admin_users.py",
+"rdiffweb/controller/page_pref_tokens.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3371",
+"patch_date": [
+"2022-09-28 16:08:09-04:00"
+],
+"patch_files": [
+"rdiffweb/controller/page_pref_general.py",
+"rdiffweb/controller/tests/test_page_prefs_general.py",
+"rdiffweb/controller/tests/test_page_admin_users.py",
+"rdiffweb/controller/tests/test_page_prefs_tokens.py",
+"rdiffweb/controller/page_admin_users.py",
+"rdiffweb/controller/page_pref_tokens.py"
+],
+"earliest_patch_date": "2022-09-28 16:08:09-04:00",
+"earliest_vuln_date": "2022-08-02 13:01:50-04:00",
+"vuln_files": [
+"rdiffweb/controller/page_pref_general.py",
+"rdiffweb/controller/page_admin_users.py",
+"rdiffweb/controller/tests/test_page_admin_users.py",
+"rdiffweb/controller/page_pref_tokens.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/controller/page_pref_general.py",
+"rdiffweb/controller/tests/test_page_prefs_general.py",
+"rdiffweb/controller/tests/test_page_admin_users.py",
+"rdiffweb/controller/tests/test_page_prefs_tokens.py",
+"rdiffweb/controller/page_admin_users.py",
+"rdiffweb/controller/page_pref_tokens.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3438",
+"patch_date": [
+"2022-09-30 13:53:45+00:00"
+],
+"patch_files": [
+"rdiffweb/controller/page_pref_general.py",
+"rdiffweb/controller/tests/test_page_prefs_general.py",
+"rdiffweb/controller/tests/test_page_admin_users.py",
+"rdiffweb/core/model/_user.py",
+"rdiffweb/controller/page_admin_users.py",
+"README.md"
+],
+"earliest_patch_date": "2022-09-30 13:53:45+00:00",
+"earliest_vuln_date": "2015-05-16 17:14:26-04:00",
+"vuln_files": [
+"rdiffweb/controller/page_pref_general.py",
+"rdiffweb/controller/tests/test_page_prefs_general.py",
+"rdiffweb/controller/page_admin_users.py",
+"rdiffweb/controller/tests/test_page_admin_users.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/controller/page_pref_general.py",
+"rdiffweb/controller/tests/test_page_prefs_general.py",
+"rdiffweb/controller/tests/test_page_admin_users.py",
+"rdiffweb/controller/page_admin_users.py",
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3273",
+"patch_date": [
+"2022-09-30 11:47:01-04:00"
+],
+"patch_files": [
+"rdiffweb/controller/page_pref_general.py",
+"rdiffweb/controller/tests/test_page_prefs_general.py",
+"rdiffweb/core/model/tests/test_user.py",
+"rdiffweb/core/model/_user.py",
+"rdiffweb/core/login.py",
+"rdiffweb/controller/page_admin_users.py",
+"rdiffweb/controller/__init__.py",
+"README.md"
+],
+"earliest_patch_date": "2022-09-30 11:47:01-04:00",
+"earliest_vuln_date": "2016-09-09 13:41:06-04:00",
+"vuln_files": [
+"rdiffweb/controller/page_pref_general.py",
+"rdiffweb/controller/tests/test_page_prefs_general.py",
+"rdiffweb/core/model/tests/test_user.py",
+"rdiffweb/core/model/_user.py",
+"rdiffweb/controller/page_admin_users.py",
+"rdiffweb/controller/__init__.py",
+"rdiffweb/core/login.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-326"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/controller/page_pref_general.py",
+"rdiffweb/controller/tests/test_page_prefs_general.py",
+"rdiffweb/core/model/_user.py",
+"rdiffweb/controller/page_admin_users.py",
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3389",
+"patch_date": [
+"2022-10-03 07:58:08-04:00"
+],
+"patch_files": [
+"rdiffweb/rdw_app.py",
+"rdiffweb/controller/dispatch.py",
+"rdiffweb/controller/tests/test_controller.py",
+"README.md"
+],
+"earliest_patch_date": "2022-10-03 07:58:08-04:00",
+"earliest_vuln_date": "2016-04-12 16:52:51-04:00",
+"vuln_files": [
+"rdiffweb/rdw_app.py",
+"rdiffweb/controller/dispatch.py",
+"rdiffweb/controller/tests/test_controller.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/rdw_app.py",
+"rdiffweb/controller/dispatch.py",
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3376",
+"patch_date": [
+"2022-10-04 08:02:18-04:00"
+],
+"patch_files": [
+"rdiffweb/controller/page_pref_general.py",
+"rdiffweb/controller/tests/test_page_prefs_general.py",
+"README.md"
+],
+"earliest_patch_date": "2022-10-04 08:02:18-04:00",
+"earliest_vuln_date": "2020-01-25 10:16:03-05:00",
+"vuln_files": [
+"rdiffweb/controller/page_pref_general.py",
+"rdiffweb/controller/tests/test_page_prefs_general.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"CWE-521"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-521"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/controller/page_pref_general.py",
+"rdiffweb/controller/tests/test_page_prefs_general.py",
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3439",
+"patch_date": [
+"2022-10-11 14:46:08-04:00"
+],
+"patch_files": [
+"rdiffweb/controller/page_pref_general.py",
+"rdiffweb/controller/tests/test_api.py",
+"rdiffweb/controller/tests/test_page_prefs_general.py",
+"rdiffweb/core/config.py",
+"rdiffweb/rdw_app.py",
+"rdiffweb/controller/tests/test_page_login.py",
+"doc/configuration.md",
+"rdiffweb/controller/page_pref_session.py",
+"rdiffweb/tools/ratelimit.py",
+"rdiffweb/controller/page_login.py",
+"rdiffweb/controller/page_mfa.py",
+"rdiffweb/controller/api.py",
+"rdiffweb/controller/page_admin_session.py",
+"rdiffweb/controller/form.py",
+"README.md"
+],
+"earliest_patch_date": "2022-10-11 14:46:08-04:00",
+"earliest_vuln_date": "2020-12-29 14:18:16-05:00",
+"vuln_files": [
+"rdiffweb/controller/page_pref_general.py",
+"rdiffweb/controller/tests/test_page_prefs_general.py",
+"rdiffweb/controller/tests/test_api.py",
+"rdiffweb/core/config.py",
+"rdiffweb/rdw_app.py",
+"rdiffweb/controller/tests/test_page_login.py",
+"doc/configuration.md",
+"rdiffweb/controller/page_pref_session.py",
+"rdiffweb/tools/ratelimit.py",
+"rdiffweb/controller/page_login.py",
+"rdiffweb/controller/page_mfa.py",
+"rdiffweb/controller/api.py",
+"rdiffweb/controller/page_admin_session.py",
+"rdiffweb/controller/form.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/controller/page_pref_general.py",
+"rdiffweb/controller/tests/test_page_prefs_general.py",
+"rdiffweb/core/config.py",
+"rdiffweb/rdw_app.py",
+"rdiffweb/controller/tests/test_page_login.py",
+"doc/configuration.md",
+"rdiffweb/controller/page_login.py",
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3456",
+"patch_date": [
+"2022-10-11 14:46:08-04:00"
+],
+"patch_files": [
+"rdiffweb/controller/page_pref_general.py",
+"rdiffweb/controller/tests/test_api.py",
+"rdiffweb/controller/tests/test_page_prefs_general.py",
+"rdiffweb/core/config.py",
+"rdiffweb/rdw_app.py",
+"rdiffweb/controller/tests/test_page_login.py",
+"doc/configuration.md",
+"rdiffweb/controller/page_pref_session.py",
+"rdiffweb/tools/ratelimit.py",
+"rdiffweb/controller/page_login.py",
+"rdiffweb/controller/page_mfa.py",
+"rdiffweb/controller/api.py",
+"rdiffweb/controller/page_admin_session.py",
+"rdiffweb/controller/form.py",
+"README.md"
+],
+"earliest_patch_date": "2022-10-11 14:46:08-04:00",
+"earliest_vuln_date": "2020-12-29 14:18:16-05:00",
+"vuln_files": [
+"rdiffweb/controller/page_pref_general.py",
+"rdiffweb/controller/tests/test_page_prefs_general.py",
+"rdiffweb/controller/tests/test_api.py",
+"rdiffweb/core/config.py",
+"rdiffweb/rdw_app.py",
+"rdiffweb/controller/tests/test_page_login.py",
+"doc/configuration.md",
+"rdiffweb/controller/page_pref_session.py",
+"rdiffweb/tools/ratelimit.py",
+"rdiffweb/controller/page_login.py",
+"rdiffweb/controller/page_mfa.py",
+"rdiffweb/controller/api.py",
+"rdiffweb/controller/page_admin_session.py",
+"rdiffweb/controller/form.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/controller/page_pref_general.py",
+"rdiffweb/controller/tests/test_api.py",
+"rdiffweb/controller/tests/test_page_prefs_general.py",
+"rdiffweb/core/config.py",
+"rdiffweb/rdw_app.py",
+"rdiffweb/controller/tests/test_page_login.py",
+"doc/configuration.md",
+"rdiffweb/controller/page_pref_session.py",
+"rdiffweb/tools/ratelimit.py",
+"rdiffweb/controller/page_login.py",
+"rdiffweb/controller/page_mfa.py",
+"rdiffweb/controller/api.py",
+"rdiffweb/controller/page_admin_session.py",
+"rdiffweb/controller/form.py",
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3457",
+"patch_date": [
+"2022-10-11 17:21:04-04:00"
+],
+"patch_files": [
+"rdiffweb/controller/tests/test_secure_headers.py",
+"rdiffweb/tools/secure_headers.py",
+"README.md"
+],
+"earliest_patch_date": "2022-10-11 17:21:04-04:00",
+"earliest_vuln_date": "2022-09-28 16:08:09-04:00",
+"vuln_files": [
+"rdiffweb/tools/secure_headers.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/controller/tests/test_secure_headers.py",
+"rdiffweb/tools/secure_headers.py",
+"README.md"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"rdiffweb/controller/tests/test_secure_headers.py",
+"rdiffweb/tools/secure_headers.py",
+"README.md"
+]
+},
+{
+"cve_id": "CVE-2022-3327",
+"patch_date": [
+"2022-10-17 18:58:27-04:00"
+],
+"patch_files": [
+"rdiffweb/core/config.py",
+"rdiffweb/rdw_app.py",
+"rdiffweb/controller/tests/test_page_login.py",
+"doc/configuration.md",
+"rdiffweb/tools/auth_form.py",
+"README.md"
+],
+"earliest_patch_date": "2022-10-17 18:58:27-04:00",
+"earliest_vuln_date": "2022-02-14 19:04:31+00:00",
+"vuln_files": [
+"rdiffweb/rdw_app.py",
+"rdiffweb/tools/auth_form.py",
+"rdiffweb/core/config.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-306"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/core/config.py",
+"rdiffweb/rdw_app.py",
+"rdiffweb/controller/tests/test_page_login.py",
+"doc/configuration.md",
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4018",
+"patch_date": [
+"2022-10-17 18:58:27-04:00"
+],
+"patch_files": [
+"rdiffweb/core/config.py",
+"rdiffweb/rdw_app.py",
+"rdiffweb/controller/tests/test_page_login.py",
+"doc/configuration.md",
+"rdiffweb/tools/auth_form.py",
+"README.md"
+],
+"earliest_patch_date": "2022-10-17 18:58:27-04:00",
+"earliest_vuln_date": "2022-02-14 19:04:31+00:00",
+"vuln_files": [
+"rdiffweb/rdw_app.py",
+"rdiffweb/tools/auth_form.py",
+"rdiffweb/core/config.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "LOW",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"CWE-306"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-306"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/core/config.py",
+"rdiffweb/rdw_app.py",
+"rdiffweb/controller/tests/test_page_login.py",
+"doc/configuration.md",
+"rdiffweb/tools/auth_form.py",
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3363",
+"patch_date": [
+"2022-10-23 15:15:35-04:00"
+],
+"patch_files": [
+"rdiffweb/core/model/tests/test_user.py",
+"rdiffweb/core/notification.py",
+"rdiffweb/core/config.py",
+"rdiffweb/core/tests/test_notification.py",
+"tox.ini",
+"README.md",
+"rdiffweb/templates/email_verification_code.html",
+"rdiffweb/templates/email_mfa.html",
+"rdiffweb/core/model/_user.py",
+"rdiffweb/controller/page_mfa.py",
+"rdiffweb/controller/tests/test_page_prefs_mfa.py",
+"rdiffweb/controller/page_pref_mfa.py"
+],
+"earliest_patch_date": "2022-10-23 15:15:35-04:00",
+"earliest_vuln_date": "2016-09-06 07:32:32-04:00",
+"vuln_files": [
+"rdiffweb/core/model/tests/test_user.py",
+"rdiffweb/core/notification.py",
+"rdiffweb/core/config.py",
+"tox.ini",
+"rdiffweb/templates/email_mfa.html",
+"rdiffweb/core/model/_user.py",
+"rdiffweb/controller/page_mfa.py",
+"rdiffweb/controller/tests/test_page_prefs_mfa.py",
+"rdiffweb/controller/page_pref_mfa.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"NVD-CWE-Other"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/core/model/tests/test_user.py",
+"rdiffweb/core/config.py",
+"README.md",
+"rdiffweb/core/model/_user.py",
+"rdiffweb/controller/page_mfa.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3362",
+"patch_date": [
+"2022-11-02 09:55:21-04:00"
+],
+"patch_files": [
+"rdiffweb/controller/page_pref_general.py",
+"rdiffweb/core/model/tests/test_user.py",
+"rdiffweb/controller/tests/test_page_settings_remove_older.py",
+"rdiffweb/core/model/_token.py",
+"rdiffweb/rdw_app.py",
+"rdiffweb/controller/tests/test_page_delete.py",
+"rdiffweb/core/tests/test_quota.py",
+"rdiffweb/tools/db.py",
+"rdiffweb/controller/tests/test_page_prefs_ssh.py",
+"rdiffweb/core/model/_session.py",
+"rdiffweb/controller/tests/test_page_browse.py",
+"rdiffweb/core/model/tests/test_token.py",
+"rdiffweb/controller/page_pref_sshkeys.py",
+"README.md",
+"rdiffweb/controller/tests/test_page_admin.py",
+"rdiffweb/core/tests/test_login.py",
+"rdiffweb/controller/tests/test_page_status.py",
+"rdiffweb/controller/page_locations.py",
+"rdiffweb/core/tests/test_notification.py",
+"rdiffweb/controller/page_delete.py",
+"rdiffweb/core/tests/test_rdw_templating.py",
+"rdiffweb/controller/tests/test_page_restore.py",
+"rdiffweb/controller/page_pref_session.py",
+"rdiffweb/controller/tests/test_page_admin_users.py",
+"rdiffweb/controller/tests/test_page_logs.py",
+"rdiffweb/controller/tests/test_page_settings.py",
+"rdiffweb/core/model/_user.py",
+"rdiffweb/controller/page_pref_notification.py",
+"rdiffweb/controller/tests/test_page_settings_set_encoding.py",
+"rdiffweb/core/model/_repo.py",
+"rdiffweb/controller/tests/test_page_history.py",
+"rdiffweb/controller/tests/test_api.py",
+"rdiffweb/templates/access_token_added.html",
+"rdiffweb/controller/tests/test_page_prefs_mfa.py",
+"rdiffweb/controller/page_admin_users.py",
+"rdiffweb/core/model/tests/test_repo.py",
+"rdiffweb/controller/page_pref_mfa.py",
+"rdiffweb/controller/tests/test_page_graphs.py",
+"rdiffweb/core/login.py",
+"rdiffweb/controller/tests/test_page_prefs_general.py",
+"rdiffweb/controller/tests/test_page_prefs_tokens.py",
+"rdiffweb/controller/tests/test_page_login.py",
+"rdiffweb/core/model/__init__.py",
+"rdiffweb/controller/tests/test_page_mfa.py",
+"rdiffweb/test.py",
+"rdiffweb/controller/api.py",
+"rdiffweb/controller/tests/test_controller.py",
+"rdiffweb/controller/page_admin_session.py",
+"rdiffweb/controller/page_pref_tokens.py"
+],
+"earliest_patch_date": "2022-11-02 09:55:21-04:00",
+"earliest_vuln_date": "2016-01-07 10:41:20-05:00",
+"vuln_files": [
+"rdiffweb/controller/page_pref_general.py",
+"rdiffweb/core/model/tests/test_user.py",
+"rdiffweb/controller/tests/test_page_settings_remove_older.py",
+"rdiffweb/rdw_app.py",
+"rdiffweb/tools/db.py",
+"rdiffweb/core/model/_session.py",
+"rdiffweb/controller/tests/test_page_browse.py",
+"rdiffweb/controller/tests/test_page_admin.py",
+"rdiffweb/core/tests/test_login.py",
+"rdiffweb/core/tests/test_notification.py",
+"rdiffweb/controller/page_locations.py",
+"rdiffweb/controller/tests/test_page_status.py",
+"rdiffweb/controller/page_delete.py",
+"rdiffweb/core/tests/test_rdw_templating.py",
+"rdiffweb/controller/tests/test_page_restore.py",
+"rdiffweb/controller/tests/test_page_settings.py",
+"rdiffweb/controller/tests/test_page_admin_users.py",
+"rdiffweb/controller/tests/test_page_logs.py",
+"rdiffweb/core/model/_user.py",
+"rdiffweb/controller/tests/test_page_settings_set_encoding.py",
+"rdiffweb/core/model/_repo.py",
+"rdiffweb/controller/tests/test_page_history.py",
+"rdiffweb/controller/tests/test_api.py",
+"rdiffweb/templates/access_token_added.html",
+"rdiffweb/core/model/tests/test_repo.py",
+"rdiffweb/controller/tests/test_page_prefs_mfa.py",
+"rdiffweb/core/login.py",
+"rdiffweb/controller/tests/test_page_graphs.py",
+"rdiffweb/controller/tests/test_page_prefs_general.py",
+"rdiffweb/controller/tests/test_page_login.py",
+"rdiffweb/core/model/__init__.py",
+"rdiffweb/controller/tests/test_page_mfa.py",
+"rdiffweb/test.py",
+"rdiffweb/controller/api.py",
+"rdiffweb/controller/tests/test_controller.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-613"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/controller/page_pref_general.py",
+"rdiffweb/core/model/tests/test_user.py",
+"rdiffweb/controller/tests/test_page_settings_remove_older.py",
+"rdiffweb/rdw_app.py",
+"rdiffweb/controller/tests/test_page_delete.py",
+"rdiffweb/controller/tests/test_page_prefs_ssh.py",
+"README.md",
+"rdiffweb/controller/tests/test_page_admin.py",
+"rdiffweb/core/tests/test_notification.py",
+"rdiffweb/controller/page_delete.py",
+"rdiffweb/controller/page_pref_session.py",
+"rdiffweb/controller/tests/test_page_admin_users.py",
+"rdiffweb/controller/tests/test_page_settings.py",
+"rdiffweb/core/model/_user.py",
+"rdiffweb/controller/tests/test_page_settings_set_encoding.py",
+"rdiffweb/controller/tests/test_api.py",
+"rdiffweb/controller/tests/test_page_prefs_mfa.py",
+"rdiffweb/controller/page_admin_users.py",
+"rdiffweb/controller/page_pref_mfa.py",
+"rdiffweb/core/login.py",
+"rdiffweb/controller/tests/test_page_prefs_general.py",
+"rdiffweb/controller/tests/test_page_prefs_tokens.py",
+"rdiffweb/controller/tests/test_page_login.py",
+"rdiffweb/controller/api.py",
+"rdiffweb/controller/tests/test_controller.py",
+"rdiffweb/controller/page_admin_session.py",
+"rdiffweb/controller/page_pref_tokens.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4314",
+"patch_date": [
+"2022-11-24 14:05:17-05:00"
+],
+"patch_files": [
+"rdiffweb/core/model/tests/test_user.py",
+"rdiffweb/core/librdiff.py",
+"tox.ini",
+"rdiffweb/core/tests/test_librdiff.py",
+"rdiffweb/controller/tests/test_page_admin_users.py",
+"rdiffweb/core/rdw_templating.py",
+"rdiffweb/core/model/_repo.py",
+"README.md"
+],
+"earliest_patch_date": "2022-11-24 14:05:17-05:00",
+"earliest_vuln_date": "2014-11-12 18:56:27-05:00",
+"vuln_files": [
+"rdiffweb/core/librdiff.py",
+"tox.ini",
+"rdiffweb/controller/tests/test_page_admin_users.py",
+"rdiffweb/core/rdw_templating.py",
+"rdiffweb/core/model/_repo.py",
+"rdiffweb/core/tests/test_librdiff.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-269"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/core/model/tests/test_user.py",
+"tox.ini",
+"rdiffweb/controller/tests/test_page_admin_users.py",
+"rdiffweb/core/model/_repo.py",
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4644",
+"patch_date": [
+"2022-12-06 16:24:08-05:00"
+],
+"patch_files": [
+"rdiffweb/rdw_app.py",
+"README.md"
+],
+"earliest_patch_date": "2022-12-06 16:24:08-05:00",
+"earliest_vuln_date": "2022-09-28 16:08:09-04:00",
+"vuln_files": [
+"rdiffweb/rdw_app.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/rdw_app.py",
+"README.md"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"rdiffweb/rdw_app.py",
+"README.md"
+]
+},
+{
+"cve_id": "CVE-2022-4646",
+"patch_date": [
+"2022-12-19 08:18:41-05:00"
+],
+"patch_files": [
+"rdiffweb/templates/layout.html",
+"rdiffweb/controller/tests/test_page_login.py",
+"rdiffweb/controller/tests/test_page_admin_users.py",
+"rdiffweb/controller/tests/test_page_mfa.py",
+"rdiffweb/templates/mfa.html",
+"rdiffweb/test.py",
+"rdiffweb/controller/tests/test_controller.py",
+"rdiffweb/tools/auth_form.py",
+"rdiffweb/controller/tests/test_secure_headers.py",
+"README.md"
+],
+"earliest_patch_date": "2022-12-19 08:18:41-05:00",
+"earliest_vuln_date": "2022-07-13 16:10:32+00:00",
+"vuln_files": [
+"rdiffweb/templates/layout.html",
+"rdiffweb/controller/tests/test_page_login.py",
+"rdiffweb/controller/tests/test_page_admin_users.py",
+"rdiffweb/controller/tests/test_page_mfa.py",
+"rdiffweb/templates/mfa.html",
+"rdiffweb/test.py",
+"rdiffweb/controller/tests/test_controller.py",
+"rdiffweb/controller/tests/test_secure_headers.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/controller/tests/test_page_login.py",
+"rdiffweb/controller/tests/test_page_admin_users.py",
+"rdiffweb/controller/tests/test_page_mfa.py",
+"rdiffweb/test.py",
+"rdiffweb/controller/tests/test_controller.py",
+"rdiffweb/tools/auth_form.py",
+"rdiffweb/controller/tests/test_secure_headers.py",
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4720",
+"patch_date": [
+"2022-12-22 16:21:15-05:00"
+],
+"patch_files": [
+"rdiffweb/core/tests/test_notification.py",
+"rdiffweb/core/notification.py",
+"rdiffweb/templates/access_token_added.html",
+"rdiffweb/templates/email_access_token_added.html",
+"rdiffweb/templates/email_notification.html",
+"rdiffweb/templates/email_verification_code.html",
+"rdiffweb/templates/email_mfa.html",
+"rdiffweb/templates/password_changed.html",
+"rdiffweb/templates/email_changed.html"
+],
+"earliest_patch_date": "2022-12-22 16:21:15-05:00",
+"earliest_vuln_date": "2017-05-17 16:29:02-04:00",
+"vuln_files": [
+"rdiffweb/templates/email_password_changed.html",
+"rdiffweb/core/tests/test_notification.py",
+"rdiffweb/core/notification.py",
+"rdiffweb/templates/access_token_added.html",
+"rdiffweb/templates/email_notification.html",
+"rdiffweb/templates/email_verification_code.html",
+"rdiffweb/templates/email_mfa.html",
+"rdiffweb/templates/email_changed.html"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-601"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/core/tests/test_notification.py",
+"rdiffweb/core/notification.py",
+"rdiffweb/templates/access_token_added.html",
+"rdiffweb/templates/email_verification_code.html",
+"rdiffweb/templates/email_mfa.html"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4721",
+"patch_date": [
+"2022-12-22 16:21:15-05:00"
+],
+"patch_files": [
+"rdiffweb/core/tests/test_notification.py",
+"rdiffweb/core/notification.py",
+"rdiffweb/templates/access_token_added.html",
+"rdiffweb/templates/email_access_token_added.html",
+"rdiffweb/templates/email_notification.html",
+"rdiffweb/templates/email_verification_code.html",
+"rdiffweb/templates/email_mfa.html",
+"rdiffweb/templates/password_changed.html",
+"rdiffweb/templates/email_changed.html"
+],
+"earliest_patch_date": "2022-12-22 16:21:15-05:00",
+"earliest_vuln_date": "2017-05-17 16:29:02-04:00",
+"vuln_files": [
+"rdiffweb/templates/email_password_changed.html",
+"rdiffweb/core/tests/test_notification.py",
+"rdiffweb/core/notification.py",
+"rdiffweb/templates/access_token_added.html",
+"rdiffweb/templates/email_notification.html",
+"rdiffweb/templates/email_verification_code.html",
+"rdiffweb/templates/email_mfa.html",
+"rdiffweb/templates/email_changed.html"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.5
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/core/tests/test_notification.py",
+"rdiffweb/core/notification.py",
+"rdiffweb/templates/access_token_added.html",
+"rdiffweb/templates/email_access_token_added.html",
+"rdiffweb/templates/email_notification.html",
+"rdiffweb/templates/email_verification_code.html",
+"rdiffweb/templates/email_mfa.html",
+"rdiffweb/templates/password_changed.html",
+"rdiffweb/templates/email_changed.html"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4719",
+"patch_date": [
+"2022-12-23 14:02:43-05:00"
+],
+"patch_files": [
+"rdiffweb/core/tests/test_notification.py",
+"rdiffweb/core/notification.py",
+"rdiffweb/templates/email_authorizedkey_added.html",
+"rdiffweb/core/model/_user.py",
+"README.md"
+],
+"earliest_patch_date": "2022-12-23 14:02:43-05:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/core/tests/test_notification.py",
+"rdiffweb/core/notification.py",
+"rdiffweb/core/model/_user.py",
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4722",
+"patch_date": [
+"2022-12-23 14:02:50-05:00"
+],
+"patch_files": [
+"rdiffweb/controller/tests/test_page_prefs_general.py",
+"rdiffweb/core/model/tests/test_user.py",
+"rdiffweb/controller/tests/test_page_login.py",
+"rdiffweb/core/tests/test_rdw_templating.py",
+"README.md",
+"rdiffweb/core/model/__init__.py",
+"rdiffweb/core/model/_user.py",
+"rdiffweb/core/login.py"
+],
+"earliest_patch_date": "2022-12-23 14:02:50-05:00",
+"earliest_vuln_date": "2019-08-28 15:27:26-04:00",
+"vuln_files": [
+"rdiffweb/controller/tests/test_page_prefs_general.py",
+"rdiffweb/core/tests/test_rdw_templating.py",
+"README.md",
+"rdiffweb/core/model/__init__.py",
+"rdiffweb/core/model/_user.py",
+"rdiffweb/core/login.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-287"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/controller/tests/test_page_prefs_general.py",
+"rdiffweb/core/model/tests/test_user.py",
+"rdiffweb/controller/tests/test_page_login.py",
+"rdiffweb/core/tests/test_rdw_templating.py",
+"README.md",
+"rdiffweb/core/model/__init__.py",
+"rdiffweb/core/model/_user.py",
+"rdiffweb/core/login.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4723",
+"patch_date": [
+"2022-12-23 14:02:50-05:00"
+],
+"patch_files": [
+"rdiffweb/controller/page_pref_mfa.py",
+"rdiffweb/core/config.py",
+"rdiffweb/tools/ratelimit.py",
+"README.md"
+],
+"earliest_patch_date": "2022-12-23 14:02:50-05:00",
+"earliest_vuln_date": "2022-10-11 14:46:08-04:00",
+"vuln_files": [
+"rdiffweb/core/config.py",
+"rdiffweb/tools/ratelimit.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/controller/page_pref_mfa.py",
+"rdiffweb/core/config.py",
+"rdiffweb/tools/ratelimit.py",
+"README.md"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"rdiffweb/core/config.py",
+"README.md"
+]
+},
+{
+"cve_id": "CVE-2022-4724",
+"patch_date": [
+"2022-12-23 14:03:15-05:00"
+],
+"patch_files": [
+"rdiffweb/core/model/tests/test_user.py",
+"rdiffweb/core/model/__init__.py",
+"rdiffweb/core/model/_user.py",
+"rdiffweb/core/model/_sshkey.py",
+"README.md"
+],
+"earliest_patch_date": "2022-12-23 14:03:15-05:00",
+"earliest_vuln_date": "2022-07-05 08:58:55-04:00",
+"vuln_files": [
+"rdiffweb/core/model/_sshkey.py",
+"rdiffweb/core/model/_user.py",
+"rdiffweb/core/model/__init__.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/core/model/tests/test_user.py",
+"rdiffweb/core/model/__init__.py",
+"rdiffweb/core/model/_user.py",
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-4138",
+"patch_date": [
+"2023-06-01 18:44:40+00:00"
+],
+"patch_files": [
+"rdiffweb/controller/page_pref_notification.py",
+"README.md"
+],
+"earliest_patch_date": "2023-06-01 18:44:40+00:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "LOW",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 2.5
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/controller/page_pref_notification.py",
+"README.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-5289",
+"patch_date": [
+"2023-09-29 08:25:11-04:00"
+],
+"patch_files": [
+"rdiffweb/controller/page_admin_users.py",
+"rdiffweb/controller/page_pref_tokens.py",
+"rdiffweb/controller/page_pref_sshkeys.py"
+],
+"earliest_patch_date": "2023-09-29 08:25:11-04:00",
+"earliest_vuln_date": "2023-04-29 08:38:08-04:00",
+"vuln_files": [
+"rdiffweb/controller/page_admin_users.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"rdiffweb/controller/page_admin_users.py",
+"rdiffweb/controller/page_pref_tokens.py",
+"rdiffweb/controller/page_pref_sshkeys.py"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"rdiffweb/controller/page_admin_users.py",
+"rdiffweb/controller/page_pref_tokens.py",
+"rdiffweb/controller/page_pref_sshkeys.py"
+]
+}
+]

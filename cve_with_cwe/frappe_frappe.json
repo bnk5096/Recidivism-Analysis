@@ -1,0 +1,293 @@
+[
+{
+"cve_id": "CVE-2022-23057",
+"patch_date": [
+"2021-03-30 13:07:58+05:30"
+],
+"patch_files": [
+"frappe/desk/form/run_method.py",
+"frappe/data_migration/doctype/data_migration_run/data_migration_run.py",
+"frappe/model/document.py",
+"frappe/__init__.py",
+"frappe/custom/doctype/customize_form/customize_form.py",
+"frappe/core/doctype/role_permission_for_page_and_report/role_permission_for_page_and_report.py",
+"frappe/handler.py",
+"frappe/public/js/frappe/form/controls/button.js",
+"frappe/public/js/frappe/request.js",
+"frappe/social/doctype/energy_point_log/energy_point_log.py",
+"frappe/website/doctype/blog_post/blog_post.py",
+"frappe/desk/search.py",
+"frappe/website/doctype/portal_settings/portal_settings.py",
+"frappe/website/doctype/website_theme/website_theme.py",
+"frappe/automation/doctype/auto_repeat/auto_repeat.py",
+"frappe/email/doctype/newsletter/newsletter.py",
+"frappe/core/doctype/report/report.py"
+],
+"earliest_patch_date": "2021-03-30 13:07:58+05:30",
+"earliest_vuln_date": "2012-02-13 16:50:58+05:30",
+"vuln_files": [
+"frappe/desk/form/run_method.py",
+"frappe/model/document.py",
+"frappe/__init__.py",
+"frappe/handler.py",
+"frappe/public/js/frappe/form/controls/button.js",
+"frappe/public/js/frappe/request.js",
+"frappe/desk/search.py",
+"frappe/core/doctype/report/report.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-23058",
+"patch_date": [
+"2021-03-30 13:07:58+05:30"
+],
+"patch_files": [
+"frappe/desk/form/run_method.py",
+"frappe/data_migration/doctype/data_migration_run/data_migration_run.py",
+"frappe/model/document.py",
+"frappe/__init__.py",
+"frappe/custom/doctype/customize_form/customize_form.py",
+"frappe/core/doctype/role_permission_for_page_and_report/role_permission_for_page_and_report.py",
+"frappe/handler.py",
+"frappe/public/js/frappe/form/controls/button.js",
+"frappe/public/js/frappe/request.js",
+"frappe/social/doctype/energy_point_log/energy_point_log.py",
+"frappe/website/doctype/blog_post/blog_post.py",
+"frappe/desk/search.py",
+"frappe/website/doctype/portal_settings/portal_settings.py",
+"frappe/website/doctype/website_theme/website_theme.py",
+"frappe/automation/doctype/auto_repeat/auto_repeat.py",
+"frappe/email/doctype/newsletter/newsletter.py",
+"frappe/core/doctype/report/report.py"
+],
+"earliest_patch_date": "2021-03-30 13:07:58+05:30",
+"earliest_vuln_date": "2012-02-13 16:50:58+05:30",
+"vuln_files": [
+"frappe/desk/form/run_method.py",
+"frappe/model/document.py",
+"frappe/__init__.py",
+"frappe/handler.py",
+"frappe/public/js/frappe/form/controls/button.js",
+"frappe/public/js/frappe/request.js",
+"frappe/desk/search.py",
+"frappe/core/doctype/report/report.py"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"frappe/desk/form/run_method.py",
+"frappe/data_migration/doctype/data_migration_run/data_migration_run.py",
+"frappe/model/document.py",
+"frappe/__init__.py",
+"frappe/custom/doctype/customize_form/customize_form.py",
+"frappe/core/doctype/role_permission_for_page_and_report/role_permission_for_page_and_report.py",
+"frappe/handler.py",
+"frappe/public/js/frappe/form/controls/button.js",
+"frappe/public/js/frappe/request.js",
+"frappe/social/doctype/energy_point_log/energy_point_log.py",
+"frappe/website/doctype/blog_post/blog_post.py",
+"frappe/desk/search.py",
+"frappe/website/doctype/portal_settings/portal_settings.py",
+"frappe/website/doctype/website_theme/website_theme.py",
+"frappe/automation/doctype/auto_repeat/auto_repeat.py",
+"frappe/email/doctype/newsletter/newsletter.py",
+"frappe/core/doctype/report/report.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3988",
+"patch_date": [
+"2022-11-11 18:11:45+05:30"
+],
+"patch_files": [
+"frappe/templates/includes/navbar/navbar_search.html"
+],
+"earliest_patch_date": "2022-11-11 18:11:45+05:30",
+"earliest_vuln_date": "2017-03-07 16:37:50+05:30",
+"vuln_files": [
+"frappe/templates/includes/navbar/navbar_search.html"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-46127",
+"patch_date": [
+"2023-09-10 16:42:37+05:30"
+],
+"patch_files": [
+"frappe/app.py"
+],
+"earliest_patch_date": "2023-09-10 16:42:37+05:30",
+"earliest_vuln_date": "2020-04-10 21:26:08+05:30",
+"vuln_files": [
+"frappe/app.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-34074",
+"patch_date": [
+"2024-05-02 18:02:18+05:30"
+],
+"patch_files": [
+"frappe/tests/test_api.py",
+"frappe/www/login.py"
+],
+"earliest_patch_date": "2024-05-02 18:02:18+05:30",
+"earliest_vuln_date": "2023-10-16 18:12:53+05:30",
+"vuln_files": [
+"frappe/tests/test_api.py"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

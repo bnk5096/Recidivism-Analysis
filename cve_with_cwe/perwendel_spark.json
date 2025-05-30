@@ -1,0 +1,76 @@
+[
+{
+"cve_id": "CVE-2018-9159",
+"patch_date": [
+"2018-03-06 11:38:27+01:00",
+"2018-03-07 13:28:14+01:00",
+"2018-03-07 14:43:02+01:00"
+],
+"patch_files": [
+"pom.xml",
+"src/main/java/spark/resource/ClassPathResource.java",
+"src/test/java/spark/embeddedserver/jetty/EmbeddedJettyFactoryTest.java",
+"src/test/java/spark/examples/staticresources/StaticResources.java"
+],
+"earliest_patch_date": "2018-03-06 11:38:27+01:00",
+"earliest_vuln_date": "2013-04-11 18:58:03+02:00",
+"vuln_files": [
+"pom.xml",
+"src/main/java/spark/resource/ClassPathResource.java",
+"src/test/java/spark/embeddedserver/jetty/EmbeddedJettyFactoryTest.java",
+"src/test/java/spark/examples/staticresources/StaticResources.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

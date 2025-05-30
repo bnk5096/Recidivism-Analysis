@@ -1,0 +1,142 @@
+[
+{
+"cve_id": "CVE-2016-6903",
+"patch_date": [
+"2016-08-21 22:01:52-04:00"
+],
+"patch_files": [
+"test/test_functional.py",
+"lshell/sec.py"
+],
+"earliest_patch_date": "2016-08-21 22:01:52-04:00",
+"earliest_vuln_date": "2016-02-21 21:49:46-05:00",
+"vuln_files": [
+"lshell/sec.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.9,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.1,
+"impactScore": 6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "COMPLETE",
+"integrityImpact": "COMPLETE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 9
+},
+"severity": "HIGH",
+"exploitabilityScore": 8,
+"impactScore": 10,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-264"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2016-6902",
+"patch_date": [
+"2016-08-25 01:13:37-04:00"
+],
+"patch_files": [
+"test/test_unit.py",
+"test/test_functional.py",
+"lshell/sec.py"
+],
+"earliest_patch_date": "2016-08-25 01:13:37-04:00",
+"earliest_vuln_date": "2013-08-10 18:00:26-04:00",
+"vuln_files": [
+"test/test_unit.py",
+"test/test_functional.py",
+"lshell/sec.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.9,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.1,
+"impactScore": 6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "COMPLETE",
+"integrityImpact": "COMPLETE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 9
+},
+"severity": "HIGH",
+"exploitabilityScore": 8,
+"impactScore": 10,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-264"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-264"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"test/test_functional.py",
+"lshell/sec.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

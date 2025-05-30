@@ -1,0 +1,145 @@
+[
+{
+"cve_id": "CVE-2020-7622",
+"patch_date": [
+"2019-10-12 10:30:52-03:00"
+],
+"patch_files": [
+"modules/jooby-netty/src/main/java/io/jooby/internal/netty/NettyContext.java"
+],
+"earliest_patch_date": "2019-10-12 10:30:52-03:00",
+"earliest_vuln_date": "2019-03-24 13:48:33-03:00",
+"vuln_files": [
+"modules/jooby-netty/src/main/java/io/jooby/internal/netty/NettyContext.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-7647",
+"patch_date": [
+"2020-05-10 00:07:31-03:00"
+],
+"patch_files": [
+"modules/coverage-report/src/test/java/org/jooby/issues/Issue1639b.java",
+"jooby/src/main/java/org/jooby/internal/AssetSource.java",
+"jooby/src/main/java/org/jooby/handlers/AssetHandler.java",
+"jooby/src/test/java/org/jooby/handlers/AssetHandlerTest.java",
+"jooby/src/main/java/org/jooby/Route.java",
+"modules/coverage-report/src/test/java/org/jooby/issues/Issue1639c.java",
+"modules/coverage-report/src/test/resources/WEB-INF/web2.xml",
+"modules/coverage-report/src/test/java/org/jooby/issues/Issue1639.java",
+"jooby/src/main/java/org/jooby/Jooby.java",
+"modules/jooby-assets/src/main/java/org/jooby/assets/Assets.java"
+],
+"earliest_patch_date": "2020-05-10 00:07:31-03:00",
+"earliest_vuln_date": "2015-08-03 21:33:59-03:00",
+"vuln_files": [
+"jooby/src/main/java/org/jooby/Jooby.java",
+"jooby/src/main/java/org/jooby/handlers/AssetHandler.java",
+"jooby/src/test/java/org/jooby/handlers/AssetHandlerTest.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

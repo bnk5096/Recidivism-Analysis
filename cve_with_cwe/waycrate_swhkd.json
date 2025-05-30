@@ -1,0 +1,280 @@
+[
+{
+"cve_id": "CVE-2022-27819",
+"patch_date": [
+"2022-03-25 20:40:47+05:30"
+],
+"patch_files": [
+"Cargo.lock",
+"src/daemon.rs",
+"Cargo.toml"
+],
+"earliest_patch_date": "2022-03-25 20:40:47+05:30",
+"earliest_vuln_date": "2022-01-05 04:21:33+05:30",
+"vuln_files": [
+"Cargo.lock",
+"Cargo.toml"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1,
+"impactScore": 4.2
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:H/Au:N/C:P/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "HIGH",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 4.9,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-770"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-27818",
+"patch_date": [
+"2022-03-25 20:47:56+05:30"
+],
+"patch_files": [
+"src/server.rs",
+"src/daemon.rs"
+],
+"earliest_patch_date": "2022-03-25 20:47:56+05:30",
+"earliest_vuln_date": "2022-01-17 15:50:43+05:30",
+"vuln_files": [
+"src/server.rs",
+"src/daemon.rs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 9.1,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.2
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-668"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/daemon.rs"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-27816",
+"patch_date": [
+"2022-03-25 20:50:01+05:30"
+],
+"patch_files": [
+"src/server.rs"
+],
+"earliest_patch_date": "2022-03-25 20:50:01+05:30",
+"earliest_vuln_date": "2022-03-08 13:33:38+05:30",
+"vuln_files": [
+"src/server.rs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 5.2
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:M/Au:N/C:N/I:P/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 3.3
+},
+"severity": "LOW",
+"exploitabilityScore": 3.4,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-59"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/server.rs"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-27815",
+"patch_date": [
+"2022-03-25 20:55:28+05:30"
+],
+"patch_files": [
+"src/daemon.rs",
+"Makefile"
+],
+"earliest_patch_date": "2022-03-25 20:55:28+05:30",
+"earliest_vuln_date": "2022-02-08 16:23:30+05:30",
+"vuln_files": [
+"src/daemon.rs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:H/Au:N/C:C/I:C/A:C",
+"accessVector": "LOCAL",
+"accessComplexity": "HIGH",
+"authentication": "NONE",
+"confidentialityImpact": "COMPLETE",
+"integrityImpact": "COMPLETE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 6.2
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 1.9,
+"impactScore": 10,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-59"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-59"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/daemon.rs"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

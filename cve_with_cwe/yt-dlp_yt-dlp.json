@@ -1,0 +1,247 @@
+[
+{
+"cve_id": "CVE-2023-35934",
+"patch_date": [
+"2023-07-06 23:14:39+05:30",
+"2023-07-06 23:14:39+05:30",
+"2023-07-06 23:14:38+05:30"
+],
+"patch_files": [
+"yt_dlp/downloader/external.py",
+"test/test_YoutubeDL.py",
+"yt_dlp/cookies.py",
+"test/test_downloader_external.py",
+"yt_dlp/YoutubeDL.py",
+"yt_dlp/utils/_utils.py",
+"test/test_http.py",
+"yt_dlp/downloader/common.py"
+],
+"earliest_patch_date": "2023-07-06 23:14:38+05:30",
+"earliest_vuln_date": "2015-01-24 01:38:48+01:00",
+"vuln_files": [
+"yt_dlp/YoutubeDL.py",
+"yt_dlp/utils/_utils.py",
+"yt_dlp/downloader/external.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 8.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 4.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-40581",
+"patch_date": [
+"2023-09-24 02:29:01+02:00"
+],
+"patch_files": [
+"test/test_YoutubeDL.py",
+"test/test_utils.py",
+"yt_dlp/postprocessor/exec.py",
+"devscripts/changelog_override.json",
+"yt_dlp/compat/__init__.py",
+"yt_dlp/utils/_utils.py"
+],
+"earliest_patch_date": "2023-09-24 02:29:01+02:00",
+"earliest_vuln_date": "2014-08-24 14:38:43-05:00",
+"vuln_files": [
+"test/test_YoutubeDL.py",
+"yt_dlp/postprocessor/exec.py",
+"yt_dlp/utils/_utils.py",
+"yt_dlp/compat/__init__.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"test/test_YoutubeDL.py",
+"yt_dlp/utils/_utils.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-22423",
+"patch_date": [
+"2023-09-24 02:29:01+02:00",
+"2024-04-09 18:36:13+02:00"
+],
+"patch_files": [
+"test/test_YoutubeDL.py",
+"test/test_utils.py",
+"devscripts/changelog_override.json",
+"yt_dlp/postprocessor/exec.py",
+"yt_dlp/compat/__init__.py",
+"yt_dlp/YoutubeDL.py",
+"yt_dlp/utils/_utils.py"
+],
+"earliest_patch_date": "2023-09-24 02:29:01+02:00",
+"earliest_vuln_date": "2013-10-12 13:49:27+02:00",
+"vuln_files": [
+"test/test_YoutubeDL.py",
+"yt_dlp/postprocessor/exec.py",
+"yt_dlp/utils/_utils.py",
+"yt_dlp/compat/__init__.py",
+"yt_dlp/YoutubeDL.py"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"test/test_YoutubeDL.py",
+"test/test_utils.py",
+"devscripts/changelog_override.json",
+"yt_dlp/postprocessor/exec.py",
+"yt_dlp/compat/__init__.py",
+"yt_dlp/YoutubeDL.py",
+"yt_dlp/utils/_utils.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-46121",
+"patch_date": [
+"2023-11-14 22:04:25+01:00"
+],
+"patch_files": [
+"yt_dlp/extractor/duboku.py",
+"yt_dlp/extractor/embedly.py",
+"yt_dlp/extractor/slideslive.py",
+"yt_dlp/extractor/storyfire.py",
+"yt_dlp/extractor/cybrary.py",
+"yt_dlp/utils/networking.py",
+"yt_dlp/extractor/generic.py",
+"yt_dlp/extractor/vimeo.py",
+"test/test_networking.py"
+],
+"earliest_patch_date": "2023-11-14 22:04:25+01:00",
+"earliest_vuln_date": "2019-12-14 21:35:31+01:00",
+"vuln_files": [
+"yt_dlp/extractor/duboku.py",
+"yt_dlp/extractor/embedly.py",
+"yt_dlp/extractor/slideslive.py",
+"yt_dlp/extractor/storyfire.py",
+"yt_dlp/extractor/cybrary.py",
+"yt_dlp/extractor/generic.py",
+"yt_dlp/extractor/vimeo.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 3.7,
+"baseSeverity": "LOW"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-38519",
+"patch_date": [
+"2024-07-02 00:58:40+02:00"
+],
+"patch_files": [
+"test/test_utils.py",
+"yt_dlp/options.py",
+"devscripts/changelog_override.json",
+"yt_dlp/YoutubeDL.py",
+"yt_dlp/utils/_utils.py",
+"README.md",
+"yt_dlp/__init__.py"
+],
+"earliest_patch_date": "2024-07-02 00:58:40+02:00",
+"earliest_vuln_date": "2015-05-02 23:06:01+06:00",
+"vuln_files": [
+"yt_dlp/options.py",
+"yt_dlp/YoutubeDL.py",
+"yt_dlp/utils/_utils.py"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"test/test_utils.py",
+"devscripts/changelog_override.json",
+"yt_dlp/YoutubeDL.py",
+"yt_dlp/utils/_utils.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

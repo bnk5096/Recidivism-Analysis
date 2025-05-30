@@ -1,0 +1,274 @@
+[
+{
+"cve_id": "CVE-2021-41129",
+"patch_date": [
+"2021-09-21 21:30:08-07:00"
+],
+"patch_files": [
+"app/Http/Controllers/Auth/LoginController.php",
+"app/Http/Controllers/Auth/LoginCheckpointController.php",
+"app/Http/Controllers/Auth/AbstractLoginController.php"
+],
+"earliest_patch_date": "2021-09-21 21:30:08-07:00",
+"earliest_vuln_date": "2016-09-03 17:09:00-04:00",
+"vuln_files": [
+"app/Http/Controllers/Auth/LoginController.php",
+"app/Http/Controllers/Auth/LoginCheckpointController.php",
+"app/Http/Controllers/Auth/AbstractLoginController.php"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-287"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-41176",
+"patch_date": [
+"2021-10-23 13:00:21-07:00"
+],
+"patch_files": [
+"SECURITY.md",
+"resources/scripts/components/NavigationBar.tsx",
+"routes/auth.php"
+],
+"earliest_patch_date": "2021-10-23 13:00:21-07:00",
+"earliest_vuln_date": "2017-11-18 15:09:58-06:00",
+"vuln_files": [
+"SECURITY.md",
+"resources/scripts/components/NavigationBar.tsx",
+"routes/auth.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-41273",
+"patch_date": [
+"2021-11-16 20:02:18-08:00"
+],
+"patch_files": [
+"resources/views/admin/settings/mail.blade.php",
+"app/Http/Kernel.php",
+"app/Http/Middleware/VerifyCsrfToken.php",
+"resources/views/admin/nodes/view/configuration.blade.php",
+"routes/admin.php",
+"app/Http/Middleware/Api/AuthenticateKey.php",
+"resources/scripts/api/http.ts"
+],
+"earliest_patch_date": "2021-11-16 20:02:18-08:00",
+"earliest_vuln_date": "2015-12-06 13:58:49-05:00",
+"vuln_files": [
+"resources/views/admin/settings/mail.blade.php",
+"app/Http/Middleware/VerifyCsrfToken.php",
+"resources/views/admin/nodes/view/configuration.blade.php",
+"routes/admin.php",
+"app/Http/Middleware/Api/AuthenticateKey.php",
+"resources/scripts/api/http.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-352"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-34067",
+"patch_date": [
+"2024-04-11 10:47:00-06:00",
+"2024-04-10 17:22:29-06:00",
+"2024-04-10 18:13:25-06:00"
+],
+"patch_files": [
+"app/Http/Requests/Admin/Nest/StoreNestFormRequest.php",
+"app/Http/Controllers/Admin/Nests/EggVariableController.php",
+"app/Models/Server.php",
+"app/Models/Egg.php",
+"app/Http/Requests/Admin/Egg/EggFormRequest.php",
+"app/Http/Controllers/Admin/Nests/NestController.php",
+"app/Http/Controllers/Admin/NodesController.php",
+"public/themes/pterodactyl/js/admin/new-server.js",
+"resources/views/admin/servers/view/startup.blade.php",
+"app/Http/Requests/Api/Client/Servers/Settings/SetDockerImageRequest.php",
+"resources/views/admin/nodes/view/index.blade.php"
+],
+"earliest_patch_date": "2024-04-10 17:22:29-06:00",
+"earliest_vuln_date": "2017-02-24 18:19:03-05:00",
+"vuln_files": [
+"resources/views/admin/nodes/view/index.blade.php",
+"public/themes/pterodactyl/js/admin/new-server.js",
+"resources/views/admin/servers/view/startup.blade.php",
+"app/Http/Requests/Admin/Egg/EggFormRequest.php",
+"app/Http/Requests/Api/Client/Servers/Settings/SetDockerImageRequest.php",
+"app/Models/Egg.php",
+"app/Models/Server.php",
+"app/Http/Controllers/Admin/Nests/EggVariableController.php",
+"app/Http/Controllers/Admin/Nests/NestController.php",
+"app/Http/Controllers/Admin/NodesController.php",
+"app/Http/Requests/Admin/Nest/StoreNestFormRequest.php"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-49762",
+"patch_date": [
+"2024-10-24 11:30:24-06:00",
+"2024-10-24 11:27:42-06:00"
+],
+"patch_files": [
+"routes/api-client.php",
+"resources/scripts/api/account/disableAccountTwoFactor.ts"
+],
+"earliest_patch_date": "2024-10-24 11:27:42-06:00",
+"earliest_vuln_date": "2019-12-22 20:41:25-08:00",
+"vuln_files": [
+"routes/api-client.php",
+"resources/scripts/api/account/disableAccountTwoFactor.ts"
+],
+"impact": {},
+"cwes": [
+"CWE-313"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

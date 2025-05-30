@@ -1,0 +1,190 @@
+[
+{
+"cve_id": "CVE-2021-32797",
+"patch_date": [
+"2021-08-05 11:43:20-05:00"
+],
+"patch_files": [
+"packages/apputils/src/sanitizer.ts"
+],
+"earliest_patch_date": "2021-08-05 11:43:20-05:00",
+"earliest_vuln_date": "2018-08-29 08:58:24-05:00",
+"vuln_files": [
+"packages/apputils/src/sanitizer.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.6,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-22420",
+"patch_date": [
+"2024-01-19 12:43:25+00:00"
+],
+"patch_files": [
+"packages/toc/src/utils/markdown.ts",
+"packages/toc/test/markdown.spec.ts",
+"packages/notebook/src/toc.ts",
+"yarn.lock",
+"packages/notebook/src/widget.ts",
+"packages/rendermime-interfaces/src/index.ts",
+"packages/toc/tsconfig.json",
+"packages/markdownviewer-extension/src/index.ts",
+"packages/toc/package.json",
+"packages/markdownviewer/src/toc.ts",
+"packages/toc/tsconfig.test.json"
+],
+"earliest_patch_date": "2024-01-19 12:43:25+00:00",
+"earliest_vuln_date": "2019-06-20 00:07:20+01:00",
+"vuln_files": [
+"packages/toc/src/utils/markdown.ts",
+"packages/notebook/src/toc.ts",
+"packages/notebook/src/widget.ts",
+"packages/markdownviewer-extension/src/index.ts",
+"packages/markdownviewer/src/toc.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-22421",
+"patch_date": [
+"2024-01-19 13:15:40+00:00"
+],
+"patch_files": [
+"packages/services/src/session/restapi.ts",
+"packages/services/src/setting/index.ts",
+"packages/services/src/terminal/restapi.ts",
+"packages/services/test/session/session.spec.ts",
+"packages/services/test/workspace/manager.spec.ts",
+"packages/services/test/setting/manager.spec.ts",
+"packages/apputils-extension/src/workspacesplugin.ts",
+"packages/services/src/workspace/index.ts",
+"packages/translation/src/server.ts",
+"packages/hub-extension/src/index.ts"
+],
+"earliest_patch_date": "2024-01-19 13:15:40+00:00",
+"earliest_vuln_date": "2018-01-04 01:30:23+00:00",
+"vuln_files": [
+"packages/services/src/session/restapi.ts",
+"packages/services/src/setting/index.ts",
+"packages/services/src/terminal/restapi.ts",
+"packages/apputils-extension/src/workspacesplugin.ts",
+"packages/services/src/workspace/index.ts",
+"packages/translation/src/server.ts",
+"packages/hub-extension/src/index.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-200",
+"CWE-23"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

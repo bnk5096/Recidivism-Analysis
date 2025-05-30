@@ -1,0 +1,191 @@
+[
+{
+"cve_id": "CVE-2021-32641",
+"patch_date": [
+"2021-06-04 10:57:07+01:00"
+],
+"patch_files": [
+"package.json",
+"src/__tests__/connection/database/__snapshots__/signed_up_confirmation.test.jsx.snap",
+"src/connection/passwordless/email_sent_confirmation.jsx",
+".eslintrc.json",
+"src/ui/input/mfa_code_input.jsx",
+"src/ui/input/username_input.jsx",
+"src/__tests__/i18n.test.js",
+"src/connection/enterprise/single_sign_on_notice.jsx",
+"src/ui/input/password_input.jsx",
+"yarn.lock",
+"src/__tests__/connection/enterprise/actions.test.js",
+"src/ui/input/checkbox_input.jsx",
+"src/ui/box/success_pane.jsx",
+"src/ui/input/phone_number_input.jsx",
+"src/__tests__/ui/box/__snapshots__/chrome.test.jsx.snap",
+"src/i18n.js",
+"src/__tests__/field/__snapshots__/phone_number_pane.test.jsx.snap",
+"src/__tests__/connection/database/__snapshots__/password_reset_confirmation.test.jsx.snap",
+"src/ui/box/confirmation_pane.jsx",
+"src/__tests__/ui/input/__snapshots__/email_input.test.jsx.snap",
+"src/ui/box/chrome.jsx",
+"src/ui/input/email_input.jsx",
+"src/ui/input/captcha_input.jsx",
+"src/__tests__/connection/passwordless/__snapshots__/email_sent_confirmation.test.jsx.snap",
+"src/ui/box/button.jsx",
+"src/ui/input/location_input.jsx",
+"README.md",
+"src/__tests__/core/__snapshots__/signed_in_confirmation.test.jsx.snap",
+"src/ui/input/input_wrap.jsx",
+"src/ui/input/select_input.jsx",
+"src/ui/input/vcode_input.jsx",
+"src/field/phone-number/phone_number_pane.jsx",
+"src/__tests__/ui/box/__snapshots__/confirmation_pane.test.jsx.snap"
+],
+"earliest_patch_date": "2021-06-04 10:57:07+01:00",
+"earliest_vuln_date": "2016-03-10 19:15:32-03:00",
+"vuln_files": [
+"src/__tests__/connection/database/__snapshots__/signed_up_confirmation.test.jsx.snap",
+"src/connection/passwordless/email_sent_confirmation.jsx",
+".eslintrc.json",
+"src/ui/input/mfa_code_input.jsx",
+"src/ui/input/username_input.jsx",
+"src/connection/enterprise/single_sign_on_notice.jsx",
+"src/ui/input/password_input.jsx",
+"yarn.lock",
+"src/__tests__/connection/enterprise/actions.test.js",
+"src/ui/box/success_pane.jsx",
+"src/ui/input/phone_number_input.jsx",
+"src/__tests__/ui/box/__snapshots__/chrome.test.jsx.snap",
+"src/i18n.js",
+"src/__tests__/field/__snapshots__/phone_number_pane.test.jsx.snap",
+"src/__tests__/connection/database/__snapshots__/password_reset_confirmation.test.jsx.snap",
+"src/ui/box/confirmation_pane.jsx",
+"src/__tests__/ui/input/__snapshots__/email_input.test.jsx.snap",
+"src/ui/box/chrome.jsx",
+"src/ui/input/email_input.jsx",
+"src/ui/input/captcha_input.jsx",
+"src/ui/box/button.jsx",
+"src/__tests__/connection/passwordless/__snapshots__/email_sent_confirmation.test.jsx.snap",
+"src/ui/input/location_input.jsx",
+"src/__tests__/core/__snapshots__/signed_in_confirmation.test.jsx.snap",
+"src/ui/input/input_wrap.jsx",
+"src/ui/input/select_input.jsx",
+"src/ui/input/vcode_input.jsx",
+"src/field/phone-number/phone_number_pane.jsx",
+"src/__tests__/ui/box/__snapshots__/confirmation_pane.test.jsx.snap"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-29172",
+"patch_date": [
+"2022-05-05 11:29:00+01:00"
+],
+"patch_files": [
+"src/__tests__/connection/database/actions.test.js",
+"src/connection/database/actions.js"
+],
+"earliest_patch_date": "2022-05-05 11:29:00+01:00",
+"earliest_vuln_date": "2016-05-16 18:24:12-03:00",
+"vuln_files": [
+"src/connection/database/actions.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:H/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "HIGH",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 2.6
+},
+"severity": "LOW",
+"exploitabilityScore": 4.9,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

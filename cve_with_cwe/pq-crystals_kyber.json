@@ -1,0 +1,79 @@
+[
+{
+"cve_id": "CVE-2024-36405",
+"patch_date": [
+"2024-06-03 09:00:59+02:00"
+],
+"patch_files": [
+"ref/verify.c",
+"ref/poly.c",
+"ref/verify.h"
+],
+"earliest_patch_date": "2024-06-03 09:00:59+02:00",
+"earliest_vuln_date": "2020-03-25 16:19:20+01:00",
+"vuln_files": [
+"ref/poly.c"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-37880",
+"patch_date": [
+"2024-06-03 09:00:59+02:00"
+],
+"patch_files": [
+"ref/verify.c",
+"ref/poly.c",
+"ref/verify.h"
+],
+"earliest_patch_date": "2024-06-03 09:00:59+02:00",
+"earliest_vuln_date": "2020-03-25 16:19:20+01:00",
+"vuln_files": [
+"ref/poly.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-203"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"ref/verify.c",
+"ref/poly.c",
+"ref/verify.h"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

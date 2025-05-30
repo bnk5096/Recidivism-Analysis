@@ -1,0 +1,807 @@
+[
+{
+"cve_id": "CVE-2019-14329",
+"patch_date": [
+"2019-07-23 17:50:02+03:00"
+],
+"patch_files": [
+"client/src/views/stream/notes/post.js",
+"client/src/views/notification/items/assign.js",
+"client/src/views/stream/notes/email-received.js",
+"client/src/views/email/fields/email-address-varchar.js",
+"client/src/views/notification/items/email-received.js",
+"client/src/views/site/navbar.js",
+"client/src/views/stream/note.js",
+"client/src/views/stream/notes/email-sent.js",
+"client/src/views/notification/items/entity-removed.js",
+"client/src/views/stream/notes/create.js",
+"client/src/views/stream/notes/create-related.js",
+"client/src/views/stream/notes/mention-in-post.js",
+"client/src/views/stream/notes/status.js",
+"client/src/views/stream/notes/relate.js",
+"client/src/views/email/fields/from-address-varchar.js",
+"client/src/views/stream/notes/assign.js",
+"client/src/views/fields/link-multiple-with-primary.js",
+"client/src/views/notification/items/message.js"
+],
+"earliest_patch_date": "2019-07-23 17:50:02+03:00",
+"earliest_vuln_date": "2014-04-11 16:26:20+03:00",
+"vuln_files": [
+"client/src/views/stream/notes/post.js",
+"client/src/views/notification/items/assign.js",
+"client/src/views/stream/notes/email-received.js",
+"client/src/views/site/navbar.js",
+"client/src/views/notification/items/email-received.js",
+"client/src/views/fields/link-multiple-with-primary.js",
+"client/src/views/stream/note.js",
+"client/src/views/stream/notes/email-sent.js",
+"client/src/views/stream/notes/create.js",
+"client/src/views/stream/notes/create-related.js",
+"client/src/views/stream/notes/status.js",
+"client/src/views/stream/notes/mention-in-post.js",
+"client/src/views/stream/notes/relate.js",
+"client/src/views/stream/notes/assign.js",
+"client/src/views/notification/items/entity-removed.js",
+"client/src/views/notification/items/message.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-14330",
+"patch_date": [
+"2019-07-23 17:50:02+03:00"
+],
+"patch_files": [
+"client/src/views/stream/notes/post.js",
+"client/src/views/notification/items/assign.js",
+"client/src/views/stream/notes/email-received.js",
+"client/src/views/email/fields/email-address-varchar.js",
+"client/src/views/notification/items/email-received.js",
+"client/src/views/site/navbar.js",
+"client/src/views/stream/note.js",
+"client/src/views/stream/notes/email-sent.js",
+"client/src/views/notification/items/entity-removed.js",
+"client/src/views/stream/notes/create.js",
+"client/src/views/stream/notes/create-related.js",
+"client/src/views/stream/notes/mention-in-post.js",
+"client/src/views/stream/notes/status.js",
+"client/src/views/stream/notes/relate.js",
+"client/src/views/email/fields/from-address-varchar.js",
+"client/src/views/stream/notes/assign.js",
+"client/src/views/fields/link-multiple-with-primary.js",
+"client/src/views/notification/items/message.js"
+],
+"earliest_patch_date": "2019-07-23 17:50:02+03:00",
+"earliest_vuln_date": "2014-04-11 16:26:20+03:00",
+"vuln_files": [
+"client/src/views/stream/notes/post.js",
+"client/src/views/notification/items/assign.js",
+"client/src/views/stream/notes/email-received.js",
+"client/src/views/site/navbar.js",
+"client/src/views/notification/items/email-received.js",
+"client/src/views/fields/link-multiple-with-primary.js",
+"client/src/views/stream/note.js",
+"client/src/views/stream/notes/email-sent.js",
+"client/src/views/stream/notes/create.js",
+"client/src/views/stream/notes/create-related.js",
+"client/src/views/stream/notes/status.js",
+"client/src/views/stream/notes/mention-in-post.js",
+"client/src/views/stream/notes/relate.js",
+"client/src/views/stream/notes/assign.js",
+"client/src/views/notification/items/entity-removed.js",
+"client/src/views/notification/items/message.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"client/src/views/stream/notes/post.js",
+"client/src/views/notification/items/assign.js",
+"client/src/views/stream/notes/email-received.js",
+"client/src/views/email/fields/email-address-varchar.js",
+"client/src/views/notification/items/email-received.js",
+"client/src/views/site/navbar.js",
+"client/src/views/stream/note.js",
+"client/src/views/stream/notes/email-sent.js",
+"client/src/views/notification/items/entity-removed.js",
+"client/src/views/stream/notes/create.js",
+"client/src/views/stream/notes/create-related.js",
+"client/src/views/stream/notes/mention-in-post.js",
+"client/src/views/stream/notes/status.js",
+"client/src/views/stream/notes/relate.js",
+"client/src/views/email/fields/from-address-varchar.js",
+"client/src/views/stream/notes/assign.js",
+"client/src/views/fields/link-multiple-with-primary.js",
+"client/src/views/notification/items/message.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-14331",
+"patch_date": [
+"2019-07-23 17:50:02+03:00"
+],
+"patch_files": [
+"client/src/views/stream/notes/post.js",
+"client/src/views/notification/items/assign.js",
+"client/src/views/stream/notes/email-received.js",
+"client/src/views/email/fields/email-address-varchar.js",
+"client/src/views/notification/items/email-received.js",
+"client/src/views/site/navbar.js",
+"client/src/views/stream/note.js",
+"client/src/views/stream/notes/email-sent.js",
+"client/src/views/notification/items/entity-removed.js",
+"client/src/views/stream/notes/create.js",
+"client/src/views/stream/notes/create-related.js",
+"client/src/views/stream/notes/mention-in-post.js",
+"client/src/views/stream/notes/status.js",
+"client/src/views/stream/notes/relate.js",
+"client/src/views/email/fields/from-address-varchar.js",
+"client/src/views/stream/notes/assign.js",
+"client/src/views/fields/link-multiple-with-primary.js",
+"client/src/views/notification/items/message.js"
+],
+"earliest_patch_date": "2019-07-23 17:50:02+03:00",
+"earliest_vuln_date": "2014-04-11 16:26:20+03:00",
+"vuln_files": [
+"client/src/views/stream/notes/post.js",
+"client/src/views/notification/items/assign.js",
+"client/src/views/stream/notes/email-received.js",
+"client/src/views/site/navbar.js",
+"client/src/views/notification/items/email-received.js",
+"client/src/views/fields/link-multiple-with-primary.js",
+"client/src/views/stream/note.js",
+"client/src/views/stream/notes/email-sent.js",
+"client/src/views/stream/notes/create.js",
+"client/src/views/stream/notes/create-related.js",
+"client/src/views/stream/notes/status.js",
+"client/src/views/stream/notes/mention-in-post.js",
+"client/src/views/stream/notes/relate.js",
+"client/src/views/stream/notes/assign.js",
+"client/src/views/notification/items/entity-removed.js",
+"client/src/views/notification/items/message.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"client/src/views/stream/notes/post.js",
+"client/src/views/notification/items/assign.js",
+"client/src/views/stream/notes/email-received.js",
+"client/src/views/email/fields/email-address-varchar.js",
+"client/src/views/notification/items/email-received.js",
+"client/src/views/site/navbar.js",
+"client/src/views/stream/note.js",
+"client/src/views/stream/notes/email-sent.js",
+"client/src/views/notification/items/entity-removed.js",
+"client/src/views/stream/notes/create.js",
+"client/src/views/stream/notes/create-related.js",
+"client/src/views/stream/notes/mention-in-post.js",
+"client/src/views/stream/notes/status.js",
+"client/src/views/stream/notes/relate.js",
+"client/src/views/email/fields/from-address-varchar.js",
+"client/src/views/stream/notes/assign.js",
+"client/src/views/fields/link-multiple-with-primary.js",
+"client/src/views/notification/items/message.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-14546",
+"patch_date": [
+"2019-07-30 10:57:44+03:00"
+],
+"patch_files": [
+"client/src/views/preferences/fields/dashboard-tab-list.js",
+"client/src/views/fields/wysiwyg.js",
+"client/res/templates/attachment/fields/name/detail.tpl",
+"client/src/view-helper.js",
+"client/src/views/attachment/fields/name.js"
+],
+"earliest_patch_date": "2019-07-30 10:57:44+03:00",
+"earliest_vuln_date": "2016-09-26 11:31:29+03:00",
+"vuln_files": [
+"client/res/templates/attachment/fields/name/detail.tpl",
+"client/src/views/attachment/fields/name.js",
+"client/src/views/fields/wysiwyg.js",
+"client/src/views/preferences/fields/dashboard-tab-list.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-14547",
+"patch_date": [
+"2019-07-30 10:57:44+03:00"
+],
+"patch_files": [
+"client/src/views/preferences/fields/dashboard-tab-list.js",
+"client/src/views/fields/wysiwyg.js",
+"client/res/templates/attachment/fields/name/detail.tpl",
+"client/src/view-helper.js",
+"client/src/views/attachment/fields/name.js"
+],
+"earliest_patch_date": "2019-07-30 10:57:44+03:00",
+"earliest_vuln_date": "2016-09-26 11:31:29+03:00",
+"vuln_files": [
+"client/res/templates/attachment/fields/name/detail.tpl",
+"client/src/views/attachment/fields/name.js",
+"client/src/views/fields/wysiwyg.js",
+"client/src/views/preferences/fields/dashboard-tab-list.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"client/src/views/preferences/fields/dashboard-tab-list.js",
+"client/src/views/fields/wysiwyg.js",
+"client/res/templates/attachment/fields/name/detail.tpl",
+"client/src/view-helper.js",
+"client/src/views/attachment/fields/name.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-14548",
+"patch_date": [
+"2019-07-30 10:57:44+03:00"
+],
+"patch_files": [
+"client/src/views/preferences/fields/dashboard-tab-list.js",
+"client/src/views/fields/wysiwyg.js",
+"client/res/templates/attachment/fields/name/detail.tpl",
+"client/src/view-helper.js",
+"client/src/views/attachment/fields/name.js"
+],
+"earliest_patch_date": "2019-07-30 10:57:44+03:00",
+"earliest_vuln_date": "2016-09-26 11:31:29+03:00",
+"vuln_files": [
+"client/res/templates/attachment/fields/name/detail.tpl",
+"client/src/views/attachment/fields/name.js",
+"client/src/views/fields/wysiwyg.js",
+"client/src/views/preferences/fields/dashboard-tab-list.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"client/src/views/preferences/fields/dashboard-tab-list.js",
+"client/src/views/fields/wysiwyg.js",
+"client/res/templates/attachment/fields/name/detail.tpl",
+"client/src/view-helper.js",
+"client/src/views/attachment/fields/name.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-14549",
+"patch_date": [
+"2019-07-30 10:57:44+03:00"
+],
+"patch_files": [
+"client/src/views/preferences/fields/dashboard-tab-list.js",
+"client/src/views/fields/wysiwyg.js",
+"client/res/templates/attachment/fields/name/detail.tpl",
+"client/src/view-helper.js",
+"client/src/views/attachment/fields/name.js"
+],
+"earliest_patch_date": "2019-07-30 10:57:44+03:00",
+"earliest_vuln_date": "2016-09-26 11:31:29+03:00",
+"vuln_files": [
+"client/res/templates/attachment/fields/name/detail.tpl",
+"client/src/views/attachment/fields/name.js",
+"client/src/views/fields/wysiwyg.js",
+"client/src/views/preferences/fields/dashboard-tab-list.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"client/src/views/preferences/fields/dashboard-tab-list.js",
+"client/src/views/fields/wysiwyg.js",
+"client/res/templates/attachment/fields/name/detail.tpl",
+"client/src/view-helper.js",
+"client/src/views/attachment/fields/name.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-14550",
+"patch_date": [
+"2019-07-30 10:57:44+03:00"
+],
+"patch_files": [
+"client/src/views/preferences/fields/dashboard-tab-list.js",
+"client/src/views/fields/wysiwyg.js",
+"client/res/templates/attachment/fields/name/detail.tpl",
+"client/src/view-helper.js",
+"client/src/views/attachment/fields/name.js"
+],
+"earliest_patch_date": "2019-07-30 10:57:44+03:00",
+"earliest_vuln_date": "2016-09-26 11:31:29+03:00",
+"vuln_files": [
+"client/res/templates/attachment/fields/name/detail.tpl",
+"client/src/views/attachment/fields/name.js",
+"client/src/views/fields/wysiwyg.js",
+"client/src/views/preferences/fields/dashboard-tab-list.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"client/src/views/preferences/fields/dashboard-tab-list.js",
+"client/src/views/fields/wysiwyg.js",
+"client/res/templates/attachment/fields/name/detail.tpl",
+"client/src/view-helper.js",
+"client/src/views/attachment/fields/name.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-46736",
+"patch_date": [
+"2023-11-06 16:02:13+02:00"
+],
+"patch_files": [
+"application/Espo/Core/Utils/Security/UrlCheck.php",
+"application/Espo/Tools/Attachment/UploadUrlService.php"
+],
+"earliest_patch_date": "2023-11-06 16:02:13+02:00",
+"earliest_vuln_date": "2022-10-18 11:40:28+03:00",
+"vuln_files": [
+"application/Espo/Tools/Attachment/UploadUrlService.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-24818",
+"patch_date": [
+"2024-01-30 17:40:38+02:00"
+],
+"patch_files": [
+"tests/integration/Espo/Password/RecoveryTest.php",
+"application/Espo/Tools/UserSecurity/Password/Recovery/UrlValidator.php",
+"application/Espo/Tools/UserSecurity/Password/RecoveryService.php"
+],
+"earliest_patch_date": "2024-01-30 17:40:38+02:00",
+"earliest_vuln_date": "2023-01-22 14:08:04+02:00",
+"vuln_files": [
+"application/Espo/Tools/UserSecurity/Password/RecoveryService.php"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

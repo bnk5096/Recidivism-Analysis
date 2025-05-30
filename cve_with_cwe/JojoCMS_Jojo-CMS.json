@@ -1,0 +1,98 @@
+[
+{
+"cve_id": "CVE-2013-3082",
+"patch_date": [
+"2013-05-07 10:26:01+12:00"
+],
+"patch_files": [
+"plugins/jojo_core/external/bootstrap",
+"plugins/jojo_core/external/lessphp",
+"plugins/jojo_core/forgot_password.php"
+],
+"earliest_patch_date": "2013-05-07 10:26:01+12:00",
+"earliest_vuln_date": "2009-09-11 06:18:09+00:00",
+"vuln_files": [
+"plugins/jojo_core/forgot_password.php"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2013-3081",
+"patch_date": [
+"2013-05-07 11:09:47+12:00"
+],
+"patch_files": [
+"plugins/jojo_core/classes/Jojo.php"
+],
+"earliest_patch_date": "2013-05-07 11:09:47+12:00",
+"earliest_vuln_date": "2009-09-11 06:18:09+00:00",
+"vuln_files": [
+"plugins/jojo_core/classes/Jojo.php"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-89"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

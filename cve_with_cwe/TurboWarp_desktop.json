@@ -1,0 +1,58 @@
+[
+{
+"cve_id": "CVE-2023-40168",
+"patch_date": [
+"2023-06-11 15:54:52-05:00",
+"2023-01-21 01:14:50-06:00",
+"2023-01-24 23:47:59-06:00"
+],
+"patch_files": [
+"src/main/index.js",
+"src/l10n/en.json",
+"src/main/extensions.js",
+"src/main/bypass-cors.js",
+"src/main/library-files.js",
+"src/main/request-security.js",
+"src/main/protocols.js",
+"src/renderer/desktop-settings/desktop-settings.jsx"
+],
+"earliest_patch_date": "2023-01-21 01:14:50-06:00",
+"earliest_vuln_date": "2021-01-04 19:11:51-06:00",
+"vuln_files": [
+"src/main/extensions.js",
+"src/main/index.js",
+"src/renderer/desktop-settings/desktop-settings.jsx",
+"src/main/library-files.js",
+"src/main/request-security.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

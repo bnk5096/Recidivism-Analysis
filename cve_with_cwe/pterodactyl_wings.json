@@ -1,0 +1,322 @@
+[
+{
+"cve_id": "CVE-2021-32699",
+"patch_date": [
+"2021-06-20 16:54:00-07:00"
+],
+"patch_files": [
+"environment/settings.go",
+"environment/docker/container.go",
+"config/config_docker.go"
+],
+"earliest_patch_date": "2021-06-20 16:54:00-07:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2,
+"impactScore": 4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 2.1
+},
+"severity": "LOW",
+"exploitabilityScore": 3.9,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-770"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-25152",
+"patch_date": [
+"2023-02-07 19:14:35-07:00"
+],
+"patch_files": [
+"server/filesystem/path.go",
+"server/filesystem/filesystem.go",
+"server/filesystem/path_test.go"
+],
+"earliest_patch_date": "2023-02-07 19:14:35-07:00",
+"earliest_vuln_date": "2020-09-27 12:24:08-07:00",
+"vuln_files": [
+"server/filesystem/path.go",
+"server/filesystem/filesystem.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-25168",
+"patch_date": [
+"2023-02-08 14:20:13-07:00"
+],
+"patch_files": [
+"server/filesystem/filesystem_test.go",
+"server/filesystem/filesystem.go"
+],
+"earliest_patch_date": "2023-02-08 14:20:13-07:00",
+"earliest_vuln_date": "2020-09-27 12:24:08-07:00",
+"vuln_files": [
+"server/filesystem/filesystem.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:N/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 5.8
+}
+},
+"cwes": [
+"CWE-59"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/filesystem/filesystem.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-27102",
+"patch_date": [
+"2024-03-13 12:27:29-06:00"
+],
+"patch_files": [
+"internal/ufs/fs_unix.go",
+"internal/ufs/quota_writer.go",
+"internal/ufs/mkdir_unix.go",
+"go.mod",
+"server/filesystem/archive_test.go",
+"server/filesystem/errors.go",
+"server/backup/backup_local.go",
+"router/router_download.go",
+"internal/ufs/file_posix.go",
+"internal/ufs/fs_quota.go",
+"server/filesystem/stat_windows.go",
+"internal/ufs/doc.go",
+"server/filesystem/stat_linux.go",
+"server/manager.go",
+"internal/ufs/README.md",
+"internal/ufs/path_unix.go",
+"parser/parser.go",
+"internal/ufs/go.LICENSE",
+"internal/ufs/error.go",
+"parser/helpers.go",
+"server/filesystem/stat.go",
+"internal/ufs/filesystem.go",
+"server/filesystem/path.go",
+"go.sum",
+"internal/ufs/fs_unix_test.go",
+"router/router_server_files.go",
+"server/backup.go",
+"router/downloader/downloader.go",
+"server/filesystem/path_test.go",
+"server/filesystem/filesystem_test.go",
+"internal/ufs/removeall_unix.go",
+"config/config.go",
+"internal/ufs/LICENSE",
+"sftp/handler.go",
+"server/filesystem/filesystem.go",
+"server/transfer/archive.go",
+"internal/ufs/walk.go",
+"internal/ufs/walk_unix.go",
+"server/filesystem/archive.go",
+"server/install.go",
+"internal/ufs/stat_unix.go",
+"server/filesystem/disk_space.go",
+"router/router_transfer.go",
+"router/router_server.go",
+"server/backup/backup_s3.go",
+"server/config_parser.go",
+"server/filesystem/compress.go",
+"server/filesystem/compress_test.go",
+"internal/ufs/file.go",
+"server/filesystem/stat_darwin.go",
+"server/backup/backup.go"
+],
+"earliest_patch_date": "2024-03-13 12:27:29-06:00",
+"earliest_vuln_date": "2019-04-07 14:45:23-07:00",
+"vuln_files": [
+"server/filesystem/errors.go",
+"go.mod",
+"server/filesystem/archive_test.go",
+"server/backup/backup_local.go",
+"router/router_download.go",
+"server/filesystem/stat_windows.go",
+"server/filesystem/stat_linux.go",
+"server/manager.go",
+"parser/parser.go",
+"parser/helpers.go",
+"server/filesystem/stat.go",
+"server/filesystem/path.go",
+"go.sum",
+"router/router_server_files.go",
+"server/backup.go",
+"router/downloader/downloader.go",
+"server/filesystem/path_test.go",
+"server/filesystem/filesystem_test.go",
+"sftp/handler.go",
+"server/filesystem/filesystem.go",
+"server/transfer/archive.go",
+"server/install.go",
+"server/filesystem/archive.go",
+"server/filesystem/disk_space.go",
+"server/config_parser.go",
+"server/filesystem/compress.go",
+"server/backup/backup_s3.go",
+"server/filesystem/compress_test.go",
+"server/filesystem/stat_darwin.go",
+"server/backup/backup.go"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/filesystem/path.go",
+"server/filesystem/path_test.go",
+"server/filesystem/filesystem_test.go",
+"server/filesystem/filesystem.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-34068",
+"patch_date": [
+"2024-04-10 15:22:09-06:00"
+],
+"patch_files": [
+"router/downloader/downloader.go"
+],
+"earliest_patch_date": "2024-04-10 15:22:09-06:00",
+"earliest_vuln_date": "2021-01-06 21:34:18-08:00",
+"vuln_files": [
+"router/downloader/downloader.go"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"router/downloader/downloader.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-34066",
+"patch_date": [
+"2024-04-10 15:27:54-06:00"
+],
+"patch_files": [
+"config/config.go"
+],
+"earliest_patch_date": "2024-04-10 15:27:54-06:00",
+"earliest_vuln_date": "2021-01-09 17:52:27-08:00",
+"vuln_files": [
+"config/config.go"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"config/config.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

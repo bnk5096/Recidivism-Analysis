@@ -1,0 +1,96 @@
+[
+{
+"cve_id": "CVE-2020-5291",
+"patch_date": [
+"2020-03-30 15:08:41+02:00"
+],
+"patch_files": [
+"bubblewrap.c"
+],
+"earliest_patch_date": "2020-03-30 15:08:41+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:C/I:C/A:C",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "COMPLETE",
+"integrityImpact": "COMPLETE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 8.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 6.8,
+"impactScore": 10,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-269"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-42472",
+"patch_date": [
+"2024-07-16 18:20:03+01:00",
+"2024-07-16 18:14:03+01:00"
+],
+"patch_files": [
+"tests/test-run.sh",
+"bubblewrap.c"
+],
+"earliest_patch_date": "2024-07-16 18:14:03+01:00",
+"earliest_vuln_date": "2021-06-28 11:11:55+01:00",
+"vuln_files": [
+"tests/test-run.sh"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"bubblewrap.c"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"bubblewrap.c"
+]
+}
+]

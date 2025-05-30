@@ -1,0 +1,137 @@
+[
+{
+"cve_id": "CVE-2023-46575",
+"patch_date": [
+"2023-11-19 16:59:32+08:00"
+],
+"patch_files": [
+"server/models/meshery_k8scontext_persister.go",
+"server/models/meshery_filter_persister.go",
+"server/models/performance_profile_persister.go",
+"server/models/meshery_application_persister.go",
+"server/models/sql-utils.go",
+"server/handlers/database_handlers.go",
+"server/models/pattern_resource_persister.go",
+"server/models/meshery_pattern_persister.go"
+],
+"earliest_patch_date": "2023-11-19 16:59:32+08:00",
+"earliest_vuln_date": "2021-04-24 17:12:41+05:30",
+"vuln_files": [
+"server/models/meshery_k8scontext_persister.go",
+"server/models/meshery_filter_persister.go",
+"server/models/performance_profile_persister.go",
+"server/models/meshery_application_persister.go",
+"server/models/sql-utils.go",
+"server/models/pattern_resource_persister.go",
+"server/models/meshery_pattern_persister.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-89"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-29031",
+"patch_date": [
+"2024-02-06 19:40:50+05:30"
+],
+"patch_files": [
+"server/handlers/meshsync_handler.go"
+],
+"earliest_patch_date": "2024-02-06 19:40:50+05:30",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-35181",
+"patch_date": [
+"2024-02-06 19:40:50+05:30",
+"2024-02-18 08:18:23-06:00"
+],
+"patch_files": [
+"server/handlers/meshsync_handler.go",
+"mesheryctl/pkg/utils/helpers.go",
+"server/models/events_persister.go"
+],
+"earliest_patch_date": "2024-02-06 19:40:50+05:30",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/handlers/meshsync_handler.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-35182",
+"patch_date": [
+"2024-02-18 08:18:23-06:00"
+],
+"patch_files": [
+"server/handlers/meshsync_handler.go",
+"mesheryctl/pkg/utils/helpers.go",
+"server/models/events_persister.go"
+],
+"earliest_patch_date": "2024-02-18 08:18:23-06:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/handlers/meshsync_handler.go",
+"mesheryctl/pkg/utils/helpers.go",
+"server/models/events_persister.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

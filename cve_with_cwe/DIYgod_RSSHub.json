@@ -1,0 +1,416 @@
+[
+{
+"cve_id": "CVE-2021-21278",
+"patch_date": [
+"2021-01-25 18:43:47+08:00"
+],
+"patch_files": [
+"docs/new-media.md",
+"lib/routes/gouhuo/cache.js",
+".eslintrc",
+"docs/programming.md",
+"lib/routes/huxiu/utils.js",
+"docs/game.md",
+"lib/routes/gouhuo/index.js",
+"lib/routes/heibaizhibo/room.js",
+"lib/routes/tencent/lemon/index.js",
+"docs/live.md",
+"lib/router.js",
+"lib/routes/gouhuo/strategy.js",
+"lib/routes/netease/news/data.js",
+"docs/program-update.md",
+"lib/routes/frontend/index.js"
+],
+"earliest_patch_date": "2021-01-25 18:43:47+08:00",
+"earliest_vuln_date": "2019-07-08 22:34:22+08:00",
+"vuln_files": [
+"docs/new-media.md",
+"lib/routes/gouhuo/cache.js",
+".eslintrc",
+"docs/programming.md",
+"lib/routes/huxiu/utils.js",
+"lib/routes/gouhuo/index.js",
+"docs/game.md",
+"lib/routes/heibaizhibo/room.js",
+"lib/routes/tencent/lemon/index.js",
+"docs/live.md",
+"lib/router.js",
+"lib/routes/gouhuo/strategy.js",
+"lib/routes/netease/news/data.js",
+"docs/program-update.md",
+"lib/routes/frontend/index.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-31110",
+"patch_date": [
+"2022-06-21 16:56:06+01:00"
+],
+"patch_files": [
+"package.json",
+"lib/middleware/parameter.js",
+"yarn.lock"
+],
+"earliest_patch_date": "2022-06-21 16:56:06+01:00",
+"earliest_vuln_date": "2020-02-09 18:51:58+08:00",
+"vuln_files": [
+"yarn.lock",
+"lib/middleware/parameter.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-1333"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-22493",
+"patch_date": [
+"2023-01-10 11:45:05+00:00"
+],
+"patch_files": [
+"lib/v2/gamme/tag.js",
+"lib/v2/zhubai/index.js",
+"lib/routes/bandisoft/index.js",
+"lib/routes/caixin/category.js",
+"docs/install/README.md",
+"lib/routes/gitlab/common.js",
+"lib/routes/mastodon/timeline_remote.js",
+"lib/v2/zcool/user.js",
+"lib/routes/biobio/others.js",
+"lib/config.js",
+"lib/routes/pornhub/category_url.js",
+"lib/routes/pornhub/users.js",
+"lib/routes/fanbox/main.js",
+"lib/routes/caixin/blog.js",
+"lib/routes/blogs/wordpress.js",
+"lib/v2/eagle/blog.js",
+"lib/v2/gumroad/index.js",
+"lib/v2/91porn/index.js",
+"lib/routes/hexo/fluid.js",
+"lib/v2/scitation/journal.js",
+"lib/routes/gitlab/release.js",
+"lib/routes/mastodon/utils.js",
+"lib/routes/pornhub/pornstar.js",
+"lib/v2/nikkei-cn/index.js",
+"lib/routes/gitlab/explore.js",
+"lib/routes/mastodon/account_id.js",
+"docs/en/install/README.md",
+"lib/routes/fashionnetwork/headline.js",
+"lib/routes/hexo/yilia.js",
+"lib/routes/ziroom/room.js",
+"lib/v2/ff14/ff14_global.js",
+"lib/v2/dut/index.js",
+"lib/utils/valid-host.js",
+"lib/v2/gamme/category.js",
+"lib/v2/itch/devlog.js",
+"lib/routes/hexo/next.js",
+"lib/v2/myfigurecollection/index.js",
+"lib/v2/lofter/user.js",
+"lib/routes/yahoo-news/index.js",
+"lib/v2/javbus/index.js",
+"lib/routes/mastodon/timeline_local.js",
+"lib/v2/19lou/index.js",
+"lib/v2/cnjxol/index.js",
+"lib/v2/eprice/rss.js",
+"lib/v2/huanqiu/index.js",
+"lib/routes/weforum/report.js",
+"lib/v2/javdb/utils.js",
+"lib/routes/engadget/home.js",
+"lib/routes/touhougarakuta/index.js",
+"lib/routes/blogs/hedwig.js",
+"lib/routes/pornhub/model.js",
+"test/utils/valid-host.js",
+"lib/v2/solidot/main.js",
+"lib/routes/fashionnetwork/news.js",
+"lib/routes/booth-pm/shop.js",
+"lib/routes/craigslist/search.js",
+"lib/v2/bendibao/news.js",
+"lib/v2/scitation/section.js",
+"lib/v2/btzj/index.js",
+"lib/v2/people/index.js",
+"lib/routes/gitlab/tag.js",
+"lib/v2/91porn/utils.js",
+"lib/v2/91porn/author.js",
+"lib/v2/mirror/index.js",
+"lib/v2/biquge/index.js",
+"lib/v2/myfigurecollection/activity.js"
+],
+"earliest_patch_date": "2023-01-10 11:45:05+00:00",
+"earliest_vuln_date": "2020-09-25 11:46:41+01:00",
+"vuln_files": [
+"docs/install/README.md",
+"lib/v2/javbus/index.js",
+"lib/v2/btzj/index.js",
+"lib/routes/weforum/report.js",
+"docs/en/install/README.md",
+"lib/v2/eagle/blog.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-26491",
+"patch_date": [
+"2023-02-28 10:52:32+00:00"
+],
+"patch_files": [
+"lib/middleware/parameter.js"
+],
+"earliest_patch_date": "2023-02-28 10:52:32+00:00",
+"earliest_vuln_date": "2021-09-09 01:37:41-07:00",
+"vuln_files": [
+"lib/middleware/parameter.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/middleware/parameter.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-27926",
+"patch_date": [
+"2024-03-04 23:06:41+08:00"
+],
+"patch_files": [
+"lib/config.ts",
+"lib/routes/rsshub/maintainer.ts",
+"lib/routes/telegram/tglib/client.ts",
+"website/docs/routes/social-media.mdx",
+"website/docs/routes/other.mdx",
+"website/i18n/zh/docusaurus-plugin-content-docs/current/install/config.md",
+"lib/routes/telegram/channel.ts",
+"lib/routes/telegram/tglib/channel.ts",
+"lib/routes/rsshub/router.ts",
+"website/docs/install/config.md",
+"lib/routes/weibo/timeline.ts",
+"lib/routes/rsshub/media.ts"
+],
+"earliest_patch_date": "2024-03-04 23:06:41+08:00",
+"earliest_vuln_date": "2022-02-07 22:55:42+08:00",
+"vuln_files": [
+"lib/config.ts",
+"lib/routes/rsshub/maintainer.ts",
+"lib/routes/telegram/tglib/client.ts",
+"website/docs/routes/social-media.mdx",
+"website/docs/routes/other.mdx",
+"website/i18n/zh/docusaurus-plugin-content-docs/current/install/config.md",
+"lib/routes/telegram/channel.ts",
+"lib/routes/telegram/tglib/channel.ts",
+"website/docs/install/config.md",
+"lib/routes/rsshub/router.ts",
+"lib/routes/weibo/timeline.ts",
+"lib/routes/rsshub/media.ts"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-27927",
+"patch_date": [
+"2024-03-05 17:27:51+08:00"
+],
+"patch_files": [
+"lib/routes/mastodon/utils.ts",
+"lib/routes/mastodon/acct.ts",
+"lib/routes/m4/index.ts"
+],
+"earliest_patch_date": "2024-03-05 17:27:51+08:00",
+"earliest_vuln_date": "2024-03-04 03:48:06+08:00",
+"vuln_files": [
+"lib/routes/mastodon/utils.ts",
+"lib/routes/mastodon/acct.ts"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-47179",
+"patch_date": [
+"2024-09-09 22:02:36+08:00"
+],
+"patch_files": [
+".github/workflows/docker-test-cont.yml"
+],
+"earliest_patch_date": "2024-09-09 22:02:36+08:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

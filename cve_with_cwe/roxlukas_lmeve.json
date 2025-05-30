@@ -1,0 +1,106 @@
+[
+{
+"cve_id": "CVE-2018-25071",
+"patch_date": [
+"2018-12-31 11:14:37+01:00"
+],
+"patch_files": [
+"wwwroot/ccpwgl/proxy.php"
+],
+"earliest_patch_date": "2018-12-31 11:14:37+01:00",
+"earliest_vuln_date": "2014-04-09 21:01:07+02:00",
+"vuln_files": [
+"wwwroot/ccpwgl/proxy.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-89"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-4246",
+"patch_date": [
+"2021-02-13 19:41:22+01:00"
+],
+"patch_files": [
+"include/db.php",
+"include/validator.php",
+"wwwroot/ccp_icons/PUT_CCP_ICONS_FILES_HERE",
+"include/errorhandler.php",
+"wwwroot/index.php",
+"wwwroot/api.php",
+"include/dbcatalog.php",
+"bin/Assets.php"
+],
+"earliest_patch_date": "2021-02-13 19:41:22+01:00",
+"earliest_vuln_date": "2014-03-14 12:29:17+01:00",
+"vuln_files": [
+"bin/Assets.php",
+"include/db.php",
+"include/errorhandler.php",
+"wwwroot/api.php",
+"include/dbcatalog.php",
+"wwwroot/index.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-89"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-89"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

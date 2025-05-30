@@ -1,0 +1,148 @@
+[
+{
+"cve_id": "CVE-2015-4411",
+"patch_date": [
+"2015-06-04 00:19:42-04:00",
+"2013-03-02 22:02:11+01:00"
+],
+"patch_files": [
+"ruby/lib/bson.rb",
+"lib/bson/object_id.rb",
+"ruby/spec/bson/object_id_spec.rb",
+"ruby/lib/bson/string.rb",
+"ruby/lib/bson/object_id.rb"
+],
+"earliest_patch_date": "2013-03-02 22:02:11+01:00",
+"earliest_vuln_date": "2013-02-28 11:22:36+01:00",
+"vuln_files": [
+"lib/bson/object_id.rb",
+"ruby/lib/bson/string.rb",
+"ruby/spec/bson/object_id_spec.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-400"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2015-4412",
+"patch_date": [
+"2015-06-04 00:19:42-04:00"
+],
+"patch_files": [
+"lib/bson/object_id.rb"
+],
+"earliest_patch_date": "2015-06-04 00:19:42-04:00",
+"earliest_vuln_date": "2013-04-07 13:39:45+02:00",
+"vuln_files": [
+"lib/bson/object_id.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-400"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-400"
+],
+"intro_duplicate_type": true,
+"intro_duplicated_types": [
+"CWE-400"
+],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/bson/object_id.rb"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"lib/bson/object_id.rb"
+]
+}
+]

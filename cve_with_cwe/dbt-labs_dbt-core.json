@@ -1,0 +1,139 @@
+[
+{
+"cve_id": "CVE-2024-40637",
+"patch_date": [
+"2024-05-01 11:24:57-04:00",
+"2024-04-29 09:59:43-04:00"
+],
+"patch_files": [
+"tests/unit/test_graph_selection.py",
+"core/dbt/contracts/connection.py",
+"core/dbt/contracts/graph/manifest.py",
+"tests/functional/metrics/test_metric_deferral.py",
+"tests/functional/run_operations/test_run_operations.py",
+"core/dbt/contracts/project.py",
+"tests/unit/test_cli_flags.py",
+".changes/unreleased/Features-20240422-173703.yaml",
+"core/dbt/config/profile.py",
+"tests/unit/test_events.py",
+"tests/functional/dependencies/test_local_dependency.py",
+"core/dbt/cli/flags.py",
+"core/dbt/include/starter_project/dbt_project.yml",
+"tests/functional/materializations/conftest.py",
+"tests/unit/test_manifest.py",
+".changes/unreleased/Under the Hood-20240418-172528.yaml",
+"tests/functional/basic/test_project.py",
+"tests/functional/fail_fast/test_fail_fast_run.py",
+"core/dbt/constants.py",
+"core/dbt/events/types_pb2.py",
+"core/dbt/tests/fixtures/project.py",
+"tests/unit/test_flags.py",
+"core/dbt/tracking.py",
+"core/dbt/deprecations.py",
+"tests/functional/deprecations/test_deprecations.py",
+"tests/functional/basic/test_mixed_case_db.py",
+"tests/functional/init/test_init.py",
+"tests/functional/configs/test_disabled_configs.py",
+"tests/unit/test_config.py",
+"core/dbt/config/runtime.py",
+"tests/unit/test_graph.py",
+"core/dbt/config/project.py",
+"core/dbt/events/types.proto",
+"core/dbt/flags.py",
+"core/dbt/config/__init__.py",
+"core/dbt/utils.py",
+".changes/unreleased/Features-20231218-195854.yaml",
+"tests/functional/materializations/test_custom_materialization.py",
+"core/dbt/events/types.py"
+],
+"earliest_patch_date": "2024-04-29 09:59:43-04:00",
+"earliest_vuln_date": "2018-08-10 08:26:44-06:00",
+"vuln_files": [
+"tests/unit/test_graph_selection.py",
+"core/dbt/contracts/connection.py",
+"core/dbt/contracts/graph/manifest.py",
+"tests/functional/metrics/test_metric_deferral.py",
+"tests/functional/run_operations/test_run_operations.py",
+"core/dbt/contracts/project.py",
+"tests/unit/test_cli_flags.py",
+"core/dbt/config/profile.py",
+"tests/functional/dependencies/test_local_dependency.py",
+"core/dbt/cli/flags.py",
+"core/dbt/include/starter_project/dbt_project.yml",
+"tests/unit/test_manifest.py",
+"tests/functional/basic/test_project.py",
+"tests/functional/fail_fast/test_fail_fast_run.py",
+"core/dbt/tests/fixtures/project.py",
+"tests/unit/test_flags.py",
+"tests/functional/deprecations/test_deprecations.py",
+"tests/functional/basic/test_mixed_case_db.py",
+"tests/functional/init/test_init.py",
+"tests/unit/test_config.py",
+"tests/functional/configs/test_disabled_configs.py",
+"core/dbt/config/runtime.py",
+"tests/unit/test_graph.py",
+"core/dbt/config/project.py",
+"core/dbt/flags.py",
+"core/dbt/config/__init__.py",
+"tests/functional/materializations/test_custom_materialization.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-89"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-36105",
+"patch_date": [
+"2024-05-22 10:00:54-04:00"
+],
+"patch_files": [
+"core/dbt/task/docs/serve.py",
+"tests/unit/task/docs/test_serve.py",
+"tests/unit/task/docs/__init__.py",
+".changes/unreleased/Security-20240522-094540.yaml"
+],
+"earliest_patch_date": "2024-05-22 10:00:54-04:00",
+"earliest_vuln_date": "2023-01-26 10:42:49-08:00",
+"vuln_files": [
+"core/dbt/task/docs/serve.py"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

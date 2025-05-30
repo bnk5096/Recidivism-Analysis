@@ -1,0 +1,1772 @@
+[
+{
+"cve_id": "CVE-2018-16391",
+"patch_date": [
+"2018-08-14 15:50:13+02:00"
+],
+"patch_files": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"earliest_patch_date": "2018-08-14 15:50:13+02:00",
+"earliest_vuln_date": "2002-02-20 09:56:47+00:00",
+"vuln_files": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "PHYSICAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 6.8,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 0.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4.6
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 3.9,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-119"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2018-16392",
+"patch_date": [
+"2018-08-14 15:50:13+02:00"
+],
+"patch_files": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"earliest_patch_date": "2018-08-14 15:50:13+02:00",
+"earliest_vuln_date": "2002-02-20 09:56:47+00:00",
+"vuln_files": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "PHYSICAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 6.8,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 0.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4.6
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 3.9,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-119"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-119"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2018-16393",
+"patch_date": [
+"2018-08-14 15:50:13+02:00"
+],
+"patch_files": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"earliest_patch_date": "2018-08-14 15:50:13+02:00",
+"earliest_vuln_date": "2002-02-20 09:56:47+00:00",
+"vuln_files": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "PHYSICAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 6.8,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 0.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4.6
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 3.9,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-119"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-119"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2018-16418",
+"patch_date": [
+"2018-08-14 15:50:13+02:00"
+],
+"patch_files": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"earliest_patch_date": "2018-08-14 15:50:13+02:00",
+"earliest_vuln_date": "2002-02-20 09:56:47+00:00",
+"vuln_files": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "PHYSICAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 6.6,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 0.7,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4.6
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 3.9,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-119"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-119"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2018-16419",
+"patch_date": [
+"2018-08-14 15:50:13+02:00"
+],
+"patch_files": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"earliest_patch_date": "2018-08-14 15:50:13+02:00",
+"earliest_vuln_date": "2002-02-20 09:56:47+00:00",
+"vuln_files": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "PHYSICAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 6.6,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 0.7,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4.6
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 3.9,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-119"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-119"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2018-16420",
+"patch_date": [
+"2018-08-14 15:50:13+02:00"
+],
+"patch_files": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"earliest_patch_date": "2018-08-14 15:50:13+02:00",
+"earliest_vuln_date": "2002-02-20 09:56:47+00:00",
+"vuln_files": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "PHYSICAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 6.6,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 0.7,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4.6
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 3.9,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-119"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-119"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2018-16421",
+"patch_date": [
+"2018-08-14 15:50:13+02:00"
+],
+"patch_files": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"earliest_patch_date": "2018-08-14 15:50:13+02:00",
+"earliest_vuln_date": "2002-02-20 09:56:47+00:00",
+"vuln_files": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "PHYSICAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 6.6,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 0.7,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4.6
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 3.9,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-119"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-119"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2018-16422",
+"patch_date": [
+"2018-08-14 15:50:13+02:00"
+],
+"patch_files": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"earliest_patch_date": "2018-08-14 15:50:13+02:00",
+"earliest_vuln_date": "2002-02-20 09:56:47+00:00",
+"vuln_files": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "PHYSICAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 6.6,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 0.7,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4.6
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 3.9,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-119"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-119"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2018-16423",
+"patch_date": [
+"2018-08-14 15:50:13+02:00"
+],
+"patch_files": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"earliest_patch_date": "2018-08-14 15:50:13+02:00",
+"earliest_vuln_date": "2002-02-20 09:56:47+00:00",
+"vuln_files": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "PHYSICAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 6.6,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 0.7,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4.6
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 3.9,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-415"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2018-16424",
+"patch_date": [
+"2018-08-14 15:50:13+02:00"
+],
+"patch_files": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"earliest_patch_date": "2018-08-14 15:50:13+02:00",
+"earliest_vuln_date": "2002-02-20 09:56:47+00:00",
+"vuln_files": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "PHYSICAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 6.6,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 0.7,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4.6
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 3.9,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-415"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-415"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2018-16425",
+"patch_date": [
+"2018-08-14 15:50:13+02:00"
+],
+"patch_files": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"earliest_patch_date": "2018-08-14 15:50:13+02:00",
+"earliest_vuln_date": "2002-02-20 09:56:47+00:00",
+"vuln_files": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "PHYSICAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 6.6,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 0.7,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4.6
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 3.9,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-415"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-415"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/tools/egk-tool.c",
+"src/libopensc/card-epass2003.c",
+"src/libopensc/card-cac.c",
+"src/libopensc/card-muscle.c",
+"src/libopensc/pkcs15-gemsafeV1.c",
+"src/tools/cryptoflex-tool.c",
+"src/libopensc/sc.c",
+"src/tools/util.c",
+"src/libopensc/pkcs15-esteid.c",
+"src/libopensc/pkcs15-sc-hsm.c",
+"src/libopensc/card-tcos.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2018-16426",
+"patch_date": [
+"2018-08-14 16:13:22+02:00"
+],
+"patch_files": [
+"src/libopensc/card-iasecc.c"
+],
+"earliest_patch_date": "2018-08-14 16:13:22+02:00",
+"earliest_vuln_date": "2011-02-16 10:55:05+00:00",
+"vuln_files": [
+"src/libopensc/card-iasecc.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:P/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "PHYSICAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 0.7,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 2.1
+},
+"severity": "LOW",
+"exploitabilityScore": 3.9,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-674"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-15945",
+"patch_date": [
+"2019-08-27 15:19:22+02:00"
+],
+"patch_files": [
+"src/libopensc/asn1.c"
+],
+"earliest_patch_date": "2019-08-27 15:19:22+02:00",
+"earliest_vuln_date": "2001-11-01 15:43:20+00:00",
+"vuln_files": [
+"src/libopensc/asn1.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "PHYSICAL",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 6.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 0.5,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4.4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 3.4,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-119"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-119"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-15946",
+"patch_date": [
+"2019-08-27 15:21:46+02:00"
+],
+"patch_files": [
+"src/libopensc/asn1.c"
+],
+"earliest_patch_date": "2019-08-27 15:21:46+02:00",
+"earliest_vuln_date": "2003-02-03 12:17:12+00:00",
+"vuln_files": [
+"src/libopensc/asn1.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "PHYSICAL",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 6.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 0.5,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4.4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 3.4,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-119"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-119"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/libopensc/asn1.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-19480",
+"patch_date": [
+"2019-10-23 13:50:52+02:00"
+],
+"patch_files": [
+"src/libopensc/pkcs15-prkey.c"
+],
+"earliest_patch_date": "2019-10-23 13:50:52+02:00",
+"earliest_vuln_date": "2019-10-22 09:41:14+02:00",
+"vuln_files": [
+"src/libopensc/pkcs15-prkey.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "PHYSICAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 4.6,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 0.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 2.1
+},
+"severity": "LOW",
+"exploitabilityScore": 3.9,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-672"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-19481",
+"patch_date": [
+"2019-11-01 15:53:40+01:00"
+],
+"patch_files": [
+"src/libopensc/card-cac1.c"
+],
+"earliest_patch_date": "2019-11-01 15:53:40+01:00",
+"earliest_vuln_date": "2018-10-30 17:27:28+01:00",
+"vuln_files": [
+"src/libopensc/card-cac1.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "PHYSICAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 4.6,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 0.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 2.1
+},
+"severity": "LOW",
+"exploitabilityScore": 3.9,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-119"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-119"
+],
+"intro_duplicate_type": true,
+"intro_duplicated_types": [
+"CWE-119"
+],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-19479",
+"patch_date": [
+"2019-11-03 04:45:28+01:00"
+],
+"patch_files": [
+"src/libopensc/card-setcos.c"
+],
+"earliest_patch_date": "2019-11-03 04:45:28+01:00",
+"earliest_vuln_date": "2005-04-04 09:30:54+00:00",
+"vuln_files": [
+"src/libopensc/card-setcos.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 2.1
+},
+"severity": "LOW",
+"exploitabilityScore": 3.9,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-125"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-20792",
+"patch_date": [
+"2019-12-04 21:47:47+01:00"
+],
+"patch_files": [
+"src/libopensc/card-coolkey.c"
+],
+"earliest_patch_date": "2019-12-04 21:47:47+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "PHYSICAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 6.8,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 0.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4.6
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 3.9,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-415"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-415"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-26572",
+"patch_date": [
+"2020-06-04 10:04:10+02:00"
+],
+"patch_files": [
+"src/libopensc/card-tcos.c"
+],
+"earliest_patch_date": "2020-06-04 10:04:10+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 5.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 2.1
+},
+"severity": "LOW",
+"exploitabilityScore": 3.9,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-787"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/libopensc/card-tcos.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-26570",
+"patch_date": [
+"2020-07-30 02:27:02+02:00"
+],
+"patch_files": [
+"src/libopensc/pkcs15-oberthur.c"
+],
+"earliest_patch_date": "2020-07-30 02:27:02+02:00",
+"earliest_vuln_date": "2010-03-09 17:40:22+00:00",
+"vuln_files": [
+"src/libopensc/pkcs15-oberthur.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 5.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 2.1
+},
+"severity": "LOW",
+"exploitabilityScore": 3.9,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-787"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-787"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-4535",
+"patch_date": [
+"2023-07-03 21:05:28+02:00"
+],
+"patch_files": [
+"src/libopensc/card-myeid.c"
+],
+"earliest_patch_date": "2023-07-03 21:05:28+02:00",
+"earliest_vuln_date": "2022-08-26 11:48:19+02:00",
+"vuln_files": [
+"src/libopensc/card-myeid.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L",
+"attackVector": "PHYSICAL",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "LOW",
+"baseScore": 3.8,
+"baseSeverity": "LOW"
+},
+"exploitabilityScore": 0.4,
+"impactScore": 3.4
+}
+},
+"cwes": [
+"CWE-125"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-125"
+],
+"intro_duplicate_type": true,
+"intro_duplicated_types": [
+"CWE-125"
+],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-1454",
+"patch_date": [
+"2023-12-20 11:37:49+01:00"
+],
+"patch_files": [
+"src/pkcs15init/pkcs15-authentic.c"
+],
+"earliest_patch_date": "2023-12-20 11:37:49+01:00",
+"earliest_vuln_date": "2023-12-07 16:48:32+01:00",
+"vuln_files": [
+"src/pkcs15init/pkcs15-authentic.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:P/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "PHYSICAL",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 3.4,
+"baseSeverity": "LOW"
+},
+"exploitabilityScore": 0.4,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

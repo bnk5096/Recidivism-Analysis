@@ -1,0 +1,154 @@
+[
+{
+"cve_id": "CVE-2020-5261",
+"patch_date": [
+"2020-03-24 11:56:25+01:00"
+],
+"patch_files": [
+"Tests/Tests.Shared/WebSSO/Saml2ArtifactBindingTests.cs",
+"Sustainsys.Saml2/Configuration/SPOptions.cs",
+"Sustainsys.Saml2/SAML2P/Saml2PSecurityTokenHandler.cs",
+"Sustainsys.Saml2/SAML2P/Saml2Response.cs",
+"Tests/Tests.Shared/Saml2P/Saml2ResponseTests.cs"
+],
+"earliest_patch_date": "2020-03-24 11:56:25+01:00",
+"earliest_vuln_date": "2013-09-26 08:40:17+02:00",
+"vuln_files": [
+"Tests/Tests.Shared/WebSSO/Saml2ArtifactBindingTests.cs",
+"Sustainsys.Saml2/Configuration/SPOptions.cs",
+"Tests/Tests.Shared/Saml2P/Saml2ResponseTests.cs",
+"Sustainsys.Saml2/SAML2P/Saml2PSecurityTokenHandler.cs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.8,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.6,
+"impactScore": 5.2
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.9
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 6.8,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-294"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-5268",
+"patch_date": [
+"2020-03-24 11:56:25+01:00"
+],
+"patch_files": [
+"Tests/Tests.Shared/WebSSO/Saml2ArtifactBindingTests.cs",
+"Sustainsys.Saml2/Configuration/SPOptions.cs",
+"Sustainsys.Saml2/SAML2P/Saml2PSecurityTokenHandler.cs",
+"Sustainsys.Saml2/SAML2P/Saml2Response.cs",
+"Tests/Tests.Shared/Saml2P/Saml2ResponseTests.cs"
+],
+"earliest_patch_date": "2020-03-24 11:56:25+01:00",
+"earliest_vuln_date": "2013-09-26 08:40:17+02:00",
+"vuln_files": [
+"Tests/Tests.Shared/WebSSO/Saml2ArtifactBindingTests.cs",
+"Sustainsys.Saml2/Configuration/SPOptions.cs",
+"Tests/Tests.Shared/Saml2P/Saml2ResponseTests.cs",
+"Sustainsys.Saml2/SAML2P/Saml2PSecurityTokenHandler.cs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.3,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.1,
+"impactScore": 5.2
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.9
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 6.8,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-287"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"Tests/Tests.Shared/WebSSO/Saml2ArtifactBindingTests.cs",
+"Sustainsys.Saml2/Configuration/SPOptions.cs",
+"Sustainsys.Saml2/SAML2P/Saml2PSecurityTokenHandler.cs",
+"Sustainsys.Saml2/SAML2P/Saml2Response.cs",
+"Tests/Tests.Shared/Saml2P/Saml2ResponseTests.cs"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

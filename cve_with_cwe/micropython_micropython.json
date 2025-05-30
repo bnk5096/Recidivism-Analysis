@@ -1,0 +1,161 @@
+[
+{
+"cve_id": "CVE-2024-8947",
+"patch_date": [
+"2024-04-22 11:50:52+10:00"
+],
+"patch_files": [
+"tests/basics/bytearray_add_self.py",
+"tests/basics/bytearray_slice_assign.py",
+"tests/basics/bytearray_add_self.py.exp",
+"tests/basics/bytearray_add.py",
+"py/objarray.c"
+],
+"earliest_patch_date": "2024-04-22 11:50:52+10:00",
+"earliest_vuln_date": "2015-04-16 00:51:12+03:00",
+"vuln_files": [
+"tests/basics/bytearray_slice_assign.py",
+"tests/basics/bytearray_add.py",
+"py/objarray.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-416"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-8948",
+"patch_date": [
+"2024-06-24 14:07:00+10:00"
+],
+"patch_files": [
+"py/mpz.h",
+"py/objint.c",
+"py/objint_mpz.c",
+"py/objint.h",
+"py/mpz.c",
+"docs/library/builtins.rst",
+"tests/basics/int_bytes.py",
+"tests/basics/int_bytes_int64.py",
+"py/misc.h",
+"tests/basics/int_bytes_intbig.py",
+"py/objint_longlong.c",
+"tests/cpydiff/types_int_to_bytes.py"
+],
+"earliest_patch_date": "2024-06-24 14:07:00+10:00",
+"earliest_vuln_date": "2014-04-09 01:07:37+03:00",
+"vuln_files": [
+"py/mpz.h",
+"py/objint.c",
+"py/objint_mpz.c",
+"py/objint.h",
+"py/mpz.c",
+"py/objint_longlong.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-787"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-8946",
+"patch_date": [
+"2024-07-23 12:13:49+10:00"
+],
+"patch_files": [
+"extmod/vfs.c"
+],
+"earliest_patch_date": "2024-07-23 12:13:49+10:00",
+"earliest_vuln_date": "2017-01-27 17:19:06+11:00",
+"vuln_files": [
+"extmod/vfs.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-787"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-787"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

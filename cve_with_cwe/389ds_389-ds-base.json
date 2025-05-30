@@ -1,0 +1,174 @@
+[
+{
+"cve_id": "CVE-2016-4992",
+"patch_date": [
+"2016-07-14 10:10:35-07:00"
+],
+"patch_files": [
+"ldap/servers/slapd/back-ldbm/proto-back-ldbm.h",
+"ldap/servers/slapd/back-ldbm/findentry.c",
+"ldap/servers/slapd/back-ldbm/ldbm_modrdn.c",
+"ldap/servers/slapd/back-ldbm/ldbm_compare.c",
+"ldap/servers/slapd/back-ldbm/vlv_srch.c",
+"ldap/servers/slapd/back-ldbm/ldbm_delete.c",
+"ldap/servers/slapd/back-ldbm/misc.c",
+"ldap/servers/slapd/result.c",
+"ldap/servers/slapd/back-ldbm/dn2entry.c",
+"ldap/servers/slapd/bind.c",
+"ldap/servers/slapd/back-ldbm/ldbm_search.c",
+"ldap/servers/slapd/back-ldbm/ldbm_bind.c",
+"ldap/servers/slapd/back-ldbm/ldbm_modify.c",
+"ldap/servers/slapd/defbackend.c",
+"ldap/servers/slapd/back-ldbm/ldbm_add.c"
+],
+"earliest_patch_date": "2016-07-14 10:10:35-07:00",
+"earliest_vuln_date": "2005-01-21 00:44:34+00:00",
+"vuln_files": [
+"ldap/servers/slapd/back-ldbm/proto-back-ldbm.h",
+"ldap/servers/slapd/back-ldbm/findentry.c",
+"ldap/servers/slapd/back-ldbm/ldbm_modrdn.c",
+"ldap/servers/slapd/back-ldbm/ldbm_compare.c",
+"ldap/servers/slapd/back-ldbm/vlv_srch.c",
+"ldap/servers/slapd/back-ldbm/ldbm_delete.c",
+"ldap/servers/slapd/result.c",
+"ldap/servers/slapd/back-ldbm/misc.c",
+"ldap/servers/slapd/back-ldbm/dn2entry.c",
+"ldap/servers/slapd/bind.c",
+"ldap/servers/slapd/back-ldbm/ldbm_search.c",
+"ldap/servers/slapd/back-ldbm/ldbm_bind.c",
+"ldap/servers/slapd/back-ldbm/ldbm_modify.c",
+"ldap/servers/slapd/defbackend.c",
+"ldap/servers/slapd/back-ldbm/ldbm_add.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-200"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-35518",
+"patch_date": [
+"2020-12-16 16:30:28+01:00",
+"2021-02-10 09:29:31-05:00"
+],
+"patch_files": [
+"ldap/servers/slapd/result.c",
+"dirsrvtests/tests/suites/basic/basic_test.py",
+"ldap/servers/slapd/dse.c",
+"ldap/servers/slapd/back-ldbm/ldbm_config.c",
+"ldap/servers/slapd/back-ldbm/ldbm_bind.c"
+],
+"earliest_patch_date": "2020-12-16 16:30:28+01:00",
+"earliest_vuln_date": "2005-01-21 00:44:34+00:00",
+"vuln_files": [
+"ldap/servers/slapd/back-ldbm/ldbm_config.c",
+"ldap/servers/slapd/result.c",
+"dirsrvtests/tests/suites/basic/basic_test.py",
+"ldap/servers/slapd/back-ldbm/ldbm_bind.c",
+"ldap/servers/slapd/dse.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-203"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"ldap/servers/slapd/result.c",
+"ldap/servers/slapd/back-ldbm/ldbm_bind.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,290 @@
+[
+{
+"cve_id": "CVE-2023-30620",
+"patch_date": [
+"2023-02-16 20:31:12+01:00"
+],
+"patch_files": [
+"mindsdb/api/http/namespaces/file.py",
+"mindsdb/api/http/utils.py"
+],
+"earliest_patch_date": "2023-02-16 20:31:12+01:00",
+"earliest_vuln_date": "2022-03-30 09:50:32+00:00",
+"vuln_files": [
+"mindsdb/api/http/namespaces/file.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-38699",
+"patch_date": [
+"2023-07-21 12:53:02+02:00"
+],
+"patch_files": [
+"mindsdb/integrations/handlers/dremio_handler/dremio_handler.py"
+],
+"earliest_patch_date": "2023-07-21 12:53:02+02:00",
+"earliest_vuln_date": "2023-02-23 20:04:37+05:30",
+"vuln_files": [
+"mindsdb/integrations/handlers/dremio_handler/dremio_handler.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-49795",
+"patch_date": [
+"2023-11-29 16:02:18+03:00"
+],
+"patch_files": [
+"mindsdb/utilities/security.py",
+"mindsdb/api/http/namespaces/file.py",
+"mindsdb/integrations/handlers/web_handler/web_handler.py",
+"mindsdb/integrations/handlers/llama_index_handler/llama_index_handler.py"
+],
+"earliest_patch_date": "2023-11-29 16:02:18+03:00",
+"earliest_vuln_date": "2023-06-15 18:07:04-04:00",
+"vuln_files": [
+"mindsdb/api/http/namespaces/file.py",
+"mindsdb/integrations/handlers/web_handler/web_handler.py",
+"mindsdb/integrations/handlers/llama_index_handler/llama_index_handler.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"mindsdb/api/http/namespaces/file.py"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"mindsdb/api/http/namespaces/file.py"
+]
+},
+{
+"cve_id": "CVE-2023-49796",
+"patch_date": [
+"2023-11-29 16:02:18+03:00"
+],
+"patch_files": [
+"mindsdb/utilities/security.py",
+"mindsdb/api/http/namespaces/file.py",
+"mindsdb/integrations/handlers/web_handler/web_handler.py",
+"mindsdb/integrations/handlers/llama_index_handler/llama_index_handler.py"
+],
+"earliest_patch_date": "2023-11-29 16:02:18+03:00",
+"earliest_vuln_date": "2023-06-15 18:07:04-04:00",
+"vuln_files": [
+"mindsdb/api/http/namespaces/file.py",
+"mindsdb/integrations/handlers/web_handler/web_handler.py",
+"mindsdb/integrations/handlers/llama_index_handler/llama_index_handler.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"mindsdb/utilities/security.py",
+"mindsdb/api/http/namespaces/file.py",
+"mindsdb/integrations/handlers/web_handler/web_handler.py",
+"mindsdb/integrations/handlers/llama_index_handler/llama_index_handler.py"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"mindsdb/api/http/namespaces/file.py"
+]
+},
+{
+"cve_id": "CVE-2024-24759",
+"patch_date": [
+"2024-01-05 12:52:51+02:00"
+],
+"patch_files": [
+"mindsdb/integrations/handlers/llama_index_handler/requirements.txt",
+"mindsdb/integrations/handlers/rag_handler/settings.py",
+"mindsdb/integrations/handlers/llama_index_handler/__init__.py",
+"mindsdb/integrations/handlers/langchain_handler/requirements.txt",
+"mindsdb/integrations/handlers/langchain_embedding_handler/requirements.txt",
+"mindsdb/integrations/handlers/llama_index_handler/config.py",
+"mindsdb/integrations/handlers/instatus_handler/instatus_handler.py",
+"mindsdb/integrations/handlers/openai_handler/helpers.py",
+"mindsdb/integrations/handlers/instatus_handler/instatus_tables.py",
+"mindsdb/integrations/handlers/llama_index_handler/README.md",
+"tests/unit/ml_handlers/test_langchain_embedding.py",
+"mindsdb/integrations/handlers/llama_index_handler/github_loader_helper.py",
+"mindsdb/integrations/handlers/llama_index_handler/__about__.py",
+"mindsdb/__about__.py",
+"mindsdb/integrations/handlers/anyscale_endpoints_handler/anyscale_endpoints_handler.py",
+"mindsdb/integrations/handlers/langchain_handler/langchain_handler.py",
+"tests/unit/ml_handlers/test_openai.py",
+"mindsdb/integrations/handlers/anyscale_endpoints_handler/requirements.txt",
+"mindsdb/integrations/handlers/instatus_handler/README.md",
+"mindsdb/integrations/handlers/openai_handler/openai_handler.py",
+"mindsdb/integrations/handlers/openai_handler/constants.py",
+"mindsdb/integrations/handlers/llama_index_handler/llama_index_handler.py",
+"mindsdb/integrations/handlers/rag_handler/requirements.txt",
+"mindsdb/integrations/handlers/openai_handler/requirements.txt",
+"tests/handler_tests/test_instatus_handler.py"
+],
+"earliest_patch_date": "2024-01-05 12:52:51+02:00",
+"earliest_vuln_date": "2022-12-29 12:47:10+03:00",
+"vuln_files": [
+"mindsdb/integrations/handlers/llama_index_handler/requirements.txt",
+"mindsdb/integrations/handlers/rag_handler/settings.py",
+"mindsdb/integrations/handlers/llama_index_handler/__init__.py",
+"mindsdb/integrations/handlers/langchain_handler/requirements.txt",
+"mindsdb/integrations/handlers/langchain_embedding_handler/requirements.txt",
+"mindsdb/integrations/handlers/instatus_handler/instatus_handler.py",
+"mindsdb/integrations/handlers/openai_handler/helpers.py",
+"mindsdb/integrations/handlers/instatus_handler/instatus_tables.py",
+"tests/unit/ml_handlers/test_langchain_embedding.py",
+"mindsdb/integrations/handlers/llama_index_handler/__about__.py",
+"mindsdb/__about__.py",
+"mindsdb/integrations/handlers/anyscale_endpoints_handler/anyscale_endpoints_handler.py",
+"mindsdb/integrations/handlers/langchain_handler/langchain_handler.py",
+"tests/unit/ml_handlers/test_openai.py",
+"mindsdb/integrations/handlers/openai_handler/openai_handler.py",
+"mindsdb/integrations/handlers/anyscale_endpoints_handler/requirements.txt",
+"mindsdb/integrations/handlers/rag_handler/requirements.txt",
+"mindsdb/integrations/handlers/instatus_handler/README.md",
+"mindsdb/integrations/handlers/llama_index_handler/llama_index_handler.py",
+"mindsdb/integrations/handlers/openai_handler/constants.py",
+"mindsdb/integrations/handlers/openai_handler/requirements.txt",
+"tests/handler_tests/test_instatus_handler.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 9.1,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.2
+}
+},
+"cwes": [
+"CWE-918"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"mindsdb/integrations/handlers/llama_index_handler/llama_index_handler.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

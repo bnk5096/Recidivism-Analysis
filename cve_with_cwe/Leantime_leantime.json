@@ -1,0 +1,181 @@
+[
+{
+"cve_id": "CVE-2020-5292",
+"patch_date": [
+"2020-03-26 21:39:55-07:00"
+],
+"patch_files": [
+"src/core/class.db.php",
+"src/domain/tickets/repositories/class.tickets.php"
+],
+"earliest_patch_date": "2020-03-26 21:39:55-07:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-89"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-45826",
+"patch_date": [
+"2023-09-25 14:38:45-04:00"
+],
+"patch_files": [
+"app/Core/Events.php",
+"app/Core/Template.php",
+"app/Domain/Help/Controllers/FirstLogin.php",
+"app/Domain/Canvas/Templates/element.inc.php",
+"app/Domain/Oidc/Services/Oidc.php",
+"app/Domain/Api/Controllers/NewApiKey.php",
+"app/Domain/Auth/Controllers/LoginInfo.php",
+"app/Domain/Api/Controllers/ApiKey.php",
+"app/Domain/Comments/Templates/showAll.tpl.php",
+"app/Domain/Files/Repositories/Files.php",
+"app/Domain/Menu/Composers/Menu.php",
+"app/Core/Frontcontroller.php",
+"app/Language/en-US.ini",
+"app/Plugins/MotivationalQuotes/register.php",
+"app/Domain/Plugins/Services/Plugins.php",
+"app/Domain/Projects/Templates/newProject.tpl.php",
+"app/Domain/Projects/Templates/showMy.tpl.php",
+"app/Domain/Clients/Templates/showClient.tpl.php",
+"app/Plugins/MotivationalQuotes/composer.json",
+"package.json",
+"app/Domain/Menu/Templates/partials/projectLink.blade.php",
+"app/Domain/Menu/Templates/headMenu.blade.php",
+"package-lock.json",
+"app/Domain/Auth/Services/Auth.php",
+"app/Domain/Install/Controllers/Update.php",
+"app/Domain/Menu/Templates/menu.blade.php",
+"app/Domain/Auth/Templates/partials/loginInfo.blade.php",
+"public/assets/css/components/nav.css",
+"app/Domain/Tickets/Js/ticketsController.js",
+"app/Domain/Tickets/Templates/submodules/portfolioHeader.sub.php",
+".idea/dataSources.xml",
+"app/Core/AppSettings.php",
+"app/Core/Environment.php",
+"app/Domain/Tickets/Services/Tickets.php",
+"config/sample.env",
+"app/Domain/Menu/Templates/partials/projectSelector.blade.php",
+"public/assets/css/components/style.default.css",
+"public/theme/default/language/en-Us.ini",
+"app/Core/DefaultConfig.php",
+"app/Domain/Comments/Templates/components/input.blade.php",
+"app/Core/Fileupload.php",
+"app/Domain/Comments/Templates/components/reply.blade.php",
+"app/Domain/Dashboard/Templates/show.blade.php",
+"app/Domain/Ideas/Repositories/Ideas.php",
+"app/Domain/Menu/Services/Menu.php",
+"app/Domain/Projects/Services/Projects.php",
+"public/download.php",
+"app/Domain/Comments/Repositories/Comments.php",
+"app/Domain/Help/Templates/firstLoginDialog.tpl.php",
+".idea/symfony2.xml",
+"app/Domain/Projects/Repositories/Projects.php",
+"public/assets/js/app/core/editors.js",
+"app/Core/Bootloader.php",
+"app/Domain/Users/Controllers/NewUser.php",
+"config/configuration.sample.php",
+"app/Domain/Projects/Templates/showProject.tpl.php",
+"app/Domain/Users/Repositories/Users.php",
+"app/Domain/Users/Templates/newUser.tpl.php",
+"app/Domain/Dashboard/Templates/home.tpl.php",
+"app/Domain/Projects/Templates/submodules/projectDetails.sub.php",
+"app/Domain/Users/Templates/editUser.tpl.php",
+"app/Domain/Comments/Templates/submodules/generalComment.sub.php",
+"app/Domain/Install/Repositories/Install.php",
+"app/Domain/Users/Templates/components/profile-box.blade.php",
+"app/Domain/Users/Templates/components/profile-image.blade.php",
+"app/Domain/Users/Templates/editOwn.tpl.php",
+"app/Domain/Comments/Js/commentsController.js",
+"app/Core/Mailer.php",
+"app/Domain/Ldap/Services/Ldap.php",
+"app/Domain/Auth/Templates/loginInfo.tpl.php"
+],
+"earliest_patch_date": "2023-09-25 14:38:45-04:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-89"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-89"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

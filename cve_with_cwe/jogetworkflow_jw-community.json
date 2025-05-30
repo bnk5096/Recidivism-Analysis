@@ -1,0 +1,97 @@
+[
+{
+"cve_id": "CVE-2022-4560",
+"patch_date": [
+"2022-08-29 20:35:59+08:00"
+],
+"patch_files": [
+"wflow-core/src/main/java/org/joget/apps/userview/service/UserviewService.java",
+"wflow-core/src/main/java/org/joget/plugin/enterprise/UniversalTheme.java",
+"wflow-consoleweb/src/main/java/org/joget/apps/app/controller/UserviewWebController.java"
+],
+"earliest_patch_date": "2022-08-29 20:35:59+08:00",
+"earliest_vuln_date": "2016-03-14 04:30:14+00:00",
+"vuln_files": [
+"wflow-core/src/main/java/org/joget/plugin/enterprise/UniversalTheme.java",
+"wflow-consoleweb/src/main/java/org/joget/apps/app/controller/UserviewWebController.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4859",
+"patch_date": [
+"2022-11-23 09:04:01+08:00"
+],
+"patch_files": [
+"wflow-core/src/main/java/org/joget/plugin/enterprise/UserProfileMenu.java"
+],
+"earliest_patch_date": "2022-11-23 09:04:01+08:00",
+"earliest_vuln_date": "2016-11-14 09:48:14+08:00",
+"vuln_files": [
+"wflow-core/src/main/java/org/joget/plugin/enterprise/UserProfileMenu.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

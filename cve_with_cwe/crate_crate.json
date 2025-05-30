@@ -1,0 +1,92 @@
+[
+{
+"cve_id": "CVE-2024-24565",
+"patch_date": [
+"2024-01-29 14:13:34+01:00"
+],
+"patch_files": [
+"server/src/test/java/io/crate/execution/engine/collect/sources/FileCollectSourceTest.java",
+"server/src/main/java/io/crate/exceptions/UnauthorizedException.java",
+"server/src/test/java/io/crate/execution/engine/collect/files/FileReadingCollectorTest.java",
+"server/src/test/java/io/crate/integrationtests/CopyIntegrationTest.java",
+"plugins/cr8-copy-s3/src/test/java/io/crate/copy/s3/S3FileReadingCollectorTest.java",
+"server/src/main/java/io/crate/execution/engine/collect/sources/FileCollectSource.java",
+"server/src/test/java/io/crate/execution/engine/collect/MapSideDataCollectOperationTest.java",
+"server/src/test/java/io/crate/execution/engine/collect/files/FileReadingIteratorTest.java",
+"docs/sql/statements/copy-from.rst",
+"docs/appendices/release-notes/5.6.1.rst",
+"docs/appendices/release-notes/5.5.4.rst",
+"server/src/main/java/org/elasticsearch/ElasticsearchException.java",
+"server/src/main/java/io/crate/execution/engine/collect/files/FileReadingIterator.java"
+],
+"earliest_patch_date": "2024-01-29 14:13:34+01:00",
+"earliest_vuln_date": "2016-04-25 15:28:20+02:00",
+"vuln_files": [
+"server/src/test/java/io/crate/execution/engine/collect/sources/FileCollectSourceTest.java",
+"server/src/main/java/io/crate/exceptions/UnauthorizedException.java",
+"server/src/test/java/io/crate/execution/engine/collect/files/FileReadingCollectorTest.java",
+"plugins/cr8-copy-s3/src/test/java/io/crate/copy/s3/S3FileReadingCollectorTest.java",
+"server/src/main/java/io/crate/execution/engine/collect/sources/FileCollectSource.java",
+"server/src/test/java/io/crate/execution/engine/collect/MapSideDataCollectOperationTest.java",
+"server/src/test/java/io/crate/execution/engine/collect/files/FileReadingIteratorTest.java",
+"server/src/main/java/org/elasticsearch/ElasticsearchException.java",
+"server/src/main/java/io/crate/execution/engine/collect/files/FileReadingIterator.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-37309",
+"patch_date": [
+"2024-05-23 14:41:10+00:00"
+],
+"patch_files": [
+"app/src/main/dist/bin/crate",
+"docs/appendices/release-notes/5.7.2.rst",
+"app/src/main/dist/bin/crate.bat"
+],
+"earliest_patch_date": "2024-05-23 14:41:10+00:00",
+"earliest_vuln_date": "2019-11-04 11:52:44+00:00",
+"vuln_files": [
+"app/src/main/dist/bin/crate",
+"app/src/main/dist/bin/crate.bat"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

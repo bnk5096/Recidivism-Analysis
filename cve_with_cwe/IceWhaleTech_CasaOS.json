@@ -1,0 +1,189 @@
+[
+{
+"cve_id": "CVE-2022-24193",
+"patch_date": [
+"2022-01-26 18:50:34+08:00"
+],
+"patch_files": [
+"route/v1/app.go",
+"web/js/app.js",
+"route/v1/system.go",
+"web/js/2.js",
+"service/zerotier.go",
+"web/js/chunk-vendors.js",
+"web/js/3.js",
+"route/v1/docker.go",
+"service/casa.go",
+"web/js/4.js",
+"route/v1/zerotier.go",
+"types/system.go",
+"route/v1/disk.go",
+"UI",
+"route/init.go"
+],
+"earliest_patch_date": "2022-01-26 18:50:34+08:00",
+"earliest_vuln_date": "2021-09-26 10:35:02+08:00",
+"vuln_files": [
+"route/v1/app.go",
+"web/js/app.js",
+"route/v1/system.go",
+"web/js/2.js",
+"service/zerotier.go",
+"web/js/chunk-vendors.js",
+"web/js/3.js",
+"route/v1/docker.go",
+"web/js/4.js",
+"route/v1/zerotier.go",
+"types/system.go",
+"route/v1/disk.go",
+"service/casa.go",
+"route/init.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-78"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-37469",
+"patch_date": [
+"2023-04-24 11:24:22+08:00"
+],
+"patch_files": [
+"route/v1/samba.go",
+"service/connections.go"
+],
+"earliest_patch_date": "2023-04-24 11:24:22+08:00",
+"earliest_vuln_date": "2022-08-15 11:37:21+08:00",
+"vuln_files": [
+"route/v1/samba.go",
+"service/connections.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-37266",
+"patch_date": [
+"2023-04-26 16:00:43+08:00"
+],
+"patch_files": [
+"route/v2.go",
+"go.sum",
+"route/v1.go",
+"go.mod"
+],
+"earliest_patch_date": "2023-04-26 16:00:43+08:00",
+"earliest_vuln_date": "2022-10-20 14:25:26+08:00",
+"vuln_files": [
+"route/v2.go",
+"go.sum",
+"route/v1.go",
+"go.mod"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

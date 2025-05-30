@@ -1,0 +1,347 @@
+[
+{
+"cve_id": "CVE-2022-29777",
+"patch_date": [
+"2020-09-30 13:52:41+03:00"
+],
+"patch_files": [
+"DesktopEditor/fontengine/fontconverter/FontFileType1.cpp",
+"DesktopEditor/fontengine/fontconverter/FontFileBase.h"
+],
+"earliest_patch_date": "2020-09-30 13:52:41+03:00",
+"earliest_vuln_date": "2016-05-21 00:16:10+03:00",
+"vuln_files": [
+"DesktopEditor/fontengine/fontconverter/FontFileType1.cpp",
+"DesktopEditor/fontengine/fontconverter/FontFileBase.h"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-787"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-29776",
+"patch_date": [
+"2020-10-13 20:11:21+03:00"
+],
+"patch_files": [
+"DesktopEditor/cximage/CxImage/ximaico.cpp",
+"DesktopEditor/cximage/CxImage/xfile.h",
+"DesktopEditor/cximage/CxImage/ximainfo.cpp",
+"DesktopEditor/cximage/CxImage/ximatif.cpp",
+"DesktopEditor/cximage/CxImage/xmemfile.h",
+"DesktopEditor/cximage/jasper/jpc/jpc_dec.c",
+"DesktopEditor/cximage/raw/libdcr.c",
+"DesktopEditor/cximage/CxImage/ximage.cpp",
+"DesktopEditor/cximage/CxImage/xmemfile.cpp",
+"DesktopEditor/cximage/CxImage/ximage.h",
+"DesktopEditor/common/File.cpp",
+"DesktopEditor/cximage/CxImage/xiofile.h",
+"DesktopEditor/fontengine/fontconverter/FontFileType1.cpp",
+"DesktopEditor/cximage/CxImage/ximabmp.cpp",
+"DesktopEditor/fontengine/fontconverter/FontFileType1.h",
+"DesktopEditor/cximage/tiff/tif_ojpeg.c",
+"DesktopEditor/cximage/CxImage/ximapcx.cpp",
+"DesktopEditor/cximage/tiff/tif_dirread.c"
+],
+"earliest_patch_date": "2020-10-13 20:11:21+03:00",
+"earliest_vuln_date": "2016-05-20 23:54:34+03:00",
+"vuln_files": [
+"DesktopEditor/cximage/CxImage/ximaico.cpp",
+"DesktopEditor/cximage/CxImage/xfile.h",
+"DesktopEditor/cximage/CxImage/ximatif.cpp",
+"DesktopEditor/cximage/CxImage/xmemfile.h",
+"DesktopEditor/cximage/jasper/jpc/jpc_dec.c",
+"DesktopEditor/cximage/raw/libdcr.c",
+"DesktopEditor/cximage/CxImage/ximage.cpp",
+"DesktopEditor/cximage/CxImage/xmemfile.cpp",
+"DesktopEditor/cximage/CxImage/ximage.h",
+"DesktopEditor/common/File.cpp",
+"DesktopEditor/cximage/CxImage/xiofile.h",
+"DesktopEditor/fontengine/fontconverter/FontFileType1.cpp",
+"DesktopEditor/cximage/CxImage/ximabmp.cpp",
+"DesktopEditor/cximage/tiff/tif_ojpeg.c",
+"DesktopEditor/cximage/CxImage/ximapcx.cpp",
+"DesktopEditor/cximage/tiff/tif_dirread.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-787"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-787"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"DesktopEditor/fontengine/fontconverter/FontFileType1.cpp"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-30186",
+"patch_date": [
+"2023-02-04 23:49:41+03:00"
+],
+"patch_files": [
+"DesktopEditor/doctrenderer/docbuilder_p.h",
+"DesktopEditor/doctrenderer/embed/jsc/jsc_NativeControl.mm",
+"DesktopEditor/doctrenderer/js_internal/v8/v8_base.h",
+"DesktopEditor/doctrenderer/js_internal/v8/v8_base.cpp",
+"DesktopEditor/doctrenderer/embed/v8/v8_NativeControl.cpp",
+"DesktopEditor/doctrenderer/docbuilder_p.cpp"
+],
+"earliest_patch_date": "2023-02-04 23:49:41+03:00",
+"earliest_vuln_date": "2016-06-02 18:14:43+03:00",
+"vuln_files": [
+"DesktopEditor/doctrenderer/embed/v8/v8_NativeControl.cpp",
+"DesktopEditor/doctrenderer/docbuilder_p.h",
+"DesktopEditor/doctrenderer/docbuilder_p.cpp",
+"DesktopEditor/doctrenderer/embed/jsc/jsc_NativeControl.mm"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-416"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-30187",
+"patch_date": [
+"2023-02-04 23:49:41+03:00"
+],
+"patch_files": [
+"DesktopEditor/doctrenderer/docbuilder_p.h",
+"DesktopEditor/doctrenderer/embed/jsc/jsc_NativeControl.mm",
+"DesktopEditor/doctrenderer/js_internal/v8/v8_base.h",
+"DesktopEditor/doctrenderer/js_internal/v8/v8_base.cpp",
+"DesktopEditor/doctrenderer/embed/v8/v8_NativeControl.cpp",
+"DesktopEditor/doctrenderer/docbuilder_p.cpp"
+],
+"earliest_patch_date": "2023-02-04 23:49:41+03:00",
+"earliest_vuln_date": "2016-06-02 18:14:43+03:00",
+"vuln_files": [
+"DesktopEditor/doctrenderer/embed/v8/v8_NativeControl.cpp",
+"DesktopEditor/doctrenderer/docbuilder_p.h",
+"DesktopEditor/doctrenderer/docbuilder_p.cpp",
+"DesktopEditor/doctrenderer/embed/jsc/jsc_NativeControl.mm"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-787"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-787"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"DesktopEditor/doctrenderer/docbuilder_p.h",
+"DesktopEditor/doctrenderer/embed/jsc/jsc_NativeControl.mm",
+"DesktopEditor/doctrenderer/js_internal/v8/v8_base.h",
+"DesktopEditor/doctrenderer/js_internal/v8/v8_base.cpp",
+"DesktopEditor/doctrenderer/embed/v8/v8_NativeControl.cpp",
+"DesktopEditor/doctrenderer/docbuilder_p.cpp"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-30188",
+"patch_date": [
+"2023-02-04 23:49:41+03:00"
+],
+"patch_files": [
+"DesktopEditor/doctrenderer/docbuilder_p.h",
+"DesktopEditor/doctrenderer/embed/jsc/jsc_NativeControl.mm",
+"DesktopEditor/doctrenderer/js_internal/v8/v8_base.h",
+"DesktopEditor/doctrenderer/js_internal/v8/v8_base.cpp",
+"DesktopEditor/doctrenderer/embed/v8/v8_NativeControl.cpp",
+"DesktopEditor/doctrenderer/docbuilder_p.cpp"
+],
+"earliest_patch_date": "2023-02-04 23:49:41+03:00",
+"earliest_vuln_date": "2016-06-02 18:14:43+03:00",
+"vuln_files": [
+"DesktopEditor/doctrenderer/embed/v8/v8_NativeControl.cpp",
+"DesktopEditor/doctrenderer/docbuilder_p.h",
+"DesktopEditor/doctrenderer/docbuilder_p.cpp",
+"DesktopEditor/doctrenderer/embed/jsc/jsc_NativeControl.mm"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-835"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"DesktopEditor/doctrenderer/docbuilder_p.h",
+"DesktopEditor/doctrenderer/embed/jsc/jsc_NativeControl.mm",
+"DesktopEditor/doctrenderer/js_internal/v8/v8_base.h",
+"DesktopEditor/doctrenderer/js_internal/v8/v8_base.cpp",
+"DesktopEditor/doctrenderer/embed/v8/v8_NativeControl.cpp",
+"DesktopEditor/doctrenderer/docbuilder_p.cpp"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

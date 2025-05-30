@@ -1,0 +1,286 @@
+[
+{
+"cve_id": "CVE-2017-6391",
+"patch_date": [
+"2017-02-27 22:48:03+02:00"
+],
+"patch_files": [
+"admin_console/web/tools/SimpleJWPlayer.php",
+"admin_console/web/tools/bigRedButton.php",
+"admin_console/web/tools/AkamaiBroadcaster.php",
+"admin_console/web/tools/XmlJWPlayer.php",
+"admin_console/web/tools/bigRedButtonPtsPoc.php"
+],
+"earliest_patch_date": "2017-02-27 22:48:03+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2017-6392",
+"patch_date": [
+"2017-02-27 22:48:03+02:00"
+],
+"patch_files": [
+"admin_console/web/tools/SimpleJWPlayer.php",
+"admin_console/web/tools/bigRedButton.php",
+"admin_console/web/tools/AkamaiBroadcaster.php",
+"admin_console/web/tools/XmlJWPlayer.php",
+"admin_console/web/tools/bigRedButtonPtsPoc.php"
+],
+"earliest_patch_date": "2017-02-27 22:48:03+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"admin_console/web/tools/SimpleJWPlayer.php",
+"admin_console/web/tools/bigRedButton.php",
+"admin_console/web/tools/AkamaiBroadcaster.php",
+"admin_console/web/tools/XmlJWPlayer.php",
+"admin_console/web/tools/bigRedButtonPtsPoc.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2017-14141",
+"patch_date": [
+"2017-08-22 11:07:40+03:00"
+],
+"patch_files": [
+"alpha/apps/kaltura/lib/kalturaAction.class.php",
+"alpha/apps/kaltura/modules/system/actions/helperAction.class.php",
+"plugins/admin_console/kaltura_internal_tools/admin/KalturaInternalToolsSystemHelperAction.php"
+],
+"earliest_patch_date": "2017-08-22 11:07:40+03:00",
+"earliest_vuln_date": "2010-09-14 09:37:05+00:00",
+"vuln_files": [
+"alpha/apps/kaltura/lib/kalturaAction.class.php",
+"alpha/apps/kaltura/modules/system/actions/helperAction.class.php",
+"plugins/admin_console/kaltura_internal_tools/admin/KalturaInternalToolsSystemHelperAction.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-502"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2017-14143",
+"patch_date": [
+"2017-08-22 11:07:40+03:00"
+],
+"patch_files": [
+"alpha/apps/kaltura/lib/kalturaAction.class.php",
+"alpha/apps/kaltura/modules/system/actions/helperAction.class.php",
+"plugins/admin_console/kaltura_internal_tools/admin/KalturaInternalToolsSystemHelperAction.php"
+],
+"earliest_patch_date": "2017-08-22 11:07:40+03:00",
+"earliest_vuln_date": "2010-09-14 09:37:05+00:00",
+"vuln_files": [
+"alpha/apps/kaltura/lib/kalturaAction.class.php",
+"alpha/apps/kaltura/modules/system/actions/helperAction.class.php",
+"plugins/admin_console/kaltura_internal_tools/admin/KalturaInternalToolsSystemHelperAction.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-798"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"alpha/apps/kaltura/lib/kalturaAction.class.php",
+"alpha/apps/kaltura/modules/system/actions/helperAction.class.php",
+"plugins/admin_console/kaltura_internal_tools/admin/KalturaInternalToolsSystemHelperAction.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

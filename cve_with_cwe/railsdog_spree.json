@@ -1,0 +1,63 @@
+[
+{
+"cve_id": "CVE-2010-3978",
+"patch_date": [
+"2010-10-23 17:36:31-04:00",
+"2010-10-30 16:13:38-04:00"
+],
+"patch_files": [
+"vendor/extensions/theme_default/public/javascripts/admin/checkouts/edit.js",
+"vendor/extensions/theme_default/public/javascripts/admin/orders/edit.js",
+"app/controllers/admin/products_controller.rb",
+"app/controllers/admin/users_controller.rb",
+"app/controllers/spree/base_controller.rb",
+"vendor/extensions/overview_dashboard/app/controllers/admin/overview_controller.rb",
+"vendor/extensions/theme_default/app/views/shared/_admin_head.html.erb",
+"vendor/extensions/api/app/controllers/api/base_controller.rb",
+"vendor/extensions/overview_dashboard/public/javascripts/dashboard.js",
+"app/controllers/admin/overview_controller.rb"
+],
+"earliest_patch_date": "2010-10-23 17:36:31-04:00",
+"earliest_vuln_date": "2009-11-21 19:30:41+00:00",
+"vuln_files": [
+"vendor/extensions/api/app/controllers/api/base_controller.rb",
+"vendor/extensions/overview_dashboard/public/javascripts/dashboard.js",
+"vendor/extensions/theme_default/app/views/shared/_admin_head.html.erb",
+"vendor/extensions/theme_default/public/javascripts/admin/checkouts/edit.js",
+"vendor/extensions/theme_default/public/javascripts/admin/orders/edit.js"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-200"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

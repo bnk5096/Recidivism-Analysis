@@ -1,0 +1,79 @@
+[
+{
+"cve_id": "CVE-2019-1010200",
+"patch_date": [
+"2018-09-25 10:58:45+08:00",
+"2018-09-24 20:04:58+08:00"
+],
+"patch_files": [
+"festival_model_server/utils.js",
+"merlin_model_server/api.js",
+"merlin_model_server/jasmine.json",
+"festival_model_server/tests/UtilsTests.js",
+"merlin_model_server/utils.js",
+"merlin_model_server/tests/UtilsTests.js",
+"festival_model_server/settings.js",
+"merlin_model_server/settings.js",
+"festival_model_server/api.js"
+],
+"earliest_patch_date": "2018-09-24 20:04:58+08:00",
+"earliest_vuln_date": "2018-03-12 16:39:37+07:00",
+"vuln_files": [
+"festival_model_server/api.js",
+"merlin_model_server/api.js",
+"merlin_model_server/jasmine.json"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:C/I:C/A:C",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "COMPLETE",
+"integrityImpact": "COMPLETE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 10
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 10,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-78"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

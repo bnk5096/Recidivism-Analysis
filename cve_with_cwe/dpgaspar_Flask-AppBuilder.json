@@ -1,0 +1,364 @@
+[
+{
+"cve_id": "CVE-2021-29621",
+"patch_date": [
+"2021-05-10 09:37:55+01:00"
+],
+"patch_files": [
+"flask_appbuilder/security/manager.py"
+],
+"earliest_patch_date": "2021-05-10 09:37:55+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-203"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-32805",
+"patch_date": [
+"2021-07-13 10:35:34+01:00"
+],
+"patch_files": [
+"flask_appbuilder/tests/config_oauth.py",
+"flask_appbuilder/tests/test_mvc_oauth.py",
+"requirements-extra.txt",
+"flask_appbuilder/security/views.py",
+"setup.py"
+],
+"earliest_patch_date": "2021-07-13 10:35:34+01:00",
+"earliest_vuln_date": "2015-05-06 21:11:24+01:00",
+"vuln_files": [
+"flask_appbuilder/security/views.py",
+"setup.py",
+"requirements-extra.txt"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-41265",
+"patch_date": [
+"2021-10-12 15:31:20+01:00"
+],
+"patch_files": [
+"docs/config.rst",
+"flask_appbuilder/security/api.py",
+"flask_appbuilder/security/schemas.py",
+"flask_appbuilder/security/manager.py"
+],
+"earliest_patch_date": "2021-10-12 15:31:20+01:00",
+"earliest_vuln_date": "2015-01-04 22:12:48+00:00",
+"vuln_files": [
+"flask_appbuilder/security/api.py",
+"flask_appbuilder/security/manager.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"flask_appbuilder/security/manager.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-27083",
+"patch_date": [
+"2023-02-01 09:48:29+00:00"
+],
+"patch_files": [
+"flask_appbuilder/templates/appbuilder/general/security/login_oauth.html"
+],
+"earliest_patch_date": "2023-02-01 09:48:29+00:00",
+"earliest_vuln_date": "2022-07-29 15:55:52+01:00",
+"vuln_files": [
+"flask_appbuilder/templates/appbuilder/general/security/login_oauth.html"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-34110",
+"patch_date": [
+"2023-05-19 15:51:38+01:00"
+],
+"patch_files": [
+"flask_appbuilder/tests/security/test_mvc_security.py",
+"flask_appbuilder/babel/manager.py",
+"flask_appbuilder/models/base.py",
+"flask_appbuilder/models/sqla/interface.py"
+],
+"earliest_patch_date": "2023-05-19 15:51:38+01:00",
+"earliest_vuln_date": "2014-05-15 12:04:36+01:00",
+"vuln_files": [
+"flask_appbuilder/babel/manager.py",
+"flask_appbuilder/models/base.py",
+"flask_appbuilder/models/sqla/interface.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 2.7,
+"baseSeverity": "LOW"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-25128",
+"patch_date": [
+"2024-02-06 20:51:56+00:00"
+],
+"patch_files": [
+"tests/test_mvc_oauth.py",
+"flask_appbuilder/security/manager.py",
+"flask_appbuilder/templates/appbuilder/general/security/login_oid.html",
+"tests/config_oid.py",
+"flask_appbuilder/security/views.py",
+"tests/test_mvc_oid.py",
+"tests/test_security_api.py"
+],
+"earliest_patch_date": "2024-02-06 20:51:56+00:00",
+"earliest_vuln_date": "2019-03-15 15:41:46+00:00",
+"vuln_files": [
+"flask_appbuilder/security/views.py",
+"tests/test_mvc_oauth.py",
+"flask_appbuilder/templates/appbuilder/general/security/login_oid.html"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"flask_appbuilder/security/manager.py",
+"flask_appbuilder/security/views.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-45314",
+"patch_date": [
+"2024-08-21 19:00:21+01:00"
+],
+"patch_files": [
+"flask_appbuilder/security/views.py",
+"tests/security/test_mvc_security.py",
+"flask_appbuilder/security/decorators.py"
+],
+"earliest_patch_date": "2024-08-21 19:00:21+01:00",
+"earliest_vuln_date": "2022-10-04 09:36:54+01:00",
+"vuln_files": [
+"flask_appbuilder/security/views.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"flask_appbuilder/security/views.py"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"flask_appbuilder/security/views.py"
+]
+}
+]

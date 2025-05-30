@@ -1,0 +1,96 @@
+[
+{
+"cve_id": "CVE-2020-36635",
+"patch_date": [
+"2020-06-09 21:50:44+03:00"
+],
+"patch_files": [
+"api/src/test/java/org/openmrs/module/appointmentscheduling/validator/AppointmentTypeValidatorTest.java",
+"api/src/main/resources/messages.properties",
+"api/src/main/java/org/openmrs/module/appointmentscheduling/validator/AppointmentTypeValidator.java"
+],
+"earliest_patch_date": "2020-06-09 21:50:44+03:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4727",
+"patch_date": [
+"2022-09-22 10:07:59-04:00"
+],
+"patch_files": [
+"api/src/main/java/org/openmrs/module/appointmentscheduling/AppointmentRequest.java",
+"api/src/test/java/org/openmrs/module/appointmentscheduling/api/AppointmentRequestServiceTest.java"
+],
+"earliest_patch_date": "2022-09-22 10:07:59-04:00",
+"earliest_vuln_date": "2014-09-16 13:02:51-04:00",
+"vuln_files": [
+"api/src/main/java/org/openmrs/module/appointmentscheduling/AppointmentRequest.java",
+"api/src/test/java/org/openmrs/module/appointmentscheduling/api/AppointmentRequestServiceTest.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

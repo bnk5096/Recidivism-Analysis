@@ -1,0 +1,97 @@
+[
+{
+"cve_id": "CVE-2021-31590",
+"patch_date": [
+"2021-06-21 15:39:49-04:00",
+"2021-07-13 11:21:24-04:00"
+],
+"patch_files": [
+".gitignore",
+"backend/src/lib/app-settings.json",
+"frontend/src/boot/axios.js",
+"backend/src/models/user.js",
+"backend/src/config.json",
+"backend/src/app.js",
+"backend/src/routes/user.js",
+"frontend/src/services/user.js",
+"backend/src/routes/settings.js",
+"backend/src/lib/auth.js",
+"docker-compose.yml",
+"docs/roles.md",
+"frontend/src/boot/auth.js",
+"frontend/src/pages/profile/profile.js",
+"backend/src/lib/report.json",
+"backend/src/lib/roles.json",
+"backend/src/lib/report-generator.js"
+],
+"earliest_patch_date": "2021-06-21 15:39:49-04:00",
+"earliest_vuln_date": "2020-01-13 19:02:02-05:00",
+"vuln_files": [
+"backend/src/config/config.json",
+"backend/src/app.js",
+"backend/src/routes/settings.js",
+"backend/src/lib/auth.js",
+"docker-compose.yml",
+"docs/roles.md",
+"backend/src/lib/report-generator.js",
+"backend/src/models/user.js",
+"backend/src/routes/user.js",
+"frontend/src/boot/auth.js",
+"frontend/src/boot/axios.js",
+"frontend/src/services/user.js",
+"frontend/src/pages/profile/profile.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "COMPLETE",
+"integrityImpact": "COMPLETE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 9
+},
+"severity": "HIGH",
+"exploitabilityScore": 8,
+"impactScore": 10,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

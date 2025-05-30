@@ -1,0 +1,265 @@
+[
+{
+"cve_id": "CVE-2021-33056",
+"patch_date": [
+"2021-05-13 16:08:12+02:00"
+],
+"patch_files": [
+"src/grammars/belle_sip_messageLexer.c",
+"src/grammars/belle_sdpLexer.h",
+"src/grammars/belle_sdpParser.c",
+"src/grammars/belle_sip_messageParser.h",
+"src/grammars/belle_sip_messageParser.c",
+"src/grammars/belle_sip_message.g",
+"src/grammars/belle_sdpLexer.c",
+"README.md",
+"src/grammars/belle_sip_messageLexer.h",
+"tester/belle_sip_message_tester.c",
+"src/grammars/belle_sdpParser.h"
+],
+"earliest_patch_date": "2021-05-13 16:08:12+02:00",
+"earliest_vuln_date": "2015-12-14 16:36:25+01:00",
+"vuln_files": [
+"README.md",
+"src/grammars/belle_sip_messageParser.c",
+"src/grammars/belle_sip_message.g"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-444"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-43610",
+"patch_date": [
+"2021-09-08 12:15:15+02:00"
+],
+"patch_files": [
+"src/CMakeLists.txt",
+"src/dialog.c",
+"src/grammars/belle_sip_messageLexer.c",
+".DS_Store",
+"src/grammars/belle_sip_messageParser.h",
+"include/belle-sip/provider.h",
+"tester/belle_sip_headers_tester.c",
+"src/grammars/belle_sip_messageParser.c",
+"src/grammars/belle_sip_message.g",
+"src/provider.c",
+"src/belle_sip_utils.c",
+"src/grammars/belle_sip_messageLexer.h"
+],
+"earliest_patch_date": "2021-09-08 12:15:15+02:00",
+"earliest_vuln_date": "2013-10-30 11:05:28+01:00",
+"vuln_files": [
+"src/CMakeLists.txt",
+"src/dialog.c",
+"src/grammars/belle_sip_messageParser.c",
+"src/grammars/belle_sip_message.g",
+"src/provider.c",
+"src/belle_sip_utils.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-444"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-444"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/grammars/belle_sip_messageLexer.c",
+"src/grammars/belle_sip_messageParser.h",
+"src/grammars/belle_sip_messageParser.c",
+"src/grammars/belle_sip_message.g",
+"src/grammars/belle_sip_messageLexer.h"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-43611",
+"patch_date": [
+"2021-09-08 12:15:15+02:00"
+],
+"patch_files": [
+"src/CMakeLists.txt",
+"src/dialog.c",
+"src/grammars/belle_sip_messageLexer.c",
+".DS_Store",
+"src/grammars/belle_sip_messageParser.h",
+"include/belle-sip/provider.h",
+"tester/belle_sip_headers_tester.c",
+"src/grammars/belle_sip_messageParser.c",
+"src/grammars/belle_sip_message.g",
+"src/provider.c",
+"src/belle_sip_utils.c",
+"src/grammars/belle_sip_messageLexer.h"
+],
+"earliest_patch_date": "2021-09-08 12:15:15+02:00",
+"earliest_vuln_date": "2013-10-30 11:05:28+01:00",
+"vuln_files": [
+"src/CMakeLists.txt",
+"src/dialog.c",
+"src/grammars/belle_sip_messageParser.c",
+"src/grammars/belle_sip_message.g",
+"src/provider.c",
+"src/belle_sip_utils.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-404"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/CMakeLists.txt",
+"src/dialog.c",
+"src/grammars/belle_sip_messageLexer.c",
+".DS_Store",
+"src/grammars/belle_sip_messageParser.h",
+"include/belle-sip/provider.h",
+"tester/belle_sip_headers_tester.c",
+"src/grammars/belle_sip_messageParser.c",
+"src/grammars/belle_sip_message.g",
+"src/provider.c",
+"src/belle_sip_utils.c",
+"src/grammars/belle_sip_messageLexer.h"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,438 @@
+[
+{
+"cve_id": "CVE-2021-21319",
+"patch_date": [
+"2021-04-05 09:47:02+02:00",
+"2021-04-05 09:47:02+02:00",
+"2021-04-05 09:47:02+02:00"
+],
+"patch_files": [
+"galette/lib/Galette/Controllers/Crud/MembersController.php",
+"galette/lib/Galette/Controllers/PdfController.php",
+"tests/Galette/Entity/tests/units/Adherent.php",
+"galette/templates/default/history.tpl",
+"galette/lib/Galette/Controllers/HistoryController.php",
+"galette/templates/default/voir_adherent.tpl",
+"galette/templates/default/configurer_fiche_content.tpl",
+"galette/lib/Galette/Controllers/GaletteController.php",
+"galette/lib/Galette/Controllers/PluginsController.php",
+"galette/lib/Galette/Controllers/DynamicTranslationsController.php",
+"galette/lib/Galette/Entity/Adherent.php",
+"galette/templates/default/gestion_adherents.tpl",
+"galette/lib/Galette/Controllers/AuthController.php",
+"galette/lib/Galette/Entity/TranslatableTrait.php",
+"galette/lib/Galette/DynamicFields/DynamicField.php"
+],
+"earliest_patch_date": "2021-04-05 09:47:02+02:00",
+"earliest_vuln_date": "2011-06-22 06:19:00+00:00",
+"vuln_files": [
+"galette/lib/Galette/Controllers/Crud/MembersController.php",
+"galette/lib/Galette/Controllers/PdfController.php",
+"galette/templates/default/history.tpl",
+"galette/templates/default/voir_adherent.tpl",
+"galette/lib/Galette/Controllers/GaletteController.php",
+"galette/lib/Galette/Controllers/PluginsController.php",
+"galette/lib/Galette/Controllers/HistoryController.php",
+"galette/lib/Galette/Entity/Adherent.php",
+"galette/templates/default/gestion_adherents.tpl",
+"galette/lib/Galette/Controllers/AuthController.php",
+"galette/lib/Galette/DynamicFields/DynamicField.php",
+"galette/lib/Galette/Entity/TranslatableTrait.php",
+"galette/templates/default/configurer_fiche_content.tpl"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-41262",
+"patch_date": [
+"2021-11-09 22:47:22+01:00"
+],
+"patch_files": [
+"galette/lib/Galette/Core/Db.php",
+"galette/lib/Galette/Entity/Group.php",
+"galette/lib/Galette/Repository/Members.php",
+"galette/lib/Galette/Entity/Contribution.php",
+"galette/lib/Galette/Entity/Social.php",
+"galette/lib/Galette/Entity/ImportModel.php",
+"galette/lib/Galette/Core/Logo.php",
+"galette/lib/Galette/Entity/Title.php",
+"galette/lib/Galette/Entity/Transaction.php",
+"galette/lib/Galette/Repository/Groups.php",
+"galette/lib/Galette/Entity/SavedSearch.php",
+"galette/lib/Galette/Core/Password.php",
+"galette/lib/Galette/Entity/PaymentType.php",
+"galette/lib/Galette/Entity/Reminder.php",
+"galette/lib/Galette/Entity/Entitled.php",
+"galette/lib/Galette/Entity/PdfModel.php",
+"galette/lib/Galette/Entity/Adherent.php",
+"galette/lib/Galette/Core/MailingHistory.php",
+"galette/lib/Galette/Core/Picture.php",
+"galette/lib/Galette/DynamicFields/DynamicField.php"
+],
+"earliest_patch_date": "2021-11-09 22:47:22+01:00",
+"earliest_vuln_date": "2011-08-21 21:15:57+00:00",
+"vuln_files": [
+"galette/lib/Galette/Core/Db.php",
+"galette/lib/Galette/Entity/Group.php",
+"galette/lib/Galette/Repository/Members.php",
+"galette/lib/Galette/Entity/Contribution.php",
+"galette/lib/Galette/Entity/Social.php",
+"galette/lib/Galette/Entity/ImportModel.php",
+"galette/lib/Galette/Core/Logo.php",
+"galette/lib/Galette/Entity/Title.php",
+"galette/lib/Galette/Entity/Transaction.php",
+"galette/lib/Galette/Repository/Groups.php",
+"galette/lib/Galette/Entity/SavedSearch.php",
+"galette/lib/Galette/Core/Password.php",
+"galette/lib/Galette/Entity/PaymentType.php",
+"galette/lib/Galette/Entity/Reminder.php",
+"galette/lib/Galette/Entity/Entitled.php",
+"galette/lib/Galette/Entity/PdfModel.php",
+"galette/lib/Galette/Entity/Adherent.php",
+"galette/lib/Galette/Core/MailingHistory.php",
+"galette/lib/Galette/Core/Picture.php",
+"galette/lib/Galette/DynamicFields/DynamicField.php"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"galette/lib/Galette/Entity/Adherent.php",
+"galette/lib/Galette/DynamicFields/DynamicField.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-41261",
+"patch_date": [
+"2021-11-09 22:51:39+01:00"
+],
+"patch_files": [
+"galette/lib/Galette/Controllers/Crud/PaymentTypeController.php",
+"galette/composer.lock",
+"galette/lib/Galette/Entity/Transaction.php",
+"galette/composer.json",
+"galette/templates/default/gestion_titres.tpl",
+"galette/lib/Galette/Core/Preferences.php",
+"galette/templates/default/gestion_intitule_content.tpl",
+"galette/lib/Galette/Entity/Title.php",
+"galette/templates/default/gestion_transactions.tpl",
+"galette/lib/Galette/Entity/Entitled.php"
+],
+"earliest_patch_date": "2021-11-09 22:51:39+01:00",
+"earliest_vuln_date": "2011-08-21 21:15:57+00:00",
+"vuln_files": [
+"galette/lib/Galette/Controllers/Crud/PaymentTypeController.php",
+"galette/composer.lock",
+"galette/lib/Galette/Entity/Transaction.php",
+"galette/composer.json",
+"galette/templates/default/gestion_titres.tpl",
+"galette/templates/default/gestion_intitule_content.tpl",
+"galette/lib/Galette/Entity/Title.php",
+"galette/templates/default/gestion_transactions.tpl"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.8,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.7,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"galette/lib/Galette/Entity/Transaction.php",
+"galette/lib/Galette/Entity/Title.php",
+"galette/lib/Galette/Entity/Entitled.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-41260",
+"patch_date": [
+"2021-11-09 22:54:50+01:00"
+],
+"patch_files": [
+"galette/templates/default/attendance_sheet_details.tpl",
+"galette/templates/default/config_fields.tpl",
+"galette/templates/default/gestion_mailings.tpl",
+"galette/lib/Galette/Middleware/SmartyCsrf.php",
+"galette/templates/default/directlink.tpl",
+"galette/templates/default/ajouter_contribution.tpl",
+"galette/includes/main.inc.php",
+"galette/templates/default/edit_paymenttype.tpl",
+"galette/templates/default/import.tpl",
+"galette/templates/default/change_passwd.tpl",
+"galette/templates/default/gestion_textes.tpl",
+"galette/templates/default/import_model.tpl",
+"galette/composer.lock",
+"galette/templates/default/lostpasswd.tpl",
+"galette/templates/default/config_lists.tpl",
+"galette/templates/default/mass_add_contribution.tpl",
+"galette/templates/default/gestion_titres.tpl",
+"galette/templates/default/group.tpl",
+"galette/templates/default/advanced_search.tpl",
+"galette/templates/default/ajouter_transaction.tpl",
+"galette/templates/default/gestion_pdf_content.tpl",
+"galette/templates/default/export.tpl",
+"galette/templates/default/gestion_paymentstypes.tpl",
+"galette/templates/default/edit_title.tpl",
+"galette/templates/default/traduire_libelles.tpl",
+"galette/composer.json",
+"galette/templates/default/index.tpl",
+"galette/templates/default/gestion_adherents.tpl",
+"galette/templates/default/mass_change_members.tpl",
+"galette/templates/default/admintools.tpl",
+"galette/templates/default/gestion_contributions.tpl",
+"galette/templates/default/mass_choose_type.tpl",
+"galette/templates/default/reminder.tpl",
+"galette/templates/default/mailing_adherents.tpl",
+"galette/templates/default/saved_searches.tpl",
+"galette/templates/default/editer_intitule.tpl",
+"galette/templates/default/editer_champ.tpl",
+"galette/templates/default/plugin_initdb.tpl",
+"galette/templates/default/trombinoscope.tpl",
+"galette/templates/default/confirm_removal.tpl",
+"galette/templates/default/history.tpl",
+"galette/templates/default/member.tpl",
+"galette/templates/default/gestion_intitules.tpl",
+"galette/templates/default/forms_types/csrf.tpl",
+"galette/templates/default/liste_membres.tpl",
+"galette/templates/default/gestion_transactions.tpl",
+"galette/includes/dependencies.php",
+"galette/templates/default/common_scripts.tpl",
+"galette/templates/default/preferences.tpl"
+],
+"earliest_patch_date": "2021-11-09 22:54:50+01:00",
+"earliest_vuln_date": "2018-12-13 07:54:27+01:00",
+"vuln_files": [
+"galette/templates/default/admintools.tpl",
+"galette/composer.json",
+"galette/composer.lock"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"galette/composer.lock",
+"galette/templates/default/gestion_titres.tpl",
+"galette/composer.json",
+"galette/templates/default/gestion_adherents.tpl",
+"galette/templates/default/history.tpl",
+"galette/templates/default/gestion_transactions.tpl"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-24761",
+"patch_date": [
+"2024-02-02 23:12:49+01:00"
+],
+"patch_files": [
+"galette/lib/Galette/Middleware/PublicPages.php",
+"galette/includes/main.inc.php",
+"galette/includes/routes/public_pages.routes.php"
+],
+"earliest_patch_date": "2024-02-02 23:12:49+01:00",
+"earliest_vuln_date": "2016-10-17 22:38:57+02:00",
+"vuln_files": [
+"galette/includes/main.inc.php",
+"galette/includes/routes/public_pages.routes.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-863"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"galette/includes/main.inc.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

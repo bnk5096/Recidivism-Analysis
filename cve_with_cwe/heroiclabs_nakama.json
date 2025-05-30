@@ -1,0 +1,164 @@
+[
+{
+"cve_id": "CVE-2022-2306",
+"patch_date": [
+"2022-07-02 18:35:56+01:00"
+],
+"patch_files": [
+"server/console_authenticate.go",
+"console/console_grpc.pb.go",
+"console/console.swagger.json",
+"console/ui/src/app/authentication.service.ts",
+"console/ui/dist/index.html",
+"main.go",
+"console/ui/src/app/base/base.component.ts",
+"server/console_storage_import.go",
+"server/console.go",
+"console/console.pb.gw.go",
+"console/console.proto",
+"console/ui/src/app/console.service.ts",
+"console/console.pb.go",
+"console/ui/src/app/authentication-error.interceptor.ts",
+"server/session_cache.go",
+"console/ui/dist/static/main.0b74ccf8d7e0caf7719b.js"
+],
+"earliest_patch_date": "2022-07-02 18:35:56+01:00",
+"earliest_vuln_date": "2018-04-22 17:45:28+01:00",
+"vuln_files": [
+"server/console_authenticate.go",
+"console/ui/dist/static/main.2778305943c5228ee227.js",
+"console/ui/src/app/authentication.service.ts",
+"console/ui/dist/index.html",
+"main.go",
+"console/ui/src/app/base/base.component.ts",
+"server/console_storage_import.go",
+"server/console.go",
+"console/console.pb.go",
+"console/ui/src/app/authentication-error.interceptor.ts",
+"server/session_cache.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-2321",
+"patch_date": [
+"2022-07-05 19:22:19+01:00"
+],
+"patch_files": [
+"server/console_authenticate.go",
+"server/login_attempt_cache.go",
+"server/console.go",
+"main.go"
+],
+"earliest_patch_date": "2022-07-05 19:22:19+01:00",
+"earliest_vuln_date": "2020-12-31 15:03:55+00:00",
+"vuln_files": [
+"server/console_authenticate.go",
+"server/console.go",
+"main.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/console_authenticate.go",
+"server/console.go",
+"main.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

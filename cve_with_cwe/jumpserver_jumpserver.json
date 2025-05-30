@@ -1,0 +1,188 @@
+[
+{
+"cve_id": "CVE-2023-42442",
+"patch_date": [
+"2023-09-11 11:19:15+08:00"
+],
+"patch_files": [
+"apps/terminal/permissions.py",
+"apps/tickets/permissions/ticket.py",
+"apps/jumpserver/rewriting/storage/permissions.py",
+"apps/users/permissions.py",
+"apps/common/permissions.py"
+],
+"earliest_patch_date": "2023-09-11 11:19:15+08:00",
+"earliest_vuln_date": "2018-01-11 20:10:27+08:00",
+"vuln_files": [
+"apps/tickets/permissions/ticket.py",
+"apps/terminal/permissions.py",
+"apps/users/permissions.py",
+"apps/common/permissions.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"CWE-287"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-42820",
+"patch_date": [
+"2023-09-19 18:18:51+08:00"
+],
+"patch_files": [
+"apps/common/utils/random.py",
+"apps/users/models/user.py"
+],
+"earliest_patch_date": "2023-09-19 18:18:51+08:00",
+"earliest_vuln_date": "2016-12-20 23:06:27+08:00",
+"vuln_files": [
+"apps/common/utils/random.py",
+"apps/users/models/user.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 8.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 4.2
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-42819",
+"patch_date": [
+"2023-09-19 18:47:25+08:00"
+],
+"patch_files": [
+"apps/ops/api/playbook.py"
+],
+"earliest_patch_date": "2023-09-19 18:47:25+08:00",
+"earliest_vuln_date": "2023-02-01 18:22:52+08:00",
+"vuln_files": [
+"apps/ops/api/playbook.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-46138",
+"patch_date": [
+"2023-09-27 15:15:15+08:00"
+],
+"patch_files": [
+"apps/common/tasks.py",
+"apps/users/migrations/0046_auto_20230927_1456.py"
+],
+"earliest_patch_date": "2023-09-27 15:15:15+08:00",
+"earliest_vuln_date": "2023-09-27 08:27:12+05:00",
+"vuln_files": [
+"apps/common/tasks.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,185 @@
+[
+{
+"cve_id": "CVE-2023-44378",
+"patch_date": [
+"2023-09-19 10:26:49+02:00"
+],
+"patch_files": [
+"test/engine.go",
+"internal/stats/latest.stats",
+"frontend/cs/r1cs/api.go",
+"frontend/cs/scs/api.go",
+"std/math/bits/conversion_binary.go",
+"internal/regression_tests/doc.go",
+"std/math/bits/conversion.go",
+"internal/backend/circuits/hint.go",
+"std/math/bits/intf_constcheck.go",
+"frontend/api.go",
+"internal/regression_tests/issue_836_test.go",
+"frontend/cs/scs/api_assertions.go",
+"frontend/cs/r1cs/api_assertions.go"
+],
+"earliest_patch_date": "2023-09-19 10:26:49+02:00",
+"earliest_vuln_date": "2021-12-22 13:06:45+01:00",
+"vuln_files": [
+"frontend/cs/r1cs/api.go",
+"frontend/cs/scs/api.go",
+"internal/backend/circuits/hint.go",
+"frontend/cs/scs/api_assertions.go",
+"frontend/cs/r1cs/api_assertions.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 5.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-45040",
+"patch_date": [
+"2024-08-22 11:40:23+02:00"
+],
+"patch_files": [
+"internal/hints/hints.go",
+"internal/stats/latest.stats",
+"frontend/cs/r1cs/api.go",
+"internal/security_tests/advisory-9xcg/advisory_test.go",
+"std/multicommit/nativecommit_test.go",
+"constraint/solver/hint_registry.go"
+],
+"earliest_patch_date": "2024-08-22 11:40:23+02:00",
+"earliest_vuln_date": "2023-03-01 23:08:12-06:00",
+"vuln_files": [
+"std/multicommit/nativecommit_test.go",
+"constraint/solver/hint_registry.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.9,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"internal/stats/latest.stats",
+"frontend/cs/r1cs/api.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-50354",
+"patch_date": [
+"2024-10-31 16:32:20+01:00"
+],
+"patch_files": [
+"backend/groth16/bls12-381/marshal.go",
+"backend/groth16/bw6-761/marshal_test.go",
+"backend/groth16/bls12-377/marshal_test.go",
+"backend/groth16/bw6-761/setup.go",
+"backend/groth16/bls12-381/marshal_test.go",
+"internal/generator/backend/template/zkpschemes/groth16/groth16.marshal.go.tmpl",
+"backend/groth16/bls24-317/marshal.go",
+"backend/groth16/bn254/marshal.go",
+"backend/groth16/bls24-317/marshal_test.go",
+"backend/groth16/bls24-315/marshal.go",
+"backend/groth16/bn254/marshal_test.go",
+"backend/groth16/bw6-633/marshal_test.go",
+"backend/groth16/bls24-315/setup.go",
+"backend/groth16/bls12-377/marshal.go",
+"backend/groth16/bls12-381/setup.go",
+"backend/groth16/bls24-315/marshal_test.go",
+"backend/groth16/bls24-317/setup.go",
+"backend/groth16/bls12-377/setup.go",
+"backend/groth16/bw6-633/setup.go",
+"backend/groth16/bn254/setup.go",
+"backend/groth16/bw6-633/marshal.go",
+"internal/generator/backend/template/zkpschemes/groth16/groth16.setup.go.tmpl",
+"backend/groth16/bw6-761/marshal.go",
+"internal/generator/backend/template/zkpschemes/groth16/tests/groth16.marshal.go.tmpl"
+],
+"earliest_patch_date": "2024-10-31 16:32:20+01:00",
+"earliest_vuln_date": "2020-11-09 22:31:12-06:00",
+"vuln_files": [
+"backend/groth16/bls12-381/marshal.go",
+"backend/groth16/bw6-761/marshal_test.go",
+"backend/groth16/bls12-377/marshal_test.go",
+"backend/groth16/bw6-761/setup.go",
+"backend/groth16/bls12-381/marshal_test.go",
+"internal/generator/backend/template/zkpschemes/groth16/groth16.marshal.go.tmpl",
+"backend/groth16/bls24-317/marshal.go",
+"backend/groth16/bn254/marshal.go",
+"backend/groth16/bls24-317/marshal_test.go",
+"backend/groth16/bls24-315/marshal.go",
+"backend/groth16/bn254/marshal_test.go",
+"backend/groth16/bw6-633/marshal_test.go",
+"backend/groth16/bls24-315/setup.go",
+"backend/groth16/bls12-377/marshal.go",
+"backend/groth16/bls12-381/setup.go",
+"backend/groth16/bls24-315/marshal_test.go",
+"backend/groth16/bls24-317/setup.go",
+"backend/groth16/bls12-377/setup.go",
+"backend/groth16/bw6-633/setup.go",
+"backend/groth16/bn254/setup.go",
+"backend/groth16/bw6-633/marshal.go",
+"internal/generator/backend/template/zkpschemes/groth16/groth16.setup.go.tmpl",
+"backend/groth16/bw6-761/marshal.go",
+"internal/generator/backend/template/zkpschemes/groth16/tests/groth16.marshal.go.tmpl"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,565 @@
+[
+{
+"cve_id": "CVE-2010-4159",
+"patch_date": [
+"2010-10-22 10:51:15+02:00"
+],
+"patch_files": [
+"mono/metadata/loader.c"
+],
+"earliest_patch_date": "2010-10-22 10:51:15+02:00",
+"earliest_vuln_date": "2004-06-18 22:06:53+00:00",
+"vuln_files": [
+"mono/metadata/loader.c"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+"accessVector": "LOCAL",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "COMPLETE",
+"integrityImpact": "COMPLETE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 6.9
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 3.4,
+"impactScore": 10,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2010-4254",
+"patch_date": [
+"2010-11-25 14:43:06-02:00",
+"2010-11-25 14:23:31-02:00",
+"2010-11-25 14:37:46-02:00"
+],
+"patch_files": [
+"mono/metadata/verify.c",
+"mono/metadata/verify-internals.h",
+"mono/metadata/reflection.c"
+],
+"earliest_patch_date": "2010-11-25 14:23:31-02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-20"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2011-0989",
+"patch_date": [
+"2011-01-18 16:42:36+01:00"
+],
+"patch_files": [
+"mono/metadata/icall.c"
+],
+"earliest_patch_date": "2011-01-18 16:42:36+01:00",
+"earliest_vuln_date": "2007-11-07 11:31:29+00:00",
+"vuln_files": [
+"mono/metadata/icall.c"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 4.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-264"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2011-0990",
+"patch_date": [
+"2011-01-18 17:17:56+01:00"
+],
+"patch_files": [
+"mono/metadata/icall.c"
+],
+"earliest_patch_date": "2011-01-18 17:17:56+01:00",
+"earliest_vuln_date": "2003-03-29 23:59:30+00:00",
+"vuln_files": [
+"mono/metadata/icall.c"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 4.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-362"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"mono/metadata/icall.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2011-0991",
+"patch_date": [
+"2011-02-01 19:10:08+01:00",
+"2011-02-01 16:52:43+01:00",
+"2011-02-01 16:52:43+01:00"
+],
+"patch_files": [
+"mono/metadata/runtime.c",
+"mcs/class/corlib/System.Reflection.Emit/DynamicMethod.cs",
+"mono/metadata/icall-def.h",
+"mono/metadata/gc-internal.h",
+"mono/metadata/gc.c",
+"mono/metadata/reflection.c",
+"mono/metadata/object-internals.h"
+],
+"earliest_patch_date": "2011-02-01 16:52:43+01:00",
+"earliest_vuln_date": "2007-06-21 17:29:45+00:00",
+"vuln_files": [
+"mono/metadata/icall-def.h",
+"mcs/class/corlib/System.Reflection.Emit/DynamicMethod.cs",
+"mono/metadata/reflection.c"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-399"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"mono/metadata/reflection.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2011-0992",
+"patch_date": [
+"2011-04-06 13:27:40-04:00"
+],
+"patch_files": [
+"mono/metadata/threads.c"
+],
+"earliest_patch_date": "2011-04-06 13:27:40-04:00",
+"earliest_vuln_date": "2007-10-15 14:49:11+00:00",
+"vuln_files": [
+"mono/metadata/threads.c"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 4.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-399"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-399"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2012-3382",
+"patch_date": [
+"2012-07-06 13:42:43-04:00"
+],
+"patch_files": [
+"mcs/class/System.Web/System.Web/HttpForbiddenHandler.cs"
+],
+"earliest_patch_date": "2012-07-06 13:42:43-04:00",
+"earliest_vuln_date": "2009-06-03 15:44:01+00:00",
+"vuln_files": [
+"mcs/class/System.Web/System.Web/HttpForbiddenHandler.cs"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2015-2318",
+"patch_date": [
+"2015-03-06 10:34:14-05:00"
+],
+"patch_files": [
+"mcs/class/Mono.Security/Mono.Security.Protocol.Tls/RecordProtocol.cs",
+"mcs/class/Mono.Security/Mono.Security.Protocol.Tls/ClientRecordProtocol.cs",
+"mcs/class/Mono.Security/Mono.Security.Protocol.Tls/ServerRecordProtocol.cs",
+"mcs/class/Mono.Security/Mono.Security.Protocol.Tls/Context.cs"
+],
+"earliest_patch_date": "2015-03-06 10:34:14-05:00",
+"earliest_vuln_date": "2004-02-20 11:42:49+00:00",
+"vuln_files": [
+"mcs/class/Mono.Security/Mono.Security.Protocol.Tls/ClientRecordProtocol.cs",
+"mcs/class/Mono.Security/Mono.Security.Protocol.Tls/ServerRecordProtocol.cs",
+"mcs/class/Mono.Security/Mono.Security.Protocol.Tls/RecordProtocol.cs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-295"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2015-2320",
+"patch_date": [
+"2015-03-06 10:34:59-05:00"
+],
+"patch_files": [
+"mcs/class/Mono.Security/Mono.Security.Protocol.Tls/RecordProtocol.cs"
+],
+"earliest_patch_date": "2015-03-06 10:34:59-05:00",
+"earliest_vuln_date": "2004-09-24 14:29:49+00:00",
+"vuln_files": [
+"mcs/class/Mono.Security/Mono.Security.Protocol.Tls/RecordProtocol.cs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-295"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-295"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"mcs/class/Mono.Security/Mono.Security.Protocol.Tls/RecordProtocol.cs"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2015-2319",
+"patch_date": [
+"2015-03-06 10:35:27-05:00"
+],
+"patch_files": [
+"mcs/class/Mono.Security/Mono.Security.Protocol.Tls/SslServerStream.cs",
+"mcs/class/Mono.Security/Mono.Security.Protocol.Tls/ClientRecordProtocol.cs",
+"mcs/class/Mono.Security/Mono.Security.Protocol.Tls/SslCipherSuite.cs",
+"mcs/class/Mono.Security/Mono.Security.Protocol.Tls/TlsCipherSuite.cs",
+"mcs/class/Mono.Security/Mono.Security.Protocol.Tls/CipherSuiteFactory.cs"
+],
+"earliest_patch_date": "2015-03-06 10:35:27-05:00",
+"earliest_vuln_date": "2003-10-16 01:27:23+00:00",
+"vuln_files": [
+"mcs/class/Mono.Security/Mono.Security.Protocol.Tls/SslServerStream.cs",
+"mcs/class/Mono.Security/Mono.Security.Protocol.Tls/ClientRecordProtocol.cs",
+"mcs/class/Mono.Security/Mono.Security.Protocol.Tls/SslCipherSuite.cs",
+"mcs/class/Mono.Security/Mono.Security.Protocol.Tls/TlsCipherSuite.cs",
+"mcs/class/Mono.Security/Mono.Security.Protocol.Tls/CipherSuiteFactory.cs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-295"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-295"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"mcs/class/Mono.Security/Mono.Security.Protocol.Tls/ClientRecordProtocol.cs"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,279 @@
+[
+{
+"cve_id": "CVE-2019-6009",
+"patch_date": [
+"2018-04-11 17:16:18+09:00",
+"2018-04-11 17:16:18+09:00"
+],
+"patch_files": [
+"app/controllers/concerns/sns/login_filter.rb"
+],
+"earliest_patch_date": "2018-04-11 17:16:18+09:00",
+"earliest_vuln_date": "2016-05-10 19:32:39+09:00",
+"vuln_files": [
+"app/controllers/concerns/sns/login_filter.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-601"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-5607",
+"patch_date": [
+"2020-07-01 13:49:01+09:00",
+"2020-07-01 13:49:01+09:00"
+],
+"patch_files": [
+"spec/features/members/agents/nodes/login_spec.rb",
+"app/models/member/node.rb",
+"app/controllers/concerns/member/login_filter.rb",
+"spec/models/member/node/login_spec.rb",
+"app/controllers/member/agents/nodes/login_controller.rb"
+],
+"earliest_patch_date": "2020-07-01 13:49:01+09:00",
+"earliest_vuln_date": "2015-06-05 14:43:04+09:00",
+"vuln_files": [
+"spec/features/members/agents/nodes/login_spec.rb",
+"app/controllers/member/agents/nodes/login_controller.rb",
+"app/controllers/concerns/member/login_filter.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-601"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-601"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-46898",
+"patch_date": [
+"2024-09-25 11:51:10+09:00"
+],
+"patch_files": [
+"app/views/cms/apis/preview/workflow/wizard/frame.html.erb",
+"app/views/chorg/run/confirmation.html.erb",
+"app/views/gws/chorg/run/confirmation.html.erb",
+"app/views/article/agents/nodes/map_search/_modal.html.erb",
+"app/views/gws/workload/graphs/index.html.erb",
+"app/views/gws/agents/addons/workflow2/circulation/_show.html.erb",
+"app/models/translate/access_log.rb",
+"app/controllers/concerns/webmail/base_filter.rb",
+"app/views/opendata/agents/nodes/dataset/resource/graph/line_content.html.erb",
+"app/controllers/cms/search_contents/pages_controller.rb",
+"app/controllers/concerns/ss/catch_all_filter.rb",
+"app/controllers/concerns/cms/crud_filter.rb",
+"app/views/gws/elasticsearch/search/main/_tabs.html.erb",
+"app/views/gws/schedule/todo/main/_category_navi.html.erb",
+"app/controllers/application_controller.rb",
+"app/models/ss/oauth2/token_request/jwt_bearer.rb",
+"app/views/cms/preview/_tool.html.erb",
+"app/controllers/uploader/files_controller.rb",
+"app/views/opendata/dataset/resource_report_main/index.html.erb",
+"app/views/workflow/agents/addons/approver/_show.html.erb",
+"spec/requests/cms/public_controller_spec.rb",
+"app/views/sys/db/colls/index.html.erb",
+"app/views/gws/affair/main/_navi.html.erb",
+"app/controllers/concerns/gws/base_filter.rb",
+"app/controllers/gws/workflow2/form/columns2_controller.rb",
+"app/controllers/gws/workflow/columns2_controller.rb",
+"app/models/webmail/history.rb",
+"app/models/history/log.rb",
+"app/views/gws/columns2/index.html.erb",
+"app/controllers/concerns/gws/column_filter2.rb",
+"app/controllers/cms/users_controller.rb",
+"app/models/gws/history.rb",
+"app/views/chorg/results/show.html.erb",
+"app/views/gws/agents/addons/affair/overtime_result/_show.html.erb",
+"app/views/gws/agents/addons/workflow2/approver/_show.html.erb",
+"app/views/sns/login/login.html.erb",
+"app/controllers/gws/apis/columns_controller.rb",
+"app/views/opendata/agents/nodes/dataset/resource/graph/bar_content.html.erb",
+"app/views/cms/agents/addons/opendata_ref/resource/_show_edit.html.erb",
+"app/views/gws/agents/addons/workflow2/inspection/_show.html.erb",
+"app/views/opendata/agents/nodes/dataset/resource/graph/pie_content.html.erb",
+"app/views/history/agents/addons/backup/_show.html.erb",
+"app/models/ss.rb",
+"app/models/cms/api_token.rb",
+"app/controllers/concerns/cms/public_filter.rb",
+"app/views/sns/login/_notices.html.erb",
+"app/controllers/cms/form/columns_controller.rb"
+],
+"earliest_patch_date": "2024-09-25 11:51:10+09:00",
+"earliest_vuln_date": "2014-10-27 01:07:54+09:00",
+"vuln_files": [
+"app/views/cms/apis/preview/workflow/wizard/frame.html.erb",
+"app/views/chorg/run/confirmation.html.erb",
+"app/views/gws/chorg/run/confirmation.html.erb",
+"app/views/article/agents/nodes/map_search/_modal.html.erb",
+"app/views/gws/workload/graphs/index.html.erb",
+"app/views/gws/agents/addons/workflow2/circulation/_show.html.erb",
+"app/models/translate/access_log.rb",
+"app/controllers/concerns/webmail/base_filter.rb",
+"app/views/opendata/agents/nodes/dataset/resource/graph/line_content.html.erb",
+"app/controllers/cms/search_contents/pages_controller.rb",
+"app/controllers/concerns/ss/catch_all_filter.rb",
+"app/controllers/concerns/cms/crud_filter.rb",
+"app/views/gws/elasticsearch/search/main/_tabs.html.erb",
+"app/views/gws/schedule/todo/main/_category_navi.html.erb",
+"app/controllers/application_controller.rb",
+"app/models/ss/oauth2/token_request/jwt_bearer.rb",
+"app/views/cms/preview/_tool.html.erb",
+"app/controllers/uploader/files_controller.rb",
+"app/views/workflow/agents/addons/approver/_show.html.erb",
+"app/views/opendata/dataset/resource_report_main/index.html.erb",
+"app/views/sys/db/colls/index.html.erb",
+"app/views/gws/affair/main/_navi.html.erb",
+"app/controllers/concerns/gws/base_filter.rb",
+"app/controllers/gws/workflow2/form/columns2_controller.rb",
+"app/controllers/gws/workflow/columns2_controller.rb",
+"app/models/webmail/history.rb",
+"app/models/history/log.rb",
+"app/views/gws/columns2/index.html.erb",
+"app/controllers/concerns/gws/column_filter2.rb",
+"app/controllers/cms/users_controller.rb",
+"app/models/gws/history.rb",
+"app/views/chorg/results/show.html.erb",
+"app/views/gws/agents/addons/affair/overtime_result/_show.html.erb",
+"app/views/gws/agents/addons/workflow2/approver/_show.html.erb",
+"app/views/sns/login/login.html.erb",
+"app/controllers/gws/apis/columns_controller.rb",
+"app/views/opendata/agents/nodes/dataset/resource/graph/bar_content.html.erb",
+"app/views/cms/agents/addons/opendata_ref/resource/_show_edit.html.erb",
+"app/views/gws/agents/addons/workflow2/inspection/_show.html.erb",
+"app/views/opendata/agents/nodes/dataset/resource/graph/pie_content.html.erb",
+"app/views/history/agents/addons/backup/_show.html.erb",
+"app/models/cms/api_token.rb",
+"app/controllers/concerns/cms/public_filter.rb",
+"app/views/sns/login/_notices.html.erb",
+"app/controllers/cms/form/columns_controller.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

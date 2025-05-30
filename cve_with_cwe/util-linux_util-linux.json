@@ -1,0 +1,103 @@
+[
+{
+"cve_id": "CVE-2021-3996",
+"patch_date": [
+"2022-01-04 10:37:55+01:00"
+],
+"patch_files": [
+"libmount/src/libmount.h.in",
+"misc-utils/findmnt.c",
+"libmount/docs/libmount-sections.txt",
+"libmount/src/tab_parse.c",
+"libmount/src/libmount.sym",
+"libmount/src/fs.c",
+"libmount/src/mountP.h"
+],
+"earliest_patch_date": "2022-01-04 10:37:55+01:00",
+"earliest_vuln_date": "2019-04-08 14:45:56+02:00",
+"vuln_files": [
+"misc-utils/findmnt.c",
+"libmount/docs/libmount-sections.txt",
+"libmount/src/tab_parse.c",
+"libmount/src/libmount.sym",
+"libmount/src/fs.c",
+"libmount/src/libmount.h.in"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 5.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-3995",
+"patch_date": [
+"2022-01-24 12:05:16+01:00"
+],
+"patch_files": [
+"libmount/src/optstr.c",
+"libmount/src/context_umount.c",
+"libmount/src/mountP.h"
+],
+"earliest_patch_date": "2022-01-24 12:05:16+01:00",
+"earliest_vuln_date": "2018-11-30 10:25:04+01:00",
+"vuln_files": [
+"libmount/src/context_umount.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 5.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"libmount/src/mountP.h"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

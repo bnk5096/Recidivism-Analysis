@@ -1,0 +1,162 @@
+[
+{
+"cve_id": "CVE-2013-2138",
+"patch_date": [
+"2013-05-09 01:40:46-04:00",
+"2013-05-17 11:43:55-04:00"
+],
+"patch_files": [
+"lib/flowplayer.controls.swf.php",
+"lib/flowplayer.pseudostreaming-byterange.swf",
+"lib/uploadify/uploadify.allglyphs.swf",
+"lib/flowplayer.swf.php",
+"modules/gallery/views/movieplayer.html.php",
+"lib/uploadify/uploadify.allglyphs.php",
+"lib/flowplayer.pseudostreaming-byterange.swf.php",
+"lib/flowplayer.swf",
+"lib/uploadify/uploadify.swf",
+"lib/flowplayer.pseudostreaming.swf.php",
+"lib/uploadify/jquery.uploadify.min.js",
+"lib/uploadify/uploadify.php",
+"lib/flowplayer.pseudostreaming.swf",
+"lib/flowplayer.controls.swf"
+],
+"earliest_patch_date": "2013-05-09 01:40:46-04:00",
+"earliest_vuln_date": "2012-06-05 20:20:21-07:00",
+"vuln_files": [
+"lib/uploadify/jquery.uploadify.min.js",
+"modules/gallery/views/movieplayer.html.php"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-20"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2013-2240",
+"patch_date": [
+"2013-06-06 00:58:57-04:00"
+],
+"patch_files": [
+"lib/flowplayer.swf.php"
+],
+"earliest_patch_date": "2013-06-06 00:58:57-04:00",
+"earliest_vuln_date": "2013-05-17 11:43:55-04:00",
+"vuln_files": [
+"lib/flowplayer.swf.php"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/flowplayer.swf.php"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"lib/flowplayer.swf.php"
+]
+},
+{
+"cve_id": "CVE-2013-2241",
+"patch_date": [
+"2013-06-12 07:25:26+02:00"
+],
+"patch_files": [
+"modules/gallery/helpers/data_rest.php"
+],
+"earliest_patch_date": "2013-06-12 07:25:26+02:00",
+"earliest_vuln_date": "2010-08-07 22:33:01-07:00",
+"vuln_files": [
+"modules/gallery/helpers/data_rest.php"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-264"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

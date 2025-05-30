@@ -1,0 +1,50 @@
+[
+{
+"cve_id": "CVE-2024-23679",
+"patch_date": [
+"2021-12-06 14:37:33+01:00",
+"2021-12-06 14:46:25+01:00",
+"2021-12-06 14:44:14+01:00"
+],
+"patch_files": [
+"modules/lib/lib-auth/src/test/java/com/enonic/xp/lib/auth/LoginHandlerTest.java",
+"modules/lib/lib-auth/src/main/java/com/enonic/xp/lib/auth/LoginHandler.java"
+],
+"earliest_patch_date": "2021-12-06 14:37:33+01:00",
+"earliest_vuln_date": "2015-09-04 13:15:56+02:00",
+"vuln_files": [
+"modules/lib/lib-auth/src/main/java/com/enonic/xp/lib/auth/LoginHandler.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-384"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

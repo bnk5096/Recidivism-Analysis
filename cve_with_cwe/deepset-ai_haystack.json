@@ -1,0 +1,87 @@
+[
+{
+"cve_id": "CVE-2023-1712",
+"patch_date": [
+"2023-03-29 12:54:21+02:00"
+],
+"patch_files": [
+"annotation_tool/README.md",
+"annotation_tool/docker-compose.yml"
+],
+"earliest_patch_date": "2023-03-29 12:54:21+02:00",
+"earliest_vuln_date": "2020-09-29 14:09:45+02:00",
+"vuln_files": [
+"annotation_tool/README.md",
+"annotation_tool/docker-compose.yml"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-41950",
+"patch_date": [
+"2024-07-26 14:02:09+00:00",
+"2024-07-26 18:17:25+02:00"
+],
+"patch_files": [
+"haystack/components/builders/dynamic_prompt_builder.py",
+"haystack/components/builders/prompt_builder.py",
+"test/components/routers/test_conditional_router.py",
+"haystack/components/converters/output_adapter.py",
+"haystack/components/routers/conditional_router.py",
+"haystack/components/builders/chat_prompt_builder.py",
+"haystack/core/pipeline/template.py",
+"haystack/components/builders/dynamic_chat_prompt_builder.py",
+"releasenotes/notes/fix-jinja-env-81c98225b22dc827.yaml"
+],
+"earliest_patch_date": "2024-07-26 14:02:09+00:00",
+"earliest_vuln_date": "2023-09-05 12:22:21+02:00",
+"vuln_files": [
+"haystack/components/builders/prompt_builder.py",
+"test/components/routers/test_conditional_router.py",
+"haystack/components/routers/conditional_router.py",
+"haystack/components/converters/output_adapter.py",
+"haystack/components/builders/chat_prompt_builder.py",
+"haystack/core/pipeline/template.py",
+"haystack/components/builders/dynamic_chat_prompt_builder.py",
+"haystack/components/builders/dynamic_prompt_builder.py"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

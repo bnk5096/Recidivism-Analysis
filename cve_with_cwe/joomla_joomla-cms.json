@@ -1,0 +1,217 @@
+[
+{
+"cve_id": "CVE-2013-5576",
+"patch_date": [
+"2013-07-31 21:01:37-05:00",
+"2013-07-31 20:23:46-05:00"
+],
+"patch_files": [
+"build/build.php",
+"installation/CHANGELOG",
+"libraries/joomla/filesystem/file.php",
+"installation/sql/postgresql/joomla.sql",
+"libraries/cms/version/version.php",
+"administrator/includes/framework.php",
+"administrator/manifests/files/joomla.xml",
+"installation/sql/mysql/joomla.sql",
+"installation/sql/sqlazure/joomla.sql",
+"administrator/components/com_media/helpers/media.php",
+"includes/framework.php"
+],
+"earliest_patch_date": "2013-07-31 20:23:46-05:00",
+"earliest_vuln_date": "2009-05-27 22:47:11+00:00",
+"vuln_files": [
+"build/build.php",
+"libraries/cms/version/version.php",
+"administrator/includes/framework.php",
+"administrator/manifests/files/joomla.xml",
+"installation/sql/mysql/joomla.sql",
+"installation/sql/sqlazure/joomla.sql",
+"administrator/components/com_media/helpers/media.php",
+"includes/framework.php",
+"installation/sql/postgresql/joomla.sql"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-20"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2016-8869",
+"patch_date": [
+"2016-10-25 16:31:06+02:00"
+],
+"patch_files": [
+"components/com_users/controllers/user.php",
+"libraries/cms/version/version.php",
+"administrator/manifests/files/joomla.xml"
+],
+"earliest_patch_date": "2016-10-25 16:31:06+02:00",
+"earliest_vuln_date": "2009-05-27 22:47:11+00:00",
+"vuln_files": [
+"components/com_users/controllers/user.php",
+"libraries/cms/version/version.php",
+"administrator/manifests/files/joomla.xml"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-20"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-20"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"libraries/cms/version/version.php",
+"administrator/manifests/files/joomla.xml"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2016-8870",
+"patch_date": [
+"2016-10-25 16:31:06+02:00"
+],
+"patch_files": [
+"components/com_users/controllers/user.php",
+"libraries/cms/version/version.php",
+"administrator/manifests/files/joomla.xml"
+],
+"earliest_patch_date": "2016-10-25 16:31:06+02:00",
+"earliest_vuln_date": "2009-05-27 22:47:11+00:00",
+"vuln_files": [
+"components/com_users/controllers/user.php",
+"libraries/cms/version/version.php",
+"administrator/manifests/files/joomla.xml"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-20"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-20"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"components/com_users/controllers/user.php",
+"libraries/cms/version/version.php",
+"administrator/manifests/files/joomla.xml"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

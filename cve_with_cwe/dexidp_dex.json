@@ -1,0 +1,177 @@
+[
+{
+"cve_id": "CVE-2020-26290",
+"patch_date": [
+"2020-12-14 03:21:11-05:00"
+],
+"patch_files": [
+"go.sum",
+"connector/saml/saml.go",
+"go.mod"
+],
+"earliest_patch_date": "2020-12-14 03:21:11-05:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.6,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-39222",
+"patch_date": [
+"2022-09-28 16:10:11+02:00"
+],
+"patch_files": [
+"storage/ent/client/authrequest.go",
+"storage/etcd/types.go",
+"server/handlers.go",
+"storage/sql/crud.go",
+"storage/ent/client/types.go",
+"storage/ent/db/authrequest/where.go",
+"storage/ent/db/authrequest/authrequest.go",
+"storage/ent/db/authrequest.go",
+"storage/ent/db/migrate/schema.go",
+"storage/conformance/conformance.go",
+"storage/kubernetes/types.go",
+"storage/ent/schema/authrequest.go",
+"storage/health.go",
+"storage/ent/db/mutation.go",
+"storage/ent/db/authrequest_create.go",
+"storage/ent/db/authrequest_update.go",
+"storage/storage.go",
+"storage/sql/migrate.go",
+"server/oauth2.go"
+],
+"earliest_patch_date": "2022-09-28 16:10:11+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-862"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-23656",
+"patch_date": [
+"2024-01-25 13:55:55+02:00"
+],
+"patch_files": [
+"config.yaml.dist",
+"cmd/dex/config_test.go",
+"cmd/dex/serve.go",
+"cmd/dex/config.go"
+],
+"earliest_patch_date": "2024-01-25 13:55:55+02:00",
+"earliest_vuln_date": "2016-11-03 14:39:32-07:00",
+"vuln_files": [
+"cmd/dex/config_test.go",
+"cmd/dex/serve.go",
+"cmd/dex/config.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-326"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

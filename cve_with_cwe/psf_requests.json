@@ -1,0 +1,96 @@
+[
+{
+"cve_id": "CVE-2023-32681",
+"patch_date": [
+"2023-05-22 09:08:57-06:00"
+],
+"patch_files": [
+"tests/test_requests.py",
+"requests/sessions.py"
+],
+"earliest_patch_date": "2023-05-22 09:08:57-06:00",
+"earliest_vuln_date": "2014-03-22 21:11:33+00:00",
+"vuln_files": [
+"requests/sessions.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.6,
+"impactScore": 4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-1682",
+"patch_date": [
+"2024-02-20 11:58:35-08:00"
+],
+"patch_files": [
+"docs/community/out-there.rst"
+],
+"earliest_patch_date": "2024-02-20 11:58:35-08:00",
+"earliest_vuln_date": "2011-10-17 20:41:40-04:00",
+"vuln_files": [
+"docs/community/out-there.rst"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-35195",
+"patch_date": [
+"2024-03-11 06:21:59-05:00"
+],
+"patch_files": [
+"tests/test_requests.py",
+"src/requests/adapters.py",
+"tox.ini"
+],
+"earliest_patch_date": "2024-03-11 06:21:59-05:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"tests/test_requests.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

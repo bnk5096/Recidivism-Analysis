@@ -1,0 +1,623 @@
+[
+{
+"cve_id": "CVE-2015-3147",
+"patch_date": [
+"2015-04-21 06:58:16+02:00"
+],
+"patch_files": [
+"src/daemon/abrt-handle-upload.in"
+],
+"earliest_patch_date": "2015-04-21 06:58:16+02:00",
+"earliest_vuln_date": "2013-08-16 13:28:34+02:00",
+"vuln_files": [
+"src/daemon/abrt-handle-upload.in"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4.9
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 6.8,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-59"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2015-3315",
+"patch_date": [
+"2015-04-28 14:02:43+02:00",
+"2015-04-28 13:58:35+02:00",
+"2015-04-28 14:02:43+02:00",
+"2015-04-28 14:00:29+02:00"
+],
+"patch_files": [
+"src/hooks/abrt-hook-ccpp.c"
+],
+"earliest_patch_date": "2015-04-28 13:58:35+02:00",
+"earliest_vuln_date": "2011-10-27 19:05:23+02:00",
+"vuln_files": [
+"src/hooks/abrt-hook-ccpp.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "COMPLETE",
+"integrityImpact": "COMPLETE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 7.2
+},
+"severity": "HIGH",
+"exploitabilityScore": 3.9,
+"impactScore": 10,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-59"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-59"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2015-1870",
+"patch_date": [
+"2015-05-04 09:54:17+02:00",
+"2015-05-04 09:54:18+02:00"
+],
+"patch_files": [
+"src/lib/abrt_conf.c",
+"src/daemon/abrt-server.c",
+"src/daemon/abrt.conf",
+"src/plugins/abrt-dump-xorg.c",
+"src/lib/hooklib.c",
+"configure.ac",
+"src/plugins/abrt-dump-oops.c",
+"src/hooks/abrt-hook-ccpp.c",
+"src/include/libabrt.h"
+],
+"earliest_patch_date": "2015-05-04 09:54:17+02:00",
+"earliest_vuln_date": "2012-07-25 16:40:18+02:00",
+"vuln_files": [
+"src/daemon/abrt-server.c",
+"src/hooks/abrt-hook-ccpp.c",
+"src/lib/hooklib.c",
+"configure.ac"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 2.1
+},
+"severity": "LOW",
+"exploitabilityScore": 3.9,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-200"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/hooks/abrt-hook-ccpp.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2015-3151",
+"patch_date": [
+"2015-05-13 11:12:31+02:00",
+"2015-05-04 09:54:18+02:00",
+"2015-05-04 09:54:19+02:00"
+],
+"patch_files": [
+"src/daemon/abrt-server.c",
+"src/dbus/abrt-dbus.c"
+],
+"earliest_patch_date": "2015-05-04 09:54:18+02:00",
+"earliest_vuln_date": "2010-06-09 17:18:47+02:00",
+"vuln_files": [
+"src/daemon/abrt-server.c",
+"src/dbus/abrt-dbus.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "COMPLETE",
+"integrityImpact": "COMPLETE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 7.2
+},
+"severity": "HIGH",
+"exploitabilityScore": 3.9,
+"impactScore": 10,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/daemon/abrt-server.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2015-3150",
+"patch_date": [
+"2015-05-04 09:54:19+02:00",
+"2015-05-04 09:54:19+02:00",
+"2015-05-04 09:54:19+02:00"
+],
+"patch_files": [
+"src/daemon/abrt-server.c",
+"src/dbus/abrt-dbus.c",
+"src/lib/hooklib.c",
+"tests/Makefile.am",
+"src/lib/problem_api.c",
+"tests/testsuite.at",
+"src/include/libabrt.h",
+"tests/hooklib.at"
+],
+"earliest_patch_date": "2015-05-04 09:54:19+02:00",
+"earliest_vuln_date": "2011-06-13 19:43:56+02:00",
+"vuln_files": [
+"src/daemon/abrt-server.c",
+"tests/Makefile.am",
+"src/dbus/abrt-dbus.c",
+"src/lib/problem_api.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 5.2
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "COMPLETE",
+"integrityImpact": "COMPLETE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 7.2
+},
+"severity": "HIGH",
+"exploitabilityScore": 3.9,
+"impactScore": 10,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-20"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/daemon/abrt-server.c",
+"src/dbus/abrt-dbus.c",
+"src/lib/hooklib.c",
+"src/include/libabrt.h"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2015-3159",
+"patch_date": [
+"2015-05-04 09:54:19+02:00",
+"2015-05-04 09:54:19+02:00"
+],
+"patch_files": [
+"po/POTFILES.in",
+"src/plugins/abrt-action-install-debuginfo-to-abrt-cache.c"
+],
+"earliest_patch_date": "2015-05-04 09:54:19+02:00",
+"earliest_vuln_date": "2011-02-22 05:09:13+01:00",
+"vuln_files": [
+"src/plugins/abrt-action-install-debuginfo-to-abrt-cache.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "COMPLETE",
+"integrityImpact": "COMPLETE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 7.2
+},
+"severity": "HIGH",
+"exploitabilityScore": 3.9,
+"impactScore": 10,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2015-1869",
+"patch_date": [
+"2015-05-06 14:51:49+02:00",
+"2015-05-07 11:10:08+02:00"
+],
+"patch_files": [
+"src/daemon/abrt-server.c",
+"src/lib/hooklib.c",
+"src/dbus/abrt-dbus.c",
+"src/include/libabrt.h"
+],
+"earliest_patch_date": "2015-05-06 14:51:49+02:00",
+"earliest_vuln_date": "2012-05-14 14:57:10+02:00",
+"vuln_files": [
+"src/daemon/abrt-server.c",
+"src/dbus/abrt-dbus.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "COMPLETE",
+"integrityImpact": "COMPLETE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 7.2
+},
+"severity": "HIGH",
+"exploitabilityScore": 3.9,
+"impactScore": 10,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-59"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-59"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/daemon/abrt-server.c",
+"src/lib/hooklib.c",
+"src/dbus/abrt-dbus.c",
+"src/include/libabrt.h"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2015-5273",
+"patch_date": [
+"2015-11-23 14:52:53+01:00"
+],
+"patch_files": [
+"src/plugins/Makefile.am",
+"src/plugins/abrt-action-install-debuginfo-to-abrt-cache.c"
+],
+"earliest_patch_date": "2015-11-23 14:52:53+01:00",
+"earliest_vuln_date": "2011-09-27 17:07:19+02:00",
+"vuln_files": [
+"src/plugins/abrt-action-install-debuginfo-to-abrt-cache.c"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:N/I:P/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 3.6
+},
+"severity": "LOW",
+"exploitabilityScore": 3.9,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-59"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-59"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/plugins/abrt-action-install-debuginfo-to-abrt-cache.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2015-5287",
+"patch_date": [
+"2015-11-23 14:52:53+01:00"
+],
+"patch_files": [
+"src/hooks/abrt-hook-ccpp.c"
+],
+"earliest_patch_date": "2015-11-23 14:52:53+01:00",
+"earliest_vuln_date": "2012-02-06 13:18:54+01:00",
+"vuln_files": [
+"src/hooks/abrt-hook-ccpp.c"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+"accessVector": "LOCAL",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "COMPLETE",
+"integrityImpact": "COMPLETE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 6.9
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 3.4,
+"impactScore": 10,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-59"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-59"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/hooks/abrt-hook-ccpp.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

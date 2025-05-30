@@ -1,0 +1,268 @@
+[
+{
+"cve_id": "CVE-2023-46134",
+"patch_date": [
+"2023-10-02 15:00:43-04:00"
+],
+"patch_files": [
+"README.md",
+"frontend/static/dtale/export/main.tsx",
+"frontend/static/__tests__/dtale/reduxGridUtils-test.ts",
+"tests/dtale/test_views.py",
+"frontend/static/redux/actions/dtale.ts",
+"dtale/config.py",
+"tests/dtale/config/dtale_missing_props.ini",
+"frontend/static/__tests__/dtale/DataViewer-filter-test.tsx",
+"frontend/static/__tests__/reducers/dtale-test.tsx",
+"dtale/global_state.py",
+"dtale/app.py",
+"frontend/static/popups/filter/FilterPanel.tsx",
+"frontend/static/redux/selectors.ts",
+"dtale/__init__.py",
+"dtale/templates/dtale/base.html",
+"frontend/static/__tests__/popups/filter/FilterPopup-test.tsx",
+"frontend/static/redux/state/AppState.ts",
+"dtale/views.py",
+"frontend/static/main.tsx",
+"docs/CONFIGURATION.md",
+"frontend/static/popups/filter/FilterPopup.tsx",
+"frontend/static/redux/reducers/app/settings.ts",
+"tests/dtale/config/test_config.py",
+"frontend/static/redux/actions/AppActions.ts",
+"frontend/static/__tests__/test-utils.tsx",
+"tests/dtale/config/dtale.ini"
+],
+"earliest_patch_date": "2023-10-02 15:00:43-04:00",
+"earliest_vuln_date": "2022-01-20 09:50:30-05:00",
+"vuln_files": [
+"frontend/static/popups/filter/FilterPopup.tsx",
+"frontend/static/__tests__/dtale/DataViewer-filter-test.tsx",
+"frontend/static/redux/actions/AppActions.ts",
+"frontend/static/__tests__/popups/filter/FilterPopup-test.tsx",
+"frontend/static/popups/filter/FilterPanel.tsx"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-21642",
+"patch_date": [
+"2024-01-05 15:03:54-05:00"
+],
+"patch_files": [
+"README.md",
+"tests/dtale/test_views.py",
+"frontend/static/__tests__/dtale/upload/upload-url-test.tsx",
+"dtale/datasets.py",
+"requirements.txt",
+"dtale/config.py",
+"tests/dtale/config/dtale_missing_props.ini",
+"frontend/static/popups/create/LabeledInput.tsx",
+"frontend/static/__tests__/reducers/dtale-test.tsx",
+"frontend/static/popups/upload/Upload.tsx",
+"dtale/global_state.py",
+"dtale/app.py",
+"frontend/static/redux/selectors.ts",
+"dtale/__init__.py",
+".circleci/config.yml",
+"dtale/templates/dtale/base.html",
+"frontend/static/__tests__/dtale/upload/Upload.test.support.tsx",
+"requirements-test.txt",
+"frontend/static/redux/state/AppState.ts",
+"dtale/views.py",
+"frontend/static/redux/reducers/app/settings.ts",
+"frontend/static/popups/filter/FilterPopup.tsx",
+"docs/CONFIGURATION.md",
+"tests/dtale/config/test_config.py",
+"tests/dtale/test_upload.py",
+"frontend/static/__tests__/test-utils.tsx",
+"tests/dtale/config/dtale.ini"
+],
+"earliest_patch_date": "2024-01-05 15:03:54-05:00",
+"earliest_vuln_date": "2020-10-26 22:28:26-04:00",
+"vuln_files": [
+"frontend/static/popups/filter/FilterPopup.tsx",
+"frontend/static/popups/create/LabeledInput.tsx",
+"dtale/datasets.py",
+"requirements.txt",
+"frontend/static/popups/upload/Upload.tsx",
+"frontend/static/__tests__/dtale/upload/Upload.test.support.tsx",
+"requirements-test.txt"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"README.md",
+"tests/dtale/test_views.py",
+"dtale/config.py",
+"tests/dtale/config/dtale_missing_props.ini",
+"frontend/static/__tests__/reducers/dtale-test.tsx",
+"dtale/global_state.py",
+"dtale/app.py",
+"frontend/static/redux/selectors.ts",
+"dtale/__init__.py",
+"dtale/templates/dtale/base.html",
+"frontend/static/redux/state/AppState.ts",
+"dtale/views.py",
+"frontend/static/redux/reducers/app/settings.ts",
+"frontend/static/popups/filter/FilterPopup.tsx",
+"docs/CONFIGURATION.md",
+"tests/dtale/config/test_config.py",
+"frontend/static/__tests__/test-utils.tsx",
+"tests/dtale/config/dtale.ini"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-3408",
+"patch_date": [
+"2024-06-27 13:28:56-04:00"
+],
+"patch_files": [
+"dtale/app.py"
+],
+"earliest_patch_date": "2024-06-27 13:28:56-04:00",
+"earliest_vuln_date": "2020-06-09 22:14:10-04:00",
+"vuln_files": [
+"dtale/app.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"dtale/app.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-45595",
+"patch_date": [
+"2024-09-10 10:13:20-04:00"
+],
+"patch_files": [
+"tests/dtale/test_views.py",
+"dtale/views.py",
+"dtale/dash_application/layout/layout.py"
+],
+"earliest_patch_date": "2024-09-10 10:13:20-04:00",
+"earliest_vuln_date": "2020-06-09 22:14:10-04:00",
+"vuln_files": [
+"dtale/views.py",
+"dtale/dash_application/layout/layout.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"NVD-CWE-noinfo"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"tests/dtale/test_views.py",
+"dtale/views.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

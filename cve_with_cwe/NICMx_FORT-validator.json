@@ -1,0 +1,92 @@
+[
+{
+"cve_id": "CVE-2021-43114",
+"patch_date": [
+"2021-10-19 17:44:35-05:00",
+"2021-08-30 17:07:15+00:00",
+"2021-09-04 00:05:17-05:00",
+"2021-09-08 12:43:45-05:00"
+],
+"patch_files": [
+"man/fort.8",
+"autogen.sh",
+"src/rrdp/rrdp_parser.c",
+"docs/intro-fort.md",
+"docs/_config.yml",
+"src/object/certificate.c",
+"src/xml/relax_ng.c",
+"src/log.c",
+"test/rrdp_objects_test.c",
+"docs/usage.md",
+"src/cert_stack.c",
+"src/rrdp/rrdp_objects.c",
+"test/Makefile.am",
+"src/rrdp/rrdp_objects.h"
+],
+"earliest_patch_date": "2021-08-30 17:07:15+00:00",
+"earliest_vuln_date": "2019-06-03 12:36:38-05:00",
+"vuln_files": [
+"man/fort.8",
+"docs/usage.md",
+"docs/intro-fort.md",
+"docs/_config.yml",
+"src/rrdp/rrdp_objects.c",
+"src/rrdp/rrdp_objects.h",
+"src/rrdp/rrdp_parser.c",
+"src/xml/relax_ng.c",
+"src/cert_stack.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

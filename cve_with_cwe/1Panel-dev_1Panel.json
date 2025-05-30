@@ -1,0 +1,108 @@
+[
+{
+"cve_id": "CVE-2023-37477",
+"patch_date": [
+"2023-07-17 08:34:29+00:00"
+],
+"patch_files": [
+"backend/app/service/firewall.go",
+"backend/app/service/image_repo.go",
+"backend/app/service/ssh.go",
+"backend/i18n/lang/en.yaml",
+"backend/i18n/lang/zh.yaml",
+"backend/constant/errs.go",
+"backend/app/service/database_mysql.go",
+"backend/app/service/container.go",
+"backend/app/service/container_compose.go",
+"backend/i18n/lang/zh-Hant.yaml",
+"backend/utils/firewall/client/firewalld.go",
+"backend/utils/firewall/client/ufw.go"
+],
+"earliest_patch_date": "2023-07-17 08:34:29+00:00",
+"earliest_vuln_date": "2023-06-26 09:24:06+00:00",
+"vuln_files": [
+"backend/app/service/image_repo.go",
+"backend/i18n/lang/en.yaml",
+"backend/i18n/lang/zh.yaml",
+"backend/constant/errs.go",
+"backend/i18n/lang/zh-Hant.yaml"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-78"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-24768",
+"patch_date": [
+"2024-02-04 22:46:33+08:00"
+],
+"patch_files": [
+"backend/app/service/setting.go",
+"backend/app/service/auth.go"
+],
+"earliest_patch_date": "2024-02-04 22:46:33+08:00",
+"earliest_vuln_date": "2022-09-20 14:55:08+08:00",
+"vuln_files": [
+"backend/app/service/auth.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-311"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

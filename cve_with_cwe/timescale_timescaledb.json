@@ -1,0 +1,108 @@
+[
+{
+"cve_id": "CVE-2022-24128",
+"patch_date": [
+"2022-02-09 18:30:06+01:00",
+"2022-02-09 17:53:20+01:00"
+],
+"patch_files": [
+"cmake/ScriptFiles.cmake",
+"sql/pre_install/schemas.sql",
+"sql/version.sql",
+"sql/cache.sql",
+"sql/updates/reverse-dev.sql",
+"test/sql/extension_scripts.sql",
+"tsl/test/sql/data_node_bootstrap.sql",
+"sql/updates/latest-dev.sql",
+"scripts/check_update_scripts.sh",
+"sql/CMakeLists.txt",
+"sql/updates/2.3.1--2.4.0.sql",
+"sql/pre_install/tables.sql",
+"sql/updates/1.7.5--2.0.0-rc1.sql",
+"sql/cat.cmake",
+".github/workflows/code_style.yaml",
+"test/sql/CMakeLists.txt",
+"cmake/GenerateScripts.cmake",
+"sql/updates/2.2.1--2.3.0.sql",
+"tsl/test/expected/data_node_bootstrap.out",
+"sql/pre_install/bgw_scheduler_startup.sql",
+"sql/updates/2.0.0-rc3--2.0.0-rc4.sql",
+"test/expected/extension_scripts.out",
+"sql/views.sql"
+],
+"earliest_patch_date": "2022-02-09 17:53:20+01:00",
+"earliest_vuln_date": "2017-03-06 11:06:49-05:00",
+"vuln_files": [
+"cmake/ScriptFiles.cmake",
+"tsl/test/expected/data_node_bootstrap.out",
+"tsl/test/sql/data_node_bootstrap.sql",
+"sql/updates/2.0.0-rc3--2.0.0-rc4.sql",
+"sql/CMakeLists.txt",
+"cmake/GenerateScripts.cmake",
+"sql/updates/2.3.1--2.4.0.sql",
+"sql/pre_install/schemas.sql",
+"sql/pre_install/tables.sql",
+"sql/updates/1.7.5--2.0.0-rc1.sql",
+"sql/updates/2.2.1--2.3.0.sql",
+"sql/version.sql",
+"sql/views.sql",
+"sql/bgw_startup.sql",
+".github/workflows/code_style.yaml",
+"sql/pre_install/cache.sql",
+"sql/updates/latest-dev.sql",
+"sql/updates/reverse-dev.sql"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.1,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 6.8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-863"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

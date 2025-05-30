@@ -1,0 +1,158 @@
+[
+{
+"cve_id": "CVE-2024-43795",
+"patch_date": [
+"2024-09-28 21:02:19-06:00"
+],
+"patch_files": [
+"openc3-cosmos-init/plugins/openc3-tool-base/public/js/auth.js",
+"openc3-cosmos-init/plugins/packages/openc3-tool-common/src/tools/base/components/Login.vue"
+],
+"earliest_patch_date": "2024-09-28 21:02:19-06:00",
+"earliest_vuln_date": "2021-06-17 15:21:00-06:00",
+"vuln_files": [
+"openc3-cosmos-init/plugins/openc3-tool-base/public/js/auth.js",
+"openc3-cosmos-init/plugins/packages/openc3-tool-common/src/tools/base/components/Login.vue"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-46977",
+"patch_date": [
+"2024-09-29 15:08:11-06:00"
+],
+"patch_files": [
+"openc3-cosmos-script-runner-api/app/controllers/application_controller.rb",
+"openc3-cosmos-cmd-tlm-api/app/controllers/screens_controller.rb",
+"openc3-cosmos-cmd-tlm-api/app/controllers/storage_controller.rb",
+"openc3-cosmos-cmd-tlm-api/app/controllers/application_controller.rb",
+"openc3-cosmos-cmd-tlm-api/app/controllers/targets_controller.rb",
+"openc3-cosmos-script-runner-api/app/controllers/scripts_controller.rb",
+"openc3-cosmos-cmd-tlm-api/app/controllers/tables_controller.rb",
+"openc3-cosmos-cmd-tlm-api/app/controllers/plugins_controller.rb"
+],
+"earliest_patch_date": "2024-09-29 15:08:11-06:00",
+"earliest_vuln_date": "2020-12-03 07:34:28-07:00",
+"vuln_files": [
+"openc3-cosmos-cmd-tlm-api/app/controllers/screens_controller.rb",
+"openc3-cosmos-cmd-tlm-api/app/controllers/targets_controller.rb",
+"openc3-cosmos-script-runner-api/app/controllers/scripts_controller.rb",
+"openc3-cosmos-cmd-tlm-api/app/controllers/tables_controller.rb",
+"openc3-cosmos-cmd-tlm-api/app/controllers/plugins_controller.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-47529",
+"patch_date": [
+"2024-09-30 11:48:25-06:00"
+],
+"patch_files": [
+"openc3-cosmos-cmd-tlm-api/app/controllers/users_controller.rb",
+"openc3-cosmos-script-runner-api/app/controllers/scripts_controller.rb",
+"openc3-cosmos-cmd-tlm-api/app/controllers/auth_controller.rb",
+"openc3/lib/openc3/models/auth_model.rb",
+"openc3-cosmos-init/plugins/packages/openc3-tool-common/src/tools/base/components/Login.vue"
+],
+"earliest_patch_date": "2024-09-30 11:48:25-06:00",
+"earliest_vuln_date": "2021-05-27 16:44:17-06:00",
+"vuln_files": [
+"openc3-cosmos-cmd-tlm-api/app/controllers/auth_controller.rb",
+"openc3-cosmos-script-runner-api/app/controllers/scripts_controller.rb",
+"openc3/lib/openc3/models/auth_model.rb",
+"openc3-cosmos-init/plugins/packages/openc3-tool-common/src/tools/base/components/Login.vue"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"openc3-cosmos-script-runner-api/app/controllers/scripts_controller.rb",
+"openc3-cosmos-init/plugins/packages/openc3-tool-common/src/tools/base/components/Login.vue"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,196 @@
+[
+{
+"cve_id": "CVE-2022-24066",
+"patch_date": [
+"2022-03-29 07:21:01+01:00"
+],
+"patch_files": [
+"simple-git/src/lib/tasks/clone.ts",
+".changeset/wicked-files-vanish.md",
+"simple-git/test/unit/clone.spec.ts"
+],
+"earliest_patch_date": "2022-03-29 07:21:01+01:00",
+"earliest_vuln_date": "2020-08-18 19:00:04+01:00",
+"vuln_files": [
+"simple-git/src/lib/tasks/clone.ts",
+"simple-git/test/unit/clone.spec.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-88"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-25912",
+"patch_date": [
+"2022-11-12 13:46:07+00:00"
+],
+"patch_files": [
+"lerna.json",
+".changeset/poor-tools-doubt.md",
+".github/workflows/changesets.yml",
+".github/workflows/quality.yml",
+"simple-git/test/integration/plugin.abort.spec.ts",
+".github/workflows/ci.yml",
+"packages/babel-config/babel.config.js",
+"simple-git/test/integration/broken-chains.spec.ts",
+"packages/test-utils/src/expectations.ts",
+".prettierignore",
+".changeset/skip-hop-jump.md",
+".github/dependabot.yml",
+"package.json",
+"simple-git/package.json",
+"simple-git/src/git.js",
+".github/FUNDING.yml",
+"simple-git/src/lib/plugins/timout-plugin.ts",
+"yarn.lock",
+".github/delete-merged-branch-config.yml"
+],
+"earliest_patch_date": "2022-11-12 13:46:07+00:00",
+"earliest_vuln_date": "2013-08-05 06:34:00+01:00",
+"vuln_files": [
+"lerna.json",
+"package.json",
+"simple-git/package.json",
+"packages/babel-config/babel.config.js",
+"simple-git/src/git.js",
+"simple-git/src/lib/plugins/timout-plugin.ts",
+"simple-git/test/integration/broken-chains.spec.ts",
+"packages/test-utils/src/expectations.ts",
+"yarn.lock",
+".github/workflows/changesets.yml",
+".prettierignore",
+".github/delete-merged-branch-config.yml",
+"simple-git/test/integration/plugin.abort.spec.ts",
+".github/workflows/ci.yml",
+".github/dependabot.yml"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-78"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-25860",
+"patch_date": [
+"2022-12-22 17:25:32+00:00"
+],
+"patch_files": [
+"docs/PLUGIN-UNSAFE-ACTIONS.md",
+".changeset/fair-cobras-arrive.md",
+"simple-git/test/unit/plugin.unsafe.spec.ts",
+"simple-git/src/lib/plugins/block-unsafe-operations-plugin.ts"
+],
+"earliest_patch_date": "2022-12-22 17:25:32+00:00",
+"earliest_vuln_date": "2022-12-22 16:13:25+00:00",
+"vuln_files": [
+"simple-git/test/unit/plugin.unsafe.spec.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,124 @@
+[
+{
+"cve_id": "CVE-2013-0275",
+"patch_date": [
+"2013-01-18 15:03:18-05:00"
+],
+"patch_files": [
+"autorotation.php",
+"decompose_graph.php",
+"graph_all_periods.php",
+"header.php",
+"views_view.php",
+"actions.php",
+"trend_navigation.php",
+"views.php",
+"mobile_helper.php",
+"compare_hosts.php"
+],
+"earliest_patch_date": "2013-01-18 15:03:18-05:00",
+"earliest_vuln_date": "2011-01-16 22:03:11-05:00",
+"vuln_files": [
+"autorotation.php",
+"decompose_graph.php",
+"graph_all_periods.php",
+"header.php",
+"views_view.php",
+"actions.php",
+"trend_navigation.php",
+"views.php",
+"mobile_helper.php",
+"compare_hosts.php"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2013-1770",
+"patch_date": [
+"2013-03-06 12:40:15-05:00"
+],
+"patch_files": [
+"views_view.php",
+"get_context.php",
+"functions.php",
+"views.php"
+],
+"earliest_patch_date": "2013-03-06 12:40:15-05:00",
+"earliest_vuln_date": "2010-11-01 13:49:42-04:00",
+"vuln_files": [
+"views_view.php",
+"get_context.php",
+"views.php"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"views_view.php",
+"views.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

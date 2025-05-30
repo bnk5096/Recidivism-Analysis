@@ -1,0 +1,421 @@
+[
+{
+"cve_id": "CVE-2021-41169",
+"patch_date": [
+"2021-10-21 17:02:26+02:00"
+],
+"patch_files": [
+"src/Sulu/Bundle/AdminBundle/Resources/public/dist/login.min.1614246819288.js",
+"src/Sulu/Bundle/AdminBundle/Resources/public/js/vendor/husky/husky.min.js",
+"src/Sulu/Bundle/AdminBundle/Resources/views/Security/login.html.dist.twig",
+"src/Sulu/Bundle/AdminBundle/Resources/public/dist/app.min.js",
+"src/Sulu/Bundle/AdminBundle/Resources/public/dist/app.min.1614246819288.css",
+"src/Sulu/Bundle/AdminBundle/Resources/views/Admin/index.html.dist.twig",
+"src/Sulu/Bundle/AdminBundle/Resources/public/dist/login.min.1614246819288.css",
+"src/Sulu/Bundle/AdminBundle/Resources/public/js/vendor/husky/husky.js",
+"src/Sulu/Bundle/AdminBundle/Resources/public/dist/app.min.1614246819288.js",
+"src/Sulu/Bundle/AdminBundle/Resources/public/dist/login.min.js"
+],
+"earliest_patch_date": "2021-10-21 17:02:26+02:00",
+"earliest_vuln_date": "2014-07-31 15:34:12+02:00",
+"vuln_files": [
+"src/Sulu/Bundle/AdminBundle/Resources/public/js/vendor/husky/husky.min.js",
+"src/Sulu/Bundle/AdminBundle/Resources/views/Security/login.html.dist.twig",
+"src/Sulu/Bundle/AdminBundle/Resources/public/dist/app.min.js",
+"src/Sulu/Bundle/AdminBundle/Resources/views/Admin/index.html.dist.twig",
+"src/Sulu/Bundle/AdminBundle/Resources/public/js/vendor/husky/husky.js",
+"src/Sulu/Bundle/AdminBundle/Resources/public/dist/app.min.1634826923308.js",
+"src/Sulu/Bundle/AdminBundle/Resources/public/dist/login.min.js",
+"src/Sulu/Bundle/AdminBundle/Resources/public/dist/login.min.1634826923308.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.8,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.7,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-43836",
+"patch_date": [
+"2021-12-07 13:16:26+01:00"
+],
+"patch_files": [
+"src/Sulu/Bundle/RouteBundle/Tests/Unit/Generator/SymfonyExpressionTokenProviderTest.php",
+"src/Sulu/Bundle/RouteBundle/Generator/SymfonyExpressionTokenProvider.php",
+"src/Sulu/Bundle/RouteBundle/Generator/TranslatorWrapper.php"
+],
+"earliest_patch_date": "2021-12-07 13:16:26+01:00",
+"earliest_vuln_date": "2016-04-29 15:29:58+02:00",
+"vuln_files": [
+"src/Sulu/Bundle/RouteBundle/Tests/Unit/Generator/SymfonyExpressionTokenProviderTest.php",
+"src/Sulu/Bundle/RouteBundle/Generator/SymfonyExpressionTokenProvider.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-43835",
+"patch_date": [
+"2021-12-15 14:49:33+01:00"
+],
+"patch_files": [
+"src/Sulu/Bundle/SecurityBundle/Tests/Functional/Controller/ProfileControllerTest.php",
+"src/Sulu/Bundle/SecurityBundle/Controller/ProfileController.php"
+],
+"earliest_patch_date": "2021-12-15 14:49:33+01:00",
+"earliest_vuln_date": "2019-07-05 15:45:59+02:00",
+"vuln_files": [
+"src/Sulu/Bundle/SecurityBundle/Controller/ProfileController.php"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-269"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-39343",
+"patch_date": [
+"2023-08-03 20:02:42+02:00"
+],
+"patch_files": [
+"config/packages/security.yaml",
+"src/Sulu/Bundle/SecurityBundle/Tests/Functional/Controller/LoginControllerTest.php",
+"src/Sulu/Bundle/SecurityBundle/Tests/Functional/Security/AuthenticationHandlerTest.php",
+"src/Sulu/Bundle/SecurityBundle/Tests/Application/config/config.yml",
+"src/Sulu/Bundle/SecurityBundle/Security/AuthenticationHandler.php"
+],
+"earliest_patch_date": "2023-08-03 20:02:42+02:00",
+"earliest_vuln_date": "2015-07-21 15:21:55+02:00",
+"vuln_files": [
+"config/packages/security.yaml",
+"src/Sulu/Bundle/SecurityBundle/Tests/Functional/Controller/LoginControllerTest.php",
+"src/Sulu/Bundle/SecurityBundle/Tests/Application/config/config.yml",
+"src/Sulu/Bundle/SecurityBundle/Security/AuthenticationHandler.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-27915",
+"patch_date": [
+"2024-03-04 13:53:32+01:00"
+],
+"patch_files": [
+"src/Sulu/Bundle/SecurityBundle/Tests/Unit/EventListener/SystemListenerTest.php",
+"src/Sulu/Bundle/WebsiteBundle/Tests/Application/Kernel.php",
+"src/Sulu/Bundle/WebsiteBundle/Tests/Application/config/routing_website.yml",
+"src/Sulu/Bundle/WebsiteBundle/Resources/config/website.xml",
+"src/Sulu/Bundle/WebsiteBundle/Tests/Unit/Routing/ContentRouteProviderTest.php",
+"src/Sulu/Bundle/WebsiteBundle/EventListener/SecurityListener.php",
+"src/Sulu/Bundle/SecurityBundle/Resources/config/services.xml",
+"src/Sulu/Bundle/WebsiteBundle/Routing/ContentRouteProvider.php",
+"phpstan-baseline.neon",
+"src/Sulu/Component/Webspace/Analyzer/Attributes/SystemRequestProcessor.php",
+"src/Sulu/Bundle/WebsiteBundle/Tests/Application/config/webspaces/sulu_lo.xml",
+"src/Sulu/Bundle/WebsiteBundle/Tests/Application/config/config_with_security.yml",
+"src/Sulu/Bundle/CoreBundle/Resources/config/request_analyzer.xml",
+"src/Sulu/Bundle/WebsiteBundle/Resources/config/services.xml",
+"src/Sulu/Bundle/SecurityBundle/EventListener/SystemListener.php",
+"src/Sulu/Bundle/WebsiteBundle/EventListener/RouterListener.php",
+"src/Sulu/Bundle/WebsiteBundle/Tests/Functional/EventListener/SecurityListenerTest.php"
+],
+"earliest_patch_date": "2024-03-04 13:53:32+01:00",
+"earliest_vuln_date": "2013-11-19 15:31:14+01:00",
+"vuln_files": [
+"src/Sulu/Bundle/SecurityBundle/Tests/Unit/EventListener/SystemListenerTest.php",
+"src/Sulu/Bundle/WebsiteBundle/Tests/Application/Kernel.php",
+"src/Sulu/Bundle/WebsiteBundle/Resources/config/website.xml",
+"src/Sulu/Bundle/WebsiteBundle/Tests/Unit/Routing/ContentRouteProviderTest.php",
+"src/Sulu/Bundle/SecurityBundle/Resources/config/services.xml",
+"phpstan-baseline.neon",
+"src/Sulu/Bundle/SecurityBundle/EventListener/SystemListener.php",
+"src/Sulu/Bundle/WebsiteBundle/Routing/ContentRouteProvider.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.2
+}
+},
+"cwes": [
+"CWE-863"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-47617",
+"patch_date": [
+"2024-07-22 13:28:46+02:00",
+"2024-10-02 14:40:34+02:00"
+],
+"patch_files": [
+"src/Sulu/Bundle/MediaBundle/Tests/Functional/Controller/MediaControllerTest.php",
+"src/Sulu/Bundle/MediaBundle/Tests/Functional/Controller/MediaStreamControllerTest.php",
+"src/Sulu/Bundle/MediaBundle/Controller/MediaStreamController.php"
+],
+"earliest_patch_date": "2024-07-22 13:28:46+02:00",
+"earliest_vuln_date": "2014-07-03 17:57:26+02:00",
+"vuln_files": [
+"src/Sulu/Bundle/MediaBundle/Tests/Functional/Controller/MediaControllerTest.php",
+"src/Sulu/Bundle/MediaBundle/Controller/MediaStreamController.php",
+"src/Sulu/Bundle/MediaBundle/Tests/Functional/Controller/MediaStreamControllerTest.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-47618",
+"patch_date": [
+"2024-10-02 14:23:37+02:00"
+],
+"patch_files": [
+"composer.json",
+"src/Sulu/Bundle/MediaBundle/FileInspector/UploadFileSubscriber.php",
+"src/Sulu/Bundle/MediaBundle/FileInspector/SvgFileInspector.php",
+"src/Sulu/Bundle/MediaBundle/Resources/config/services.xml",
+"src/Sulu/Bundle/MediaBundle/Tests/Unit/SvgInspector/SvgFileInspectorTest.php",
+"src/Sulu/Bundle/MediaBundle/FileInspector/FileInspectorInterface.php",
+"src/Sulu/Bundle/MediaBundle/FileInspector/SvgSanitizerFactory.php",
+"src/Sulu/Bundle/MediaBundle/Tests/Unit/SvgInspector/UploadFileSubscriberTest.php",
+"src/Sulu/Bundle/MediaBundle/FileInspector/UnsafeFileException.php"
+],
+"earliest_patch_date": "2024-10-02 14:23:37+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

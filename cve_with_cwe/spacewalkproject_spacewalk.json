@@ -1,0 +1,148 @@
+[
+{
+"cve_id": "CVE-2015-0284",
+"patch_date": [
+"2015-07-22 13:21:01+02:00",
+"2015-09-09 16:00:13+02:00"
+],
+"patch_files": [
+"java/code/webapp/WEB-INF/pages/admin/multiorg/sat_org_users.jsp",
+"java/code/webapp/WEB-INF/pages/common/fragments/manage/subscribers.jspf",
+"java/code/webapp/WEB-INF/pages/groups/adminlist.jsp",
+"java/code/webapp/WEB-INF/pages/common/fragments/user/userlist_columns.jspf",
+"java/code/webapp/WEB-INF/pages/admin/users/activelist.jsp",
+"backend/server/rhnPackage.py",
+"java/code/webapp/WEB-INF/pages/admin/multiorg/org_users.jsp",
+"java/code/webapp/WEB-INF/pages/common/fragments/manage/managers.jspf"
+],
+"earliest_patch_date": "2015-07-22 13:21:01+02:00",
+"earliest_vuln_date": "2008-06-17 11:18:41-03:00",
+"vuln_files": [
+"java/code/webapp/WEB-INF/pages/admin/multiorg/sat_org_users.jsp",
+"java/code/webapp/WEB-INF/pages/common/fragments/manage/subscribers.jspf",
+"java/code/webapp/WEB-INF/pages/groups/adminlist.jsp",
+"java/code/webapp/WEB-INF/pages/common/fragments/user/userlist_columns.jspf",
+"java/code/webapp/WEB-INF/pages/admin/users/activelist.jsp",
+"backend/server/rhnPackage.py",
+"java/code/webapp/WEB-INF/pages/admin/multiorg/org_users.jsp",
+"java/code/webapp/WEB-INF/pages/common/fragments/manage/managers.jspf"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-1693",
+"patch_date": [
+"2020-02-11 11:39:06+01:00"
+],
+"patch_files": [
+"spec-tree/redstone-xmlrpc/xxe2.patch",
+"spec-tree/redstone-xmlrpc/redstone-xmlrpc.spec"
+],
+"earliest_patch_date": "2020-02-11 11:39:06+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-611"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

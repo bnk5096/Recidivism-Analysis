@@ -1,0 +1,541 @@
+responses/license.go,controllers/responses/license.go,api/responses/license.go
+responses/subsonic.go,controllers/responses/subsonic.go,api/responses/subsonic.go
+tests/controllers/get_license_test.go,tests/api/get_license_test.go,api/get_license_test.go
+tests/controllers/get_music_folders_test.go,tests/api/get_music_folders_test.go,api/get_music_folders_test.go
+tests/controllers/ping_test.go,tests/api/ping_test.go,api/ping_test.go,api/system_test.go
+tests/controllers/validation_test.go,tests/api/validation_test.go,api/validation_test.go
+controllers/get_license.go,api/get_license.go
+controllers/get_music_folders.go,api/get_music_folders.go
+controllers/ping.go,api/ping.go
+controllers/responses/error.go,api/responses/error.go,api/responses/errors.go,server/subsonic/responses/errors.go
+controllers/responses/media_folders.go,api/responses/music_folders.go
+controllers/validation.go,api/validation.go
+tests/test_helper.go,api/api_test.go
+utils/flat.go,utils/mapping.go,persistence/db_ledis/mapping.go
+repositories/ledis_database.go,repositories/ledis_utils.go,persistence/ledis_utils.go,persistence/ledis.go,persistence/ledis/ledis.go,persistence/db_ledis/ledis.go
+routers/router.go,conf/router.go,init/router.go
+models/album.go,domain/album.go,model/album.go
+models/artist.go,domain/artist.go,model/artist.go
+models/media_file.go,domain/media_file.go,domain/mediafile.go,model/mediafile.go
+models/media_folder.go,domain/media_folder.go,domain/mediafolder.go,model/mediafolder.go
+repositories/.goconvey.goconvey,persistence/.goconvey.goconvey,persistence/ledis/.goconvey.goconvey,persistence/db_ledis/.goconvey.goconvey
+repositories/album_repository.go,persistence/album_repository.go,persistence/ledis/album_repository.go,persistence/db_ledis/album_repository.go
+repositories/artist_repository.go,persistence/artist_repository.go,persistence/ledis/artist_repository.go,persistence/db_ledis/artist_repository.go
+repositories/base_repository.go,persistence/base_repository.go,persistence/ledis_repository.go,persistence/ledis/ledis_repository.go,persistence/db_ledis/ledis_repository.go
+repositories/base_repository_test.go,persistence/base_repository_test.go,persistence/ledis_repository_test.go,persistence/ledis/ledis_repository_test.go,persistence/db_ledis/ledis_repository_test.go
+repositories/index_repository.go,persistence/index_repository.go,persistence/ledis/index_repository.go,persistence/db_ledis/index_repository.go
+repositories/index_repository_test.go,persistence/index_repository_test.go,persistence/ledis/index_repository_test.go,persistence/db_ledis/index_repository_test.go
+repositories/media_file_repository.go,persistence/media_file_repository.go,persistence/mediafile_repository.go,persistence/ledis/mediafile_repository.go,persistence/db_ledis/mediafile_repository.go
+repositories/media_folders_repository.go,persistence/media_folders_repository.go,persistence/mediafolders_repository.go,persistence/ledis/mediafolders_repository.go,persistence/db_ledis/mediafolders_repository.go,persistence/mediafolders_repository.go
+repositories/property_repository.go,persistence/property_repository.go,persistence/ledis/property_repository.go,persistence/db_ledis/property_repository.go
+tests/matchers.go,tests/matchers_tests.go,tests/matchers.go
+tests/mocks/mock_index_repo_tests.go,tests/mocks/mock_index_repo.go,persistence/mock_index_repo.go
+tests/mocks/mock_property_repo_tests.go,tests/mocks/mock_property_repo.go,engine/mock_property_repo.go
+scanner/scanner.go,scanner/importer.go,scanner_legacy/importer.go
+scanner/scanner_test.go,scanner/importer_test.go,scanner_legacy/importer_test.go
+domain/property.go,engine/properties.go,domain/properties.go,model/properties.go
+engine/lists.go,engine/list_generator.go,server/subsonic/engine/list_generator.go
+stream/downsampling.go,engine/stream.go
+stream/downsampling_test.go,engine/stream_test.go
+api/get_music_directory.go,api/browsing.go,server/subsonic/browsing.go
+api/search.go,api/searching.go,server/subsonic/searching.go
+api/get_album_list.go,api/album_list.go,api/album_lists.go,server/subsonic/album_lists.go
+api/get_album_list_test.go,api/album_list_test.go,api/album_lists_test.go,server/subsonic/album_lists_test.go
+tests/mocks/mock_album_repo.go,persistence/mock_album_repo.go,tests/mock_album_repo.go
+tests/mocks/mock_artist_repo.go,persistence/mock_artist_repo.go,tests/mock_artist_repo.go
+tests/mocks/mock_mediafile_repo.go,persistence/mock_mediafile_repo.go,tests/mock_mediafile_repo.go
+api/get_cover_art.go,api/media_retrieval.go,server/subsonic/media_retrieval.go
+api/get_cover_art_test.go,api/media_retrieval_test.go,server/subsonic/media_retrieval_test.go
+conf/inject_definitions.go,init/inject_definitions.go
+conf/mime_types.go,init/mime_types.go,mime_types.go,server/mime_types.go,consts/mime_types.go
+tests/gosonic-test.toml,tests/sonic-test.toml,tests/navidrome-test.toml
+engine/nowplaying.go,domain/nowplaying.go,model/nowplaying.go
+utils/utils_test.go,utils/index_group_parser_test.go
+persistence/checksum_repository.go,persistence/ledis/checksum_repository.go,persistence/db_ledis/checksum_repository.go
+persistence/nowplaying_repository.go,persistence/ledis/nowplaying_repository.go,persistence/db_ledis/nowplaying_repository.go
+persistence/playlist_repository.go,persistence/ledis/playlist_repository.go,persistence/db_ledis/playlist_repository.go
+persistence/wire_providers.go,persistence/ledis/wire_providers.go,persistence/db_ledis/wire_providers.go
+persistence/storm/album_repository.go,persistence/db_storm/album_repository.go
+persistence/storm/album_repository_test.go,persistence/db_storm/album_repository_test.go
+persistence/storm/artist_repository.go,persistence/db_storm/artist_repository.go
+persistence/storm/artist_repository_test.go,persistence/db_storm/artist_repository_test.go
+persistence/storm/index_repository.go,persistence/db_storm/index_repository.go
+persistence/storm/mediafile_repository.go,persistence/db_storm/mediafile_repository.go
+persistence/storm/property_repository.go,persistence/db_storm/property_repository.go
+persistence/storm/property_repository_test.go,persistence/db_storm/property_repository_test.go
+persistence/storm/storm.go,persistence/db_storm/storm.go
+persistence/storm/storm_repository.go,persistence/db_storm/storm_repository.go
+persistence/storm/storm_suite_test.go,persistence/db_storm/storm_suite_test.go
+persistence/storm/wire_providers.go,persistence/db_storm/wire_providers.go
+app.go,server/app.go,server/server.go
+persistence/db_sql/album_repository.go,persistence/album_repository.go
+persistence/db_sql/album_repository_test.go,persistence/album_repository_test.go
+persistence/db_sql/artist_repository.go,persistence/artist_repository.go
+persistence/db_sql/artist_repository_test.go,persistence/artist_repository_test.go
+persistence/db_sql/checksum_repository.go,persistence/checksum_repository.go
+persistence/db_sql/checksum_repository_test.go,persistence/checksum_repository_test.go
+persistence/db_sql/index_repository.go,persistence/index_repository.go
+persistence/db_sql/index_repository_test.go,persistence/index_repository_test.go
+persistence/db_sql/mediafile_repository.go,persistence/mediafile_repository.go
+persistence/db_sql/playlist_repository.go,persistence/playlist_repository.go
+persistence/db_sql/property_repository.go,persistence/property_repository.go
+persistence/db_sql/property_repository_test.go,persistence/property_repository_test.go
+persistence/db_sql/sql_searcher.go,persistence/searchable_repository.go
+persistence/db_sql/sql.go,persistence/sql.go
+persistence/db_sql/sql_repository.go,persistence/sql_repository.go,persistence/sql_base_repository.go
+persistence/db_sql/wire_provider.go,persistence/wire_provider.go
+scanner/itunes_scanner.go,scanner_legacy/itunes_scanner.go
+scanner/itunes_scanner_test.go,scanner_legacy/itunes_scanner_test.go
+scanner/wire_providers.go,scanner_legacy/wire_providers.go
+domain/base.go,model/base.go,model/model.go,model/datastore.go
+domain/checksum.go,model/checksum.go
+domain/index.go,model/index.go
+domain/playlist.go,model/playlist.go
+domain/user.go,model/user.go
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses AlbumList with data should match JSON,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses AlbumList with data should match .JSON,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses AlbumList with data should match .JSON,server/subsonic/responses/.snapshots/Responses AlbumList with data should match .JSON
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses AlbumList with data should match XML,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses AlbumList with data should match .XML,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses AlbumList with data should match .XML,server/subsonic/responses/.snapshots/Responses AlbumList with data should match .XML
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses AlbumList without data should match JSON,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses AlbumList without data should match .JSON,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses AlbumList without data should match .JSON,server/subsonic/responses/.snapshots/Responses AlbumList without data should match .JSON
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses AlbumList without data should match XML,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses AlbumList without data should match .XML,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses AlbumList without data should match .XML,server/subsonic/responses/.snapshots/Responses AlbumList without data should match .XML
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Child with data should match JSON,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Child with data should match .JSON,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Child with data should match .JSON,server/subsonic/responses/.snapshots/Responses Child with data should match .JSON
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Child with data should match XML,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Child with data should match .XML,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Child with data should match .XML,server/subsonic/responses/.snapshots/Responses Child with data should match .XML
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Directory with data should match JSON,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Directory with data should match .JSON,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Directory with data should match .JSON,server/subsonic/responses/.snapshots/Responses Directory with data should match .JSON
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Directory with data should match XML,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Directory with data should match .XML,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Directory with data should match .XML,server/subsonic/responses/.snapshots/Responses Directory with data should match .XML
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Directory without data should match JSON,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Directory without data should match .JSON,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Directory without data should match .JSON,server/subsonic/responses/.snapshots/Responses Directory without data should match .JSON
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Directory without data should match XML,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Directory without data should match .XML,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Directory without data should match .XML,server/subsonic/responses/.snapshots/Responses Directory without data should match .XML
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses EmptyResponse should match JSON,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses EmptyResponse should match .JSON,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses EmptyResponse should match .JSON,server/subsonic/responses/.snapshots/Responses EmptyResponse should match .JSON
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses EmptyResponse should match XML,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses EmptyResponse should match .XML,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses EmptyResponse should match .XML,server/subsonic/responses/.snapshots/Responses EmptyResponse should match .XML
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Genres with data should match JSON,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Genres with data should match .JSON,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Genres with data should match .JSON,server/subsonic/responses/.snapshots/Responses Genres with data should match .JSON
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Genres with data should match XML,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Genres with data should match .XML,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Genres with data should match .XML,server/subsonic/responses/.snapshots/Responses Genres with data should match .XML
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Genres without data should match JSON,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Genres without data should match .JSON,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Genres without data should match .JSON,server/subsonic/responses/.snapshots/Responses Genres without data should match .JSON
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Genres without data should match XML,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Genres without data should match .XML,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Genres without data should match .XML,server/subsonic/responses/.snapshots/Responses Genres without data should match .XML
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Indexes with data should match JSON,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Indexes with data should match .JSON,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Indexes with data should match .JSON,server/subsonic/responses/.snapshots/Responses Indexes with data should match .JSON
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Indexes with data should match XML,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Indexes with data should match .XML,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Indexes with data should match .XML,server/subsonic/responses/.snapshots/Responses Indexes with data should match .XML
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Indexes without data should match JSON,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Indexes without data should match .JSON,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Indexes without data should match .JSON,server/subsonic/responses/.snapshots/Responses Indexes without data should match .JSON
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Indexes without data should match XML,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Indexes without data should match .XML,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Indexes without data should match .XML,server/subsonic/responses/.snapshots/Responses Indexes without data should match .XML
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses License should match JSON,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses License should match .JSON,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses License should match .JSON,server/subsonic/responses/.snapshots/Responses License should match .JSON
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses License should match XML,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses License should match .XML,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses License should match .XML,server/subsonic/responses/.snapshots/Responses License should match .XML
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses MusicFolders with data should match JSON,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses MusicFolders with data should match .JSON,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses MusicFolders with data should match .JSON,server/subsonic/responses/.snapshots/Responses MusicFolders with data should match .JSON
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses MusicFolders with data should match XML,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses MusicFolders with data should match .XML,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses MusicFolders with data should match .XML,server/subsonic/responses/.snapshots/Responses MusicFolders with data should match .XML
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses MusicFolders without data should match JSON,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses MusicFolders without data should match .JSON,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses MusicFolders without data should match .JSON,server/subsonic/responses/.snapshots/Responses MusicFolders without data should match .JSON
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses MusicFolders without data should match XML,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses MusicFolders without data should match .XML,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses MusicFolders without data should match .XML,server/subsonic/responses/.snapshots/Responses MusicFolders without data should match .XML
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Playlists with data should match JSON,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Playlists with data should match .JSON,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Playlists with data should match .JSON,server/subsonic/responses/.snapshots/Responses Playlists with data should match .JSON
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Playlists with data should match XML,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Playlists with data should match .XML,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Playlists with data should match .XML,server/subsonic/responses/.snapshots/Responses Playlists with data should match .XML
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Playlists without data should match JSON,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Playlists without data should match .JSON,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Playlists without data should match .JSON,server/subsonic/responses/.snapshots/Responses Playlists without data should match .JSON
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Playlists without data should match XML,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses Playlists without data should match .XML,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Playlists without data should match .XML,server/subsonic/responses/.snapshots/Responses Playlists without data should match .XML
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses User with data should match JSON,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses User with data should match .JSON,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses User with data should match .JSON,server/subsonic/responses/.snapshots/Responses User with data should match .JSON
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses User with data should match XML,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses User with data should match .XML,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses User with data should match .XML,server/subsonic/responses/.snapshots/Responses User with data should match .XML
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses User without data should match JSON,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses User without data should match .JSON,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses User without data should match .JSON,server/subsonic/responses/.snapshots/Responses User without data should match .JSON
+api/responses/.snapshots/responses-snapshotMatcher-Match-Responses User without data should match XML,api/responses/.snapshots/responses-snapshotMatcher-Match-Responses User without data should match .XML,server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses User without data should match .XML,server/subsonic/responses/.snapshots/Responses User without data should match .XML
+api/api.go,server/subsonic/api.go
+api/api_suite_test.go,server/subsonic/api_suite_test.go
+api/helpers.go,server/subsonic/helpers.go
+api/media_annotation.go,server/subsonic/media_annotation.go
+api/middlewares.go,server/subsonic/middlewares.go
+api/middlewares_test.go,server/subsonic/middlewares_test.go
+api/playlists.go,server/subsonic/playlists.go
+api/responses/responses.go,server/subsonic/responses/responses.go
+api/responses/responses_suite_test.go,server/subsonic/responses/responses_suite_test.go
+api/responses/responses_test.go,server/subsonic/responses/responses_test.go
+api/stream.go,server/subsonic/stream.go
+api/system.go,server/subsonic/system.go
+api/users.go,server/subsonic/users.go
+api/wire_gen.go,server/subsonic/wire_gen.go
+api/wire_injectors.go,server/subsonic/wire_injectors.go
+scanner/metadata.go,scanner/metadata_ffprobe.go
+utils/math.go,utils/ints.go
+engine/nowplaying_repository_test.go,engine/nowplaying_test.go,server/subsonic/engine/nowplaying_test.go,core/nowplaying_test.go
+ui/src/layout/themes.js,ui/src/layout/Themes.js,ui/src/layout/Themes.jsx
+.github/workflows/ci.yml,.github/workflows/build.yml
+static/screenshot-desktop.png,.github/screenshots/screenshot-desktop.png
+static/screenshot-login-mobile.png,.github/screenshots/screenshot-login-mobile.png,.github/screenshots/ss-mobile-login.png
+static/screenshot-mobile.png,.github/screenshots/screenshot-mobile.png,.github/screenshots/ss-mobile-artists.png
+persistence/annotation.go,persistence/sql_annotations.go
+persistence/search.go,persistence/sql_search.go
+db/migrations/20200131183653_changes_for_new_persistence_layer.go,db/migrations/20200131183653_standardize_item_type.go,db/migration/20200131183653_standardize_item_type.go,db/migrations/20200131183653_standardize_item_type.go,db/migration/20200131183653_standardize_item_type.go,db/migrations/20200131183653_standardize_item_type.go
+banner.go,consts/banner.go,resources/banner.go
+ui/src/song/PlayButton.js,ui/src/common/PlayButton.js,ui/src/common/PlayButton.jsx
+.github/screenshots/screenshot-users-mobile.png,.github/screenshots/ss-mobile-users.png
+db/migrations/20200130083147_create_schema.go,db/migration/20200130083147_create_schema.go,db/migrations/20200130083147_create_schema.go,db/migration/20200130083147_create_schema.go,db/migrations/20200130083147_create_schema.go
+engine/ffmpeg/ffmpeg.go,engine/transcoder/ffmpeg.go,core/transcoder/ffmpeg.go,core/transcoder/transcoder.go,core/ffmpeg/ffmpeg.go
+engine/ffmpeg/ffmpeg_test.go,engine/transcoder/ffmpeg_test.go,core/transcoder/ffmpeg_test.go,core/transcoder/transcoder_test.go,core/ffmpeg/ffmpeg_test.go
+ui/src/player/Player.js,ui/src/audioplayer/Player.js,ui/src/audioplayer/Player.jsx
+ui/src/player/index.js,ui/src/audioplayer/index.js
+ui/src/player/queue.js,ui/src/audioplayer/queue.js,ui/src/reducers/playQueue.js
+ui/src/configuration/Configuration.js,ui/src/personal/Personal.js,ui/src/personal/Personal.jsx
+ui/src/configuration/actions.js,ui/src/personal/actions.js,ui/src/actions/themes.js
+ui/src/configuration/themeReducer.js,ui/src/personal/themeReducer.js
+static/navidrone-310x310.png,static/navidrome-310x310.png,resources/navidrome-310x310.png
+.github/workflows/release.yml,.github/workflows/pipeline.yml
+tests/empty_folder/not_an_audio_file.txt,tests/fixtures/empty_folder/not_an_audio_file.txt
+ui/src/i18n/cn.js,ui/src/i18n/zh.js
+static/banner.txt,resources/banner.txt
+ui/src/i18nProvider/en.json,ui/src/i18n/en.json
+ui/src/i18nProvider/index.js,ui/src/i18n/provider.js
+ui/src/dataProvider.js,ui/src/dataProvider/httpClient.js
+ui/src/song/SongContextMenu.js,ui/src/common/SongContextMenu.js,ui/src/common/SongContextMenu.jsx
+ui/src/common/SongDatagridRow.js,ui/src/common/SongDatagrid.js,ui/src/common/SongDatagrid.jsx
+ui/src/album/AlbumContextMenu.js,ui/src/common/AlbumContextMenu.js,ui/src/common/ContextMenus.js,ui/src/common/ContextMenus.jsx
+ui/src/playlist/Writable.js,ui/src/common/Writable.js,ui/src/common/playlistUtils.js
+ui/src/common/useAlbumPerPage.js,ui/src/common/useAlbumsPerPage.js,ui/src/common/useAlbumsPerPage.jsx
+ui/src/icons/playing.gif,ui/src/icons/playing-light.gif
+wire_injectors.go,cmd/wire_injectors.go
+engine/auth/auth.go,core/auth/auth.go
+engine/auth/auth_test.go,core/auth/auth_test.go
+engine/cover.go,core/cover.go,core/artwork.go,core/artwork/artwork.go
+engine/cover_test.go,core/cover_test.go,core/artwork_test.go
+engine/file_caches.go,core/file_caches.go,core/cache/file_caches.go,utils/cache/file_caches.go
+engine/file_caches_test.go,core/file_caches_test.go,core/cache/file_caches_test.go,utils/cache/file_caches_test.go
+engine/media_streamer.go,core/media_streamer.go
+engine/media_streamer_test.go,core/media_streamer_test.go
+db/migration/20200208222418_add_defaults_to_annotations.go,db/migrations/20200208222418_add_defaults_to_annotations.go,db/migration/20200208222418_add_defaults_to_annotations.go,db/migrations/20200208222418_add_defaults_to_annotations.go
+db/migration/20200220143731_change_duration_to_float.go,db/migrations/20200220143731_change_duration_to_float.go,db/migration/20200220143731_change_duration_to_float.go,db/migrations/20200220143731_change_duration_to_float.go
+db/migration/20200310171621_enable_search_by_albumartist.go,db/migrations/20200310171621_enable_search_by_albumartist.go,db/migration/20200310171621_enable_search_by_albumartist.go,db/migrations/20200310171621_enable_search_by_albumartist.go
+db/migration/20200310181627_add_transcoding_and_player_tables.go,db/migrations/20200310181627_add_transcoding_and_player_tables.go,db/migration/20200310181627_add_transcoding_and_player_tables.go,db/migrations/20200310181627_add_transcoding_and_player_tables.go
+db/migration/20200319211049_merge_search_into_main_tables.go,db/migrations/20200319211049_merge_search_into_main_tables.go,db/migration/20200319211049_merge_search_into_main_tables.go,db/migrations/20200319211049_merge_search_into_main_tables.go
+db/migration/20200325185135_add_album_artist_id.go,db/migrations/20200325185135_add_album_artist_id.go,db/migration/20200325185135_add_album_artist_id.go,db/migrations/20200325185135_add_album_artist_id.go
+db/migration/20200326090707_fix_album_artists_importing.go,db/migrations/20200326090707_fix_album_artists_importing.go,db/migration/20200326090707_fix_album_artists_importing.go,db/migrations/20200326090707_fix_album_artists_importing.go
+db/migration/20200327193744_add_year_range_to_album.go,db/migrations/20200327193744_add_year_range_to_album.go,db/migration/20200327193744_add_year_range_to_album.go,db/migrations/20200327193744_add_year_range_to_album.go
+db/migration/20200404214704_add_indexes.go,db/migrations/20200404214704_add_indexes.go,db/migration/20200404214704_add_indexes.go,db/migrations/20200404214704_add_indexes.go
+db/migration/20200409002249_enable_search_by_tracks_artists.go,db/migrations/20200409002249_enable_search_by_tracks_artists.go,db/migration/20200409002249_enable_search_by_tracks_artists.go,db/migrations/20200409002249_enable_search_by_tracks_artists.go
+db/migration/20200411164603_add_created_and_updated_fields_to_playlists.go,db/migrations/20200411164603_add_created_and_updated_fields_to_playlists.go,db/migration/20200411164603_add_created_and_updated_fields_to_playlists.go,db/migrations/20200411164603_add_created_and_updated_fields_to_playlists.go
+db/migration/20200418110522_reindex_to_fix_album_years.go,db/migrations/20200418110522_reindex_to_fix_album_years.go,db/migration/20200418110522_reindex_to_fix_album_years.go,db/migrations/20200418110522_reindex_to_fix_album_years.go
+db/migration/20200419222708_reindex_to_change_full_text_search.go,db/migrations/20200419222708_reindex_to_change_full_text_search.go,db/migration/20200419222708_reindex_to_change_full_text_search.go,db/migrations/20200419222708_reindex_to_change_full_text_search.go
+db/migration/20200423204116_add_sort_fields.go,db/migrations/20200423204116_add_sort_fields.go,db/migration/20200423204116_add_sort_fields.go,db/migrations/20200423204116_add_sort_fields.go
+db/migration/20200508093059_add_artist_song_count.go,db/migrations/20200508093059_add_artist_song_count.go,db/migration/20200508093059_add_artist_song_count.go,db/migrations/20200508093059_add_artist_song_count.go
+db/migration/20200512104202_add_disc_subtitle.go,db/migrations/20200512104202_add_disc_subtitle.go,db/migration/20200512104202_add_disc_subtitle.go,db/migrations/20200512104202_add_disc_subtitle.go
+db/migration/20200516140647_add_playlist_tracks_table.go,db/migrations/20200516140647_add_playlist_tracks_table.go,db/migration/20200516140647_add_playlist_tracks_table.go,db/migrations/20200516140647_add_playlist_tracks_table.go
+db/migration/20200608153717_referential_integrity.go,db/migrations/20200608153717_referential_integrity.go,db/migration/20200608153717_referential_integrity.go,db/migrations/20200608153717_referential_integrity.go
+db/migration/20200706231659_add_default_transcodings.go,db/migrations/20200706231659_add_default_transcodings.go,db/migration/20200706231659_add_default_transcodings.go,db/migrations/20200706231659_add_default_transcodings.go
+db/migration/20200710211442_add_playlist_path.go,db/migrations/20200710211442_add_playlist_path.go,db/migration/20200710211442_add_playlist_path.go,db/migrations/20200710211442_add_playlist_path.go
+db/migration/20200731095603_create_play_queues_table.go,db/migrations/20200731095603_create_play_queues_table.go,db/migration/20200731095603_create_play_queues_table.go,db/migrations/20200731095603_create_play_queues_table.go
+db/migration/20200801101355_create_bookmark_table.go,db/migrations/20200801101355_create_bookmark_table.go,db/migration/20200801101355_create_bookmark_table.go,db/migrations/20200801101355_create_bookmark_table.go
+db/migration/migration.go,db/migrations/migration.go,db/migration/migration.go,db/migrations/migration.go
+engine/browser.go,server/subsonic/engine/browser.go
+engine/browser_test.go,server/subsonic/engine/browser_test.go
+engine/common.go,server/subsonic/engine/common.go
+engine/engine_suite_test.go,server/subsonic/engine/engine_suite_test.go
+engine/mock_transcoding_repo_test.go,server/subsonic/engine/mock_transcoding_repo_test.go
+engine/nowplaying.go,server/subsonic/engine/nowplaying.go,core/nowplaying.go
+engine/players.go,server/subsonic/engine/players.go,core/players.go
+engine/players_test.go,server/subsonic/engine/players_test.go,core/players_test.go
+engine/playlists.go,server/subsonic/engine/playlists.go
+engine/scrobbler.go,server/subsonic/engine/scrobbler.go
+engine/search.go,server/subsonic/engine/search.go
+engine/users.go,server/subsonic/engine/users.go
+engine/users_test.go,server/subsonic/engine/users_test.go
+engine/wire_providers.go,server/subsonic/engine/wire_providers.go
+scanner/metadata_test.go,scanner/metadata_ffmpeg_test.go,scanner/metadata/ffmpeg_test.go,scanner/metadata/ffmpeg/ffmpeg_test.go
+scanner/metadata_ffmpeg.go,scanner/metadata/ffmpeg.go,scanner/metadata/ffmpeg/ffmpeg.go
+scanner/metadata.go,scanner/metadata/metadata.go
+db/migrations/20200819111809_drop_email_unique_constraint.go,db/migration/20200819111809_drop_email_unique_constraint.go,db/migrations/20200819111809_drop_email_unique_constraint.go
+db/migrations/20201003111749_add_starred_at_index.go,db/migration/20201003111749_add_starred_at_index.go,db/migrations/20201003111749_add_starred_at_index.go
+db/migration/20200827130401_add_more_tags.go,db/migration/20201021085410_add_mbids.go,db/migrations/20201021085410_add_mbids.go
+persistence/mock_persistence.go,tests/mock_persistence.go
+core/mock_transcoding_repo_test.go,tests/mock_transcoding_repo.go
+scanner/load_tree.go,scanner/walk_dir_tree.go
+scanner/load_tree_test.go,scanner/walk_dir_tree_test.go
+ui/src/song/AddToQueueButton.js,ui/src/common/BatchPlayButton.js,ui/src/common/BatchPlayButton.jsx
+ui/src/song/AddToPlaylistButton.js,ui/src/common/AddToPlaylistButton.js,ui/src/common/AddToPlaylistButton.jsx
+ui/src/album/AlbumSongBulkActions.js,ui/src/common/SongBulkActions.js,ui/src/common/SongBulkActions.jsx
+ui/src/dialogs/dialogState.js,ui/src/reducers/dialogReducer.js
+ui/src/layout/ActivityMenu.js,ui/src/layout/ActivityPanel.js,ui/src/layout/ActivityPanel.jsx
+ui/src/layout/AboutDialog.js,ui/src/dialogs/AboutDialog.js,ui/src/dialogs/AboutDialog.jsx
+core/agents/agents.go,core/agents/interfaces.go
+resources/i18n/zn.json,resources/i18n/zh-Hans.json
+core/cache/cache_suite_test.go,utils/cache/cache_suite_test.go
+core/cache/spread_fs.go,utils/cache/spread_fs.go
+core/gravatar/gravatar.go,utils/gravatar/gravatar.go
+core/gravatar/gravatar_test.go,utils/gravatar/gravatar_test.go
+core/lastfm/client.go,utils/lastfm/client.go,core/agents/lastfm/client.go
+core/lastfm/client_test.go,utils/lastfm/client_test.go,core/agents/lastfm/client_test.go
+core/lastfm/lastfm_suite_test.go,utils/lastfm/lastfm_suite_test.go,core/agents/lastfm/lastfm_suite_test.go
+core/lastfm/responses.go,utils/lastfm/responses.go,core/agents/lastfm/responses.go
+core/lastfm/responses_test.go,utils/lastfm/responses_test.go,core/agents/lastfm/responses_test.go
+core/pool/pool.go,utils/pool/pool.go
+core/pool/pool_test.go,utils/pool/pool_test.go
+core/spotify/client.go,utils/spotify/client.go,core/agents/spotify/client.go
+core/spotify/client_test.go,utils/spotify/client_test.go,core/agents/spotify/client_test.go
+core/spotify/responses.go,utils/spotify/responses.go,core/agents/spotify/responses.go
+core/spotify/responses_test.go,utils/spotify/responses_test.go,core/agents/spotify/responses_test.go
+core/spotify/spotify_suite_test.go,utils/spotify/spotify_suite_test.go,core/agents/spotify/spotify_suite_test.go
+core/external_info.go,core/external_metadata.go
+ui/src/common/StarButton.js,ui/src/common/LoveButton.js,ui/src/common/LoveButton.jsx
+ui/src/common/useToggleStar.js,ui/src/common/useToggleLove.js,ui/src/common/useToggleLove.jsx
+server/events/diodo_test.go,server/events/diode_test.go
+scanner/signaler_unix.go,cmd/signaler_unix.go
+sv.json,resources/i18n/sv.json
+ui/src/album/AlbumListView.js,ui/src/album/AlbumTableView.js,ui/src/album/AlbumTableView.jsx
+core/agents/lastfm.go,core/agents/lastfm/lastfm.go,core/agents/lastfm/agent.go
+core/agents/lastfm_test.go,core/agents/lastfm/lastfm_test.go,core/agents/lastfm/agent_test.go
+core/agents/spotify.go,core/agents/spotify/spotify.go
+core/agents/cached_http_client.go,utils/cached_http_client.go,utils/cache/cached_http_client.go
+core/agents/cached_http_client_test.go,utils/cached_http_client_test.go,utils/cache/cached_http_client_test.go
+server/app/auth.go,server/auth.go
+server/app/auth_test.go,server/auth_test.go
+server/app/serve_index.go,server/serve_index.go
+server/app/serve_index_test.go,server/serve_index_test.go
+server/app/app.go,server/nativeapi/native_api.go
+server/app/app_suite_test.go,server/nativeapi/native_api_suite_test.go
+server/app/playlists.go,server/nativeapi/playlists.go
+server/app/translations.go,server/nativeapi/translations.go
+server/app/translations_test.go,server/nativeapi/translations_test.go
+core/scrobbler/broker.go,core/scrobbler/play_tracker.go
+core/scrobbler/broker_test.go,core/scrobbler/play_tracker_test.go
+ui/src/actions/audioplayer.js,ui/src/actions/player.js
+model/genres.go,model/genre.go
+scanner/metadata/taglib/taglib_parser.cpp,scanner/metadata/taglib/taglib_wrapper.cpp
+scanner/metadata/taglib/taglib_parser.go,scanner/metadata/taglib/taglib_wrapper.go
+scanner/metadata/taglib/taglib_parser.h,scanner/metadata/taglib/taglib_wrapper.h
+ui/src/common/SongDetails.js,ui/src/common/SongInfo.js,ui/src/common/SongInfo.jsx
+ui/public/manifest.json,ui/public/manifest.webmanifest
+scanner/playlist_sync.go,core/playlists.go
+scanner/playlist_sync_test.go,scanner/playlist_importer_test.go
+resources/navidrome-600x600.png,resources/placeholder.png
+bg.json,resources/i18n/bg.json
+ui/src/common/AnchorMe.js,ui/src/common/Linkify.js,ui/src/common/Linkify.jsx
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses ArtistInfo without data should match .JSON,server/subsonic/responses/.snapshots/Responses ArtistInfo without data should match .JSON
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses ArtistInfo without data should match .XML,server/subsonic/responses/.snapshots/Responses ArtistInfo without data should match .XML
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Bookmarks with data should match .JSON,server/subsonic/responses/.snapshots/Responses Bookmarks with data should match .JSON
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Bookmarks with data should match .XML,server/subsonic/responses/.snapshots/Responses Bookmarks with data should match .XML
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Bookmarks without data should match .JSON,server/subsonic/responses/.snapshots/Responses Bookmarks without data should match .JSON
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Bookmarks without data should match .XML,server/subsonic/responses/.snapshots/Responses Bookmarks without data should match .XML
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Lyrics with data should match .JSON,server/subsonic/responses/.snapshots/Responses Lyrics with data should match .JSON
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Lyrics with data should match .XML,server/subsonic/responses/.snapshots/Responses Lyrics with data should match .XML
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Lyrics without data should match .JSON,server/subsonic/responses/.snapshots/Responses Lyrics without data should match .JSON
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Lyrics without data should match .XML,server/subsonic/responses/.snapshots/Responses Lyrics without data should match .XML
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses PlayQueue with data should match .JSON,server/subsonic/responses/.snapshots/Responses PlayQueue with data should match .JSON
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses PlayQueue with data should match .XML,server/subsonic/responses/.snapshots/Responses PlayQueue with data should match .XML
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses PlayQueue without data should match .JSON,server/subsonic/responses/.snapshots/Responses PlayQueue without data should match .JSON
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses PlayQueue without data should match .XML,server/subsonic/responses/.snapshots/Responses PlayQueue without data should match .XML
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses ScanStatus with data should match .JSON,server/subsonic/responses/.snapshots/Responses ScanStatus with data should match .JSON
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses ScanStatus with data should match .XML,server/subsonic/responses/.snapshots/Responses ScanStatus with data should match .XML
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses ScanStatus without data should match .JSON,server/subsonic/responses/.snapshots/Responses ScanStatus without data should match .JSON
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses ScanStatus without data should match .XML,server/subsonic/responses/.snapshots/Responses ScanStatus without data should match .XML
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses SimilarSongs with data should match .JSON,server/subsonic/responses/.snapshots/Responses SimilarSongs with data should match .JSON
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses SimilarSongs with data should match .XML,server/subsonic/responses/.snapshots/Responses SimilarSongs with data should match .XML
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses SimilarSongs without data should match .JSON,server/subsonic/responses/.snapshots/Responses SimilarSongs without data should match .JSON
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses SimilarSongs without data should match .XML,server/subsonic/responses/.snapshots/Responses SimilarSongs without data should match .XML
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses SimilarSongs2 with data should match .JSON,server/subsonic/responses/.snapshots/Responses SimilarSongs2 with data should match .JSON
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses SimilarSongs2 with data should match .XML,server/subsonic/responses/.snapshots/Responses SimilarSongs2 with data should match .XML
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses SimilarSongs2 without data should match .JSON,server/subsonic/responses/.snapshots/Responses SimilarSongs2 without data should match .JSON
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses SimilarSongs2 without data should match .XML,server/subsonic/responses/.snapshots/Responses SimilarSongs2 without data should match .XML
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses TopSongs with data should match .JSON,server/subsonic/responses/.snapshots/Responses TopSongs with data should match .JSON
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses TopSongs with data should match .XML,server/subsonic/responses/.snapshots/Responses TopSongs with data should match .XML
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses TopSongs without data should match .JSON,server/subsonic/responses/.snapshots/Responses TopSongs without data should match .JSON
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses TopSongs without data should match .XML,server/subsonic/responses/.snapshots/Responses TopSongs without data should match .XML
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Users with data should match .JSON,server/subsonic/responses/.snapshots/Responses Users with data should match .JSON
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Users with data should match .XML,server/subsonic/responses/.snapshots/Responses Users with data should match .XML
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Users without data should match .JSON,server/subsonic/responses/.snapshots/Responses Users without data should match .JSON
+server/subsonic/responses/.snapshots/responses-snapshotMatcher-Match-Responses Users without data should match .XML,server/subsonic/responses/.snapshots/Responses Users without data should match .XML
+utils/math2/math2.go,utils/number/number.go
+utils/math2/math2_test.go,utils/number/number_test.go
+utils/files.go,model/file_types.go
+core/artwork_cache_warmer.go,core/artwork/artwork_cache_warmer.go,core/artwork/cache_warmer.go
+core/artwork_internal_test.go,core/artwork/artwork_internal_test.go
+core/get_entity.go,model/get_entity.go
+scanner/mapping_test.go,scanner/mapping_internal_test.go
+ui/public/artist-placeholder.webp,resources/artist-placeholder.webp
+server/shares/share_endpoint.go,server/public/handle_shares.go
+server/public/share_stream.go,server/public/handle_streams.go
+ui/src/ShareApp.js,ui/src/SharePlayer.js,ui/src/share/SharePlayer.js,ui/src/share/SharePlayer.jsx
+server/public/encode_artwork_id_test.go,server/public/encode_id_test.go
+server/public/public_endpoints.go,server/public/public.go
+server/serve_test.go,server/server_test.go
+tests/fixtures/front.png,tests/fixtures/artist/an-album/artist.png
+tests/fixtures/cover.jpg,tests/fixtures/artist/an-album/cover.jpg
+core/playback/mpv/socket_name_win.go,core/playback/mpv/sockets_win.go
+db/migration/20201010162350_add_album_size.go,db/migrations/20201010162350_add_album_size.go
+db/migration/20201012210022_add_artist_playlist_size.go,db/migrations/20201012210022_add_artist_playlist_size.go
+db/migration/20201021093209_add_media_file_indexes.go,db/migrations/20201021093209_add_media_file_indexes.go
+db/migration/20201021135455_add_media_file_artist_index.go,db/migrations/20201021135455_add_media_file_artist_index.go
+db/migration/20201030162009_add_artist_info_table.go,db/migrations/20201030162009_add_artist_info_table.go
+db/migration/20201110205344_add_comments_and_lyrics.go,db/migrations/20201110205344_add_comments_and_lyrics.go
+db/migration/20201128100726_add_real-path_option.go,db/migrations/20201128100726_add_real-path_option.go
+db/migration/20201213124814_add_all_artist_ids_to_album.go,db/migrations/20201213124814_add_all_artist_ids_to_album.go
+db/migration/20210322132848_add_timestamp_indexes.go,db/migrations/20210322132848_add_timestamp_indexes.go
+db/migration/20210418232815_fix_album_comments.go,db/migrations/20210418232815_fix_album_comments.go
+db/migration/20210430212322_add_bpm_metadata.go,db/migrations/20210430212322_add_bpm_metadata.go
+db/migration/20210530121921_create_shares_table.go,db/migrations/20210530121921_create_shares_table.go
+db/migration/20210601231734_update_share_fieldnames.go,db/migrations/20210601231734_update_share_fieldnames.go
+db/migration/20210616150710_encrypt_all_passwords.go,db/migrations/20210616150710_encrypt_all_passwords.go
+db/migration/20210619231716_drop_player_name_unique_constraint.go,db/migrations/20210619231716_drop_player_name_unique_constraint.go
+db/migration/20210623155401_add_user_prefs_player_scrobbler_enabled.go,db/migrations/20210623155401_add_user_prefs_player_scrobbler_enabled.go
+db/migration/20210625223901_add_referential_integrity_to_user_props.go,db/migrations/20210625223901_add_referential_integrity_to_user_props.go
+db/migration/20210626213026_add_scrobble_buffer.go,db/migrations/20210626213026_add_scrobble_buffer.go
+db/migration/20210715151153_add_genre_tables.go,db/migrations/20210715151153_add_genre_tables.go
+db/migration/20210821212604_add_mediafile_channels.go,db/migrations/20210821212604_add_mediafile_channels.go
+db/migration/20211008205505_add_smart_playlist.go,db/migrations/20211008205505_add_smart_playlist.go
+db/migration/20211023184825_add_order_title_to_media_file.go,db/migrations/20211023184825_add_order_title_to_media_file.go
+db/migration/20211026191915_unescape_lyrics_and_comments.go,db/migrations/20211026191915_unescape_lyrics_and_comments.go
+db/migration/20211029213200_add_userid_to_playlist.go,db/migrations/20211029213200_add_userid_to_playlist.go
+db/migration/20211102215414_add_alphabetical_by_artist_index.go,db/migrations/20211102215414_add_alphabetical_by_artist_index.go
+db/migration/20211105162746_remove_invalid_artist_ids.go,db/migrations/20211105162746_remove_invalid_artist_ids.go
+db/migration/20220724231849_add_musicbrainz_release_track_id.go,db/migrations/20220724231849_add_musicbrainz_release_track_id.go
+db/migration/20221219112733_add_album_image_paths.go,db/migrations/20221219112733_add_album_image_paths.go
+db/migration/20221219140528_remove_cover_art_id.go,db/migrations/20221219140528_remove_cover_art_id.go
+db/migration/20230112111457_add_album_paths.go,db/migrations/20230112111457_add_album_paths.go
+db/migration/20230114121537_touch_playlists.go,db/migrations/20230114121537_touch_playlists.go
+db/migration/20230115103212_create_internet_radio.go,db/migrations/20230115103212_create_internet_radio.go
+db/migration/20230117155559_add_replaygain_metadata.go,db/migrations/20230117155559_add_replaygain_metadata.go
+db/migration/20230117180400_add_album_info.go,db/migrations/20230117180400_add_album_info.go
+db/migration/20230119152657_recreate_share_table.go,db/migrations/20230119152657_recreate_share_table.go
+db/migration/20230202143713_change_path_list_separator.go,db/migrations/20230202143713_change_path_list_separator.go
+db/migration/20230209181414_change_image_files_list_separator.go,db/migrations/20230209181414_change_image_files_list_separator.go
+db/migration/20230310222612_add_download_to_share.go,db/migrations/20230310222612_add_download_to_share.go
+db/migration/20230404104309_empty_sql_migration.sql,db/migrations/20230404104309_empty_sql_migration.sql
+db/migration/20230515184510_add_release_date.go,db/migrations/20230515184510_add_release_date.go
+db/migration/20230616214944_rename_musicbrainz_recording_id.go,db/migrations/20230616214944_rename_musicbrainz_recording_id.go
+db/migration/20231208182311_add_discs_to_album.go,db/migrations/20231208182311_add_discs_to_album.go
+db/migration/20231209211223_alter_lyric_column.go,db/migrations/20231209211223_alter_lyric_column.go
+db/migration/20240122223340_add_default_values_to_null_columns.go.go,db/migrations/20240122223340_add_default_values_to_null_columns.go.go
+db/migration/20240426202913_add_id_to_scrobble_buffer.go,db/migrations/20240426202913_add_id_to_scrobble_buffer.go
+utils/merge_fs.go,utils/merge/merge_fs.go
+utils/merge_fs_test.go,utils/merge/merge_fs_test.go
+utils/weighted_random_chooser.go,utils/random/weighted_random_chooser.go
+utils/weighted_random_chooser_test.go,utils/random/weighted_random_chooser_test.go
+utils/sanitize_strings.go,utils/str/sanitize_strings.go
+utils/strings.go,utils/str/str.go
+utils/strings_test.go,utils/str/str_test.go
+update-translations.sh,.github/workflows/update-translations.sh
+tests/fixtures/playlists/pls-post-with-name.m3u,tests/fixtures/playlists/pls-with-name.m3u
+tests/fixtures/playlists/pls-post.m3u,tests/fixtures/playlists/pls-without-name.m3u
+ui/public/index.html,ui/index.html
+ui/src/App.js,ui/src/App.jsx
+ui/src/album/AlbumActions.js,ui/src/album/AlbumActions.jsx
+ui/src/album/AlbumDetails.js,ui/src/album/AlbumDetails.jsx
+ui/src/album/AlbumExternalLinks.js,ui/src/album/AlbumExternalLinks.jsx
+ui/src/album/AlbumGridView.js,ui/src/album/AlbumGridView.jsx
+ui/src/album/AlbumInfo.js,ui/src/album/AlbumInfo.jsx
+ui/src/album/AlbumList.js,ui/src/album/AlbumList.jsx
+ui/src/album/AlbumListActions.js,ui/src/album/AlbumListActions.jsx
+ui/src/album/AlbumShow.js,ui/src/album/AlbumShow.jsx
+ui/src/album/AlbumSongs.js,ui/src/album/AlbumSongs.jsx
+ui/src/album/albumLists.js,ui/src/album/albumLists.jsx
+ui/src/album/index.js,ui/src/album/index.jsx
+ui/src/album/AlbumSongs.test.js,ui/src/album/utils.test.js
+ui/src/artist/ArtistExternalLink.js,ui/src/artist/ArtistExternalLink.jsx
+ui/src/artist/ArtistList.js,ui/src/artist/ArtistList.jsx
+ui/src/artist/ArtistListActions.js,ui/src/artist/ArtistListActions.jsx
+ui/src/artist/ArtistShow.js,ui/src/artist/ArtistShow.jsx
+ui/src/artist/DesktopArtistDetails.js,ui/src/artist/DesktopArtistDetails.jsx
+ui/src/artist/MobileArtistDetails.js,ui/src/artist/MobileArtistDetails.jsx
+ui/src/artist/index.js,ui/src/artist/index.jsx
+ui/src/audioplayer/AudioTitle.js,ui/src/audioplayer/AudioTitle.jsx
+ui/src/audioplayer/PlayerToolbar.js,ui/src/audioplayer/PlayerToolbar.jsx
+ui/src/audioplayer/keyHandlers.js,ui/src/audioplayer/keyHandlers.jsx
+ui/src/common/ArtistLinkField.js,ui/src/common/ArtistLinkField.jsx
+ui/src/common/ArtistSimpleList.js,ui/src/common/ArtistSimpleList.jsx
+ui/src/common/BatchShareButton.js,ui/src/common/BatchShareButton.jsx
+ui/src/common/BitrateField.js,ui/src/common/BitrateField.jsx
+ui/src/common/CollapsibleComment.js,ui/src/common/CollapsibleComment.jsx
+ui/src/common/DateField.js,ui/src/common/DateField.jsx
+ui/src/common/DocLink.js,ui/src/common/DocLink.jsx
+ui/src/common/DurationField.js,ui/src/common/DurationField.jsx
+ui/src/common/Linkify.test.js,ui/src/common/Linkify.test.jsx
+ui/src/common/List.js,ui/src/common/List.jsx
+ui/src/common/MultiLineTextField.js,ui/src/common/MultiLineTextField.jsx
+ui/src/common/MultiLineTextField.test.js,ui/src/common/MultiLineTextField.test.jsx
+ui/src/common/Pagination.js,ui/src/common/Pagination.jsx
+ui/src/common/QualityInfo.js,ui/src/common/QualityInfo.jsx
+ui/src/common/QualityInfo.test.js,ui/src/common/QualityInfo.test.jsx
+ui/src/common/QuickFilter.js,ui/src/common/QuickFilter.jsx
+ui/src/common/QuickFilter.test.js,ui/src/common/QuickFilter.test.jsx
+ui/src/common/RangeDoubleField.js,ui/src/common/RangeDoubleField.jsx
+ui/src/common/RangeField.js,ui/src/common/RangeField.jsx
+ui/src/common/RatingField.js,ui/src/common/RatingField.jsx
+ui/src/common/ShuffleAllButton.js,ui/src/common/ShuffleAllButton.jsx
+ui/src/common/SimpleList.js,ui/src/common/SimpleList.jsx
+ui/src/common/SizeField.js,ui/src/common/SizeField.jsx
+ui/src/common/SongSimpleList.js,ui/src/common/SongSimpleList.jsx
+ui/src/common/SongTitleField.js,ui/src/common/SongTitleField.jsx
+ui/src/common/Title.js,ui/src/common/Title.jsx
+ui/src/common/ToggleFieldsMenu.js,ui/src/common/ToggleFieldsMenu.jsx
+ui/src/common/sanitizeFieldRestProps.js,ui/src/common/sanitizeFieldRestProps.jsx
+ui/src/common/useInterval.js,ui/src/common/useInterval.jsx
+ui/src/common/useRating.js,ui/src/common/useRating.jsx
+ui/src/common/useResourceRefresh.js,ui/src/common/useResourceRefresh.jsx
+ui/src/common/useSelectedFields.js,ui/src/common/useSelectedFields.jsx
+ui/src/common/useTraceUpdate.js,ui/src/common/useTraceUpdate.jsx
+ui/src/dialogs/AboutDialog.test.js,ui/src/dialogs/AboutDialog.test.jsx
+ui/src/dialogs/AddToPlaylistDialog.js,ui/src/dialogs/AddToPlaylistDialog.jsx
+ui/src/dialogs/AddToPlaylistDialog.test.js,ui/src/dialogs/AddToPlaylistDialog.test.jsx
+ui/src/dialogs/DialogContent.js,ui/src/dialogs/DialogContent.jsx
+ui/src/dialogs/DialogTitle.js,ui/src/dialogs/DialogTitle.jsx
+ui/src/dialogs/Dialogs.js,ui/src/dialogs/Dialogs.jsx
+ui/src/dialogs/DownloadMenuDialog.js,ui/src/dialogs/DownloadMenuDialog.jsx
+ui/src/dialogs/DuplicateSongDialog.js,ui/src/dialogs/DuplicateSongDialog.jsx
+ui/src/dialogs/ExpandInfoDialog.js,ui/src/dialogs/ExpandInfoDialog.jsx
+ui/src/dialogs/HelpDialog.js,ui/src/dialogs/HelpDialog.jsx
+ui/src/dialogs/ListenBrainzTokenDialog.js,ui/src/dialogs/ListenBrainzTokenDialog.jsx
+ui/src/dialogs/SelectPlaylistInput.js,ui/src/dialogs/SelectPlaylistInput.jsx
+ui/src/dialogs/SelectPlaylistInput.test.js,ui/src/dialogs/SelectPlaylistInput.test.jsx
+ui/src/dialogs/ShareDialog.js,ui/src/dialogs/ShareDialog.jsx
+ui/src/dialogs/useDialog.js,ui/src/dialogs/useDialog.jsx
+ui/src/dialogs/useTranscodingOptions.js,ui/src/dialogs/useTranscodingOptions.jsx
+ui/src/i18n/useGetLanguageChoices.js,ui/src/i18n/useGetLanguageChoices.jsx
+ui/src/icons/MusicBrainz.js,ui/src/icons/MusicBrainz.jsx
+ui/src/icons/Playlist.js,ui/src/icons/Playlist.jsx
+ui/src/icons/SmartPlaylist.js,ui/src/icons/SmartPlaylist.jsx
+ui/src/layout/AppBar.js,ui/src/layout/AppBar.jsx
+ui/src/layout/DynamicMenuIcon.js,ui/src/layout/DynamicMenuIcon.jsx
+ui/src/layout/DynamicMenuIcon.test.js,ui/src/layout/DynamicMenuIcon.test.jsx
+ui/src/layout/Layout.js,ui/src/layout/Layout.jsx
+ui/src/layout/Login.js,ui/src/layout/Login.jsx
+ui/src/layout/Logout.js,ui/src/layout/Logout.jsx
+ui/src/layout/Menu.js,ui/src/layout/Menu.jsx
+ui/src/layout/Notification.js,ui/src/layout/Notification.jsx
+ui/src/layout/PersonalMenu.js,ui/src/layout/PersonalMenu.jsx
+ui/src/layout/PlaylistsSubMenu.js,ui/src/layout/PlaylistsSubMenu.jsx
+ui/src/layout/SubMenu.js,ui/src/layout/SubMenu.jsx
+ui/src/layout/UserMenu.js,ui/src/layout/UserMenu.jsx
+ui/src/personal/HelpMsg.js,ui/src/personal/HelpMsg.jsx
+ui/src/personal/LastfmScrobbleToggle.js,ui/src/personal/LastfmScrobbleToggle.jsx
+ui/src/personal/ListenBrainzScrobbleToggle.js,ui/src/personal/ListenBrainzScrobbleToggle.jsx
+ui/src/personal/NotificationsToggle.js,ui/src/personal/NotificationsToggle.jsx
+ui/src/personal/ReplayGainToggle.js,ui/src/personal/ReplayGainToggle.jsx
+ui/src/personal/SelectDefaultView.js,ui/src/personal/SelectDefaultView.jsx
+ui/src/personal/SelectLanguage.js,ui/src/personal/SelectLanguage.jsx
+ui/src/personal/SelectTheme.js,ui/src/personal/SelectTheme.jsx
+ui/src/player/PlayerEdit.js,ui/src/player/PlayerEdit.jsx
+ui/src/player/PlayerList.js,ui/src/player/PlayerList.jsx
+ui/src/playlist/ChangePublicStatusButton.js,ui/src/playlist/ChangePublicStatusButton.jsx
+ui/src/playlist/PlaylistActions.js,ui/src/playlist/PlaylistActions.jsx
+ui/src/playlist/PlaylistCreate.js,ui/src/playlist/PlaylistCreate.jsx
+ui/src/playlist/PlaylistDetails.js,ui/src/playlist/PlaylistDetails.jsx
+ui/src/playlist/PlaylistEdit.js,ui/src/playlist/PlaylistEdit.jsx
+ui/src/playlist/PlaylistList.js,ui/src/playlist/PlaylistList.jsx
+ui/src/playlist/PlaylistListActions.js,ui/src/playlist/PlaylistListActions.jsx
+ui/src/playlist/PlaylistShow.js,ui/src/playlist/PlaylistShow.jsx
+ui/src/playlist/PlaylistSongBulkActions.js,ui/src/playlist/PlaylistSongBulkActions.jsx
+ui/src/playlist/PlaylistSongs.js,ui/src/playlist/PlaylistSongs.jsx
+ui/src/playlist/index.js,ui/src/playlist/index.jsx
+ui/src/radio/RadioCreate.js,ui/src/radio/RadioCreate.jsx
+ui/src/radio/RadioEdit.js,ui/src/radio/RadioEdit.jsx
+ui/src/radio/RadioList.js,ui/src/radio/RadioList.jsx
+ui/src/radio/StreamField.js,ui/src/radio/StreamField.jsx
+ui/src/radio/helper.js,ui/src/radio/helper.jsx
+ui/src/radio/index.js,ui/src/radio/index.jsx
+ui/src/routes.js,ui/src/routes.jsx
+ui/src/share/ShareEdit.js,ui/src/share/ShareEdit.jsx
+ui/src/share/ShareList.js,ui/src/share/ShareList.jsx
+ui/src/share/index.js,ui/src/share/index.jsx
+ui/src/song/AlbumLinkField.js,ui/src/song/AlbumLinkField.jsx
+ui/src/song/SongList.js,ui/src/song/SongList.jsx
+ui/src/song/SongListActions.js,ui/src/song/SongListActions.jsx
+ui/src/song/index.js,ui/src/song/index.jsx
+ui/src/themes/useCurrentTheme.test.js,ui/src/themes/useCurrentTheme.test.jsx
+ui/src/transcoding/TranscodingCreate.js,ui/src/transcoding/TranscodingCreate.jsx
+ui/src/transcoding/TranscodingEdit.js,ui/src/transcoding/TranscodingEdit.jsx
+ui/src/transcoding/TranscodingList.js,ui/src/transcoding/TranscodingList.jsx
+ui/src/transcoding/TranscodingNote.js,ui/src/transcoding/TranscodingNote.jsx
+ui/src/transcoding/TranscodingShow.js,ui/src/transcoding/TranscodingShow.jsx
+ui/src/useChangeThemeColor.js,ui/src/useChangeThemeColor.jsx
+ui/src/user/DeleteUserButton.js,ui/src/user/DeleteUserButton.jsx
+ui/src/user/UserCreate.js,ui/src/user/UserCreate.jsx
+ui/src/user/UserEdit.js,ui/src/user/UserEdit.jsx
+ui/src/user/UserList.js,ui/src/user/UserList.jsx
+wix/Navidrome_UI_Flow.wxs,release/wix/Navidrome_UI_Flow.wxs
+wix/SettingsDlg.wxs,release/wix/SettingsDlg.wxs
+wix/bmp/banner.bmp,release/wix/bmp/banner.bmp
+wix/bmp/dialogue.bmp,release/wix/bmp/dialogue.bmp
+wix/navidrome.wxs,release/wix/navidrome.wxs

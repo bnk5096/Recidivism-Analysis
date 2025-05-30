@@ -1,0 +1,245 @@
+[
+{
+"cve_id": "CVE-2017-15872",
+"patch_date": [
+"2017-10-23 08:20:47+02:00"
+],
+"patch_files": [
+"include/inc_tmpl/admin.groups.tmpl.php",
+"include/inc_tmpl/admin.newuser.tmpl.php",
+"include/inc_tmpl/admin.edituser.tmpl.php",
+"include/inc_lib/revision/revision.php"
+],
+"earliest_patch_date": "2017-10-23 08:20:47+02:00",
+"earliest_vuln_date": "2007-12-29 13:01:38+00:00",
+"vuln_files": [
+"include/inc_tmpl/admin.newuser.tmpl.php",
+"include/inc_tmpl/admin.edituser.tmpl.php",
+"include/inc_tmpl/admin.groups.tmpl.php",
+"include/inc_lib/revision/revision.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.8,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.7,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-4302",
+"patch_date": [
+"2021-08-19 22:15:18+02:00"
+],
+"patch_files": [
+"include/vendor/enshrined/svg-sanitize/tests/data/ariaDataTest.svg",
+"include/vendor/enshrined/svg-sanitize/tests/SanitizerTest.php",
+"include/inc_lib/classes/class.svg-reader.php",
+"composer.lock",
+"include/vendor/enshrined/svg-sanitize/src/Exceptions/NestingException.php",
+"include/vendor/composer/autoload_real.php",
+"include/vendor/enshrined/svg-sanitize/tests/data/svgTestOne.svg",
+"include/vendor/enshrined/svg-sanitize/tests/data/xlinkLoopTest.svg",
+"include/vendor/composer/platform_check.php",
+"include/vendor/enshrined/svg-sanitize/src/ElementReference/Resolver.php",
+"composer.json",
+"include/vendor/enshrined/svg-sanitize/src/data/AttributeInterface.php",
+"include/vendor/enshrined/svg-sanitize/tests/Fixtures/TestAllowedAttributes.php",
+"include/vendor/enshrined/svg-sanitize/phpunit.xml",
+"include/vendor/composer/ClassLoader.php",
+"include/vendor/enshrined/svg-sanitize/tests/data/entityClean.svg",
+"include/vendor/enshrined/svg-sanitize/tests/data/useDosTestTwo.svg",
+"include/vendor/enshrined/svg-sanitize/src/svg-scanner.php",
+"include/vendor/composer/InstalledVersions.php",
+"include/vendor/enshrined/svg-sanitize/tests/AllowedTagsTest.php",
+"include/vendor/enshrined/svg-sanitize/README.md",
+"include/vendor/composer/autoload_classmap.php",
+"include/vendor/enshrined/svg-sanitize/tests/data/useClean.svg",
+"include/vendor/enshrined/svg-sanitize/tests/data/useTest.svg",
+"include/vendor/composer/LICENSE",
+"include/vendor/enshrined/svg-sanitize/tests/AllowedAttributesTest.php",
+"include/vendor/enshrined/svg-sanitize/composer.json",
+"include/vendor/enshrined/svg-sanitize/tests/data/useDosCleanTwo.svg",
+"include/inc_lib/default.inc.php",
+"include/vendor/enshrined/svg-sanitize/tests/data/hrefCleanTwo.svg",
+"include/vendor/enshrined/svg-sanitize/tests/data/useDosTest.svg",
+"include/vendor/enshrined/svg-sanitize/src/ElementReference/Subject.php",
+"include/vendor/enshrined/svg-sanitize/tests/Fixtures/TestAllowedTags.php",
+"include/vendor/enshrined/svg-sanitize/tests/data/hrefCleanOne.svg",
+"include/vendor/enshrined/svg-sanitize/src/data/TagInterface.php",
+"include/vendor/enshrined/svg-sanitize/LICENSE",
+"include/vendor/composer/autoload_namespaces.php",
+"include/vendor/composer/autoload_static.php",
+"include/vendor/enshrined/svg-sanitize/tests/data/xlinkLaughsClean.svg",
+"include/vendor/enshrined/svg-sanitize/tests/data/xlinkLaughsTest.svg",
+"include/vendor/enshrined/svg-sanitize/tests/data/hrefTestTwo.svg",
+"include/vendor/enshrined/svg-sanitize/src/Helper.php",
+"include/inc_act/act_upload.php",
+"include/vendor/enshrined/svg-sanitize/.gitignore",
+"include/vendor/enshrined/svg-sanitize/.github/workflows/tests.yml",
+"include/vendor/enshrined/svg-sanitize/tests/data/externalClean.svg",
+"include/vendor/enshrined/svg-sanitize/tests/data/hrefTestOne.svg",
+"include/vendor/enshrined/svg-sanitize/tests/data/svgCleanOneMinified.svg",
+"include/vendor/enshrined/svg-sanitize/tests/data/badXmlTestOne.svg",
+"include/vendor/enshrined/svg-sanitize/tests/data/externalTest.svg",
+"include/vendor/enshrined/svg-sanitize/tests/data/useDosClean.svg",
+"include/vendor/composer/installed.php",
+"include/vendor/enshrined/svg-sanitize/tests/data/xlinkLoopClean.svg",
+"include/vendor/composer/autoload_psr4.php",
+"include/vendor/enshrined/svg-sanitize/src/data/AllowedTags.php",
+"include/vendor/enshrined/svg-sanitize/tests/data/ariaDataClean.svg",
+"include/vendor/enshrined/svg-sanitize/src/ElementReference/Usage.php",
+"include/vendor/enshrined/svg-sanitize/src/data/AllowedAttributes.php",
+"include/vendor/enshrined/svg-sanitize/src/data/XPath.php",
+"include/vendor/enshrined/svg-sanitize/tests/data/xmlCleanOne.xml",
+"include/vendor/enshrined/svg-sanitize/tests/data/svgCleanOne.svg",
+"include/vendor/enshrined/svg-sanitize/.travis.yml",
+"include/vendor/autoload.php",
+"include/vendor/enshrined/svg-sanitize/tests/data/entityTest.svg",
+"include/vendor/enshrined/svg-sanitize/src/Sanitizer.php",
+"include/vendor/enshrined/svg-sanitize/tests/data/xmlTestOne.xml",
+"include/vendor/enshrined/svg-sanitize/tests/SubjectTest.php",
+"include/vendor/composer/installed.json",
+"include/inc_lib/revision/revision.php"
+],
+"earliest_patch_date": "2021-08-19 22:15:18+02:00",
+"earliest_vuln_date": "2017-06-17 15:01:18+02:00",
+"vuln_files": [
+"include/inc_lib/classes/class.svg-reader.php",
+"include/inc_lib/revision/revision.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"include/inc_lib/revision/revision.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-4301",
+"patch_date": [
+"2021-08-22 07:49:58+02:00"
+],
+"patch_files": [
+"setup/inc/step1.inc.php",
+"setup/inc/step5.inc.php",
+"setup/inc/setup.check.inc.php",
+"setup/inc/step4.inc.php",
+"include/inc_lib/dbcon.inc.php",
+"setup/inc/step0.inc.php",
+"setup/inc/step3.inc.php",
+"setup/inc/step2.inc.php",
+"include/inc_lib/revision/revision.php"
+],
+"earliest_patch_date": "2021-08-22 07:49:58+02:00",
+"earliest_vuln_date": "2007-12-29 13:01:38+00:00",
+"vuln_files": [
+"setup/inc/setup.check.inc.php",
+"setup/inc/step1.inc.php",
+"include/inc_lib/dbcon.inc.php",
+"include/inc_lib/revision/revision.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-89"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"include/inc_lib/revision/revision.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

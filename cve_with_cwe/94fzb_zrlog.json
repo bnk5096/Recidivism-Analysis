@@ -1,0 +1,173 @@
+[
+{
+"cve_id": "CVE-2020-19005",
+"patch_date": [
+"2019-04-22 23:40:35+08:00"
+],
+"patch_files": [
+"web/src/main/java/com/zrlog/web/handler/PluginHandler.java",
+"pom.xml",
+"service/src/main/java/com/zrlog/service/UploadService.java",
+"service/src/main/java/com/zrlog/service/PluginHelper.java"
+],
+"earliest_patch_date": "2019-04-22 23:40:35+08:00",
+"earliest_vuln_date": "2018-02-04 12:53:54+08:00",
+"vuln_files": [
+"service/src/main/java/com/zrlog/service/UploadService.java",
+"web/src/main/java/com/zrlog/web/handler/PluginHandler.java",
+"common/src/main/java/com/zrlog/web/util/PluginHelper.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.7,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.1,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-863"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-21316",
+"patch_date": [
+"2019-10-24 22:31:14+08:00"
+],
+"patch_files": [
+"web/src/main/webapp/admin/summernote/plugin/specialchars/summernote-ext-specialchars.js",
+"web/src/main/webapp/admin/summernote/plugin/databasic/summernote-ext-databasic.css",
+"web/src/main/java/com/zrlog/web/config/ZrLogConfig.java",
+"web/src/main/webapp/admin/summernote/plugin/databasic/summernote-ext-databasic.js",
+"web/src/main/java/com/zrlog/web/interceptor/VisitorInterceptor.java",
+"web/src/main/webapp/admin/summernote/plugin/hello/summernote-ext-hello.js",
+"web/src/main/webapp/admin/summernote/font/summernote.eot",
+"web/pom.xml",
+"web/src/main/webapp/include/core/core_mate.ftl",
+"web/src/main/java/com/zrlog/web/Application.java",
+"web/src/main/webapp/admin/summernote/font/summernote.ttf",
+"web/src/main/webapp/admin/summernote/summernote-bs4.min.js",
+"web/src/main/webapp/admin/summernote/font/summernote.woff",
+".gitignore",
+"common/src/main/java/com/zrlog/web/util/WebTools.java",
+"web/src/main/webapp/admin/summernote/lang/summernote-zh-CN.js",
+"web/src/main/java/com/zrlog/web/render/BlogFrontendFreeMarkerRender.java",
+"service/src/main/java/com/zrlog/service/CommentService.java",
+"web/src/main/webapp/admin/summernote/summernote-bs4.css",
+"bin/version.sh",
+"web/src/main/java/com/zrlog/web/controller/blog/ArticleController.java",
+"pom.xml",
+"web/src/main/java/com/zrlog/web/interceptor/TemplateHelper.java"
+],
+"earliest_patch_date": "2019-10-24 22:31:14+08:00",
+"earliest_vuln_date": "2018-02-04 12:53:54+08:00",
+"vuln_files": [
+"web/pom.xml",
+"web/src/main/webapp/admin/summernote/lang/summernote-zh-CN.js",
+"web/src/main/webapp/admin/summernote/summernote-bs4.min.js",
+"service/src/main/java/com/zrlog/service/CommentService.java",
+"web/src/main/webapp/admin/summernote/summernote-bs4.css",
+"web/src/main/java/com/zrlog/web/controller/blog/ArticleController.java",
+".gitignore",
+"common/src/main/java/com/zrlog/web/util/WebTools.java",
+"web/src/main/java/com/zrlog/web/interceptor/TemplateHelper.java",
+"web/src/main/java/com/zrlog/web/Application.java",
+"web/src/main/java/com/zrlog/web/interceptor/VisitorInterceptor.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"pom.xml"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

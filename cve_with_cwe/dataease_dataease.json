@@ -1,0 +1,315 @@
+[
+{
+"cve_id": "CVE-2022-39312",
+"patch_date": [
+"2022-10-11 16:17:00+08:00"
+],
+"patch_files": [
+"backend/src/main/java/io/dataease/dto/datasource/MysqlConfiguration.java"
+],
+"earliest_patch_date": "2022-10-11 16:17:00+08:00",
+"earliest_vuln_date": "2021-09-29 18:26:47+08:00",
+"vuln_files": [
+"backend/src/main/java/io/dataease/dto/datasource/MysqlConfiguration.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-502"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-25807",
+"patch_date": [
+"2023-02-21 14:00:47+08:00"
+],
+"patch_files": [
+"frontend/src/components/canvas/customComponent/VText.vue",
+"frontend/src/main.js",
+"frontend/src/components/canvas/customComponent/DeRichText.vue",
+"frontend/src/components/canvas/customComponent/DeRichTextView.vue",
+"frontend/package.json"
+],
+"earliest_patch_date": "2023-02-21 14:00:47+08:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-32310",
+"patch_date": [
+"2023-05-29 10:01:43+08:00"
+],
+"patch_files": [
+"backend/src/main/java/io/dataease/service/panel/ShareService.java"
+],
+"earliest_patch_date": "2023-05-29 10:01:43+08:00",
+"earliest_vuln_date": "2022-04-15 16:08:33+08:00",
+"vuln_files": [
+"backend/src/main/java/io/dataease/service/panel/ShareService.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.2
+}
+},
+"cwes": [
+"CWE-639"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-40183",
+"patch_date": [
+"2023-09-13 18:20:55+08:00"
+],
+"patch_files": [
+"core/backend/src/main/java/io/dataease/service/staticResource/StaticResourceService.java",
+"core/frontend/src/views/panel/appTemplate/AppTemplateContent.vue",
+"core/frontend/src/views/background/BackgroundOverall.vue"
+],
+"earliest_patch_date": "2023-09-13 18:20:55+08:00",
+"earliest_vuln_date": "2022-10-26 19:34:56+08:00",
+"vuln_files": [
+"core/backend/src/main/java/io/dataease/service/staticResource/StaticResourceService.java",
+"core/frontend/src/views/panel/appTemplate/AppTemplateContent.vue",
+"core/frontend/src/views/background/BackgroundOverall.vue"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"CWE-434"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-23328",
+"patch_date": [
+"2024-01-18 17:53:34+08:00",
+"2024-01-18 17:53:29+08:00"
+],
+"patch_files": [
+"core/core-backend/src/main/java/io/dataease/datasource/type/Mysql.java",
+"core/backend/src/main/java/io/dataease/dto/datasource/MysqlConfiguration.java"
+],
+"earliest_patch_date": "2024-01-18 17:53:29+08:00",
+"earliest_vuln_date": "2023-10-26 16:00:43+08:00",
+"vuln_files": [
+"core/core-backend/src/main/java/io/dataease/datasource/type/Mysql.java",
+"core/backend/src/main/java/io/dataease/dto/datasource/MysqlConfiguration.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 9.1,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.2
+}
+},
+"cwes": [
+"CWE-502"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-502"
+],
+"intro_duplicate_type": true,
+"intro_duplicated_types": [
+"CWE-502"
+],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-52295",
+"patch_date": [
+"2024-09-29 17:20:16+08:00"
+],
+"patch_files": [
+"core/core-backend/src/main/java/io/dataease/substitute/permissions/login/SubstituleLoginServer.java",
+"sdk/common/src/main/java/io/dataease/auth/filter/TokenFilter.java",
+"sdk/common/src/main/java/io/dataease/auth/config/SubstituleLoginConfig.java",
+"sdk/common/src/main/java/io/dataease/utils/TokenUtils.java",
+"de-xpack"
+],
+"earliest_patch_date": "2024-09-29 17:20:16+08:00",
+"earliest_vuln_date": "2023-10-23 22:00:14+08:00",
+"vuln_files": [
+"core/core-backend/src/main/java/io/dataease/substitute/permissions/login/SubstituleLoginServer.java",
+"sdk/common/src/main/java/io/dataease/utils/TokenUtils.java",
+"sdk/common/src/main/java/io/dataease/auth/filter/TokenFilter.java"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-47074",
+"patch_date": [
+"2024-10-08 18:47:57+08:00"
+],
+"patch_files": [
+"core/backend/src/main/java/io/dataease/dto/datasource/PgConfiguration.java"
+],
+"earliest_patch_date": "2024-10-08 18:47:57+08:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-502"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-502"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

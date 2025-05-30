@@ -1,0 +1,88 @@
+[
+{
+"cve_id": "CVE-2022-24739",
+"patch_date": [
+"2022-03-08 09:29:57+01:00",
+"2022-02-27 11:00:33+01:00",
+"2022-02-20 13:28:57+01:00"
+],
+"patch_files": [
+"templates/inc/logo.tpl",
+"classes/Controller/JsonController.php",
+"index.php",
+"composer.json",
+"classes/Controller/FrontController.php",
+"patches/youtube-dl-redirect.diff",
+"classes/Controller/BaseController.php",
+"classes/Controller/DownloadController.php",
+"tests/FrontControllerTest.php",
+"patches/youtube-dl-disable-generic.diff",
+"classes/Factory/ViewFactory.php",
+"composer.lock"
+],
+"earliest_patch_date": "2022-02-20 13:28:57+01:00",
+"earliest_vuln_date": "2016-03-30 01:39:47+02:00",
+"vuln_files": [
+"composer.json",
+"patches/youtube-dl-redirect.diff",
+"composer.lock",
+"classes/Controller/BaseController.php",
+"classes/Controller/DownloadController.php",
+"classes/Controller/JsonController.php",
+"classes/Controller/FrontController.php",
+"tests/FrontControllerTest.php",
+"index.php",
+"templates/inc/logo.tpl"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:H/Au:N/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "HIGH",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 4.9,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

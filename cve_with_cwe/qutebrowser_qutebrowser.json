@@ -1,0 +1,285 @@
+[
+{
+"cve_id": "CVE-2018-1000559",
+"patch_date": [
+"2018-06-21 21:20:19+02:00",
+"2018-06-21 21:43:53+02:00"
+],
+"patch_files": [
+"tests/end2end/data/issue4011.html",
+"tests/end2end/features/history.feature",
+"qutebrowser/browser/qutescheme.py"
+],
+"earliest_patch_date": "2018-06-21 21:20:19+02:00",
+"earliest_vuln_date": "2017-06-19 07:44:11-04:00",
+"vuln_files": [
+"qutebrowser/browser/qutescheme.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2018-10895",
+"patch_date": [
+"2018-07-11 17:05:23+02:00"
+],
+"patch_files": [
+"qutebrowser/browser/qutescheme.py",
+"qutebrowser/html/settings.html",
+"qutebrowser/browser/webkit/network/filescheme.py",
+"tests/end2end/features/qutescheme.feature",
+"qutebrowser/browser/webkit/network/webkitqutescheme.py",
+"tests/unit/browser/webkit/network/test_filescheme.py",
+"tests/end2end/test_invocations.py",
+"qutebrowser/browser/webengine/webenginequtescheme.py",
+"qutebrowser/browser/webengine/interceptor.py",
+"tests/end2end/data/misc/qutescheme_csrf.html",
+"qutebrowser/browser/webkit/network/networkmanager.py"
+],
+"earliest_patch_date": "2018-07-11 17:05:23+02:00",
+"earliest_vuln_date": "2014-02-20 23:08:27+01:00",
+"vuln_files": [
+"qutebrowser/browser/qutescheme.py",
+"tests/unit/browser/webkit/network/test_filescheme.py",
+"qutebrowser/browser/webkit/network/filescheme.py",
+"qutebrowser/html/settings.html",
+"qutebrowser/browser/webkit/network/webkitqutescheme.py",
+"tests/end2end/test_invocations.py",
+"qutebrowser/browser/webengine/webenginequtescheme.py",
+"qutebrowser/browser/webkit/network/networkmanager.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-352"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"qutebrowser/browser/qutescheme.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-11054",
+"patch_date": [
+"2020-05-02 19:23:12+02:00",
+"2020-05-02 19:19:29+02:00",
+"2020-05-02 19:22:02+02:00",
+"2020-05-02 18:54:05+02:00",
+"2020-05-02 19:25:05+02:00",
+"2020-05-02 19:25:29+02:00",
+"2020-05-02 19:24:35+02:00",
+"2020-05-02 19:10:54+02:00",
+"2020-05-02 19:23:51+02:00",
+"2020-05-02 19:03:20+02:00"
+],
+"patch_files": [
+"qutebrowser/browser/webkit/webkittab.py",
+"doc/changelog.asciidoc",
+"qutebrowser/browser/browsertab.py",
+"qutebrowser/browser/webengine/webenginetab.py"
+],
+"earliest_patch_date": "2020-05-02 18:54:05+02:00",
+"earliest_vuln_date": "2016-07-11 12:09:41+02:00",
+"vuln_files": [
+"qutebrowser/browser/webkit/webkittab.py",
+"qutebrowser/browser/browsertab.py",
+"qutebrowser/browser/webengine/webenginetab.py",
+"doc/changelog.asciidoc"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 3.5,
+"baseSeverity": "LOW"
+},
+"exploitabilityScore": 2.1,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-41146",
+"patch_date": [
+"2021-10-21 16:01:04+02:00"
+],
+"patch_files": [
+"tests/unit/test_qutebrowser.py",
+"qutebrowser/qutebrowser.py",
+"misc/org.qutebrowser.qutebrowser.desktop",
+"misc/nsis/install.nsh"
+],
+"earliest_patch_date": "2021-10-21 16:01:04+02:00",
+"earliest_vuln_date": "2014-12-05 10:49:24-06:00",
+"vuln_files": [
+"misc/org.qutebrowser.qutebrowser.desktop",
+"misc/nsis/install.nsh"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-77"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

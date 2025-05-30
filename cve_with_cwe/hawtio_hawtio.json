@@ -1,0 +1,154 @@
+[
+{
+"cve_id": "CVE-2014-0121",
+"patch_date": [
+"2014-03-05 10:48:22-05:00"
+],
+"patch_files": [
+"hawtio-system/src/main/java/io/hawt/web/AuthenticationFilter.java",
+"hawtio-karaf-terminal/src/main/java/io/hawt/web/plugin/karaf/terminal/KarafTerminalContextListener.java",
+"hawtio-karaf-terminal/src/main/java/io/hawt/web/plugin/karaf/terminal/TerminalServlet.java",
+"hawtio-karaf-terminal/src/main/webapp/WEB-INF/web.xml",
+"hawtio-karaf-terminal/src/main/webapp/app/js/gogoPlugin.js",
+"hawtio-karaf-terminal/src/main/webapp/app/js/gogo.js",
+"hawtio-karaf-terminal/pom.xml"
+],
+"earliest_patch_date": "2014-03-05 10:48:22-05:00",
+"earliest_vuln_date": "2013-07-25 11:23:56-04:00",
+"vuln_files": [
+"hawtio-karaf-terminal/src/main/java/io/hawt/web/plugin/karaf/terminal/TerminalServlet.java",
+"hawtio-system/src/main/java/io/hawt/web/AuthenticationFilter.java",
+"hawtio-karaf-terminal/src/main/webapp/app/js/gogo.js",
+"hawtio-karaf-terminal/src/main/webapp/app/js/gogoPlugin.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-287"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2014-0120",
+"patch_date": [
+"2014-03-06 12:11:42-05:00"
+],
+"patch_files": [
+"hawtio-karaf-terminal/src/main/java/io/hawt/web/plugin/karaf/terminal/TerminalServlet.java",
+"hawtio-system/src/main/java/io/hawt/web/LoginTokenServlet.java",
+"hawtio-karaf-terminal/src/main/webapp/WEB-INF/web.xml",
+"hawtio-karaf-terminal/src/main/webapp/app/js/gogoPlugin.js",
+"hawtio-karaf-terminal/src/main/webapp/app/js/gogo.js",
+"hawtio-system/src/main/java/io/hawt/web/LoginServlet.java"
+],
+"earliest_patch_date": "2014-03-06 12:11:42-05:00",
+"earliest_vuln_date": "2013-07-25 11:23:56-04:00",
+"vuln_files": [
+"hawtio-karaf-terminal/src/main/java/io/hawt/web/plugin/karaf/terminal/TerminalServlet.java",
+"hawtio-karaf-terminal/src/main/webapp/app/js/gogo.js",
+"hawtio-system/src/main/java/io/hawt/web/LoginServlet.java",
+"hawtio-karaf-terminal/src/main/webapp/app/js/gogoPlugin.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-352"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"hawtio-karaf-terminal/src/main/java/io/hawt/web/plugin/karaf/terminal/TerminalServlet.java",
+"hawtio-karaf-terminal/src/main/webapp/WEB-INF/web.xml",
+"hawtio-karaf-terminal/src/main/webapp/app/js/gogoPlugin.js",
+"hawtio-karaf-terminal/src/main/webapp/app/js/gogo.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

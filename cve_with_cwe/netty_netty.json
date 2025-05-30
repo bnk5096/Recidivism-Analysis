@@ -1,0 +1,585 @@
+[
+{
+"cve_id": "CVE-2014-3488",
+"patch_date": [
+"2014-06-10 17:56:18+09:00"
+],
+"patch_files": [
+"src/main/java/org/jboss/netty/handler/ssl/SslHandler.java"
+],
+"earliest_patch_date": "2014-06-10 17:56:18+09:00",
+"earliest_vuln_date": "2014-04-20 16:17:28+09:00",
+"vuln_files": [
+"src/main/java/org/jboss/netty/handler/ssl/SslHandler.java"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-119"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-21290",
+"patch_date": [
+"2021-02-08 11:44:05+01:00"
+],
+"patch_files": [
+"buffer/src/test/java/io/netty/buffer/ReadOnlyDirectByteBufferBufTest.java",
+"codec-http/src/test/java/io/netty/handler/codec/http/multipart/AbstractMemoryHttpDataTest.java",
+"buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java",
+"common/src/main/java/io/netty/util/internal/PlatformDependent.java",
+"transport-native-epoll/src/test/java/io/netty/channel/epoll/EpollSpliceTest.java",
+"testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketFileRegionTest.java",
+"handler/src/main/java/io/netty/handler/ssl/util/SelfSignedCertificate.java",
+"transport-native-unix-common-tests/src/main/java/io/netty/channel/unix/tests/UnixTestUtils.java",
+"codec-http/src/test/java/io/netty/handler/codec/http/HttpChunkedInputTest.java",
+"codec-http/src/main/java/io/netty/handler/codec/http/multipart/AbstractDiskHttpData.java",
+"transport/src/test/java/io/netty/channel/DefaultFileRegionTest.java",
+"codec-http/src/test/java/io/netty/handler/codec/http/multipart/AbstractDiskHttpDataTest.java",
+"handler/src/test/java/io/netty/handler/traffic/FileRegionThrottleTest.java",
+"codec-http/src/test/java/io/netty/handler/codec/http/multipart/DiskFileUploadTest.java",
+"common/src/main/java/io/netty/util/internal/NativeLibraryLoader.java",
+"handler/src/test/java/io/netty/handler/stream/ChunkedWriteHandlerTest.java"
+],
+"earliest_patch_date": "2021-02-08 11:44:05+01:00",
+"earliest_vuln_date": "2012-05-30 18:50:33-07:00",
+"vuln_files": [
+"buffer/src/test/java/io/netty/buffer/ReadOnlyDirectByteBufferBufTest.java",
+"codec-http/src/test/java/io/netty/handler/codec/http/multipart/AbstractMemoryHttpDataTest.java",
+"buffer/src/test/java/io/netty/buffer/AbstractByteBufTest.java",
+"transport-native-epoll/src/test/java/io/netty/channel/epoll/EpollSpliceTest.java",
+"testsuite/src/main/java/io/netty/testsuite/transport/socket/SocketFileRegionTest.java",
+"handler/src/main/java/io/netty/handler/ssl/util/SelfSignedCertificate.java",
+"transport-native-unix-common-tests/src/main/java/io/netty/channel/unix/tests/UnixTestUtils.java",
+"codec-http/src/test/java/io/netty/handler/codec/http/HttpChunkedInputTest.java",
+"codec-http/src/main/java/io/netty/handler/codec/http/multipart/AbstractDiskHttpData.java",
+"transport/src/test/java/io/netty/channel/DefaultFileRegionTest.java",
+"codec-http/src/test/java/io/netty/handler/codec/http/multipart/AbstractDiskHttpDataTest.java",
+"handler/src/test/java/io/netty/handler/traffic/FileRegionThrottleTest.java",
+"codec-http/src/test/java/io/netty/handler/codec/http/multipart/DiskFileUploadTest.java",
+"common/src/main/java/io/netty/util/internal/NativeLibraryLoader.java",
+"handler/src/test/java/io/netty/handler/stream/ChunkedWriteHandlerTest.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:M/Au:N/C:P/I:N/A:N",
+"accessVector": "LOCAL",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 1.9
+},
+"severity": "LOW",
+"exploitabilityScore": 3.4,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-21295",
+"patch_date": [
+"2021-03-09 08:20:09+01:00"
+],
+"patch_files": [
+"codec-http2/src/test/java/io/netty/handler/codec/http2/DefaultHttp2ConnectionDecoderTest.java",
+"codec-http/src/main/java/io/netty/handler/codec/http/HttpObjectDecoder.java",
+"codec-http2/src/main/java/io/netty/handler/codec/http2/DefaultHttp2ConnectionDecoder.java",
+"codec-http/src/main/java/io/netty/handler/codec/http/HttpUtil.java"
+],
+"earliest_patch_date": "2021-03-09 08:20:09+01:00",
+"earliest_vuln_date": "2015-01-23 11:06:11-05:00",
+"vuln_files": [
+"codec-http/src/main/java/io/netty/handler/codec/http/HttpObjectDecoder.java",
+"codec-http2/src/main/java/io/netty/handler/codec/http2/DefaultHttp2ConnectionDecoder.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 5.9,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:H/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "HIGH",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 2.6
+},
+"severity": "LOW",
+"exploitabilityScore": 4.9,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-21409",
+"patch_date": [
+"2021-03-30 09:40:47+02:00"
+],
+"patch_files": [
+"codec-http2/src/main/java/io/netty/handler/codec/http2/DefaultHttp2ConnectionDecoder.java",
+"codec-http2/src/test/java/io/netty/handler/codec/http2/Http2MultiplexTest.java"
+],
+"earliest_patch_date": "2021-03-30 09:40:47+02:00",
+"earliest_vuln_date": "2021-03-09 08:20:09+01:00",
+"vuln_files": [
+"codec-http2/src/main/java/io/netty/handler/codec/http2/DefaultHttp2ConnectionDecoder.java",
+"codec-http2/src/test/java/io/netty/handler/codec/http2/Http2MultiplexTest.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 5.9,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"codec-http2/src/main/java/io/netty/handler/codec/http2/DefaultHttp2ConnectionDecoder.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-43797",
+"patch_date": [
+"2021-12-09 14:49:43+01:00"
+],
+"patch_files": [
+"codec-http/src/test/java/io/netty/handler/codec/http/HttpRequestDecoderTest.java",
+"codec-http/src/main/java/io/netty/handler/codec/http/HttpObjectDecoder.java",
+"codec-http/src/main/java/io/netty/handler/codec/http/DefaultHttpHeaders.java",
+"codec-http/src/test/java/io/netty/handler/codec/http/HttpResponseDecoderTest.java"
+],
+"earliest_patch_date": "2021-12-09 14:49:43+01:00",
+"earliest_vuln_date": "2019-12-11 15:49:07+01:00",
+"vuln_files": [
+"codec-http/src/test/java/io/netty/handler/codec/http/HttpRequestDecoderTest.java",
+"codec-http/src/main/java/io/netty/handler/codec/http/HttpObjectDecoder.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"codec-http/src/main/java/io/netty/handler/codec/http/HttpObjectDecoder.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-24823",
+"patch_date": [
+"2022-05-06 08:57:43+02:00"
+],
+"patch_files": [
+"common/src/main/java/io/netty/util/internal/PlatformDependent.java"
+],
+"earliest_patch_date": "2022-05-06 08:57:43+02:00",
+"earliest_vuln_date": "2021-02-08 11:44:05+01:00",
+"vuln_files": [
+"common/src/main/java/io/netty/util/internal/PlatformDependent.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:M/Au:N/C:P/I:N/A:N",
+"accessVector": "LOCAL",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 1.9
+},
+"severity": "LOW",
+"exploitabilityScore": 3.4,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"common/src/main/java/io/netty/util/internal/PlatformDependent.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-41915",
+"patch_date": [
+"2022-12-12 14:04:58+01:00"
+],
+"patch_files": [
+"codec/src/main/java/io/netty/handler/codec/DefaultHeaders.java",
+"codec-http/src/test/java/io/netty/handler/codec/http/DefaultHttpHeadersTest.java"
+],
+"earliest_patch_date": "2022-12-12 14:04:58+01:00",
+"earliest_vuln_date": "2015-08-04 17:12:24-07:00",
+"vuln_files": [
+"codec/src/main/java/io/netty/handler/codec/DefaultHeaders.java",
+"codec-http/src/test/java/io/netty/handler/codec/http/DefaultHttpHeadersTest.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 2.5
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-34462",
+"patch_date": [
+"2023-06-20 14:53:08+02:00"
+],
+"patch_files": [
+"handler/src/main/java/io/netty/handler/ssl/SslClientHelloHandler.java",
+"handler/src/main/java/io/netty/handler/ssl/AbstractSniHandler.java",
+"handler/src/test/java/io/netty/handler/ssl/SniHandlerTest.java",
+"handler/src/main/java/io/netty/handler/ssl/SniHandler.java"
+],
+"earliest_patch_date": "2023-06-20 14:53:08+02:00",
+"earliest_vuln_date": "2022-12-19 15:12:51+01:00",
+"vuln_files": [
+"handler/src/main/java/io/netty/handler/ssl/AbstractSniHandler.java",
+"handler/src/test/java/io/netty/handler/ssl/SniHandlerTest.java",
+"handler/src/main/java/io/netty/handler/ssl/SniHandler.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-44487",
+"patch_date": [
+"2023-10-10 05:47:24-07:00"
+],
+"patch_files": [
+"codec-http2/src/test/java/io/netty/handler/codec/http2/Http2EmptyDataFrameConnectionDecoderTest.java",
+"codec-http2/src/test/java/io/netty/handler/codec/http2/Http2MaxRstFrameConnectionDecoderTest.java",
+"codec-http2/src/test/java/io/netty/handler/codec/http2/AbstractDecoratingHttp2ConnectionDecoderTest.java",
+"codec-http2/src/test/java/io/netty/handler/codec/http2/Http2MaxRstFrameListenerTest.java",
+"codec-http2/src/main/java/io/netty/handler/codec/http2/Http2FrameCodecBuilder.java",
+"codec-http2/src/main/java/io/netty/handler/codec/http2/Http2MaxRstFrameDecoder.java",
+"codec-http2/src/main/java/io/netty/handler/codec/http2/Http2MultiplexCodecBuilder.java",
+"codec-http2/src/main/java/io/netty/handler/codec/http2/AbstractHttp2ConnectionHandlerBuilder.java",
+"codec-http2/src/main/java/io/netty/handler/codec/http2/Http2MaxRstFrameListener.java"
+],
+"earliest_patch_date": "2023-10-10 05:47:24-07:00",
+"earliest_vuln_date": "2019-08-13 19:07:10+02:00",
+"vuln_files": [
+"codec-http2/src/test/java/io/netty/handler/codec/http2/Http2EmptyDataFrameConnectionDecoderTest.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-29025",
+"patch_date": [
+"2024-03-21 10:34:49+01:00"
+],
+"patch_files": [
+"codec-http/src/main/java/io/netty/handler/codec/http/multipart/HttpPostRequestDecoder.java",
+"codec-http/src/test/java/io/netty/handler/codec/http/multipart/HttpPostRequestDecoderTest.java",
+"codec-http/src/main/java/io/netty/handler/codec/http/multipart/HttpPostMultipartRequestDecoder.java",
+"codec-http/src/main/java/io/netty/handler/codec/http/multipart/HttpPostStandardRequestDecoder.java"
+],
+"earliest_patch_date": "2024-03-21 10:34:49+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,148 @@
+[
+{
+"cve_id": "CVE-2016-9243",
+"patch_date": [
+"2016-11-06 10:08:21+08:00"
+],
+"patch_files": [
+"tests/hazmat/primitives/test_hkdf.py",
+"src/cryptography/hazmat/primitives/kdf/hkdf.py"
+],
+"earliest_patch_date": "2016-11-06 10:08:21+08:00",
+"earliest_vuln_date": "2014-05-07 17:02:21+08:00",
+"vuln_files": [
+"src/cryptography/hazmat/primitives/kdf/hkdf.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-49083",
+"patch_date": [
+"2023-11-27 13:35:35-06:00"
+],
+"patch_files": [
+"src/cryptography/hazmat/backends/openssl/backend.py",
+"tests/hazmat/primitives/test_pkcs7.py",
+"src/rust/src/lib.rs",
+"docs/spelling_wordlist.txt",
+"vectors/pyproject.toml",
+"vectors/cryptography_vectors/__about__.py",
+"pyproject.toml",
+"src/cryptography/__about__.py",
+"CHANGELOG.rst"
+],
+"earliest_patch_date": "2023-11-27 13:35:35-06:00",
+"earliest_vuln_date": "2020-08-04 23:50:02-04:00",
+"vuln_files": [
+"src/cryptography/hazmat/backends/openssl/backend.py",
+"vectors/pyproject.toml",
+"vectors/cryptography_vectors/__about__.py",
+"pyproject.toml",
+"src/cryptography/__about__.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-26130",
+"patch_date": [
+"2024-02-19 08:50:28-08:00"
+],
+"patch_files": [
+"src/cryptography/hazmat/backends/openssl/backend.py",
+"tests/hazmat/primitives/test_pkcs12.py"
+],
+"earliest_patch_date": "2024-02-19 08:50:28-08:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/cryptography/hazmat/backends/openssl/backend.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

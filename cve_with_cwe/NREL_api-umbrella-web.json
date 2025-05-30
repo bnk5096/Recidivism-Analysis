@@ -1,0 +1,135 @@
+[
+{
+"cve_id": "CVE-2015-10080",
+"patch_date": [
+"2015-04-09 22:47:52-06:00"
+],
+"patch_files": [
+"app/assets/javascripts/admin/app.js",
+"spec/features/admin/stats_logs_spec.rb",
+"app/assets/javascripts/admin/views/apis/table_view.js",
+"app/assets/javascripts/admin/views/api_scopes/table_view.js",
+"app/assets/javascripts/admin/views/api_users/table_view.js",
+"app/assets/javascripts/admin/views/stats/logs_table_view.js",
+"app/assets/javascripts/admin/views/stats/users_table_view.js",
+"spec/factories/log_items.rb",
+"spec/factories/api_users.rb",
+"config/routes.rb",
+"app/assets/javascripts/admin/views/admin_groups/table_view.js",
+"spec/features/admin/api_users_spec.rb",
+"app/assets/javascripts/admin/views/admins/table_view.js"
+],
+"earliest_patch_date": "2015-04-09 22:47:52-06:00",
+"earliest_vuln_date": "2013-10-15 00:26:53-06:00",
+"vuln_files": [
+"app/assets/javascripts/admin/views/stats/logs_table_view.js",
+"app/assets/javascripts/admin/views/api_users/table_view.js",
+"app/assets/javascripts/admin/views/stats/users_table_view.js",
+"spec/factories/log_items.rb",
+"app/assets/javascripts/admin/views/admin_groups/table_view.js",
+"app/assets/javascripts/admin/views/admins/table_view.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2015-10072",
+"patch_date": [
+"2015-04-10 11:30:01-06:00"
+],
+"patch_files": [
+"app/assets/javascripts/admin/controllers/apis_form_controller.js",
+"spec/features/admin/stats_logs_spec.rb",
+"Gemfile.lock",
+"app/assets/javascripts/admin/controllers/admin_groups/form_controller.js",
+"spec/support/elasticsearch.rb",
+"spec/cassettes/elasticsearch_templates.yml",
+"app/assets/javascripts/admin/controllers/api_users/form_controller.js",
+"spec/features/admin/stats_users_spec.rb",
+"app/assets/javascripts/admin/controllers/admins/form_controller.js",
+"spec/controllers/admin/stats_controller_spec.rb",
+"spec/factories/log_items.rb",
+"spec/factories/api_users.rb",
+"app/assets/javascripts/admin/controllers/website_backends/form_controller.js",
+"spec/support/vcr.rb",
+"spec/features/admin/api_users_spec.rb",
+"app/assets/javascripts/admin/controllers/api_scopes/form_controller.js",
+"Gemfile"
+],
+"earliest_patch_date": "2015-04-10 11:30:01-06:00",
+"earliest_vuln_date": "2014-12-07 07:32:51-07:00",
+"vuln_files": [
+"app/assets/javascripts/admin/controllers/apis_form_controller.js",
+"spec/features/admin/stats_logs_spec.rb",
+"app/assets/javascripts/admin/controllers/admin_groups/form_controller.js",
+"app/assets/javascripts/admin/controllers/api_users/form_controller.js",
+"app/assets/javascripts/admin/controllers/admins/form_controller.js",
+"spec/controllers/admin/stats_controller_spec.rb",
+"spec/factories/log_items.rb",
+"spec/features/admin/api_users_spec.rb",
+"app/assets/javascripts/admin/controllers/api_scopes/form_controller.js",
+"app/assets/javascripts/admin/controllers/website_backends/form_controller.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"spec/features/admin/stats_logs_spec.rb",
+"spec/factories/log_items.rb",
+"spec/factories/api_users.rb",
+"spec/features/admin/api_users_spec.rb"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

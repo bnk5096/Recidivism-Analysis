@@ -1,0 +1,123 @@
+[
+{
+"cve_id": "CVE-2019-1020015",
+"patch_date": [
+"2019-07-11 09:58:39+00:00"
+],
+"patch_files": [
+"docs/graphql/manual/auth/authentication/jwt.rst",
+"server/tests-py/test_jwt.py",
+"server/src-lib/Hasura/Server/Auth.hs",
+".circleci/test-server.sh",
+"server/src-lib/Hasura/Server/Auth/JWT.hs"
+],
+"earliest_patch_date": "2019-07-11 09:58:39+00:00",
+"earliest_vuln_date": "2018-08-30 16:02:09+05:30",
+"vuln_files": [
+"server/tests-py/test_jwt.py",
+"docs/graphql/manual/auth/authentication/jwt.rst",
+"server/src-lib/Hasura/Server/Auth/JWT.hs",
+"server/src-lib/Hasura/Server/Auth.hs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-27588",
+"patch_date": [
+"2023-03-08 06:20:22+00:00"
+],
+"patch_files": [
+"frontend/libs/console/legacy-ce/src/lib/components/Services/Actions/Sidebar/LeftSidebar.js",
+"frontend/libs/console/legacy-ce/src/lib/features/Actions/components/OASGenerator/OASGeneratorActions.tsx",
+"frontend/libs/console/legacy-ce/src/lib/metadata/queryUtils.ts"
+],
+"earliest_patch_date": "2023-03-08 06:20:22+00:00",
+"earliest_vuln_date": "2023-02-20 10:42:23+00:00",
+"vuln_files": [
+"frontend/libs/console/legacy-ce/src/lib/components/Services/Actions/Sidebar/LeftSidebar.js",
+"frontend/libs/console/legacy-ce/src/lib/features/Actions/components/OASGenerator/OASGeneratorActions.tsx"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

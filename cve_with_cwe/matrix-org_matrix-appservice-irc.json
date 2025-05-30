@@ -1,0 +1,222 @@
+[
+{
+"cve_id": "CVE-2022-39202",
+"patch_date": [
+"2022-05-04 08:34:34+00:00"
+],
+"patch_files": [
+"package.json",
+"package-lock.json"
+],
+"earliest_patch_date": "2022-05-04 08:34:34+00:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "LOW",
+"baseScore": 6.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.4
+}
+},
+"cwes": [
+"CWE-269"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3971",
+"patch_date": [
+"2022-09-26 12:12:24+01:00"
+],
+"patch_files": [
+"src/datastore/postgres/PgDataStore.ts",
+"changelog.d/1619.bugfix"
+],
+"earliest_patch_date": "2022-09-26 12:12:24+01:00",
+"earliest_vuln_date": "2019-11-28 12:22:13+00:00",
+"vuln_files": [
+"src/datastore/postgres/PgDataStore.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "LOW",
+"baseScore": 5.6,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 3.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-38690",
+"patch_date": [
+"2023-07-28 10:06:42+01:00"
+],
+"patch_files": [
+"spec/unit/pool-service/IrcClientRedisState.ts",
+"yarn.lock",
+"spec/e2e/powerlevels.spec.ts",
+".eslintrc",
+"changelog.d/1753.bugfix",
+"spec/integ/provisioning.spec.ts",
+"spec/e2e/pooling.spec.ts",
+"package.json",
+"src/irc/BridgedClient.ts"
+],
+"earliest_patch_date": "2023-07-28 10:06:42+01:00",
+"earliest_vuln_date": "2016-01-25 15:10:20+00:00",
+"vuln_files": [
+"yarn.lock",
+"spec/e2e/powerlevels.spec.ts",
+".eslintrc",
+"spec/integ/provisioning.spec.ts",
+"package.json",
+"src/irc/BridgedClient.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"package.json"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-38700",
+"patch_date": [
+"2023-07-31 09:40:04+01:00"
+],
+"patch_files": [
+"src/bridge/MatrixHandler.ts"
+],
+"earliest_patch_date": "2023-07-31 09:40:04+01:00",
+"earliest_vuln_date": "2019-10-22 14:40:50+01:00",
+"vuln_files": [
+"src/bridge/MatrixHandler.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 3.7,
+"baseSeverity": "LOW"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-39691",
+"patch_date": [
+"2024-05-21 10:16:52+01:00"
+],
+"patch_files": [
+"src/bridge/MatrixHandler.ts",
+"changelog.d/1804.misc"
+],
+"earliest_patch_date": "2024-05-21 10:16:52+01:00",
+"earliest_vuln_date": "2024-03-27 09:39:26+00:00",
+"vuln_files": [
+"src/bridge/MatrixHandler.ts"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/bridge/MatrixHandler.ts"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"src/bridge/MatrixHandler.ts"
+]
+}
+]

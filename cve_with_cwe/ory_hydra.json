@@ -1,0 +1,167 @@
+[
+{
+"cve_id": "CVE-2019-8400",
+"patch_date": [
+"2018-12-06 10:18:48+01:00"
+],
+"patch_files": [
+"go.mod",
+"oauth2/handler_fallback_endpoints.go",
+"go.sum",
+"main_test.go.bak"
+],
+"earliest_patch_date": "2018-12-06 10:18:48+01:00",
+"earliest_vuln_date": "2016-08-09 14:05:18+02:00",
+"vuln_files": [
+"go.mod",
+"oauth2/handler_fallback_endpoints.go",
+"main_test.go.bak"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-5300",
+"patch_date": [
+"2020-04-02 11:35:32+02:00"
+],
+"patch_files": [
+"oauth2/fosite_store_helpers.go",
+"oauth2/migrations/sql/cockroach/10.sql",
+"oauth2/migrations/sql/shared/11.sql",
+"oauth2/oauth2_auth_code_test.go",
+"oauth2/oauth2_refresh_token_test.go",
+"client/manager.go",
+"oauth2/x_fosite_migrations_test.go",
+"oauth2/migrations/sql/tests/11_test.sql",
+"oauth2/fosite_store_memory.go",
+"x/clean_sql.go",
+"driver/configuration/provider_viper_test.go",
+"go.mod",
+"go.sum",
+"oauth2/fosite_store_sql.go",
+"oauth2/migrations/sql/cockroach/11.sql",
+"oauth2/handler.go",
+"oauth2/sql_migration_files.go"
+],
+"earliest_patch_date": "2020-04-02 11:35:32+02:00",
+"earliest_vuln_date": "2016-05-29 11:50:57+02:00",
+"vuln_files": [
+"oauth2/oauth2_auth_code_test.go",
+"oauth2/oauth2_refresh_token_test.go",
+"client/manager.go",
+"oauth2/x_fosite_migrations_test.go",
+"oauth2/fosite_store_memory.go",
+"driver/configuration/provider_viper_test.go",
+"oauth2/fosite_store_sql.go",
+"go.mod",
+"oauth2/handler.go",
+"oauth2/sql_migration_files.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.6,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-294"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"go.mod",
+"go.sum"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

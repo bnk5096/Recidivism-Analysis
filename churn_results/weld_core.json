@@ -1,0 +1,1296 @@
+{
+ "base_commit": "8a297f72b939b738085764c3c69e72570b4b1aa3",
+ "commit_author": "manovotn@redhat.com",
+ "datetime": "2023-09-14 16:17:20+02:00",
+ "parent_commit": "30c053890e9945c881f84542b31aede87fcbd64c",
+ "metrics": [
+  {
+   "file_path": "modules/web/src/main/java/org/jboss/weld/module/web/logging/ServletLogger.java",
+   "lines_added": 1,
+   "lines_deleted": 1,
+   "total_lines_changed": 2
+  },
+  {
+   "file_path": "modules/web/src/main/java/org/jboss/weld/module/web/servlet/ConversationContextActivator.java",
+   "lines_added": 13,
+   "lines_deleted": 8,
+   "total_lines_changed": 21
+  },
+  {
+   "file_path": "modules/web/src/main/java/org/jboss/weld/module/web/servlet/HttpContextLifecycle.java",
+   "lines_added": 26,
+   "lines_deleted": 13,
+   "total_lines_changed": 39
+  },
+  {
+   "file_path": "tests-arquillian/src/test/java/org/jboss/weld/tests/contexts/cache/RequestScopedCacheLeakTest.java",
+   "lines_added": 7,
+   "lines_deleted": 4,
+   "total_lines_changed": 11
+  }
+ ],
+ "history": [
+  {
+   "commit_id": "eee420a15af8be3e184ac47d585525dbee7c774b",
+   "commit_author": "manovotn@redhat.com",
+   "datetime": "2022-06-08 13:56:57+02:00",
+   "parent_commit": "2199f121a18d310c0a273050c615638fa389e155",
+   "metrics": [
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/module/web/servlet/HttpContextLifecycle.java",
+     "lines_added": 2,
+     "lines_deleted": 2,
+     "total_lines_changed": 4
+    }
+   ]
+  },
+  {
+   "commit_id": "546b019292bcc7382311d24e43a08df63df60db7",
+   "commit_author": "manovotn@redhat.com",
+   "datetime": "2022-04-27 13:15:24+02:00",
+   "parent_commit": "42b2c618375528b8c85d81c1c90c890daedde362",
+   "metrics": [
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/module/web/servlet/HttpContextLifecycle.java",
+     "lines_added": 13,
+     "lines_deleted": 0,
+     "total_lines_changed": 13
+    }
+   ]
+  },
+  {
+   "commit_id": "febc8969470ba4d9157d6c5d6c40dbee4c19e036",
+   "commit_author": "manovotn@redhat.com",
+   "datetime": "2020-09-03 09:23:33+02:00",
+   "parent_commit": "9b3071fbc3ac818a65fe7579e8d65718aac1ffe1",
+   "metrics": [
+    {
+     "file_path": "tests-arquillian/src/test/java/org/jboss/weld/tests/contexts/cache/RequestScopedCacheLeakTest.java",
+     "lines_added": 1,
+     "lines_deleted": 1,
+     "total_lines_changed": 2
+    }
+   ]
+  },
+  {
+   "commit_id": "bc44534aab0a336a1dd05cda9c2876e3d8136713",
+   "commit_author": "manovotn@redhat.com",
+   "datetime": "2020-08-03 13:58:27+02:00",
+   "parent_commit": "2fe5d1f64c03b89cc562a14cda317098225590c7",
+   "metrics": [
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/module/web/logging/ServletLogger.java",
+     "lines_added": 4,
+     "lines_deleted": 0,
+     "total_lines_changed": 4
+    },
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/module/web/servlet/HttpContextLifecycle.java",
+     "lines_added": 6,
+     "lines_deleted": 0,
+     "total_lines_changed": 6
+    }
+   ]
+  },
+  {
+   "commit_id": "0338683d17f782d4f7ad533654b21f565c92b2e9",
+   "commit_author": "starksm64@gmail.com",
+   "datetime": "2020-04-23 10:04:49+02:00",
+   "parent_commit": "6c369e15b89d25ce33151f5f5db91c57e916c68a",
+   "metrics": [
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/module/web/servlet/ConversationContextActivator.java",
+     "lines_added": 5,
+     "lines_deleted": 5,
+     "total_lines_changed": 10
+    },
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/module/web/servlet/HttpContextLifecycle.java",
+     "lines_added": 11,
+     "lines_deleted": 11,
+     "total_lines_changed": 22
+    },
+    {
+     "file_path": "tests-arquillian/src/test/java/org/jboss/weld/tests/contexts/cache/ConversationScopedBean.java",
+     "lines_added": 1,
+     "lines_deleted": 1,
+     "total_lines_changed": 2
+    },
+    {
+     "file_path": "tests-arquillian/src/test/java/org/jboss/weld/tests/contexts/cache/SimpleServlet.java",
+     "lines_added": 6,
+     "lines_deleted": 6,
+     "total_lines_changed": 12
+    }
+   ]
+  },
+  {
+   "commit_id": "7552cedd29bee128eb7b609c64696bb5c998657a",
+   "commit_author": "manovotn@redhat.com",
+   "datetime": "2018-06-29 14:53:14+02:00",
+   "parent_commit": "2c6400841b4e1f2a6a0819d47a2a7544516e3469",
+   "metrics": [
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/module/web/servlet/ConversationContextActivator.java",
+     "lines_added": 8,
+     "lines_deleted": 8,
+     "total_lines_changed": 16
+    },
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/module/web/servlet/HttpContextLifecycle.java",
+     "lines_added": 12,
+     "lines_deleted": 12,
+     "total_lines_changed": 24
+    }
+   ]
+  },
+  {
+   "commit_id": "1ad3c7385e725229e3a8a917d448673b5b5e02a2",
+   "commit_author": "manovotn@redhat.com",
+   "datetime": "2018-02-07 14:14:24+01:00",
+   "parent_commit": "803e12e45c8c7dcd13f02763019fb688d2414a2e",
+   "metrics": [
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/module/web/servlet/ConversationContextActivator.java",
+     "lines_added": 8,
+     "lines_deleted": 8,
+     "total_lines_changed": 16
+    },
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/module/web/servlet/HttpContextLifecycle.java",
+     "lines_added": 12,
+     "lines_deleted": 12,
+     "total_lines_changed": 24
+    }
+   ]
+  },
+  {
+   "commit_id": "11a16d147dc81eea6df2e32999b32ac5290f1030",
+   "commit_author": "mkouba@redhat.com",
+   "datetime": "2017-06-09 09:59:09+02:00",
+   "parent_commit": "a79fcf22b22da3708a4a5bc35daa4f7a8dfc34ce",
+   "metrics": [
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/module/web/logging/ServletLogger.java",
+     "lines_added": 1,
+     "lines_deleted": 0,
+     "total_lines_changed": 1
+    }
+   ]
+  },
+  {
+   "commit_id": "a79fcf22b22da3708a4a5bc35daa4f7a8dfc34ce",
+   "commit_author": "manovotn@redhat.com",
+   "datetime": "2017-06-09 08:59:06+02:00",
+   "parent_commit": "c528f3c896f31ad8ca4267fba6ca6751883292e8",
+   "metrics": [
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/module/web/logging/ServletLogger.java",
+     "lines_added": 4,
+     "lines_deleted": 0,
+     "total_lines_changed": 4
+    },
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/module/web/servlet/HttpContextLifecycle.java",
+     "lines_added": 1,
+     "lines_deleted": 0,
+     "total_lines_changed": 1
+    }
+   ]
+  },
+  {
+   "commit_id": "f964ef8e4e74aa8eeff6bf089a6beb5cb0d97f92",
+   "commit_author": "mkouba@redhat.com",
+   "datetime": "2017-03-20 10:00:54+01:00",
+   "parent_commit": "57f4d34809bdaca1b33280aa3986a746f7dbfb62",
+   "metrics": [
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/module/web/servlet/HttpContextLifecycle.java",
+     "lines_added": 17,
+     "lines_deleted": 18,
+     "total_lines_changed": 35
+    }
+   ]
+  },
+  {
+   "commit_id": "dc5989d5e697393d793d34f91ef8b5fbf7750e09",
+   "commit_author": "mkouba@redhat.com",
+   "datetime": "2017-01-31 12:03:52+01:00",
+   "parent_commit": "9fd1babacea53231092c377456443a1167c882c0",
+   "metrics": [
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/module/web/logging/ServletLogger.java",
+     "lines_added": 11,
+     "lines_deleted": 0,
+     "total_lines_changed": 11
+    }
+   ]
+  },
+  {
+   "commit_id": "8a1dafa1acc7110eeaa6317f258d0d5654fa8056",
+   "commit_author": "manovotn@redhat.com",
+   "datetime": "2017-01-16 09:28:48+01:00",
+   "parent_commit": "8046634ec6017dfd8fc82b707f2894eb4b3936bf",
+   "metrics": [
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/logging/ServletLogger.java",
+     "lines_added": 0,
+     "lines_deleted": 82,
+     "total_lines_changed": 82
+    },
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/module/web/logging/ServletLogger.java",
+     "lines_added": 84,
+     "lines_deleted": 0,
+     "total_lines_changed": 84
+    },
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/module/web/servlet/ConversationContextActivator.java",
+     "lines_added": 253,
+     "lines_deleted": 0,
+     "total_lines_changed": 253
+    },
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/module/web/servlet/HttpContextLifecycle.java",
+     "lines_added": 398,
+     "lines_deleted": 0,
+     "total_lines_changed": 398
+    },
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/servlet/ConversationContextActivator.java",
+     "lines_added": 0,
+     "lines_deleted": 253,
+     "total_lines_changed": 253
+    },
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 0,
+     "lines_deleted": 398,
+     "total_lines_changed": 398
+    }
+   ]
+  },
+  {
+   "commit_id": "8046634ec6017dfd8fc82b707f2894eb4b3936bf",
+   "commit_author": "manovotn@redhat.com",
+   "datetime": "2017-01-16 09:28:48+01:00",
+   "parent_commit": "6e56cf00721d8ae783dcac9da9a95e1df7898b1c",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/context/cache/RequestScopedCache.java",
+     "lines_added": 0,
+     "lines_deleted": 103,
+     "total_lines_changed": 103
+    },
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/contexts/cache/RequestScopedCache.java",
+     "lines_added": 103,
+     "lines_deleted": 0,
+     "total_lines_changed": 103
+    },
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/servlet/ConversationContextActivator.java",
+     "lines_added": 2,
+     "lines_deleted": 2,
+     "total_lines_changed": 4
+    },
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 1,
+     "lines_deleted": 1,
+     "total_lines_changed": 2
+    },
+    {
+     "file_path": "tests-arquillian/src/test/java/org/jboss/weld/tests/contexts/cache/SimpleServlet.java",
+     "lines_added": 1,
+     "lines_deleted": 1,
+     "total_lines_changed": 2
+    }
+   ]
+  },
+  {
+   "commit_id": "79615fc4ac1f50ff3c01d03daaacb81167cb4aff",
+   "commit_author": "mkouba@redhat.com",
+   "datetime": "2017-01-09 14:42:47+01:00",
+   "parent_commit": "32b9ed3c2cac1d79eea5bed63e4ff1c481d6048d",
+   "metrics": [
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 1,
+     "lines_deleted": 1,
+     "total_lines_changed": 2
+    }
+   ]
+  },
+  {
+   "commit_id": "8b787b8209257fb0517e819d8055acab7c435bf5",
+   "commit_author": "manovotn@redhat.com",
+   "datetime": "2017-01-03 09:23:06+01:00",
+   "parent_commit": "35db73838227bd9f274ea9d127a53f48f80068fa",
+   "metrics": [
+    {
+     "file_path": "tests-arquillian/src/test/java/org/jboss/weld/tests/contexts/cache/RequestScopedCacheLeakTest.java",
+     "lines_added": 1,
+     "lines_deleted": 1,
+     "total_lines_changed": 2
+    }
+   ]
+  },
+  {
+   "commit_id": "767043d1e0bceb52647a95f6713318202cc66fbb",
+   "commit_author": "manovotn@redhat.com",
+   "datetime": "2016-12-14 09:40:17+01:00",
+   "parent_commit": "4be337dfc7f46312a95d82c14a1fb86aa38f01b0",
+   "metrics": [
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/servlet/ConversationContextActivator.java",
+     "lines_added": 13,
+     "lines_deleted": 5,
+     "total_lines_changed": 18
+    },
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 22,
+     "lines_deleted": 9,
+     "total_lines_changed": 31
+    }
+   ]
+  },
+  {
+   "commit_id": "8cff226ec82048578b04a553f0af29eae8e9431c",
+   "commit_author": "mkouba@redhat.com",
+   "datetime": "2016-01-05 12:10:33+01:00",
+   "parent_commit": "663537a35a0f00c083b25e9f32ebe9f0caa7ef47",
+   "metrics": [
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 10,
+     "lines_deleted": 7,
+     "total_lines_changed": 17
+    }
+   ]
+  },
+  {
+   "commit_id": "35d3e100fccda050c7bdcfbd5bb8a5533d2f184c",
+   "commit_author": "mkouba@redhat.com",
+   "datetime": "2015-11-26 15:03:00+01:00",
+   "parent_commit": "1cb4f62fd46874aa6b3f68aba4e332c19cae6a0e",
+   "metrics": [
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 1,
+     "lines_deleted": 1,
+     "total_lines_changed": 2
+    }
+   ]
+  },
+  {
+   "commit_id": "5db57dff8de670be4d2d1354683073360f6a9026",
+   "commit_author": "mkouba@redhat.com",
+   "datetime": "2015-11-12 09:50:31+01:00",
+   "parent_commit": "a69888cc7a873f439119e434f83f39caab3cbae1",
+   "metrics": [
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/servlet/ConversationContextActivator.java",
+     "lines_added": 9,
+     "lines_deleted": 9,
+     "total_lines_changed": 18
+    }
+   ]
+  },
+  {
+   "commit_id": "0dc56922d16a3f1c96ea8c76fada0a4e02ab3005",
+   "commit_author": "mkouba@redhat.com",
+   "datetime": "2015-11-12 09:50:31+01:00",
+   "parent_commit": "ba1ff6b05292164a1462ce024b806930e1617e69",
+   "metrics": [
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/servlet/ConversationContextActivator.java",
+     "lines_added": 40,
+     "lines_deleted": 0,
+     "total_lines_changed": 40
+    }
+   ]
+  },
+  {
+   "commit_id": "a0b4bb29f67be68ad48c388ca9a6519b99f886eb",
+   "commit_author": "tremes@redhat.com",
+   "datetime": "2015-10-26 09:08:40+01:00",
+   "parent_commit": "6fe78f05710fa97ba036e758f2d5a0466442d2f9",
+   "metrics": [
+    {
+     "file_path": "tests-arquillian/src/test/java/org/jboss/weld/tests/contexts/cache/RequestScopedCacheLeakTest.java",
+     "lines_added": 2,
+     "lines_deleted": 1,
+     "total_lines_changed": 3
+    }
+   ]
+  },
+  {
+   "commit_id": "911370f4c8ff5d0d68d1b50261271011c58d0d4e",
+   "commit_author": "darefyev@icicall.com",
+   "datetime": "2015-10-01 12:11:13+02:00",
+   "parent_commit": "ec87635e771e8fa8cce5284bd208c54f523382d2",
+   "metrics": [
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/servlet/ConversationContextActivator.java",
+     "lines_added": 1,
+     "lines_deleted": 1,
+     "total_lines_changed": 2
+    }
+   ]
+  },
+  {
+   "commit_id": "9bcdded580c2407e1191faccba12ab245dd0174f",
+   "commit_author": "mkouba@redhat.com",
+   "datetime": "2015-09-11 13:07:41+02:00",
+   "parent_commit": "f18a2f06a821d520b59b8e963f66d00c24db1346",
+   "metrics": [
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/servlet/ConversationContextActivator.java",
+     "lines_added": 2,
+     "lines_deleted": 4,
+     "total_lines_changed": 6
+    }
+   ]
+  },
+  {
+   "commit_id": "8f1fc5c2ca40e5589a224b10b1fb42f1468a3608",
+   "commit_author": "jharting@redhat.com",
+   "datetime": "2015-06-26 11:02:10+02:00",
+   "parent_commit": "0bbbddd6d105e1964e7d016afca04e56d0f6a53b",
+   "metrics": [
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 21,
+     "lines_deleted": 6,
+     "total_lines_changed": 27
+    }
+   ]
+  },
+  {
+   "commit_id": "4ea6c44ea5089ca153a5dd3bd8b7dea4575bbc0e",
+   "commit_author": "mkouba@redhat.com",
+   "datetime": "2015-06-05 10:46:03+02:00",
+   "parent_commit": "c956e7f08c40cf9ffe0a305070716be62bcd5392",
+   "metrics": [
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 11,
+     "lines_deleted": 16,
+     "total_lines_changed": 27
+    }
+   ]
+  },
+  {
+   "commit_id": "c956e7f08c40cf9ffe0a305070716be62bcd5392",
+   "commit_author": "mkouba@redhat.com",
+   "datetime": "2015-06-05 10:46:03+02:00",
+   "parent_commit": "9d0b1ca3fc94f5466f3d9429e6337f9eb8243e3b",
+   "metrics": [
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 3,
+     "lines_deleted": 2,
+     "total_lines_changed": 5
+    }
+   ]
+  },
+  {
+   "commit_id": "9d0b1ca3fc94f5466f3d9429e6337f9eb8243e3b",
+   "commit_author": "mkouba@redhat.com",
+   "datetime": "2015-06-05 10:46:03+02:00",
+   "parent_commit": "5dea18116859fbb7b016086c5a6dede57e147993",
+   "metrics": [
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 10,
+     "lines_deleted": 1,
+     "total_lines_changed": 11
+    }
+   ]
+  },
+  {
+   "commit_id": "2e6db9113176be2c57376b42bad450ea4f3bb365",
+   "commit_author": "jharting@redhat.com",
+   "datetime": "2015-03-04 09:52:37+01:00",
+   "parent_commit": "7205be1def74c9c2a9cb65dcc339a56e6ff26a91",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/logging/ServletLogger.java",
+     "lines_added": 0,
+     "lines_deleted": 82,
+     "total_lines_changed": 82
+    },
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/ConversationContextActivator.java",
+     "lines_added": 0,
+     "lines_deleted": 207,
+     "total_lines_changed": 207
+    },
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 0,
+     "lines_deleted": 362,
+     "total_lines_changed": 362
+    },
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/logging/ServletLogger.java",
+     "lines_added": 82,
+     "lines_deleted": 0,
+     "total_lines_changed": 82
+    },
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/servlet/ConversationContextActivator.java",
+     "lines_added": 207,
+     "lines_deleted": 0,
+     "total_lines_changed": 207
+    },
+    {
+     "file_path": "modules/web/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 362,
+     "lines_deleted": 0,
+     "total_lines_changed": 362
+    }
+   ]
+  },
+  {
+   "commit_id": "8e413202fa1af08c09c580f444e4fd16874f9c65",
+   "commit_author": "mkouba@redhat.com",
+   "datetime": "2014-12-04 11:24:22+01:00",
+   "parent_commit": "6808b11cd6d97c71a2eed754ed4f955acd789086",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/logging/ServletLogger.java",
+     "lines_added": 6,
+     "lines_deleted": 5,
+     "total_lines_changed": 11
+    },
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/ConversationContextActivator.java",
+     "lines_added": 25,
+     "lines_deleted": 20,
+     "total_lines_changed": 45
+    },
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 30,
+     "lines_deleted": 12,
+     "total_lines_changed": 42
+    }
+   ]
+  },
+  {
+   "commit_id": "6808b11cd6d97c71a2eed754ed4f955acd789086",
+   "commit_author": "jharting@redhat.com",
+   "datetime": "2014-12-04 11:17:00+01:00",
+   "parent_commit": "29fd1107fd30579ad9bb23fae4dc3ba464205745",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/context/cache/RequestScopedCache.java",
+     "lines_added": 3,
+     "lines_deleted": 1,
+     "total_lines_changed": 4
+    }
+   ]
+  },
+  {
+   "commit_id": "29fd1107fd30579ad9bb23fae4dc3ba464205745",
+   "commit_author": "jharting@redhat.com",
+   "datetime": "2014-12-04 11:16:55+01:00",
+   "parent_commit": "00bdcbaffe1c8bc75a0d25d8dddecff396eda1c4",
+   "metrics": [
+    {
+     "file_path": "tests-arquillian/src/test/java/org/jboss/weld/tests/contexts/cache/ConversationScopedBean.java",
+     "lines_added": 33,
+     "lines_deleted": 0,
+     "total_lines_changed": 33
+    },
+    {
+     "file_path": "tests-arquillian/src/test/java/org/jboss/weld/tests/contexts/cache/RequestScopedCacheLeakTest.java",
+     "lines_added": 80,
+     "lines_deleted": 0,
+     "total_lines_changed": 80
+    },
+    {
+     "file_path": "tests-arquillian/src/test/java/org/jboss/weld/tests/contexts/cache/SimpleServlet.java",
+     "lines_added": 55,
+     "lines_deleted": 0,
+     "total_lines_changed": 55
+    }
+   ]
+  },
+  {
+   "commit_id": "03911286a131a089de88e754122fffd90686d339",
+   "commit_author": "jharting@redhat.com",
+   "datetime": "2014-11-24 10:35:52+01:00",
+   "parent_commit": "4d4b1793246f6cfbd2382de96f2ff58e170a1bf0",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/context/cache/RequestScopedCache.java",
+     "lines_added": 10,
+     "lines_deleted": 3,
+     "total_lines_changed": 13
+    }
+   ]
+  },
+  {
+   "commit_id": "b42a418c52ac3f948df11f74c73adc2dbb186420",
+   "commit_author": "jharting@redhat.com",
+   "datetime": "2014-11-14 17:00:18+01:00",
+   "parent_commit": "e28266d1792cc3952d1e9d1688e00613a206f4a2",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/context/cache/RequestScopedCache.java",
+     "lines_added": 4,
+     "lines_deleted": 13,
+     "total_lines_changed": 17
+    }
+   ]
+  },
+  {
+   "commit_id": "e28266d1792cc3952d1e9d1688e00613a206f4a2",
+   "commit_author": "jharting@redhat.com",
+   "datetime": "2014-11-14 17:00:18+01:00",
+   "parent_commit": "e3c41d4c3604420ba63810d4168055537b154614",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/context/cache/RequestScopedBeanCache.java",
+     "lines_added": 0,
+     "lines_deleted": 84,
+     "total_lines_changed": 84
+    },
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/context/cache/RequestScopedCache.java",
+     "lines_added": 103,
+     "lines_deleted": 0,
+     "total_lines_changed": 103
+    },
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 2,
+     "lines_deleted": 2,
+     "total_lines_changed": 4
+    }
+   ]
+  },
+  {
+   "commit_id": "4aca2177b925d3030004a7e5f2e3c623ed7137f3",
+   "commit_author": "otaviojava@java.net",
+   "datetime": "2014-11-14 16:42:01+01:00",
+   "parent_commit": "b1e49f48cd82dc4de2c6b03764852fc8c418ae0c",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/context/cache/RequestScopedBeanCache.java",
+     "lines_added": 1,
+     "lines_deleted": 5,
+     "total_lines_changed": 6
+    },
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/ConversationContextActivator.java",
+     "lines_added": 1,
+     "lines_deleted": 1,
+     "total_lines_changed": 2
+    }
+   ]
+  },
+  {
+   "commit_id": "fe9bd3152a9382b933675fd7b834f6926c7e0589",
+   "commit_author": "mkouba@redhat.com",
+   "datetime": "2014-11-13 09:46:33+01:00",
+   "parent_commit": "a39d176c23e34704a597c81bac9e24d49d9b844f",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/logging/ServletLogger.java",
+     "lines_added": 0,
+     "lines_deleted": 49,
+     "total_lines_changed": 49
+    }
+   ]
+  },
+  {
+   "commit_id": "6161b1d5a00a88e952ce899b699c93a579b0365f",
+   "commit_author": "mkouba@redhat.com",
+   "datetime": "2014-11-05 08:46:21+01:00",
+   "parent_commit": "c90818dd83891d051df4aaee24a544d6da7ba184",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/ConversationContextActivator.java",
+     "lines_added": 6,
+     "lines_deleted": 1,
+     "total_lines_changed": 7
+    }
+   ]
+  },
+  {
+   "commit_id": "c90818dd83891d051df4aaee24a544d6da7ba184",
+   "commit_author": "mkouba@redhat.com",
+   "datetime": "2014-11-05 08:46:21+01:00",
+   "parent_commit": "c0d326b029dfd70e6221c2e19caa3ad430dc1f52",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/ConversationContextActivator.java",
+     "lines_added": 5,
+     "lines_deleted": 3,
+     "total_lines_changed": 8
+    }
+   ]
+  },
+  {
+   "commit_id": "41cd300e5313b0c0c887709325ac7c96c801ff16",
+   "commit_author": "tremes@redhat.com",
+   "datetime": "2014-10-01 13:48:08+02:00",
+   "parent_commit": "cd926a76c87d100d2c7cf466aa553f0c16a3e35b",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/logging/ServletLogger.java",
+     "lines_added": 4,
+     "lines_deleted": 0,
+     "total_lines_changed": 4
+    },
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 1,
+     "lines_deleted": 1,
+     "total_lines_changed": 2
+    }
+   ]
+  },
+  {
+   "commit_id": "acd783d6eec8dfc81966ac72fad322e7dd95dac7",
+   "commit_author": "jharting@redhat.com",
+   "datetime": "2014-05-13 16:16:08+02:00",
+   "parent_commit": "f30156a49f31a690b39c60d2ceea51fd0527c408",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 10,
+     "lines_deleted": 2,
+     "total_lines_changed": 12
+    }
+   ]
+  },
+  {
+   "commit_id": "3ae092964bac9b441154cd3345ff468e66a71bb8",
+   "commit_author": "jharting@redhat.com",
+   "datetime": "2014-04-17 13:44:10+02:00",
+   "parent_commit": "692ed2874ac740f088232c4fa702d08a5197d68c",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/logging/ServletLogger.java",
+     "lines_added": 8,
+     "lines_deleted": 0,
+     "total_lines_changed": 8
+    },
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 52,
+     "lines_deleted": 4,
+     "total_lines_changed": 56
+    }
+   ]
+  },
+  {
+   "commit_id": "ecad6700b86a42f893c822f2c94de23f69d8d8a4",
+   "commit_author": "jharting@redhat.com",
+   "datetime": "2014-03-24 11:33:57+01:00",
+   "parent_commit": "f6ab875738b1b029138709572e17968d8a5bc49e",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/logging/ServletLogger.java",
+     "lines_added": 4,
+     "lines_deleted": 0,
+     "total_lines_changed": 4
+    },
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 4,
+     "lines_deleted": 4,
+     "total_lines_changed": 8
+    }
+   ]
+  },
+  {
+   "commit_id": "467e2fb24eb9b92d8dec14e1ae7e2586a9c49026",
+   "commit_author": "jharting@redhat.com",
+   "datetime": "2014-01-07 12:25:38+01:00",
+   "parent_commit": "61096ec219fb2c677e23f52b3dc0b7c8e12fb96d",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/ConversationContextActivator.java",
+     "lines_added": 3,
+     "lines_deleted": 16,
+     "total_lines_changed": 19
+    }
+   ]
+  },
+  {
+   "commit_id": "c3179e839d2f031efac7545bfd259fa31a3bcdcb",
+   "commit_author": "jharting@redhat.com",
+   "datetime": "2013-12-19 13:02:02+01:00",
+   "parent_commit": "0e93092a7a9a085be699c9113b9d561dc2c2a91e",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/ConversationContextActivator.java",
+     "lines_added": 45,
+     "lines_deleted": 27,
+     "total_lines_changed": 72
+    },
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 2,
+     "lines_deleted": 2,
+     "total_lines_changed": 4
+    }
+   ]
+  },
+  {
+   "commit_id": "27a2f69423fff47c3c14c81c33a55f75410336bc",
+   "commit_author": "mkouba@redhat.com",
+   "datetime": "2013-12-02 14:58:18+01:00",
+   "parent_commit": "0e8ac3b156ed746c44aca9ee272ae885edf58294",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/logging/ServletLogger.java",
+     "lines_added": 7,
+     "lines_deleted": 0,
+     "total_lines_changed": 7
+    },
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/ConversationContextActivator.java",
+     "lines_added": 7,
+     "lines_deleted": 1,
+     "total_lines_changed": 8
+    },
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 10,
+     "lines_deleted": 1,
+     "total_lines_changed": 11
+    }
+   ]
+  },
+  {
+   "commit_id": "b233975a4afde3a95ecffdf8ac30f8be41efe0d0",
+   "commit_author": "jharting@redhat.com",
+   "datetime": "2013-09-26 15:04:32+02:00",
+   "parent_commit": "a52bc2b4509eb2122b01219666c631680b478dcd",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 11,
+     "lines_deleted": 24,
+     "total_lines_changed": 35
+    }
+   ]
+  },
+  {
+   "commit_id": "a52bc2b4509eb2122b01219666c631680b478dcd",
+   "commit_author": "mbriskar@redhat.com",
+   "datetime": "2013-09-26 15:04:32+02:00",
+   "parent_commit": "34ea2a4a0ba57f12685a75eb94281a8103c7bc8c",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 31,
+     "lines_deleted": 6,
+     "total_lines_changed": 37
+    }
+   ]
+  },
+  {
+   "commit_id": "34ea2a4a0ba57f12685a75eb94281a8103c7bc8c",
+   "commit_author": "mbriskar@redhat.com",
+   "datetime": "2013-09-26 15:04:32+02:00",
+   "parent_commit": "180c35440ee486d1f748dfb0b9d404aacf4b6106",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 11,
+     "lines_deleted": 2,
+     "total_lines_changed": 13
+    }
+   ]
+  },
+  {
+   "commit_id": "67f0e6b17f7a0926d89d74d5a0933d185f2bb2d3",
+   "commit_author": "jharting@redhat.com",
+   "datetime": "2013-09-23 09:01:37+02:00",
+   "parent_commit": "2254f9b8679fb5aca30747a7c85db8289818449b",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 10,
+     "lines_deleted": 1,
+     "total_lines_changed": 11
+    }
+   ]
+  },
+  {
+   "commit_id": "4eff689b9887b082716ad6b1087bd2da4f5bc5af",
+   "commit_author": "jharting@redhat.com",
+   "datetime": "2013-09-20 09:26:03+02:00",
+   "parent_commit": "28833cf605a28f82e15a30324820e78cedb2100c",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/ConversationContextActivator.java",
+     "lines_added": 8,
+     "lines_deleted": 2,
+     "total_lines_changed": 10
+    },
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 21,
+     "lines_deleted": 8,
+     "total_lines_changed": 29
+    }
+   ]
+  },
+  {
+   "commit_id": "2cc62ef5c7e1f9221898f10f6e1b6c9734ba9ddd",
+   "commit_author": "mkouba@redhat.com",
+   "datetime": "2013-09-13 14:07:30+02:00",
+   "parent_commit": "051d84951b68bbb923bc695127284b4e3e0873df",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 4,
+     "lines_deleted": 4,
+     "total_lines_changed": 8
+    }
+   ]
+  },
+  {
+   "commit_id": "3a3631573158d2c64d9cb59d982ae47575cca086",
+   "commit_author": "jharting@redhat.com",
+   "datetime": "2013-09-13 10:58:50+02:00",
+   "parent_commit": "0509f0663afa5dc1f86d6eb49acdc15463a4163b",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/logging/ServletLogger.java",
+     "lines_added": 4,
+     "lines_deleted": 0,
+     "total_lines_changed": 4
+    },
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 2,
+     "lines_deleted": 2,
+     "total_lines_changed": 4
+    }
+   ]
+  },
+  {
+   "commit_id": "088d293b9c6918b0449a698c6750bebcfffafde0",
+   "commit_author": "mkouba@redhat.com",
+   "datetime": "2013-09-05 14:51:03+02:00",
+   "parent_commit": "70a13e0098c6924d983ef74ae2c6f371f52a7076",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/logging/ServletLogger.java",
+     "lines_added": 103,
+     "lines_deleted": 0,
+     "total_lines_changed": 103
+    },
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/ConversationContextActivator.java",
+     "lines_added": 8,
+     "lines_deleted": 17,
+     "total_lines_changed": 25
+    },
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 4,
+     "lines_deleted": 9,
+     "total_lines_changed": 13
+    }
+   ]
+  },
+  {
+   "commit_id": "70a13e0098c6924d983ef74ae2c6f371f52a7076",
+   "commit_author": "jharting@redhat.com",
+   "datetime": "2013-09-05 14:35:33+02:00",
+   "parent_commit": "a5e01fae60ca17521c61b54eba682a07f9a862c7",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 9,
+     "lines_deleted": 0,
+     "total_lines_changed": 9
+    }
+   ]
+  },
+  {
+   "commit_id": "87aa37af4e7209774fb2dacbf8a492e30cf6032d",
+   "commit_author": "marko.luksa@gmail.com",
+   "datetime": "2013-09-05 00:08:37+02:00",
+   "parent_commit": "4e77feecbb0b183ed6fa7ff18ed0d99c6bd3d916",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/ConversationContextActivator.java",
+     "lines_added": 23,
+     "lines_deleted": 0,
+     "total_lines_changed": 23
+    },
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 2,
+     "lines_deleted": 0,
+     "total_lines_changed": 2
+    }
+   ]
+  },
+  {
+   "commit_id": "0033ad500dc0f4b12b155b33bdf913eb297a9984",
+   "commit_author": "marko.luksa@gmail.com",
+   "datetime": "2013-08-26 13:17:20+02:00",
+   "parent_commit": "7c88ba7eaeafe1aeb76d3e2cdca13f999fd4eae9",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 5,
+     "lines_deleted": 1,
+     "total_lines_changed": 6
+    }
+   ]
+  },
+  {
+   "commit_id": "29f7fc65cb383f552f7e704123465fc9a92979ef",
+   "commit_author": "marko.luksa@gmail.com",
+   "datetime": "2013-07-08 08:07:40+02:00",
+   "parent_commit": "83da5f188ae299c28ba4aac3329f4d32cd944021",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/ConversationContextActivator.java",
+     "lines_added": 2,
+     "lines_deleted": 2,
+     "total_lines_changed": 4
+    }
+   ]
+  },
+  {
+   "commit_id": "ca29dfee9cfdc0b239273056e76f5cb0386f0791",
+   "commit_author": "marko.luksa@gmail.com",
+   "datetime": "2013-07-08 08:07:40+02:00",
+   "parent_commit": "f016de9065d971e70093f52c0bc2fa15916aecef",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 18,
+     "lines_deleted": 0,
+     "total_lines_changed": 18
+    }
+   ]
+  },
+  {
+   "commit_id": "486d0b9b64b332896d0a325986f95b9172c87775",
+   "commit_author": "jharting@redhat.com",
+   "datetime": "2013-06-27 08:40:41+02:00",
+   "parent_commit": "c248f8c6acb51247b51a08940b80c8de82b1e3c9",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 17,
+     "lines_deleted": 2,
+     "total_lines_changed": 19
+    }
+   ]
+  },
+  {
+   "commit_id": "a4b40c04d14e1e403af4b26fb4ef8b310469c1c9",
+   "commit_author": "jharting@redhat.com",
+   "datetime": "2013-06-11 17:07:30+02:00",
+   "parent_commit": "807c12407c65d2b81d74907905c2a59994955311",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 17,
+     "lines_deleted": 0,
+     "total_lines_changed": 17
+    }
+   ]
+  },
+  {
+   "commit_id": "6145a9d8417565d22ed95f0de34bfbe673615538",
+   "commit_author": "jharting@redhat.com",
+   "datetime": "2013-05-28 16:16:39+02:00",
+   "parent_commit": "d0d1c069a0a873203c687a051e1b2f5bdd200f0c",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+     "lines_added": 176,
+     "lines_deleted": 0,
+     "total_lines_changed": 176
+    }
+   ]
+  },
+  {
+   "commit_id": "be2cc487e66328bb1738db5651b34165ee8a4a6d",
+   "commit_author": "jharting@redhat.com",
+   "datetime": "2013-05-13 15:32:54+02:00",
+   "parent_commit": "c1797c777a23179bce020fa2ffbbdc5b4cc0ca85",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/ConversationContextActivator.java",
+     "lines_added": 13,
+     "lines_deleted": 8,
+     "total_lines_changed": 21
+    }
+   ]
+  },
+  {
+   "commit_id": "a92df31bc727ff3c76b6460cf218a7554d95aa8b",
+   "commit_author": "maabaffy@redhat.com",
+   "datetime": "2013-04-25 13:33:59+02:00",
+   "parent_commit": "476501f12604bd08a816675e996640fe8d5e9fbf",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/context/cache/RequestScopedBeanCache.java",
+     "lines_added": 7,
+     "lines_deleted": 5,
+     "total_lines_changed": 12
+    }
+   ]
+  },
+  {
+   "commit_id": "476501f12604bd08a816675e996640fe8d5e9fbf",
+   "commit_author": "maabaffy@redhat.com",
+   "datetime": "2013-04-25 12:45:21+02:00",
+   "parent_commit": "6b932750f7e5f52670f6019d82c9f39f97f28e36",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/context/cache/RequestScopedBeanCache.java",
+     "lines_added": 3,
+     "lines_deleted": 0,
+     "total_lines_changed": 3
+    }
+   ]
+  },
+  {
+   "commit_id": "8216cb81a74366c2711a5e89ba6f70a2984afc2f",
+   "commit_author": "jharting@redhat.com",
+   "datetime": "2013-04-10 09:59:06+02:00",
+   "parent_commit": "36a74fc1d69667f970acf84eddd57ce36f2f2668",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/ConversationContextActivator.java",
+     "lines_added": 13,
+     "lines_deleted": 16,
+     "total_lines_changed": 29
+    }
+   ]
+  },
+  {
+   "commit_id": "f4a71c974678c00cb1df002ee5aa5b0be9b0d8f4",
+   "commit_author": "marko.luksa@gmail.com",
+   "datetime": "2013-03-28 16:24:05+01:00",
+   "parent_commit": "82d0921933eb0a70d887de9b694a0e750f8f0461",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/ConversationContextActivator.java",
+     "lines_added": 3,
+     "lines_deleted": 10,
+     "total_lines_changed": 13
+    }
+   ]
+  },
+  {
+   "commit_id": "80cfcbc062498bf262bc32e8e54285b9a2d4d62a",
+   "commit_author": "jharting@redhat.com",
+   "datetime": "2013-03-16 17:31:14+01:00",
+   "parent_commit": "6307aa1275c67d41ed161a75fd4fb5cd0a329e6b",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/ConversationContextActivator.java",
+     "lines_added": 1,
+     "lines_deleted": 0,
+     "total_lines_changed": 1
+    }
+   ]
+  },
+  {
+   "commit_id": "f749174692b4df66cd5675bac631c2bced638649",
+   "commit_author": "jharting@redhat.com",
+   "datetime": "2013-03-16 17:09:44+01:00",
+   "parent_commit": "b1615f249d1b18515592f7bb317b786a760adcb6",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/servlet/ConversationContextActivator.java",
+     "lines_added": 168,
+     "lines_deleted": 0,
+     "total_lines_changed": 168
+    }
+   ]
+  },
+  {
+   "commit_id": "13949ff8cdfb1523b09381bdae17832292d552a5",
+   "commit_author": "marko.luksa@gmail.com",
+   "datetime": "2013-01-15 20:56:30+01:00",
+   "parent_commit": "0bd9ae0c2fb8b698aadac160fe820c5ab2197591",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/context/cache/RequestScopedBeanCache.java",
+     "lines_added": 10,
+     "lines_deleted": 15,
+     "total_lines_changed": 25
+    }
+   ]
+  },
+  {
+   "commit_id": "b94107e57f2f0cc4c2e349af3cfa5b149428df6a",
+   "commit_author": "jharting@redhat.com",
+   "datetime": "2012-10-30 19:25:57+01:00",
+   "parent_commit": "9dce6ecbd9e5f54544c37667b5abecf035e003f1",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/context/cache/RequestScopedBeanCache.java",
+     "lines_added": 10,
+     "lines_deleted": 0,
+     "total_lines_changed": 10
+    }
+   ]
+  },
+  {
+   "commit_id": "472b728d9c7aeed4fcd66d57d16c79d53677e309",
+   "commit_author": "stuart.w.douglas@gmail.com",
+   "datetime": "2011-09-25 09:41:32+10:00",
+   "parent_commit": "1a60420bf795ef754494ce771d199f3bd525e5e3",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/context/cache/RequestScopedBeanCache.java",
+     "lines_added": 39,
+     "lines_deleted": 51,
+     "total_lines_changed": 90
+    }
+   ]
+  },
+  {
+   "commit_id": "1027ee7d02029cc8f21ec5af06a9a2fa580732bc",
+   "commit_author": "stuart.w.douglas@gmail.com",
+   "datetime": "2011-07-19 18:12:19+10:00",
+   "parent_commit": "07f42785fa7032159b7022ed5c3eed500f848fbe",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/context/cache/RequestScopedBeanCache.java",
+     "lines_added": 10,
+     "lines_deleted": 3,
+     "total_lines_changed": 13
+    }
+   ]
+  },
+  {
+   "commit_id": "07f42785fa7032159b7022ed5c3eed500f848fbe",
+   "commit_author": "stuart.w.douglas@gmail.com",
+   "datetime": "2011-07-19 09:57:58+10:00",
+   "parent_commit": "d1eea5d7df6a01c0863c67db7b1394143e5fb63d",
+   "metrics": [
+    {
+     "file_path": "impl/src/main/java/org/jboss/weld/context/cache/RequestScopedBeanCache.java",
+     "lines_added": 83,
+     "lines_deleted": 0,
+     "total_lines_changed": 83
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1075 @@
+[
+{
+"cve_id": "CVE-2014-3772",
+"patch_date": [
+"2014-04-18 11:55:28+02:00"
+],
+"patch_files": [
+"sources/datatable/datatable.item_edition.php",
+"changelog.md",
+"includes/include.php",
+"sources/items.queries.php",
+"folders.php",
+"items.load.php",
+"includes/libraries/Database/Core/DbCore.php",
+"admin.php",
+"views_database.php",
+"includes/images/ajax-loader_old.gif",
+"sources/categories.queries.php",
+"sources/export.queries.php",
+"views_logs.php",
+"sources/checks.php",
+"sources/datatable/datatable.logs.php",
+"sources/kb.queries.php",
+"sources/find.queries.php",
+"includes/images/ajax-loader.gif",
+"sources/roles.queries.php",
+"sources/views.queries.php",
+"sources/upload/upload.attachments.php",
+"items.php",
+"includes/images/phone_add.png",
+"sources/logs.queries.php",
+"patch.php",
+"sources/core.php",
+"sources/main.functions.php",
+"includes/images/ui-toolbar-bookmark.png",
+"views.php",
+"users.php",
+"admin.settings.php",
+"find.php",
+"error.php",
+"sources/datatable/datatable.users_logged.php",
+"kb.php",
+"sources/upload/upload.files.php",
+"sources/users.queries.php",
+"datatable.logs.php",
+"sources/favourites.queries.php",
+"sources/datatable/datatable.kb.php",
+"includes/settings.php",
+"roles.php",
+"sources/import.queries.php",
+"includes/images/phone.png",
+"load.php",
+"includes/images/phone_sound.png",
+"admin.settings_categories.php",
+"sources/folders.queries.php",
+"includes/libraries/Authentication/GoogleAuthenticator/GoogleAuthenticator.php",
+"sources/main.queries.php",
+"home.php",
+"index.php",
+"includes/language/english.php",
+"sources/admin.queries.php",
+"users.load.php"
+],
+"earliest_patch_date": "2014-04-18 11:55:28+02:00",
+"earliest_vuln_date": "2011-12-30 20:38:59+01:00",
+"vuln_files": [
+"sources/datatable/datatable.item_edition.php",
+"includes/include.php",
+"sources/items.queries.php",
+"includes/language/english.php",
+"folders.php",
+"items.load.php",
+"includes/libraries/Database/Core/DbCore.php",
+"admin.php",
+"views_database.php",
+"sources/categories.queries.php",
+"views_logs.php",
+"sources/export.queries.php",
+"sources/datatable/datatable.logs.php",
+"sources/kb.queries.php",
+"sources/find.queries.php",
+"sources/roles.queries.php",
+"sources/views.queries.php",
+"sources/upload/upload.attachments.php",
+"items.php",
+"sources/logs.queries.php",
+"sources/main.functions.php",
+"sources/core.php",
+"patch.php",
+"views.php",
+"users.php",
+"admin.settings.php",
+"find.php",
+"sources/users.queries.php",
+"sources/datatable/datatable.users_logged.php",
+"kb.php",
+"sources/upload/upload.files.php",
+"datatable.logs.php",
+"sources/favourites.queries.php",
+"sources/datatable/datatable.kb.php",
+"roles.php",
+"sources/import.queries.php",
+"includes/settings.php",
+"load.php",
+"admin.settings_categories.php",
+"sources/folders.queries.php",
+"includes/libraries/Authentication/GoogleAuthenticator/GoogleAuthenticator.php",
+"home.php",
+"sources/admin.queries.php",
+"sources/main.queries.php",
+"index.php",
+"users.load.php"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-264"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2014-3773",
+"patch_date": [
+"2014-05-03 08:06:26+02:00",
+"2014-04-18 11:55:28+02:00"
+],
+"patch_files": [
+"api/functions.php",
+"api/index.php",
+"includes/include.php",
+"sources/datatable/datatable.item_edition.php",
+"sources/items.queries.php",
+"changelog.md",
+"folders.php",
+"items.load.php",
+"includes/libraries/Database/Core/DbCore.php",
+"admin.php",
+"views_database.php",
+"includes/images/ajax-loader_old.gif",
+"sources/categories.queries.php",
+"sources/export.queries.php",
+"views_logs.php",
+"sources/datatable/datatable.logs.php",
+"sources/checks.php",
+"sources/kb.queries.php",
+"sources/find.queries.php",
+"includes/images/ajax-loader.gif",
+"sources/roles.queries.php",
+"sources/views.queries.php",
+"sources/upload/upload.attachments.php",
+"items.php",
+"includes/images/phone_add.png",
+"sources/logs.queries.php",
+"patch.php",
+"sources/core.php",
+"sources/main.functions.php",
+"api/config.php",
+"includes/images/ui-toolbar-bookmark.png",
+"views.php",
+"users.php",
+"admin.settings.php",
+"sources/datatable/datatable.users_logged.php",
+"sources/users.queries.php",
+"error.php",
+"find.php",
+"kb.php",
+"sources/upload/upload.files.php",
+"datatable.logs.php",
+"sources/favourites.queries.php",
+"sources/datatable/datatable.kb.php",
+"includes/settings.php",
+"roles.php",
+"sources/import.queries.php",
+"otv.php",
+"includes/images/phone.png",
+"load.php",
+"includes/images/phone_sound.png",
+"admin.settings_categories.php",
+"sources/folders.queries.php",
+"includes/libraries/Authentication/GoogleAuthenticator/GoogleAuthenticator.php",
+"sources/main.queries.php",
+"sources/admin.queries.php",
+"home.php",
+"includes/language/english.php",
+"admin.settings_api.php",
+"index.php",
+"users.load.php"
+],
+"earliest_patch_date": "2014-04-18 11:55:28+02:00",
+"earliest_vuln_date": "2011-12-30 20:38:59+01:00",
+"vuln_files": [
+"api/config.php",
+"sources/datatable/datatable.kb.php",
+"sources/datatable/datatable.logs.php",
+"api/functions.php",
+"api/index.php",
+"includes/include.php",
+"sources/datatable/datatable.item_edition.php",
+"sources/users.queries.php",
+"sources/datatable/datatable.users_logged.php",
+"sources/items.queries.php",
+"admin.php",
+"items.php",
+"admin.settings_api.php",
+"admin.settings.php",
+"find.php",
+"folders.php",
+"home.php",
+"roles.php",
+"sources/admin.queries.php",
+"sources/core.php",
+"sources/favourites.queries.php",
+"sources/find.queries.php",
+"sources/folders.queries.php",
+"sources/import.queries.php",
+"sources/kb.queries.php",
+"sources/main.functions.php",
+"sources/main.queries.php",
+"sources/roles.queries.php",
+"sources/views.queries.php",
+"users.php",
+"views.php",
+"admin.settings_categories.php",
+"sources/categories.queries.php",
+"datatable.logs.php",
+"views_logs.php",
+"index.php",
+"items.load.php",
+"load.php",
+"users.load.php",
+"sources/logs.queries.php",
+"includes/language/english.php",
+"includes/settings.php",
+"includes/libraries/Authentication/GoogleAuthenticator/GoogleAuthenticator.php",
+"includes/libraries/Database/Core/DbCore.php",
+"kb.php",
+"views_database.php",
+"patch.php",
+"sources/export.queries.php",
+"sources/upload/upload.attachments.php",
+"sources/upload/upload.files.php"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-89"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"includes/include.php",
+"sources/datatable/datatable.item_edition.php",
+"sources/items.queries.php",
+"changelog.md",
+"folders.php",
+"items.load.php",
+"includes/libraries/Database/Core/DbCore.php",
+"admin.php",
+"views_database.php",
+"includes/images/ajax-loader_old.gif",
+"sources/categories.queries.php",
+"sources/export.queries.php",
+"views_logs.php",
+"sources/datatable/datatable.logs.php",
+"sources/checks.php",
+"sources/kb.queries.php",
+"sources/find.queries.php",
+"includes/images/ajax-loader.gif",
+"sources/roles.queries.php",
+"sources/views.queries.php",
+"sources/upload/upload.attachments.php",
+"items.php",
+"includes/images/phone_add.png",
+"sources/logs.queries.php",
+"patch.php",
+"sources/core.php",
+"sources/main.functions.php",
+"includes/images/ui-toolbar-bookmark.png",
+"views.php",
+"users.php",
+"admin.settings.php",
+"sources/datatable/datatable.users_logged.php",
+"sources/users.queries.php",
+"error.php",
+"find.php",
+"kb.php",
+"sources/upload/upload.files.php",
+"datatable.logs.php",
+"sources/favourites.queries.php",
+"sources/datatable/datatable.kb.php",
+"includes/settings.php",
+"roles.php",
+"sources/import.queries.php",
+"includes/images/phone.png",
+"load.php",
+"includes/images/phone_sound.png",
+"admin.settings_categories.php",
+"sources/folders.queries.php",
+"includes/libraries/Authentication/GoogleAuthenticator/GoogleAuthenticator.php",
+"sources/main.queries.php",
+"sources/admin.queries.php",
+"home.php",
+"includes/language/english.php",
+"index.php",
+"users.load.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2014-3771",
+"patch_date": [
+"2014-04-26 11:52:49+02:00"
+],
+"patch_files": [
+"includes/images/globe-share.png",
+"sources/find.queries.php",
+"changelog.md",
+"includes/include.php",
+"otv.php",
+"sources/items.queries.php",
+"items.load.php",
+"index.php",
+"items.php",
+"includes/language/english.php"
+],
+"earliest_patch_date": "2014-04-26 11:52:49+02:00",
+"earliest_vuln_date": "2011-12-30 20:38:59+01:00",
+"vuln_files": [
+"sources/find.queries.php",
+"sources/items.queries.php",
+"items.load.php",
+"items.php",
+"index.php"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-264"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-264"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"sources/find.queries.php",
+"changelog.md",
+"includes/include.php",
+"otv.php",
+"sources/items.queries.php",
+"items.load.php",
+"index.php",
+"items.php",
+"includes/language/english.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2014-3774",
+"patch_date": [
+"2014-05-03 08:06:26+02:00",
+"2014-04-26 11:52:49+02:00"
+],
+"patch_files": [
+"includes/images/globe-share.png",
+"api/functions.php",
+"api/index.php",
+"includes/include.php",
+"sources/datatable/datatable.item_edition.php",
+"sources/items.queries.php",
+"changelog.md",
+"items.load.php",
+"admin.php",
+"sources/datatable/datatable.logs.php",
+"sources/find.queries.php",
+"items.php",
+"api/config.php",
+"sources/datatable/datatable.users_logged.php",
+"sources/users.queries.php",
+"sources/datatable/datatable.kb.php",
+"otv.php",
+"sources/admin.queries.php",
+"index.php",
+"includes/language/english.php",
+"admin.settings_api.php"
+],
+"earliest_patch_date": "2014-04-26 11:52:49+02:00",
+"earliest_vuln_date": "2011-12-30 20:38:59+01:00",
+"vuln_files": [
+"api/config.php",
+"sources/datatable/datatable.kb.php",
+"sources/datatable/datatable.logs.php",
+"api/functions.php",
+"api/index.php",
+"includes/include.php",
+"sources/datatable/datatable.item_edition.php",
+"sources/users.queries.php",
+"sources/datatable/datatable.users_logged.php",
+"sources/items.queries.php",
+"admin.php",
+"items.php",
+"admin.settings_api.php",
+"index.php",
+"sources/find.queries.php",
+"items.load.php"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"includes/images/globe-share.png",
+"api/functions.php",
+"api/index.php",
+"includes/include.php",
+"sources/datatable/datatable.item_edition.php",
+"sources/items.queries.php",
+"changelog.md",
+"items.load.php",
+"admin.php",
+"sources/datatable/datatable.logs.php",
+"sources/find.queries.php",
+"items.php",
+"api/config.php",
+"sources/datatable/datatable.users_logged.php",
+"sources/users.queries.php",
+"sources/datatable/datatable.kb.php",
+"otv.php",
+"sources/admin.queries.php",
+"index.php",
+"includes/language/english.php",
+"admin.settings_api.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2017-15051",
+"patch_date": [
+"2017-09-30 13:07:36+02:00"
+],
+"patch_files": [
+"sources/items.queries.php",
+"items.load.php",
+"index.php",
+"sources/main.functions.php",
+"sources/core.php"
+],
+"earliest_patch_date": "2017-09-30 13:07:36+02:00",
+"earliest_vuln_date": "2011-12-30 20:38:59+01:00",
+"vuln_files": [
+"sources/items.queries.php",
+"items.load.php",
+"index.php",
+"sources/main.functions.php",
+"sources/core.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"sources/items.queries.php",
+"items.load.php",
+"index.php",
+"sources/main.functions.php",
+"sources/core.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2017-15055",
+"patch_date": [
+"2017-09-30 13:07:36+02:00"
+],
+"patch_files": [
+"sources/items.queries.php",
+"items.load.php",
+"index.php",
+"sources/main.functions.php",
+"sources/core.php"
+],
+"earliest_patch_date": "2017-09-30 13:07:36+02:00",
+"earliest_vuln_date": "2011-12-30 20:38:59+01:00",
+"vuln_files": [
+"sources/items.queries.php",
+"items.load.php",
+"index.php",
+"sources/main.functions.php",
+"sources/core.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.2
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-269"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"sources/items.queries.php",
+"items.load.php",
+"index.php",
+"sources/main.functions.php",
+"sources/core.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2017-15052",
+"patch_date": [
+"2017-09-30 16:56:00+02:00"
+],
+"patch_files": [
+"sources/users.queries.php",
+"users.load.php"
+],
+"earliest_patch_date": "2017-09-30 16:56:00+02:00",
+"earliest_vuln_date": "2011-12-30 20:38:59+01:00",
+"vuln_files": [
+"sources/users.queries.php",
+"users.load.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 4.9,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-269"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-269"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"sources/users.queries.php",
+"users.load.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2017-15054",
+"patch_date": [
+"2017-10-02 21:27:30+02:00"
+],
+"patch_files": [
+"items.import.php",
+"admin.settings.load.php",
+"api/functions.php",
+"sources/import.queries.php",
+"changelog.md",
+"admin.settings.php",
+"profile.php",
+"sources/items.queries.php",
+"sources/upload/upload.files.php",
+"items.load.php",
+"items.php",
+"sources/admin.queries.php",
+"sources/main.functions.php"
+],
+"earliest_patch_date": "2017-10-02 21:27:30+02:00",
+"earliest_vuln_date": "2011-12-30 20:38:59+01:00",
+"vuln_files": [
+"items.import.php",
+"admin.settings.load.php",
+"api/functions.php",
+"sources/import.queries.php",
+"admin.settings.php",
+"sources/upload/upload.files.php",
+"profile.php",
+"sources/items.queries.php",
+"items.load.php",
+"items.php",
+"sources/admin.queries.php",
+"sources/main.functions.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.6,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-434"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"api/functions.php",
+"sources/import.queries.php",
+"changelog.md",
+"admin.settings.php",
+"sources/items.queries.php",
+"sources/upload/upload.files.php",
+"items.load.php",
+"items.php",
+"sources/admin.queries.php",
+"sources/main.functions.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2017-15053",
+"patch_date": [
+"2017-10-04 19:14:32+02:00"
+],
+"patch_files": [
+"install/upgrade_run_2.1.27.php",
+"roles.php",
+"sources/import.queries.php",
+"includes/css/passman.css",
+"changelog.md",
+"sources/roles.queries.php",
+"items.load.php",
+"install/install.queries.php",
+"roles.load.php",
+"index.php",
+"items.php"
+],
+"earliest_patch_date": "2017-10-04 19:14:32+02:00",
+"earliest_vuln_date": "2011-12-30 20:38:59+01:00",
+"vuln_files": [
+"install/upgrade_run_2.1.27.php",
+"roles.php",
+"sources/roles.queries.php",
+"includes/css/passman.css",
+"items.load.php",
+"install/install.queries.php",
+"roles.load.php",
+"index.php",
+"items.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 4.9,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-269"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-269"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"roles.php",
+"sources/import.queries.php",
+"changelog.md",
+"sources/roles.queries.php",
+"items.load.php",
+"index.php",
+"items.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2017-15278",
+"patch_date": [
+"2017-10-11 20:16:04+02:00"
+],
+"patch_files": [
+"includes/language/hungarian.php",
+"changelog.md",
+"sources/items.queries.php",
+"profile.php",
+"includes/language/japanese.php",
+"folders.php",
+"items.load.php",
+"includes/language/norwegian.php",
+"includes/language/swedish.php",
+"includes/language/polish.php",
+"includes/language/german.php",
+"includes/language/arabic.php",
+"sources/main.functions.php",
+"includes/language/catalan.php",
+"includes/language/romanian.php",
+"includes/language/vietnamese.php",
+"includes/language/turkish.php",
+"includes/language/italian.php",
+"includes/language/czech.php",
+"folders.load.php",
+"includes/language/ukrainian.php",
+"includes/language/chinese.php",
+"includes/language/russian.php",
+"includes/language/bulgarian.php",
+"includes/language/portuguese.php",
+"includes/language/french.php",
+"includes/language/estonian.php",
+"includes/language/dutch.php",
+"includes/language/spanish.php",
+"sources/folders.queries.php",
+"includes/language/english.php",
+"includes/language/portuguese_br.php",
+"includes/language/greek.php"
+],
+"earliest_patch_date": "2017-10-11 20:16:04+02:00",
+"earliest_vuln_date": "2011-12-30 20:38:59+01:00",
+"vuln_files": [
+"sources/items.queries.php",
+"folders.php",
+"folders.load.php",
+"items.load.php",
+"sources/folders.queries.php",
+"includes/language/english.php",
+"sources/main.functions.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"changelog.md",
+"sources/items.queries.php",
+"profile.php",
+"folders.php",
+"items.load.php",
+"sources/main.functions.php",
+"sources/folders.queries.php",
+"includes/language/english.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

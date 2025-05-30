@@ -1,0 +1,287 @@
+[
+{
+"cve_id": "CVE-2010-5327",
+"patch_date": [
+"2012-06-14 16:56:38-07:00"
+],
+"patch_files": [
+"portal-impl/src/com/liferay/portal/deploy/hot/HotDeployImpl.java",
+"portal-impl/src/com/liferay/portal/velocity/VelocityManager.java",
+"portal-impl/src/com/liferay/portal/velocity/VelocityTemplateContextHelper.java",
+"portal-service/src/com/liferay/portal/kernel/template/TemplateManager.java",
+"portal-impl/src/com/liferay/portal/freemarker/PACLFreeMarkerTemplate.java",
+"portal-impl/src/com/liferay/portal/freemarker/FreeMarkerManager.java",
+"portal-impl/src/com/liferay/portal/freemarker/FreeMarkerTemplateContextHelper.java",
+"portal-service/src/com/liferay/portal/kernel/template/TemplateManagerUtil.java",
+"portal-impl/src/com/liferay/portal/template/TemplateContextHelper.java",
+"portal-impl/src/com/liferay/portal/freemarker/LiferayTemplateClassResolver.java",
+"portal-service/src/com/liferay/portal/kernel/util/PropsKeys.java",
+"portal-impl/src/com/liferay/portal/velocity/LiferayMethodExceptionEventHandler.java",
+"portal-impl/src/com/liferay/portal/freemarker/LiferayObjectConstructor.java",
+"portal-impl/src/com/liferay/portal/util/PropsValues.java",
+"portal-impl/src/com/liferay/portal/velocity/PACLVelocityTemplate.java",
+"portal-impl/src/portal.properties"
+],
+"earliest_patch_date": "2012-06-14 16:56:38-07:00",
+"earliest_vuln_date": "2012-04-18 09:30:56+08:00",
+"vuln_files": [
+"portal-impl/src/com/liferay/portal/deploy/hot/HotDeployImpl.java",
+"portal-impl/src/com/liferay/portal/velocity/VelocityManager.java",
+"portal-impl/src/com/liferay/portal/velocity/VelocityTemplateContextHelper.java",
+"portal-impl/src/com/liferay/portal/freemarker/FreeMarkerManager.java",
+"portal-impl/src/com/liferay/portal/freemarker/FreeMarkerTemplateContextHelper.java",
+"portal-impl/src/com/liferay/portal/template/TemplateContextHelper.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-264"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2016-10404",
+"patch_date": [
+"2016-10-04 08:56:06-07:00"
+],
+"patch_files": [
+"modules/apps/foundation/frontend-js/frontend-js-spa-web/src/main/resources/META-INF/resources/init.jsp"
+],
+"earliest_patch_date": "2016-10-04 08:56:06-07:00",
+"earliest_vuln_date": "2016-04-28 20:25:43-07:00",
+"vuln_files": [
+"modules/apps/foundation/frontend-js/frontend-js-spa-web/src/main/resources/META-INF/resources/init.jsp"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2017-1000425",
+"patch_date": [
+"2017-06-13 21:41:05-07:00"
+],
+"patch_files": [
+"portal-web/docroot/html/portal/flash.jsp"
+],
+"earliest_patch_date": "2017-06-13 21:41:05-07:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-16147",
+"patch_date": [
+"2019-09-03 11:35:51-07:00"
+],
+"patch_files": [
+"modules/apps/journal/journal-taglib/src/main/resources/META-INF/resources/journal_article/page.jsp"
+],
+"earliest_patch_date": "2019-09-03 11:35:51-07:00",
+"earliest_vuln_date": "2016-11-23 06:49:45-08:00",
+"vuln_files": [
+"modules/apps/journal/journal-taglib/src/main/resources/META-INF/resources/journal_article/page.jsp"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": true,
+"intro_duplicated_types": [
+"CWE-79"
+],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

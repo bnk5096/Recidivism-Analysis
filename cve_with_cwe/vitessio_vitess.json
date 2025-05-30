@@ -1,0 +1,137 @@
+[
+{
+"cve_id": "CVE-2023-29194",
+"patch_date": [
+"2023-03-30 16:23:02+02:00"
+],
+"patch_files": [
+"go/vt/vtorc/inst/keyspace_dao.go",
+"go/vt/topo/topotests/keyspace_test.go",
+"changelog/16.0/16.0.1/summary.md",
+"go/vt/topo/keyspace.go"
+],
+"earliest_patch_date": "2023-03-30 16:23:02+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "LOW",
+"baseScore": 2.7,
+"baseSeverity": "LOW"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-29195",
+"patch_date": [
+"2023-04-12 15:32:57-07:00"
+],
+"patch_files": [
+"go/vt/topo/shard.go",
+"go/vt/topo/shard_test.go",
+"changelog/16.0/16.0.2/summary.md"
+],
+"earliest_patch_date": "2023-04-12 15:32:57-07:00",
+"earliest_vuln_date": "2021-01-01 13:29:32-05:00",
+"vuln_files": [
+"go/vt/topo/shard_test.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "LOW",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"NVD-CWE-noinfo"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-32886",
+"patch_date": [
+"2024-05-08 12:21:33+02:00",
+"2024-05-08 12:21:33+02:00",
+"2024-05-08 12:21:33+02:00",
+"2024-05-08 12:21:33+02:00"
+],
+"patch_files": [
+"go/vt/vtgate/evalengine/compiler_asm.go",
+"go/mysql/collations/charset/unicode/utf16.go",
+"go/mysql/collations/charset/unicode/utf32.go",
+"go/mysql/collations/charset/helpers.go",
+"go/mysql/collations/charset/convert.go",
+"go/vt/vtgate/evalengine/compiler_test.go",
+"go/vt/vtgate/evalengine/translate.go",
+"go/vt/vtgate/evalengine/expr_collate.go"
+],
+"earliest_patch_date": "2024-05-08 12:21:33+02:00",
+"earliest_vuln_date": "2021-10-28 12:08:36+02:00",
+"vuln_files": [
+"go/vt/vtgate/evalengine/compiler_asm.go",
+"go/mysql/collations/charset/unicode/utf16.go",
+"go/mysql/collations/charset/unicode/utf32.go",
+"go/mysql/collations/charset/convert.go",
+"go/mysql/collations/charset/helpers.go",
+"go/vt/vtgate/evalengine/translate.go",
+"go/vt/vtgate/evalengine/expr_collate.go"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

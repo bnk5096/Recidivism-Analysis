@@ -1,0 +1,179 @@
+[
+{
+"cve_id": "CVE-2022-24813",
+"patch_date": [
+"2022-04-02 19:18:41+01:00"
+],
+"patch_files": [
+"includes/RequestWiki/RequestWikiRequestViewer.php"
+],
+"earliest_patch_date": "2022-04-02 19:18:41+01:00",
+"earliest_vuln_date": "2020-09-21 23:05:30+01:00",
+"vuln_files": [
+"includes/RequestWiki/RequestWikiRequestViewer.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-287"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-29898",
+"patch_date": [
+"2024-03-27 21:50:50+01:00"
+],
+"patch_files": [
+"includes/RequestWiki/Handler/RestWikiRequest.php",
+"includes/RequestWiki/RequestWikiRequestViewer.php"
+],
+"earliest_patch_date": "2024-03-27 21:50:50+01:00",
+"earliest_vuln_date": "2024-03-27 20:26:56+01:00",
+"vuln_files": [
+"includes/RequestWiki/Handler/RestWikiRequest.php",
+"includes/RequestWiki/RequestWikiRequestViewer.php"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"includes/RequestWiki/RequestWikiRequestViewer.php"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"includes/RequestWiki/RequestWikiRequestViewer.php"
+]
+},
+{
+"cve_id": "CVE-2024-34701",
+"patch_date": [
+"2024-05-03 19:10:34+02:00"
+],
+"patch_files": [
+"includes/RestUtils.php",
+"includes/RequestWiki/SpecialRequestWiki.php",
+"includes/RequestWiki/Handler/RestWikiRequest.php",
+"includes/RequestWiki/Handler/RestWikiRequestsByUser.php",
+"includes/CreateWiki/SpecialCreateWiki.php",
+"includes/RequestWiki/SpecialRequestWikiQueue.php",
+"includes/EntryPointUtils.php",
+"tests/phpunit/SpecialRequestWikiTest.php"
+],
+"earliest_patch_date": "2024-05-03 19:10:34+02:00",
+"earliest_vuln_date": "2024-05-01 20:02:43+02:00",
+"vuln_files": [
+"includes/RequestWiki/Handler/RestWikiRequestsByUser.php",
+"includes/RequestWiki/Handler/RestWikiRequest.php"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"includes/RequestWiki/Handler/RestWikiRequest.php"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"includes/RequestWiki/Handler/RestWikiRequest.php"
+]
+},
+{
+"cve_id": "CVE-2024-47781",
+"patch_date": [
+"2024-10-07 13:17:19+08:00"
+],
+"patch_files": [
+"includes/RequestWiki/RequestWikiQueuePager.php"
+],
+"earliest_patch_date": "2024-10-07 13:17:19+08:00",
+"earliest_vuln_date": "2018-11-08 01:46:30+00:00",
+"vuln_files": [
+"includes/RequestWiki/RequestWikiQueuePager.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

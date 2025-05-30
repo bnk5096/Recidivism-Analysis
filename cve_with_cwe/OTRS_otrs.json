@@ -1,0 +1,324 @@
+[
+{
+"cve_id": "CVE-2014-1694",
+"patch_date": [
+"2013-12-20 15:10:27+01:00",
+"2013-12-20 15:14:00+01:00",
+"2013-12-20 15:05:06+01:00"
+],
+"patch_files": [
+"Kernel/Output/HTML/Layout.pm",
+"Kernel/Modules/CustomerTicketMessage.pm",
+"Kernel/Modules/CustomerTicketProcess.pm",
+"Kernel/Modules/CustomerTicketZoom.pm",
+"CHANGES",
+"Kernel/Modules/CustomerPreferences.pm",
+"CHANGES.md"
+],
+"earliest_patch_date": "2013-12-20 15:05:06+01:00",
+"earliest_vuln_date": "2009-02-17 23:51:31+00:00",
+"vuln_files": [
+"Kernel/Modules/CustomerTicketProcess.pm",
+"Kernel/Output/HTML/Layout.pm",
+"Kernel/Modules/CustomerPreferences.pm"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-352"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2014-1471",
+"patch_date": [
+"2014-01-14 16:56:47+01:00",
+"2014-01-14 16:54:10+01:00",
+"2014-01-14 16:53:10+01:00"
+],
+"patch_files": [
+"CHANGES",
+"Kernel/System/State.pm",
+"CHANGES.md"
+],
+"earliest_patch_date": "2014-01-14 16:53:10+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-89"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"CHANGES",
+"CHANGES.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2017-17476",
+"patch_date": [
+"2017-12-07 13:12:50+01:00",
+"2017-12-07 13:12:13+01:00",
+"2017-12-07 13:14:47+01:00"
+],
+"patch_files": [
+"Kernel/Output/HTML/Layout/Template.pm",
+"Kernel/Output/HTML/LayoutTemplate.pm"
+],
+"earliest_patch_date": "2017-12-07 13:12:13+01:00",
+"earliest_vuln_date": "2014-01-27 11:30:27+01:00",
+"vuln_files": [
+"Kernel/Output/HTML/Layout/Template.pm",
+"Kernel/Output/HTML/LayoutTemplate.pm"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-200"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2018-16587",
+"patch_date": [
+"2018-09-03 13:19:12+02:00",
+"2018-09-03 13:25:05+02:00",
+"2018-09-03 13:13:58+02:00"
+],
+"patch_files": [
+"Kernel/Modules/AdminSupportDataCollector.pm",
+"Kernel/Output/HTML/Templates/Standard/AdminSupportDataCollector.tt",
+"Kernel/Output/HTML/Standard/AdminServiceCenterSupportDataCollector.tt",
+"Kernel/Modules/AdminServiceCenter.pm",
+"var/httpd/htdocs/js/Core.Agent.Admin.SupportDataCollector.js"
+],
+"earliest_patch_date": "2018-09-03 13:13:58+02:00",
+"earliest_vuln_date": "2014-05-16 07:26:49-05:00",
+"vuln_files": [
+"Kernel/Modules/AdminSupportDataCollector.pm",
+"Kernel/Output/HTML/Templates/Standard/AdminSupportDataCollector.tt",
+"Kernel/Modules/AdminServiceCenter.pm",
+"Kernel/Output/HTML/Standard/AdminServiceCenterSupportDataCollector.tt",
+"var/httpd/htdocs/js/Core.Agent.Admin.SupportDataCollector.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 4.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-20"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2018-16586",
+"patch_date": [
+"2018-09-04 11:27:38+02:00",
+"2018-09-04 11:10:22+02:00",
+"2018-09-04 11:09:50+02:00"
+],
+"patch_files": [
+"scripts/test/HTMLUtils/Safety.t",
+"Kernel/System/HTMLUtils.pm"
+],
+"earliest_patch_date": "2018-09-04 11:09:50+02:00",
+"earliest_vuln_date": "2010-01-19 01:54:19+00:00",
+"vuln_files": [
+"Kernel/System/HTMLUtils.pm"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

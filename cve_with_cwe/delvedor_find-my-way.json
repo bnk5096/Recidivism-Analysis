@@ -1,0 +1,106 @@
+[
+{
+"cve_id": "CVE-2020-7764",
+"patch_date": [
+"2020-11-06 18:30:04+01:00"
+],
+"patch_files": [
+"lib/accept-version.js",
+"test/version.default-versioning.test.js",
+"index.js",
+"README.md"
+],
+"earliest_patch_date": "2020-11-06 18:30:04+01:00",
+"earliest_vuln_date": "2019-01-29 10:52:55+01:00",
+"vuln_files": [
+"lib/accept-version.js",
+"index.js",
+"README.md"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-444"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-45813",
+"patch_date": [
+"2024-09-17 11:18:42+02:00"
+],
+"patch_files": [
+"test/optional-params.test.js",
+"test/regex.test.js",
+"index.js",
+"test/issue-17.test.js"
+],
+"earliest_patch_date": "2024-09-17 11:18:42+02:00",
+"earliest_vuln_date": "2017-09-27 12:54:05+02:00",
+"vuln_files": [
+"test/optional-params.test.js",
+"index.js",
+"test/issue-17.test.js"
+],
+"impact": {},
+"cwes": [
+"CWE-1333"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"index.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,143 @@
+[
+{
+"cve_id": "CVE-2023-25569",
+"patch_date": [
+"2022-11-29 08:48:04+08:00"
+],
+"patch_files": [
+"apollo-portal/src/main/resources/application.yml"
+],
+"earliest_patch_date": "2022-11-29 08:48:04+08:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 5.7,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.1,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-352"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-25570",
+"patch_date": [
+"2022-12-14 08:47:53+08:00"
+],
+"patch_files": [
+"apollo-configservice/src/test/java/com/ctrip/framework/apollo/configservice/controller/TestWebSecurityConfig.java",
+"docs/zh/usage/apollo-user-guide.md",
+"docs/en/deployment/distributed-deployment-guide.md",
+"docs/zh/deployment/distributed-deployment-guide.md",
+"CHANGES.md",
+"apollo-configservice/src/main/java/com/ctrip/framework/apollo/configservice/ConfigServerEurekaServerConfigure.java",
+"docs/en/usage/apollo-user-guide.md"
+],
+"earliest_patch_date": "2022-12-14 08:47:53+08:00",
+"earliest_vuln_date": "2016-04-28 10:45:48+08:00",
+"vuln_files": [
+"docs/en/usage/apollo-user-guide.md",
+"apollo-configservice/src/test/java/com/ctrip/framework/apollo/configservice/controller/TestWebSecurityConfig.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-306"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-43397",
+"patch_date": [
+"2024-08-10 19:47:47+08:00"
+],
+"patch_files": [
+"apollo-portal/src/main/java/com/ctrip/framework/apollo/portal/entity/model/NamespaceSyncModel.java",
+"apollo-portal/src/main/java/com/ctrip/framework/apollo/portal/controller/ItemController.java"
+],
+"earliest_patch_date": "2024-08-10 19:47:47+08:00",
+"earliest_vuln_date": "2019-01-19 22:45:44+08:00",
+"vuln_files": [
+"apollo-portal/src/main/java/com/ctrip/framework/apollo/portal/controller/ItemController.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,110 @@
+[
+{
+"cve_id": "CVE-2022-22984",
+"patch_date": [
+"2022-11-14 13:49:11+00:00"
+],
+"patch_files": [
+"lib/index.ts",
+"lib/sub-process.ts",
+"package.json",
+".snyk",
+"test/functional/gradle-plugin.spec.ts"
+],
+"earliest_patch_date": "2022-11-14 13:49:11+00:00",
+"earliest_vuln_date": "2019-03-25 09:53:34+00:00",
+"vuln_files": [
+"lib/index.ts",
+"test/functional/gradle-plugin.spec.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "LOW",
+"baseScore": 6.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.4
+}
+},
+"cwes": [
+"CWE-78"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-48964",
+"patch_date": [
+"2024-10-03 11:29:59+01:00"
+],
+"patch_files": [
+"lib/index.ts",
+"test/system/darwin.test.ts",
+"lib/sub-process.ts",
+"test/system/plugin.test.ts",
+"test/fixtures-with-wrappers/with-lock-file/dep-graph.json",
+"test/system/windows.test.ts"
+],
+"earliest_patch_date": "2024-10-03 11:29:59+01:00",
+"earliest_vuln_date": "2019-04-01 12:09:38+01:00",
+"vuln_files": [
+"lib/index.ts",
+"test/system/darwin.test.ts",
+"lib/sub-process.ts",
+"test/system/windows.test.ts",
+"test/fixtures-with-wrappers/with-lock-file/dep-graph.json",
+"test/system/plugin.test.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-94"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/index.ts",
+"lib/sub-process.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

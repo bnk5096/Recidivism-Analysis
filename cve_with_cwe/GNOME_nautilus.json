@@ -1,0 +1,79 @@
+[
+{
+"cve_id": "CVE-2017-14604",
+"patch_date": [
+"2017-02-15 01:57:19+01:00",
+"2017-02-06 18:53:08+01:00"
+],
+"patch_files": [
+"src/nautilus-file-operations.c",
+"src/nautilus-mime-actions.c",
+"src/nautilus-file-operations.h",
+"NEWS",
+"configure.ac",
+"src/nautilus-metadata.c",
+"src/nautilus-metadata.h",
+"src/nautilus-directory-async.c"
+],
+"earliest_patch_date": "2017-02-06 18:53:08+01:00",
+"earliest_vuln_date": "2009-02-24 11:21:10+00:00",
+"vuln_files": [
+"configure.ac",
+"src/nautilus-directory-async.c",
+"src/nautilus-file-operations.c",
+"src/nautilus-mime-actions.c",
+"src/nautilus-file-operations.h"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-20"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

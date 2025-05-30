@@ -1,0 +1,484 @@
+[
+{
+"cve_id": "CVE-2022-0157",
+"patch_date": [
+"2022-01-08 04:47:20-06:00"
+],
+"patch_files": [
+"pts-core/phoromatic/pages/phoromatic_settings.php",
+"pts-core/phoromatic/public_html/phoromatic.php",
+"ChangeLog",
+"pts-core/objects/pts_result_viewer_embed.php",
+"pts-core/phoromatic/pages/phoromatic_local_suites.php",
+"pts-core/phoromatic/pages/phoromatic_logs.php",
+"pts-core/phoromatic/phoromatic_functions.php",
+"pts-core/phoromatic/pages/phoromatic_schedules.php",
+"pts-core/objects/pts_phoroql.php",
+"pts-core/phoromatic/pages/phoromatic_dashboard.php",
+"pts-core/phoromatic/pages/phoromatic_sched.php",
+"pts-core/phoromatic/pages/phoromatic_maintenance_table.php",
+"pts-core/phoromatic/pages/phoromatic_results.php",
+"pts-core/objects/pts_env.php",
+"pts-core/phoromatic/pages/phoromatic_build_suite.php",
+"pts-core/phoromatic/pages/phoromatic_admin_data.php",
+"pts-core/phoromatic/pages/phoromatic_main.php",
+"pts-core/phoromatic/pages/phoromatic_system_claim.php",
+"pts-core/phoromatic/pages/phoromatic_tracker.php",
+"pts-core/phoromatic/pages/phoromatic_users.php",
+"pts-core/phoromatic/pages/phoromatic_password.php",
+"pts-core/phoromatic/pages/phoromatic_admin.php",
+"pts-core/phoromatic/pages/phoromatic_admin_config.php",
+"pts-core/phoromatic/pages/phoromatic_r_basic_suite_details.php",
+"pts-core/phoromatic/pages/phoromatic_result.php",
+"pts-core/phoromatic/pages/phoromatic_benchmark.php",
+"pts-core/phoromatic/pages/phoromatic_account_activity.php",
+"pts-core/phoromatic/pages/phoromatic_tests.php",
+"pts-core/phoromatic/pages/phoromatic_r_add_test_build_suite_details.php",
+"pts-core/phoromatic/pages/phoromatic_testing.php",
+"pts-core/phoromatic/pages/phoromatic_search.php",
+"pts-core/phoromatic/pages/phoromatic_caches.php",
+"pts-core/phoromatic/pages/phoromatic_systems.php",
+"pts-core/phoromatic/public_html/public.php",
+"pts-core/phoromatic/pages/phoromatic_create_test.php",
+"pts-core/phoromatic/pages/phoromatic_component_table.php",
+"pts-core/phoromatic/pages/phoromatic_welcome.php"
+],
+"earliest_patch_date": "2022-01-08 04:47:20-06:00",
+"earliest_vuln_date": "2014-04-12 21:13:46-05:00",
+"vuln_files": [
+"pts-core/phoromatic/public_html/phoromatic.php",
+"pts-core/objects/pts_result_viewer_embed.php",
+"pts-core/phoromatic/pages/phoromatic_local_suites.php",
+"pts-core/phoromatic/phoromatic_functions.php",
+"pts-core/phoromatic/pages/phoromatic_schedules.php",
+"pts-core/objects/pts_phoroql.php",
+"pts-core/phoromatic/pages/phoromatic_sched.php",
+"pts-core/phoromatic/pages/phoromatic_results.php",
+"pts-core/objects/pts_env.php",
+"pts-core/phoromatic/pages/phoromatic_build_suite.php",
+"pts-core/phoromatic/pages/phoromatic_admin_data.php",
+"pts-core/phoromatic/pages/phoromatic_system_claim.php",
+"pts-core/phoromatic/pages/phoromatic_users.php",
+"pts-core/phoromatic/pages/phoromatic_result.php",
+"pts-core/phoromatic/pages/phoromatic_benchmark.php",
+"pts-core/phoromatic/pages/phoromatic_r_add_test_build_suite_details.php",
+"pts-core/phoromatic/pages/phoromatic_testing.php",
+"pts-core/phoromatic/pages/phoromatic_search.php",
+"pts-core/phoromatic/pages/phoromatic_systems.php",
+"pts-core/phoromatic/public_html/public.php",
+"pts-core/phoromatic/pages/phoromatic_admin.php",
+"pts-core/phoromatic/pages/phoromatic_welcome.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-0196",
+"patch_date": [
+"2022-01-11 18:45:29-06:00"
+],
+"patch_files": [
+"pts-core/pts-core.php",
+"pts-core/phoromatic/public_html/event.php",
+"pts-core/objects/pts_strings.php",
+"pts-core/phoromatic/pages/phoromatic_local_suites.php",
+"pts-core/phoromatic/pages/phoromatic_users.php",
+"pts-core/phoromatic/phoromatic_functions.php",
+"pts-core/phoromatic/pages/phoromatic_schedules.php",
+"pts-core/phoromatic/pages/phoromatic_welcome.php"
+],
+"earliest_patch_date": "2022-01-11 18:45:29-06:00",
+"earliest_vuln_date": "2014-05-18 16:09:00-05:00",
+"vuln_files": [
+"pts-core/pts-core.php",
+"pts-core/phoromatic/public_html/event.php",
+"pts-core/objects/pts_strings.php",
+"pts-core/phoromatic/pages/phoromatic_local_suites.php",
+"pts-core/phoromatic/pages/phoromatic_users.php",
+"pts-core/phoromatic/pages/phoromatic_schedules.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"pts-core/phoromatic/pages/phoromatic_local_suites.php",
+"pts-core/phoromatic/pages/phoromatic_users.php",
+"pts-core/phoromatic/phoromatic_functions.php",
+"pts-core/phoromatic/pages/phoromatic_schedules.php",
+"pts-core/phoromatic/pages/phoromatic_welcome.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-0197",
+"patch_date": [
+"2022-01-11 18:45:29-06:00"
+],
+"patch_files": [
+"pts-core/pts-core.php",
+"pts-core/phoromatic/public_html/event.php",
+"pts-core/objects/pts_strings.php",
+"pts-core/phoromatic/pages/phoromatic_local_suites.php",
+"pts-core/phoromatic/pages/phoromatic_users.php",
+"pts-core/phoromatic/phoromatic_functions.php",
+"pts-core/phoromatic/pages/phoromatic_schedules.php",
+"pts-core/phoromatic/pages/phoromatic_welcome.php"
+],
+"earliest_patch_date": "2022-01-11 18:45:29-06:00",
+"earliest_vuln_date": "2014-05-18 16:09:00-05:00",
+"vuln_files": [
+"pts-core/pts-core.php",
+"pts-core/phoromatic/public_html/event.php",
+"pts-core/objects/pts_strings.php",
+"pts-core/phoromatic/pages/phoromatic_local_suites.php",
+"pts-core/phoromatic/pages/phoromatic_users.php",
+"pts-core/phoromatic/pages/phoromatic_schedules.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"pts-core/pts-core.php",
+"pts-core/phoromatic/public_html/event.php",
+"pts-core/objects/pts_strings.php",
+"pts-core/phoromatic/pages/phoromatic_local_suites.php",
+"pts-core/phoromatic/pages/phoromatic_users.php",
+"pts-core/phoromatic/phoromatic_functions.php",
+"pts-core/phoromatic/pages/phoromatic_schedules.php",
+"pts-core/phoromatic/pages/phoromatic_welcome.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-0238",
+"patch_date": [
+"2022-01-15 03:56:13-06:00"
+],
+"patch_files": [
+"pts-core/phoromatic/pages/phoromatic_system_claim.php",
+"pts-core/phoromatic/pages/phoromatic_benchmark.php",
+"pts-core/phoromatic/phoromatic_functions.php",
+"pts-core/phoromatic/pages/phoromatic_r_add_test_details.php",
+"pts-core/phoromatic/pages/phoromatic_systems.php",
+"pts-core/phoromatic/pages/phoromatic_schedules.php",
+"pts-core/phoromatic/pages/phoromatic_r_basic_suite_details.php"
+],
+"earliest_patch_date": "2022-01-15 03:56:13-06:00",
+"earliest_vuln_date": "2014-05-17 10:16:48-05:00",
+"vuln_files": [
+"pts-core/phoromatic/pages/phoromatic_system_claim.php",
+"pts-core/phoromatic/pages/phoromatic_benchmark.php",
+"pts-core/phoromatic/phoromatic_functions.php",
+"pts-core/phoromatic/pages/phoromatic_systems.php",
+"pts-core/phoromatic/pages/phoromatic_schedules.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"pts-core/phoromatic/pages/phoromatic_system_claim.php",
+"pts-core/phoromatic/pages/phoromatic_benchmark.php",
+"pts-core/phoromatic/phoromatic_functions.php",
+"pts-core/phoromatic/pages/phoromatic_systems.php",
+"pts-core/phoromatic/pages/phoromatic_schedules.php",
+"pts-core/phoromatic/pages/phoromatic_r_basic_suite_details.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-0571",
+"patch_date": [
+"2022-02-12 04:20:40-06:00"
+],
+"patch_files": [
+"pts-core/phoromatic/phoromatic_functions.php"
+],
+"earliest_patch_date": "2022-02-12 04:20:40-06:00",
+"earliest_vuln_date": "2022-01-08 04:47:20-06:00",
+"vuln_files": [
+"pts-core/phoromatic/phoromatic_functions.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"pts-core/phoromatic/phoromatic_functions.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-40704",
+"patch_date": [
+"2022-07-23 07:32:43-05:00"
+],
+"patch_files": [
+"pts-core/phoromatic/phoromatic_functions.php"
+],
+"earliest_patch_date": "2022-07-23 07:32:43-05:00",
+"earliest_vuln_date": "2022-01-08 04:47:20-06:00",
+"vuln_files": [
+"pts-core/phoromatic/phoromatic_functions.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"pts-core/phoromatic/phoromatic_functions.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

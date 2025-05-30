@@ -1,0 +1,52 @@
+[
+{
+"cve_id": "CVE-2022-42725",
+"patch_date": [
+"2022-09-20 12:23:36-04:00",
+"2022-09-20 15:49:41-04:00",
+"2022-09-20 18:57:06-04:00",
+"2022-09-20 15:11:49-04:00"
+],
+"patch_files": [
+"src/util.py",
+"src/transfers.py"
+],
+"earliest_patch_date": "2022-09-20 12:23:36-04:00",
+"earliest_vuln_date": "2020-03-02 20:59:09-05:00",
+"vuln_files": [
+"src/transfers.py",
+"src/util.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-59"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

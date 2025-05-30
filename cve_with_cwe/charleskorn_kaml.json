@@ -1,0 +1,119 @@
+[
+{
+"cve_id": "CVE-2021-39194",
+"patch_date": [
+"2021-09-05 16:26:07+10:00"
+],
+"patch_files": [
+"src/commonTest/kotlin/com/charleskorn/kaml/YamlReadingTest.kt",
+"src/commonMain/kotlin/com/charleskorn/kaml/YamlInput.kt"
+],
+"earliest_patch_date": "2021-09-05 16:26:07+10:00",
+"earliest_vuln_date": "2020-03-06 17:45:36+09:00",
+"vuln_files": [
+"src/commonMain/kotlin/com/charleskorn/kaml/YamlInput.kt"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-28118",
+"patch_date": [
+"2023-03-18 12:21:21+11:00"
+],
+"patch_files": [
+"src/jvmMain/kotlin/com/charleskorn/kaml/YamlNodeReader.kt",
+"src/jvmMain/kotlin/com/charleskorn/kaml/Yaml.kt",
+"src/commonMain/kotlin/com/charleskorn/kaml/YamlException.kt",
+"src/commonTest/kotlin/com/charleskorn/kaml/YamlReadingTest.kt",
+"src/commonMain/kotlin/com/charleskorn/kaml/YamlConfiguration.kt",
+"src/jvmTest/kotlin/com/charleskorn/kaml/YamlNodeReaderTest.kt"
+],
+"earliest_patch_date": "2023-03-18 12:21:21+11:00",
+"earliest_vuln_date": "2019-03-03 18:20:58-07:00",
+"vuln_files": [
+"src/commonTest/kotlin/com/charleskorn/kaml/YamlReadingTest.kt",
+"src/jvmMain/kotlin/com/charleskorn/kaml/Yaml.kt",
+"src/jvmTest/kotlin/com/charleskorn/kaml/YamlNodeReaderTest.kt"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/commonTest/kotlin/com/charleskorn/kaml/YamlReadingTest.kt"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

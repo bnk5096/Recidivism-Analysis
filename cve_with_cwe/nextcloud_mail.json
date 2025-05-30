@@ -1,0 +1,59 @@
+[
+{
+"cve_id": "CVE-2024-52509",
+"patch_date": [
+"2024-06-05 17:30:23+02:00"
+],
+"patch_files": [
+"tests/Unit/Service/Attachment/AttachmentServiceTest.php",
+"lib/Service/Attachment/AttachmentService.php",
+"tests/psalm-baseline.xml"
+],
+"earliest_patch_date": "2024-06-05 17:30:23+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {},
+"cwes": [
+"CWE-284"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-52508",
+"patch_date": [
+"2024-08-05 19:09:28+02:00"
+],
+"patch_files": [
+"lib/Service/AutoConfig/IspDb.php",
+"lib/Dns/Resolver.php",
+"composer.json",
+"tests/Unit/Dns/ResolverTest.php",
+".github/workflows/update-public-suffix-list.yml",
+"tests/Unit/Service/Autoconfig/IspDbTest.php",
+"composer.lock",
+"LICENSES/MPL-2.0.txt",
+"resources/public_suffix_list.dat",
+"resources/public_suffix_list.dat.license"
+],
+"earliest_patch_date": "2024-08-05 19:09:28+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

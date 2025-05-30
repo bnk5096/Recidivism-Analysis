@@ -1,0 +1,138 @@
+[
+{
+"cve_id": "CVE-2017-3204",
+"patch_date": [
+"2017-03-30 15:57:35+00:00"
+],
+"patch_files": [
+"ssh/certs.go",
+"ssh/client_test.go",
+"ssh/example_test.go",
+"ssh/test/cert_test.go",
+"ssh/handshake_test.go",
+"ssh/agent/client_test.go",
+"ssh/agent/example_test.go",
+"ssh/agent/server_test.go",
+"ssh/handshake.go",
+"ssh/client.go",
+"ssh/client_auth_test.go",
+"ssh/doc.go",
+"ssh/session_test.go"
+],
+"earliest_patch_date": "2017-03-30 15:57:35+00:00",
+"earliest_vuln_date": "2012-01-25 15:31:12-05:00",
+"vuln_files": [
+"ssh/certs.go",
+"ssh/test/cert_test.go",
+"ssh/agent/client_test.go",
+"ssh/handshake.go",
+"ssh/agent/server_test.go",
+"ssh/agent/example_test.go",
+"ssh/client.go",
+"ssh/client_auth_test.go",
+"ssh/session_test.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-48795",
+"patch_date": [
+"2023-12-18 16:33:08+00:00"
+],
+"patch_files": [
+"ssh/transport.go",
+"ssh/handshake.go",
+"ssh/handshake_test.go"
+],
+"earliest_patch_date": "2023-12-18 16:33:08+00:00",
+"earliest_vuln_date": "2014-04-09 13:57:52-07:00",
+"vuln_files": [
+"ssh/transport.go",
+"ssh/handshake.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 5.9,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-354"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"ssh/handshake.go",
+"ssh/handshake_test.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

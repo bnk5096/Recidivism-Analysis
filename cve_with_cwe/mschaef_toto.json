@@ -1,0 +1,103 @@
+[
+{
+"cve_id": "CVE-2022-4591",
+"patch_date": [
+"2022-10-25 06:10:22-04:00"
+],
+"patch_files": [
+"src/toto/site/user.clj",
+"src/toto/core/util.clj",
+"src/toto/core/mail.clj",
+"src/toto/view/auth.clj"
+],
+"earliest_patch_date": "2022-10-25 06:10:22-04:00",
+"earliest_vuln_date": "2021-04-26 20:41:11-04:00",
+"vuln_files": [
+"src/toto/site/user.clj",
+"src/toto/core/mail.clj",
+"src/toto/view/auth.clj"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4590",
+"patch_date": [
+"2022-10-28 06:27:03-04:00"
+],
+"patch_files": [
+"src/toto/view/page.clj",
+"src/toto/todo/todo_list_manager.clj",
+"src/toto/todo/todo_list.clj"
+],
+"earliest_patch_date": "2022-10-28 06:27:03-04:00",
+"earliest_vuln_date": "2019-12-02 06:37:08-05:00",
+"vuln_files": [
+"src/toto/view/page.clj",
+"src/toto/todo/todo_list_manager.clj",
+"src/toto/todo/todo_list.clj"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

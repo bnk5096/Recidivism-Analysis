@@ -1,0 +1,661 @@
+[
+{
+"cve_id": "CVE-2019-3552",
+"patch_date": [
+"2019-02-14 14:38:42-08:00"
+],
+"patch_files": [
+"thrift/lib/cpp2/protocol/Protocol.h",
+"thrift/lib/cpp/protocol/TProtocolException.h",
+"thrift/lib/py/protocol/TProtocol.py",
+"thrift/lib/cpp/protocol/TProtocolException.cpp",
+"thrift/test/ProtocolSkipTest.cpp"
+],
+"earliest_patch_date": "2019-02-14 14:38:42-08:00",
+"earliest_vuln_date": "2014-02-20 13:08:44-08:00",
+"vuln_files": [
+"thrift/lib/cpp2/protocol/Protocol.h",
+"thrift/lib/py/protocol/TProtocol.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-755"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-3558",
+"patch_date": [
+"2019-02-14 14:38:42-08:00"
+],
+"patch_files": [
+"thrift/lib/cpp2/protocol/Protocol.h",
+"thrift/lib/cpp/protocol/TProtocolException.h",
+"thrift/lib/py/protocol/TProtocol.py",
+"thrift/lib/cpp/protocol/TProtocolException.cpp",
+"thrift/test/ProtocolSkipTest.cpp"
+],
+"earliest_patch_date": "2019-02-14 14:38:42-08:00",
+"earliest_vuln_date": "2014-02-20 13:08:44-08:00",
+"vuln_files": [
+"thrift/lib/cpp2/protocol/Protocol.h",
+"thrift/lib/py/protocol/TProtocol.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-755"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-755"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"thrift/lib/cpp2/protocol/Protocol.h",
+"thrift/lib/cpp/protocol/TProtocolException.h",
+"thrift/lib/py/protocol/TProtocol.py",
+"thrift/lib/cpp/protocol/TProtocolException.cpp",
+"thrift/test/ProtocolSkipTest.cpp"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-3559",
+"patch_date": [
+"2019-02-14 14:38:42-08:00"
+],
+"patch_files": [
+"thrift/lib/java/thrift/src/main/java/com/facebook/thrift/protocol/TProtocolUtil.java"
+],
+"earliest_patch_date": "2019-02-14 14:38:42-08:00",
+"earliest_vuln_date": "2014-02-20 13:08:44-08:00",
+"vuln_files": [
+"thrift/lib/java/thrift/src/main/java/com/facebook/thrift/protocol/TProtocolUtil.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-755"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-755"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-3564",
+"patch_date": [
+"2019-02-25 08:43:08-08:00"
+],
+"patch_files": [
+"thrift/lib/go/thrift/binary_protocol_test.go",
+"thrift/lib/go/thrift/protocol.go"
+],
+"earliest_patch_date": "2019-02-25 08:43:08-08:00",
+"earliest_vuln_date": "2014-02-20 13:08:44-08:00",
+"vuln_files": [
+"thrift/lib/go/thrift/protocol.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-755"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-755"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-3565",
+"patch_date": [
+"2019-05-02 18:55:05-07:00"
+],
+"patch_files": [
+"thrift/lib/cpp/protocol/TProtocol.h"
+],
+"earliest_patch_date": "2019-05-02 18:55:05-07:00",
+"earliest_vuln_date": "2014-02-20 13:08:44-08:00",
+"vuln_files": [
+"thrift/lib/cpp/protocol/TProtocol.h"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-755"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-755"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-11938",
+"patch_date": [
+"2019-12-06 13:13:54-08:00",
+"2019-12-06 13:13:54-08:00"
+],
+"patch_files": [
+"thrift/lib/java/src/resources/testing_data_structures.thrift",
+"thrift/lib/java/src/test/java/com/facebook/thrift/StructTest.java",
+"thrift/lib/java/src/main/java/com/facebook/thrift/protocol/TCompactProtocol.java",
+"thrift/lib/java/src/main/java/com/facebook/thrift/protocol/TProtocol.java",
+"thrift/lib/java/src/main/java/com/facebook/thrift/protocol/TBinaryProtocol.java",
+"thrift/lib/java/src/main/java/com/facebook/thrift/protocol/TProtocolDecorator.java",
+"thrift/lib/java/src/test/java/com/facebook/thrift/TruncatedFrameTest.java"
+],
+"earliest_patch_date": "2019-12-06 13:13:54-08:00",
+"earliest_vuln_date": "2014-02-20 13:08:44-08:00",
+"vuln_files": [
+"thrift/lib/java/src/test/java/com/facebook/thrift/TruncatedFrameTest.java",
+"thrift/lib/java/src/main/java/com/facebook/thrift/protocol/TBinaryProtocol.java",
+"thrift/lib/java/src/main/java/com/facebook/thrift/protocol/TCompactProtocol.java",
+"thrift/lib/java/src/resources/testing_data_structures.thrift",
+"thrift/lib/java/src/test/java/com/facebook/thrift/StructTest.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-770"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-3553",
+"patch_date": [
+"2020-01-27 17:30:36-08:00",
+"2020-01-28 08:32:03-08:00"
+],
+"patch_files": [
+"thrift/lib/cpp2/protocol/Protocol.h",
+"thrift/test/ProtocolTruncatedDataTest.cpp",
+"thrift/lib/cpp2/protocol/CompactProtocol-inl.h",
+"thrift/lib/cpp/protocol/TProtocolException.h",
+"thrift/test/ProtocolTruncatedData.thrift",
+"thrift/lib/cpp2/protocol/BinaryProtocol-inl.h",
+"thrift/lib/cpp2/protocol/NimbleProtocol.h",
+"thrift/lib/cpp/protocol/TProtocolException.cpp",
+"thrift/lib/cpp2/protocol/detail/protocol_methods.h"
+],
+"earliest_patch_date": "2020-01-27 17:30:36-08:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-770"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-770"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"thrift/lib/cpp2/protocol/Protocol.h",
+"thrift/lib/cpp/protocol/TProtocolException.h",
+"thrift/lib/cpp/protocol/TProtocolException.cpp"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-11939",
+"patch_date": [
+"2020-03-11 01:08:07-07:00"
+],
+"patch_files": [
+"thrift/lib/go/thrift/protocol_test.go",
+"thrift/lib/go/thrift/binary_protocol.go",
+"thrift/lib/go/thrift/compact_protocol.go",
+"thrift/lib/go/thrift/binary_protocol_test.go",
+"thrift/lib/go/thrift/http_client.go",
+"thrift/lib/go/thrift/compact_protocol_test.go"
+],
+"earliest_patch_date": "2020-03-11 01:08:07-07:00",
+"earliest_vuln_date": "2014-02-20 13:08:44-08:00",
+"vuln_files": [
+"thrift/lib/go/thrift/protocol_test.go",
+"thrift/lib/go/thrift/binary_protocol.go",
+"thrift/lib/go/thrift/compact_protocol.go",
+"thrift/lib/go/thrift/binary_protocol_test.go",
+"thrift/lib/go/thrift/http_client.go",
+"thrift/lib/go/thrift/compact_protocol_test.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-770"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-770"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"thrift/lib/go/thrift/binary_protocol_test.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-24028",
+"patch_date": [
+"2021-02-18 17:20:23-08:00"
+],
+"patch_files": [
+"thrift/lib/cpp2/protocol/TableBasedSerializer.cpp",
+"thrift/test/tablebased/SerializerTest.cpp",
+"thrift/test/tablebased/thrift_tablebased.thrift"
+],
+"earliest_patch_date": "2021-02-18 17:20:23-08:00",
+"earliest_vuln_date": "2020-09-15 18:12:08-07:00",
+"vuln_files": [
+"thrift/lib/cpp2/protocol/TableBasedSerializer.cpp"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-763"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

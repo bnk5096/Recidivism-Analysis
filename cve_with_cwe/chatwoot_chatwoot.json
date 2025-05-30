@@ -1,0 +1,808 @@
+[
+{
+"cve_id": "CVE-2021-3649",
+"patch_date": [
+"2021-07-15 12:54:31+05:30"
+],
+"patch_files": [
+"app/javascript/dashboard/components/widgets/conversation/Message.vue",
+"app/javascript/shared/mixins/specs/messageFormatterMixin.spec.js",
+"app/javascript/dashboard/components/widgets/conversation/helpers/specs/EmailContentParser.spec.js",
+"app/javascript/shared/mixins/messageFormatterMixin.js",
+"app/javascript/dashboard/components/widgets/conversation/helpers/EmailContentParser.js"
+],
+"earliest_patch_date": "2021-07-15 12:54:31+05:30",
+"earliest_vuln_date": "2021-06-26 11:50:40+05:30",
+"vuln_files": [
+"app/javascript/dashboard/components/widgets/conversation/Message.vue",
+"app/javascript/dashboard/components/widgets/conversation/helpers/EmailContentParser.js",
+"app/javascript/dashboard/components/widgets/conversation/helpers/specs/EmailContentParser.spec.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-3740",
+"patch_date": [
+"2021-09-01 15:08:05+05:30"
+],
+"patch_files": [
+"app/controllers/public/api/v1/inboxes/messages_controller.rb",
+"app/models/attachment.rb",
+"app/models/concerns/avatarable.rb",
+"config/initializers/devise_token_auth.rb",
+"app/helpers/file_type_helper.rb",
+"app/javascript/dashboard/components/widgets/forms/AvatarUploader.vue",
+"app/controllers/api/v1/widget/messages_controller.rb",
+"app/javascript/dashboard/components/widgets/WootWriter/ReplyBottomPanel.vue",
+"app/builders/messages/message_builder.rb"
+],
+"earliest_patch_date": "2021-09-01 15:08:05+05:30",
+"earliest_vuln_date": "2019-08-14 15:18:44+05:30",
+"vuln_files": [
+"app/controllers/public/api/v1/inboxes/messages_controller.rb",
+"app/helpers/file_type_helper.rb",
+"app/javascript/dashboard/components/widgets/forms/AvatarUploader.vue",
+"app/controllers/api/v1/widget/messages_controller.rb",
+"app/javascript/dashboard/components/widgets/WootWriter/ReplyBottomPanel.vue",
+"app/builders/messages/message_builder.rb"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-3741",
+"patch_date": [
+"2021-09-01 15:08:05+05:30"
+],
+"patch_files": [
+"app/controllers/public/api/v1/inboxes/messages_controller.rb",
+"app/models/attachment.rb",
+"app/models/concerns/avatarable.rb",
+"config/initializers/devise_token_auth.rb",
+"app/helpers/file_type_helper.rb",
+"app/javascript/dashboard/components/widgets/forms/AvatarUploader.vue",
+"app/controllers/api/v1/widget/messages_controller.rb",
+"app/javascript/dashboard/components/widgets/WootWriter/ReplyBottomPanel.vue",
+"app/builders/messages/message_builder.rb"
+],
+"earliest_patch_date": "2021-09-01 15:08:05+05:30",
+"earliest_vuln_date": "2019-08-14 15:18:44+05:30",
+"vuln_files": [
+"app/controllers/public/api/v1/inboxes/messages_controller.rb",
+"app/helpers/file_type_helper.rb",
+"app/javascript/dashboard/components/widgets/forms/AvatarUploader.vue",
+"app/controllers/api/v1/widget/messages_controller.rb",
+"app/javascript/dashboard/components/widgets/WootWriter/ReplyBottomPanel.vue",
+"app/builders/messages/message_builder.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"app/controllers/public/api/v1/inboxes/messages_controller.rb",
+"app/models/attachment.rb",
+"app/models/concerns/avatarable.rb",
+"config/initializers/devise_token_auth.rb",
+"app/helpers/file_type_helper.rb",
+"app/javascript/dashboard/components/widgets/forms/AvatarUploader.vue",
+"app/controllers/api/v1/widget/messages_controller.rb",
+"app/javascript/dashboard/components/widgets/WootWriter/ReplyBottomPanel.vue",
+"app/builders/messages/message_builder.rb"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-3742",
+"patch_date": [
+"2021-09-01 15:08:05+05:30"
+],
+"patch_files": [
+"app/controllers/public/api/v1/inboxes/messages_controller.rb",
+"app/models/attachment.rb",
+"app/models/concerns/avatarable.rb",
+"config/initializers/devise_token_auth.rb",
+"app/helpers/file_type_helper.rb",
+"app/javascript/dashboard/components/widgets/forms/AvatarUploader.vue",
+"app/controllers/api/v1/widget/messages_controller.rb",
+"app/javascript/dashboard/components/widgets/WootWriter/ReplyBottomPanel.vue",
+"app/builders/messages/message_builder.rb"
+],
+"earliest_patch_date": "2021-09-01 15:08:05+05:30",
+"earliest_vuln_date": "2019-08-14 15:18:44+05:30",
+"vuln_files": [
+"app/controllers/public/api/v1/inboxes/messages_controller.rb",
+"app/helpers/file_type_helper.rb",
+"app/javascript/dashboard/components/widgets/forms/AvatarUploader.vue",
+"app/controllers/api/v1/widget/messages_controller.rb",
+"app/javascript/dashboard/components/widgets/WootWriter/ReplyBottomPanel.vue",
+"app/builders/messages/message_builder.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"app/controllers/public/api/v1/inboxes/messages_controller.rb",
+"app/models/attachment.rb",
+"app/models/concerns/avatarable.rb",
+"config/initializers/devise_token_auth.rb",
+"app/helpers/file_type_helper.rb",
+"app/javascript/dashboard/components/widgets/forms/AvatarUploader.vue",
+"app/controllers/api/v1/widget/messages_controller.rb",
+"app/javascript/dashboard/components/widgets/WootWriter/ReplyBottomPanel.vue",
+"app/builders/messages/message_builder.rb"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-3813",
+"patch_date": [
+"2022-02-03 18:25:28-08:00"
+],
+"patch_files": [
+"spec/finders/conversation_finder_spec.rb",
+"app/finders/conversation_finder.rb"
+],
+"earliest_patch_date": "2022-02-03 18:25:28-08:00",
+"earliest_vuln_date": "2021-06-11 11:44:31+05:30",
+"vuln_files": [
+"app/finders/conversation_finder.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-639"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-0527",
+"patch_date": [
+"2022-02-04 14:38:18+05:30"
+],
+"patch_files": [
+"app/controllers/api/v1/accounts/campaigns_controller.rb",
+"spec/controllers/api/v1/accounts/inboxes_controller_spec.rb",
+"spec/controllers/api/v1/accounts/campaigns_controller_spec.rb",
+"spec/listeners/campaign_listener_spec.rb",
+"app/models/campaign.rb",
+"spec/models/campaign_spec.rb",
+"spec/builders/campaigns/campaign_conversation_builder_spec.rb",
+"spec/controllers/api/v1/widget/campaigns_controller_spec.rb"
+],
+"earliest_patch_date": "2022-02-04 14:38:18+05:30",
+"earliest_vuln_date": "2021-04-29 22:23:32+05:30",
+"vuln_files": [
+"app/controllers/api/v1/accounts/campaigns_controller.rb",
+"spec/controllers/api/v1/accounts/inboxes_controller_spec.rb",
+"spec/controllers/api/v1/accounts/campaigns_controller_spec.rb",
+"spec/listeners/campaign_listener_spec.rb",
+"spec/models/campaign_spec.rb",
+"spec/builders/campaigns/campaign_conversation_builder_spec.rb",
+"spec/controllers/api/v1/widget/campaigns_controller_spec.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-0526",
+"patch_date": [
+"2022-02-07 13:04:27+05:30"
+],
+"patch_files": [
+"app/javascript/dashboard/mixins/attributeMixin.js",
+"app/javascript/dashboard/mixins/specs/attributeMixin.spec.js",
+"app/javascript/dashboard/components/CustomAttribute.vue",
+"app/javascript/dashboard/helper/URLHelper.js",
+"app/javascript/dashboard/helper/specs/URLHelper.spec.js"
+],
+"earliest_patch_date": "2022-02-07 13:04:27+05:30",
+"earliest_vuln_date": "2021-10-30 07:09:46+05:30",
+"vuln_files": [
+"app/javascript/dashboard/mixins/attributeMixin.js",
+"app/javascript/dashboard/mixins/specs/attributeMixin.spec.js",
+"app/javascript/dashboard/components/CustomAttribute.vue"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-0542",
+"patch_date": [
+"2022-03-14 18:13:21+05:30"
+],
+"patch_files": [
+"app/javascript/shared/helpers/specs/MessageFormatter.spec.js",
+"app/javascript/shared/helpers/MessageFormatter.js"
+],
+"earliest_patch_date": "2022-03-14 18:13:21+05:30",
+"earliest_vuln_date": "2021-01-15 14:40:50+05:30",
+"vuln_files": [
+"app/javascript/shared/helpers/specs/MessageFormatter.spec.js",
+"app/javascript/shared/helpers/MessageFormatter.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-1021",
+"patch_date": [
+"2022-03-30 14:36:22+05:30"
+],
+"patch_files": [
+"app/models/conversation.rb",
+"lib/url_helper.rb",
+"app/models/campaign.rb",
+"spec/helpers/url_helper_spec.rb",
+".rubocop.yml",
+"spec/models/conversation_spec.rb"
+],
+"earliest_patch_date": "2022-03-30 14:36:22+05:30",
+"earliest_vuln_date": "2022-02-04 14:38:18+05:30",
+"vuln_files": [
+"app/models/campaign.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": true,
+"intro_duplicated_types": [
+"CWE-79"
+],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"app/models/campaign.rb"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-1022",
+"patch_date": [
+"2022-04-21 11:27:28+05:30"
+],
+"patch_files": [
+"app/javascript/dashboard/routes/dashboard/settings/labels/Index.vue",
+"app/javascript/dashboard/modules/notes/components/ContactNote.vue",
+"app/javascript/dashboard/routes/dashboard/settings/integrations/Webhook.vue",
+"app/javascript/dashboard/routes/dashboard/settings/teams/Index.vue",
+"yarn.lock",
+"app/javascript/dashboard/modules/contact/components/MergeContactSummary.vue",
+"app/javascript/widget/components/ChatHeaderExpanded.vue",
+"app/javascript/dashboard/routes/dashboard/settings/inbox/Index.vue",
+"package.json",
+"app/javascript/dashboard/routes/auth/Signup.vue",
+"app/javascript/dashboard/components/widgets/conversation/bubble/Text.vue",
+"app/javascript/dashboard/routes/dashboard/settings/SettingsSubPageHeader.vue",
+"app/javascript/dashboard/routes/dashboard/settings/integrations/IntegrationHelpText.vue",
+"app/javascript/widget/components/AgentMessageBubble.vue",
+"app/javascript/dashboard/components/widgets/conversation/ReplyBox.vue",
+"app/javascript/widget/components/UnreadMessage.vue",
+"app/javascript/dashboard/routes/dashboard/settings/attributes/CustomAttribute.vue",
+"app/javascript/packs/widget.js",
+"app/javascript/widget/components/ChatHeader.vue",
+"app/javascript/dashboard/routes/dashboard/conversation/ContactCustomAttributes.vue",
+"app/javascript/widget/components/UserMessageBubble.vue",
+"app/javascript/dashboard/routes/dashboard/conversation/search/SearchMessageItem.vue",
+"app/javascript/dashboard/routes/dashboard/settings/agents/Index.vue",
+"app/javascript/shared/components/emoji/EmojiInput.vue",
+"app/javascript/dashboard/routes/dashboard/settings/automation/Index.vue",
+"app/javascript/dashboard/routes/dashboard/settings/integrationapps/MultipleIntegrationHooks.vue",
+"app/javascript/dashboard/routes/dashboard/settings/canned/Index.vue",
+"app/javascript/packs/application.js"
+],
+"earliest_patch_date": "2022-04-21 11:27:28+05:30",
+"earliest_vuln_date": "2019-08-14 15:18:44+05:30",
+"vuln_files": [
+"app/javascript/dashboard/routes/dashboard/settings/labels/Index.vue",
+"app/javascript/dashboard/modules/notes/components/ContactNote.vue",
+"app/javascript/dashboard/routes/dashboard/settings/integrations/Webhook.vue",
+"app/javascript/dashboard/routes/dashboard/settings/teams/Index.vue",
+"app/javascript/dashboard/modules/contact/components/MergeContactSummary.vue",
+"app/javascript/widget/components/ChatHeaderExpanded.vue",
+"app/javascript/dashboard/routes/dashboard/settings/inbox/Index.vue",
+"app/javascript/dashboard/routes/auth/Signup.vue",
+"app/javascript/dashboard/components/widgets/conversation/bubble/Text.vue",
+"app/javascript/dashboard/routes/dashboard/settings/SettingsSubPageHeader.vue",
+"app/javascript/dashboard/routes/dashboard/settings/integrations/IntegrationHelpText.vue",
+"app/javascript/widget/components/AgentMessageBubble.vue",
+"app/javascript/dashboard/components/widgets/conversation/ReplyBox.vue",
+"app/javascript/widget/components/UnreadMessage.vue",
+"app/javascript/dashboard/routes/dashboard/settings/attributes/CustomAttribute.vue",
+"app/javascript/widget/components/ChatHeader.vue",
+"app/javascript/dashboard/routes/dashboard/conversation/ContactCustomAttributes.vue",
+"app/javascript/widget/components/UserMessageBubble.vue",
+"app/javascript/dashboard/routes/dashboard/conversation/search/SearchMessageItem.vue",
+"app/javascript/dashboard/routes/dashboard/settings/agents/Index.vue",
+"app/javascript/shared/components/emoji/EmojiInput.vue",
+"app/javascript/dashboard/routes/dashboard/settings/automation/Index.vue",
+"app/javascript/dashboard/routes/dashboard/settings/integrationapps/MultipleIntegrationHooks.vue",
+"app/javascript/dashboard/routes/dashboard/settings/canned/Index.vue"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3741",
+"patch_date": [
+"2022-09-02 23:09:03+05:30"
+],
+"patch_files": [
+"config/initializers/rack_attack.rb"
+],
+"earliest_patch_date": "2022-09-02 23:09:03+05:30",
+"earliest_vuln_date": "2021-07-27 21:27:23+05:30",
+"vuln_files": [
+"config/initializers/rack_attack.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-307"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-2901",
+"patch_date": [
+"2022-09-02 23:09:29+05:30"
+],
+"patch_files": [
+"app/controllers/api/v1/accounts/team_members_controller.rb",
+"spec/controllers/api/v1/accounts/team_members_controller_spec.rb"
+],
+"earliest_patch_date": "2022-09-02 23:09:29+05:30",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 4.2
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-2109",
+"patch_date": [
+"2023-02-10 17:20:15+05:30"
+],
+"patch_files": [
+"app/javascript/sdk/bubbleHelpers.js"
+],
+"earliest_patch_date": "2023-02-10 17:20:15+05:30",
+"earliest_vuln_date": "2020-08-09 16:07:32+05:30",
+"vuln_files": [
+"app/javascript/sdk/bubbleHelpers.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

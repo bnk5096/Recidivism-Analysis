@@ -1,0 +1,115 @@
+[
+{
+"cve_id": "CVE-2021-29451",
+"patch_date": [
+"2021-04-01 18:16:16+02:00"
+],
+"patch_files": [
+"CHANGELOG.md",
+"portofino-core/src/main/java/com/manydesigns/portofino/shiro/AbstractPortofinoRealm.java",
+"dispatcher/src/main/java/com/manydesigns/portofino/dispatcher/security/jwt/JWTRealm.java"
+],
+"earliest_patch_date": "2021-04-01 18:16:16+02:00",
+"earliest_vuln_date": "2018-05-07 14:04:26+02:00",
+"vuln_files": [
+"CHANGELOG.md",
+"portofino-core/src/main/java/com/manydesigns/portofino/shiro/AbstractPortofinoRealm.java",
+"dispatcher/src/main/java/com/manydesigns/portofino/dispatcher/security/jwt/JWTRealm.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 9.1,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.2
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 6.4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3952",
+"patch_date": [
+"2022-10-04 00:22:10+00:00"
+],
+"patch_files": [
+"microservices/launcher/src/main/java/com/manydesigns/portofino/microservices/launcher/WarFileLauncher.java"
+],
+"earliest_patch_date": "2022-10-04 00:22:10+00:00",
+"earliest_vuln_date": "2020-06-11 19:22:32+02:00",
+"vuln_files": [
+"microservices/launcher/src/main/java/com/manydesigns/portofino/microservices/launcher/WarFileLauncher.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 5.2
+}
+},
+"cwes": [
+"CWE-668"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

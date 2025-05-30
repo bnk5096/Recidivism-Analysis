@@ -1,0 +1,154 @@
+[
+{
+"cve_id": "CVE-2023-41338",
+"patch_date": [
+"2023-09-06 13:20:33+02:00"
+],
+"patch_files": [
+"ctx.go",
+"ctx_test.go"
+],
+"earliest_patch_date": "2023-09-06 13:20:33+02:00",
+"earliest_vuln_date": "2021-12-28 16:02:25+01:00",
+"vuln_files": [
+"ctx.go",
+"ctx_test.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-45128",
+"patch_date": [
+"2023-10-16 09:06:30+02:00"
+],
+"patch_files": [
+"middleware/csrf/csrf.go",
+"middleware/csrf/csrf_test.go",
+"middleware/csrf/extractors.go",
+"docs/api/middleware/csrf.md",
+"middleware/csrf/helpers.go"
+],
+"earliest_patch_date": "2023-10-16 09:06:30+02:00",
+"earliest_vuln_date": "2021-03-01 16:25:32-05:00",
+"vuln_files": [
+"middleware/csrf/csrf.go",
+"middleware/csrf/extractors.go",
+"middleware/csrf/csrf_test.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-25124",
+"patch_date": [
+"2024-02-21 14:47:33+01:00"
+],
+"patch_files": [
+"middleware/cors/utils_test.go",
+"docs/api/middleware/cors.md",
+"middleware/cors/cors_test.go",
+"middleware/cors/utils.go",
+"middleware/cors/cors.go"
+],
+"earliest_patch_date": "2024-02-21 14:47:33+01:00",
+"earliest_vuln_date": "2020-09-13 11:20:11+02:00",
+"vuln_files": [
+"middleware/cors/utils.go",
+"middleware/cors/cors.go",
+"docs/api/middleware/cors.md",
+"middleware/cors/cors_test.go"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-38513",
+"patch_date": [
+"2024-06-30 21:16:23+02:00"
+],
+"patch_files": [
+"middleware/session/store.go",
+"middleware/session/session.go",
+"middleware/session/session_test.go"
+],
+"earliest_patch_date": "2024-06-30 21:16:23+02:00",
+"earliest_vuln_date": "2020-11-26 16:36:26+01:00",
+"vuln_files": [
+"middleware/session/session.go",
+"middleware/session/store.go"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

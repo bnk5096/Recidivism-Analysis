@@ -1,0 +1,415 @@
+[
+{
+"cve_id": "CVE-2022-24899",
+"patch_date": [
+"2022-05-05 08:32:15+02:00"
+],
+"patch_files": [
+"core-bundle/src/Resources/contao/pages/PageRegular.php"
+],
+"earliest_patch_date": "2022-05-05 08:32:15+02:00",
+"earliest_vuln_date": "2021-11-08 12:58:18+01:00",
+"vuln_files": [
+"core-bundle/src/Resources/contao/pages/PageRegular.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-29200",
+"patch_date": [
+"2023-04-25 11:14:31+02:00"
+],
+"patch_files": [
+"core-bundle/src/Resources/contao/drivers/DC_Folder.php"
+],
+"earliest_patch_date": "2023-04-25 11:14:31+02:00",
+"earliest_vuln_date": "2012-04-24 15:53:14+02:00",
+"vuln_files": [
+"core-bundle/src/Resources/contao/drivers/DC_Folder.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-36806",
+"patch_date": [
+"2023-07-25 09:44:16+02:00",
+"2023-07-25 09:44:16+02:00",
+"2023-07-25 09:44:16+02:00"
+],
+"patch_files": [
+"core-bundle/contao/widgets/TimePeriod.php",
+"core-bundle/src/Resources/contao/widgets/TimePeriod.php",
+"core-bundle/src/Resources/contao/widgets/InputUnit.php",
+"core-bundle/contao/widgets/InputUnit.php",
+"core-bundle/contao/widgets/TrblField.php",
+"core-bundle/src/Resources/contao/widgets/TrblField.php"
+],
+"earliest_patch_date": "2023-07-25 09:44:16+02:00",
+"earliest_vuln_date": "2012-04-24 15:53:14+02:00",
+"vuln_files": [
+"core-bundle/src/Resources/contao/widgets/TimePeriod.php",
+"core-bundle/src/Resources/contao/widgets/InputUnit.php",
+"core-bundle/src/Resources/contao/widgets/TrblField.php",
+"core-bundle/contao/widgets/InputUnit.php",
+"core-bundle/contao/widgets/TrblField.php",
+"core-bundle/contao/widgets/TimePeriod.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-28234",
+"patch_date": [
+"2024-04-09 07:18:05+02:00",
+"2024-04-09 07:18:05+02:00"
+],
+"patch_files": [
+"comments-bundle/src/Util/Node.php",
+"comments-bundle/src/Resources/contao/classes/Comments.php",
+"comments-bundle/tests/Util/NodeTest.php",
+"comments-bundle/contao/classes/Comments.php",
+"comments-bundle/tests/Util/BbCodeTest.php",
+"comments-bundle/src/Util/BbCode.php"
+],
+"earliest_patch_date": "2024-04-09 07:18:05+02:00",
+"earliest_vuln_date": "2009-11-21 12:49:18+00:00",
+"vuln_files": [
+"comments-bundle/contao/classes/Comments.php",
+"comments-bundle/src/Resources/contao/classes/Comments.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.7,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-30262",
+"patch_date": [
+"2024-04-09 07:18:49+02:00"
+],
+"patch_files": [
+"core-bundle/src/Repository/RememberMeRepository.php",
+"core-bundle/src/Resources/config/services.yml",
+"core-bundle/src/Resources/contao/modules/ModuleChangePassword.php",
+"core-bundle/src/Resources/contao/modules/ModulePassword.php",
+"core-bundle/src/Resources/contao/modules/ModulePersonalData.php"
+],
+"earliest_patch_date": "2024-04-09 07:18:49+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 7.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 4.2
+}
+},
+"cwes": [
+"CWE-613"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-28191",
+"patch_date": [
+"2024-04-09 07:19:09+02:00",
+"2024-04-09 07:19:09+02:00"
+],
+"patch_files": [
+"core-bundle/src/String/SimpleTokenParser.php",
+"core-bundle/contao/library/Contao/Input.php",
+"core-bundle/src/Resources/contao/library/Contao/Input.php",
+"core-bundle/tests/String/SimpleTokenParserTest.php",
+"core-bundle/tests/Contao/InputTest.php"
+],
+"earliest_patch_date": "2024-04-09 07:19:09+02:00",
+"earliest_vuln_date": "2020-07-10 15:20:32+02:00",
+"vuln_files": [
+"core-bundle/src/String/SimpleTokenParser.php",
+"core-bundle/tests/String/SimpleTokenParserTest.php",
+"core-bundle/src/Resources/contao/library/Contao/Input.php",
+"core-bundle/contao/library/Contao/Input.php",
+"core-bundle/tests/Contao/InputTest.php"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-28190",
+"patch_date": [
+"2024-04-09 07:19:32+02:00",
+"2024-04-09 07:19:32+02:00"
+],
+"patch_files": [
+"core-bundle/src/Resources/public/mootao.js",
+"core-bundle/public/backend.7d12ce36.js.map",
+"core-bundle/public/manifest.json",
+"core-bundle/assets/scripts/tips.js",
+"core-bundle/src/Resources/public/mootao.min.js",
+"core-bundle/assets/scripts/core.js",
+"core-bundle/public/backend.1d61970f.js",
+"core-bundle/public/backend.1d61970f.js.map",
+"core-bundle/src/Resources/contao/drivers/DC_Folder.php",
+"core-bundle/src/Resources/public/core.js",
+"core-bundle/src/Resources/public/core.min.js",
+"core-bundle/contao/drivers/DC_Folder.php",
+"core-bundle/public/entrypoints.json"
+],
+"earliest_patch_date": "2024-04-09 07:19:32+02:00",
+"earliest_vuln_date": "2016-10-06 10:56:53+02:00",
+"vuln_files": [
+"core-bundle/public/manifest.json",
+"core-bundle/public/entrypoints.json",
+"core-bundle/assets/scripts/core.js",
+"core-bundle/public/backend.1d61970f.js.map",
+"core-bundle/public/backend.7d12ce36.js",
+"core-bundle/contao/drivers/DC_Folder.php",
+"core-bundle/assets/scripts/tips.js",
+"core-bundle/src/Resources/contao/drivers/DC_Folder.php",
+"core-bundle/src/Resources/public/core.js",
+"core-bundle/src/Resources/public/core.min.js",
+"core-bundle/src/Resources/public/mootao.min.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"core-bundle/src/Resources/contao/drivers/DC_Folder.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-28235",
+"patch_date": [
+"2024-04-09 07:19:52+02:00",
+"2024-04-09 07:19:52+02:00"
+],
+"patch_files": [
+"core-bundle/tests/Crawl/Escargot/FactoryTest.php",
+"core-bundle/src/Resources/contao/classes/Crawl.php",
+"core-bundle/src/Crawl/Escargot/Factory.php",
+"core-bundle/src/DependencyInjection/ContaoCoreExtension.php",
+"core-bundle/tests/DependencyInjection/ContaoCoreExtensionTest.php",
+"core-bundle/src/Resources/config/services.yml",
+"core-bundle/config/services.yaml",
+"core-bundle/contao/classes/Crawl.php"
+],
+"earliest_patch_date": "2024-04-09 07:19:52+02:00",
+"earliest_vuln_date": "2019-12-04 11:07:21+01:00",
+"vuln_files": [
+"core-bundle/src/Crawl/Escargot/Factory.php",
+"core-bundle/src/Resources/contao/classes/Crawl.php",
+"core-bundle/tests/Crawl/Escargot/FactoryTest.php",
+"core-bundle/src/DependencyInjection/ContaoCoreExtension.php",
+"core-bundle/tests/DependencyInjection/ContaoCoreExtensionTest.php",
+"core-bundle/contao/classes/Crawl.php"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"core-bundle/src/Resources/config/services.yml"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

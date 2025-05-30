@@ -1,0 +1,411 @@
+[
+{
+"cve_id": "CVE-2019-15691",
+"patch_date": [
+"2019-11-15 10:53:26+01:00"
+],
+"patch_files": [
+"common/rfb/SMsgReader.cxx",
+"common/rdr/ZlibInStream.h",
+"common/rfb/CMsgReader.cxx",
+"common/rfb/zrleDecode.h",
+"common/rfb/TightDecoder.cxx",
+"common/rdr/ZlibInStream.cxx"
+],
+"earliest_patch_date": "2019-11-15 10:53:26+01:00",
+"earliest_vuln_date": "2006-05-25 05:01:55+00:00",
+"vuln_files": [
+"common/rfb/SMsgReader.cxx",
+"common/rdr/ZlibInStream.h",
+"common/rfb/CMsgReader.cxx",
+"common/rfb/zrleDecode.h",
+"common/rfb/TightDecoder.cxx",
+"common/rdr/ZlibInStream.cxx"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-672"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-15692",
+"patch_date": [
+"2019-11-15 10:53:41+01:00"
+],
+"patch_files": [
+"common/rfb/PixelBuffer.cxx"
+],
+"earliest_patch_date": "2019-11-15 10:53:41+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-787"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-15693",
+"patch_date": [
+"2019-11-15 11:20:26+01:00"
+],
+"patch_files": [
+"common/rfb/tightDecode.h"
+],
+"earliest_patch_date": "2019-11-15 11:20:26+01:00",
+"earliest_vuln_date": "2006-05-25 05:01:55+00:00",
+"vuln_files": [
+"common/rfb/tightDecode.h"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-787"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-787"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-15694",
+"patch_date": [
+"2019-11-15 11:55:05+01:00"
+],
+"patch_files": [
+"common/rdr/RandomStream.h",
+"common/rdr/FileInStream.cxx",
+"common/rdr/HexInStream.cxx",
+"common/rdr/HexOutStream.cxx",
+"common/rdr/ZlibOutStream.cxx",
+"common/rdr/RandomStream.cxx",
+"common/rdr/ZlibInStream.h",
+"common/rdr/HexOutStream.h",
+"common/rdr/TLSInStream.h",
+"common/rdr/TLSInStream.cxx",
+"common/rfb/util.h",
+"common/rdr/FileInStream.h",
+"tests/perf/encperf.cxx",
+"common/rdr/FdInStream.cxx",
+"common/rdr/ZlibOutStream.h",
+"common/rdr/HexInStream.h",
+"common/rdr/MemOutStream.h",
+"win/rfb_win32/Registry.cxx",
+"common/rfb/Password.h",
+"common/rdr/FdOutStream.h",
+"common/rfb/Configuration.h",
+"common/rdr/TLSOutStream.cxx",
+"common/rfb/Configuration.cxx",
+"common/rdr/InStream.h",
+"common/rdr/TLSOutStream.h",
+"common/rdr/MemInStream.h",
+"common/rdr/ZlibInStream.cxx",
+"common/rdr/OutStream.h",
+"win/rfb_win32/Registry.h",
+"common/rfb/Password.cxx",
+"common/rdr/FdOutStream.cxx",
+"common/rdr/FdInStream.h"
+],
+"earliest_patch_date": "2019-11-15 11:55:05+01:00",
+"earliest_vuln_date": "2006-05-25 05:01:55+00:00",
+"vuln_files": [
+"common/rdr/RandomStream.h",
+"common/rdr/FileInStream.cxx",
+"common/rdr/HexInStream.cxx",
+"common/rdr/HexOutStream.cxx",
+"common/rdr/ZlibOutStream.cxx",
+"common/rdr/RandomStream.cxx",
+"common/rdr/ZlibInStream.h",
+"common/rdr/HexOutStream.h",
+"common/rdr/TLSInStream.h",
+"common/rdr/TLSInStream.cxx",
+"common/rfb/util.h",
+"common/rdr/FileInStream.h",
+"tests/perf/encperf.cxx",
+"common/rdr/FdInStream.cxx",
+"common/rdr/ZlibOutStream.h",
+"common/rdr/HexInStream.h",
+"common/rdr/MemOutStream.h",
+"win/rfb_win32/Registry.cxx",
+"common/rfb/Password.h",
+"common/rdr/FdOutStream.h",
+"common/rfb/Configuration.h",
+"common/rdr/TLSOutStream.cxx",
+"common/rfb/Configuration.cxx",
+"common/rdr/InStream.h",
+"common/rdr/TLSOutStream.h",
+"common/rdr/MemInStream.h",
+"common/rdr/ZlibInStream.cxx",
+"common/rdr/OutStream.h",
+"win/rfb_win32/Registry.h",
+"common/rfb/Password.cxx",
+"common/rdr/FdOutStream.cxx",
+"common/rdr/FdInStream.h"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-787"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-787"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"common/rdr/ZlibInStream.h",
+"common/rdr/ZlibInStream.cxx"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-15695",
+"patch_date": [
+"2019-11-15 12:26:25+01:00"
+],
+"patch_files": [
+"common/rfb/PixelFormat.cxx",
+"tests/unit/pixelformat.cxx"
+],
+"earliest_patch_date": "2019-11-15 12:26:25+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-787",
+"CWE-754"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-787"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

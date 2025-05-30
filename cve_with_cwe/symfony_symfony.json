@@ -1,0 +1,1575 @@
+[
+{
+"cve_id": "CVE-2017-11365",
+"patch_date": [
+"2017-07-14 16:25:02+02:00"
+],
+"patch_files": [
+"src/Symfony/Component/Security/Core/Tests/Validator/Constraints/UserPasswordValidatorTest.php",
+"src/Symfony/Component/Security/Core/Validator/Constraints/UserPasswordValidator.php"
+],
+"earliest_patch_date": "2017-07-14 16:25:02+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-284"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2018-14773",
+"patch_date": [
+"2018-07-31 23:38:46+02:00"
+],
+"patch_files": [
+"src/Symfony/Component/HttpFoundation/Request.php",
+"src/Symfony/Component/HttpFoundation/CHANGELOG.md",
+"src/Symfony/Component/HttpFoundation/Tests/RequestTest.php"
+],
+"earliest_patch_date": "2018-07-31 23:38:46+02:00",
+"earliest_vuln_date": "2010-04-08 11:15:19+02:00",
+"vuln_files": [
+"src/Symfony/Component/HttpFoundation/Request.php",
+"src/Symfony/Component/HttpFoundation/Tests/RequestTest.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2018-14774",
+"patch_date": [
+"2018-08-01 15:47:49+02:00"
+],
+"patch_files": [
+"src/Symfony/Component/HttpKernel/Tests/Fragment/InlineFragmentRendererTest.php",
+"src/Symfony/Component/HttpKernel/Tests/HttpCache/SubRequestHandlerTest.php",
+"src/Symfony/Component/HttpKernel/Tests/HttpCache/HttpCacheTest.php",
+"src/Symfony/Component/HttpKernel/Fragment/InlineFragmentRenderer.php",
+"src/Symfony/Component/HttpKernel/HttpCache/HttpCache.php",
+"src/Symfony/Component/HttpKernel/HttpCache/SubRequestHandler.php",
+"src/Symfony/Component/HttpFoundation/Request.php",
+"src/Symfony/Component/HttpKernel/Tests/HttpCache/TestHttpKernel.php"
+],
+"earliest_patch_date": "2018-08-01 15:47:49+02:00",
+"earliest_vuln_date": "2010-11-06 15:13:23+01:00",
+"vuln_files": [
+"src/Symfony/Component/HttpKernel/Tests/Fragment/InlineFragmentRendererTest.php",
+"src/Symfony/Component/HttpKernel/Tests/HttpCache/HttpCacheTest.php",
+"src/Symfony/Component/HttpKernel/Fragment/InlineFragmentRenderer.php",
+"src/Symfony/Component/HttpKernel/HttpCache/HttpCache.php",
+"src/Symfony/Component/HttpKernel/Tests/HttpCache/TestHttpKernel.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 7.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-20"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/Symfony/Component/HttpFoundation/Request.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-10912",
+"patch_date": [
+"2019-04-02 17:51:53+02:00"
+],
+"patch_files": [
+"src/Symfony/Component/Cache/Traits/FilesystemCommonTrait.php",
+"src/Symfony/Bridge/PhpUnit/Legacy/SymfonyTestsListenerTrait.php",
+"src/Symfony/Bundle/FrameworkBundle/Tests/Kernel/ConcreteMicroKernel.php"
+],
+"earliest_patch_date": "2019-04-02 17:51:53+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 4.2
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-502"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-10909",
+"patch_date": [
+"2019-04-06 11:38:26+02:00"
+],
+"patch_files": [
+"src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/form_start.html.php",
+"src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/form_errors.html.php",
+"src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/choice_widget_collapsed.html.php"
+],
+"earliest_patch_date": "2019-04-06 11:38:26+02:00",
+"earliest_vuln_date": "2012-04-27 09:47:16+02:00",
+"vuln_files": [
+"src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/form_start.html.php",
+"src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/form_errors.html.php",
+"src/Symfony/Bundle/FrameworkBundle/Resources/views/Form/choice_widget_collapsed.html.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-10911",
+"patch_date": [
+"2019-04-06 21:17:28+02:00"
+],
+"patch_files": [
+"src/Symfony/Component/Security/Http/RememberMe/TokenBasedRememberMeServices.php"
+],
+"earliest_patch_date": "2019-04-06 21:17:28+02:00",
+"earliest_vuln_date": "2015-07-02 01:04:13+02:00",
+"vuln_files": [
+"src/Symfony/Component/Security/Http/RememberMe/TokenBasedRememberMeServices.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.6,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 6.8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-287"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-10913",
+"patch_date": [
+"2019-04-16 07:40:48+01:00"
+],
+"patch_files": [
+"src/Symfony/Component/HttpFoundation/Request.php"
+],
+"earliest_patch_date": "2019-04-16 07:40:48+01:00",
+"earliest_vuln_date": "2010-02-17 14:53:18+01:00",
+"vuln_files": [
+"src/Symfony/Component/HttpFoundation/Request.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-89",
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/Symfony/Component/HttpFoundation/Request.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-10910",
+"patch_date": [
+"2019-04-16 13:13:42+02:00"
+],
+"patch_files": [
+"src/Symfony/Component/DependencyInjection/Tests/Fixtures/php/services_unsupported_characters.php",
+"src/Symfony/Component/DependencyInjection/Tests/Fixtures/php/services_subscriber.php",
+"src/Symfony/Component/DependencyInjection/Tests/Fixtures/php/services_inline_self_ref.php",
+"src/Symfony/Component/DependencyInjection/Tests/Fixtures/php/services_rot13_env.php",
+"src/Symfony/Component/DependencyInjection/Tests/Fixtures/php/services33.php",
+"src/Symfony/Component/DependencyInjection/Tests/ContainerBuilderTest.php",
+"src/Symfony/Bridge/ProxyManager/LazyProxy/PhpDumper/ProxyDumper.php",
+"src/Symfony/Component/DependencyInjection/Tests/Fixtures/php/services_adawson.php",
+"src/Symfony/Component/DependencyInjection/Tests/Dumper/PhpDumperTest.php",
+"src/Symfony/Component/DependencyInjection/Dumper/PhpDumper.php",
+"src/Symfony/Component/DependencyInjection/Tests/Fixtures/php/services_inline_requires.php",
+"src/Symfony/Component/DependencyInjection/ContainerBuilder.php"
+],
+"earliest_patch_date": "2019-04-16 13:13:42+02:00",
+"earliest_vuln_date": "2017-01-07 17:52:01+01:00",
+"vuln_files": [
+"src/Symfony/Component/DependencyInjection/Tests/Fixtures/php/services_subscriber.php",
+"src/Symfony/Component/DependencyInjection/Tests/Fixtures/php/services_inline_self_ref.php",
+"src/Symfony/Component/DependencyInjection/Tests/Fixtures/php/services_rot13_env.php",
+"src/Symfony/Component/DependencyInjection/Tests/Fixtures/php/services33.php",
+"src/Symfony/Component/DependencyInjection/Tests/Fixtures/php/services_adawson.php",
+"src/Symfony/Bridge/ProxyManager/LazyProxy/PhpDumper/ProxyDumper.php",
+"src/Symfony/Component/DependencyInjection/Tests/Dumper/PhpDumperTest.php",
+"src/Symfony/Component/DependencyInjection/Dumper/PhpDumper.php",
+"src/Symfony/Component/DependencyInjection/Tests/Fixtures/php/services_inline_requires.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-89"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-89"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-5274",
+"patch_date": [
+"2020-02-04 10:53:50+01:00",
+"2020-01-26 15:27:56-05:00"
+],
+"patch_files": [
+"src/Symfony/Component/ErrorHandler/ErrorHandler.php",
+"src/Symfony/Component/ErrorHandler/Debug.php",
+"src/Symfony/Component/ErrorHandler/Resources/views/traces_text.html.php"
+],
+"earliest_patch_date": "2020-01-26 15:27:56-05:00",
+"earliest_vuln_date": "2019-07-18 09:54:35+02:00",
+"vuln_files": [
+"src/Symfony/Component/ErrorHandler/Resources/views/traces_text.html.php",
+"src/Symfony/Component/ErrorHandler/Debug.php",
+"src/Symfony/Component/ErrorHandler/ErrorHandler.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.5
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-209"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-5275",
+"patch_date": [
+"2020-03-30 13:55:16+02:00"
+],
+"patch_files": [
+"src/Symfony/Component/Security/Http/Firewall/AccessListener.php",
+"src/Symfony/Component/Security/Core/Authorization/AccessDecisionManager.php",
+"src/Symfony/Component/Security/Http/composer.json",
+"src/Symfony/Component/Security/Http/Tests/Firewall/AccessListenerTest.php"
+],
+"earliest_patch_date": "2020-03-30 13:55:16+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.2
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-863"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-5255",
+"patch_date": [
+"2020-03-30 16:08:46+02:00"
+],
+"patch_files": [
+"src/Symfony/Component/HttpFoundation/Request.php",
+"src/Symfony/Component/HttpFoundation/Response.php",
+"src/Symfony/Component/HttpFoundation/Tests/ResponseTest.php",
+"src/Symfony/Component/ErrorHandler/ErrorRenderer/SerializerErrorRenderer.php"
+],
+"earliest_patch_date": "2020-03-30 16:08:46+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "LOW",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-20"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-20"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/Symfony/Component/HttpFoundation/Request.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-15094",
+"patch_date": [
+"2020-09-02 09:40:48+02:00"
+],
+"patch_files": [
+"src/Symfony/Component/HttpKernel/HttpClientKernel.php",
+"src/Symfony/Component/HttpClient/Tests/Fixtures/assertion_failure.php",
+"src/Symfony/Component/HttpClient/Tests/CachingHttpClientTest.php"
+],
+"earliest_patch_date": "2020-09-02 09:40:48+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-21424",
+"patch_date": [
+"2021-05-12 14:32:10+02:00"
+],
+"patch_files": [
+"src/Symfony/Component/Security/Guard/Tests/Firewall/GuardAuthenticationListenerTest.php",
+"src/Symfony/Component/Security/Core/Authentication/Provider/UserAuthenticationProvider.php",
+"src/Symfony/Component/Security/Guard/Firewall/GuardAuthenticationListener.php",
+"src/Symfony/Component/Security/Core/Tests/Authentication/Provider/UserAuthenticationProviderTest.php",
+"src/Symfony/Bundle/SecurityBundle/Resources/config/guard.xml"
+],
+"earliest_patch_date": "2021-05-12 14:32:10+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-32693",
+"patch_date": [
+"2021-06-16 13:32:12+02:00"
+],
+"patch_files": [
+"src/Symfony/Bundle/SecurityBundle/Tests/Functional/AuthenticatorTest.php",
+"src/Symfony/Bundle/SecurityBundle/Tests/Functional/app/Authenticator/routing.yml",
+"src/Symfony/Component/Security/Http/Tests/Firewall/ContextListenerTest.php",
+"src/Symfony/Bundle/SecurityBundle/composer.json",
+"src/Symfony/Bundle/SecurityBundle/Tests/Functional/app/Authenticator/multiple_firewalls.yml",
+"src/Symfony/Component/Security/Http/Firewall/ContextListener.php"
+],
+"earliest_patch_date": "2021-06-16 13:32:12+02:00",
+"earliest_vuln_date": "2021-02-12 16:42:42+01:00",
+"vuln_files": [
+"src/Symfony/Component/Security/Http/Firewall/ContextListener.php",
+"src/Symfony/Component/Security/Http/Tests/Firewall/ContextListenerTest.php",
+"src/Symfony/Bundle/SecurityBundle/composer.json"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-41267",
+"patch_date": [
+"2021-10-09 14:28:01+02:00"
+],
+"patch_files": [
+"src/Symfony/Component/HttpKernel/Tests/HttpCache/SubRequestHandlerTest.php",
+"src/Symfony/Component/HttpKernel/HttpCache/SubRequestHandler.php"
+],
+"earliest_patch_date": "2021-10-09 14:28:01+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/Symfony/Component/HttpKernel/Tests/HttpCache/SubRequestHandlerTest.php",
+"src/Symfony/Component/HttpKernel/HttpCache/SubRequestHandler.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-41268",
+"patch_date": [
+"2021-10-23 14:13:53+02:00"
+],
+"patch_files": [
+"src/Symfony/Bundle/SecurityBundle/Tests/Functional/RememberMeTest.php",
+"src/Symfony/Bundle/SecurityBundle/DependencyInjection/Security/Factory/RememberMeFactory.php",
+"src/Symfony/Bundle/SecurityBundle/Tests/Functional/Bundle/RememberMeBundle/Security/UserChangingUserProvider.php"
+],
+"earliest_patch_date": "2021-10-23 14:13:53+02:00",
+"earliest_vuln_date": "2021-04-11 14:47:19+02:00",
+"vuln_files": [
+"src/Symfony/Bundle/SecurityBundle/Tests/Functional/RememberMeTest.php",
+"src/Symfony/Bundle/SecurityBundle/Tests/Functional/Bundle/RememberMeBundle/Security/UserChangingUserProvider.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-41270",
+"patch_date": [
+"2021-11-15 11:47:04+01:00"
+],
+"patch_files": [
+"src/Symfony/Component/Serializer/Encoder/CsvEncoder.php",
+"src/Symfony/Component/Serializer/Tests/Encoder/CsvEncoderTest.php"
+],
+"earliest_patch_date": "2021-11-15 11:47:04+01:00",
+"earliest_vuln_date": "2018-02-06 11:21:01+01:00",
+"vuln_files": [
+"src/Symfony/Component/Serializer/Encoder/CsvEncoder.php",
+"src/Symfony/Component/Serializer/Tests/Encoder/CsvEncoderTest.php"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-23601",
+"patch_date": [
+"2022-01-28 18:48:02+01:00"
+],
+"patch_files": [
+"src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/php/form_default_csrf.php",
+"src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/yml/form_default_csrf.yml",
+"src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/Fixtures/xml/form_default_csrf.xml",
+"src/Symfony/Bundle/FrameworkBundle/Tests/DependencyInjection/FrameworkExtensionTest.php",
+"src/Symfony/Bundle/FrameworkBundle/DependencyInjection/FrameworkExtension.php"
+],
+"earliest_patch_date": "2022-01-28 18:48:02+01:00",
+"earliest_vuln_date": "2011-05-18 15:45:34+02:00",
+"vuln_files": [
+"src/Symfony/Bundle/FrameworkBundle/DependencyInjection/FrameworkExtension.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-24894",
+"patch_date": [
+"2022-05-04 16:58:11+02:00"
+],
+"patch_files": [
+"src/Symfony/Component/HttpKernel/Tests/HttpCache/StoreTest.php",
+"src/Symfony/Component/HttpKernel/HttpCache/Store.php"
+],
+"earliest_patch_date": "2022-05-04 16:58:11+02:00",
+"earliest_vuln_date": "2011-03-23 19:47:16+01:00",
+"vuln_files": [
+"src/Symfony/Component/HttpKernel/HttpCache/Store.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-24895",
+"patch_date": [
+"2023-01-24 11:39:54+01:00"
+],
+"patch_files": [
+"src/Symfony/Bundle/SecurityBundle/Tests/Functional/LogoutTest.php",
+"src/Symfony/Component/Security/Http/Session/SessionAuthenticationStrategy.php",
+"src/Symfony/Component/Security/Http/Tests/Session/SessionAuthenticationStrategyTest.php",
+"src/Symfony/Bundle/SecurityBundle/composer.json",
+"src/Symfony/Bundle/SecurityBundle/Resources/config/security.xml",
+"src/Symfony/Bundle/SecurityBundle/Tests/Functional/CsrfFormLoginTest.php"
+],
+"earliest_patch_date": "2023-01-24 11:39:54+01:00",
+"earliest_vuln_date": "2017-11-07 15:45:01+01:00",
+"vuln_files": [
+"src/Symfony/Component/Security/Http/Session/SessionAuthenticationStrategy.php",
+"src/Symfony/Bundle/SecurityBundle/composer.json",
+"src/Symfony/Bundle/SecurityBundle/Tests/Functional/LogoutTest.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/Symfony/Bundle/SecurityBundle/composer.json"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-46733",
+"patch_date": [
+"2023-11-09 19:15:13+01:00",
+"2023-11-03 17:13:08+01:00"
+],
+"patch_files": [
+"src/Symfony/Component/Security/Http/Tests/EventListener/SessionStrategyListenerTest.php",
+"src/Symfony/Component/Security/Http/EventListener/SessionStrategyListener.php"
+],
+"earliest_patch_date": "2023-11-03 17:13:08+01:00",
+"earliest_vuln_date": "2023-02-26 13:08:44+01:00",
+"vuln_files": [
+"src/Symfony/Component/Security/Http/EventListener/SessionStrategyListener.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-46735",
+"patch_date": [
+"2023-11-06 09:29:40+01:00"
+],
+"patch_files": [
+"src/Symfony/Component/Webhook/Controller/WebhookController.php"
+],
+"earliest_patch_date": "2023-11-06 09:29:40+01:00",
+"earliest_vuln_date": "2023-03-15 12:27:31+01:00",
+"vuln_files": [
+"src/Symfony/Component/Webhook/Controller/WebhookController.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-46734",
+"patch_date": [
+"2023-11-09 22:17:40+01:00",
+"2023-11-09 17:06:09+01:00"
+],
+"patch_files": [
+"src/Symfony/Bridge/Twig/Extension/CodeExtension.php",
+"src/Symfony/Bridge/Twig/Tests/Extension/CodeExtensionTest.php"
+],
+"earliest_patch_date": "2023-11-09 17:06:09+01:00",
+"earliest_vuln_date": "2012-11-12 15:07:56+01:00",
+"vuln_files": [
+"src/Symfony/Bridge/Twig/Extension/CodeExtension.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-50341",
+"patch_date": [
+"2024-07-17 12:49:44+02:00"
+],
+"patch_files": [
+"src/Symfony/Bundle/SecurityBundle/DependencyInjection/SecurityExtension.php",
+"src/Symfony/Bundle/SecurityBundle/Security.php",
+"src/Symfony/Bundle/SecurityBundle/Tests/SecurityTest.php",
+"src/Symfony/Bundle/SecurityBundle/Resources/config/security.php"
+],
+"earliest_patch_date": "2024-07-17 12:49:44+02:00",
+"earliest_vuln_date": "2022-07-04 17:22:53+02:00",
+"vuln_files": [
+"src/Symfony/Bundle/SecurityBundle/Security.php",
+"src/Symfony/Bundle/SecurityBundle/Tests/SecurityTest.php",
+"src/Symfony/Bundle/SecurityBundle/Resources/config/security.php"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-50343",
+"patch_date": [
+"2024-08-13 11:48:14+02:00"
+],
+"patch_files": [
+"src/Symfony/Component/Validator/Tests/Constraints/CardSchemeValidatorTest.php",
+"src/Symfony/Component/Validator/Constraints/CssColorValidator.php",
+"src/Symfony/Component/Validator/Tests/Constraints/CssColorValidatorTest.php",
+"src/Symfony/Component/Validator/Tests/Constraints/TimeValidatorTest.php",
+"src/Symfony/Component/Validator/Constraints/CardSchemeValidator.php",
+"src/Symfony/Component/Validator/Constraints/TimeValidator.php",
+"src/Symfony/Component/Validator/Tests/Constraints/IbanValidatorTest.php",
+"src/Symfony/Component/Validator/Tests/Constraints/EmailValidatorTest.php",
+"src/Symfony/Component/Validator/Tests/Constraints/UrlValidatorTest.php",
+"src/Symfony/Component/Validator/Constraints/EmailValidator.php",
+"src/Symfony/Component/Validator/Constraints/DateValidator.php",
+"src/Symfony/Component/Validator/Tests/Constraints/DateValidatorTest.php",
+"src/Symfony/Component/Validator/Constraints/UrlValidator.php"
+],
+"earliest_patch_date": "2024-08-13 11:48:14+02:00",
+"earliest_vuln_date": "2011-06-20 12:57:46+02:00",
+"vuln_files": [
+"src/Symfony/Component/Validator/Constraints/CssColorValidator.php",
+"src/Symfony/Component/Validator/Constraints/CardSchemeValidator.php",
+"src/Symfony/Component/Validator/Constraints/TimeValidator.php",
+"src/Symfony/Component/Validator/Constraints/EmailValidator.php",
+"src/Symfony/Component/Validator/Constraints/DateValidator.php",
+"src/Symfony/Component/Validator/Constraints/UrlValidator.php"
+],
+"impact": {},
+"cwes": [
+"CWE-20"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-20"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-50342",
+"patch_date": [
+"2024-10-25 13:45:42+02:00"
+],
+"patch_files": [
+"src/Symfony/Component/HttpClient/Tests/NoPrivateNetworkHttpClientTest.php",
+"src/Symfony/Component/HttpClient/NoPrivateNetworkHttpClient.php"
+],
+"earliest_patch_date": "2024-10-25 13:45:42+02:00",
+"earliest_vuln_date": "2020-02-03 17:39:30+01:00",
+"vuln_files": [
+"src/Symfony/Component/HttpClient/Tests/NoPrivateNetworkHttpClientTest.php",
+"src/Symfony/Component/HttpClient/NoPrivateNetworkHttpClient.php"
+],
+"impact": {},
+"cwes": [
+"CWE-200"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-50340",
+"patch_date": [
+"2024-11-05 13:04:22+01:00"
+],
+"patch_files": [
+"src/Symfony/Component/Runtime/Tests/phpt/kernel.phpt",
+"src/Symfony/Component/Runtime/SymfonyRuntime.php",
+"src/Symfony/Component/Runtime/Tests/phpt/kernel.php",
+"src/Symfony/Component/Runtime/Tests/phpt/kernel_register_argc_argv.phpt"
+],
+"earliest_patch_date": "2024-11-05 13:04:22+01:00",
+"earliest_vuln_date": "2021-03-09 21:44:54+01:00",
+"vuln_files": [
+"src/Symfony/Component/Runtime/Tests/phpt/kernel.phpt",
+"src/Symfony/Component/Runtime/SymfonyRuntime.php",
+"src/Symfony/Component/Runtime/Tests/phpt/kernel.php"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

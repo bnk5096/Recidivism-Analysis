@@ -1,0 +1,52 @@
+[
+{
+"cve_id": "CVE-2023-45897",
+"patch_date": [
+"2023-08-22 15:27:18+09:00",
+"2023-10-26 14:37:35+09:00",
+"2023-10-26 14:14:09+09:00"
+],
+"patch_files": [
+"include/exfat_ondisk.h",
+"fsck/fsck.c",
+"exfat2img/exfat2img.c"
+],
+"earliest_patch_date": "2023-08-22 15:27:18+09:00",
+"earliest_vuln_date": "2020-01-25 14:03:03+09:00",
+"vuln_files": [
+"fsck/fsck.c",
+"exfat2img/exfat2img.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 5.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-125"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

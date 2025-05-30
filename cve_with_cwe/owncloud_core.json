@@ -1,0 +1,1069 @@
+[
+{
+"cve_id": "CVE-2012-4397",
+"patch_date": [
+"2012-05-31 20:03:15+02:00",
+"2012-05-21 21:49:35+02:00"
+],
+"patch_files": [
+"apps/contacts/lib/vcard.php",
+"apps/calendar/templates/part.choosecalendar.rowfields.shared.php",
+"apps/calendar/templates/part.choosecalendar.rowfields.php"
+],
+"earliest_patch_date": "2012-05-21 21:49:35+02:00",
+"earliest_vuln_date": "2012-02-04 21:23:31+01:00",
+"vuln_files": [
+"apps/calendar/templates/part.choosecalendar.rowfields.shared.php",
+"apps/calendar/templates/part.choosecalendar.rowfields.php"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2012-4396",
+"patch_date": [
+"2012-06-05 10:49:36+02:00",
+"2012-06-05 10:49:26+02:00",
+"2012-06-09 16:36:01+02:00",
+"2012-06-09 15:08:05+02:00",
+"2012-06-09 16:44:48+02:00",
+"2012-06-11 11:56:54+02:00",
+"2012-06-11 11:54:03+02:00",
+"2012-06-11 11:56:11+02:00",
+"2012-06-11 11:54:45+02:00"
+],
+"patch_files": [
+"apps/bookmarks/ajax/addBookmark.php",
+"apps/user_ldap/settings.php",
+"apps/gallery/lib/tiles.php",
+"apps/calendar/templates/part.import.php",
+"apps/gallery/templates/index.php",
+"apps/bookmarks/addBm.php",
+"apps/bookmarks/js/bookmarks.js",
+"apps/bookmarks/js/addBm.js",
+"apps/bookmarks/ajax/editBookmark.php",
+"apps/bookmarks/ajax/recordClick.php",
+"apps/user_openid/settings.php",
+"apps/media/lib_scanner.php",
+"apps/calendar/lib/object.php",
+"core/js/multiselect.js",
+"apps/calendar/templates/part.choosecalendar.rowfields.php",
+"apps/bookmarks/ajax/delBookmark.php",
+"apps/bookmarks/ajax/updateList.php",
+"apps/bookmarks/js/bookmarksearch.js"
+],
+"earliest_patch_date": "2012-06-05 10:49:26+02:00",
+"earliest_vuln_date": "2011-07-22 06:30:52+02:00",
+"vuln_files": [
+"apps/calendar/lib/object.php",
+"apps/media/lib_scanner.php",
+"apps/calendar/templates/part.choosecalendar.rowfields.php",
+"core/js/multiselect.js",
+"apps/user_ldap/settings.php",
+"apps/gallery/lib/tiles.php",
+"apps/gallery/templates/index.php",
+"apps/bookmarks/addBm.php",
+"apps/bookmarks/ajax/addBookmark.php",
+"apps/bookmarks/ajax/delBookmark.php",
+"apps/bookmarks/ajax/editBookmark.php",
+"apps/bookmarks/ajax/recordClick.php",
+"apps/bookmarks/ajax/updateList.php",
+"apps/user_openid/settings.php"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"apps/calendar/templates/part.choosecalendar.rowfields.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2012-4395",
+"patch_date": [
+"2012-06-15 16:16:00+02:00"
+],
+"patch_files": [
+"index.php"
+],
+"earliest_patch_date": "2012-06-15 16:16:00+02:00",
+"earliest_vuln_date": "2012-05-18 16:56:48-04:00",
+"vuln_files": [
+"index.php"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2012-4394",
+"patch_date": [
+"2012-07-11 19:15:11+02:00"
+],
+"patch_files": [
+"apps/files/js/filelist.js"
+],
+"earliest_patch_date": "2012-07-11 19:15:11+02:00",
+"earliest_vuln_date": "2011-08-02 03:17:26+02:00",
+"vuln_files": [
+"apps/files/js/filelist.js"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2012-4393",
+"patch_date": [
+"2012-07-20 20:12:36+02:00",
+"2012-07-20 20:39:20+02:00"
+],
+"patch_files": [
+"apps/calendar/ajax/calendar/new.php",
+"apps/calendar/ajax/calendar/delete.php",
+"settings/ajax/changepassword.php",
+"apps/tasks/ajax/delete.php",
+"apps/files_sharing/ajax/togglesharewitheveryone.php",
+"apps/bookmarks/ajax/editBookmark.php",
+"settings/ajax/enableapp.php",
+"apps/files_sharing/ajax/toggleresharing.php",
+"apps/files_texteditor/ajax/savefile.php",
+"apps/files_sharing/ajax/share.php",
+"apps/files_sharing/ajax/unshare.php",
+"apps/calendar/ajax/import/import.php",
+"settings/ajax/setloglevel.php",
+"apps/gallery/ajax/createAlbum.php",
+"settings/ajax/disableapp.php",
+"settings/ajax/setquota.php",
+"apps/files_sharing/ajax/email.php",
+"apps/bookmarks/ajax/addBookmark.php",
+"settings/ajax/creategroup.php",
+"apps/tasks/ajax/edittask.php",
+"apps/gallery/ajax/sharing.php",
+"apps/calendar/ajax/event/move.php",
+"apps/calendar/ajax/event/edit.php",
+"apps/calendar/ajax/share/changepermission.php",
+"settings/ajax/togglegroups.php",
+"apps/external/ajax/setsites.php",
+"apps/files_sharing/ajax/setpermissions.php",
+"apps/calendar/ajax/calendar/update.php",
+"apps/files/ajax/delete.php",
+"apps/calendar/ajax/event/new.php",
+"apps/files/ajax/newfolder.php",
+"apps/files_versions/ajax/rollbackVersion.php",
+"settings/ajax/createuser.php",
+"settings/ajax/removeuser.php",
+"apps/bookmarks/ajax/delBookmark.php",
+"apps/calendar/ajax/event/delete.php",
+"apps/calendar/ajax/settings/setfirstday.php",
+"settings/ajax/setlanguage.php",
+"apps/calendar/ajax/share/share.php",
+"apps/tasks/ajax/addtaskform.php",
+"settings/ajax/removegroup.php",
+"settings/ajax/lostpassword.php",
+"apps/calendar/ajax/share/unshare.php",
+"apps/files/ajax/move.php",
+"apps/files/ajax/rename.php",
+"apps/tasks/ajax/addtask.php",
+"apps/calendar/ajax/settings/settimeformat.php",
+"apps/files/ajax/newfile.php",
+"apps/calendar/ajax/calendar/edit.php"
+],
+"earliest_patch_date": "2012-07-20 20:12:36+02:00",
+"earliest_vuln_date": "2012-06-04 18:44:55+00:00",
+"vuln_files": [
+"settings/ajax/lostpassword.php"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-352"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"apps/bookmarks/ajax/editBookmark.php",
+"apps/bookmarks/ajax/addBookmark.php",
+"apps/bookmarks/ajax/delBookmark.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2012-4752",
+"patch_date": [
+"2012-07-26 00:06:51+02:00"
+],
+"patch_files": [
+"core/ajax/appconfig.php"
+],
+"earliest_patch_date": "2012-07-26 00:06:51+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-264"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2012-4391",
+"patch_date": [
+"2012-08-10 00:11:04+02:00"
+],
+"patch_files": [
+"core/ajax/appconfig.php"
+],
+"earliest_patch_date": "2012-08-10 00:11:04+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-352"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-352"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"core/ajax/appconfig.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2012-4389",
+"patch_date": [
+"2012-08-13 01:26:28+02:00"
+],
+"patch_files": [
+"lib/migrate.php"
+],
+"earliest_patch_date": "2012-08-13 01:26:28+02:00",
+"earliest_vuln_date": "2012-03-20 20:19:21+00:00",
+"vuln_files": [
+"lib/migrate.php"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2012-4392",
+"patch_date": [
+"2012-08-13 01:26:28+02:00"
+],
+"patch_files": [
+"lib/migrate.php"
+],
+"earliest_patch_date": "2012-08-13 01:26:28+02:00",
+"earliest_vuln_date": "2012-03-20 20:19:21+00:00",
+"vuln_files": [
+"lib/migrate.php"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-287"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/migrate.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2012-4390",
+"patch_date": [
+"2012-08-14 17:19:20+02:00"
+],
+"patch_files": [
+"apps/calendar/appinfo/remote.php",
+"apps/contacts/appinfo/remote.php"
+],
+"earliest_patch_date": "2012-08-14 17:19:20+02:00",
+"earliest_vuln_date": "2011-08-06 22:32:06+02:00",
+"vuln_files": [
+"apps/calendar/appinfo/remote.php",
+"apps/contacts/appinfo/remote.php"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-200"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2015-4715",
+"patch_date": [
+"2015-06-01 17:06:58+02:00"
+],
+"patch_files": [
+"apps/files_external/3rdparty/Dropbox/OAuth/Curl.php"
+],
+"earliest_patch_date": "2015-06-01 17:06:58+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.9,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-552"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2016-9460",
+"patch_date": [
+"2016-07-06 12:02:04+02:00"
+],
+"patch_files": [
+"apps/files/js/filelist.js",
+"apps/files/tests/js/filelistSpec.js"
+],
+"earliest_patch_date": "2016-07-06 12:02:04+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-284"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"apps/files/js/filelist.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2016-9461",
+"patch_date": [
+"2016-07-12 08:56:13+02:00"
+],
+"patch_files": [
+"build/integration/features/bootstrap/WebDav.php",
+"build/integration/features/webdav-related.feature",
+"apps/dav/lib/connector/sabre/objecttree.php",
+"apps/dav/tests/unit/connector/sabre/objecttree.php"
+],
+"earliest_patch_date": "2016-07-12 08:56:13+02:00",
+"earliest_vuln_date": "2015-11-19 12:45:12+00:00",
+"vuln_files": [
+"build/integration/features/bootstrap/WebDav.php",
+"build/integration/features/webdav-related.feature"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-284"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-284"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2016-9462",
+"patch_date": [
+"2016-07-13 10:41:05+02:00",
+"2016-07-13 10:40:38+02:00"
+],
+"patch_files": [
+"apps/files_versions/lib/storage.php",
+"apps/files_versions/tests/versions.php"
+],
+"earliest_patch_date": "2016-07-13 10:40:38+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-284"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-284"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2016-9465",
+"patch_date": [
+"2016-10-25 10:51:15+02:00"
+],
+"patch_files": [
+"apps/dav/tests/unit/CardDAV/ImageExportPluginTest.php",
+"apps/dav/lib/CardDAV/ImageExportPlugin.php"
+],
+"earliest_patch_date": "2016-10-25 10:51:15+02:00",
+"earliest_vuln_date": "2016-06-21 15:25:44+02:00",
+"vuln_files": [
+"apps/dav/tests/unit/CardDAV/ImageExportPluginTest.php",
+"apps/dav/lib/CardDAV/ImageExportPlugin.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": true,
+"intro_duplicated_types": [
+"CWE-79"
+],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2016-9468",
+"patch_date": [
+"2016-10-25 17:54:12+02:00",
+"2016-10-25 10:52:50+02:00"
+],
+"patch_files": [
+"apps/dav/lib/files/browsererrorpageplugin.php",
+"apps/dav/templates/exception.php",
+"apps/dav/lib/Files/BrowserErrorPagePlugin.php"
+],
+"earliest_patch_date": "2016-10-25 10:52:50+02:00",
+"earliest_vuln_date": "2016-03-24 19:02:16+01:00",
+"vuln_files": [
+"apps/dav/lib/files/browsererrorpageplugin.php",
+"apps/dav/templates/exception.php",
+"apps/dav/lib/Files/BrowserErrorPagePlugin.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-284"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-284"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2016-9467",
+"patch_date": [
+"2016-10-25 11:40:45+02:00"
+],
+"patch_files": [
+"apps/files/js/filelist.js",
+"apps/files/tests/js/filelistSpec.js"
+],
+"earliest_patch_date": "2016-10-25 11:40:45+02:00",
+"earliest_vuln_date": "2015-11-22 16:05:50+01:00",
+"vuln_files": [
+"apps/files/js/filelist.js",
+"apps/files/tests/js/filelistSpec.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-284"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-284"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"apps/files/js/filelist.js",
+"apps/files/tests/js/filelistSpec.js"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"apps/files/js/filelist.js"
+]
+}
+]

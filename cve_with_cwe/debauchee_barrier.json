@@ -1,0 +1,103 @@
+[
+{
+"cve_id": "CVE-2021-42073",
+"patch_date": [
+"2021-11-01 05:15:48+02:00",
+"2021-11-01 04:50:15+02:00"
+],
+"patch_files": [
+"doc/newsfragments/client-send-certificate.feature",
+"src/lib/net/SecureListenSocket.cpp",
+"src/lib/client/Client.cpp",
+"src/gui/CMakeLists.txt",
+"src/lib/net/SecureSocket.h",
+"src/lib/net/SecureListenSocket.h",
+"src/test/integtests/net/NetworkTests.cpp",
+"src/gui/src/FingerprintAcceptDialog.h",
+"src/gui/src/SslCertificate.cpp",
+"src/gui/src/AppConfig.cpp",
+"src/gui/src/FingerprintAcceptDialog.cpp",
+"doc/newsfragments/client-certificate-checking.bugfix",
+"src/lib/server/ClientListener.cpp",
+"src/lib/net/ConnectionSecurityLevel.h",
+"src/gui/src/AppConfig.h",
+"src/lib/barrier/ServerApp.cpp",
+"src/lib/barrier/BarrierType.h",
+"src/lib/barrier/ArgParser.cpp",
+"src/gui/src/FingerprintAcceptDialog.ui",
+"src/lib/barrier/ServerArgs.h",
+"src/gui/src/ZeroconfService.cpp",
+"src/gui/src/SettingsDialog.cpp",
+"src/lib/net/TCPSocketFactory.cpp",
+"src/gui/src/MainWindow.h",
+"src/gui/src/MainWindow.cpp",
+"src/gui/src/SettingsDialogBase.ui",
+"src/lib/net/SecureSocket.cpp",
+"src/gui/src/MainWindowBase.ui",
+"src/lib/net/TCPSocketFactory.h",
+"src/lib/net/ISocketFactory.h",
+"src/lib/server/ClientListener.h"
+],
+"earliest_patch_date": "2021-11-01 04:50:15+02:00",
+"earliest_vuln_date": "2014-10-22 16:35:28+01:00",
+"vuln_files": [
+"src/gui/src/MainWindow.cpp",
+"src/lib/net/SecureSocket.cpp",
+"src/lib/barrier/ArgParser.cpp",
+"src/lib/barrier/ServerApp.cpp",
+"src/lib/client/Client.cpp"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 8.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 4.2
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-384"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

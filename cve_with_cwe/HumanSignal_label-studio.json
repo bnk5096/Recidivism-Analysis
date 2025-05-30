@@ -1,0 +1,244 @@
+[
+{
+"cve_id": "CVE-2023-43791",
+"patch_date": [
+"2023-08-28 13:47:35-05:00"
+],
+"patch_files": [
+"label_studio/core/utils/params.py",
+"label_studio/core/utils/io.py",
+"deploy/requirements.txt",
+"label_studio/core/settings/base.py"
+],
+"earliest_patch_date": "2023-08-28 13:47:35-05:00",
+"earliest_vuln_date": "2021-03-16 19:35:35+03:00",
+"vuln_files": [
+"label_studio/core/settings/base.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-47115",
+"patch_date": [
+"2023-10-18 20:22:32-05:00"
+],
+"patch_files": [
+"label_studio/templates/401.html",
+"label_studio/frontend/src/app/StaticContent/StaticContent.js",
+"label_studio/frontend/dist/react-app/index.js.LICENSE.txt",
+"label_studio/frontend/dist/react-app/index.js.map",
+"label_studio/frontend/src/components/Error/Error.js",
+"label_studio/frontend/package.json",
+"label_studio/templates/403.html",
+"label_studio/frontend/yarn.lock",
+"label_studio/templates/500.html",
+"label_studio/frontend/dist/react-app/index.js",
+"label_studio/templates/404.html"
+],
+"earliest_patch_date": "2023-10-18 20:22:32-05:00",
+"earliest_vuln_date": "2021-03-16 19:35:35+03:00",
+"vuln_files": [
+"label_studio/templates/401.html",
+"label_studio/frontend/src/app/StaticContent/StaticContent.js",
+"label_studio/frontend/dist/react-app/index.js.map",
+"label_studio/frontend/src/components/Error/Error.js",
+"label_studio/templates/403.html",
+"label_studio/frontend/yarn.lock",
+"label_studio/templates/500.html",
+"label_studio/frontend/dist/react-app/index.js",
+"label_studio/templates/404.html"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-47117",
+"patch_date": [
+"2023-11-08 13:52:43-05:00"
+],
+"patch_files": [
+"label_studio/tests/data_manager/api_tasks.tavern.yml",
+"label_studio/core/utils/params.py",
+"label_studio/data_manager/functions.py",
+"label_studio/data_manager/serializers.py",
+"label_studio/core/settings/base.py"
+],
+"earliest_patch_date": "2023-11-08 13:52:43-05:00",
+"earliest_vuln_date": "2021-09-27 13:16:18+01:00",
+"vuln_files": [
+"label_studio/core/utils/params.py",
+"label_studio/data_manager/functions.py",
+"label_studio/core/settings/base.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"label_studio/core/utils/params.py",
+"label_studio/core/settings/base.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-26152",
+"patch_date": [
+"2024-01-03 12:28:25+00:00"
+],
+"patch_files": [
+"label_studio/frontend/dist/lsf/version.json",
+"label_studio/frontend/dist/lsf/js/main.js",
+"label_studio/frontend/dist/lsf/js/main.js.map"
+],
+"earliest_patch_date": "2024-01-03 12:28:25+00:00",
+"earliest_vuln_date": "2023-12-27 22:30:27+00:00",
+"vuln_files": [
+"label_studio/frontend/dist/lsf/version.json",
+"label_studio/frontend/dist/lsf/js/main.js",
+"label_studio/frontend/dist/lsf/js/main.js.map"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-47116",
+"patch_date": [
+"2024-01-22 16:44:30-05:00"
+],
+"patch_files": [
+"label_studio/tests/data_import/test_uploader.py",
+"label_studio/core/utils/io.py",
+"label_studio/core/settings/base.py"
+],
+"earliest_patch_date": "2024-01-22 16:44:30-05:00",
+"earliest_vuln_date": "2022-06-15 13:15:09+03:00",
+"vuln_files": [
+"label_studio/tests/data_import/test_uploader.py",
+"label_studio/core/utils/io.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"CWE-918"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"label_studio/core/utils/io.py",
+"label_studio/core/settings/base.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

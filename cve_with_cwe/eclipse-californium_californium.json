@@ -1,0 +1,66 @@
+[
+{
+"cve_id": "CVE-2022-39368",
+"patch_date": [
+"2022-09-19 15:48:31+02:00",
+"2022-09-19 15:48:20+02:00"
+],
+"patch_files": [
+"scandium-core/src/main/java/org/eclipse/californium/scandium/dtls/Connection.java",
+"scandium-core/src/main/java/org/eclipse/californium/scandium/DtlsBindingPreprocessingConnector.java",
+"element-connector/src/main/java/org/eclipse/californium/elements/util/ExecutorsUtil.java",
+"scandium-core/src/main/java/org/eclipse/californium/scandium/DTLSConnector.java",
+"element-connector/src/main/java/org/eclipse/californium/elements/util/LimitedRunnable.java",
+"scandium-core/src/main/java/org/eclipse/californium/scandium/dtls/InMemoryReadWriteLockConnectionStore.java",
+"scandium-core/src/main/java/org/eclipse/californium/scandium/dtls/InMemoryConnectionStore.java",
+"scandium-core/src/test/java/org/eclipse/californium/scandium/DTLSConnectorAdvancedTest.java",
+"scandium-core/src/test/java/org/eclipse/californium/scandium/DTLSConnectorTest.java",
+"scandium-core/src/test/java/org/eclipse/californium/scandium/DTLSConnectorHandshakeTest.java",
+"element-connector/src/main/java/org/eclipse/californium/elements/util/SerialExecutor.java",
+"scandium-core/api-changes.json"
+],
+"earliest_patch_date": "2022-09-19 15:48:20+02:00",
+"earliest_vuln_date": "2015-03-31 17:40:31+02:00",
+"vuln_files": [
+"scandium-core/src/main/java/org/eclipse/californium/scandium/dtls/InMemoryConnectionStore.java",
+"scandium-core/src/main/java/org/eclipse/californium/scandium/DTLSConnector.java",
+"element-connector/src/main/java/org/eclipse/californium/elements/util/SerialExecutor.java",
+"scandium-core/src/main/java/org/eclipse/californium/scandium/dtls/Connection.java",
+"scandium-core/src/main/java/org/eclipse/californium/scandium/dtls/InMemoryReadWriteLockConnectionStore.java",
+"scandium-core/src/test/java/org/eclipse/californium/scandium/DTLSConnectorAdvancedTest.java",
+"scandium-core/src/test/java/org/eclipse/californium/scandium/DTLSConnectorTest.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "HIGH",
+"baseScore": 8.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 4.2
+}
+},
+"cwes": [
+"CWE-459",
+"CWE-404"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

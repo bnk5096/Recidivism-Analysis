@@ -1,0 +1,239 @@
+[
+{
+"cve_id": "CVE-2023-41317",
+"patch_date": [
+"2023-09-04 16:35:03+00:00"
+],
+"patch_files": [
+".changesets/fix_dragonfly_ship_win_folder.md",
+"apollo-router/src/context/mod.rs",
+"apollo-router/src/services/subgraph_service.rs"
+],
+"earliest_patch_date": "2023-09-04 16:35:03+00:00",
+"earliest_vuln_date": "2023-08-18 15:52:41+01:00",
+"vuln_files": [
+"apollo-router/src/context/mod.rs",
+"apollo-router/src/services/subgraph_service.rs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 5.9,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-755"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-28101",
+"patch_date": [
+"2024-03-06 10:26:44+00:00"
+],
+"patch_files": [
+"apollo-router/tests/telemetry/metrics.rs",
+"apollo-router/src/services/layers/content_negotiation.rs",
+"apollo-router/src/services/http/service.rs",
+"apollo-router/tests/common.rs",
+"apollo-router/src/axum_factory/utils.rs",
+"apollo-router/src/axum_factory/axum_http_server_factory.rs"
+],
+"earliest_patch_date": "2024-03-06 10:26:44+00:00",
+"earliest_vuln_date": "2022-09-26 03:29:41-05:00",
+"vuln_files": [
+"apollo-router/src/axum_factory/axum_http_server_factory.rs",
+"apollo-router/tests/telemetry/metrics.rs",
+"apollo-router/tests/common.rs",
+"apollo-router/src/axum_factory/utils.rs"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-32971",
+"patch_date": [
+"2024-04-26 23:52:11+03:00"
+],
+"patch_files": [
+"apollo-router-scaffold/templates/base/xtask/Cargo.toml",
+"apollo-router-benchmarks/Cargo.toml",
+"Cargo.lock",
+"apollo-router/src/query_planner/plan.rs",
+"apollo-router/src/plugins/progressive_override/snapshots/apollo_router__plugins__progressive_override__tests__overridden_field_yields_expected_query_plan.snap",
+"licenses.html",
+"dockerfiles/tracing/docker-compose.jaeger.yml",
+"CHANGELOG.md",
+"apollo-router/src/query_planner/caching_query_planner.rs",
+"apollo-router/src/plugins/telemetry/apollo_exporter.rs",
+"apollo-router/src/query_planner/fetch.rs",
+"apollo-router/src/plugins/snapshots/apollo_router__plugins__expose_query_plan__tests__it_expose_query_plan-2.snap",
+"apollo-router/src/plugins/progressive_override/snapshots/apollo_router__plugins__progressive_override__tests__non_overridden_field_yields_expected_query_plan.snap",
+"apollo-router/src/plugins/telemetry/tracing/datadog.rs",
+"apollo-router/tests/integration/redis.rs",
+"helm/chart/router/README.md",
+"apollo-router/src/spec/query/change.rs",
+"apollo-router/src/query_planner/snapshots/apollo_router__query_planner__bridge_query_planner__tests__plan_root.snap",
+"dockerfiles/tracing/docker-compose.datadog.yml",
+"apollo-router/src/query_planner/bridge_query_planner.rs",
+"apollo-router/src/spec/query.rs",
+".circleci/config.yml",
+"apollo-router/tests/integration/snapshots/integration_tests__integration__redis__test__query_planner.snap",
+"apollo-router/src/plugins/snapshots/apollo_router__plugins__expose_query_plan__tests__it_expose_query_plan.snap",
+"apollo-router-scaffold/templates/base/Cargo.toml",
+"apollo-router-scaffold/Cargo.toml",
+"dockerfiles/tracing/docker-compose.zipkin.yml",
+"helm/chart/router/Chart.yaml",
+"apollo-router/Cargo.toml",
+"scripts/install.sh"
+],
+"earliest_patch_date": "2024-04-26 23:52:11+03:00",
+"earliest_vuln_date": "2022-12-09 10:44:55+00:00",
+"vuln_files": [
+"apollo-router-scaffold/templates/base/xtask/Cargo.toml",
+"apollo-router-benchmarks/Cargo.toml",
+"Cargo.lock",
+"apollo-router/src/query_planner/plan.rs",
+"apollo-router/src/plugins/progressive_override/snapshots/apollo_router__plugins__progressive_override__tests__overridden_field_yields_expected_query_plan.snap",
+"licenses.html",
+"dockerfiles/tracing/docker-compose.jaeger.yml",
+"apollo-router/src/query_planner/fetch.rs",
+"apollo-router/src/plugins/telemetry/apollo_exporter.rs",
+"apollo-router/src/plugins/snapshots/apollo_router__plugins__expose_query_plan__tests__it_expose_query_plan-2.snap",
+"apollo-router/src/plugins/progressive_override/snapshots/apollo_router__plugins__progressive_override__tests__non_overridden_field_yields_expected_query_plan.snap",
+"apollo-router/src/plugins/telemetry/tracing/datadog.rs",
+"apollo-router/tests/integration/redis.rs",
+"helm/chart/router/README.md",
+"apollo-router/src/spec/query/change.rs",
+"apollo-router/src/query_planner/snapshots/apollo_router__query_planner__bridge_query_planner__tests__plan_root.snap",
+"dockerfiles/tracing/docker-compose.datadog.yml",
+"apollo-router/src/query_planner/bridge_query_planner.rs",
+"apollo-router/src/spec/query.rs",
+".circleci/config.yml",
+"apollo-router/tests/integration/snapshots/integration_tests__integration__redis__test__query_planner.snap",
+"apollo-router/src/plugins/snapshots/apollo_router__plugins__expose_query_plan__tests__it_expose_query_plan.snap",
+"apollo-router-scaffold/templates/base/Cargo.toml",
+"apollo-router-scaffold/Cargo.toml",
+"dockerfiles/tracing/docker-compose.zipkin.yml",
+"helm/chart/router/Chart.yaml",
+"apollo-router/Cargo.toml",
+"scripts/install.sh"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-43783",
+"patch_date": [
+"2024-08-27 09:12:15+03:00"
+],
+"patch_files": [
+"apollo-router/src/plugins/limits/mod.rs",
+"apollo-router/tests/integration/operation_limits.rs",
+"apollo-router/tests/integration/fixtures/coprocessor_body_limit.router.yaml",
+"apollo-router/src/plugins/telemetry/config_new/events.rs",
+"apollo-router/src/plugins/test.rs",
+"apollo-router/src/services/http/body_stream.rs",
+".changesets/fix_bryn_limits.md",
+"apollo-router/tests/integration/snapshots/integration_tests__integration__coprocessor__coprocessor_limit_payload.snap",
+"apollo-router/src/services/router.rs",
+"apollo-router/src/plugins/telemetry/logging/mod.rs",
+"apollo-router/src/plugins/limits/layer.rs",
+"apollo-router/tests/integration/coprocessor.rs",
+"apollo-router/src/services/router/service.rs",
+"apollo-router/tests/integration/fixtures/request_bytes_limit.router.yaml",
+"apollo-router/src/services/http.rs",
+"apollo-router/tests/integration/telemetry/metrics.rs",
+"apollo-router/src/router_factory.rs",
+"apollo-router/src/configuration/mod.rs",
+"apollo-router/src/services/router/tests.rs",
+"apollo-router/src/axum_factory/tests.rs",
+"apollo-router/tests/integration/fixtures/request_bytes_limit_with_coprocessor.router.yaml",
+"apollo-router/src/configuration/snapshots/apollo_router__configuration__tests__schema_generation.snap",
+"apollo-router/src/plugins/limits/fixtures/content_length_limit.router.yaml",
+"apollo-router/src/plugins/limits/limited.rs",
+"apollo-router/src/plugins/mod.rs"
+],
+"earliest_patch_date": "2024-08-27 09:12:15+03:00",
+"earliest_vuln_date": "2022-06-16 18:49:25+01:00",
+"vuln_files": [
+"apollo-router/src/configuration/mod.rs",
+"apollo-router/src/plugins/telemetry/config_new/events.rs",
+"apollo-router/src/plugins/test.rs",
+"apollo-router/src/axum_factory/tests.rs",
+"apollo-router/src/configuration/snapshots/apollo_router__configuration__tests__schema_generation.snap",
+"apollo-router/src/services/router/service.rs",
+"apollo-router/src/plugins/telemetry/logging/mod.rs",
+"apollo-router/tests/integration/telemetry/metrics.rs",
+"apollo-router/src/services/router.rs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-770"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

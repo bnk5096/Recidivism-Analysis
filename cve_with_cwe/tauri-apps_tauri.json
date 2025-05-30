@@ -1,0 +1,167 @@
+[
+{
+"cve_id": "CVE-2022-46171",
+"patch_date": [
+"2022-12-22 11:00:21-03:00",
+"2022-12-22 15:53:46+02:00"
+],
+"patch_files": [
+".changes/glob-match-require_literal_separator.md",
+"core/tauri/src/scope/fs.rs"
+],
+"earliest_patch_date": "2022-12-22 15:53:46+02:00",
+"earliest_vuln_date": "2022-03-03 15:41:58-03:00",
+"vuln_files": [
+"core/tauri/src/scope/fs.rs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.7,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.1,
+"impactScore": 4
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-31134",
+"patch_date": [
+"2023-04-12 11:43:57-03:00",
+"2023-04-12 11:50:38-03:00"
+],
+"patch_files": [
+".changes/remote-urls.md",
+"core/tauri/src/window.rs",
+"core/tauri-runtime/Cargo.toml",
+"core/tauri-runtime-wry/src/lib.rs",
+"core/tauri-build/src/static_vcruntime.rs",
+"core/tauri-runtime/src/window.rs",
+"core/tauri/src/pattern.rs",
+"core/tauri/src/manager.rs",
+"core/tauri/src/test/mock_runtime.rs",
+"core/tauri/src/app.rs",
+"core/tauri-runtime-wry/Cargo.toml",
+"examples/api/src-tauri/Cargo.lock"
+],
+"earliest_patch_date": "2023-04-12 11:43:57-03:00",
+"earliest_vuln_date": "2021-04-03 21:41:04-03:00",
+"vuln_files": [
+"core/tauri/src/app.rs",
+"core/tauri/src/window.rs",
+"core/tauri-runtime-wry/src/lib.rs",
+"core/tauri-build/src/static_vcruntime.rs",
+"core/tauri/src/pattern.rs",
+"core/tauri/src/manager.rs",
+"core/tauri-runtime/src/window.rs",
+"examples/api/src-tauri/Cargo.lock"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-34460",
+"patch_date": [
+"2023-06-17 09:17:36-03:00"
+],
+"patch_files": [
+".changes/config.json",
+"core/tauri-config-schema/schema.json",
+"core/tauri/src/scope/fs.rs",
+"tooling/cli/schema.json",
+"core/tauri-utils/src/config.rs",
+".changes/core-leading-dot.md"
+],
+"earliest_patch_date": "2023-06-17 09:17:36-03:00",
+"earliest_vuln_date": "2023-05-18 16:11:50+03:00",
+"vuln_files": [
+"core/tauri-config-schema/schema.json",
+"core/tauri/src/scope/fs.rs",
+"tooling/cli/schema.json"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-285"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"core/tauri/src/scope/fs.rs"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"core/tauri/src/scope/fs.rs"
+]
+}
+]

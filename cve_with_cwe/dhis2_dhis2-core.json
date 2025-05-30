@@ -1,0 +1,201 @@
+[
+{
+"cve_id": "CVE-2021-39179",
+"patch_date": [
+"2021-09-20 21:55:47+02:00"
+],
+"patch_files": [
+".patches/security/advisories.json"
+],
+"earliest_patch_date": "2021-09-20 21:55:47+02:00",
+"earliest_vuln_date": "2021-08-31 11:37:41+02:00",
+"vuln_files": [
+".patches/security/advisories.json"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-24848",
+"patch_date": [
+"2022-06-01 10:33:48+02:00",
+"2022-06-01 10:33:48+02:00"
+],
+"patch_files": [
+"dhis-2/dhis-services/dhis-service-core/src/test/java/org/hisp/dhis/common/IdentifiableObjectManagerTest.java",
+"dhis-2/dhis-services/dhis-service-core/src/main/java/org/hisp/dhis/association/ProgramOrganisationUnitAssociationsQueryBuilder.java",
+"dhis-2/dhis-services/dhis-service-core/src/main/java/org/hisp/dhis/program/DefaultProgramService.java",
+"dhis-2/dhis-services/dhis-service-core/src/main/java/org/hisp/dhis/common/DefaultIdentifiableObjectManager.java",
+"dhis-2/dhis-services/dhis-service-core/src/main/java/org/hisp/dhis/association/AbstractOrganisationUnitAssociationsQueryBuilder.java",
+"dhis-2/dhis-support/dhis-support-commons/src/main/java/org/hisp/dhis/commons/collection/CollectionUtils.java",
+"dhis-2/dhis-services/dhis-service-core/src/main/java/org/hisp/dhis/deduplication/hibernate/HibernatePotentialDuplicateStore.java",
+"dhis-2/dhis-api/src/main/java/org/hisp/dhis/common/IdentifiableObjectManager.java",
+"dhis-2/dhis-support/dhis-support-commons/src/test/java/org/hisp/dhis/commons/util/CollectionUtilsTest.java",
+"dhis-2/dhis-support/dhis-support-system/src/main/java/org/hisp/dhis/system/util/SqlUtils.java",
+"dhis-2/dhis-api/src/main/java/org/hisp/dhis/feedback/ErrorCode.java"
+],
+"earliest_patch_date": "2022-06-01 10:33:48+02:00",
+"earliest_vuln_date": "2021-02-26 10:40:05+01:00",
+"vuln_files": [
+"dhis-2/dhis-services/dhis-service-core/src/main/java/org/hisp/dhis/program/DefaultProgramService.java",
+"dhis-2/dhis-services/dhis-service-core/src/main/java/org/hisp/dhis/deduplication/hibernate/HibernatePotentialDuplicateStore.java",
+"dhis-2/dhis-services/dhis-service-core/src/main/java/org/hisp/dhis/association/AbstractOrganisationUnitAssociationsQueryBuilder.java",
+"dhis-2/dhis-api/src/main/java/org/hisp/dhis/common/IdentifiableObjectManager.java",
+"dhis-2/dhis-services/dhis-service-core/src/main/java/org/hisp/dhis/association/ProgramOrganisationUnitAssociationsQueryBuilder.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-89"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-41949",
+"patch_date": [
+"2022-11-28 13:25:02+01:00"
+],
+"patch_files": [
+"dhis-2/dhis-web/dhis-web-api/src/main/java/org/hisp/dhis/webapi/utils/FileResourceUtils.java",
+"dhis-2/dhis-web/dhis-web-api/src/main/java/org/hisp/dhis/webapi/filter/CspFilter.java",
+"dhis-2/dhis-api/src/main/java/org/hisp/dhis/security/utils/CspUtils.java",
+".github/workflows/codeql-analysis.yml",
+"dhis-2/dhis-web/dhis-web-api/src/main/java/org/hisp/dhis/webapi/controller/datavalue/DataValueController.java",
+"dhis-2/dhis-services/dhis-service-core/src/main/java/org/hisp/dhis/fileresource/DefaultFileResourceService.java",
+"dhis-2/dhis-web/dhis-web-commons/src/main/java/org/hisp/dhis/security/action/LoginAction.java",
+"dhis-2/dhis-api/src/main/java/org/hisp/dhis/fileresource/FileResourceContentStore.java",
+"dhis-2/dhis-web/dhis-web-commons/src/main/java/org/hisp/dhis/security/config/DhisWebCommonsWebSecurityConfig.java",
+"dhis-2/dhis-web/dhis-web-api/src/main/java/org/hisp/dhis/webapi/controller/MessageConversationController.java",
+".github/workflows/run-api-tests.yml",
+"dhis-2/dhis-web/dhis-web-api/src/main/java/org/hisp/dhis/webapi/utils/HeaderUtils.java",
+".github/workflows/check-formatting.yml",
+"dhis-2/dhis-web/dhis-web-api/src/main/java/org/hisp/dhis/webapi/controller/SvgConversionController.java",
+".github/workflows/run-tests.yml",
+"dhis-2/dhis-support/dhis-support-external/src/main/java/org/hisp/dhis/external/conf/ConfigurationKey.java",
+"dhis-2/dhis-web-api-test/src/test/java/org/hisp/dhis/webapi/controller/FileResourceControllerMockTest.java",
+"dhis-2/dhis-services/dhis-service-core/src/main/java/org/hisp/dhis/fileresource/JCloudsFileResourceContentStore.java",
+"dhis-2/dhis-web/dhis-web-api/src/main/java/org/hisp/dhis/webapi/controller/ExternalFileResourceController.java",
+"dhis-2/dhis-web/dhis-web-api/src/main/java/org/hisp/dhis/webapi/controller/event/EventController.java",
+"dhis-2/dhis-api/src/main/java/org/hisp/dhis/fileresource/FileResourceService.java",
+"dhis-2/dhis-web/dhis-web-commons-resources/src/main/webapp/dhis-web-commons/security/login.vm",
+"dhis-2/dhis-api/src/main/java/org/hisp/dhis/feedback/ErrorCode.java",
+"dhis-2/dhis-web/dhis-web-api/src/main/java/org/hisp/dhis/webapi/controller/DocumentController.java",
+"dhis-2/dhis-web/dhis-web-api/src/main/java/org/hisp/dhis/webapi/security/config/DhisWebApiWebSecurityConfig.java",
+"dhis-2/dhis-services/dhis-service-core/src/main/java/org/hisp/dhis/user/DefaultUserService.java",
+"dhis-2/dhis-api/src/main/java/org/hisp/dhis/common/CodeGenerator.java",
+"dhis-2/dhis-web/dhis-web-api/src/main/java/org/hisp/dhis/webapi/controller/AuditController.java",
+"dhis-2/dhis-web/dhis-web-api/src/main/java/org/hisp/dhis/webapi/controller/FileResourceController.java",
+".github/workflows/analyse-pr.yml"
+],
+"earliest_patch_date": "2022-11-28 13:25:02+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"dhis-2/dhis-api/src/main/java/org/hisp/dhis/feedback/ErrorCode.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

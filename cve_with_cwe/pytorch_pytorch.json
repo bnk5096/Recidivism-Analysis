@@ -1,0 +1,117 @@
+[
+{
+"cve_id": "CVE-2022-45907",
+"patch_date": [
+"2022-11-17 22:05:30+00:00"
+],
+"patch_files": [
+"test/test_jit.py",
+"torch/csrc/jit/frontend/script_type_parser.cpp",
+"torch/jit/annotations.py"
+],
+"earliest_patch_date": "2022-11-17 22:05:30+00:00",
+"earliest_vuln_date": "2021-04-21 08:07:23-07:00",
+"vuln_files": [
+"torch/jit/annotations.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-94"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-31583",
+"patch_date": [
+"2023-09-29 22:32:38+00:00"
+],
+"patch_files": [
+"torch/csrc/jit/mobile/interpreter.cpp"
+],
+"earliest_patch_date": "2023-09-29 22:32:38+00:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-31580",
+"patch_date": [
+"2023-10-03 18:48:12+00:00"
+],
+"patch_files": [
+"torch/csrc/jit/runtime/vararg_functions.cpp"
+],
+"earliest_patch_date": "2023-10-03 18:48:12+00:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-31584",
+"patch_date": [
+"2023-11-17 17:29:07+00:00"
+],
+"patch_files": [
+"torch/csrc/jit/mobile/flatbuffer_loader.cpp"
+],
+"earliest_patch_date": "2023-11-17 17:29:07+00:00",
+"earliest_vuln_date": "2022-06-14 18:57:01+00:00",
+"vuln_files": [
+"torch/csrc/jit/mobile/flatbuffer_loader.cpp"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

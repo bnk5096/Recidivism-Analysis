@@ -1,0 +1,232 @@
+[
+{
+"cve_id": "CVE-2022-43995",
+"patch_date": [
+"2022-10-28 07:29:55-06:00"
+],
+"patch_files": [
+"plugins/sudoers/auth/passwd.c"
+],
+"earliest_patch_date": "2022-10-28 07:29:55-06:00",
+"earliest_vuln_date": "2000-03-03 23:04:50+00:00",
+"vuln_files": [
+"plugins/sudoers/auth/passwd.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 5.2
+}
+},
+"cwes": [
+"CWE-125"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-28486",
+"patch_date": [
+"2023-01-18 08:21:34-07:00"
+],
+"patch_files": [
+"plugins/sudoers/sudoreplay.c",
+"docs/sudoers.mdoc.in",
+"docs/sudoers.man.in",
+"docs/sudoreplay.man.in",
+"lib/iolog/iolog_json.c",
+"lib/util/lbuf.c",
+"lib/util/util.exp.in",
+"docs/sudoreplay.mdoc.in",
+"include/sudo_lbuf.h",
+"lib/eventlog/eventlog.c"
+],
+"earliest_patch_date": "2023-01-18 08:21:34-07:00",
+"earliest_vuln_date": "2011-03-04 20:10:44-05:00",
+"vuln_files": [
+"plugins/sudoers/sudoreplay.c",
+"docs/sudoers.mdoc.in",
+"docs/sudoers.man.in",
+"lib/iolog/iolog_json.c",
+"lib/eventlog/eventlog.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"CWE-116"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-28487",
+"patch_date": [
+"2023-01-18 08:21:34-07:00"
+],
+"patch_files": [
+"plugins/sudoers/sudoreplay.c",
+"docs/sudoers.mdoc.in",
+"docs/sudoers.man.in",
+"docs/sudoreplay.man.in",
+"lib/iolog/iolog_json.c",
+"lib/util/lbuf.c",
+"lib/util/util.exp.in",
+"docs/sudoreplay.mdoc.in",
+"include/sudo_lbuf.h",
+"lib/eventlog/eventlog.c"
+],
+"earliest_patch_date": "2023-01-18 08:21:34-07:00",
+"earliest_vuln_date": "2011-03-04 20:10:44-05:00",
+"vuln_files": [
+"plugins/sudoers/sudoreplay.c",
+"docs/sudoers.mdoc.in",
+"docs/sudoers.man.in",
+"lib/iolog/iolog_json.c",
+"lib/eventlog/eventlog.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"CWE-116"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-116"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"plugins/sudoers/sudoreplay.c",
+"docs/sudoers.mdoc.in",
+"docs/sudoers.man.in",
+"docs/sudoreplay.man.in",
+"lib/iolog/iolog_json.c",
+"lib/util/lbuf.c",
+"lib/util/util.exp.in",
+"docs/sudoreplay.mdoc.in",
+"include/sudo_lbuf.h",
+"lib/eventlog/eventlog.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-42465",
+"patch_date": [
+"2023-09-09 14:07:04-06:00"
+],
+"patch_files": [
+"plugins/sudoers/lookup.c",
+"plugins/sudoers/parse.h",
+"plugins/sudoers/auth/sudo_auth.h",
+"plugins/sudoers/match.c",
+"plugins/sudoers/auth/sudo_auth.c",
+"plugins/sudoers/auth/passwd.c"
+],
+"earliest_patch_date": "2023-09-09 14:07:04-06:00",
+"earliest_vuln_date": "2000-03-13 20:52:25+00:00",
+"vuln_files": [
+"plugins/sudoers/lookup.c",
+"plugins/sudoers/parse.h",
+"plugins/sudoers/match.c",
+"plugins/sudoers/auth/sudo_auth.c",
+"plugins/sudoers/auth/passwd.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "HIGH",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"plugins/sudoers/auth/passwd.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

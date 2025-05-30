@@ -1,0 +1,274 @@
+[
+{
+"cve_id": "CVE-2022-31059",
+"patch_date": [
+"2022-06-13 11:13:56-06:00"
+],
+"patch_files": [
+"assets/javascripts/discourse/widgets/discourse-post-event.js",
+"assets/javascripts/discourse/widgets/event-reminder-notification-item.js",
+"assets/javascripts/discourse/widgets/event-invitation-notification-item.js",
+"db/post_migrate/20220613073844_unescape_event_name.rb",
+"lib/discourse_post_event/event_parser.rb",
+"spec/lib/discourse_post_event/event_parser_spec.rb"
+],
+"earliest_patch_date": "2022-06-13 11:13:56-06:00",
+"earliest_vuln_date": "2020-04-09 18:10:45+02:00",
+"vuln_files": [
+"assets/javascripts/discourse/widgets/event-reminder-notification-item.js",
+"assets/javascripts/discourse/widgets/discourse-post-event.js",
+"assets/javascripts/discourse/widgets/event-invitation-notification-item.js",
+"lib/discourse_post_event/event_parser.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:H/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "HIGH",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 2.1
+},
+"severity": "LOW",
+"exploitabilityScore": 3.9,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-41913",
+"patch_date": [
+"2022-11-14 18:18:15+04:00"
+],
+"patch_files": [
+"spec/requests/events_controller_spec.rb",
+"lib/discourse_post_event/event_validator.rb",
+"config/locales/server.en.yml",
+"spec/integration/post_spec.rb",
+"jobs/regular/discourse_post_event/bulk_invite.rb"
+],
+"earliest_patch_date": "2022-11-14 18:18:15+04:00",
+"earliest_vuln_date": "2020-04-12 09:36:12+02:00",
+"vuln_files": [
+"spec/requests/events_controller_spec.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.5
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-43658",
+"patch_date": [
+"2023-10-16 15:00:44+01:00"
+],
+"patch_files": [
+".discourse-compatibility",
+"plugin.rb",
+"spec/lib/discourse_post_event/pretty_text_spec.rb"
+],
+"earliest_patch_date": "2023-10-16 15:00:44+01:00",
+"earliest_vuln_date": "2022-12-29 13:30:41+01:00",
+"vuln_files": [
+".discourse-compatibility",
+"plugin.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-26145",
+"patch_date": [
+"2024-02-21 15:36:36+08:00"
+],
+"patch_files": [
+"spec/requests/invitees_controller_spec.rb",
+"app/controllers/discourse_post_event/invitees_controller.rb"
+],
+"earliest_patch_date": "2024-02-21 15:36:36+08:00",
+"earliest_vuln_date": "2020-03-26 14:11:33+01:00",
+"vuln_files": [
+"spec/requests/invitees_controller_spec.rb"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-24817",
+"patch_date": [
+"2024-02-22 11:32:47+08:00"
+],
+"patch_files": [
+"spec/requests/invitees_controller_spec.rb",
+"plugin.rb",
+"app/controllers/discourse_post_event/invitees_controller.rb"
+],
+"earliest_patch_date": "2024-02-22 11:32:47+08:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"spec/requests/invitees_controller_spec.rb",
+"plugin.rb",
+"app/controllers/discourse_post_event/invitees_controller.rb"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-45303",
+"patch_date": [
+"2024-09-12 10:22:05-07:00"
+],
+"patch_files": [
+"test/javascripts/acceptance/category-events-calendar-test.js",
+"assets/javascripts/discourse/initializers/discourse-calendar.js",
+"plugin.rb",
+"assets/javascripts/discourse/lib/full-calendar-default-options.js"
+],
+"earliest_patch_date": "2024-09-12 10:22:05-07:00",
+"earliest_vuln_date": "2020-01-23 11:24:50-06:00",
+"vuln_files": [
+"assets/javascripts/discourse/initializers/discourse-calendar.js",
+"test/javascripts/acceptance/category-events-calendar-test.js",
+"assets/javascripts/discourse/lib/full-calendar-default-options.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"plugin.rb"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

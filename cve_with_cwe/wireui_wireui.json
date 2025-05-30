@@ -1,0 +1,62 @@
+[
+{
+"cve_id": "CVE-2024-45803",
+"patch_date": [
+"2024-09-17 02:43:27-03:00",
+"2024-09-17 01:41:02-03:00"
+],
+"patch_files": [
+"yarn.lock",
+"ts/alpine/magic/props.ts",
+"src/Support/SafeEval.php",
+"src/Support/BladeCompiler.php",
+"tests/Unit/Support/SafeEvalTest.php",
+"dist/wireui.js",
+"tests/Unit/Controllers/ButtonControllerTest.php",
+".github/workflows/tests.yml",
+"dist/mix-manifest.json",
+"composer.lock",
+"dist/wireui.css",
+"package.json",
+"src/Http/Controllers/ButtonController.php",
+"tests/Unit/Http/Datasets.php",
+"tests/Unit/SafeEvalTest.php",
+"src/Http/Requests/ButtonRequest.php",
+"tests/Unit/Http/Controllers/ButtonControllerTest.php"
+],
+"earliest_patch_date": "2024-09-17 01:41:02-03:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

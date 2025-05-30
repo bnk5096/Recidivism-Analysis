@@ -1,0 +1,53 @@
+[
+{
+"cve_id": "CVE-2022-31163",
+"patch_date": [
+"2022-07-16 18:51:19+01:00",
+"2022-07-16 18:01:48+01:00"
+],
+"patch_files": [
+"test/tc_timezone.rb",
+"lib/tzinfo/timezone.rb",
+"lib/tzinfo/ruby_data_source.rb",
+"test/assets/payload.rb",
+"test/tc_ruby_data_source.rb",
+"test/in_load_path/payload.rb"
+],
+"earliest_patch_date": "2022-07-16 18:01:48+01:00",
+"earliest_vuln_date": "2008-10-06 22:08:46+00:00",
+"vuln_files": [
+"test/tc_timezone.rb",
+"lib/tzinfo/timezone.rb",
+"lib/tzinfo/ruby_data_source.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

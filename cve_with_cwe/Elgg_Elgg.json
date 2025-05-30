@@ -1,0 +1,83 @@
+[
+{
+"cve_id": "CVE-2013-0234",
+"patch_date": [
+"2013-01-26 14:48:13-05:00",
+"2013-01-26 15:39:06-05:00"
+],
+"patch_files": [
+"views/default/css/elements/modules.php",
+"mod/twitter/views/default/widgets/twitter/edit.php",
+"version.php",
+"views/default/css/elements/typography.php",
+"_graphics/walled_garden/one_column_top.png",
+"CHANGES.txt",
+"mod/bookmarks/start.php",
+"views/default/forms/profile/fields/reset.php",
+"mod/twitter/languages/en.php",
+"engine/classes/ElggPlugin.php",
+"engine/lib/output.php",
+"_graphics/walled_garden/two_column_top.png",
+"mod/file/start.php",
+"views/default/admin/appearance/profile_fields.php",
+"mod/groups/views/default/groups/css.php",
+"views/default/css/elements/layout.php",
+"views/default/js/elgg.php",
+"engine/lib/private_settings.php",
+"_graphics/walled_garden/two_column_bottom.png",
+"mod/groups/views/default/groups/profile/summary.php",
+"mod/twitter/views/default/widgets/twitter/content.php",
+"languages/en.php",
+"mod/notifications/actions/groupsave.php",
+"engine/lib/upgrades/2011010101.php",
+"views/default/annotation/generic_comment.php",
+"README.md",
+"mod/file/views/default/object/file.php",
+"_graphics/walled_garden/one_column_bottom.png",
+"engine/classes/ElggSite.php",
+"mod/blog/start.php",
+"mod/twitter/views/default/widgets/twitter/view.php",
+"js/lib/languages.js"
+],
+"earliest_patch_date": "2013-01-26 14:48:13-05:00",
+"earliest_vuln_date": "2010-03-02 20:42:05-05:00",
+"vuln_files": [
+"mod/twitter/views/default/widgets/twitter/edit.php",
+"mod/twitter/views/default/widgets/twitter/view.php",
+"mod/twitter/languages/en.php"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

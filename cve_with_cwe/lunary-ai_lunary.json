@@ -1,0 +1,1542 @@
+[
+{
+"cve_id": "CVE-2024-1625",
+"patch_date": [
+"2024-02-19 09:32:01-03:00"
+],
+"patch_files": [
+"packages/backend/src/api/v1/projects/index.ts",
+"packages/backend/src/utils/authorization.ts"
+],
+"earliest_patch_date": "2024-02-19 09:32:01-03:00",
+"earliest_vuln_date": "2024-01-13 17:18:26+01:00",
+"vuln_files": [
+"packages/backend/src/api/v1/projects/index.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-639"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-1626",
+"patch_date": [
+"2024-02-19 09:39:01-03:00"
+],
+"patch_files": [
+"packages/backend/src/api/v1/projects/index.ts",
+"packages/backend/src/utils/authorization.ts"
+],
+"earliest_patch_date": "2024-02-19 09:39:01-03:00",
+"earliest_vuln_date": "2024-02-19 09:32:01-03:00",
+"vuln_files": [
+"packages/backend/src/api/v1/projects/index.ts",
+"packages/backend/src/utils/authorization.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.2
+}
+},
+"cwes": [
+"CWE-639"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-639"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/backend/src/api/v1/projects/index.ts",
+"packages/backend/src/utils/authorization.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-1739",
+"patch_date": [
+"2024-02-22 09:15:24-03:00"
+],
+"patch_files": [
+"packages/backend/src/api/v1/auth/index.ts"
+],
+"earliest_patch_date": "2024-02-22 09:15:24-03:00",
+"earliest_vuln_date": "2024-01-19 16:50:06-03:00",
+"vuln_files": [
+"packages/backend/src/api/v1/auth/index.ts"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-1643",
+"patch_date": [
+"2024-03-25 14:05:24-03:00"
+],
+"patch_files": [
+"packages/frontend/load-env.sh",
+"packages/frontend/package.json",
+"packages/ml/README.md",
+"packages/backend/src/utils/emails.ts",
+"packages/backend/src/api/v1/auth/saml.ts",
+"packages/frontend/pages/signup.tsx",
+"packages/frontend/pages/analytics.tsx",
+"packages/backend/src/checks/ai/toxic.ts",
+"packages/backend/src/utils/ml.ts",
+"packages/backend/src/api/v1/users.ts",
+"packages/backend/src/api/v1/orgs.ts",
+"ops",
+"packages/frontend/pages/join.tsx",
+"packages/ml/main.py",
+"packages/shared/access-control/roles.ts",
+"packages/backend/.env.example",
+"packages/frontend/components/layout/Sidebar.tsx",
+"packages/backend/src/api/v1/auth/index.ts",
+"packages/frontend/components/layout/Paywall.tsx",
+".gitignore",
+"packages/frontend/components/blocks/SettingsCard.tsx",
+"packages/frontend/components/blocks/SocialProof.tsx",
+"packages/frontend/pages/index.tsx",
+"CONTRIBUTING.md",
+"packages/frontend/pages/billing/index.tsx",
+"package-lock.json",
+"packages/frontend/pages/team.module.css",
+"packages/backend/src/checks/ai/ner.ts",
+"packages/frontend/components/blocks/CopyText.tsx",
+"packages/frontend/pages/settings.tsx",
+"packages/frontend/pages/team.tsx",
+"packages/db/0006.sql",
+"packages/frontend/components/layout/Analytics.tsx",
+".github/workflows/test-build-deploy.yml"
+],
+"earliest_patch_date": "2024-03-25 14:05:24-03:00",
+"earliest_vuln_date": "2024-01-08 18:17:16-03:00",
+"vuln_files": [
+"packages/frontend/load-env.sh",
+"packages/frontend/package.json",
+"packages/ml/README.md",
+"packages/backend/src/utils/emails.ts",
+"packages/backend/src/api/v1/auth/saml.ts",
+"packages/frontend/pages/signup.tsx",
+"packages/frontend/pages/analytics.tsx",
+"packages/backend/src/api/v1/users.ts",
+"packages/backend/src/api/v1/orgs.ts",
+"packages/frontend/pages/join.tsx",
+"packages/ml/main.py",
+"packages/backend/.env.example",
+"packages/frontend/components/layout/Sidebar.tsx",
+"packages/backend/src/api/v1/auth/index.ts",
+"packages/frontend/components/layout/Paywall.tsx",
+".gitignore",
+"packages/frontend/components/blocks/SocialProof.tsx",
+"packages/frontend/pages/index.tsx",
+"CONTRIBUTING.md",
+"packages/frontend/pages/billing/index.tsx",
+"package-lock.json",
+"packages/frontend/pages/team.module.css",
+"packages/frontend/components/blocks/CopyText.tsx",
+"packages/frontend/pages/settings.tsx",
+"packages/frontend/pages/team.tsx",
+"packages/frontend/components/layout/Analytics.tsx"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/backend/src/api/v1/auth/index.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-1738",
+"patch_date": [
+"2024-04-06 11:12:59-03:00"
+],
+"patch_files": [
+"package.json",
+"packages/backend/src/api/v1/evaluations/index.ts"
+],
+"earliest_patch_date": "2024-04-06 11:12:59-03:00",
+"earliest_vuln_date": "2024-02-14 05:11:24-03:00",
+"vuln_files": [
+"package.json",
+"packages/backend/src/api/v1/evaluations/index.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-3501",
+"patch_date": [
+"2024-04-08 22:51:51-03:00"
+],
+"patch_files": [
+"packages/backend/src/api/v1/users.ts"
+],
+"earliest_patch_date": "2024-04-08 22:51:51-03:00",
+"earliest_vuln_date": "2024-04-05 13:19:52-03:00",
+"vuln_files": [
+"packages/backend/src/api/v1/users.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.2
+}
+},
+"cwes": [
+"CWE-922"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/backend/src/api/v1/users.ts"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"packages/backend/src/api/v1/users.ts"
+]
+},
+{
+"cve_id": "CVE-2024-3502",
+"patch_date": [
+"2024-04-08 22:51:51-03:00"
+],
+"patch_files": [
+"packages/backend/src/api/v1/users.ts"
+],
+"earliest_patch_date": "2024-04-08 22:51:51-03:00",
+"earliest_vuln_date": "2024-04-05 13:19:52-03:00",
+"vuln_files": [
+"packages/backend/src/api/v1/users.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.2
+}
+},
+"cwes": [
+"CWE-922"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-922"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/backend/src/api/v1/users.ts"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"packages/backend/src/api/v1/users.ts"
+]
+},
+{
+"cve_id": "CVE-2024-3504",
+"patch_date": [
+"2024-04-08 23:06:11-03:00"
+],
+"patch_files": [
+"packages/backend/src/api/v1/users.ts"
+],
+"earliest_patch_date": "2024-04-08 23:06:11-03:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 5.2
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/backend/src/api/v1/users.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-1666",
+"patch_date": [
+"2024-04-08 23:35:58-03:00"
+],
+"patch_files": [
+"packages/backend/src/api/v1/projects/index.ts",
+"packages/backend/src/api/v1/radars.ts",
+"packages/backend/src/api/v1/evaluations/index.ts"
+],
+"earliest_patch_date": "2024-04-08 23:35:58-03:00",
+"earliest_vuln_date": "2024-01-17 10:00:37+01:00",
+"vuln_files": [
+"packages/backend/src/api/v1/radars.ts",
+"packages/backend/src/api/v1/evaluations/index.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/backend/src/api/v1/projects/index.ts",
+"packages/backend/src/api/v1/evaluations/index.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-1740",
+"patch_date": [
+"2024-04-08 23:35:58-03:00"
+],
+"patch_files": [
+"packages/backend/src/api/v1/projects/index.ts",
+"packages/backend/src/api/v1/radars.ts",
+"packages/backend/src/api/v1/evaluations/index.ts"
+],
+"earliest_patch_date": "2024-04-08 23:35:58-03:00",
+"earliest_vuln_date": "2024-01-17 10:00:37+01:00",
+"vuln_files": [
+"packages/backend/src/api/v1/radars.ts",
+"packages/backend/src/api/v1/evaluations/index.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 9.1,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.2
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/backend/src/api/v1/projects/index.ts",
+"packages/backend/src/api/v1/radars.ts",
+"packages/backend/src/api/v1/evaluations/index.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-3379",
+"patch_date": [
+"2024-04-08 23:35:58-03:00"
+],
+"patch_files": [
+"packages/backend/src/api/v1/projects/index.ts",
+"packages/backend/src/api/v1/radars.ts",
+"packages/backend/src/api/v1/evaluations/index.ts"
+],
+"earliest_patch_date": "2024-04-08 23:35:58-03:00",
+"earliest_vuln_date": "2024-01-17 10:00:37+01:00",
+"vuln_files": [
+"packages/backend/src/api/v1/radars.ts",
+"packages/backend/src/api/v1/evaluations/index.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.2
+}
+},
+"cwes": [
+"CWE-863"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/backend/src/api/v1/projects/index.ts",
+"packages/backend/src/api/v1/radars.ts",
+"packages/backend/src/api/v1/evaluations/index.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-1741",
+"patch_date": [
+"2024-04-10 15:17:46-03:00"
+],
+"patch_files": [
+"packages/backend/src/api/v1/auth/utils.ts"
+],
+"earliest_patch_date": "2024-04-10 15:17:46-03:00",
+"earliest_vuln_date": "2024-01-19 13:53:34+01:00",
+"vuln_files": [
+"packages/backend/src/api/v1/auth/utils.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 9.1,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.2
+}
+},
+"cwes": [
+"CWE-863"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-863"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-1902",
+"patch_date": [
+"2024-04-10 15:17:46-03:00"
+],
+"patch_files": [
+"packages/backend/src/api/v1/auth/utils.ts"
+],
+"earliest_patch_date": "2024-04-10 15:17:46-03:00",
+"earliest_vuln_date": "2024-01-19 13:53:34+01:00",
+"vuln_files": [
+"packages/backend/src/api/v1/auth/utils.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/backend/src/api/v1/auth/utils.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-3760",
+"patch_date": [
+"2024-04-13 16:18:29-03:00"
+],
+"patch_files": [
+"packages/backend/src/types/database.ts",
+"packages/backend/src/utils/emails.ts",
+"packages/db/0010.sql",
+"packages/backend/src/types/index.ts",
+"packages/backend/src/api/v1/auth/index.ts",
+"packages/backend/src/api/v1/users.ts",
+"packages/backend/src/api/v1/auth/utils.ts"
+],
+"earliest_patch_date": "2024-04-13 16:18:29-03:00",
+"earliest_vuln_date": "2024-01-15 18:58:17-03:00",
+"vuln_files": [
+"packages/backend/src/api/v1/auth/index.ts",
+"packages/backend/src/api/v1/users.ts",
+"packages/backend/src/utils/emails.ts",
+"packages/backend/src/api/v1/auth/utils.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/backend/src/utils/emails.ts",
+"packages/backend/src/api/v1/auth/index.ts",
+"packages/backend/src/api/v1/users.ts",
+"packages/backend/src/api/v1/auth/utils.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-3761",
+"patch_date": [
+"2024-04-13 16:27:58-03:00"
+],
+"patch_files": [
+"packages/backend/src/api/v1/datasets/index.ts"
+],
+"earliest_patch_date": "2024-04-13 16:27:58-03:00",
+"earliest_vuln_date": "2024-02-14 19:56:32-08:00",
+"vuln_files": [
+"packages/backend/src/api/v1/datasets/index.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-5129",
+"patch_date": [
+"2024-04-13 16:27:58-03:00"
+],
+"patch_files": [
+"packages/backend/src/api/v1/datasets/index.ts"
+],
+"earliest_patch_date": "2024-04-13 16:27:58-03:00",
+"earliest_vuln_date": "2024-02-14 19:56:32-08:00",
+"vuln_files": [
+"packages/backend/src/api/v1/datasets/index.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "LOW",
+"baseScore": 8.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 4.2
+}
+},
+"cwes": [
+"CWE-862"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/backend/src/api/v1/datasets/index.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-5130",
+"patch_date": [
+"2024-04-13 16:27:58-03:00"
+],
+"patch_files": [
+"packages/backend/src/api/v1/datasets/index.ts"
+],
+"earliest_patch_date": "2024-04-13 16:27:58-03:00",
+"earliest_vuln_date": "2024-02-14 19:56:32-08:00",
+"vuln_files": [
+"packages/backend/src/api/v1/datasets/index.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/backend/src/api/v1/datasets/index.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-5126",
+"patch_date": [
+"2024-05-19 14:35:54-03:00"
+],
+"patch_files": [
+"packages/backend/src/api/v1/template-versions.ts",
+"packages/backend/src/api/v1/users.ts"
+],
+"earliest_patch_date": "2024-05-19 14:35:54-03:00",
+"earliest_vuln_date": "2024-01-08 18:17:16-03:00",
+"vuln_files": [
+"packages/backend/src/api/v1/template-versions.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"NVD-CWE-noinfo"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/backend/src/api/v1/users.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-5127",
+"patch_date": [
+"2024-05-19 14:35:54-03:00"
+],
+"patch_files": [
+"packages/backend/src/api/v1/template-versions.ts",
+"packages/backend/src/api/v1/users.ts"
+],
+"earliest_patch_date": "2024-05-19 14:35:54-03:00",
+"earliest_vuln_date": "2024-01-08 18:17:16-03:00",
+"vuln_files": [
+"packages/backend/src/api/v1/template-versions.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.5
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/backend/src/api/v1/template-versions.ts",
+"packages/backend/src/api/v1/users.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-5128",
+"patch_date": [
+"2024-05-19 15:03:37-03:00"
+],
+"patch_files": [
+"packages/backend/src/api/v1/datasets/index.ts"
+],
+"earliest_patch_date": "2024-05-19 15:03:37-03:00",
+"earliest_vuln_date": "2024-02-14 05:11:24-03:00",
+"vuln_files": [
+"packages/backend/src/api/v1/datasets/index.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/backend/src/api/v1/datasets/index.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-5131",
+"patch_date": [
+"2024-05-19 15:47:48-03:00"
+],
+"patch_files": [
+"packages/backend/src/api/v1/template-versions.ts"
+],
+"earliest_patch_date": "2024-05-19 15:47:48-03:00",
+"earliest_vuln_date": "2024-01-08 18:17:16-03:00",
+"vuln_files": [
+"packages/backend/src/api/v1/template-versions.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/backend/src/api/v1/template-versions.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-4146",
+"patch_date": [
+"2024-05-25 16:44:59-03:00"
+],
+"patch_files": [
+"packages/backend/src/utils/authorization.ts"
+],
+"earliest_patch_date": "2024-05-25 16:44:59-03:00",
+"earliest_vuln_date": "2024-02-19 09:32:01-03:00",
+"vuln_files": [
+"packages/backend/src/utils/authorization.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-863"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-863"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/backend/src/utils/authorization.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-7456",
+"patch_date": [
+"2024-08-04 15:32:21+02:00"
+],
+"patch_files": [
+"packages/backend/src/api/v1/external-users.ts"
+],
+"earliest_patch_date": "2024-08-04 15:32:21+02:00",
+"earliest_vuln_date": "2024-07-29 21:54:28+02:00",
+"vuln_files": [
+"packages/backend/src/api/v1/external-users.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-89"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-7474",
+"patch_date": [
+"2024-08-04 16:49:28+02:00"
+],
+"patch_files": [
+"packages/backend/src/api/v1/templates.ts",
+"packages/backend/src/api/v1/external-users.ts",
+"packages/backend/src/api/v1/datasets/index.ts"
+],
+"earliest_patch_date": "2024-08-04 16:49:28+02:00",
+"earliest_vuln_date": "2024-01-08 18:17:16-03:00",
+"vuln_files": [
+"packages/backend/src/api/v1/templates.ts",
+"packages/backend/src/api/v1/external-users.ts",
+"packages/backend/src/api/v1/datasets/index.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.2
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/backend/src/api/v1/external-users.ts",
+"packages/backend/src/api/v1/datasets/index.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-7475",
+"patch_date": [
+"2024-08-04 16:49:28+02:00"
+],
+"patch_files": [
+"packages/backend/src/api/v1/templates.ts",
+"packages/backend/src/api/v1/external-users.ts",
+"packages/backend/src/api/v1/datasets/index.ts"
+],
+"earliest_patch_date": "2024-08-04 16:49:28+02:00",
+"earliest_vuln_date": "2024-01-08 18:17:16-03:00",
+"vuln_files": [
+"packages/backend/src/api/v1/templates.ts",
+"packages/backend/src/api/v1/external-users.ts",
+"packages/backend/src/api/v1/datasets/index.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 9.1,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.2
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"NVD-CWE-Other"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/backend/src/api/v1/templates.ts",
+"packages/backend/src/api/v1/external-users.ts",
+"packages/backend/src/api/v1/datasets/index.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-7473",
+"patch_date": [
+"2024-08-04 17:16:38+02:00"
+],
+"patch_files": [
+".github/workflows/update-ml.yml"
+],
+"earliest_patch_date": "2024-08-04 17:16:38+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-6582",
+"patch_date": [
+"2024-08-24 16:46:05+01:00"
+],
+"patch_files": [
+"packages/backend/src/api/v1/auth/saml.ts"
+],
+"earliest_patch_date": "2024-08-24 16:46:05+01:00",
+"earliest_vuln_date": "2024-03-18 10:35:44+09:00",
+"vuln_files": [
+"packages/backend/src/api/v1/auth/saml.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/backend/src/api/v1/auth/saml.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-5248",
+"patch_date": [
+"2024-08-26 15:19:49+01:00"
+],
+"patch_files": [
+"packages/backend/src/api/v1/auth/index.ts",
+"packages/backend/src/api/v1/users.ts",
+"packages/shared/access-control/roles.ts"
+],
+"earliest_patch_date": "2024-08-26 15:19:49+01:00",
+"earliest_vuln_date": "2024-01-08 18:17:16-03:00",
+"vuln_files": [
+"packages/backend/src/api/v1/auth/index.ts",
+"packages/backend/src/api/v1/users.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/backend/src/api/v1/auth/index.ts",
+"packages/backend/src/api/v1/users.ts",
+"packages/shared/access-control/roles.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-6087",
+"patch_date": [
+"2024-08-26 16:04:36+01:00"
+],
+"patch_files": [
+"packages/backend/src/api/v1/auth/index.ts",
+"packages/backend/src/api/v1/auth/utils.ts"
+],
+"earliest_patch_date": "2024-08-26 16:04:36+01:00",
+"earliest_vuln_date": "2024-01-15 18:58:17-03:00",
+"vuln_files": [
+"packages/backend/src/api/v1/auth/index.ts",
+"packages/backend/src/api/v1/auth/utils.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"NVD-CWE-Other"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/backend/src/api/v1/auth/index.ts",
+"packages/backend/src/api/v1/auth/utils.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-6862",
+"patch_date": [
+"2024-08-28 17:39:01+01:00"
+],
+"patch_files": [
+"packages/backend/src/utils/cors.ts"
+],
+"earliest_patch_date": "2024-08-28 17:39:01+01:00",
+"earliest_vuln_date": "2024-01-19 13:26:04-03:00",
+"vuln_files": [
+"packages/backend/src/utils/cors.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.2
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-6867",
+"patch_date": [
+"2024-08-28 17:51:50+01:00"
+],
+"patch_files": [
+"packages/backend/src/api/v1/runs/index.ts"
+],
+"earliest_patch_date": "2024-08-28 17:51:50+01:00",
+"earliest_vuln_date": "2024-01-08 18:17:16-03:00",
+"vuln_files": [
+"packages/backend/src/api/v1/runs/index.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-7472",
+"patch_date": [
+"2024-08-28 18:04:32+01:00"
+],
+"patch_files": [
+"packages/backend/src/utils/emails.ts"
+],
+"earliest_patch_date": "2024-08-28 18:04:32+01:00",
+"earliest_vuln_date": "2024-01-08 18:17:16-03:00",
+"vuln_files": [
+"packages/backend/src/utils/emails.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-74"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/backend/src/utils/emails.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

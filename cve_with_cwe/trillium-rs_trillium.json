@@ -1,0 +1,58 @@
+[
+{
+"cve_id": "CVE-2024-23644",
+"patch_date": [
+"2024-01-23 16:48:50-08:00",
+"2024-01-23 16:48:50-08:00"
+],
+"patch_files": [
+"http/src/headers/header_value.rs",
+"http/src/conn.rs",
+"http/src/headers/header_name.rs",
+"http/tests/unsafe_headers.rs",
+"client/src/conn.rs",
+"http/src/headers/unknown_header_name.rs",
+"client/tests/unsafe_headers.rs"
+],
+"earliest_patch_date": "2024-01-23 16:48:50-08:00",
+"earliest_vuln_date": "2021-03-15 14:59:51-07:00",
+"vuln_files": [
+"http/src/headers/unknown_header_name.rs",
+"client/src/conn.rs",
+"http/src/headers/header_value.rs",
+"http/src/conn.rs",
+"http/src/headers/header_name.rs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-436"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

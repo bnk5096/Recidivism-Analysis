@@ -1,0 +1,130 @@
+[
+{
+"cve_id": "CVE-2024-35176",
+"patch_date": [
+"2024-05-16 11:26:51+09:00"
+],
+"patch_files": [
+"lib/rexml/source.rb",
+"lib/rexml/parsers/baseparser.rb",
+"test/test_document.rb",
+"Gemfile"
+],
+"earliest_patch_date": "2024-05-16 11:26:51+09:00",
+"earliest_vuln_date": "2003-06-10 01:31:01+00:00",
+"vuln_files": [
+"lib/rexml/source.rb",
+"lib/rexml/parsers/baseparser.rb"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-41946",
+"patch_date": [
+"2024-08-01 09:20:31+09:00"
+],
+"patch_files": [
+"test/test_sax.rb",
+"lib/rexml/parsers/pullparser.rb",
+"test/test_document.rb",
+"lib/rexml/parsers/baseparser.rb",
+"lib/rexml/parsers/sax2parser.rb",
+"test/test_pullparser.rb"
+],
+"earliest_patch_date": "2024-08-01 09:20:31+09:00",
+"earliest_vuln_date": "2003-06-10 01:31:01+00:00",
+"vuln_files": [
+"test/test_document.rb",
+"lib/rexml/parsers/baseparser.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-400"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"test/test_document.rb",
+"lib/rexml/parsers/baseparser.rb"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-49761",
+"patch_date": [
+"2024-10-24 14:46:59+09:00"
+],
+"patch_files": [
+"lib/rexml/parsers/baseparser.rb",
+"test/parse/test_character_reference.rb"
+],
+"earliest_patch_date": "2024-10-24 14:46:59+09:00",
+"earliest_vuln_date": "2003-06-10 01:31:01+00:00",
+"vuln_files": [
+"lib/rexml/parsers/baseparser.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/rexml/parsers/baseparser.rb"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,570 @@
+[
+{
+"cve_id": "CVE-2023-25657",
+"patch_date": [
+"2023-01-04 09:59:49-08:00"
+],
+"patch_files": [
+"nautobot/utilities/tests/test_jinja_filters.py",
+"nautobot/core/settings.py",
+"nautobot/docs/models/dcim/deviceredundancygroup.md"
+],
+"earliest_patch_date": "2023-01-04 09:59:49-08:00",
+"earliest_vuln_date": "2021-12-15 11:09:29-05:00",
+"vuln_files": [
+"nautobot/utilities/tests/test_jinja_filters.py",
+"nautobot/docs/models/dcim/deviceredundancygroup.md"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-46128",
+"patch_date": [
+"2023-10-23 16:56:09-04:00"
+],
+"patch_files": [
+"changes/4692.security",
+"changes/4692.housekeeping",
+"nautobot/docs/development/apps/migration/code-updates.md",
+"changes/4692.fixed",
+"nautobot/core/api/utils.py",
+"nautobot/core/testing/api.py"
+],
+"earliest_patch_date": "2023-10-23 16:56:09-04:00",
+"earliest_vuln_date": "2023-04-21 15:17:08-04:00",
+"vuln_files": [
+"nautobot/core/api/utils.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-312"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-48705",
+"patch_date": [
+"2023-11-21 16:25:37-06:00",
+"2023-11-21 15:16:21-06:00"
+],
+"patch_files": [
+"nautobot/extras/forms/forms.py",
+"nautobot/core/settings.py",
+"nautobot/utilities/utils.py",
+"nautobot/extras/models/relationships.py",
+"nautobot/core/views/generic.py",
+"changes/4833.changed",
+"changes/4833.security",
+"nautobot/extras/models/models.py",
+"nautobot/core/utils/data.py",
+"pyproject.toml",
+"nautobot/extras/templatetags/job_buttons.py",
+"nautobot/core/views/mixins.py",
+"nautobot/extras/tests/test_views.py",
+"nautobot/ipam/views.py",
+"nautobot/ipam/tables.py",
+"changes/4832.housekeeping",
+"nautobot/extras/templatetags/computed_fields.py",
+"nautobot/utilities/templatetags/helpers.py",
+"changes/4832.changed",
+"nautobot/extras/models/customfields.py",
+"nautobot/extras/tests/test_relationships.py",
+"poetry.lock",
+"nautobot/extras/templatetags/plugins.py",
+"nautobot/core/tables.py",
+"changes/4832.security",
+"nautobot/extras/tables.py",
+"nautobot/core/views/utils.py",
+".github/workflows/ci_pullrequest.yml",
+"changes/4833.housekeeping",
+"nautobot/extras/templatetags/custom_links.py",
+"nautobot/dcim/forms.py",
+"nautobot/dcim/models/devices.py",
+"nautobot/dcim/views.py",
+"scripts/git-hooks/pre-commit",
+"nautobot/extras/tests/test_customfields.py",
+"nautobot/core/templatetags/helpers.py",
+"nautobot/utilities/tables.py",
+"nautobot/extras/views.py",
+"tasks.py",
+"nautobot/utilities/error_handlers.py"
+],
+"earliest_patch_date": "2023-11-21 15:16:21-06:00",
+"earliest_vuln_date": "2016-03-01 11:23:03-05:00",
+"vuln_files": [
+"nautobot/extras/forms/forms.py",
+"nautobot/core/settings.py",
+"nautobot/utilities/utils.py",
+"nautobot/extras/models/relationships.py",
+"nautobot/core/views/generic.py",
+"nautobot/extras/models/models.py",
+"nautobot/extras/templatetags/job_buttons.py",
+"nautobot/core/views/mixins.py",
+"nautobot/extras/tests/test_views.py",
+"nautobot/ipam/tables.py",
+"nautobot/extras/templatetags/computed_fields.py",
+"nautobot/utilities/templatetags/helpers.py",
+"nautobot/extras/models/customfields.py",
+"nautobot/extras/tests/test_relationships.py",
+"poetry.lock",
+"nautobot/extras/templatetags/plugins.py",
+"nautobot/extras/tables.py",
+"nautobot/extras/templatetags/custom_links.py",
+"nautobot/dcim/models/devices.py",
+"nautobot/dcim/views.py",
+"nautobot/dcim/forms.py",
+"nautobot/utilities/tables.py",
+"nautobot/extras/views.py",
+"nautobot/extras/tests/test_customfields.py",
+"nautobot/utilities/error_handlers.py",
+"nautobot/core/tables.py",
+"nautobot/core/templatetags/helpers.py",
+"nautobot/core/utils/data.py",
+"nautobot/core/views/utils.py",
+"nautobot/ipam/views.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"nautobot/core/settings.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-50263",
+"patch_date": [
+"2023-12-12 15:03:54-05:00",
+"2023-12-12 16:12:36-05:00"
+],
+"patch_files": [
+"changes/4959.security",
+"nautobot/core/tests/test_views.py",
+"nautobot/core/urls.py",
+"nautobot/core/views/__init__.py"
+],
+"earliest_patch_date": "2023-12-12 15:03:54-05:00",
+"earliest_vuln_date": "2019-05-26 14:56:01+02:00",
+"vuln_files": [
+"nautobot/core/urls.py",
+"nautobot/core/views/__init__.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"CWE-306"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-23345",
+"patch_date": [
+"2024-01-19 16:37:24-05:00",
+"2024-01-19 16:37:46-05:00"
+],
+"patch_files": [
+"nautobot/extras/forms/forms.py",
+"nautobot/core/tests/test_views.py",
+"nautobot/core/settings.py",
+"nautobot/docs/user-guide/platform-functionality/note.md",
+"changes/5134.security",
+"changes/5134.dependencies",
+"changes/5134.added",
+"changes/5133.dependencies",
+"nautobot/core/constants.py",
+"nautobot/docs/configuration/optional-settings.md",
+"pyproject.toml",
+"nautobot/docs/user-guide/administration/configuration/optional-settings.md",
+"nautobot/utilities/logging.py",
+"nautobot/utilities/constants.py",
+"nautobot/utilities/templatetags/helpers.py",
+"nautobot/utilities/tests/test_templatetags_helpers.py",
+"nautobot/core/tests/test_templatetags_helpers.py",
+"changes/5133.security",
+"nautobot/utilities/forms/fields.py",
+"nautobot/core/utils/logging.py",
+"poetry.lock",
+"nautobot/docs/additional-features/jobs.md",
+"nautobot/core/forms/fields.py",
+"nautobot/docs/additional-features/template-filters.md",
+"nautobot/docs/development/jobs/index.md",
+"nautobot/docs/models/extras/note.md",
+"changes/5133.added",
+"nautobot/extras/models/jobs.py",
+"nautobot/core/templatetags/helpers.py",
+"nautobot/docs/user-guide/platform-functionality/template-filters.md"
+],
+"earliest_patch_date": "2024-01-19 16:37:24-05:00",
+"earliest_vuln_date": "2019-10-09 14:47:40-04:00",
+"vuln_files": [
+"nautobot/extras/forms/forms.py",
+"nautobot/docs/user-guide/administration/configuration/optional-settings.md",
+"nautobot/core/tests/test_views.py",
+"nautobot/core/settings.py",
+"nautobot/docs/user-guide/platform-functionality/note.md",
+"poetry.lock",
+"nautobot/core/forms/fields.py",
+"nautobot/extras/models/jobs.py",
+"nautobot/core/templatetags/helpers.py",
+"nautobot/docs/user-guide/platform-functionality/template-filters.md",
+"nautobot/docs/development/jobs/index.md",
+"nautobot/core/tests/test_templatetags_helpers.py",
+"nautobot/docs/configuration/optional-settings.md",
+"nautobot/utilities/tests/test_templatetags_helpers.py",
+"nautobot/docs/additional-features/jobs.md",
+"nautobot/docs/additional-features/template-filters.md",
+"nautobot/docs/models/extras/note.md",
+"nautobot/utilities/forms/fields.py",
+"nautobot/utilities/templatetags/helpers.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"nautobot/extras/forms/forms.py",
+"nautobot/core/tests/test_views.py",
+"nautobot/core/settings.py",
+"pyproject.toml",
+"nautobot/utilities/templatetags/helpers.py",
+"poetry.lock",
+"nautobot/core/templatetags/helpers.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-29199",
+"patch_date": [
+"2024-03-25 14:12:27-05:00",
+"2024-03-25 09:36:49-05:00"
+],
+"patch_files": [
+"nautobot/virtualization/api/views.py",
+"nautobot/core/tests/test_views.py",
+"nautobot/core/tests/integration/test_view_authentication.py",
+"nautobot/core/settings.py",
+"nautobot/utilities/tests/test_api.py",
+"changes/5464.removed",
+"nautobot/apps/api.py",
+"nautobot/utilities/utils.py",
+"nautobot/docs/development/apps/api/views/django-generic-views.md",
+"nautobot/circuits/api/views.py",
+"nautobot/core/views/generic.py",
+"nautobot/dcim/api/views.py",
+"nautobot/ipam/api/urls.py",
+"nautobot/docs/development/apps/api/views/core-view-overrides.md",
+"nautobot/utilities/api.py",
+"changes/5464.changed",
+"nautobot/tenancy/api/views.py",
+"changes/5464.fixed",
+"nautobot/core/api/routers.py",
+"nautobot/core/utils/lookup.py",
+"nautobot/docs/plugins/development.md",
+"changes/5465.documentation",
+"nautobot/core/views/__init__.py",
+"nautobot/core/views/mixins.py",
+"nautobot/extras/tests/test_views.py",
+"nautobot/ipam/views.py",
+"changes/5465.security",
+"nautobot/circuits/api/urls.py",
+"nautobot/core/tests/test_graphql.py",
+"nautobot/core/api/views.py",
+"nautobot/tenancy/api/urls.py",
+"changes/5464.security",
+"examples/example_plugin_with_view_override/example_plugin_with_view_override/views.py",
+"changes/5464.housekeeping",
+"nautobot/ipam/api/views.py",
+"changes/5464.documentation",
+"nautobot/extras/plugins/views.py",
+"mkdocs.yml",
+"nautobot/users/api/urls.py",
+"nautobot/virtualization/api/urls.py",
+"examples/example_plugin/example_plugin/views.py",
+"changes/5464.added",
+"nautobot/apps/utils.py",
+"nautobot/apps/views.py",
+"nautobot/dcim/api/urls.py",
+"nautobot/ipam/tests/test_graphql.py",
+"changes/5465.changed",
+"nautobot/extras/api/urls.py",
+"nautobot/users/views.py",
+"changes/5465.added",
+"nautobot/dcim/views.py",
+"nautobot/dcim/tests/test_api.py",
+"nautobot/extras/api/views.py",
+"changes/5465.housekeeping",
+"nautobot/extras/views.py",
+"nautobot/core/api/utils.py",
+"examples/example_plugin/example_plugin/api/urls.py",
+"changes/5465.fixed",
+"nautobot/users/api/views.py"
+],
+"earliest_patch_date": "2024-03-25 09:36:49-05:00",
+"earliest_vuln_date": "2016-03-01 11:23:03-05:00",
+"vuln_files": [
+"nautobot/virtualization/api/views.py",
+"nautobot/core/tests/test_views.py",
+"nautobot/utilities/tests/test_api.py",
+"nautobot/circuits/api/views.py",
+"nautobot/dcim/api/views.py",
+"nautobot/ipam/api/urls.py",
+"nautobot/tenancy/api/views.py",
+"nautobot/core/api/routers.py",
+"nautobot/docs/plugins/development.md",
+"nautobot/core/views/__init__.py",
+"nautobot/ipam/views.py",
+"nautobot/core/views/mixins.py",
+"nautobot/circuits/api/urls.py",
+"nautobot/core/tests/test_graphql.py",
+"nautobot/tenancy/api/urls.py",
+"nautobot/core/api/views.py",
+"examples/example_plugin_with_view_override/example_plugin_with_view_override/views.py",
+"nautobot/ipam/api/views.py",
+"nautobot/extras/plugins/views.py",
+"nautobot/users/api/urls.py",
+"nautobot/virtualization/api/urls.py",
+"examples/example_plugin/example_plugin/views.py",
+"nautobot/apps/views.py",
+"nautobot/dcim/api/urls.py",
+"nautobot/users/views.py",
+"nautobot/extras/api/urls.py",
+"nautobot/ipam/tests/test_graphql.py",
+"nautobot/dcim/views.py",
+"nautobot/extras/api/views.py",
+"nautobot/extras/views.py",
+"examples/example_plugin/example_plugin/api/urls.py",
+"nautobot/users/api/views.py",
+"nautobot/apps/api.py",
+"nautobot/docs/development/apps/api/views/core-view-overrides.md",
+"nautobot/docs/development/apps/api/views/django-generic-views.md"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"nautobot/core/tests/test_views.py",
+"nautobot/core/settings.py",
+"nautobot/utilities/utils.py",
+"nautobot/core/views/generic.py",
+"nautobot/core/views/__init__.py",
+"nautobot/core/views/mixins.py",
+"nautobot/extras/tests/test_views.py",
+"nautobot/ipam/views.py",
+"nautobot/dcim/views.py",
+"nautobot/extras/views.py",
+"nautobot/core/api/utils.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-32979",
+"patch_date": [
+"2024-04-30 10:29:41-04:00"
+],
+"patch_files": [
+"nautobot/project-static/js/forms.js",
+"changes/5646.security",
+"nautobot/core/tests/test_views.py",
+"nautobot/core/templates/generic/object_list.html"
+],
+"earliest_patch_date": "2024-04-30 10:29:41-04:00",
+"earliest_vuln_date": "2023-01-11 11:06:07-06:00",
+"vuln_files": [
+"nautobot/project-static/js/forms.js",
+"nautobot/core/templates/generic/object_list.html"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"nautobot/core/tests/test_views.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-34707",
+"patch_date": [
+"2024-05-10 12:37:17-04:00",
+"2024-05-10 12:37:39-04:00"
+],
+"patch_files": [
+"nautobot/core/templates/inc/javascript.html",
+"nautobot/core/tests/test_views.py",
+"nautobot/core/settings.py",
+"nautobot/core/settings.yaml",
+"changes/1858.added",
+"nautobot/core/templates/admin/base.html",
+"nautobot/core/templates/base.html",
+"nautobot/core/templates/graphene/graphiql.html",
+"changes/1858.security",
+"nautobot/core/templates/nautobot_config.py.j2",
+"nautobot/docs/configuration/optional-settings.md",
+"nautobot/core/templates/base_django.html",
+"nautobot/core/templates/login.html",
+"nautobot/core/templates/inc/media.html"
+],
+"earliest_patch_date": "2024-05-10 12:37:17-04:00",
+"earliest_vuln_date": "2017-09-15 15:28:09-04:00",
+"vuln_files": [
+"nautobot/core/settings.py",
+"nautobot/core/templates/admin/base.html",
+"nautobot/core/templates/base.html",
+"nautobot/docs/configuration/optional-settings.md",
+"nautobot/core/templates/login.html",
+"nautobot/core/settings.yaml",
+"nautobot/core/templates/base_django.html"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"nautobot/core/tests/test_views.py",
+"nautobot/core/settings.py",
+"nautobot/docs/configuration/optional-settings.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

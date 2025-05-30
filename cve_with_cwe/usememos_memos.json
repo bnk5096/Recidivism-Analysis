@@ -1,0 +1,4153 @@
+[
+{
+"cve_id": "CVE-2022-4609",
+"patch_date": [
+"2022-12-19 18:26:50+08:00"
+],
+"patch_files": [
+"server/resource.go"
+],
+"earliest_patch_date": "2022-12-19 18:26:50+08:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4683",
+"patch_date": [
+"2022-12-22 19:48:44+08:00"
+],
+"patch_files": [
+"web/src/components/UpdateCustomizedProfileDialog.tsx",
+"web/src/pages/Auth.tsx",
+"go.sum",
+"server/acl.go",
+"web/src/store/reducer/global.ts",
+"web/src/store/module/global.ts",
+"web/src/types/modules/system.d.ts",
+"web/src/components/LocaleSelect.tsx",
+"server/system.go",
+"api/system_setting.go",
+"go.mod",
+"web/src/components/AppearanceSelect.tsx",
+"web/src/components/Settings/PreferencesSection.tsx",
+"api/user_setting.go"
+],
+"earliest_patch_date": "2022-12-22 19:48:44+08:00",
+"earliest_vuln_date": "2022-08-13 14:35:33+08:00",
+"vuln_files": [
+"web/src/components/UpdateCustomizedProfileDialog.tsx",
+"web/src/pages/Auth.tsx",
+"go.sum",
+"web/src/store/reducer/global.ts",
+"web/src/store/module/global.ts",
+"server/system.go",
+"api/system_setting.go",
+"go.mod",
+"web/src/components/AppearanceSelect.tsx",
+"web/src/components/Settings/PreferencesSection.tsx",
+"api/user_setting.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-311"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4684",
+"patch_date": [
+"2022-12-23 18:38:24+08:00"
+],
+"patch_files": [
+"api/user.go",
+"api/memo.go",
+"api/shortcut.go",
+"api/resource.go"
+],
+"earliest_patch_date": "2022-12-23 18:38:24+08:00",
+"earliest_vuln_date": "2022-05-03 02:05:43+08:00",
+"vuln_files": [
+"api/memo.go",
+"api/resource.go",
+"api/user.go",
+"api/shortcut.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4686",
+"patch_date": [
+"2022-12-23 18:38:24+08:00"
+],
+"patch_files": [
+"api/user.go",
+"api/memo.go",
+"api/shortcut.go",
+"api/resource.go"
+],
+"earliest_patch_date": "2022-12-23 18:38:24+08:00",
+"earliest_vuln_date": "2022-05-03 02:05:43+08:00",
+"vuln_files": [
+"api/memo.go",
+"api/resource.go",
+"api/user.go",
+"api/shortcut.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"api/user.go",
+"api/memo.go",
+"api/shortcut.go",
+"api/resource.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4687",
+"patch_date": [
+"2022-12-23 18:38:24+08:00"
+],
+"patch_files": [
+"api/user.go",
+"api/memo.go",
+"api/shortcut.go",
+"api/resource.go"
+],
+"earliest_patch_date": "2022-12-23 18:38:24+08:00",
+"earliest_vuln_date": "2022-05-03 02:05:43+08:00",
+"vuln_files": [
+"api/memo.go",
+"api/resource.go",
+"api/user.go",
+"api/shortcut.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.2
+}
+},
+"cwes": [
+"CWE-269"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"api/user.go",
+"api/memo.go",
+"api/shortcut.go",
+"api/resource.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4688",
+"patch_date": [
+"2022-12-23 18:38:24+08:00"
+],
+"patch_files": [
+"api/user.go",
+"api/memo.go",
+"api/shortcut.go",
+"api/resource.go"
+],
+"earliest_patch_date": "2022-12-23 18:38:24+08:00",
+"earliest_vuln_date": "2022-05-03 02:05:43+08:00",
+"vuln_files": [
+"api/memo.go",
+"api/resource.go",
+"api/user.go",
+"api/shortcut.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"api/user.go",
+"api/memo.go",
+"api/shortcut.go",
+"api/resource.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4689",
+"patch_date": [
+"2022-12-23 18:38:24+08:00"
+],
+"patch_files": [
+"api/user.go",
+"api/memo.go",
+"api/shortcut.go",
+"api/resource.go"
+],
+"earliest_patch_date": "2022-12-23 18:38:24+08:00",
+"earliest_vuln_date": "2022-05-03 02:05:43+08:00",
+"vuln_files": [
+"api/memo.go",
+"api/resource.go",
+"api/user.go",
+"api/shortcut.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"api/user.go",
+"api/memo.go",
+"api/shortcut.go",
+"api/resource.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4690",
+"patch_date": [
+"2022-12-23 18:58:55+08:00"
+],
+"patch_files": [
+"server/resource.go",
+"server/server.go"
+],
+"earliest_patch_date": "2022-12-23 18:58:55+08:00",
+"earliest_vuln_date": "2022-09-09 00:50:58+08:00",
+"vuln_files": [
+"server/resource.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/resource.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4691",
+"patch_date": [
+"2022-12-23 18:58:55+08:00"
+],
+"patch_files": [
+"server/resource.go",
+"server/server.go"
+],
+"earliest_patch_date": "2022-12-23 18:58:55+08:00",
+"earliest_vuln_date": "2022-09-09 00:50:58+08:00",
+"vuln_files": [
+"server/resource.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/resource.go",
+"server/server.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4692",
+"patch_date": [
+"2022-12-23 18:58:55+08:00"
+],
+"patch_files": [
+"server/resource.go",
+"server/server.go"
+],
+"earliest_patch_date": "2022-12-23 18:58:55+08:00",
+"earliest_vuln_date": "2022-09-09 00:50:58+08:00",
+"vuln_files": [
+"server/resource.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/resource.go",
+"server/server.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4694",
+"patch_date": [
+"2022-12-23 19:17:33+08:00"
+],
+"patch_files": [
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/marked/parser/Link.ts",
+"web/src/labs/highlighter/index.ts",
+"web/src/labs/marked/parser/Emphasis.ts",
+"web/src/labs/marked/parser/BoldEmphasis.ts",
+"web/src/components/SearchBar.tsx"
+],
+"earliest_patch_date": "2022-12-23 19:17:33+08:00",
+"earliest_vuln_date": "2022-10-21 09:13:19+08:00",
+"vuln_files": [
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/marked/parser/Link.ts",
+"web/src/labs/highlighter/index.ts",
+"web/src/labs/marked/parser/Emphasis.ts",
+"web/src/labs/marked/parser/BoldEmphasis.ts",
+"web/src/components/SearchBar.tsx"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4695",
+"patch_date": [
+"2022-12-23 19:17:33+08:00"
+],
+"patch_files": [
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/marked/parser/Link.ts",
+"web/src/labs/highlighter/index.ts",
+"web/src/labs/marked/parser/Emphasis.ts",
+"web/src/labs/marked/parser/BoldEmphasis.ts",
+"web/src/components/SearchBar.tsx"
+],
+"earliest_patch_date": "2022-12-23 19:17:33+08:00",
+"earliest_vuln_date": "2022-10-21 09:13:19+08:00",
+"vuln_files": [
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/marked/parser/Link.ts",
+"web/src/labs/highlighter/index.ts",
+"web/src/labs/marked/parser/Emphasis.ts",
+"web/src/labs/marked/parser/BoldEmphasis.ts",
+"web/src/components/SearchBar.tsx"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/marked/parser/Link.ts",
+"web/src/labs/highlighter/index.ts",
+"web/src/labs/marked/parser/Emphasis.ts",
+"web/src/labs/marked/parser/BoldEmphasis.ts",
+"web/src/components/SearchBar.tsx"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4734",
+"patch_date": [
+"2022-12-25 10:28:51+08:00"
+],
+"patch_files": [
+"server/system.go"
+],
+"earliest_patch_date": "2022-12-25 10:28:51+08:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/system.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4767",
+"patch_date": [
+"2022-12-27 21:51:43+08:00"
+],
+"patch_files": [
+".github/workflows/frontend-tests.yml",
+".github/workflows/frontend-tests-default.yml",
+"server/user.go",
+".github/workflows/backend-tests-default.yml",
+"api/user.go",
+".github/workflows/backend-tests.yml"
+],
+"earliest_patch_date": "2022-12-27 21:51:43+08:00",
+"earliest_vuln_date": "2022-08-20 21:51:28+08:00",
+"vuln_files": [
+".github/workflows/frontend-tests.yml",
+"server/user.go",
+".github/workflows/backend-tests.yml"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-400"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"api/user.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4796",
+"patch_date": [
+"2022-12-28 20:22:52+08:00"
+],
+"patch_files": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"earliest_patch_date": "2022-12-28 20:22:52+08:00",
+"earliest_vuln_date": "2022-02-03 15:32:03+08:00",
+"vuln_files": [
+"server/user.go",
+"api/memo.go",
+"server/shortcut.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.2
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/user.go",
+"api/memo.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4797",
+"patch_date": [
+"2022-12-28 20:22:52+08:00"
+],
+"patch_files": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"earliest_patch_date": "2022-12-28 20:22:52+08:00",
+"earliest_vuln_date": "2022-02-03 15:32:03+08:00",
+"vuln_files": [
+"server/user.go",
+"api/memo.go",
+"server/shortcut.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4798",
+"patch_date": [
+"2022-12-28 20:22:52+08:00"
+],
+"patch_files": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"earliest_patch_date": "2022-12-28 20:22:52+08:00",
+"earliest_vuln_date": "2022-02-03 15:32:03+08:00",
+"vuln_files": [
+"server/user.go",
+"api/memo.go",
+"server/shortcut.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4799",
+"patch_date": [
+"2022-12-28 20:22:52+08:00"
+],
+"patch_files": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"earliest_patch_date": "2022-12-28 20:22:52+08:00",
+"earliest_vuln_date": "2022-02-03 15:32:03+08:00",
+"vuln_files": [
+"server/user.go",
+"api/memo.go",
+"server/shortcut.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "LOW",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 2.5
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4800",
+"patch_date": [
+"2022-12-28 20:22:52+08:00"
+],
+"patch_files": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"earliest_patch_date": "2022-12-28 20:22:52+08:00",
+"earliest_vuln_date": "2022-02-03 15:32:03+08:00",
+"vuln_files": [
+"server/user.go",
+"api/memo.go",
+"server/shortcut.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4801",
+"patch_date": [
+"2022-12-28 20:22:52+08:00"
+],
+"patch_files": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"earliest_patch_date": "2022-12-28 20:22:52+08:00",
+"earliest_vuln_date": "2022-02-03 15:32:03+08:00",
+"vuln_files": [
+"server/user.go",
+"api/memo.go",
+"server/shortcut.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4802",
+"patch_date": [
+"2022-12-28 20:22:52+08:00"
+],
+"patch_files": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"earliest_patch_date": "2022-12-28 20:22:52+08:00",
+"earliest_vuln_date": "2022-02-03 15:32:03+08:00",
+"vuln_files": [
+"server/user.go",
+"api/memo.go",
+"server/shortcut.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.5
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4803",
+"patch_date": [
+"2022-12-28 20:22:52+08:00"
+],
+"patch_files": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"earliest_patch_date": "2022-12-28 20:22:52+08:00",
+"earliest_vuln_date": "2022-02-03 15:32:03+08:00",
+"vuln_files": [
+"server/user.go",
+"api/memo.go",
+"server/shortcut.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4804",
+"patch_date": [
+"2022-12-28 20:22:52+08:00"
+],
+"patch_files": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"earliest_patch_date": "2022-12-28 20:22:52+08:00",
+"earliest_vuln_date": "2022-02-03 15:32:03+08:00",
+"vuln_files": [
+"server/user.go",
+"api/memo.go",
+"server/shortcut.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4805",
+"patch_date": [
+"2022-12-28 20:22:52+08:00"
+],
+"patch_files": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"earliest_patch_date": "2022-12-28 20:22:52+08:00",
+"earliest_vuln_date": "2022-02-03 15:32:03+08:00",
+"vuln_files": [
+"server/user.go",
+"api/memo.go",
+"server/shortcut.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4806",
+"patch_date": [
+"2022-12-28 20:22:52+08:00"
+],
+"patch_files": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"earliest_patch_date": "2022-12-28 20:22:52+08:00",
+"earliest_vuln_date": "2022-02-03 15:32:03+08:00",
+"vuln_files": [
+"server/user.go",
+"api/memo.go",
+"server/shortcut.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4807",
+"patch_date": [
+"2022-12-28 20:22:52+08:00"
+],
+"patch_files": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"earliest_patch_date": "2022-12-28 20:22:52+08:00",
+"earliest_vuln_date": "2022-02-03 15:32:03+08:00",
+"vuln_files": [
+"server/user.go",
+"api/memo.go",
+"server/shortcut.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4808",
+"patch_date": [
+"2022-12-28 20:22:52+08:00"
+],
+"patch_files": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"earliest_patch_date": "2022-12-28 20:22:52+08:00",
+"earliest_vuln_date": "2022-02-03 15:32:03+08:00",
+"vuln_files": [
+"server/user.go",
+"api/memo.go",
+"server/shortcut.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4809",
+"patch_date": [
+"2022-12-28 20:22:52+08:00"
+],
+"patch_files": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"earliest_patch_date": "2022-12-28 20:22:52+08:00",
+"earliest_vuln_date": "2022-02-03 15:32:03+08:00",
+"vuln_files": [
+"server/user.go",
+"api/memo.go",
+"server/shortcut.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4810",
+"patch_date": [
+"2022-12-28 20:22:52+08:00"
+],
+"patch_files": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"earliest_patch_date": "2022-12-28 20:22:52+08:00",
+"earliest_vuln_date": "2022-02-03 15:32:03+08:00",
+"vuln_files": [
+"server/user.go",
+"api/memo.go",
+"server/shortcut.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4811",
+"patch_date": [
+"2022-12-28 20:22:52+08:00"
+],
+"patch_files": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"earliest_patch_date": "2022-12-28 20:22:52+08:00",
+"earliest_vuln_date": "2022-02-03 15:32:03+08:00",
+"vuln_files": [
+"server/user.go",
+"api/memo.go",
+"server/shortcut.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.5
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4812",
+"patch_date": [
+"2022-12-28 20:22:52+08:00"
+],
+"patch_files": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"earliest_patch_date": "2022-12-28 20:22:52+08:00",
+"earliest_vuln_date": "2022-02-03 15:32:03+08:00",
+"vuln_files": [
+"server/user.go",
+"api/memo.go",
+"server/shortcut.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4813",
+"patch_date": [
+"2022-12-28 20:22:52+08:00"
+],
+"patch_files": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"earliest_patch_date": "2022-12-28 20:22:52+08:00",
+"earliest_vuln_date": "2022-02-03 15:32:03+08:00",
+"vuln_files": [
+"server/user.go",
+"api/memo.go",
+"server/shortcut.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4814",
+"patch_date": [
+"2022-12-28 20:22:52+08:00"
+],
+"patch_files": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"earliest_patch_date": "2022-12-28 20:22:52+08:00",
+"earliest_vuln_date": "2022-02-03 15:32:03+08:00",
+"vuln_files": [
+"server/user.go",
+"api/memo.go",
+"server/shortcut.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4851",
+"patch_date": [
+"2022-12-28 20:22:52+08:00"
+],
+"patch_files": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"earliest_patch_date": "2022-12-28 20:22:52+08:00",
+"earliest_vuln_date": "2022-02-03 15:32:03+08:00",
+"vuln_files": [
+"server/user.go",
+"api/memo.go",
+"server/shortcut.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4863",
+"patch_date": [
+"2022-12-28 20:22:52+08:00"
+],
+"patch_files": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"earliest_patch_date": "2022-12-28 20:22:52+08:00",
+"earliest_vuln_date": "2022-02-03 15:32:03+08:00",
+"vuln_files": [
+"server/user.go",
+"api/memo.go",
+"server/shortcut.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 5.2
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/user.go",
+"api/memo.go",
+"api/memo_resource.go",
+"api/tag.go",
+"server/shortcut.go",
+"server/tag.go",
+"server/memo.go",
+"server/auth.go",
+"api/shortcut.go",
+"server/system.go",
+"server/resource.go",
+"api/memo_organizer.go",
+"api/user_setting.go",
+"api/resource.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4839",
+"patch_date": [
+"2022-12-29 23:27:56+08:00"
+],
+"patch_files": [
+"web/src/labs/marked/index.ts",
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/marked/parser/Link.ts",
+"web/src/labs/marked/parser/Strikethrough.ts",
+"web/src/labs/marked/parser/Emphasis.ts",
+"web/src/labs/marked/parser/BoldEmphasis.ts"
+],
+"earliest_patch_date": "2022-12-29 23:27:56+08:00",
+"earliest_vuln_date": "2022-10-04 10:44:16+08:00",
+"vuln_files": [
+"web/src/labs/marked/index.ts",
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/marked/parser/Link.ts",
+"web/src/labs/marked/parser/Strikethrough.ts",
+"web/src/labs/marked/parser/Emphasis.ts",
+"web/src/labs/marked/parser/BoldEmphasis.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/marked/parser/Link.ts",
+"web/src/labs/marked/parser/Emphasis.ts",
+"web/src/labs/marked/parser/BoldEmphasis.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4840",
+"patch_date": [
+"2022-12-29 23:27:56+08:00"
+],
+"patch_files": [
+"web/src/labs/marked/index.ts",
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/marked/parser/Link.ts",
+"web/src/labs/marked/parser/Strikethrough.ts",
+"web/src/labs/marked/parser/Emphasis.ts",
+"web/src/labs/marked/parser/BoldEmphasis.ts"
+],
+"earliest_patch_date": "2022-12-29 23:27:56+08:00",
+"earliest_vuln_date": "2022-10-04 10:44:16+08:00",
+"vuln_files": [
+"web/src/labs/marked/index.ts",
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/marked/parser/Link.ts",
+"web/src/labs/marked/parser/Strikethrough.ts",
+"web/src/labs/marked/parser/Emphasis.ts",
+"web/src/labs/marked/parser/BoldEmphasis.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"web/src/labs/marked/index.ts",
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/marked/parser/Link.ts",
+"web/src/labs/marked/parser/Strikethrough.ts",
+"web/src/labs/marked/parser/Emphasis.ts",
+"web/src/labs/marked/parser/BoldEmphasis.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4841",
+"patch_date": [
+"2022-12-29 23:27:56+08:00"
+],
+"patch_files": [
+"web/src/labs/marked/index.ts",
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/marked/parser/Link.ts",
+"web/src/labs/marked/parser/Strikethrough.ts",
+"web/src/labs/marked/parser/Emphasis.ts",
+"web/src/labs/marked/parser/BoldEmphasis.ts"
+],
+"earliest_patch_date": "2022-12-29 23:27:56+08:00",
+"earliest_vuln_date": "2022-10-04 10:44:16+08:00",
+"vuln_files": [
+"web/src/labs/marked/index.ts",
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/marked/parser/Link.ts",
+"web/src/labs/marked/parser/Strikethrough.ts",
+"web/src/labs/marked/parser/Emphasis.ts",
+"web/src/labs/marked/parser/BoldEmphasis.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"web/src/labs/marked/index.ts",
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/marked/parser/Link.ts",
+"web/src/labs/marked/parser/Strikethrough.ts",
+"web/src/labs/marked/parser/Emphasis.ts",
+"web/src/labs/marked/parser/BoldEmphasis.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4844",
+"patch_date": [
+"2022-12-30 00:17:19+08:00"
+],
+"patch_files": [
+"server/server.go",
+"server/acl.go"
+],
+"earliest_patch_date": "2022-12-30 00:17:19+08:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/server.go",
+"server/acl.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4845",
+"patch_date": [
+"2022-12-30 00:17:19+08:00"
+],
+"patch_files": [
+"server/server.go",
+"server/acl.go"
+],
+"earliest_patch_date": "2022-12-30 00:17:19+08:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/server.go",
+"server/acl.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4846",
+"patch_date": [
+"2022-12-30 00:17:19+08:00"
+],
+"patch_files": [
+"server/server.go",
+"server/acl.go"
+],
+"earliest_patch_date": "2022-12-30 00:17:19+08:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/server.go",
+"server/acl.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4847",
+"patch_date": [
+"2022-12-30 00:17:19+08:00"
+],
+"patch_files": [
+"server/server.go",
+"server/acl.go"
+],
+"earliest_patch_date": "2022-12-30 00:17:19+08:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/server.go",
+"server/acl.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4848",
+"patch_date": [
+"2022-12-30 00:17:19+08:00"
+],
+"patch_files": [
+"server/server.go",
+"server/acl.go"
+],
+"earliest_patch_date": "2022-12-30 00:17:19+08:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 5.7,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.1,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/server.go",
+"server/acl.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4849",
+"patch_date": [
+"2022-12-30 00:17:19+08:00"
+],
+"patch_files": [
+"server/server.go",
+"server/acl.go"
+],
+"earliest_patch_date": "2022-12-30 00:17:19+08:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/server.go",
+"server/acl.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4850",
+"patch_date": [
+"2022-12-30 00:17:19+08:00"
+],
+"patch_files": [
+"server/server.go",
+"server/acl.go"
+],
+"earliest_patch_date": "2022-12-30 00:17:19+08:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/server.go",
+"server/acl.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4865",
+"patch_date": [
+"2022-12-31 11:52:57+08:00"
+],
+"patch_files": [
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/marked/parser/Emphasis.ts",
+"web/src/labs/marked/parser/BoldEmphasis.ts",
+"web/src/labs/marked/parser/Link.ts"
+],
+"earliest_patch_date": "2022-12-31 11:52:57+08:00",
+"earliest_vuln_date": "2022-12-29 23:27:56+08:00",
+"vuln_files": [
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/marked/parser/Emphasis.ts",
+"web/src/labs/marked/parser/BoldEmphasis.ts",
+"web/src/labs/marked/parser/Link.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/marked/parser/Emphasis.ts",
+"web/src/labs/marked/parser/BoldEmphasis.ts",
+"web/src/labs/marked/parser/Link.ts"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/marked/parser/Emphasis.ts",
+"web/src/labs/marked/parser/BoldEmphasis.ts",
+"web/src/labs/marked/parser/Link.ts"
+]
+},
+{
+"cve_id": "CVE-2022-4866",
+"patch_date": [
+"2022-12-31 11:52:57+08:00"
+],
+"patch_files": [
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/marked/parser/Emphasis.ts",
+"web/src/labs/marked/parser/BoldEmphasis.ts",
+"web/src/labs/marked/parser/Link.ts"
+],
+"earliest_patch_date": "2022-12-31 11:52:57+08:00",
+"earliest_vuln_date": "2022-12-29 23:27:56+08:00",
+"vuln_files": [
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/marked/parser/Emphasis.ts",
+"web/src/labs/marked/parser/BoldEmphasis.ts",
+"web/src/labs/marked/parser/Link.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/marked/parser/Emphasis.ts",
+"web/src/labs/marked/parser/BoldEmphasis.ts",
+"web/src/labs/marked/parser/Link.ts"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/marked/parser/Emphasis.ts",
+"web/src/labs/marked/parser/BoldEmphasis.ts",
+"web/src/labs/marked/parser/Link.ts"
+]
+},
+{
+"cve_id": "CVE-2023-0106",
+"patch_date": [
+"2023-01-07 00:13:49+08:00"
+],
+"patch_files": [
+"web/src/labs/marked/matcher.ts",
+"web/src/labs/marked/parser/Br.ts",
+"web/src/labs/marked/parser/Strikethrough.ts",
+"web/src/labs/marked/parser/CodeBlock.tsx",
+"web/src/labs/marked/parser/Emphasis.ts",
+"web/src/labs/marked/parser/BoldEmphasis.ts",
+"web/src/components/CreateTagDialog.tsx",
+"web/src/labs/marked/parser/Heading.tsx",
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/marked/parser/HorizontalRules.ts",
+"web/src/components/Memo.tsx",
+"web/src/labs/marked/marked.test.ts",
+"web/src/labs/marked/parser/Paragraph.ts",
+"web/src/labs/marked/parser/UnorderedList.ts",
+"web/src/labs/highlighter/index.ts",
+"web/src/components/MemoContent.tsx",
+"web/src/labs/marked/parser/Heading.ts",
+"web/src/labs/marked/parser/Blockquote.tsx",
+"web/src/labs/marked/parser/Tag.ts",
+"web/src/labs/marked/parser/OrderedList.tsx",
+"web/src/labs/marked/parser/Tag.tsx",
+"web/src/labs/marked/parser/CodeBlock.ts",
+"web/src/labs/marked/parser/Strikethrough.tsx",
+"web/src/labs/marked/parser/TodoList.tsx",
+"web/src/components/MemoList.tsx",
+"web/src/labs/marked/parser/Image.ts",
+"web/src/labs/marked/parser/Blockquote.ts",
+"web/src/labs/marked/parser/Bold.tsx",
+"web/src/labs/marked/parser/DoneList.tsx",
+"web/src/labs/marked/parser/OrderedList.ts",
+"web/src/labs/marked/parser/TodoList.ts",
+"web/src/labs/marked/parser/Br.tsx",
+"web/src/labs/marked/parser/InlineCode.ts",
+"web/src/labs/marked/parser/PlainLink.ts",
+"web/src/labs/marked/parser/PlainText.ts",
+"web/src/labs/marked/parser/UnorderedList.tsx",
+"web/src/labs/marked/parser/PlainLink.tsx",
+"web/src/labs/marked/index.ts",
+"web/src/labs/marked/parser/Link.ts",
+"web/src/labs/marked/parser/DoneList.ts",
+"web/src/labs/marked/parser/InlineCode.tsx",
+"web/src/labs/marked/parser/HorizontalRules.tsx"
+],
+"earliest_patch_date": "2023-01-07 00:13:49+08:00",
+"earliest_vuln_date": "2022-09-09 00:06:05+08:00",
+"vuln_files": [
+"web/src/labs/marked/parser/Br.ts",
+"web/src/labs/marked/parser/Strikethrough.ts",
+"web/src/labs/marked/parser/Emphasis.tsx",
+"web/src/components/CreateTagDialog.tsx",
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/marked/parser/HorizontalRules.ts",
+"web/src/components/Memo.tsx",
+"web/src/labs/marked/marked.test.ts",
+"web/src/labs/marked/parser/BoldEmphasis.tsx",
+"web/src/labs/marked/parser/Image.tsx",
+"web/src/labs/marked/parser/UnorderedList.ts",
+"web/src/labs/highlighter/index.ts",
+"web/src/components/MemoContent.tsx",
+"web/src/labs/marked/parser/Heading.ts",
+"web/src/labs/marked/parser/Tag.ts",
+"web/src/labs/marked/parser/CodeBlock.ts",
+"web/src/components/MemoList.tsx",
+"web/src/labs/marked/parser/Blockquote.ts",
+"web/src/labs/marked/index.tsx",
+"web/src/labs/marked/parser/OrderedList.ts",
+"web/src/labs/marked/parser/TodoList.ts",
+"web/src/labs/marked/parser/InlineCode.ts",
+"web/src/labs/marked/parser/PlainLink.ts",
+"web/src/labs/marked/parser/PlainText.tsx",
+"web/src/labs/marked/parser/Link.tsx",
+"web/src/labs/marked/parser/DoneList.ts",
+"web/src/labs/marked/parser/Paragraph.tsx"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"web/src/labs/marked/parser/Strikethrough.ts",
+"web/src/labs/marked/parser/Emphasis.ts",
+"web/src/labs/marked/parser/BoldEmphasis.ts",
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/highlighter/index.ts",
+"web/src/labs/marked/index.ts",
+"web/src/labs/marked/parser/Link.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-0107",
+"patch_date": [
+"2023-01-07 00:13:49+08:00"
+],
+"patch_files": [
+"web/src/labs/marked/matcher.ts",
+"web/src/labs/marked/parser/Br.ts",
+"web/src/labs/marked/parser/Strikethrough.ts",
+"web/src/labs/marked/parser/CodeBlock.tsx",
+"web/src/labs/marked/parser/Emphasis.ts",
+"web/src/labs/marked/parser/BoldEmphasis.ts",
+"web/src/components/CreateTagDialog.tsx",
+"web/src/labs/marked/parser/Heading.tsx",
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/marked/parser/HorizontalRules.ts",
+"web/src/components/Memo.tsx",
+"web/src/labs/marked/marked.test.ts",
+"web/src/labs/marked/parser/Paragraph.ts",
+"web/src/labs/marked/parser/UnorderedList.ts",
+"web/src/labs/highlighter/index.ts",
+"web/src/components/MemoContent.tsx",
+"web/src/labs/marked/parser/Heading.ts",
+"web/src/labs/marked/parser/Blockquote.tsx",
+"web/src/labs/marked/parser/Tag.ts",
+"web/src/labs/marked/parser/OrderedList.tsx",
+"web/src/labs/marked/parser/Tag.tsx",
+"web/src/labs/marked/parser/CodeBlock.ts",
+"web/src/labs/marked/parser/Strikethrough.tsx",
+"web/src/labs/marked/parser/TodoList.tsx",
+"web/src/components/MemoList.tsx",
+"web/src/labs/marked/parser/Image.ts",
+"web/src/labs/marked/parser/Blockquote.ts",
+"web/src/labs/marked/parser/Bold.tsx",
+"web/src/labs/marked/parser/DoneList.tsx",
+"web/src/labs/marked/parser/OrderedList.ts",
+"web/src/labs/marked/parser/TodoList.ts",
+"web/src/labs/marked/parser/Br.tsx",
+"web/src/labs/marked/parser/InlineCode.ts",
+"web/src/labs/marked/parser/PlainLink.ts",
+"web/src/labs/marked/parser/PlainText.ts",
+"web/src/labs/marked/parser/UnorderedList.tsx",
+"web/src/labs/marked/parser/PlainLink.tsx",
+"web/src/labs/marked/index.ts",
+"web/src/labs/marked/parser/Link.ts",
+"web/src/labs/marked/parser/DoneList.ts",
+"web/src/labs/marked/parser/InlineCode.tsx",
+"web/src/labs/marked/parser/HorizontalRules.tsx"
+],
+"earliest_patch_date": "2023-01-07 00:13:49+08:00",
+"earliest_vuln_date": "2022-09-09 00:06:05+08:00",
+"vuln_files": [
+"web/src/labs/marked/parser/Br.ts",
+"web/src/labs/marked/parser/Strikethrough.ts",
+"web/src/labs/marked/parser/Emphasis.tsx",
+"web/src/components/CreateTagDialog.tsx",
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/marked/parser/HorizontalRules.ts",
+"web/src/components/Memo.tsx",
+"web/src/labs/marked/marked.test.ts",
+"web/src/labs/marked/parser/BoldEmphasis.tsx",
+"web/src/labs/marked/parser/Image.tsx",
+"web/src/labs/marked/parser/UnorderedList.ts",
+"web/src/labs/highlighter/index.ts",
+"web/src/components/MemoContent.tsx",
+"web/src/labs/marked/parser/Heading.ts",
+"web/src/labs/marked/parser/Tag.ts",
+"web/src/labs/marked/parser/CodeBlock.ts",
+"web/src/components/MemoList.tsx",
+"web/src/labs/marked/parser/Blockquote.ts",
+"web/src/labs/marked/index.tsx",
+"web/src/labs/marked/parser/OrderedList.ts",
+"web/src/labs/marked/parser/TodoList.ts",
+"web/src/labs/marked/parser/InlineCode.ts",
+"web/src/labs/marked/parser/PlainLink.ts",
+"web/src/labs/marked/parser/PlainText.tsx",
+"web/src/labs/marked/parser/Link.tsx",
+"web/src/labs/marked/parser/DoneList.ts",
+"web/src/labs/marked/parser/Paragraph.tsx"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"web/src/labs/marked/matcher.ts",
+"web/src/labs/marked/parser/Br.ts",
+"web/src/labs/marked/parser/Strikethrough.ts",
+"web/src/labs/marked/parser/CodeBlock.tsx",
+"web/src/labs/marked/parser/Emphasis.ts",
+"web/src/labs/marked/parser/BoldEmphasis.ts",
+"web/src/components/CreateTagDialog.tsx",
+"web/src/labs/marked/parser/Heading.tsx",
+"web/src/labs/marked/parser/Bold.ts",
+"web/src/labs/marked/parser/HorizontalRules.ts",
+"web/src/components/Memo.tsx",
+"web/src/labs/marked/marked.test.ts",
+"web/src/labs/marked/parser/Paragraph.ts",
+"web/src/labs/marked/parser/UnorderedList.ts",
+"web/src/labs/highlighter/index.ts",
+"web/src/components/MemoContent.tsx",
+"web/src/labs/marked/parser/Heading.ts",
+"web/src/labs/marked/parser/Blockquote.tsx",
+"web/src/labs/marked/parser/Tag.ts",
+"web/src/labs/marked/parser/OrderedList.tsx",
+"web/src/labs/marked/parser/Tag.tsx",
+"web/src/labs/marked/parser/CodeBlock.ts",
+"web/src/labs/marked/parser/Strikethrough.tsx",
+"web/src/labs/marked/parser/TodoList.tsx",
+"web/src/components/MemoList.tsx",
+"web/src/labs/marked/parser/Image.ts",
+"web/src/labs/marked/parser/Blockquote.ts",
+"web/src/labs/marked/parser/Bold.tsx",
+"web/src/labs/marked/parser/DoneList.tsx",
+"web/src/labs/marked/parser/OrderedList.ts",
+"web/src/labs/marked/parser/TodoList.ts",
+"web/src/labs/marked/parser/Br.tsx",
+"web/src/labs/marked/parser/InlineCode.ts",
+"web/src/labs/marked/parser/PlainLink.ts",
+"web/src/labs/marked/parser/PlainText.ts",
+"web/src/labs/marked/parser/UnorderedList.tsx",
+"web/src/labs/marked/parser/PlainLink.tsx",
+"web/src/labs/marked/index.ts",
+"web/src/labs/marked/parser/Link.ts",
+"web/src/labs/marked/parser/DoneList.ts",
+"web/src/labs/marked/parser/InlineCode.tsx",
+"web/src/labs/marked/parser/HorizontalRules.tsx"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-0108",
+"patch_date": [
+"2023-01-07 10:51:34+08:00"
+],
+"patch_files": [
+"store/db/migration/prod/0.10/00__activity.sql",
+"web/src/components/EmbedMemoDialog.tsx",
+"server/common.go",
+"server/version/version.go",
+"store/db/migration/prod/LATEST__SCHEMA.sql",
+"server/version/version_test.go",
+"server/resource.go",
+"server/server.go"
+],
+"earliest_patch_date": "2023-01-07 10:51:34+08:00",
+"earliest_vuln_date": "2022-09-09 00:50:58+08:00",
+"vuln_files": [
+"server/resource.go",
+"server/server.go",
+"server/version/version.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/resource.go",
+"server/server.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-0109",
+"patch_date": [
+"2023-01-07 10:51:34+08:00"
+],
+"patch_files": [
+"store/db/migration/prod/0.10/00__activity.sql",
+"web/src/components/EmbedMemoDialog.tsx",
+"server/common.go",
+"server/version/version.go",
+"store/db/migration/prod/LATEST__SCHEMA.sql",
+"server/version/version_test.go",
+"server/resource.go",
+"server/server.go"
+],
+"earliest_patch_date": "2023-01-07 10:51:34+08:00",
+"earliest_vuln_date": "2022-09-09 00:50:58+08:00",
+"vuln_files": [
+"server/resource.go",
+"server/server.go",
+"server/version/version.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"store/db/migration/prod/0.10/00__activity.sql",
+"web/src/components/EmbedMemoDialog.tsx",
+"server/common.go",
+"server/version/version.go",
+"store/db/migration/prod/LATEST__SCHEMA.sql",
+"server/version/version_test.go",
+"server/resource.go",
+"server/server.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-0110",
+"patch_date": [
+"2023-01-07 10:51:34+08:00"
+],
+"patch_files": [
+"store/db/migration/prod/0.10/00__activity.sql",
+"web/src/components/EmbedMemoDialog.tsx",
+"server/common.go",
+"server/version/version.go",
+"store/db/migration/prod/LATEST__SCHEMA.sql",
+"server/version/version_test.go",
+"server/resource.go",
+"server/server.go"
+],
+"earliest_patch_date": "2023-01-07 10:51:34+08:00",
+"earliest_vuln_date": "2022-09-09 00:50:58+08:00",
+"vuln_files": [
+"server/resource.go",
+"server/server.go",
+"server/version/version.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"store/db/migration/prod/0.10/00__activity.sql",
+"web/src/components/EmbedMemoDialog.tsx",
+"server/common.go",
+"server/version/version.go",
+"store/db/migration/prod/LATEST__SCHEMA.sql",
+"server/version/version_test.go",
+"server/resource.go",
+"server/server.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-0111",
+"patch_date": [
+"2023-01-07 10:51:34+08:00"
+],
+"patch_files": [
+"store/db/migration/prod/0.10/00__activity.sql",
+"web/src/components/EmbedMemoDialog.tsx",
+"server/common.go",
+"server/version/version.go",
+"store/db/migration/prod/LATEST__SCHEMA.sql",
+"server/version/version_test.go",
+"server/resource.go",
+"server/server.go"
+],
+"earliest_patch_date": "2023-01-07 10:51:34+08:00",
+"earliest_vuln_date": "2022-09-09 00:50:58+08:00",
+"vuln_files": [
+"server/resource.go",
+"server/server.go",
+"server/version/version.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"store/db/migration/prod/0.10/00__activity.sql",
+"web/src/components/EmbedMemoDialog.tsx",
+"server/common.go",
+"server/version/version.go",
+"store/db/migration/prod/LATEST__SCHEMA.sql",
+"server/version/version_test.go",
+"server/resource.go",
+"server/server.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-0112",
+"patch_date": [
+"2023-01-07 10:51:34+08:00"
+],
+"patch_files": [
+"store/db/migration/prod/0.10/00__activity.sql",
+"web/src/components/EmbedMemoDialog.tsx",
+"server/common.go",
+"server/version/version.go",
+"store/db/migration/prod/LATEST__SCHEMA.sql",
+"server/version/version_test.go",
+"server/resource.go",
+"server/server.go"
+],
+"earliest_patch_date": "2023-01-07 10:51:34+08:00",
+"earliest_vuln_date": "2022-09-09 00:50:58+08:00",
+"vuln_files": [
+"server/resource.go",
+"server/server.go",
+"server/version/version.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"store/db/migration/prod/0.10/00__activity.sql",
+"web/src/components/EmbedMemoDialog.tsx",
+"server/common.go",
+"server/version/version.go",
+"store/db/migration/prod/LATEST__SCHEMA.sql",
+"server/version/version_test.go",
+"server/resource.go",
+"server/server.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-25978",
+"patch_date": [
+"2023-02-11 17:34:29+08:00"
+],
+"patch_files": [
+"server/resource.go",
+"web/src/components/CreateResourceDialog.tsx"
+],
+"earliest_patch_date": "2023-02-11 17:34:29+08:00",
+"earliest_vuln_date": "2022-02-03 15:32:03+08:00",
+"vuln_files": [
+"server/resource.go",
+"web/src/components/CreateResourceDialog.tsx"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/resource.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-4696",
+"patch_date": [
+"2023-06-30 14:59:52+00:00"
+],
+"patch_files": [
+"server/jwt.go"
+],
+"earliest_patch_date": "2023-06-30 14:59:52+00:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-4697",
+"patch_date": [
+"2023-06-30 14:59:52+00:00"
+],
+"patch_files": [
+"server/jwt.go"
+],
+"earliest_patch_date": "2023-06-30 14:59:52+00:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-269"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-269"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/jwt.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-4698",
+"patch_date": [
+"2023-06-30 14:59:52+00:00"
+],
+"patch_files": [
+"server/jwt.go"
+],
+"earliest_patch_date": "2023-06-30 14:59:52+00:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/jwt.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-5036",
+"patch_date": [
+"2023-09-18 12:45:26+08:00"
+],
+"patch_files": [
+".gitignore",
+"plugin/http-getter/image.go",
+"go.sum",
+"go.mod"
+],
+"earliest_patch_date": "2023-09-18 12:45:26+08:00",
+"earliest_vuln_date": "2023-08-09 21:53:06+08:00",
+"vuln_files": [
+"go.sum",
+"go.mod"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-352"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"go.sum",
+"go.mod"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"go.sum",
+"go.mod"
+]
+},
+{
+"cve_id": "CVE-2024-29028",
+"patch_date": [
+"2023-10-06 23:03:36+08:00"
+],
+"patch_files": [
+"docs/api/v1.md",
+"api/v1/http_getter.go",
+"api/v1/docs.go",
+"api/v1/swagger.yaml"
+],
+"earliest_patch_date": "2023-10-06 23:03:36+08:00",
+"earliest_vuln_date": "2022-11-19 18:43:56+08:00",
+"vuln_files": [
+"docs/api/v1.md",
+"api/v1/http_getter.go",
+"api/v1/docs.go",
+"api/v1/swagger.yaml"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-41659",
+"patch_date": [
+"2024-04-07 22:15:15+08:00"
+],
+"patch_files": [
+"server/server.go",
+"bin/memos/main.go",
+"server/profile/profile.go"
+],
+"earliest_patch_date": "2024-04-07 22:15:15+08:00",
+"earliest_vuln_date": "2023-02-23 00:07:16+08:00",
+"vuln_files": [
+"server/server.go",
+"bin/memos/main.go"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/server.go"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"server/server.go"
+]
+},
+{
+"cve_id": "CVE-2024-29029",
+"patch_date": [
+"2024-04-13 11:01:16+08:00"
+],
+"patch_files": [
+"server/route/api/v1/docs.go",
+"server/route/api/v1/user.go",
+"server/route/api/v2/storage_service.go",
+"server/route/api/v1/common.go",
+"server/route/api/v1/storage.go",
+"server/route/api/v1/tag_test.go",
+"server/route/api/v1/memo_relation.go",
+"server/route/api/v1/auth.go",
+"server/route/api/v1/system.go",
+"server/route/api/v1/memo.go",
+"server/route/api/v1/resource.go",
+"server/route/api/v1/tag.go",
+"server/route/api/v1/jwt.go",
+"server/route/api/v1/memo_organizer.go",
+"server/route/api/v1/v1.go",
+"internal/jobs/presign_link.go",
+"server/route/api/v1/swagger.yaml",
+"server/route/api/v1/system_setting.go",
+"server/route/api/v1/http_getter.go",
+"server/server.go",
+"server/route/api/v1/swagger.md",
+"server/integration/telegram.go"
+],
+"earliest_patch_date": "2024-04-13 11:01:16+08:00",
+"earliest_vuln_date": "2022-02-03 15:32:03+08:00",
+"vuln_files": [
+"server/route/api/v1/docs.go",
+"server/route/api/v1/user.go",
+"server/route/api/v2/storage_service.go",
+"server/route/api/v1/common.go",
+"server/route/api/v1/storage.go",
+"server/route/api/v1/tag_test.go",
+"server/route/api/v1/memo_relation.go",
+"server/route/api/v1/auth.go",
+"server/route/api/v1/system.go",
+"server/route/api/v1/resource.go",
+"server/route/api/v1/memo.go",
+"server/route/api/v1/tag.go",
+"server/route/api/v1/jwt.go",
+"server/route/api/v1/memo_organizer.go",
+"server/route/api/v1/v1.go",
+"internal/jobs/presign_link.go",
+"server/route/api/v1/swagger.yaml",
+"server/route/api/v1/system_setting.go",
+"server/route/api/v1/http_getter.go",
+"server/server.go",
+"server/route/api/v1/swagger.md",
+"server/integration/telegram.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-918",
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/server.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-29030",
+"patch_date": [
+"2024-04-13 11:01:16+08:00"
+],
+"patch_files": [
+"server/route/api/v1/docs.go",
+"server/route/api/v1/user.go",
+"server/route/api/v2/storage_service.go",
+"server/route/api/v1/common.go",
+"server/route/api/v1/storage.go",
+"server/route/api/v1/tag_test.go",
+"server/route/api/v1/memo_relation.go",
+"server/route/api/v1/auth.go",
+"server/route/api/v1/system.go",
+"server/route/api/v1/memo.go",
+"server/route/api/v1/resource.go",
+"server/route/api/v1/tag.go",
+"server/route/api/v1/jwt.go",
+"server/route/api/v1/memo_organizer.go",
+"server/route/api/v1/v1.go",
+"internal/jobs/presign_link.go",
+"server/route/api/v1/swagger.yaml",
+"server/route/api/v1/system_setting.go",
+"server/route/api/v1/http_getter.go",
+"server/server.go",
+"server/route/api/v1/swagger.md",
+"server/integration/telegram.go"
+],
+"earliest_patch_date": "2024-04-13 11:01:16+08:00",
+"earliest_vuln_date": "2022-02-03 15:32:03+08:00",
+"vuln_files": [
+"server/route/api/v1/docs.go",
+"server/route/api/v1/user.go",
+"server/route/api/v2/storage_service.go",
+"server/route/api/v1/common.go",
+"server/route/api/v1/storage.go",
+"server/route/api/v1/tag_test.go",
+"server/route/api/v1/memo_relation.go",
+"server/route/api/v1/auth.go",
+"server/route/api/v1/system.go",
+"server/route/api/v1/resource.go",
+"server/route/api/v1/memo.go",
+"server/route/api/v1/tag.go",
+"server/route/api/v1/jwt.go",
+"server/route/api/v1/memo_organizer.go",
+"server/route/api/v1/v1.go",
+"internal/jobs/presign_link.go",
+"server/route/api/v1/swagger.yaml",
+"server/route/api/v1/system_setting.go",
+"server/route/api/v1/http_getter.go",
+"server/server.go",
+"server/route/api/v1/swagger.md",
+"server/integration/telegram.go"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/route/api/v1/docs.go",
+"server/route/api/v1/user.go",
+"server/route/api/v2/storage_service.go",
+"server/route/api/v1/common.go",
+"server/route/api/v1/storage.go",
+"server/route/api/v1/tag_test.go",
+"server/route/api/v1/memo_relation.go",
+"server/route/api/v1/auth.go",
+"server/route/api/v1/system.go",
+"server/route/api/v1/memo.go",
+"server/route/api/v1/resource.go",
+"server/route/api/v1/tag.go",
+"server/route/api/v1/jwt.go",
+"server/route/api/v1/memo_organizer.go",
+"server/route/api/v1/v1.go",
+"internal/jobs/presign_link.go",
+"server/route/api/v1/swagger.yaml",
+"server/route/api/v1/system_setting.go",
+"server/route/api/v1/http_getter.go",
+"server/server.go",
+"server/route/api/v1/swagger.md",
+"server/integration/telegram.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

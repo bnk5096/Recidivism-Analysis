@@ -1,0 +1,376 @@
+[
+{
+"cve_id": "CVE-2023-26103",
+"patch_date": [
+"2023-02-10 19:41:20+00:00"
+],
+"patch_files": [
+"ext/http/01_http.js"
+],
+"earliest_patch_date": "2023-02-10 19:41:20+00:00",
+"earliest_vuln_date": "2021-07-24 12:14:03+10:00",
+"vuln_files": [
+"ext/http/01_http.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-1333"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-27936",
+"patch_date": [
+"2023-03-10 01:09:14+01:00",
+"2024-02-19 04:51:06+00:00"
+],
+"patch_files": [
+"runtime/Cargo.toml",
+"cli/tests/integration/run_tests.rs",
+"Cargo.toml",
+"tests/integration/run_tests.rs",
+"Cargo.lock",
+"cli/Cargo.toml",
+"runtime/permissions/prompter.rs"
+],
+"earliest_patch_date": "2023-03-10 01:09:14+01:00",
+"earliest_vuln_date": "2022-12-18 01:12:28+01:00",
+"vuln_files": [
+"Cargo.lock",
+"cli/Cargo.toml",
+"runtime/permissions/prompter.rs",
+"tests/integration/run_tests.rs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-27935",
+"patch_date": [
+"2023-08-24 09:00:30-06:00"
+],
+"patch_files": [
+"ext/node/polyfills/internal_binding/stream_wrap.ts",
+"cli/tests/unit_node/net_test.ts"
+],
+"earliest_patch_date": "2023-08-24 09:00:30-06:00",
+"earliest_vuln_date": "2023-02-14 17:38:45+01:00",
+"vuln_files": [
+"ext/node/polyfills/internal_binding/stream_wrap.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "LOW",
+"baseScore": 8.3,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.7
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"NVD-CWE-Other"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-27933",
+"patch_date": [
+"2023-12-19 13:37:22+01:00",
+"2023-12-13 11:14:16+01:00"
+],
+"patch_files": [
+"cli/standalone/mod.rs",
+"cli/tests/node_compat/test/parallel/test-child-process-ipc-next-tick.js",
+"ext/node/Cargo.toml",
+"runtime/js/40_process.js",
+"cli/tests/node_compat/test/parallel/test-child-process-fork-ref2.js",
+"cli/factory.rs",
+"ext/node/lib.rs",
+"Cargo.lock",
+"ext/node/benchmarks/child_process_ipc.mjs",
+"runtime/js/99_main.js",
+"ext/node/ops/ipc.rs",
+"ext/node/polyfills/process.ts",
+"runtime/worker_bootstrap.rs",
+"cli/args/mod.rs",
+"runtime/Cargo.toml",
+"cli/tests/node_compat/config.jsonc",
+"ext/node/polyfills/internal/child_process.ts",
+"ext/node/polyfills/02_init.js",
+"ext/node/ops/mod.rs",
+"runtime/ops/process.rs",
+"ext/node/polyfills/child_process.ts",
+"cli/worker.rs",
+"cli/tests/node_compat/test/parallel/test-child-process-fork-ref.js"
+],
+"earliest_patch_date": "2023-12-13 11:14:16+01:00",
+"earliest_vuln_date": "2023-02-14 17:38:45+01:00",
+"vuln_files": [
+"ext/node/ops/ipc.rs",
+"runtime/ops/process.rs",
+"runtime/worker_bootstrap.rs",
+"cli/args/mod.rs",
+"ext/node/lib.rs",
+"cli/worker.rs",
+"ext/node/polyfills/internal/child_process.ts",
+"cli/tests/node_compat/config.jsonc",
+"ext/node/polyfills/02_init.js",
+"runtime/js/99_main.js",
+"ext/node/polyfills/process.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2,
+"impactScore": 6
+}
+},
+"cwes": [
+"CWE-863"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"Cargo.lock",
+"runtime/Cargo.toml"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-27932",
+"patch_date": [
+"2024-02-08 14:56:46+05:30"
+],
+"patch_files": [
+"cli/auth_tokens.rs"
+],
+"earliest_patch_date": "2024-02-08 14:56:46+05:30",
+"earliest_vuln_date": "2021-02-16 13:50:27+11:00",
+"vuln_files": [
+"cli/auth_tokens.rs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.6,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.1,
+"impactScore": 2.5
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-37150",
+"patch_date": [
+"2024-06-05 21:24:52+00:00"
+],
+"patch_files": [
+"tests/specs/npm/npmrc_tarball_other_server/success/package.json",
+"tests/integration/lsp_tests.rs",
+"tests/specs/npm/npmrc_bad_token/.npmrc",
+"tests/specs/compile/npmrc/.npmrc",
+"tests/specs/npm/npmrc/.npmrc",
+"tests/registry/npm/@denotest/tarballs-privateserver2/1.0.0/index.js",
+"tests/registry/npm-private2/@denotest/tarballs-privateserver2/1.0.0/index.js",
+"Cargo.lock",
+"cli/Cargo.toml",
+"tests/specs/npm/npmrc_deno_json/main.out",
+"tests/registry/npm-private2/@denotest/tarballs-privateserver2/1.0.0/package.json",
+"tests/registry/npm/@denotest/tarballs-privateserver2/1.0.0/package.json",
+"tests/specs/npm/npmrc_bad_registry_config/main.out",
+"tests/specs/npm/npmrc_deno_json/.npmrc",
+"tests/util/server/src/npm.rs",
+"tests/specs/npm/npmrc/install.out",
+"tests/specs/npm/npmrc_tarball_other_server/fail/main.out",
+"cli/args/mod.rs",
+"tests/registry/npm-private/@denotest/tarballs-privateserver2/1.0.0/index.js",
+"tests/specs/npm/npmrc_bad_token/main.out",
+"tests/specs/npm/npmrc_not_next_to_package_json/.npmrc",
+"cli/http_util.rs",
+"cli/npm/managed/cache/tarball.rs",
+"tests/specs/npm/npmrc_basic_auth/.npmrc",
+"tests/specs/npm/npmrc_basic_auth/install.out",
+"tests/specs/npm/npmrc_tarball_other_server/fail/main.js",
+"tests/specs/npm/npmrc_tarball_other_server/success/main.js",
+"tests/registry/npm-private/@denotest/tarballs-privateserver2/1.0.0/package.json",
+"tests/specs/npm/npmrc_bad_registry_config/.npmrc",
+"tests/specs/npm/npmrc_tarball_other_server/fail/package.json",
+"tests/specs/npm/npmrc_tarball_other_server/fail/.npmrc",
+"tests/specs/npm/npmrc_tarball_other_server/success/main.out",
+"tests/specs/npm/npmrc_tarball_other_server/success/.npmrc",
+"tests/specs/compile/npmrc/install.out",
+"tests/specs/npm/npmrc_tarball_other_server/__test__.jsonc"
+],
+"earliest_patch_date": "2024-06-05 21:24:52+00:00",
+"earliest_vuln_date": "2022-12-12 20:52:10-05:00",
+"vuln_files": [
+"tests/specs/npm/npmrc_basic_auth/install.out",
+"tests/specs/npm/npmrc_deno_json/.npmrc",
+"tests/specs/npm/npmrc_bad_registry_config/main.out",
+"tests/integration/lsp_tests.rs",
+"tests/specs/npm/npmrc_bad_token/.npmrc",
+"tests/specs/npm/npmrc_deno_json/main.out",
+"tests/specs/npm/npmrc_bad_registry_config/.npmrc",
+"tests/specs/compile/npmrc/.npmrc",
+"cli/npm/managed/cache/tarball.rs",
+"tests/specs/npm/npmrc/install.out",
+"tests/specs/npm/npmrc_basic_auth/.npmrc",
+"tests/specs/npm/npmrc/.npmrc",
+"tests/specs/npm/npmrc_bad_token/main.out",
+"tests/specs/npm/npmrc_not_next_to_package_json/.npmrc",
+"cli/http_util.rs",
+"Cargo.lock",
+"cli/Cargo.toml",
+"tests/specs/compile/npmrc/install.out"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-706"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"Cargo.lock",
+"cli/Cargo.toml",
+"cli/args/mod.rs"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,138 @@
+[
+{
+"cve_id": "CVE-2022-24829",
+"patch_date": [
+"2022-04-07 20:47:09+00:00"
+],
+"patch_files": [
+"dashboard/src/util/helpers.ts",
+"core/src/cli/cli.ts",
+"core/src/constants.ts",
+"dashboard/src/hooks.ts",
+"dashboard/src/api/actions.ts",
+"core/src/events.ts",
+"dashboard/src/api/api.ts",
+"core/test/unit/src/server/server.ts",
+"core/test/unit/src/cli/cli.ts",
+"dashboard/src/components/menu.tsx",
+"core/src/server/dashboard-event-stream.ts",
+"core/src/server/server.ts",
+"core/test/unit/src/server/dashboard-event-stream.ts"
+],
+"earliest_patch_date": "2022-04-07 20:47:09+00:00",
+"earliest_vuln_date": "2018-12-03 11:55:40+01:00",
+"vuln_files": [
+"core/src/cli/cli.ts",
+"dashboard/src/hooks.ts",
+"dashboard/src/api/actions.ts",
+"core/src/events.ts",
+"dashboard/src/api/api.ts",
+"core/test/unit/src/server/server.ts",
+"core/test/unit/src/cli/cli.ts",
+"dashboard/src/components/menu.tsx",
+"core/src/server/dashboard-event-stream.ts",
+"core/src/server/server.ts",
+"core/test/unit/src/server/dashboard-event-stream.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-44392",
+"patch_date": [
+"2023-10-04 11:01:50+00:00"
+],
+"patch_files": [
+"core/src/util/serialization.ts",
+"package-lock.json",
+"core/src/plugins/kubernetes/test-results.ts",
+"core/src/plugins/kubernetes/run-results.ts",
+"core/package.json"
+],
+"earliest_patch_date": "2023-10-04 11:01:50+00:00",
+"earliest_vuln_date": "2018-07-19 16:40:32+02:00",
+"vuln_files": [
+"core/src/util/serialization.ts",
+"core/src/plugins/kubernetes/run-results.ts",
+"core/package.json",
+"core/src/plugins/kubernetes/test-results.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

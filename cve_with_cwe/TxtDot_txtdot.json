@@ -1,0 +1,145 @@
+[
+{
+"cve_id": "CVE-2024-41813",
+"patch_date": [
+"2024-03-05 21:53:40+03:00"
+],
+"patch_files": [
+"package-lock.json",
+"src/routes/browser/proxy.ts",
+"package.json"
+],
+"earliest_patch_date": "2024-03-05 21:53:40+03:00",
+"earliest_vuln_date": "2024-02-25 18:17:56+00:00",
+"vuln_files": [
+"package-lock.json",
+"package.json"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-918"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-41812",
+"patch_date": [
+"2024-03-07 14:49:54+03:00"
+],
+"patch_files": [
+".env.example",
+"src/routes/browser/proxy.ts",
+"src/handlers/engines/readability.ts",
+"README.md",
+"src/errors/main.ts",
+".github/workflows/format-check.yml",
+"package-lock.json",
+"src/utils/islocal.ts",
+"static/configuration.css",
+"src/handlers/engines/stackoverflow/main.ts",
+"package.json",
+"templates/components/form-main.ejs",
+"templates/configuration.ejs",
+"src/app.ts",
+"src/handlers/engine.ts",
+"src/types/axios.ts",
+"src/handlers/main.ts",
+"src/config/dynamic.config.ts",
+"src/handlers/engines/searx.ts",
+"src/config/config.service.ts",
+"src/utils/generate.ts",
+"src/handlers/distributor.ts",
+"src/errors/handler.ts",
+"src/routes/browser/configuration.ts",
+"src/utils/replace-href.ts",
+".github/workflows/build.yml"
+],
+"earliest_patch_date": "2024-03-07 14:49:54+03:00",
+"earliest_vuln_date": "2023-08-14 14:17:53+03:00",
+"vuln_files": [
+".env.example",
+"src/handlers/engines/readability.ts",
+"README.md",
+"src/errors/main.ts",
+".github/workflows/format-check.yml",
+"package-lock.json",
+"src/utils/islocal.ts",
+"src/handlers/engines/stackoverflow/main.ts",
+"package.json",
+"templates/components/form-main.ejs",
+"src/handlers/engine.ts",
+"src/app.ts",
+"src/types/axios.ts",
+"src/handlers/main.ts",
+"src/handlers/engines/searx.ts",
+"src/config/config.service.ts",
+"src/utils/generate.ts",
+"src/handlers/distributor.ts",
+"src/errors/handler.ts",
+"src/utils/replace-href.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-918"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-918"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/routes/browser/proxy.ts",
+"package-lock.json",
+"package.json"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

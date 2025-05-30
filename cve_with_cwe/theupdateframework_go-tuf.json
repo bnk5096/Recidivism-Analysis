@@ -1,0 +1,124 @@
+[
+{
+"cve_id": "CVE-2022-29173",
+"patch_date": [
+"2022-05-05 16:49:25+01:00"
+],
+"patch_files": [
+"client/client.go",
+"cmd/tuf-client/get.go",
+"util/util.go",
+"verify/verify.go",
+"cmd/tuf-client/list.go",
+"verify/errors.go",
+"client/errors.go",
+"client/interop_test.go"
+],
+"earliest_patch_date": "2022-05-05 16:49:25+01:00",
+"earliest_vuln_date": "2015-01-07 23:02:12+00:00",
+"vuln_files": [
+"client/client.go",
+"cmd/tuf-client/get.go",
+"util/util.go",
+"cmd/tuf-client/list.go",
+"client/errors.go",
+"client/interop_test.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-354"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-47534",
+"patch_date": [
+"2024-09-30 12:49:21+03:00",
+"2024-01-29 11:38:20+02:00"
+],
+"patch_files": [
+"metadata/helpers.go",
+"metadata/types.go",
+"examples/testdata/timestamp.json",
+"repo/repo.go",
+"metadata/metadata.go",
+"go.mod",
+"go.sum",
+"metadata/keys.go",
+"metadata/updater/updater.go",
+"README.md",
+"NOTES.md",
+"examples/basic_repo.go",
+"examples/testdata/2.targets.json",
+"examples/testdata/1.targets.json",
+"examples/testdata/1.snapshot.json",
+"examples/testdata/2.snapshot.json",
+"examples/testdata/1.root.json",
+"examples/testdata/1.python-scripts.json",
+"examples/testdata/2.root.json"
+],
+"earliest_patch_date": "2024-01-29 11:38:20+02:00",
+"earliest_vuln_date": "2024-01-29 11:38:20+02:00",
+"vuln_files": [
+"metadata/updater/updater.go",
+"metadata/metadata.go"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,108 @@
+[
+{
+"cve_id": "CVE-2023-30548",
+"patch_date": [
+"2023-03-29 13:45:09+02:00",
+"2023-03-29 13:08:27+02:00"
+],
+"patch_files": [
+"packages/gatsby-plugin-sharp/src/index.js",
+"packages/gatsby-plugin-sharp/src/gatsby-node.js",
+"e2e-tests/development-runtime/SHOULD_NOT_SERVE",
+"e2e-tests/development-runtime/package.json",
+"e2e-tests/production-runtime/package.json",
+"packages/gatsby/cache-dir/__tests__/minimal-config.js",
+"e2e-tests/production-runtime/SHOULD_NOT_SERVE"
+],
+"earliest_patch_date": "2023-03-29 13:08:27+02:00",
+"earliest_vuln_date": "2020-11-26 20:03:28+01:00",
+"vuln_files": [
+"packages/gatsby-plugin-sharp/src/index.js",
+"packages/gatsby-plugin-sharp/src/gatsby-node.js",
+"e2e-tests/development-runtime/package.json",
+"e2e-tests/production-runtime/package.json"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-34238",
+"patch_date": [
+"2023-05-05 19:40:44+02:00",
+"2023-05-05 19:39:05+02:00"
+],
+"patch_files": [
+"e2e-tests/development-runtime/cypress/integration/hot-reloading/error-handling/overlay-endpoints.js",
+"packages/gatsby/src/commands/build-html.ts",
+"packages/gatsby/src/utils/webpack/utils/is-file-inside-compilations.ts",
+"e2e-tests/development-runtime/SHOULD_NOT_SERVE",
+"packages/gatsby/src/utils/start-server.ts"
+],
+"earliest_patch_date": "2023-05-05 19:39:05+02:00",
+"earliest_vuln_date": "2020-06-22 16:40:37+01:00",
+"vuln_files": [
+"e2e-tests/development-runtime/SHOULD_NOT_SERVE",
+"packages/gatsby/src/utils/start-server.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"e2e-tests/development-runtime/SHOULD_NOT_SERVE"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

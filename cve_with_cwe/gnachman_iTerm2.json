@@ -1,0 +1,184 @@
+[
+{
+"cve_id": "CVE-2015-9231",
+"patch_date": [
+"2017-09-19 14:03:24-07:00",
+"2017-09-20 10:16:28-07:00"
+],
+"patch_files": [
+"sources/iTermAdvancedSettingsModel.h",
+"sources/PTYTextView.m",
+"sources/AsyncHostLookupController.h",
+"sources/AsyncHostLookupController.m",
+"iTerm2.xcodeproj/project.pbxproj",
+"sources/iTermTextDrawingHelper.h",
+"sources/iTermTextDrawingHelper.m",
+"sources/iTermAdvancedSettingsModel.m"
+],
+"earliest_patch_date": "2017-09-19 14:03:24-07:00",
+"earliest_vuln_date": "2013-12-14 23:26:29-08:00",
+"vuln_files": [
+"sources/iTermAdvancedSettingsModel.m",
+"iTerm2.xcodeproj/project.pbxproj",
+"sources/AsyncHostLookupController.h",
+"sources/AsyncHostLookupController.m",
+"sources/PTYTextView.m",
+"sources/iTermAdvancedSettingsModel.h",
+"sources/iTermTextDrawingHelper.h",
+"sources/iTermTextDrawingHelper.m"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-200"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-46300",
+"patch_date": [
+"2023-08-07 21:56:12-07:00",
+"2023-08-07 21:56:18-07:00"
+],
+"patch_files": [
+"sources/PTYSession.m",
+"sources/TmuxController.m",
+"sources/TmuxController.h",
+"sources/VT100Terminal.m"
+],
+"earliest_patch_date": "2023-08-07 21:56:12-07:00",
+"earliest_vuln_date": "2021-08-13 22:46:47-07:00",
+"vuln_files": [
+"sources/VT100Terminal.m"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-116"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-46301",
+"patch_date": [
+"2023-08-07 21:56:12-07:00",
+"2023-08-07 21:56:23-07:00"
+],
+"patch_files": [
+"sources/PTYSession.m",
+"sources/VT100Terminal.m"
+],
+"earliest_patch_date": "2023-08-07 21:56:12-07:00",
+"earliest_vuln_date": "2021-08-13 22:46:47-07:00",
+"vuln_files": [
+"sources/VT100Terminal.m",
+"sources/PTYSession.m"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-116"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-116"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"sources/PTYSession.m",
+"sources/VT100Terminal.m"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

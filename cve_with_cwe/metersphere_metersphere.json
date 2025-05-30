@@ -1,0 +1,159 @@
+[
+{
+"cve_id": "CVE-2022-23544",
+"patch_date": [
+"2022-12-09 13:44:46+08:00"
+],
+"patch_files": [
+"test-track/backend/src/main/java/io/metersphere/controller/IssueProxyResourceController.java",
+"test-track/backend/src/main/java/io/metersphere/service/issue/platform/AbstractIssuePlatform.java",
+"pom.xml",
+"test-track/backend/src/main/java/io/metersphere/service/issue/platform/ZentaoPlatform.java",
+"framework/gateway/src/main/java/io/metersphere/gateway/filter/SessionFilter.java",
+"test-track/backend/src/main/java/io/metersphere/service/PlatformPluginService.java",
+"test-track/backend/src/main/java/io/metersphere/service/issue/client/ZentaoClient.java",
+"test-track/backend/src/main/java/io/metersphere/service/IssuesService.java",
+"test-track/backend/src/main/java/io/metersphere/service/wapper/IssueProxyResourceService.java",
+"framework/sdk-parent/xpack-interface/src/main/java/io/metersphere/xpack/track/issue/IssuesPlatform.java"
+],
+"earliest_patch_date": "2022-12-09 13:44:46+08:00",
+"earliest_vuln_date": "2021-12-21 20:15:59+08:00",
+"vuln_files": [
+"test-track/backend/src/main/java/io/metersphere/controller/IssueProxyResourceController.java",
+"test-track/backend/src/main/java/io/metersphere/service/issue/platform/AbstractIssuePlatform.java",
+"pom.xml",
+"test-track/backend/src/main/java/io/metersphere/service/issue/platform/ZentaoPlatform.java",
+"framework/gateway/src/main/java/io/metersphere/gateway/filter/SessionFilter.java",
+"test-track/backend/src/main/java/io/metersphere/service/issue/client/ZentaoClient.java",
+"test-track/backend/src/main/java/io/metersphere/service/IssuesService.java",
+"test-track/backend/src/main/java/io/metersphere/service/wapper/IssueProxyResourceService.java",
+"framework/sdk-parent/xpack-interface/src/main/java/io/metersphere/xpack/track/issue/IssuesPlatform.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-918"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-32699",
+"patch_date": [
+"2023-05-16 19:51:27+08:00"
+],
+"patch_files": [
+"framework/sdk-parent/sdk/src/main/resources/i18n/commons_en_US.properties",
+"framework/sdk-parent/sdk/src/main/resources/i18n/commons_zh_CN.properties",
+"framework/gateway/src/main/java/io/metersphere/gateway/service/UserLoginService.java",
+"framework/sdk-parent/sdk/src/main/resources/i18n/commons_zh_TW.properties"
+],
+"earliest_patch_date": "2023-05-16 19:51:27+08:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-770"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-38494",
+"patch_date": [
+"2023-07-20 14:49:40+08:00"
+],
+"patch_files": [
+"system-setting/backend/src/main/java/io/metersphere/controller/GroupController.java",
+"project-management/backend/src/main/java/io/metersphere/controller/GroupController.java",
+"framework/sdk-parent/sdk/src/main/java/io/metersphere/controller/BaseUserController.java"
+],
+"earliest_patch_date": "2023-07-20 14:49:40+08:00",
+"earliest_vuln_date": "2021-05-24 21:27:35+08:00",
+"vuln_files": [
+"system-setting/backend/src/main/java/io/metersphere/controller/GroupController.java",
+"project-management/backend/src/main/java/io/metersphere/controller/GroupController.java",
+"framework/sdk-parent/sdk/src/main/java/io/metersphere/controller/BaseUserController.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-862"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

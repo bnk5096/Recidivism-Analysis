@@ -1,0 +1,139 @@
+[
+{
+"cve_id": "CVE-2022-31153",
+"patch_date": [
+"2022-06-29 23:08:33+02:00"
+],
+"patch_files": [
+"tests/token/erc20/test_ERC20.py",
+"tests/token/erc20/test_ERC20_Upgradeable.py",
+"tests/token/erc721/test_ERC721_SafeMintable_mock.py",
+"tests/access/test_Ownable.py",
+"tests/upgrades/test_Proxy.py",
+"src/openzeppelin/account/Account.cairo",
+"src/openzeppelin/account/library.cairo",
+"tests/token/erc721/test_ERC721_Mintable_Burnable.py",
+"tests/utils.py",
+"tests/token/erc20/test_ERC20_Pausable.py",
+"tests/token/erc20/test_ERC20_Mintable.py",
+"tests/signers.py",
+"tests/upgrades/test_upgrades.py",
+"docs/Account.md",
+"tests/token/erc721_enumerable/test_ERC721_Enumerable_Mintable_Burnable.py",
+"tests/token/erc20/test_ERC20_Burnable_mock.py",
+"tests/account/test_AddressRegistry.py",
+"tests/account/test_EthAccount.py",
+"tests/security/test_pausable.py",
+"tests/account/test_Account.py",
+"src/openzeppelin/account/EthAccount.cairo",
+"tests/token/erc721/test_ERC721_Mintable_Pausable.py"
+],
+"earliest_patch_date": "2022-06-29 23:08:33+02:00",
+"earliest_vuln_date": "2021-09-16 19:47:37-03:00",
+"vuln_files": [
+"tests/token/erc20/test_ERC20.py",
+"tests/token/erc20/test_ERC20_Upgradeable.py",
+"tests/token/erc721/test_ERC721_SafeMintable_mock.py",
+"tests/access/test_Ownable.py",
+"tests/upgrades/test_Proxy.py",
+"src/openzeppelin/account/Account.cairo",
+"src/openzeppelin/account/library.cairo",
+"tests/token/erc721/test_ERC721_Mintable_Burnable.py",
+"tests/utils.py",
+"tests/token/erc20/test_ERC20_Pausable.py",
+"tests/token/erc20/test_ERC20_Mintable.py",
+"tests/upgrades/test_upgrades.py",
+"docs/Account.md",
+"tests/token/erc721_enumerable/test_ERC721_Enumerable_Mintable_Burnable.py",
+"tests/token/erc20/test_ERC20_Burnable_mock.py",
+"tests/account/test_AddressRegistry.py",
+"tests/security/test_pausable.py",
+"tests/account/test_Account.py",
+"tests/token/erc721/test_ERC721_Mintable_Pausable.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-863"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-45304",
+"patch_date": [
+"2024-08-30 11:51:17+02:00"
+],
+"patch_files": [
+"CHANGELOG.md",
+"docs/modules/ROOT/pages/api/access.adoc",
+"packages/access/src/tests/test_ownable.cairo",
+"packages/access/src/ownable/ownable.cairo",
+"packages/access/src/tests/test_ownable_twostep.cairo"
+],
+"earliest_patch_date": "2024-08-30 11:51:17+02:00",
+"earliest_vuln_date": "2023-09-29 14:12:08-03:00",
+"vuln_files": [
+"CHANGELOG.md",
+"docs/modules/ROOT/pages/api/access.adoc",
+"packages/access/src/tests/test_ownable.cairo",
+"packages/access/src/ownable/ownable.cairo",
+"packages/access/src/tests/test_ownable_twostep.cairo"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-670"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

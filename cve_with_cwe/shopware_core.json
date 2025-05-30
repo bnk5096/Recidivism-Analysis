@@ -1,0 +1,321 @@
+[
+{
+"cve_id": "CVE-2022-24748",
+"patch_date": [
+"2022-03-04 14:34:04+01:00"
+],
+"patch_files": [
+"Migration/Migration1646397836UpdateRolePrivilegesOfOrderCreatorUpdateRolePrivilegesOfOrderCreator.php",
+"Framework/Test/Api/Controller/SalesChannelProxyControllerTest.php",
+"Migration/Test/Migration1646397836UpdateRolePrivilegesOfOrderCreatorTest.php",
+"Migration/V6_4/Migration1646397836UpdateRolePrivilegesOfOrderCreator.php",
+"Framework/Api/Controller/SalesChannelProxyController.php"
+],
+"earliest_patch_date": "2022-03-04 14:34:04+01:00",
+"earliest_vuln_date": "2021-06-08 10:17:07+02:00",
+"vuln_files": [
+"Framework/Test/Api/Controller/SalesChannelProxyControllerTest.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-863"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-42354",
+"patch_date": [
+"2024-08-07 13:00:18+00:00",
+"2024-08-08 14:23:18+02:00"
+],
+"patch_files": [
+"Framework/DataAbstractionLayer/Search/Parser/AggregationParser.php",
+"Framework/DataAbstractionLayer/Dbal/EntityAggregator.php",
+"Framework/Test/DataAbstractionLayer/Search/EntityAggregatorTest.php",
+"Framework/Context.php",
+"Framework/Test/DataAbstractionLayer/Search/Parser/AggregationParserTest.php",
+"Framework/Adapter/Twig/Node/FeatureCallSilentToken.php",
+"System/SalesChannel/Entity/SalesChannelRepository.php",
+"Framework/DataAbstractionLayer/DataAbstractionLayerException.php"
+],
+"earliest_patch_date": "2024-08-07 13:00:18+00:00",
+"earliest_vuln_date": "2019-10-29 07:32:54+01:00",
+"vuln_files": [
+"System/SalesChannel/Entity/SalesChannelRepository.php",
+"Framework/Context.php",
+"Framework/Adapter/Twig/Node/FeatureCallSilentToken.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.9,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-42355",
+"patch_date": [
+"2024-08-07 13:00:18+00:00",
+"2024-08-08 14:23:18+02:00"
+],
+"patch_files": [
+"Framework/DataAbstractionLayer/Search/Parser/AggregationParser.php",
+"Framework/DataAbstractionLayer/Dbal/EntityAggregator.php",
+"Framework/Test/DataAbstractionLayer/Search/EntityAggregatorTest.php",
+"Framework/Context.php",
+"Framework/Test/DataAbstractionLayer/Search/Parser/AggregationParserTest.php",
+"Framework/Adapter/Twig/Node/FeatureCallSilentToken.php",
+"System/SalesChannel/Entity/SalesChannelRepository.php",
+"Framework/DataAbstractionLayer/DataAbstractionLayerException.php"
+],
+"earliest_patch_date": "2024-08-07 13:00:18+00:00",
+"earliest_vuln_date": "2019-10-29 07:32:54+01:00",
+"vuln_files": [
+"System/SalesChannel/Entity/SalesChannelRepository.php",
+"Framework/Context.php",
+"Framework/Adapter/Twig/Node/FeatureCallSilentToken.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-94"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"Framework/DataAbstractionLayer/Search/Parser/AggregationParser.php",
+"Framework/DataAbstractionLayer/Dbal/EntityAggregator.php",
+"Framework/Test/DataAbstractionLayer/Search/EntityAggregatorTest.php",
+"Framework/Context.php",
+"Framework/Test/DataAbstractionLayer/Search/Parser/AggregationParserTest.php",
+"Framework/Adapter/Twig/Node/FeatureCallSilentToken.php",
+"System/SalesChannel/Entity/SalesChannelRepository.php",
+"Framework/DataAbstractionLayer/DataAbstractionLayerException.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-42356",
+"patch_date": [
+"2024-08-08 14:23:18+02:00",
+"2024-08-07 13:00:18+00:00"
+],
+"patch_files": [
+"Framework/DataAbstractionLayer/Search/Parser/AggregationParser.php",
+"Framework/DataAbstractionLayer/Dbal/EntityAggregator.php",
+"Framework/Context.php",
+"Framework/Test/DataAbstractionLayer/Search/EntityAggregatorTest.php",
+"Framework/Test/DataAbstractionLayer/Search/Parser/AggregationParserTest.php",
+"Framework/Adapter/Twig/Node/FeatureCallSilentToken.php",
+"System/SalesChannel/Entity/SalesChannelRepository.php",
+"Framework/DataAbstractionLayer/DataAbstractionLayerException.php"
+],
+"earliest_patch_date": "2024-08-07 13:00:18+00:00",
+"earliest_vuln_date": "2019-10-29 07:32:54+01:00",
+"vuln_files": [
+"Framework/Context.php",
+"Framework/Adapter/Twig/Node/FeatureCallSilentToken.php",
+"System/SalesChannel/Entity/SalesChannelRepository.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-94"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-94"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"Framework/DataAbstractionLayer/Search/Parser/AggregationParser.php",
+"Framework/DataAbstractionLayer/Dbal/EntityAggregator.php",
+"Framework/Context.php",
+"Framework/Test/DataAbstractionLayer/Search/EntityAggregatorTest.php",
+"Framework/Test/DataAbstractionLayer/Search/Parser/AggregationParserTest.php",
+"Framework/Adapter/Twig/Node/FeatureCallSilentToken.php",
+"System/SalesChannel/Entity/SalesChannelRepository.php",
+"Framework/DataAbstractionLayer/DataAbstractionLayerException.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-42357",
+"patch_date": [
+"2024-08-08 14:23:18+02:00",
+"2024-08-07 13:00:18+00:00"
+],
+"patch_files": [
+"Framework/DataAbstractionLayer/Search/Parser/AggregationParser.php",
+"Framework/DataAbstractionLayer/Dbal/EntityAggregator.php",
+"Framework/Context.php",
+"Framework/Test/DataAbstractionLayer/Search/EntityAggregatorTest.php",
+"Framework/Test/DataAbstractionLayer/Search/Parser/AggregationParserTest.php",
+"Framework/Adapter/Twig/Node/FeatureCallSilentToken.php",
+"System/SalesChannel/Entity/SalesChannelRepository.php",
+"Framework/DataAbstractionLayer/DataAbstractionLayerException.php"
+],
+"earliest_patch_date": "2024-08-07 13:00:18+00:00",
+"earliest_vuln_date": "2019-10-29 07:32:54+01:00",
+"vuln_files": [
+"Framework/Adapter/Twig/Node/FeatureCallSilentToken.php",
+"Framework/Context.php",
+"System/SalesChannel/Entity/SalesChannelRepository.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-89"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"Framework/DataAbstractionLayer/Search/Parser/AggregationParser.php",
+"Framework/DataAbstractionLayer/Dbal/EntityAggregator.php",
+"Framework/Context.php",
+"Framework/Test/DataAbstractionLayer/Search/EntityAggregatorTest.php",
+"Framework/Test/DataAbstractionLayer/Search/Parser/AggregationParserTest.php",
+"Framework/Adapter/Twig/Node/FeatureCallSilentToken.php",
+"System/SalesChannel/Entity/SalesChannelRepository.php",
+"Framework/DataAbstractionLayer/DataAbstractionLayerException.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,140 @@
+[
+{
+"cve_id": "CVE-2024-24566",
+"patch_date": [
+"2024-01-30 23:36:02+08:00"
+],
+"patch_files": [
+"src/app/chat/settings/(desktop)/index.tsx",
+"src/app/api/plugin/gateway/route.ts",
+"src/store/global/slices/settings/__snapshots__/selectors.test.ts.snap",
+"src/app/api/openai/chat/createChatCompletion.ts",
+"src/app/chat/features/ChatHeader/SettingButton.tsx",
+"src/app/api/openai/errorResponse.ts",
+"src/app/api/openai/errorResponse.test.ts",
+"src/app/api/openai/createBizOpenAI/index.ts",
+"src/services/chat.ts"
+],
+"earliest_patch_date": "2024-01-30 23:36:02+08:00",
+"earliest_vuln_date": "2023-10-09 20:05:50+08:00",
+"vuln_files": [
+"src/app/chat/settings/(desktop)/index.tsx",
+"src/app/api/plugin/gateway/route.ts",
+"src/store/global/slices/settings/__snapshots__/selectors.test.ts.snap",
+"src/app/api/openai/chat/createChatCompletion.ts",
+"src/app/chat/features/ChatHeader/SettingButton.tsx",
+"src/app/api/openai/createBizOpenAI/index.ts",
+"src/services/chat.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-32964",
+"patch_date": [
+"2024-04-28 17:03:58+08:00"
+],
+"patch_files": [
+"src/app/api/proxy/route.ts",
+"package.json"
+],
+"earliest_patch_date": "2024-04-28 17:03:58+08:00",
+"earliest_vuln_date": "2023-12-15 20:23:38+08:00",
+"vuln_files": [
+"src/app/api/proxy/route.ts"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-47066",
+"patch_date": [
+"2024-09-20 23:46:21+08:00"
+],
+"patch_files": [
+"src/app/webapi/proxy/route.ts",
+"src/services/_url.ts",
+"package.json",
+"src/services/user/client.ts",
+"src/app/api/proxy/route.ts",
+"src/server/routers/lambda/user.ts"
+],
+"earliest_patch_date": "2024-09-20 23:46:21+08:00",
+"earliest_vuln_date": "2023-12-15 20:23:38+08:00",
+"vuln_files": [
+"src/services/_url.ts",
+"src/services/user/client.ts",
+"src/app/api/proxy/route.ts",
+"src/server/routers/lambda/user.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"package.json",
+"src/app/api/proxy/route.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

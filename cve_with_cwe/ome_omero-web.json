@@ -1,0 +1,328 @@
+[
+{
+"cve_id": "CVE-2021-21376",
+"patch_date": [
+"2021-03-17 08:35:48+00:00"
+],
+"patch_files": [
+"omeroweb/webclient/decorators.py",
+"omeroweb/webclient/static/webclient/javascript/ome.tree.js",
+"omeroweb/webgateway/views.py",
+"CHANGELOG.md",
+"omeroweb/webclient/templates/webclient/data/containers.html",
+"omeroweb/webclient/templates/webclient/public/public.html",
+"omeroweb/decorators.py",
+"omeroweb/webclient/forms.py",
+"omeroweb/webclient/templates/webclient/base/includes/toolbar_forms.html",
+"omeroweb/webclient/views.py",
+"omeroweb/settings.py",
+"omeroweb/webclient/templates/webclient/base/base_container.html",
+"omeroweb/webgateway/templates/webgateway/core_html.html"
+],
+"earliest_patch_date": "2021-03-17 08:35:48+00:00",
+"earliest_vuln_date": "2012-04-13 10:12:18+01:00",
+"vuln_files": [
+"omeroweb/webclient/decorators.py",
+"omeroweb/webclient/static/webclient/javascript/ome.tree.js",
+"omeroweb/webgateway/views.py",
+"omeroweb/webclient/templates/webclient/data/containers.html",
+"omeroweb/webclient/templates/webclient/public/public.html",
+"omeroweb/decorators.py",
+"omeroweb/webclient/forms.py",
+"omeroweb/webclient/templates/webclient/base/includes/toolbar_forms.html",
+"omeroweb/webclient/views.py",
+"omeroweb/webclient/templates/webclient/base/base_container.html"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-21377",
+"patch_date": [
+"2021-03-17 08:35:48+00:00"
+],
+"patch_files": [
+"omeroweb/webclient/decorators.py",
+"omeroweb/webclient/static/webclient/javascript/ome.tree.js",
+"omeroweb/webgateway/views.py",
+"CHANGELOG.md",
+"omeroweb/webclient/templates/webclient/data/containers.html",
+"omeroweb/webclient/templates/webclient/public/public.html",
+"omeroweb/decorators.py",
+"omeroweb/webclient/forms.py",
+"omeroweb/webclient/templates/webclient/base/includes/toolbar_forms.html",
+"omeroweb/webclient/views.py",
+"omeroweb/settings.py",
+"omeroweb/webclient/templates/webclient/base/base_container.html",
+"omeroweb/webgateway/templates/webgateway/core_html.html"
+],
+"earliest_patch_date": "2021-03-17 08:35:48+00:00",
+"earliest_vuln_date": "2012-04-13 10:12:18+01:00",
+"vuln_files": [
+"omeroweb/webclient/decorators.py",
+"omeroweb/webclient/static/webclient/javascript/ome.tree.js",
+"omeroweb/webgateway/views.py",
+"omeroweb/webclient/templates/webclient/data/containers.html",
+"omeroweb/webclient/templates/webclient/public/public.html",
+"omeroweb/decorators.py",
+"omeroweb/webclient/forms.py",
+"omeroweb/webclient/templates/webclient/base/includes/toolbar_forms.html",
+"omeroweb/webclient/views.py",
+"omeroweb/webclient/templates/webclient/base/base_container.html"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.9
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 6.8,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"omeroweb/webclient/decorators.py",
+"omeroweb/webclient/static/webclient/javascript/ome.tree.js",
+"omeroweb/webgateway/views.py",
+"CHANGELOG.md",
+"omeroweb/webclient/templates/webclient/data/containers.html",
+"omeroweb/webclient/templates/webclient/public/public.html",
+"omeroweb/decorators.py",
+"omeroweb/webclient/forms.py",
+"omeroweb/webclient/templates/webclient/base/includes/toolbar_forms.html",
+"omeroweb/webclient/views.py",
+"omeroweb/settings.py",
+"omeroweb/webclient/templates/webclient/base/base_container.html",
+"omeroweb/webgateway/templates/webgateway/core_html.html"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-41132",
+"patch_date": [
+"2021-10-07 11:17:38+01:00"
+],
+"patch_files": [
+"omeroweb/webclient/static/webclient/javascript/ome.chgrp.js",
+"omeroweb/webclient/templates/webclient/annotations/customanns_underscore.html",
+"omeroweb/webgateway/static/webgateway/js/ome.popup.js",
+"omeroweb/webclient/static/webclient/javascript/ome.right_panel_customanns_pane.js",
+"omeroweb/webclient/static/webclient/javascript/ome.chown.js",
+"omeroweb/webgateway/static/webgateway/js/ome.roidisplay.js",
+"omeroweb/webclient/templates/webclient/annotations/comments_underscore.html",
+"omeroweb/webclient/templates/webclient/annotations/fileanns_underscore.html",
+"CHANGELOG.md",
+"omeroweb/webclient/templates/webclient/data/includes/center_plugin.thumbs.js.html",
+"omeroweb/webclient/templates/webclient/scripts/upload_script.html",
+"omeroweb/webadmin/templates/webadmin/includes/drivespaceStats.js",
+"omeroweb/webclient/views.py",
+"omeroweb/webgateway/static/webgateway/js/omero_image.js",
+"omeroweb/webgateway/templates/webgateway/viewport/omero_image.html",
+"omeroweb/webclient/static/webclient/javascript/ome.right_panel_fileanns_pane.js",
+"omeroweb/webclient/static/webclient/javascript/ome.right_panel_tags_pane.js",
+"omeroweb/webclient/templates/webclient/data/plate.html",
+"omeroweb/webclient/templates/webclient/annotations/mapanns_underscore.html",
+"omeroweb/webclient/static/webclient/javascript/ome.right_panel_comments_pane.js",
+"omeroweb/webclient/static/webclient/javascript/ome.tagging_form.js",
+"omeroweb/webclient/templates/webclient/annotations/metadata_general.html",
+"omeroweb/webgateway/static/webgateway/js/ome.spwgridview.js",
+"omeroweb/webclient/templates/webclient/annotations/tags_underscore.html",
+"omeroweb/webclient/templates/webclient/data/icon_thumbnails_underscore.html",
+"omeroweb/webclient/static/webclient/javascript/ome.thumbnail_figure.js"
+],
+"earliest_patch_date": "2021-10-07 11:17:38+01:00",
+"earliest_vuln_date": "2012-09-05 15:50:38+01:00",
+"vuln_files": [
+"omeroweb/webclient/static/webclient/javascript/ome.chgrp.js",
+"omeroweb/webclient/templates/webclient/annotations/customanns_underscore.html",
+"omeroweb/webgateway/static/webgateway/js/ome.popup.js",
+"omeroweb/webclient/static/webclient/javascript/ome.right_panel_customanns_pane.js",
+"omeroweb/webclient/static/webclient/javascript/ome.chown.js",
+"omeroweb/webgateway/static/webgateway/js/ome.roidisplay.js",
+"omeroweb/webclient/templates/webclient/annotations/comments_underscore.html",
+"omeroweb/webclient/templates/webclient/annotations/fileanns_underscore.html",
+"omeroweb/webclient/templates/webclient/data/includes/center_plugin.thumbs.js.html",
+"omeroweb/webclient/templates/webclient/scripts/upload_script.html",
+"omeroweb/webadmin/templates/webadmin/includes/drivespaceStats.js",
+"omeroweb/webclient/views.py",
+"omeroweb/webgateway/static/webgateway/js/omero_image.js",
+"omeroweb/webgateway/templates/webgateway/viewport/omero_image.html",
+"omeroweb/webclient/static/webclient/javascript/ome.right_panel_fileanns_pane.js",
+"omeroweb/webclient/static/webclient/javascript/ome.right_panel_tags_pane.js",
+"omeroweb/webclient/templates/webclient/data/plate.html",
+"omeroweb/webclient/templates/webclient/annotations/mapanns_underscore.html",
+"omeroweb/webclient/static/webclient/javascript/ome.right_panel_comments_pane.js",
+"omeroweb/webclient/static/webclient/javascript/ome.tagging_form.js",
+"omeroweb/webclient/templates/webclient/annotations/metadata_general.html",
+"omeroweb/webgateway/static/webgateway/js/ome.spwgridview.js",
+"omeroweb/webclient/templates/webclient/annotations/tags_underscore.html",
+"omeroweb/webclient/templates/webclient/data/icon_thumbnails_underscore.html",
+"omeroweb/webclient/static/webclient/javascript/ome.thumbnail_figure.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"CHANGELOG.md",
+"omeroweb/webclient/views.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-35180",
+"patch_date": [
+"2024-05-21 13:23:18+02:00"
+],
+"patch_files": [
+"omeroweb/webgateway/views.py"
+],
+"earliest_patch_date": "2024-05-21 13:23:18+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"omeroweb/webgateway/views.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

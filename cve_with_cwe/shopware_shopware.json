@@ -1,0 +1,366 @@
+[
+{
+"cve_id": "CVE-2024-27917",
+"patch_date": [
+"2024-03-05 13:08:36+01:00"
+],
+"patch_files": [
+"src/Storefront/Framework/Routing/NotFound/NotFoundSubscriber.php",
+"src/Storefront/Test/Framework/Routing/NotFound/NotFoundPageTagsEventTest.php",
+"src/Storefront/DependencyInjection/services.xml",
+"changelog/_unreleased/2024-03-04-clear-cookies-on-404-pages.md",
+"src/Storefront/Test/Framework/Routing/NotFound/NotFoundSubscriberTest.php",
+"src/Storefront/Test/Framework/Routing/NotFound/NotFoundPageCacheKeyEventTest.php"
+],
+"earliest_patch_date": "2024-03-05 13:08:36+01:00",
+"earliest_vuln_date": "2022-07-15 09:15:37+02:00",
+"vuln_files": [
+"tests/unit/Storefront/Framework/Routing/NotFound/NotFoundPageCacheKeyEventTest.php",
+"tests/unit/Storefront/Framework/Routing/NotFound/NotFoundPageTagsEventTest.php",
+"tests/unit/Storefront/Framework/Routing/NotFound/NotFoundSubscriberTest.php",
+"src/Storefront/Framework/Routing/NotFound/NotFoundSubscriber.php"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-31447",
+"patch_date": [
+"2024-04-08 13:24:01+02:00",
+"2024-04-08 13:54:05+02:00"
+],
+"patch_files": [
+"tests/integration/Core/Checkout/Customer/SalesChannel/LogoutRouteTest.php",
+"tests/integration/Storefront/Controller/AuthControllerTest.php",
+"src/Core/Checkout/Customer/SalesChannel/LogoutRoute.php",
+"changelog/_unreleased/2024-04-03-improve-account-logout.md"
+],
+"earliest_patch_date": "2024-04-08 13:24:01+02:00",
+"earliest_vuln_date": "2020-03-17 15:09:22+01:00",
+"vuln_files": [
+"tests/integration/Core/Checkout/Customer/SalesChannel/LogoutRouteTest.php",
+"tests/integration/Storefront/Controller/AuthControllerTest.php",
+"src/Core/Checkout/Customer/SalesChannel/LogoutRoute.php"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-42354",
+"patch_date": [
+"2024-08-07 13:00:18+00:00",
+"2024-08-08 14:23:18+02:00"
+],
+"patch_files": [
+"src/Core/System/SalesChannel/Entity/SalesChannelRepository.php",
+"tests/unit/Framework/ContextTest.php",
+"tests/unit/Core/Framework/Adapter/Twig/Node/FeatureCallSilentTokenTest.php",
+"changelog/_unreleased/2024-07-24-context-object-improvements.md",
+"src/Core/Framework/DataAbstractionLayer/Dbal/EntityAggregator.php",
+"src/Core/Framework/DataAbstractionLayer/Search/Parser/AggregationParser.php",
+"changelog/_unreleased/2024-07-24-improve-aggregation-name-validation.md",
+"src/Core/Framework/Adapter/Twig/Node/FeatureCallSilentToken.php",
+"tests/unit/Core/Framework/Adapter/Twig/TokenParser/FeatureFlagCallTokenParserTest.php",
+".bc-exclude.php",
+"src/Core/Framework/Context.php",
+"src/Core/Framework/DataAbstractionLayer/DataAbstractionLayerException.php",
+"src/Core/Framework/Test/DataAbstractionLayer/Search/Parser/AggregationParserTest.php",
+"changelog/_unreleased/2024-07-24-improve-feature-silent-token-validation.md",
+"src/Core/Framework/Test/DataAbstractionLayer/Search/EntityAggregatorTest.php"
+],
+"earliest_patch_date": "2024-08-07 13:00:18+00:00",
+"earliest_vuln_date": "2019-10-29 07:32:54+01:00",
+"vuln_files": [
+"src/Core/System/SalesChannel/Entity/SalesChannelRepository.php",
+"src/Core/Framework/Adapter/Twig/Node/FeatureCallSilentToken.php",
+"src/Core/Framework/Context.php",
+"tests/unit/Core/Framework/Adapter/Twig/Node/FeatureCallSilentTokenTest.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.9,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-42355",
+"patch_date": [
+"2024-08-08 14:23:18+02:00",
+"2024-08-07 13:00:18+00:00"
+],
+"patch_files": [
+"src/Core/System/SalesChannel/Entity/SalesChannelRepository.php",
+"tests/unit/Framework/ContextTest.php",
+"tests/unit/Core/Framework/Adapter/Twig/Node/FeatureCallSilentTokenTest.php",
+"changelog/_unreleased/2024-07-24-context-object-improvements.md",
+"src/Core/Framework/DataAbstractionLayer/Dbal/EntityAggregator.php",
+"src/Core/Framework/DataAbstractionLayer/Search/Parser/AggregationParser.php",
+"changelog/_unreleased/2024-07-24-improve-aggregation-name-validation.md",
+"src/Core/Framework/Adapter/Twig/Node/FeatureCallSilentToken.php",
+"tests/unit/Core/Framework/Adapter/Twig/TokenParser/FeatureFlagCallTokenParserTest.php",
+".bc-exclude.php",
+"src/Core/Framework/Context.php",
+"src/Core/Framework/DataAbstractionLayer/DataAbstractionLayerException.php",
+"src/Core/Framework/Test/DataAbstractionLayer/Search/Parser/AggregationParserTest.php",
+"changelog/_unreleased/2024-07-24-improve-feature-silent-token-validation.md",
+"src/Core/Framework/Test/DataAbstractionLayer/Search/EntityAggregatorTest.php"
+],
+"earliest_patch_date": "2024-08-07 13:00:18+00:00",
+"earliest_vuln_date": "2019-10-29 07:32:54+01:00",
+"vuln_files": [
+"src/Core/Framework/Adapter/Twig/Node/FeatureCallSilentToken.php",
+"src/Core/Framework/Context.php",
+"src/Core/System/SalesChannel/Entity/SalesChannelRepository.php",
+"tests/unit/Core/Framework/Adapter/Twig/Node/FeatureCallSilentTokenTest.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-94"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/Core/System/SalesChannel/Entity/SalesChannelRepository.php",
+"tests/unit/Framework/ContextTest.php",
+"tests/unit/Core/Framework/Adapter/Twig/Node/FeatureCallSilentTokenTest.php",
+"changelog/_unreleased/2024-07-24-context-object-improvements.md",
+"src/Core/Framework/DataAbstractionLayer/Dbal/EntityAggregator.php",
+"src/Core/Framework/DataAbstractionLayer/Search/Parser/AggregationParser.php",
+"changelog/_unreleased/2024-07-24-improve-aggregation-name-validation.md",
+"src/Core/Framework/Adapter/Twig/Node/FeatureCallSilentToken.php",
+"tests/unit/Core/Framework/Adapter/Twig/TokenParser/FeatureFlagCallTokenParserTest.php",
+".bc-exclude.php",
+"src/Core/Framework/Context.php",
+"src/Core/Framework/DataAbstractionLayer/DataAbstractionLayerException.php",
+"src/Core/Framework/Test/DataAbstractionLayer/Search/Parser/AggregationParserTest.php",
+"changelog/_unreleased/2024-07-24-improve-feature-silent-token-validation.md",
+"src/Core/Framework/Test/DataAbstractionLayer/Search/EntityAggregatorTest.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-42356",
+"patch_date": [
+"2024-08-07 13:00:18+00:00",
+"2024-08-08 14:23:18+02:00"
+],
+"patch_files": [
+"src/Core/System/SalesChannel/Entity/SalesChannelRepository.php",
+"tests/unit/Framework/ContextTest.php",
+"tests/unit/Core/Framework/Adapter/Twig/Node/FeatureCallSilentTokenTest.php",
+"changelog/_unreleased/2024-07-24-context-object-improvements.md",
+"src/Core/Framework/DataAbstractionLayer/Dbal/EntityAggregator.php",
+"src/Core/Framework/DataAbstractionLayer/Search/Parser/AggregationParser.php",
+"changelog/_unreleased/2024-07-24-improve-aggregation-name-validation.md",
+"src/Core/Framework/Adapter/Twig/Node/FeatureCallSilentToken.php",
+"tests/unit/Core/Framework/Adapter/Twig/TokenParser/FeatureFlagCallTokenParserTest.php",
+".bc-exclude.php",
+"src/Core/Framework/Context.php",
+"src/Core/Framework/DataAbstractionLayer/DataAbstractionLayerException.php",
+"src/Core/Framework/Test/DataAbstractionLayer/Search/Parser/AggregationParserTest.php",
+"changelog/_unreleased/2024-07-24-improve-feature-silent-token-validation.md",
+"src/Core/Framework/Test/DataAbstractionLayer/Search/EntityAggregatorTest.php"
+],
+"earliest_patch_date": "2024-08-07 13:00:18+00:00",
+"earliest_vuln_date": "2019-10-29 07:32:54+01:00",
+"vuln_files": [
+"src/Core/System/SalesChannel/Entity/SalesChannelRepository.php",
+"src/Core/Framework/Adapter/Twig/Node/FeatureCallSilentToken.php",
+"src/Core/Framework/Context.php",
+"tests/unit/Core/Framework/Adapter/Twig/Node/FeatureCallSilentTokenTest.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-94"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-94"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/Core/System/SalesChannel/Entity/SalesChannelRepository.php",
+"tests/unit/Framework/ContextTest.php",
+"tests/unit/Core/Framework/Adapter/Twig/Node/FeatureCallSilentTokenTest.php",
+"changelog/_unreleased/2024-07-24-context-object-improvements.md",
+"src/Core/Framework/DataAbstractionLayer/Dbal/EntityAggregator.php",
+"src/Core/Framework/DataAbstractionLayer/Search/Parser/AggregationParser.php",
+"changelog/_unreleased/2024-07-24-improve-aggregation-name-validation.md",
+"src/Core/Framework/Adapter/Twig/Node/FeatureCallSilentToken.php",
+"tests/unit/Core/Framework/Adapter/Twig/TokenParser/FeatureFlagCallTokenParserTest.php",
+".bc-exclude.php",
+"src/Core/Framework/Context.php",
+"src/Core/Framework/DataAbstractionLayer/DataAbstractionLayerException.php",
+"src/Core/Framework/Test/DataAbstractionLayer/Search/Parser/AggregationParserTest.php",
+"changelog/_unreleased/2024-07-24-improve-feature-silent-token-validation.md",
+"src/Core/Framework/Test/DataAbstractionLayer/Search/EntityAggregatorTest.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-42357",
+"patch_date": [
+"2024-08-08 14:23:18+02:00",
+"2024-08-07 13:00:18+00:00"
+],
+"patch_files": [
+"src/Core/System/SalesChannel/Entity/SalesChannelRepository.php",
+"tests/unit/Framework/ContextTest.php",
+"tests/unit/Core/Framework/Adapter/Twig/Node/FeatureCallSilentTokenTest.php",
+"changelog/_unreleased/2024-07-24-context-object-improvements.md",
+"src/Core/Framework/DataAbstractionLayer/Search/Parser/AggregationParser.php",
+"src/Core/Framework/DataAbstractionLayer/Dbal/EntityAggregator.php",
+"changelog/_unreleased/2024-07-24-improve-aggregation-name-validation.md",
+"src/Core/Framework/Adapter/Twig/Node/FeatureCallSilentToken.php",
+"tests/unit/Core/Framework/Adapter/Twig/TokenParser/FeatureFlagCallTokenParserTest.php",
+".bc-exclude.php",
+"src/Core/Framework/Context.php",
+"src/Core/Framework/DataAbstractionLayer/DataAbstractionLayerException.php",
+"src/Core/Framework/Test/DataAbstractionLayer/Search/Parser/AggregationParserTest.php",
+"changelog/_unreleased/2024-07-24-improve-feature-silent-token-validation.md",
+"src/Core/Framework/Test/DataAbstractionLayer/Search/EntityAggregatorTest.php"
+],
+"earliest_patch_date": "2024-08-07 13:00:18+00:00",
+"earliest_vuln_date": "2019-10-29 07:32:54+01:00",
+"vuln_files": [
+"src/Core/Framework/Adapter/Twig/Node/FeatureCallSilentToken.php",
+"src/Core/Framework/Context.php",
+"src/Core/System/SalesChannel/Entity/SalesChannelRepository.php",
+"tests/unit/Core/Framework/Adapter/Twig/Node/FeatureCallSilentTokenTest.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-89"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/Core/System/SalesChannel/Entity/SalesChannelRepository.php",
+"tests/unit/Framework/ContextTest.php",
+"tests/unit/Core/Framework/Adapter/Twig/Node/FeatureCallSilentTokenTest.php",
+"changelog/_unreleased/2024-07-24-context-object-improvements.md",
+"src/Core/Framework/DataAbstractionLayer/Search/Parser/AggregationParser.php",
+"src/Core/Framework/DataAbstractionLayer/Dbal/EntityAggregator.php",
+"changelog/_unreleased/2024-07-24-improve-aggregation-name-validation.md",
+"src/Core/Framework/Adapter/Twig/Node/FeatureCallSilentToken.php",
+"tests/unit/Core/Framework/Adapter/Twig/TokenParser/FeatureFlagCallTokenParserTest.php",
+".bc-exclude.php",
+"src/Core/Framework/Context.php",
+"src/Core/Framework/DataAbstractionLayer/DataAbstractionLayerException.php",
+"src/Core/Framework/Test/DataAbstractionLayer/Search/Parser/AggregationParserTest.php",
+"changelog/_unreleased/2024-07-24-improve-feature-silent-token-validation.md",
+"src/Core/Framework/Test/DataAbstractionLayer/Search/EntityAggregatorTest.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

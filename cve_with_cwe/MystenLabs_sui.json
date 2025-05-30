@@ -1,0 +1,117 @@
+[
+{
+"cve_id": "CVE-2023-36184",
+"patch_date": [
+"2023-06-01 16:19:07-07:00"
+],
+"patch_files": [
+"external-crates/move/move-vm/runtime/src/config.rs",
+"external-crates/move/move-vm/transactional-tests/tests/recursion/runtime_layout_deeply_nested.exp",
+"external-crates/move/move-vm/types/src/loaded_data/runtime_types.rs",
+"external-crates/move/Cargo.toml",
+"external-crates/move/move-stdlib/nursery/tests/event_tests.move",
+"external-crates/move/move-vm/runtime/src/loader.rs",
+"crates/sui-open-rpc/spec/openrpc.json",
+"external-crates/move/move-vm/transactional-tests/tests/recursion/runtime_layout_deeply_nested.mvir",
+"external-crates/move/move-vm/integration-tests/src/tests/depth_tests_modules.move",
+"crates/sui-protocol-config/src/snapshots/sui_protocol_config__test__version_11.snap",
+"sui-execution/latest/sui-adapter/src/adapter.rs",
+"external-crates/move/move-stdlib/tests/bcs_tests.move",
+"external-crates/move/move-vm/runtime/src/interpreter.rs",
+"external-crates/move/move-vm/integration-tests/src/tests/loader_tests.rs",
+"crates/sui-protocol-config/src/lib.rs"
+],
+"earliest_patch_date": "2023-06-01 16:19:07-07:00",
+"earliest_vuln_date": "2023-04-05 17:47:54+03:00",
+"vuln_files": [
+"external-crates/move/move-vm/types/src/loaded_data/runtime_types.rs",
+"external-crates/move/move-vm/transactional-tests/tests/recursion/runtime_layout_deeply_nested.exp",
+"external-crates/move/move-vm/runtime/src/loader.rs",
+"external-crates/move/move-vm/transactional-tests/tests/recursion/runtime_layout_deeply_nested.mvir",
+"external-crates/move/move-vm/integration-tests/src/tests/loader_tests.rs",
+"crates/sui-protocol-config/src/lib.rs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-787"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-42374",
+"patch_date": [
+"2023-07-31 18:08:45+00:00"
+],
+"patch_files": [
+"narwhal/worker/src/worker.rs",
+"crates/mysten-network/src/codec.rs",
+"narwhal/primary/src/primary.rs",
+"crates/sui-node/src/lib.rs"
+],
+"earliest_patch_date": "2023-07-31 18:08:45+00:00",
+"earliest_vuln_date": "2023-02-16 20:20:53+00:00",
+"vuln_files": [
+"narwhal/worker/src/worker.rs",
+"crates/mysten-network/src/codec.rs",
+"narwhal/primary/src/primary.rs",
+"crates/sui-node/src/lib.rs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-94"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

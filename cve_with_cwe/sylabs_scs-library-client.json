@@ -1,0 +1,49 @@
+[
+{
+"cve_id": "CVE-2022-23538",
+"patch_date": [
+"2022-12-13 10:37:35-05:00",
+"2023-01-17 11:50:52+00:00",
+"2023-01-06 09:47:09-05:00"
+],
+"patch_files": [
+"client/pull.go"
+],
+"earliest_patch_date": "2022-12-13 10:37:35-05:00",
+"earliest_vuln_date": "2022-05-04 09:41:23-04:00",
+"vuln_files": [
+"client/pull.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 7.6,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 4.7
+}
+},
+"cwes": [
+"CWE-522"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

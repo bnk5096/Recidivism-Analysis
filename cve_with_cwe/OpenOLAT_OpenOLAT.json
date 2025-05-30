@@ -1,0 +1,447 @@
+[
+{
+"cve_id": "CVE-2021-39181",
+"patch_date": [
+"2021-06-21 11:13:50+02:00"
+],
+"patch_files": [
+"src/main/java/org/olat/course/nodes/gta/manager/GTAManagerImpl.java",
+"src/main/java/org/olat/course/archiver/FormatConfigHelper.java",
+"src/main/java/org/olat/upgrade/OLATUpgrade_15_3_18.java",
+"src/main/java/org/olat/course/nodes/ProjectBrokerCourseNode.java",
+"src/main/java/org/olat/course/CourseXStreamAliases.java",
+"src/main/java/org/olat/modules/qpool/manager/MetadataConverterHelper.java",
+"src/main/java/org/olat/modules/video/manager/VideoMetaXStream.java",
+"src/test/java/org/olat/upgrade/installed_database_upgrades.xml",
+"src/main/java/org/olat/group/manager/GroupXStream.java",
+"src/main/java/org/olat/modules/dcompensation/manager/DisadvantageCompensationAuditLogDAO.java",
+"src/main/java/org/olat/modules/portfolio/handler/BinderXStream.java",
+"src/test/java/org/olat/core/util/xml/xstream_map_alien.xml",
+"src/main/java/org/olat/upgrade/UpgradeManager.java",
+"src/main/java/org/olat/restapi/repository/course/CourseWebService.java",
+"src/main/java/de/bps/olat/portal/links/LinksPortlet.java",
+"src/main/java/org/olat/core/commons/modules/glossary/GlossaryItemManager.java",
+"src/main/java/org/olat/core/commons/services/license/manager/LicenseXStreamHelper.java",
+"src/main/java/org/olat/modules/ceditor/ContentEditorXStream.java",
+"src/main/java/org/olat/upgrade/OLATUpgrade_11_3_0.java",
+"src/main/java/org/olat/modules/lecture/manager/LectureBlockAuditLogDAO.java",
+"src/main/java/org/olat/modules/video/ui/VideoQualityTableFormController.java",
+"src/main/java/org/olat/core/gui/control/navigation/SiteDefinitions.java",
+"src/main/java/org/olat/modules/taxonomy/manager/TaxonomyCompetenceAuditLogDAO.java",
+"src/main/java/de/bps/course/nodes/ChecklistCourseNode.java",
+"src/main/java/org/olat/course/config/ui/courselayout/CustomConfigManager.java",
+"src/test/java/org/olat/core/util/xml/xstream_map_strings.xml",
+"src/main/java/org/olat/modules/scorm/ScormMainManager.java",
+"src/main/java/org/olat/upgrade/OLATUpgrade_12_3_0.java",
+"src/main/java/org/olat/modules/curriculum/manager/CurriculumXStream.java",
+"src/main/java/org/olat/modules/qpool/manager/QuestionItemAuditLogDAO.java",
+"src/main/java/org/olat/admin/landingpages/LandingPagesModule.java",
+"src/test/java/org/olat/upgrade/installed_upgrades.xml",
+"src/main/java/org/olat/modules/quality/analysis/manager/AnalysisPresentationXStream.java",
+"src/main/java/org/olat/repository/RepositoryEntryImportExport.java",
+"src/main/java/org/olat/core/commons/services/doceditor/discovery/manager/DiscoveryXStream.java",
+"src/main/java/org/olat/modules/vitero/manager/ViteroManager.java",
+"src/main/java/org/olat/modules/webFeed/portfolio/BlogEntryMediaController.java",
+"src/test/java/org/olat/core/commons/services/taskexecutor/manager/PersistentTaskDAOTest.java",
+"src/test/java/org/olat/core/util/xml/XMLDigitalSignatureUtilTest.java",
+"src/main/java/org/olat/modules/reminder/manager/ReminderRulesXStream.java",
+"src/main/java/org/olat/upgrade/_spring/upgradeContext.xml",
+"src/main/java/org/olat/registration/RegistrationManager.java",
+"src/test/java/org/olat/core/commons/modules/glossary/GlossaryItemManagerTest.java",
+"src/main/java/org/olat/modules/portfolio/manager/MetadataXStream.java",
+"src/main/java/org/olat/course/assessment/manager/EfficiencyStatementManager.java",
+"src/main/java/de/bps/olat/user/ChangeEMailExecuteController.java",
+"src/test/java/org/olat/core/util/xml/XStreamHelperTest.java",
+"src/main/java/org/olat/course/assessment/portfolio/EfficiencyStatementMediaHandler.java",
+"src/main/java/org/olat/core/commons/services/taskexecutor/manager/PersistentTaskDAO.java",
+"src/test/java/org/olat/core/commons/modules/glossary/glossary.xml",
+"src/main/java/org/olat/core/commons/services/vfs/manager/VFSXStream.java",
+"src/main/java/org/olat/modules/video/manager/VideoXStream.java",
+"src/main/java/org/olat/user/manager/HomePageConfigManagerImpl.java",
+"src/main/java/org/olat/course/config/manager/CourseConfigManagerImpl.java",
+"src/main/java/org/olat/modules/forms/model/xml/FormXStream.java",
+"src/main/java/org/olat/modules/video/manager/VideoManagerImpl.java",
+"src/main/java/org/olat/modules/video/VideoManager.java",
+"src/main/java/org/olat/user/propertyhandlers/UserInterestsPropertyHandler.java",
+"src/test/java/org/olat/test/VFSJavaIOFile.java",
+"src/main/java/org/olat/core/util/xml/EnhancedXStream.java",
+"src/main/java/org/olat/ims/qti21/manager/QTI21ServiceImpl.java",
+"src/main/java/org/olat/core/util/prefs/db/DbStorage.java",
+"src/main/java/org/olat/ims/cp/CPManagerImpl.java",
+"src/test/java/org/olat/core/dispatcher/mapper/MapperDAOTest.java",
+"src/main/java/org/olat/modules/webFeed/manager/FeedFileStorge.java",
+"src/main/java/org/olat/core/util/xml/XStreamHelper.java",
+"src/main/java/org/olat/modules/openmeetings/manager/OpenMeetingsDAO.java",
+"src/test/java/org/olat/test/AllTestsJunit4.java",
+"src/main/java/org/olat/instantMessaging/manager/ChatLogHelper.java",
+"src/test/java/org/olat/upgrade/UpgradeManagerTest.java",
+"src/main/java/org/olat/core/id/context/HistoryManager.java",
+"src/main/java/org/olat/core/dispatcher/mapper/manager/MapperDAO.java",
+"src/main/java/org/olat/modules/portfolio/manager/PortfolioServiceImpl.java"
+],
+"earliest_patch_date": "2021-06-21 11:13:50+02:00",
+"earliest_vuln_date": "2011-02-11 11:48:57+01:00",
+"vuln_files": [
+"src/main/java/org/olat/course/archiver/FormatConfigHelper.java",
+"src/main/java/org/olat/modules/video/manager/VideoMetaXStream.java",
+"src/main/java/org/olat/group/manager/GroupXStream.java",
+"src/main/java/org/olat/modules/portfolio/handler/BinderXStream.java",
+"src/main/java/org/olat/upgrade/UpgradeManager.java",
+"src/main/java/de/bps/olat/portal/links/LinksPortlet.java",
+"src/main/java/org/olat/core/commons/modules/glossary/GlossaryItemManager.java",
+"src/main/java/org/olat/modules/ceditor/ContentEditorXStream.java",
+"src/main/java/org/olat/upgrade/OLATUpgrade_11_3_0.java",
+"src/main/java/de/bps/course/nodes/ChecklistCourseNode.java",
+"src/main/java/org/olat/course/config/ui/courselayout/CustomConfigManager.java",
+"src/main/java/org/olat/modules/scorm/ScormMainManager.java",
+"src/main/java/org/olat/upgrade/OLATUpgrade_12_3_0.java",
+"src/main/java/org/olat/modules/curriculum/manager/CurriculumXStream.java",
+"src/main/java/org/olat/modules/quality/analysis/manager/AnalysisPresentationXStream.java",
+"src/main/java/org/olat/core/commons/services/doceditor/discovery/manager/DiscoveryXStream.java",
+"src/test/java/org/olat/core/commons/services/taskexecutor/manager/PersistentTaskDAOTest.java",
+"src/main/java/org/olat/registration/RegistrationManager.java",
+"src/main/java/org/olat/course/assessment/manager/EfficiencyStatementManager.java",
+"src/main/java/org/olat/course/assessment/portfolio/EfficiencyStatementMediaHandler.java",
+"src/main/java/org/olat/core/commons/services/taskexecutor/manager/PersistentTaskDAO.java",
+"src/main/java/org/olat/core/commons/services/vfs/manager/VFSXStream.java",
+"src/main/java/org/olat/user/manager/HomePageConfigManagerImpl.java",
+"src/main/java/org/olat/modules/video/manager/VideoXStream.java",
+"src/main/java/org/olat/course/config/manager/CourseConfigManagerImpl.java",
+"src/main/java/org/olat/modules/forms/model/xml/FormXStream.java",
+"src/main/java/org/olat/modules/video/manager/VideoManagerImpl.java",
+"src/main/java/org/olat/modules/video/VideoManager.java",
+"src/test/java/org/olat/test/VFSJavaIOFile.java",
+"src/main/java/org/olat/core/util/xml/EnhancedXStream.java",
+"src/main/java/org/olat/ims/qti21/manager/QTI21ServiceImpl.java",
+"src/test/java/org/olat/core/dispatcher/mapper/MapperDAOTest.java",
+"src/main/java/org/olat/ims/cp/CPManagerImpl.java",
+"src/main/java/org/olat/core/util/xml/XStreamHelper.java",
+"src/test/java/org/olat/test/AllTestsJunit4.java",
+"src/main/java/org/olat/instantMessaging/manager/ChatLogHelper.java",
+"src/main/java/org/olat/core/dispatcher/mapper/manager/MapperDAO.java",
+"src/main/java/org/olat/modules/portfolio/manager/PortfolioServiceImpl.java"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-39180",
+"patch_date": [
+"2021-07-02 09:04:25+02:00",
+"2021-06-22 19:43:01+02:00",
+"2021-06-21 16:32:21+02:00"
+],
+"patch_files": [
+"src/main/java/org/olat/core/util/ZipUtil.java",
+"src/main/java/org/olat/ims/qti21/repository/handlers/CopyAndConvertVisitor.java",
+"src/main/java/org/olat/ims/qti21/pool/QTI21ImportProcessor.java",
+"src/main/java/org/olat/core/util/vfs/VirtualContainer.java",
+"src/test/java/org/olat/modules/ims/cp/ImsCPHandlerTest.java",
+"src/main/java/org/olat/ims/cp/ui/VFSMediaFilesContainer.java",
+"src/main/java/org/olat/course/assessment/bulk/DataStepForm.java",
+"src/main/java/org/olat/ims/cp/ui/VFSRootCPContainer.java",
+"src/main/java/org/olat/ims/cp/ui/VFSCPNamedContainerItem.java",
+"src/main/java/org/olat/core/util/PathUtils.java",
+"src/main/java/org/olat/core/util/vfs/LocalFolderImpl.java",
+"src/test/java/org/olat/modules/ims/cp/imscp_alt.zip",
+"src/main/java/org/olat/fileresource/types/ScormCPFileResource.java",
+"src/main/java/org/olat/core/util/vfs/NamedContainerImpl.java",
+"src/main/java/org/olat/ims/cp/ui/VFSCPContainer.java",
+"src/test/java/org/olat/modules/ims/cp/imscp.zip",
+"src/main/java/org/olat/core/util/vfs/MergeSource.java",
+"src/test/java/org/olat/core/util/Slide.zip",
+"src/test/java/org/olat/modules/wiki/WikiManagerTest.java",
+"src/main/java/org/olat/fileresource/types/ImsQTI21Resource.java",
+"src/main/java/org/olat/fileresource/types/ImsCPFileResource.java",
+"src/test/java/org/olat/modules/wiki/wiki_alt.zip",
+"src/test/java/org/olat/modules/wiki/wiki.zip",
+"src/test/java/org/olat/test/AllTestsJunit4.java",
+"src/main/java/org/olat/modules/wiki/WikiManager.java",
+"src/main/java/org/olat/core/util/vfs/VFSContainer.java",
+"src/test/java/org/olat/core/util/ZipUtilTest.java",
+"src/main/java/org/olat/fileresource/types/FileResource.java"
+],
+"earliest_patch_date": "2021-06-21 16:32:21+02:00",
+"earliest_vuln_date": "2011-02-11 11:48:57+01:00",
+"vuln_files": [
+"src/test/java/org/olat/modules/wiki/WikiManagerTest.java",
+"src/main/java/org/olat/core/util/PathUtils.java",
+"src/main/java/org/olat/fileresource/types/FileResource.java",
+"src/main/java/org/olat/fileresource/types/ScormCPFileResource.java",
+"src/main/java/org/olat/fileresource/types/ImsCPFileResource.java",
+"src/main/java/org/olat/fileresource/types/ImsQTI21Resource.java",
+"src/main/java/org/olat/modules/wiki/WikiManager.java",
+"src/main/java/org/olat/core/util/ZipUtil.java",
+"src/main/java/org/olat/course/assessment/bulk/DataStepForm.java",
+"src/main/java/org/olat/ims/qti21/repository/handlers/CopyAndConvertVisitor.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "COMPLETE",
+"integrityImpact": "COMPLETE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 9
+},
+"severity": "HIGH",
+"exploitabilityScore": 8,
+"impactScore": 10,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/test/java/org/olat/test/AllTestsJunit4.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-41152",
+"patch_date": [
+"2021-09-06 19:02:57+02:00"
+],
+"patch_files": [
+"src/main/java/org/olat/core/commons/modules/bc/FileSelection.java",
+"src/main/java/org/olat/core/commons/modules/bc/commands/CmdUnzip.java",
+"src/main/java/org/olat/core/commons/modules/bc/commands/CmdDownloadZip.java",
+"src/main/java/org/olat/core/commons/modules/bc/commands/CmdDelete.java",
+"src/main/java/org/olat/core/util/mail/ui/SendDocumentsByEMailController.java",
+"src/main/java/org/olat/core/commons/modules/bc/commands/CmdMoveCopy.java",
+"src/main/java/org/olat/core/commons/modules/bc/commands/CmdZip.java"
+],
+"earliest_patch_date": "2021-09-06 19:02:57+02:00",
+"earliest_vuln_date": "2011-02-11 11:49:05+01:00",
+"vuln_files": [
+"src/main/java/org/olat/core/commons/modules/bc/FileSelection.java",
+"src/main/java/org/olat/core/commons/modules/bc/commands/CmdUnzip.java",
+"src/main/java/org/olat/core/commons/modules/bc/commands/CmdDownloadZip.java",
+"src/main/java/org/olat/core/commons/modules/bc/commands/CmdDelete.java",
+"src/main/java/org/olat/core/util/mail/ui/SendDocumentsByEMailController.java",
+"src/main/java/org/olat/core/commons/modules/bc/commands/CmdMoveCopy.java",
+"src/main/java/org/olat/core/commons/modules/bc/commands/CmdZip.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.7,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.1,
+"impactScore": 4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-22"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-41242",
+"patch_date": [
+"2021-11-02 10:04:49+01:00",
+"2021-11-01 11:48:12+01:00"
+],
+"patch_files": [
+"src/main/java/org/olat/restapi/repository/course/CourseElementWebService.java",
+"src/main/java/org/olat/restapi/support/MultipartReader.java",
+"src/main/java/org/olat/core/util/vfs/VFSContainer.java",
+"src/main/java/org/olat/core/util/vfs/LocalFolderImpl.java",
+"src/main/java/org/olat/modules/fo/restapi/ForumWebService.java",
+"src/test/java/org/olat/restapi/ForumTest.java"
+],
+"earliest_patch_date": "2021-11-01 11:48:12+01:00",
+"earliest_vuln_date": "2011-02-11 11:48:57+01:00",
+"vuln_files": [
+"src/main/java/org/olat/core/util/vfs/LocalFolderImpl.java",
+"src/main/java/org/olat/modules/fo/restapi/ForumWebService.java",
+"src/main/java/org/olat/restapi/repository/course/CourseElementWebService.java",
+"src/main/java/org/olat/restapi/support/MultipartReader.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.2
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:C/A:C",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "COMPLETE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 7.9
+},
+"severity": "HIGH",
+"exploitabilityScore": 6.8,
+"impactScore": 9.2,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-22"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/main/java/org/olat/core/util/vfs/VFSContainer.java",
+"src/main/java/org/olat/core/util/vfs/LocalFolderImpl.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-28198",
+"patch_date": [
+"2024-01-24 10:17:18+01:00"
+],
+"patch_files": [
+"src/main/java/org/olat/core/commons/services/doceditor/drawio/manager/DrawioServiceImpl.java"
+],
+"earliest_patch_date": "2024-01-24 10:17:18+01:00",
+"earliest_vuln_date": "2023-09-26 11:53:08+02:00",
+"vuln_files": [
+"src/main/java/org/olat/core/commons/services/doceditor/drawio/manager/DrawioServiceImpl.java"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

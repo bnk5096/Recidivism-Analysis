@@ -1,0 +1,96 @@
+[
+{
+"cve_id": "CVE-2024-47530",
+"patch_date": [
+"2024-09-12 09:01:04+02:00"
+],
+"patch_files": [
+"CHANGELOG.md",
+"scout/server/app.py",
+"scout/server/blueprints/login/views.py"
+],
+"earliest_patch_date": "2024-09-12 09:01:04+02:00",
+"earliest_vuln_date": "2017-03-07 09:33:04+01:00",
+"vuln_files": [
+"scout/server/app.py",
+"scout/server/blueprints/login/views.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-47531",
+"patch_date": [
+"2024-09-12 15:24:24+02:00"
+],
+"patch_files": [
+"CHANGELOG.md",
+"scout/server/blueprints/panels/controllers.py",
+"scout/server/blueprints/panels/templates/panels/panels.html"
+],
+"earliest_patch_date": "2024-09-12 15:24:24+02:00",
+"earliest_vuln_date": "2022-08-25 12:53:12+02:00",
+"vuln_files": [
+"scout/server/blueprints/panels/controllers.py",
+"scout/server/blueprints/panels/templates/panels/panels.html"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 3.5,
+"baseSeverity": "LOW"
+},
+"exploitabilityScore": 2.1,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"CHANGELOG.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

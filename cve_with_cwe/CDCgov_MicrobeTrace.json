@@ -1,0 +1,156 @@
+[
+{
+"cve_id": "CVE-2018-8974",
+"patch_date": [
+"2018-03-27 16:30:02-04:00"
+],
+"patch_files": [
+"test/adversarial/README.md",
+"test/adversarial/linksFieldnameInjection.csv",
+"test/adversarial/linksValueInjection.csv",
+"test/adversarial/pwn.js",
+"test/adversarial/fastaIDInjection.fasta",
+"scripts/common.js",
+"test/adversarial/nodesValueInjection.csv",
+"test/adversarial/nodesFieldnameInjection.csv",
+"test/adversarial/fastaSequenceInjection.fasta",
+"components/files.html"
+],
+"earliest_patch_date": "2018-03-27 16:30:02-04:00",
+"earliest_vuln_date": "2018-03-01 15:39:26-05:00",
+"vuln_files": [
+"components/files.html"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "COMPLETE",
+"integrityImpact": "COMPLETE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 9.3
+},
+"severity": "HIGH",
+"exploitabilityScore": 8.6,
+"impactScore": 10,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-94"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2018-9113",
+"patch_date": [
+"2018-03-29 14:06:58-04:00"
+],
+"patch_files": [
+"index.js",
+"package.json",
+"scripts/common.js",
+"yarn.lock",
+"index.html",
+"components/files.html"
+],
+"earliest_patch_date": "2018-03-29 14:06:58-04:00",
+"earliest_vuln_date": "2018-02-16 16:00:27-05:00",
+"vuln_files": [
+"index.js",
+"package.json",
+"scripts/common.js",
+"yarn.lock",
+"index.html",
+"components/files.html"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "COMPLETE",
+"integrityImpact": "COMPLETE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 9.3
+},
+"severity": "HIGH",
+"exploitabilityScore": 8.6,
+"impactScore": 10,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-94"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-94"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"scripts/common.js",
+"components/files.html"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

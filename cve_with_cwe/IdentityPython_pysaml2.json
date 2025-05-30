@@ -1,0 +1,263 @@
+[
+{
+"cve_id": "CVE-2020-5390",
+"patch_date": [
+"2020-01-13 11:37:28+02:00",
+"2020-01-09 12:45:35+02:00"
+],
+"patch_files": [
+"tests/test_xsw.py",
+"src/saml2/sigver.py",
+"CHANGELOG.md",
+"tests/saml2_response_xsw.xml",
+"VERSION"
+],
+"earliest_patch_date": "2020-01-09 12:45:35+02:00",
+"earliest_vuln_date": "2019-11-03 21:38:30+02:00",
+"vuln_files": [
+"VERSION"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-347"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-21239",
+"patch_date": [
+"2021-01-20 14:33:19+02:00"
+],
+"patch_files": [
+"src/saml2/sigver.py",
+"tests/xmlsec1-keydata/signed-response-with-hmac.xml",
+"tests/xmlsec1-keydata/signed-assertion-with-hmac.xml",
+"tests/test_xmlsec1_key_data.py",
+"tests/xmlsec1-keydata/signed-assertion-random-embedded-cert.xml"
+],
+"earliest_patch_date": "2021-01-20 14:33:19+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/saml2/sigver.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-21238",
+"patch_date": [
+"2021-01-20 14:34:45+02:00"
+],
+"patch_files": [
+"src/saml2/data/schemas/saml-schema-authn-context-spki-2.0.xsd",
+"src/saml2/data/schemas/saml-schema-dce-2.0.xsd",
+"tests/test_xsw.py",
+"tests/xsw/signed-xsw-assertion-extensions.xml",
+"src/saml2/data/schemas/saml-subject-id-attr-v1.0.xsd",
+"tests/xsw/signed-xsw-assertion-wrapper.xml",
+"src/saml2/data/schemas/saml-schema-authn-context-2.0.xsd",
+"src/saml2/data/schemas/saml-schema-authn-context-ppt-2.0.xsd",
+"src/saml2/data/schemas/saml-schema-authn-context-mobileonefactor-unreg-2.0.xsd",
+"src/saml2/data/schemas/sstc-saml-attribute-ext.xsd",
+"src/saml2/xml/schema/__init__.py",
+"src/saml2/data/schemas/saml-schema-authn-context-timesync-2.0.xsd",
+"src/saml2/data/schemas/saml-schema-authn-context-srp-2.0.xsd",
+"src/saml2/data/schemas/saml-schema-authn-context-smartcard-2.0.xsd",
+"src/saml2/data/schemas/saml-schema-authn-context-sslcert-2.0.xsd",
+"src/saml2/data/schemas/saml-schema-authn-context-mobiletwofactor-unreg-2.0.xsd",
+"src/saml2/data/schemas/saml-schema-authn-context-telephony-2.0.xsd",
+"src/saml2/data/schemas/sstc-saml-metadata-ui-v1.0.xsd",
+"src/saml2/data/schemas/xmldsig-core-schema.xsd",
+"tests/xsw/signed-xsw-response-in-response-first-sig.xml",
+"src/saml2/data/schemas/saml-schema-authn-context-mobileonefactor-reg-2.0.xsd",
+"src/saml2/data/schemas/saml-schema-authn-context-nomad-telephony-2.0.xsd",
+"src/saml2/data/schemas/xml.xsd",
+"src/saml2/xml/__init__.py",
+"MANIFEST.in",
+"src/saml2/data/schemas/saml-schema-authn-context-x509-2.0.xsd",
+"setup.cfg",
+"tests/xsw/signed-xsw-assertion-assertion.xml",
+"src/saml2/data/schemas/saml-schema-x500-2.0.xsd",
+"src/saml2/data/schemas/saml-schema-authn-context-ippword-2.0.xsd",
+"src/saml2/data/schemas/saml-schema-authn-context-xmldsig-2.0.xsd",
+"src/saml2/data/schemas/__init__.py",
+"src/saml2/data/schemas/sstc-metadata-attr.xsd",
+"src/saml2/data/schemas/saml-schema-authn-context-smartcardpki-2.0.xsd",
+"src/saml2/sigver.py",
+"src/saml2/data/schemas/saml-schema-ecp-2.0.xsd",
+"tests/xsw/signed-xsw-assertion-in-assertion-first-sig.xml",
+"src/saml2/data/schemas/saml-schema-authn-context-personal-telephony-2.0.xsd",
+"src/saml2/data/schemas/saml-schema-authn-context-pword-2.0.xsd",
+"src/saml2/data/schemas/saml-schema-authn-context-kerberos-2.0.xsd",
+"src/saml2/data/schemas/saml-schema-metadata-2.0.xsd",
+"src/saml2/data/schemas/saml-schema-protocol-2.0.xsd",
+"src/saml2/data/schemas/xenc-schema.xsd",
+"src/saml2/data/schemas/saml-schema-authn-context-types-2.0.xsd",
+"src/saml2/data/schemas/saml-schema-authn-context-session-2.0.xsd",
+"src/saml2/data/schemas/saml-schema-authn-context-ip-2.0.xsd",
+"src/saml2/data/schemas/saml-schema-authn-context-pgp-2.0.xsd",
+"src/saml2/data/schemas/saml-schema-authn-context-auth-telephony-2.0.xsd",
+"src/saml2/data/schemas/saml-schema-authn-context-mobiletwofactor-reg-2.0.xsd",
+"src/saml2/data/schemas/sstc-saml-metadata-algsupport-v1.0.xsd",
+"tests/saml2_response_xsw.xml",
+"src/saml2/saml.py",
+"src/saml2/data/schemas/saml-schema-xacml-2.0.xsd",
+"src/saml2/data/schemas/sstc-req-attr-ext.xsd",
+"src/saml2/data/schemas/envelope.xsd",
+"src/saml2/data/schemas/saml-schema-authn-context-softwarepki-2.0.xsd",
+"src/saml2/data/schemas/saml-schema-assertion-2.0.xsd"
+],
+"earliest_patch_date": "2021-01-20 14:34:45+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"tests/test_xsw.py",
+"src/saml2/sigver.py",
+"tests/saml2_response_xsw.xml"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

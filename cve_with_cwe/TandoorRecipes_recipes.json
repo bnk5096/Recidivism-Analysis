@@ -1,0 +1,292 @@
+[
+{
+"cve_id": "CVE-2022-23071",
+"patch_date": [
+"2022-05-17 18:04:43+02:00"
+],
+"patch_files": [
+"cookbook/views/api.py",
+"cookbook/integration/recipesage.py",
+"cookbook/provider/nextcloud.py",
+"cookbook/integration/recettetek.py",
+"requirements.txt",
+"cookbook/provider/dropbox.py",
+"cookbook/integration/cookbookapp.py",
+"cookbook/integration/cookmate.py"
+],
+"earliest_patch_date": "2022-05-17 18:04:43+02:00",
+"earliest_vuln_date": "2019-11-14 12:42:26+01:00",
+"vuln_files": [
+"cookbook/views/api.py",
+"cookbook/integration/recipesage.py",
+"cookbook/provider/nextcloud.py",
+"cookbook/integration/recettetek.py",
+"cookbook/provider/dropbox.py",
+"cookbook/integration/cookbookapp.py",
+"cookbook/integration/cookmate.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-23072",
+"patch_date": [
+"2022-05-17 21:24:27+02:00"
+],
+"patch_files": [
+"vue/src/apps/ExportResponseView/ExportResponseView.vue",
+"vue/src/components/Badges/OnHand.vue",
+"vue/src/components/NutritionComponent.vue",
+"vue/src/components/IngredientComponent.vue",
+"vue/yarn.lock",
+"vue/src/components/Badges/Shopping.vue",
+"vue/src/apps/ImportResponseView/ImportResponseView.vue",
+"vue/package.json",
+"vue/src/components/GenericHorizontalCard.vue",
+"vue/package-lock.json"
+],
+"earliest_patch_date": "2022-05-17 21:24:27+02:00",
+"earliest_vuln_date": "2021-01-08 00:14:31+01:00",
+"vuln_files": [
+"vue/src/apps/ExportResponseView/ExportResponseView.vue",
+"vue/src/components/Badges/OnHand.vue",
+"vue/src/components/NutritionComponent.vue",
+"vue/src/components/IngredientComponent.vue",
+"vue/yarn.lock",
+"vue/src/components/Badges/Shopping.vue",
+"vue/src/apps/ImportResponseView/ImportResponseView.vue",
+"vue/package.json",
+"vue/src/components/GenericHorizontalCard.vue"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-23073",
+"patch_date": [
+"2022-05-17 21:24:27+02:00"
+],
+"patch_files": [
+"vue/src/apps/ExportResponseView/ExportResponseView.vue",
+"vue/src/components/Badges/OnHand.vue",
+"vue/src/components/NutritionComponent.vue",
+"vue/src/components/IngredientComponent.vue",
+"vue/yarn.lock",
+"vue/src/components/Badges/Shopping.vue",
+"vue/src/apps/ImportResponseView/ImportResponseView.vue",
+"vue/package.json",
+"vue/src/components/GenericHorizontalCard.vue",
+"vue/package-lock.json"
+],
+"earliest_patch_date": "2022-05-17 21:24:27+02:00",
+"earliest_vuln_date": "2021-01-08 00:14:31+01:00",
+"vuln_files": [
+"vue/src/apps/ExportResponseView/ExportResponseView.vue",
+"vue/src/components/Badges/OnHand.vue",
+"vue/src/components/NutritionComponent.vue",
+"vue/src/components/IngredientComponent.vue",
+"vue/yarn.lock",
+"vue/src/components/Badges/Shopping.vue",
+"vue/src/apps/ImportResponseView/ImportResponseView.vue",
+"vue/package.json",
+"vue/src/components/GenericHorizontalCard.vue"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"vue/src/apps/ExportResponseView/ExportResponseView.vue",
+"vue/src/components/Badges/OnHand.vue",
+"vue/src/components/NutritionComponent.vue",
+"vue/src/components/IngredientComponent.vue",
+"vue/yarn.lock",
+"vue/src/components/Badges/Shopping.vue",
+"vue/src/apps/ImportResponseView/ImportResponseView.vue",
+"vue/package.json",
+"vue/src/components/GenericHorizontalCard.vue",
+"vue/package-lock.json"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-23074",
+"patch_date": [
+"2022-05-17 21:24:27+02:00"
+],
+"patch_files": [
+"vue/src/apps/ExportResponseView/ExportResponseView.vue",
+"vue/src/components/Badges/OnHand.vue",
+"vue/src/components/NutritionComponent.vue",
+"vue/src/components/IngredientComponent.vue",
+"vue/yarn.lock",
+"vue/src/components/Badges/Shopping.vue",
+"vue/src/apps/ImportResponseView/ImportResponseView.vue",
+"vue/package.json",
+"vue/src/components/GenericHorizontalCard.vue",
+"vue/package-lock.json"
+],
+"earliest_patch_date": "2022-05-17 21:24:27+02:00",
+"earliest_vuln_date": "2021-01-08 00:14:31+01:00",
+"vuln_files": [
+"vue/src/apps/ExportResponseView/ExportResponseView.vue",
+"vue/src/components/Badges/OnHand.vue",
+"vue/src/components/NutritionComponent.vue",
+"vue/src/components/IngredientComponent.vue",
+"vue/yarn.lock",
+"vue/src/components/Badges/Shopping.vue",
+"vue/src/apps/ImportResponseView/ImportResponseView.vue",
+"vue/package.json",
+"vue/src/components/GenericHorizontalCard.vue"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"vue/src/apps/ExportResponseView/ExportResponseView.vue",
+"vue/src/components/Badges/OnHand.vue",
+"vue/src/components/NutritionComponent.vue",
+"vue/src/components/IngredientComponent.vue",
+"vue/yarn.lock",
+"vue/src/components/Badges/Shopping.vue",
+"vue/src/apps/ImportResponseView/ImportResponseView.vue",
+"vue/package.json",
+"vue/src/components/GenericHorizontalCard.vue",
+"vue/package-lock.json"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,270 @@
+[
+{
+"cve_id": "CVE-2023-41045",
+"patch_date": [
+"2023-07-05 12:24:41+02:00",
+"2023-07-05 12:24:41+02:00"
+],
+"patch_files": [
+"graylog2-server/src/main/java/org/graylog2/lookup/adapters/dnslookup/DnsNameResolverFactory.java",
+"graylog2-server/src/test/java/org/graylog2/lookup/adapters/dnslookup/DnsResolverPoolTest.java",
+"graylog2-server/src/main/java/org/graylog2/lookup/adapters/dnslookup/DnsResolverPool.java",
+"graylog2-server/src/main/java/org/graylog2/lookup/adapters/DnsLookupDataAdapter.java",
+"graylog2-server/src/main/java/org/graylog2/lookup/adapters/dnslookup/DnsClient.java",
+"changelog/unreleased/ghsa-g96c-x7rh-99r3.toml",
+"graylog2-server/src/main/java/org/graylog2/commands/Server.java",
+"graylog2-server/src/main/java/org/graylog2/lookup/adapters/dnslookup/DnsLookupAdapterConfiguration.java"
+],
+"earliest_patch_date": "2023-07-05 12:24:41+02:00",
+"earliest_vuln_date": "2018-09-27 11:07:59+02:00",
+"vuln_files": [
+"graylog2-server/src/main/java/org/graylog2/lookup/adapters/DnsLookupDataAdapter.java",
+"graylog2-server/src/main/java/org/graylog2/lookup/adapters/dnslookup/DnsClient.java",
+"graylog2-server/src/main/java/org/graylog2/commands/Server.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-41041",
+"patch_date": [
+"2023-07-05 12:26:03+02:00"
+],
+"patch_files": [
+"graylog2-server/src/main/java/org/graylog2/security/MongoDBSessionServiceImpl.java",
+"graylog2-server/src/main/java/org/graylog2/rest/resources/users/UsersResource.java",
+"graylog2-server/src/test/java/org/graylog2/rest/resources/users/UsersResourceTest.java",
+"graylog2-web-interface/src/components/users/TimeoutInput.tsx",
+"graylog2-server/src/main/java/org/graylog2/security/MongoDbSessionDAO.java",
+"changelog/unreleased/ghsa-3fqm-frhg-7c85.toml",
+"graylog2-server/src/main/java/org/graylog2/security/SessionDeletedEvent.java",
+"graylog2-server/src/main/java/org/graylog2/security/UserSessionTerminationService.java"
+],
+"earliest_patch_date": "2023-07-05 12:26:03+02:00",
+"earliest_vuln_date": "2014-03-20 14:03:36+01:00",
+"vuln_files": [
+"graylog2-server/src/main/java/org/graylog2/security/MongoDBSessionServiceImpl.java",
+"graylog2-server/src/main/java/org/graylog2/rest/resources/users/UsersResource.java",
+"graylog2-server/src/test/java/org/graylog2/rest/resources/users/UsersResourceTest.java",
+"graylog2-web-interface/src/components/users/TimeoutInput.tsx",
+"graylog2-server/src/main/java/org/graylog2/security/MongoDbSessionDAO.java",
+"graylog2-server/src/main/java/org/graylog2/security/UserSessionTerminationService.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 3.1,
+"baseSeverity": "LOW"
+},
+"exploitabilityScore": 1.6,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-41044",
+"patch_date": [
+"2023-07-05 12:26:34+02:00"
+],
+"patch_files": [
+"changelog/unreleased/ghsa-2q4p-f6gf-mqr5.toml",
+"graylog2-server/src/main/java/org/graylog2/rest/resources/system/debug/bundle/SupportBundleService.java",
+"graylog2-server/src/test/java/org/graylog2/rest/resources/system/debug/bundle/SupportBundleServiceTest.java"
+],
+"earliest_patch_date": "2023-07-05 12:26:34+02:00",
+"earliest_vuln_date": "2023-04-14 08:37:42+02:00",
+"vuln_files": [
+"graylog2-server/src/main/java/org/graylog2/rest/resources/system/debug/bundle/SupportBundleService.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 3.8,
+"baseSeverity": "LOW"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 2.5
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-24824",
+"patch_date": [
+"2024-02-06 17:38:16+01:00",
+"2024-02-06 17:38:22+01:00"
+],
+"patch_files": [
+"graylog2-server/src/main/java/org/graylog2/security/UnsafeClassLoadingAttemptException.java",
+"data-node/src/main/java/org/graylog/datanode/Configuration.java",
+"graylog2-server/src/test/java/org/graylog2/rest/resources/system/ClusterConfigResourceTest.java",
+"graylog2-server/src/test/java/org/graylog2/migrations/V20170110150100_FixAlertConditionsMigrationTest.java",
+"graylog2-server/src/test/java/org/graylog/plugins/views/search/views/ViewServiceTest.java",
+"graylog2-server/src/test/java/org/graylog2/indexer/indexset/MongoIndexSetServiceTest.java",
+"graylog2-server/src/main/java/org/graylog2/events/ClusterEventPeriodical.java",
+"changelog/unreleased/pr-18165.toml",
+"graylog2-server/src/main/java/org/graylog2/security/RestrictedChainingClassLoader.java",
+"pom.xml",
+"graylog2-server/src/main/java/org/graylog2/rest/resources/system/ClusterConfigResource.java",
+"graylog2-server/src/test/java/org/graylog2/cluster/ClusterConfigServiceImplTest.java",
+"graylog2-server/src/test/java/org/graylog2/events/ClusterEventPeriodicalTest.java",
+"graylog2-server/src/test/java/org/graylog2/migrations/V20161215163900_MoveIndexSetDefaultConfigTest.java",
+"graylog2-server/src/main/java/org/graylog2/cluster/ClusterConfigServiceImpl.java",
+"graylog2-server/src/main/java/org/graylog2/security/SafeClasses.java",
+"graylog2-server/src/main/java/org/graylog2/Configuration.java"
+],
+"earliest_patch_date": "2024-02-06 17:38:16+01:00",
+"earliest_vuln_date": "2015-04-08 17:14:59+02:00",
+"vuln_files": [
+"graylog2-server/src/test/java/org/graylog2/migrations/V20170110150100_FixAlertConditionsMigrationTest.java",
+"graylog2-server/src/test/java/org/graylog/plugins/views/search/views/ViewServiceTest.java",
+"graylog2-server/src/test/java/org/graylog2/indexer/indexset/MongoIndexSetServiceTest.java",
+"graylog2-server/src/main/java/org/graylog2/events/ClusterEventPeriodical.java",
+"graylog2-server/src/test/java/org/graylog2/cluster/ClusterConfigServiceImplTest.java",
+"graylog2-server/src/main/java/org/graylog2/rest/resources/system/ClusterConfigResource.java",
+"graylog2-server/src/test/java/org/graylog2/events/ClusterEventPeriodicalTest.java",
+"graylog2-server/src/test/java/org/graylog2/migrations/V20161215163900_MoveIndexSetDefaultConfigTest.java",
+"graylog2-server/src/main/java/org/graylog2/cluster/ClusterConfigServiceImpl.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-863"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-24823",
+"patch_date": [
+"2024-02-07 10:21:47+01:00",
+"2024-02-07 10:21:47+01:00"
+],
+"patch_files": [
+"graylog2-server/src/main/java/org/graylog2/rest/resources/system/SessionsResource.java",
+"changelog/unreleased/ghsa-3xf8-g8gr-g7rh.toml"
+],
+"earliest_patch_date": "2024-02-07 10:21:47+01:00",
+"earliest_vuln_date": "2013-12-05 10:15:52+01:00",
+"vuln_files": [
+"graylog2-server/src/main/java/org/graylog2/rest/resources/system/SessionsResource.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

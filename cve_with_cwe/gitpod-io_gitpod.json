@@ -1,0 +1,226 @@
+[
+{
+"cve_id": "CVE-2021-35206",
+"patch_date": [
+"2021-01-13 14:45:04+01:00"
+],
+"patch_files": [
+"components/server/src/user/user-controller.ts"
+],
+"earliest_patch_date": "2021-01-13 14:45:04+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-601"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-0957",
+"patch_date": [
+"2023-02-23 12:26:17+00:00",
+"2023-02-23 10:23:19+00:00"
+],
+"patch_files": [
+"components/public-api-server/pkg/server/server.go",
+"components/public-api-server/pkg/auth/middleware.go",
+"components/server/src/express-util.spec.ts",
+"components/public-api-server/pkg/auth/context_test.go",
+"components/public-api-server/pkg/origin/context.go",
+"components/server/src/server.ts",
+"components/public-api-server/pkg/origin/middleware.go",
+"components/server/src/express-util.ts",
+"components/public-api-server/pkg/auth/context.go",
+"components/public-api-server/pkg/proxy/conn_test.go",
+"components/public-api-server/pkg/origin/middleware_test.go",
+"components/public-api-server/pkg/proxy/conn.go",
+"components/public-api-server/pkg/origin/context_test.go"
+],
+"earliest_patch_date": "2023-02-23 10:23:19+00:00",
+"earliest_vuln_date": "2020-08-25 09:25:15+00:00",
+"vuln_files": [
+"components/public-api-server/pkg/auth/middleware.go",
+"components/public-api-server/pkg/proxy/conn.go",
+"components/public-api-server/pkg/auth/context.go",
+"components/public-api-server/pkg/proxy/conn_test.go",
+"components/public-api-server/pkg/auth/context_test.go",
+"components/server/src/express-util.spec.ts",
+"components/server/src/express-util.ts",
+"components/server/src/server.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.6,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 6
+}
+},
+"cwes": [
+"CWE-346"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-32766",
+"patch_date": [
+"2023-05-12 07:37:08+00:00"
+],
+"patch_files": [
+"components/dashboard/src/service/service.tsx"
+],
+"earliest_patch_date": "2023-05-12 07:37:08+00:00",
+"earliest_vuln_date": "2023-03-01 10:09:00+00:00",
+"vuln_files": [
+"components/dashboard/src/service/service.tsx"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-21583",
+"patch_date": [
+"2024-07-01 08:53:14+02:00"
+],
+"patch_files": [
+"components/server/src/auth/generic-auth-provider.ts",
+"components/server/src/test/service-testing-container-module.ts",
+"components/server/src/prometheus-metrics.ts",
+"components/server/go/pkg/lib/cookie.go",
+"components/server/src/auth/login-completion-handler.ts",
+"components/ws-proxy/pkg/proxy/routes_test.go",
+"install/installer/pkg/components/public-api-server/configmap_test.go",
+"components/server/src/session-handler.ts",
+"components/gitpod-protocol/src/util/gitpod-host-url.ts",
+"components/server/src/user/user-controller.ts",
+"install/installer/pkg/components/auth/config_test.go",
+"install/installer/pkg/components/server/configmap_test.go",
+"components/ws-proxy/pkg/proxy/routes.go",
+"components/server/src/session-handler.spec.db.ts"
+],
+"earliest_patch_date": "2024-07-01 08:53:14+02:00",
+"earliest_vuln_date": "2023-05-31 21:25:05+08:00",
+"vuln_files": [
+"components/server/src/test/service-testing-container-module.ts",
+"components/server/go/pkg/lib/cookie.go",
+"components/ws-proxy/pkg/proxy/routes_test.go",
+"install/installer/pkg/components/public-api-server/configmap_test.go",
+"components/server/src/session-handler.ts",
+"components/server/src/user/user-controller.ts",
+"install/installer/pkg/components/auth/config_test.go",
+"install/installer/pkg/components/server/configmap_test.go",
+"components/ws-proxy/pkg/proxy/routes.go",
+"components/server/src/session-handler.spec.db.ts"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"components/server/src/user/user-controller.ts"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"components/server/src/user/user-controller.ts"
+]
+}
+]

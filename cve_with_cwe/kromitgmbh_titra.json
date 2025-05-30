@@ -1,0 +1,549 @@
+[
+{
+"cve_id": "CVE-2022-2026",
+"patch_date": [
+"2022-06-07 15:13:20+02:00"
+],
+"patch_files": [
+"package-lock.json",
+".meteor/release",
+".meteor/versions",
+"imports/ui/components/allprojectschart.js",
+"imports/utils/server_method_helpers.js",
+"imports/ui/components/projectAccessRights.js",
+"imports/ui/components/periodtimetable.js",
+"imports/ui/components/detailtimetable.js",
+"imports/ui/components/projectchart.js",
+"imports/ui/components/dailytimetable.js",
+"package.json",
+"imports/ui/pages/dashboard.js",
+"imports/utils/frontend_helpers.js"
+],
+"earliest_patch_date": "2022-06-07 15:13:20+02:00",
+"earliest_vuln_date": "2018-05-06 16:51:17+02:00",
+"vuln_files": [
+"package-lock.json",
+".meteor/release",
+".meteor/versions",
+"imports/ui/components/allprojectschart.js",
+"imports/utils/server_method_helpers.js",
+"imports/ui/components/projectAccessRights.js",
+"imports/ui/components/periodtimetable.js",
+"imports/ui/components/projectchart.js",
+"imports/ui/components/detailtimetable.js",
+"imports/ui/components/dailytimetable.js",
+"package.json",
+"imports/ui/pages/dashboard.js",
+"imports/utils/frontend_helpers.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-2027",
+"patch_date": [
+"2022-06-07 15:13:20+02:00"
+],
+"patch_files": [
+"package-lock.json",
+".meteor/release",
+".meteor/versions",
+"imports/ui/components/allprojectschart.js",
+"imports/utils/server_method_helpers.js",
+"imports/ui/components/projectAccessRights.js",
+"imports/ui/components/periodtimetable.js",
+"imports/ui/components/detailtimetable.js",
+"imports/ui/components/projectchart.js",
+"imports/ui/components/dailytimetable.js",
+"package.json",
+"imports/ui/pages/dashboard.js",
+"imports/utils/frontend_helpers.js"
+],
+"earliest_patch_date": "2022-06-07 15:13:20+02:00",
+"earliest_vuln_date": "2018-05-06 16:51:17+02:00",
+"vuln_files": [
+"package-lock.json",
+".meteor/release",
+".meteor/versions",
+"imports/ui/components/allprojectschart.js",
+"imports/utils/server_method_helpers.js",
+"imports/ui/components/projectAccessRights.js",
+"imports/ui/components/periodtimetable.js",
+"imports/ui/components/projectchart.js",
+"imports/ui/components/detailtimetable.js",
+"imports/ui/components/dailytimetable.js",
+"package.json",
+"imports/ui/pages/dashboard.js",
+"imports/utils/frontend_helpers.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.1,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-1236"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"package-lock.json",
+".meteor/release",
+".meteor/versions",
+"imports/ui/components/allprojectschart.js",
+"imports/utils/server_method_helpers.js",
+"imports/ui/components/projectAccessRights.js",
+"imports/ui/components/periodtimetable.js",
+"imports/ui/components/detailtimetable.js",
+"imports/ui/components/projectchart.js",
+"imports/ui/components/dailytimetable.js",
+"package.json",
+"imports/ui/pages/dashboard.js",
+"imports/utils/frontend_helpers.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-2028",
+"patch_date": [
+"2022-06-07 15:13:20+02:00"
+],
+"patch_files": [
+"package-lock.json",
+".meteor/release",
+".meteor/versions",
+"imports/ui/components/allprojectschart.js",
+"imports/utils/server_method_helpers.js",
+"imports/ui/components/projectAccessRights.js",
+"imports/ui/components/periodtimetable.js",
+"imports/ui/components/detailtimetable.js",
+"imports/ui/components/projectchart.js",
+"imports/ui/components/dailytimetable.js",
+"package.json",
+"imports/ui/pages/dashboard.js",
+"imports/utils/frontend_helpers.js"
+],
+"earliest_patch_date": "2022-06-07 15:13:20+02:00",
+"earliest_vuln_date": "2018-05-06 16:51:17+02:00",
+"vuln_files": [
+"package-lock.json",
+".meteor/release",
+".meteor/versions",
+"imports/ui/components/allprojectschart.js",
+"imports/utils/server_method_helpers.js",
+"imports/ui/components/projectAccessRights.js",
+"imports/ui/components/periodtimetable.js",
+"imports/ui/components/projectchart.js",
+"imports/ui/components/detailtimetable.js",
+"imports/ui/components/dailytimetable.js",
+"package.json",
+"imports/ui/pages/dashboard.js",
+"imports/utils/frontend_helpers.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"package-lock.json",
+".meteor/release",
+".meteor/versions",
+"imports/ui/components/allprojectschart.js",
+"imports/utils/server_method_helpers.js",
+"imports/ui/components/projectAccessRights.js",
+"imports/ui/components/periodtimetable.js",
+"imports/ui/components/detailtimetable.js",
+"imports/ui/components/projectchart.js",
+"imports/ui/components/dailytimetable.js",
+"package.json",
+"imports/ui/pages/dashboard.js",
+"imports/utils/frontend_helpers.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-2029",
+"patch_date": [
+"2022-06-07 15:13:20+02:00"
+],
+"patch_files": [
+"package-lock.json",
+".meteor/release",
+".meteor/versions",
+"imports/ui/components/allprojectschart.js",
+"imports/utils/server_method_helpers.js",
+"imports/ui/components/projectAccessRights.js",
+"imports/ui/components/periodtimetable.js",
+"imports/ui/components/detailtimetable.js",
+"imports/ui/components/projectchart.js",
+"imports/ui/components/dailytimetable.js",
+"package.json",
+"imports/ui/pages/dashboard.js",
+"imports/utils/frontend_helpers.js"
+],
+"earliest_patch_date": "2022-06-07 15:13:20+02:00",
+"earliest_vuln_date": "2018-05-06 16:51:17+02:00",
+"vuln_files": [
+"package-lock.json",
+".meteor/release",
+".meteor/versions",
+"imports/ui/components/allprojectschart.js",
+"imports/utils/server_method_helpers.js",
+"imports/ui/components/projectAccessRights.js",
+"imports/ui/components/periodtimetable.js",
+"imports/ui/components/projectchart.js",
+"imports/ui/components/detailtimetable.js",
+"imports/ui/components/dailytimetable.js",
+"package.json",
+"imports/ui/pages/dashboard.js",
+"imports/utils/frontend_helpers.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"package-lock.json",
+".meteor/release",
+".meteor/versions",
+"imports/ui/components/allprojectschart.js",
+"imports/utils/server_method_helpers.js",
+"imports/ui/components/projectAccessRights.js",
+"imports/ui/components/periodtimetable.js",
+"imports/ui/components/detailtimetable.js",
+"imports/ui/components/projectchart.js",
+"imports/ui/components/dailytimetable.js",
+"package.json",
+"imports/ui/pages/dashboard.js",
+"imports/utils/frontend_helpers.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-2098",
+"patch_date": [
+"2022-06-16 09:56:10+02:00"
+],
+"patch_files": [
+"package-lock.json",
+"imports/ui/styles/dark.scss",
+"imports/utils/frontend_helpers.js",
+"package.json",
+"imports/ui/styles/light.scss",
+"imports/ui/pages/changePassword.js",
+"imports/ui/pages/changePassword.html",
+"imports/ui/pages/register.html",
+"imports/ui/pages/register.js",
+"imports/ui/pages/signIn.js"
+],
+"earliest_patch_date": "2022-06-16 09:56:10+02:00",
+"earliest_vuln_date": "2017-10-31 16:22:26+01:00",
+"vuln_files": [
+"package-lock.json",
+"imports/ui/styles/dark.scss",
+"imports/utils/frontend_helpers.js",
+"package.json",
+"imports/ui/styles/light.scss",
+"imports/ui/pages/changePassword.js",
+"imports/ui/pages/changePassword.html",
+"imports/ui/pages/register.html",
+"imports/ui/pages/register.js",
+"imports/ui/pages/signIn.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"package-lock.json",
+"imports/utils/frontend_helpers.js",
+"package.json"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-2595",
+"patch_date": [
+"2022-06-27 19:14:15+02:00"
+],
+"patch_files": [
+"imports/ui/pages/administration.js",
+"package.json",
+"imports/api/globalsettings/methods.js",
+"imports/api/customfields/server/methods.js",
+"imports/ui/components/projectTasks.js",
+"imports/api/extensions/methods.js"
+],
+"earliest_patch_date": "2022-06-27 19:14:15+02:00",
+"earliest_vuln_date": "2021-07-19 11:06:47+02:00",
+"vuln_files": [
+"imports/ui/pages/administration.js",
+"package.json",
+"imports/api/globalsettings/methods.js",
+"imports/api/customfields/server/methods.js",
+"imports/ui/components/projectTasks.js",
+"imports/api/extensions/methods.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 10,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"package.json"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,87 @@
+[
+{
+"cve_id": "CVE-2023-34105",
+"patch_date": [
+"2023-06-05 16:38:42+08:00"
+],
+"patch_files": [
+"trunk/src/core/srs_core_version5.hpp",
+"trunk/src/core/srs_core_version6.hpp",
+"trunk/research/api-server/server.go",
+"trunk/doc/CHANGELOG.md"
+],
+"earliest_patch_date": "2023-06-05 16:38:42+08:00",
+"earliest_vuln_date": "2023-01-18 13:11:16+08:00",
+"vuln_files": [
+"trunk/research/api-server/server.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.6,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-77"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-29882",
+"patch_date": [
+"2024-03-26 19:30:52+08:00"
+],
+"patch_files": [
+"trunk/src/core/srs_core_version5.hpp",
+"trunk/src/core/srs_core_version6.hpp",
+"trunk/src/utest/srs_utest_protocol3.cpp",
+"trunk/doc/CHANGELOG.md",
+"trunk/src/utest/srs_utest_protocol3.hpp",
+"trunk/src/kernel/srs_kernel_error.hpp",
+"trunk/src/protocol/srs_protocol_http_conn.cpp",
+"trunk/configure"
+],
+"earliest_patch_date": "2024-03-26 19:30:52+08:00",
+"earliest_vuln_date": "2017-03-26 13:40:39+08:00",
+"vuln_files": [
+"trunk/configure",
+"trunk/src/kernel/srs_kernel_error.hpp",
+"trunk/src/protocol/srs_protocol_http_conn.cpp"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"trunk/src/core/srs_core_version5.hpp",
+"trunk/src/core/srs_core_version6.hpp",
+"trunk/doc/CHANGELOG.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

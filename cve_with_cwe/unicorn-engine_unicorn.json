@@ -1,0 +1,400 @@
+[
+{
+"cve_id": "CVE-2021-36979",
+"patch_date": [
+"2021-03-30 12:06:26+08:00"
+],
+"patch_files": [
+"samples/sample_arm.c"
+],
+"earliest_patch_date": "2021-03-30 12:06:26+08:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 5.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-787"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-44078",
+"patch_date": [
+"2021-11-23 23:22:53+01:00"
+],
+"patch_files": [
+"uc.c",
+"qemu/accel/tcg/translate-all.c"
+],
+"earliest_patch_date": "2021-11-23 23:22:53+01:00",
+"earliest_vuln_date": "2021-10-29 12:44:49+02:00",
+"vuln_files": [
+"uc.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.4,
+"impactScore": 6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:M/Au:N/C:C/I:C/A:C",
+"accessVector": "LOCAL",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "COMPLETE",
+"integrityImpact": "COMPLETE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 6.9
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 3.4,
+"impactScore": 10,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-697"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-29693",
+"patch_date": [
+"2022-04-11 10:44:10+02:00"
+],
+"patch_files": [
+"uc.c"
+],
+"earliest_patch_date": "2022-04-11 10:44:10+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-401"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"uc.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-29695",
+"patch_date": [
+"2022-04-16 17:50:32+02:00"
+],
+"patch_files": [
+"bindings/dotnet/UnicornManaged/Const/Arm64.fs",
+"bindings/python/unicorn/riscv_const.py",
+"bindings/go/unicorn/sparc_const.go",
+"bindings/python/unicorn/s390x_const.py",
+"bindings/go/unicorn/riscv_const.go",
+"bindings/go/unicorn/s390x_const.go",
+"bindings/go/unicorn/ppc_const.go",
+"bindings/pascal/unicorn/MipsConst.pas",
+"bindings/dotnet/UnicornManaged/Const/Mips.fs",
+"bindings/ruby/unicorn_gem/lib/unicorn_engine/arm64_const.rb",
+"bindings/dotnet/UnicornManaged/Const/Arm.fs",
+"bindings/pascal/unicorn/ArmConst.pas",
+"bindings/java/unicorn/PpcConst.java",
+"bindings/python/unicorn/arm_const.py",
+"bindings/ruby/unicorn_gem/lib/unicorn_engine/m68k_const.rb",
+"bindings/dotnet/UnicornManaged/Const/Riscv.fs",
+"bindings/ruby/unicorn_gem/lib/unicorn_engine/riscv_const.rb",
+"bindings/java/unicorn/RiscvConst.java",
+"bindings/java/unicorn/SparcConst.java",
+"bindings/ruby/unicorn_gem/lib/unicorn_engine/x86_const.rb",
+"bindings/go/unicorn/x86_const.go",
+"bindings/java/unicorn/M68kConst.java",
+"bindings/pascal/unicorn/RiscvConst.pas",
+"bindings/python/unicorn/arm64_const.py",
+"bindings/ruby/unicorn_gem/lib/unicorn_engine/arm_const.rb",
+"bindings/go/unicorn/m68k_const.go",
+"bindings/ruby/unicorn_gem/lib/unicorn_engine/mips_const.rb",
+"bindings/java/unicorn/S390xConst.java",
+"bindings/dotnet/UnicornManaged/Const/Ppc.fs",
+"bindings/go/unicorn/arm_const.go",
+"bindings/dotnet/UnicornManaged/Const/M68k.fs",
+"bindings/ruby/unicorn_gem/lib/unicorn_engine/ppc_const.rb",
+"bindings/python/unicorn/ppc_const.py",
+"bindings/go/unicorn/mips_const.go",
+"bindings/python/unicorn/sparc_const.py",
+"bindings/pascal/unicorn/Arm64Const.pas",
+"bindings/pascal/unicorn/S390xConst.pas",
+"bindings/pascal/unicorn/X86Const.pas",
+"bindings/ruby/unicorn_gem/lib/unicorn_engine/s390x_const.rb",
+"bindings/dotnet/UnicornManaged/Const/X86.fs",
+"bindings/java/unicorn/MipsConst.java",
+"bindings/go/unicorn/arm64_const.go",
+"bindings/pascal/unicorn/PpcConst.pas",
+"bindings/ruby/unicorn_gem/lib/unicorn_engine/sparc_const.rb",
+"bindings/java/unicorn/Arm64Const.java",
+"bindings/java/unicorn/X86Const.java",
+"bindings/python/unicorn/m68k_const.py",
+"bindings/python/unicorn/x86_const.py",
+"bindings/dotnet/UnicornManaged/Const/S390x.fs",
+"bindings/dotnet/UnicornManaged/Const/Sparc.fs",
+"bindings/pascal/unicorn/M68kConst.pas",
+"bindings/pascal/unicorn/SparcConst.pas",
+"bindings/java/unicorn/ArmConst.java",
+"bindings/python/unicorn/mips_const.py"
+],
+"earliest_patch_date": "2022-04-16 17:50:32+02:00",
+"earliest_vuln_date": "2021-10-30 10:45:32+08:00",
+"vuln_files": [
+"bindings/dotnet/UnicornManaged/Const/Arm64.fs",
+"bindings/python/unicorn/arm64_const.py",
+"bindings/go/unicorn/arm64_const.go",
+"bindings/ruby/unicorn_gem/lib/unicorn_engine/arm64_const.rb",
+"bindings/pascal/unicorn/PpcConst.pas",
+"bindings/java/unicorn/Arm64Const.java",
+"bindings/dotnet/UnicornManaged/Const/Ppc.fs",
+"bindings/java/unicorn/PpcConst.java",
+"bindings/ruby/unicorn_gem/lib/unicorn_engine/ppc_const.rb",
+"bindings/python/unicorn/ppc_const.py",
+"bindings/go/unicorn/ppc_const.go",
+"bindings/pascal/unicorn/Arm64Const.pas"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-665"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-29694",
+"patch_date": [
+"2022-04-16 19:17:41+02:00"
+],
+"patch_files": [
+"qemu/softmmu/memory.c",
+"qemu/exec.c",
+"qemu/include/qemu/rcu_queue.h",
+"tests/unit/test_mem.c",
+"qemu/include/qemu/atomic.h"
+],
+"earliest_patch_date": "2022-04-16 19:17:41+02:00",
+"earliest_vuln_date": "2021-10-03 22:14:44+08:00",
+"vuln_files": [
+"qemu/softmmu/memory.c",
+"qemu/exec.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-476"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

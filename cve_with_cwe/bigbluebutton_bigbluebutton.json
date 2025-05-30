@@ -1,0 +1,595 @@
+[
+{
+"cve_id": "CVE-2020-27601",
+"patch_date": [
+"2020-04-28 13:24:44+00:00"
+],
+"patch_files": [
+"bigbluebutton-html5/imports/ui/components/chat/service.js"
+],
+"earliest_patch_date": "2020-04-28 13:24:44+00:00",
+"earliest_vuln_date": "2019-08-28 16:32:55-04:00",
+"vuln_files": [
+"bigbluebutton-html5/imports/ui/components/chat/service.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 3.5,
+"baseSeverity": "LOW"
+},
+"exploitabilityScore": 2.1,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"CWE-668"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-27602",
+"patch_date": [
+"2020-04-29 00:33:45-03:00"
+],
+"patch_files": [
+"bigbluebutton-html5/imports/api/users/server/store/pendingAuthentications.js",
+"bigbluebutton-html5/imports/api/users/server/methods/validateAuthToken.js",
+"bigbluebutton-html5/imports/api/users/server/handlers/validateAuthToken.js"
+],
+"earliest_patch_date": "2020-04-29 00:33:45-03:00",
+"earliest_vuln_date": "2016-05-02 14:48:20+00:00",
+"vuln_files": [
+"bigbluebutton-html5/imports/api/users/server/methods/validateAuthToken.js",
+"bigbluebutton-html5/imports/api/users/server/handlers/validateAuthToken.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-74"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-25820",
+"patch_date": [
+"2020-10-08 17:24:06-04:00"
+],
+"patch_files": [
+"bbb-common-web/src/main/java/org/bigbluebutton/presentation/imp/OfficeToPdfConversionService.java"
+],
+"earliest_patch_date": "2020-10-08 17:24:06-04:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-918"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-27611",
+"patch_date": [
+"2020-10-23 11:26:41-03:00"
+],
+"patch_files": [
+"bigbluebutton-web/grails-app/conf/spring/turn-stun-servers.xml"
+],
+"earliest_patch_date": "2020-10-23 11:26:41-03:00",
+"earliest_vuln_date": "2015-02-17 12:00:04-05:00",
+"vuln_files": [
+"bigbluebutton-web/grails-app/conf/spring/turn-stun-servers.xml"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "LOW",
+"baseScore": 7.3,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-327"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-28953",
+"patch_date": [
+"2020-10-28 18:33:09+00:00"
+],
+"patch_files": [
+"bigbluebutton-html5/imports/api/polls/server/methods/publishVote.js",
+"akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/Polls.scala",
+"bigbluebutton-html5/imports/ui/components/polling/service.js"
+],
+"earliest_patch_date": "2020-10-28 18:33:09+00:00",
+"earliest_vuln_date": "2016-05-05 13:50:18-05:00",
+"vuln_files": [
+"bigbluebutton-html5/imports/api/polls/server/methods/publishVote.js",
+"akka-bbb-apps/src/main/scala/org/bigbluebutton/core/models/Polls.scala",
+"bigbluebutton-html5/imports/ui/components/polling/service.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-28954",
+"patch_date": [
+"2020-11-13 06:54:32+00:00",
+"2020-11-13 05:59:31+00:00"
+],
+"patch_files": [
+"bigbluebutton-web/grails-app/controllers/org/bigbluebutton/web/controllers/ApiController.groovy"
+],
+"earliest_patch_date": "2020-11-13 05:59:31+00:00",
+"earliest_vuln_date": "2015-03-25 13:02:03-07:00",
+"vuln_files": [
+"bigbluebutton-web/grails-app/controllers/org/bigbluebutton/web/controllers/ApiController.groovy"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-116"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-4143",
+"patch_date": [
+"2021-12-20 14:35:43+00:00"
+],
+"patch_files": [
+"build/packages-template/bbb-etherpad/build.sh"
+],
+"earliest_patch_date": "2021-12-20 14:35:43+00:00",
+"earliest_vuln_date": "2021-10-12 21:24:14+00:00",
+"vuln_files": [
+"build/packages-template/bbb-etherpad/build.sh"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-33176",
+"patch_date": [
+"2023-06-05 14:35:35-04:00",
+"2023-05-31 18:19:40-04:00"
+],
+"patch_files": [
+"bigbluebutton-web/grails-app/conf/bigbluebutton.properties",
+"bigbluebutton-web/grails-app/conf/spring/resources.xml",
+"bbb-common-web/build.sbt",
+"bbb-common-web/src/main/java/org/bigbluebutton/presentation/PresentationUrlDownloadService.java",
+"bbb-common-web/src/main/java/org/bigbluebutton/web/services/callback/CallbackUrlService.java"
+],
+"earliest_patch_date": "2023-05-31 18:19:40-04:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 2.5
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-43797",
+"patch_date": [
+"2023-07-26 15:28:20-04:00"
+],
+"patch_files": [
+"bigbluebutton-html5/imports/api/guest-users/server/methods/setGuestLobbyMessage.js",
+"bigbluebutton-html5/imports/api/group-chat-msg/server/methods/sendGroupChatMsg.js",
+"bigbluebutton-html5/imports/api/common/server/helpers.js",
+"bigbluebutton-html5/imports/api/guest-users/server/methods/setPrivateGuestLobbyMessage.js",
+"bigbluebutton-html5/imports/api/group-chat-msg/server/modifiers/addBulkGroupChatMsgs.js"
+],
+"earliest_patch_date": "2023-07-26 15:28:20-04:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-38518",
+"patch_date": [
+"2024-05-15 10:38:58-04:00",
+"2024-05-15 10:38:58-04:00"
+],
+"patch_files": [
+"bbb-common-web/src/main/java/org/bigbluebutton/api/model/request/EndMeeting.java",
+"bbb-common-web/src/main/java/org/bigbluebutton/api/model/validator/PostChecksumValidator.java",
+"bbb-common-web/src/main/java/org/bigbluebutton/api/model/request/Enter.java",
+"bbb-common-web/src/main/java/org/bigbluebutton/api/model/validator/GetChecksumValidator.java",
+"bbb-common-web/src/main/java/org/bigbluebutton/api/model/request/RequestWithSession.java",
+"bbb-common-web/src/main/java/org/bigbluebutton/api/service/ValidationService.java",
+"bbb-common-web/src/main/java/org/bigbluebutton/api/model/request/MeetingInfo.java",
+"bbb-common-web/src/main/java/org/bigbluebutton/api/model/request/GuestWait.java",
+"bbb-common-web/src/main/java/org/bigbluebutton/api/model/request/CreateMeeting.java",
+"docs/docs/new-features.md",
+"bbb-common-web/src/main/java/org/bigbluebutton/api/model/shared/Checksum.java",
+"bigbluebutton-web/grails-app/controllers/org/bigbluebutton/web/controllers/ApiController.groovy",
+"bbb-common-web/src/main/java/org/bigbluebutton/api/model/validator/ContentTypeValidator.java",
+"bbb-common-web/src/main/java/org/bigbluebutton/api/model/request/SimpleRequest.java",
+"bbb-common-web/build.sbt",
+"docs/docs/development/api.md",
+"bbb-common-web/src/main/java/org/bigbluebutton/api/model/request/MeetingRunning.java",
+"bbb-common-web/src/main/java/org/bigbluebutton/api/model/request/JoinMeeting.java",
+"bbb-common-web/src/main/java/org/bigbluebutton/api/model/request/SignOut.java",
+"bbb-common-web/src/main/java/org/bigbluebutton/api/model/request/RequestWithChecksum.java",
+"bbb-common-web/src/main/java/org/bigbluebutton/api/model/request/LearningDashboard.java",
+"bigbluebutton-web/grails-app/controllers/org/bigbluebutton/web/UrlMappings.groovy",
+"bbb-common-web/src/main/java/org/bigbluebutton/api/model/constraint/PostChecksumConstraint.java",
+"bbb-common-web/src/main/java/org/bigbluebutton/api/model/request/GetJoinUrl.java",
+"bbb-common-web/src/main/java/org/bigbluebutton/api/model/request/InsertDocument.java",
+"bbb-common-web/src/main/java/org/bigbluebutton/api/model/shared/GetChecksum.java",
+"bbb-common-web/src/main/java/org/bigbluebutton/api/model/request/Stuns.java",
+"bbb-common-web/src/main/java/org/bigbluebutton/api/model/shared/PostChecksum.java",
+"bbb-common-web/src/main/java/org/bigbluebutton/api/model/request/Request.java"
+],
+"earliest_patch_date": "2024-05-15 10:38:58-04:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"bigbluebutton-web/grails-app/controllers/org/bigbluebutton/web/controllers/ApiController.groovy",
+"bbb-common-web/build.sbt"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-39302",
+"patch_date": [
+"2024-05-15 14:32:55-04:00",
+"2024-05-15 14:36:11-04:00",
+"2024-05-15 14:44:56-04:00"
+],
+"patch_files": [
+"build/packages-template/bbb-record-core/build.sh"
+],
+"earliest_patch_date": "2024-05-15 14:32:55-04:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

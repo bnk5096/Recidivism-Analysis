@@ -1,0 +1,159 @@
+[
+{
+"cve_id": "CVE-2019-12548",
+"patch_date": [
+"2019-03-10 18:27:24+01:00"
+],
+"patch_files": [
+"bl-kernel/language.class.php",
+"bl-kernel/admin/themes/booty/html/sidebar.php",
+"bl-kernel/ajax/upload-profile-picture.php",
+"bl-kernel/helpers/sanitize.class.php",
+"bl-kernel/js/bootstrap.bundle.min.js",
+"bl-kernel/boot/init.php",
+"bl-kernel/css/bootstrap.min.css",
+"install.php",
+"bl-kernel/admin/themes/booty/index.php",
+"bl-kernel/abstract/plugin.class.php",
+"bl-kernel/boot/rules/60.plugins.php",
+"bl-plugins/simplemde/plugin.php",
+"bl-kernel/ajax/delete-image.php",
+"bl-kernel/admin/themes/booty/login.php"
+],
+"earliest_patch_date": "2019-03-10 18:27:24+01:00",
+"earliest_vuln_date": "2015-05-14 22:07:45+00:00",
+"vuln_files": [
+"bl-kernel/language.class.php",
+"bl-kernel/admin/themes/booty/html/sidebar.php",
+"bl-kernel/ajax/upload-profile-picture.php",
+"bl-kernel/helpers/sanitize.class.php",
+"bl-kernel/js/bootstrap.bundle.min.js",
+"bl-kernel/boot/init.php",
+"install.php",
+"bl-kernel/admin/themes/booty/index.php",
+"bl-kernel/abstract/plugin.class.php",
+"bl-kernel/boot/rules/60.plugins.php",
+"bl-plugins/simplemde/plugin.php",
+"bl-kernel/ajax/delete-image.php",
+"bl-kernel/admin/themes/booty/login.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-434"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-12742",
+"patch_date": [
+"2019-05-28 20:49:29+02:00"
+],
+"patch_files": [
+"bl-kernel/admin/controllers/user-password.php"
+],
+"earliest_patch_date": "2019-05-28 20:49:29+02:00",
+"earliest_vuln_date": "2018-05-15 20:12:15+02:00",
+"vuln_files": [
+"bl-kernel/admin/controllers/user-password.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-639"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

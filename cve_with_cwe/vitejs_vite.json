@@ -1,0 +1,203 @@
+[
+{
+"cve_id": "CVE-2023-34092",
+"patch_date": [
+"2023-05-26 10:17:52+00:00"
+],
+"patch_files": [
+"playground/assets-sanitize/__tests__/assets-sanitize.spec.ts",
+"packages/vite/src/node/server/middlewares/static.ts",
+"playground/assets-sanitize/index.html",
+"playground/assets-sanitize/.env"
+],
+"earliest_patch_date": "2023-05-26 10:17:52+00:00",
+"earliest_vuln_date": "2022-07-18 13:18:34+02:00",
+"vuln_files": [
+"packages/vite/src/node/server/middlewares/static.ts",
+"playground/assets-sanitize/index.html"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-706"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-23331",
+"patch_date": [
+"2024-01-19 14:05:17+01:00"
+],
+"patch_files": [
+"playground/fs-serve/__tests__/fs-serve.spec.ts",
+"playground/fs-serve/root/src/index.html",
+"playground/fs-serve/__tests__/base/fs-serve-base.spec.ts",
+"packages/vite/src/node/server/index.ts"
+],
+"earliest_patch_date": "2024-01-19 14:05:17+01:00",
+"earliest_vuln_date": "2021-10-27 16:32:15+02:00",
+"vuln_files": [
+"playground/fs-serve/__tests__/fs-serve.spec.ts",
+"playground/fs-serve/root/src/index.html",
+"playground/fs-serve/__tests__/base/fs-serve-base.spec.ts",
+"packages/vite/src/node/server/index.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-31207",
+"patch_date": [
+"2024-03-25 00:00:45+09:00",
+"2024-03-24 22:05:54+09:00",
+"2024-03-24 23:41:19+09:00",
+"2024-03-24 22:25:16+09:00",
+"2024-03-24 13:31:50+01:00",
+"2024-03-24 22:11:48+09:00"
+],
+"patch_files": [
+"playground/fs-serve/package.json",
+"packages/playground/fs-serve/root/src/deny/.deny",
+"playground/fs-serve/root/vite.config-deny.js",
+"playground/fs-serve/root/src/deny/.deny",
+"packages/playground/fs-serve/package.json",
+"packages/vite/src/node/server/middlewares/static.ts",
+"packages/playground/fs-serve/__tests__/deny/fs-serve-deny.spec.ts",
+"playground/fs-serve/__tests__/deny/vite.config.js",
+"packages/playground/fs-serve/root/src/deny/deny.txt",
+"playground/fs-serve/root/src/deny/deny.txt",
+"packages/playground/fs-serve/__tests__/deny/vite.config.js",
+"packages/playground/fs-serve/root/vite.config-deny.js",
+"packages/vite/src/node/server/index.ts",
+"playground/fs-serve/__tests__/deny/fs-serve-deny.spec.ts"
+],
+"earliest_patch_date": "2024-03-24 13:31:50+01:00",
+"earliest_vuln_date": "2021-10-27 14:32:01+02:00",
+"vuln_files": [
+"packages/playground/fs-serve/package.json",
+"packages/vite/src/node/server/middlewares/static.ts",
+"packages/vite/src/node/server/index.ts",
+"playground/fs-serve/package.json"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/vite/src/node/server/middlewares/static.ts",
+"packages/vite/src/node/server/index.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-45812",
+"patch_date": [
+"2024-09-16 17:42:53+02:00"
+],
+"patch_files": [
+"packages/vite/src/node/build.ts"
+],
+"earliest_patch_date": "2024-09-16 17:42:53+02:00",
+"earliest_vuln_date": "2022-12-04 08:19:06+01:00",
+"vuln_files": [
+"packages/vite/src/node/build.ts"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-45811",
+"patch_date": [
+"2024-09-16 21:00:19+02:00"
+],
+"patch_files": [
+"playground/fs-serve/__tests__/fs-serve.spec.ts",
+"playground/fs-serve/root/src/index.html",
+"packages/vite/src/node/server/middlewares/static.ts",
+"packages/vite/src/node/server/middlewares/transform.ts"
+],
+"earliest_patch_date": "2024-09-16 21:00:19+02:00",
+"earliest_vuln_date": "2021-10-26 17:45:51+02:00",
+"vuln_files": [
+"packages/vite/src/node/server/middlewares/static.ts"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"playground/fs-serve/__tests__/fs-serve.spec.ts",
+"playground/fs-serve/root/src/index.html",
+"packages/vite/src/node/server/middlewares/static.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

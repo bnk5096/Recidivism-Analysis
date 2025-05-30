@@ -1,0 +1,129 @@
+[
+{
+"cve_id": "CVE-2023-30608",
+"patch_date": [
+"2023-04-18 10:23:02+02:00",
+"2015-02-26 12:32:46-08:00"
+],
+"patch_files": [
+"sqlparse/lexer.py",
+"CHANGELOG",
+"tests/test_split.py",
+"sqlparse/keywords.py"
+],
+"earliest_patch_date": "2015-02-26 12:32:46-08:00",
+"earliest_vuln_date": "2013-11-06 11:59:52+01:00",
+"vuln_files": [
+"tests/test_split.py",
+"sqlparse/keywords.py",
+"sqlparse/lexer.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-1333"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-32839",
+"patch_date": [
+"2021-09-10 08:49:09+02:00"
+],
+"patch_files": [
+"sqlparse/filters/others.py",
+"tests/test_format.py"
+],
+"earliest_patch_date": "2021-09-10 08:49:09+02:00",
+"earliest_vuln_date": "2020-09-13 13:29:36+02:00",
+"vuln_files": [
+"sqlparse/filters/others.py"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-4340",
+"patch_date": [
+"2024-04-13 14:01:50+02:00"
+],
+"patch_files": [
+"sqlparse/sql.py",
+"CHANGELOG",
+"tests/test_regressions.py"
+],
+"earliest_patch_date": "2024-04-13 14:01:50+02:00",
+"earliest_vuln_date": "2009-04-06 08:24:29+02:00",
+"vuln_files": [
+"sqlparse/sql.py",
+"tests/test_regressions.py"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"CHANGELOG"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

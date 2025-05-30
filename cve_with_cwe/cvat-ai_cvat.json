@@ -1,0 +1,290 @@
+[
+{
+"cve_id": "CVE-2022-31188",
+"patch_date": [
+"2022-02-28 09:52:36+03:00"
+],
+"patch_files": [
+"CHANGELOG.md",
+"cvat/apps/engine/task.py",
+"cvat/requirements/base.txt"
+],
+"earliest_patch_date": "2022-02-28 09:52:36+03:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-918"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-37164",
+"patch_date": [
+"2024-06-13 15:16:54+03:00"
+],
+"patch_files": [
+"tests/allow_minio.sh",
+"changelog.d/20240610_143947_roman_ssrf_s3.md",
+"cvat/apps/engine/cloud_provider.py",
+"tests/docker-compose.minio.yml",
+"supervisord/worker.export.conf"
+],
+"earliest_patch_date": "2024-06-13 15:16:54+03:00",
+"earliest_vuln_date": "2021-06-16 14:29:59+03:00",
+"vuln_files": [
+"cvat/apps/engine/cloud_provider.py"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-37306",
+"patch_date": [
+"2024-06-13 15:17:13+03:00"
+],
+"patch_files": [
+"cvat/apps/engine/backup.py",
+"tests/python/rest_api/test_csrf_workaround.py",
+"cvat/apps/engine/tests/test_rest_api_3D.py",
+"changelog.d/20240523_192101_roman_export_backup_csrf.md",
+"cvat/apps/dataset_manager/tests/test_rest_api_formats.py",
+"cvat/apps/engine/mixins.py",
+"cvat/apps/engine/views.py",
+"tests/python/shared/utils/resource_import_export.py"
+],
+"earliest_patch_date": "2024-06-13 15:17:13+03:00",
+"earliest_vuln_date": "2019-11-28 17:37:43+03:00",
+"vuln_files": [
+"cvat/apps/engine/backup.py",
+"cvat/apps/engine/tests/test_rest_api_3D.py",
+"cvat/apps/dataset_manager/tests/test_rest_api_formats.py",
+"cvat/apps/engine/mixins.py",
+"cvat/apps/engine/views.py",
+"tests/python/shared/utils/resource_import_export.py"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-45393",
+"patch_date": [
+"2024-09-10 12:39:17+03:00"
+],
+"patch_files": [
+"changelog.d/20240902_144949_roman_sec_webhooks_access_control.md",
+"tests/python/rest_api/test_webhooks_sender.py",
+"cvat/apps/webhooks/permissions.py"
+],
+"earliest_patch_date": "2024-09-10 12:39:17+03:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-47064",
+"patch_date": [
+"2024-09-20 15:56:18+03:00"
+],
+"patch_files": [
+"cvat/apps/engine/views.py",
+"changelog.d/20240912_201524_roman_xss_requests.md"
+],
+"earliest_patch_date": "2024-09-20 15:56:18+03:00",
+"earliest_vuln_date": "2024-07-04 19:01:35+03:00",
+"vuln_files": [
+"cvat/apps/engine/views.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79",
+"CWE-81"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"cvat/apps/engine/views.py"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"cvat/apps/engine/views.py"
+]
+},
+{
+"cve_id": "CVE-2024-47063",
+"patch_date": [
+"2024-09-20 15:57:15+03:00"
+],
+"patch_files": [
+"cvat/apps/quality_control/views.py",
+"changelog.d/20240916_144227_roman_xss_quality_report.md"
+],
+"earliest_patch_date": "2024-09-20 15:57:15+03:00",
+"earliest_vuln_date": "2023-06-12 14:57:14+03:00",
+"vuln_files": [
+"cvat/apps/quality_control/views.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-47172",
+"patch_date": [
+"2024-09-26 09:11:47+03:00"
+],
+"patch_files": [
+"cvat/apps/iam/rules/utils.rego",
+"tests/python/rest_api/test_memberships.py",
+"tests/python/rest_api/test_tasks.py",
+"cvat/apps/engine/rules/tests/configs/tasks.csv",
+"cvat/apps/organizations/permissions.py",
+"tests/python/rest_api/test_jobs.py",
+"tests/python/rest_api/test_projects.py",
+"cvat/apps/engine/rules/tasks.rego",
+"cvat/apps/engine/rules/tests/configs/projects.csv",
+"cvat/apps/engine/permissions.py",
+"cvat/apps/engine/rules/projects.rego",
+"changelog.d/20240920_124259_maria_fix_patch_security_issue.md"
+],
+"earliest_patch_date": "2024-09-26 09:11:47+03:00",
+"earliest_vuln_date": "2022-02-26 09:53:36+03:00",
+"vuln_files": [
+"cvat/apps/organizations/permissions.py",
+"cvat/apps/engine/rules/tasks.rego",
+"cvat/apps/engine/rules/tests/configs/projects.csv",
+"cvat/apps/engine/permissions.py",
+"cvat/apps/engine/rules/projects.rego"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.5
+}
+},
+"cwes": [
+"CWE-863"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,351 @@
+[
+{
+"cve_id": "CVE-2020-15153",
+"patch_date": [
+"2020-08-18 17:25:36+10:00"
+],
+"patch_files": [
+"lib/class/database_object.abstract.php"
+],
+"earliest_patch_date": "2020-08-18 17:25:36+10:00",
+"earliest_vuln_date": "2008-07-14 04:56:52+00:00",
+"vuln_files": [
+"lib/class/database_object.abstract.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-32644",
+"patch_date": [
+"2021-05-27 10:20:53+10:00"
+],
+"patch_files": [
+"lib/class/search.class.php",
+"templates/show_random.inc.php",
+"templates/show_search_form.inc.php",
+"templates/show_rules.inc.php",
+"random.php"
+],
+"earliest_patch_date": "2021-05-27 10:20:53+10:00",
+"earliest_vuln_date": "2011-04-02 00:48:58-04:00",
+"vuln_files": [
+"lib/class/search.class.php",
+"templates/show_random.inc.php",
+"templates/show_search_form.inc.php",
+"templates/show_rules.inc.php",
+"random.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4665",
+"patch_date": [
+"2022-12-14 17:47:15+10:00"
+],
+"patch_files": [
+"resources/sql/ampache.sql",
+"src/Repository/Model/Tag.php",
+"src/Module/Playback/Localplay/Upnp/UPnPDevice.php",
+"src/Module/Playback/Localplay/Vlc/VlcPlayer.php",
+"src/Repository/Model/TVShow_Season.php",
+"src/Module/System/Update.php",
+"src/Repository/Model/Art.php",
+"src/Module/Art/Collector/FolderCollectorModule.php",
+"docs/CHANGELOG.md",
+"src/Repository/Model/User.php",
+"src/Module/Playback/Localplay/Mpd/AmpacheMpd.php",
+"src/Repository/Model/Catalog.php",
+"public/templates/show_artist_info.inc.php",
+"src/Module/Playback/Stream_Playlist.php"
+],
+"earliest_patch_date": "2022-12-14 17:47:15+10:00",
+"earliest_vuln_date": "2014-01-30 22:05:16+01:00",
+"vuln_files": [
+"resources/sql/ampache.sql",
+"src/Repository/Model/Tag.php",
+"src/Repository/Model/TVShow_Season.php",
+"src/Repository/Model/User.php",
+"src/Repository/Model/Art.php",
+"src/Module/Art/Collector/FolderCollectorModule.php",
+"public/templates/show_artist_info.inc.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-0606",
+"patch_date": [
+"2023-01-04 13:43:27+10:00"
+],
+"patch_files": [
+"public/templates/show_form_mashup.inc.php",
+"public/templates/show_form_newest.inc.php",
+"public/templates/show_form_highest.inc.php",
+"public/templates/show_form_popular.inc.php",
+"public/templates/show_form_userflag.inc.php",
+"src/Module/Application/Playback/PlayAction.php",
+"public/templates/show_alphabet_form.inc.php",
+"public/templates/show_form_recent.inc.php",
+"public/templates/show_graphs.inc.php",
+"public/templates/show_form_browse.inc.php",
+"src/Module/Application/ApplicationRunner.php"
+],
+"earliest_patch_date": "2023-01-04 13:43:27+10:00",
+"earliest_vuln_date": "2019-06-20 14:39:29+10:00",
+"vuln_files": [
+"public/templates/show_form_mashup.inc.php",
+"public/templates/show_form_newest.inc.php",
+"public/templates/show_form_highest.inc.php",
+"public/templates/show_form_popular.inc.php",
+"public/templates/show_form_userflag.inc.php",
+"src/Module/Application/Playback/PlayAction.php",
+"public/templates/show_alphabet_form.inc.php",
+"public/templates/show_form_recent.inc.php",
+"public/templates/show_graphs.inc.php",
+"public/templates/show_form_browse.inc.php",
+"src/Module/Application/ApplicationRunner.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-0771",
+"patch_date": [
+"2023-01-20 09:58:23+10:00"
+],
+"patch_files": [
+"src/Module/Statistics/Stats.php",
+"src/Repository/Model/Search.php"
+],
+"earliest_patch_date": "2023-01-20 09:58:23+10:00",
+"earliest_vuln_date": "2019-12-09 14:48:06+10:00",
+"vuln_files": [
+"src/Module/Statistics/Stats.php",
+"src/Repository/Model/Search.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-47184",
+"patch_date": [
+"2024-07-02 14:08:47+10:00"
+],
+"patch_files": [
+"public/templates/show_democratic.inc.php"
+],
+"earliest_patch_date": "2024-07-02 14:08:47+10:00",
+"earliest_vuln_date": "2012-04-12 21:13:29-04:00",
+"vuln_files": [
+"public/templates/show_democratic.inc.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.8,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.7,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

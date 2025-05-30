@@ -1,0 +1,92 @@
+[
+{
+"cve_id": "CVE-2023-34098",
+"patch_date": [
+"2023-05-02 09:02:52+02:00"
+],
+"patch_files": [
+".htaccess.dist"
+],
+"earliest_patch_date": "2023-05-02 09:02:52+02:00",
+"earliest_vuln_date": "2017-11-28 15:18:39+01:00",
+"vuln_files": [
+".htaccess.dist"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-34099",
+"patch_date": [
+"2023-05-10 08:48:25+02:00"
+],
+"patch_files": [
+".phpstan-baseline.neon",
+"tests/Unit/Components/EmailValidatorTest.php",
+"engine/Shopware/Components/Validator/EmailValidator.php"
+],
+"earliest_patch_date": "2023-05-10 08:48:25+02:00",
+"earliest_vuln_date": "2016-02-29 14:47:40+01:00",
+"vuln_files": [
+".phpstan-baseline.neon",
+"tests/Unit/Components/EmailValidatorTest.php",
+"engine/Shopware/Components/Validator/EmailValidator.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,49 @@
+[
+{
+"cve_id": "CVE-2023-30625",
+"patch_date": [
+"2022-11-07 21:10:24+02:00",
+"2022-11-07 23:17:06+05:30",
+"2022-11-04 23:26:55+05:30"
+],
+"patch_files": [
+"router/failed-events-manager.go",
+"warehouse/warehouse.go"
+],
+"earliest_patch_date": "2022-11-04 23:26:55+05:30",
+"earliest_vuln_date": "2021-06-29 02:38:28+05:30",
+"vuln_files": [
+"router/failed-events-manager.go",
+"warehouse/warehouse.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,169 @@
+[
+{
+"cve_id": "CVE-2021-41193",
+"patch_date": [
+"2021-09-07 13:07:15+02:00"
+],
+"patch_files": [
+"tools/logparse/match_logs.m",
+"tools/logparse/ip2num.m",
+"webrtc/scripts/version.sh",
+"src/ecall/ecall.c",
+"tools/aueffect/main.c",
+"docs/devicepair.md",
+"src/audio_level/audio_level.c",
+"tools/packetdump/extract_audio_dump.py",
+"test/test_acm.cpp",
+"tools/logparse/get_metrics.m",
+"tools/zcall/how_to_batch_test.txt",
+"mk/tools.mk",
+"src/econn_fmt/msg.c",
+"mk/dist.mk",
+"tools/logparse/extract_numbers.m",
+"webrtc/scripts/build_iosx.sh",
+"src/peerflow/cbr_detector_remote.h",
+"tools/logparse/print_logs.m",
+"tools/netprobe/tool.mk",
+"webrtc/scripts/build_linux.sh",
+"webrtc/patch/webrtc_android.patch",
+"tools/logparse/find_flows.m",
+"tools/packetdump/extract_video_dump.py",
+"tools/verifyd/tool.mk",
+"Makefile",
+".gitignore",
+"tools/zcall/conv.c",
+"tools/logparse/mapper.m",
+"tools/aueffect/tool.mk",
+"tools/logparse/pps_smther.m",
+"tools/logparse/plot_rate.m",
+"tools/logparse/run_to_add_path.m",
+"docs/release-process.txt",
+"docs/local_avs_on_ios.md",
+"tools/logparse/analyse_wireshark_dump.m",
+"tools/logparse/extract_data.m",
+"webrtc/scripts/build.sh",
+"webrtc/scripts/cpheader.sh",
+"tools/logparse/num2ip.m",
+".gitattributes",
+"src/audio_io/osx/audio_io_osx.cpp",
+"docs/flowmgr.md",
+"tools/verifyd/main.c",
+"src/wcall/wcall.c",
+"webrtc/scripts/package.sh",
+"src/peerflow/cbr_detector_remote.cpp",
+"mk/target.mk",
+"tools/netprobe/main.c"
+],
+"earliest_patch_date": "2021-09-07 13:07:15+02:00",
+"earliest_vuln_date": "2016-05-27 11:27:45+02:00",
+"vuln_files": [
+"webrtc/scripts/build.sh",
+"webrtc/scripts/cpheader.sh",
+"webrtc/scripts/build_iosx.sh",
+"webrtc/scripts/version.sh",
+"src/ecall/ecall.c",
+"webrtc/scripts/build_linux.sh",
+"src/audio_level/audio_level.c",
+"webrtc/patch/webrtc_android.patch",
+"mk/tools.mk",
+"src/econn_fmt/msg.c",
+"src/wcall/wcall.c",
+"mk/dist.mk",
+"webrtc/scripts/package.sh",
+"src/peerflow/cbr_detector_remote.cpp",
+"mk/target.mk",
+"Makefile"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-48221",
+"patch_date": [
+"2023-07-14 17:24:28+02:00"
+],
+"patch_files": [
+"src/sdp/bundle.c"
+],
+"earliest_patch_date": "2023-07-14 17:24:28+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

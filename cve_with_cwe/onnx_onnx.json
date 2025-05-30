@@ -1,0 +1,113 @@
+[
+{
+"cve_id": "CVE-2022-25882",
+"patch_date": [
+"2022-08-10 08:35:50-07:00"
+],
+"patch_files": [
+"onnx/test/test_external_data.py",
+"onnx/checker.cc",
+"onnx/common/path.cc",
+"onnx/common/path.h",
+"onnx/test/cpp/common_path_test.cc"
+],
+"earliest_patch_date": "2022-08-10 08:35:50-07:00",
+"earliest_vuln_date": "2021-01-28 15:49:59-08:00",
+"vuln_files": [
+"onnx/checker.cc",
+"onnx/test/test_external_data.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-27319",
+"patch_date": [
+"2024-02-09 22:45:49+00:00"
+],
+"patch_files": [
+"onnx/common/assertions.cc"
+],
+"earliest_patch_date": "2024-02-09 22:45:49+00:00",
+"earliest_vuln_date": "2018-01-23 23:04:52-08:00",
+"vuln_files": [
+"onnx/common/assertions.cc"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-27318",
+"patch_date": [
+"2024-02-19 19:12:40+00:00"
+],
+"patch_files": [
+"onnx/external_data_helper.py",
+"onnx/cpp2py_export.cc",
+"onnx/test/test_external_data.py",
+"onnx/checker.h",
+"onnx/checker.cc",
+"onnx/model_container.py",
+"onnx/common/path.h"
+],
+"earliest_patch_date": "2024-02-19 19:12:40+00:00",
+"earliest_vuln_date": "2019-01-18 12:57:30-08:00",
+"vuln_files": [
+"onnx/common/path.h",
+"onnx/model_container.py",
+"onnx/checker.cc",
+"onnx/external_data_helper.py"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"onnx/test/test_external_data.py",
+"onnx/checker.cc",
+"onnx/common/path.h"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

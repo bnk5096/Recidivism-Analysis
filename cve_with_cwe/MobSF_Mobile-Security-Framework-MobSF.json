@@ -1,0 +1,186 @@
+[
+{
+"cve_id": "CVE-2024-29190",
+"patch_date": [
+"2024-03-22 11:49:27-07:00"
+],
+"patch_files": [
+"mobsf/MobSF/utils.py",
+"mobsf/StaticAnalyzer/views/android/manifest_analysis.py",
+".github/workflows/docker-release.yml",
+".github/workflows/docker-test.yml",
+"poetry.lock",
+"pyproject.toml",
+"mobsf/MobSF/init.py"
+],
+"earliest_patch_date": "2024-03-22 11:49:27-07:00",
+"earliest_vuln_date": "2021-10-11 23:52:11-07:00",
+"vuln_files": [
+"mobsf/StaticAnalyzer/views/android/manifest_analysis.py",
+".github/workflows/docker-release.yml",
+".github/workflows/docker-test.yml",
+"poetry.lock",
+"pyproject.toml",
+"mobsf/MobSF/init.py"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-31215",
+"patch_date": [
+"2024-04-03 21:47:14-07:00"
+],
+"patch_files": [
+"pyproject.toml",
+"poetry.lock",
+"mobsf/StaticAnalyzer/views/common/shared_func.py",
+"mobsf/MobSF/init.py"
+],
+"earliest_patch_date": "2024-04-03 21:47:14-07:00",
+"earliest_vuln_date": "2019-03-24 13:42:12-04:00",
+"vuln_files": [
+"pyproject.toml",
+"poetry.lock",
+"mobsf/StaticAnalyzer/views/common/shared_func.py",
+"mobsf/MobSF/init.py"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"pyproject.toml",
+"poetry.lock",
+"mobsf/MobSF/init.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-41955",
+"patch_date": [
+"2024-07-31 11:51:27-07:00"
+],
+"patch_files": [
+"mobsf/MobSF/security.py",
+"mobsf/MobSF/views/authentication.py",
+"mobsf/MobSF/views/saml2.py",
+"pyproject.toml",
+"mobsf/MobSF/init.py"
+],
+"earliest_patch_date": "2024-07-31 11:51:27-07:00",
+"earliest_vuln_date": "2024-05-21 10:08:01-07:00",
+"vuln_files": [
+"pyproject.toml",
+"mobsf/MobSF/views/authentication.py",
+"mobsf/MobSF/init.py",
+"mobsf/MobSF/views/saml2.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-601"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"pyproject.toml",
+"mobsf/MobSF/init.py"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"pyproject.toml",
+"mobsf/MobSF/init.py"
+]
+},
+{
+"cve_id": "CVE-2024-43399",
+"patch_date": [
+"2024-08-18 02:07:14-07:00"
+],
+"patch_files": [
+"mobsf/StaticAnalyzer/views/common/shared_func.py",
+".github/SECURITY.md",
+"poetry.lock",
+"pyproject.toml",
+"mobsf/MobSF/init.py"
+],
+"earliest_patch_date": "2024-08-18 02:07:14-07:00",
+"earliest_vuln_date": "2023-08-24 18:39:56-07:00",
+"vuln_files": [
+"pyproject.toml",
+"poetry.lock",
+"mobsf/StaticAnalyzer/views/common/shared_func.py",
+"mobsf/MobSF/init.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"mobsf/StaticAnalyzer/views/common/shared_func.py",
+"poetry.lock",
+"pyproject.toml",
+"mobsf/MobSF/init.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

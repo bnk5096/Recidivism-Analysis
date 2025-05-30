@@ -1,0 +1,101 @@
+[
+{
+"cve_id": "CVE-2021-32640",
+"patch_date": [
+"2021-05-25 18:09:51+02:00"
+],
+"patch_files": [
+"lib/websocket-server.js"
+],
+"earliest_patch_date": "2021-05-25 18:09:51+02:00",
+"earliest_vuln_date": "2018-03-03 07:27:20+01:00",
+"vuln_files": [
+"lib/websocket-server.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "LOW",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-400"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-37890",
+"patch_date": [
+"2024-06-16 13:00:51+02:00",
+"2024-06-16 12:38:44+02:00",
+"2024-06-16 11:42:59+02:00",
+"2024-06-16 15:20:07+02:00"
+],
+"patch_files": [
+"lib/websocket.js",
+"lib/websocket-server.js",
+"test/websocket.test.js",
+"test/websocket-server.test.js"
+],
+"earliest_patch_date": "2024-06-16 11:42:59+02:00",
+"earliest_vuln_date": "2017-02-09 14:38:42+01:00",
+"vuln_files": [
+"lib/websocket.js",
+"lib/websocket-server.js"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/websocket-server.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

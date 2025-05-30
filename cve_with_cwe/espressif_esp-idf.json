@@ -1,0 +1,39 @@
+[
+{
+"cve_id": "CVE-2024-28183",
+"patch_date": [
+"2024-02-07 22:23:10+08:00",
+"2024-02-15 15:08:26+02:00",
+"2024-02-22 17:13:17+08:00",
+"2024-02-27 18:26:03+08:00",
+"2024-02-20 14:45:27+05:30",
+"2024-02-19 14:54:17+05:30",
+"2024-02-21 11:45:51+08:00"
+],
+"patch_files": [
+"components/bootloader_support/include/esp_image_format.h",
+"components/esp_system/startup.c",
+"components/bootloader_support/include/esp_app_format.h",
+"components/esp_app_format/include/esp_app_desc.h",
+"components/bootloader_support/src/esp_image_format.c",
+"components/esp_system/startup_funcs.c",
+"tools/test_apps/system/bootloader_sections/sdkconfig.ci.anti_rollback"
+],
+"earliest_patch_date": "2024-02-07 22:23:10+08:00",
+"earliest_vuln_date": "2017-07-19 18:25:17+10:00",
+"vuln_files": [
+"tools/test_apps/system/bootloader_sections/sdkconfig.ci.anti_rollback",
+"components/bootloader_support/src/esp_image_format.c"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,312 @@
+[
+{
+"cve_id": "CVE-2021-21384",
+"patch_date": [
+"2021-03-13 17:25:41+01:00"
+],
+"patch_files": [
+"src/unix.js",
+"test/win.test.js",
+"src/win.js",
+"test/unix.test.js",
+"CHANGELOG.md"
+],
+"earliest_patch_date": "2021-03-13 17:25:41+01:00",
+"earliest_vuln_date": "2020-11-07 22:38:46+01:00",
+"vuln_files": [
+"CHANGELOG.md",
+"src/unix.js",
+"src/win.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4.6
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 3.9,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-25918",
+"patch_date": [
+"2022-10-25 19:49:23+02:00"
+],
+"patch_files": [
+"test/fixtures/unix.js",
+"src/unix.js",
+"test/unit/unix/escape.test.js",
+"SECURITY.md"
+],
+"earliest_patch_date": "2022-10-25 19:49:23+02:00",
+"earliest_vuln_date": "2020-11-06 09:52:29+01:00",
+"vuln_files": [
+"test/fixtures/unix.js",
+"src/unix.js",
+"SECURITY.md"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-1333"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/unix.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-35931",
+"patch_date": [
+"2023-06-21 20:31:29+02:00"
+],
+"patch_files": [
+"testing.js",
+"src/win/cmd.js",
+"CHANGELOG.md",
+"test/fuzz/_common.cjs",
+"test/fixtures/win.js"
+],
+"earliest_patch_date": "2023-06-21 20:31:29+02:00",
+"earliest_vuln_date": "2022-07-06 10:38:13+02:00",
+"vuln_files": [
+"testing.js",
+"test/fuzz/_common.cjs",
+"src/win/cmd.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"CHANGELOG.md"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"CHANGELOG.md"
+]
+},
+{
+"cve_id": "CVE-2023-40185",
+"patch_date": [
+"2023-08-21 08:05:50+00:00"
+],
+"patch_files": [
+"test/integration/escape-all/powershell.test.js",
+"test/integration/quote/powershell-exe.test.js",
+"test/integration/quote/cmd.test.js",
+"test/integration/quote-all/commonjs.test.js",
+"test/unit/executables/_.js",
+"test/integration/escape/csh.test.js",
+"test/integration/quote.test.js",
+"test/unit/options/parse-options.test.js",
+"test/integration/escape/valid.test.js",
+"test/integration/quote-all/powershell.test.js",
+"test/integration/escape.test.js",
+"src/win.js",
+"test/e2e/exec-file.test.js",
+"test/integration/quote/powershell.test.js",
+"test/e2e/child_process.test.js",
+"test/integration/escape-all/csh.test.js",
+"test/integration/quote/csh.test.js",
+"test/integration/quote-all.test.js",
+"test/integration/quote-all/invalid.test.js",
+"src/unix.js",
+"test/integration/escape/cmd-exe.test.js",
+"test/integration/quote/commonjs.test.js",
+"test/integration/_generators.js",
+"test/integration/escape/dash.test.js",
+"test/integration/escape-all/powershell-exe.test.js",
+"test/integration/escape-all/cmd.test.js",
+"test/e2e/_.js",
+"test/integration/escape-all.test.js",
+"test/integration/escape/invalid.test.js",
+"test/integration/escape-all/dash.test.js",
+"test/integration/quote-all/zsh.test.js",
+"test/integration/escape-all/zsh.test.js",
+"test/integration/escape/bash.test.js",
+"test/integration/quote-all/csh.test.js",
+"test/integration/escape/cmd.test.js",
+"test/unit/win/index.test.js",
+"test/_constants.cjs",
+"test/e2e/fork.test.js",
+"test/e2e/_common.js",
+"test/integration/escape-all/cmd-exe.test.js",
+"test/integration/escape/zsh.test.js",
+"test/integration/quote-all/powershell-exe.test.js",
+"CHANGELOG.md",
+"test/integration/escape-all/invalid.test.js",
+"src/executables.js",
+"test/e2e/spawn.test.js",
+"test/integration/quote-all/bash.test.js",
+"test/integration/testing.test.js",
+"index.js",
+"src/options.js",
+"test/integration/quote/invalid.test.js",
+"test/unit/executables/resolve.test.js",
+"test/integration/escape-all/commonjs.test.js",
+"test/integration/escape/commonjs.test.js",
+"test/integration/quote-all/cmd-exe.test.js",
+"test/integration/quote-all/dash.test.js",
+"test/integration/quote/cmd-exe.test.js",
+"test/integration/quote-all/cmd.test.js",
+"test/integration/quote/dash.test.js",
+"test/integration/quote/zsh.test.js",
+"test/integration/testing/commonjs.test.js",
+"test/integration/quote/bash.test.js",
+"test/integration/escape/powershell-exe.test.js",
+"test/unit/unix/index.test.js",
+"test/integration/escape-all/bash.test.js",
+"test/integration/escape/powershell.test.js",
+"test/e2e/exec.test.js",
+"test/integration/quote/valid.test.js"
+],
+"earliest_patch_date": "2023-08-21 08:05:50+00:00",
+"earliest_vuln_date": "2022-02-15 00:16:15+01:00",
+"vuln_files": [
+"src/unix.js",
+"index.js",
+"src/options.js",
+"test/integration/_generators.js",
+"test/unit/win/index.test.js",
+"test/unit/unix/index.test.js",
+"test/integration/quote.test.js",
+"test/unit/options/parse-options.test.js",
+"test/_constants.cjs",
+"test/integration/testing/functional.test.js",
+"test/integration/escape.test.js",
+"src/win.js",
+"test/e2e/_.js",
+"test/integration/quote-all/valid.test.js",
+"test/e2e/child_process.test.js",
+"test/integration/escape-all/valid.test.js",
+"src/executables.js",
+"test/unit/executables/resolve.test.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 8.6,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/win.js",
+"src/unix.js",
+"CHANGELOG.md"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"src/win.js",
+"src/unix.js",
+"CHANGELOG.md"
+]
+}
+]

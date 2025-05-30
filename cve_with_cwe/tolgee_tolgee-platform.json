@@ -1,0 +1,186 @@
+[
+{
+"cve_id": "CVE-2023-38510",
+"patch_date": [
+"2023-07-21 16:30:34+02:00"
+],
+"patch_files": [
+"backend/app/src/test/kotlin/io/tolgee/service/TelemetryServiceTest.kt",
+"backend/app/src/test/kotlin/io/tolgee/api/v2/controllers/v2ImportController/V2ImportControllerApplicationTest.kt",
+"backend/app/src/test/kotlin/io/tolgee/api/v2/controllers/v2KeyController/KeyControllerCreationTest.kt",
+"backend/api/src/main/kotlin/io/tolgee/api/v2/controllers/V2ImportController.kt",
+"backend/app/src/main/kotlin/io/tolgee/websocket/WebSocketConfig.kt",
+"backend/data/src/main/kotlin/io/tolgee/repository/dataImport/ImportLanguageRepository.kt",
+"backend/data/src/main/kotlin/io/tolgee/service/security/SecurityService.kt",
+"backend/app/src/test/resources/application.yaml",
+"backend/data/src/main/kotlin/io/tolgee/service/dataImport/StoredDataImporter.kt",
+"ee/backend/tests/src/test/resources/application.yaml"
+],
+"earliest_patch_date": "2023-07-21 16:30:34+02:00",
+"earliest_vuln_date": "2021-05-31 12:31:25+02:00",
+"vuln_files": [
+"backend/app/src/test/kotlin/io/tolgee/api/v2/controllers/v2ImportController/V2ImportControllerApplicationTest.kt",
+"backend/app/src/test/kotlin/io/tolgee/api/v2/controllers/v2KeyController/KeyControllerCreationTest.kt",
+"backend/app/src/test/kotlin/io/tolgee/service/TelemetryServiceTest.kt",
+"backend/api/src/main/kotlin/io/tolgee/api/v2/controllers/V2ImportController.kt",
+"backend/app/src/main/kotlin/io/tolgee/websocket/WebSocketConfig.kt",
+"backend/data/src/main/kotlin/io/tolgee/service/security/SecurityService.kt",
+"backend/data/src/main/kotlin/io/tolgee/service/dataImport/StoredDataImporter.kt"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.2
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-41316",
+"patch_date": [
+"2023-09-06 12:10:50+00:00"
+],
+"patch_files": [
+"backend/app/src/test/kotlin/io/tolgee/api/v2/controllers/organizationController/OrganizationControllerInvitingTest.kt",
+"backend/data/src/main/kotlin/io/tolgee/component/email/InvitationEmailSender.kt"
+],
+"earliest_patch_date": "2023-09-06 12:10:50+00:00",
+"earliest_vuln_date": "2022-07-18 13:20:11+02:00",
+"vuln_files": [
+"backend/data/src/main/kotlin/io/tolgee/component/email/InvitationEmailSender.kt"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-32466",
+"patch_date": [
+"2024-04-17 14:26:51+02:00"
+],
+"patch_files": [
+"backend/data/src/main/kotlin/io/tolgee/service/security/PermissionService.kt",
+"backend/security/src/test/kotlin/io/tolgee/security/authorization/ProjectAuthorizationInterceptorTest.kt",
+"backend/api/src/main/kotlin/io/tolgee/api/v2/controllers/ApiKeyController.kt",
+"backend/api/src/main/kotlin/io/tolgee/api/v2/controllers/translation/TranslationsController.kt",
+"backend/data/src/main/kotlin/io/tolgee/service/security/SecurityService.kt",
+"backend/data/src/main/kotlin/io/tolgee/service/security/ApiKeyService.kt",
+"backend/testing/src/main/kotlin/io/tolgee/fixtures/ProjectApiKeyAuthRequestPerformer.kt",
+"backend/app/src/test/kotlin/io/tolgee/api/v2/controllers/V2InvitationControllerTest.kt",
+"backend/data/src/main/kotlin/io/tolgee/service/LanguageService.kt",
+"backend/app/src/test/kotlin/io/tolgee/api/v2/controllers/translations/v2TranslationsController/TranslationsControllerViewTest.kt",
+"backend/security/src/main/kotlin/io/tolgee/security/authorization/ProjectAuthorizationInterceptor.kt",
+"backend/app/src/test/kotlin/io/tolgee/api/v2/controllers/v2ProjectsController/ProjectsControllerTest.kt",
+"backend/data/src/main/kotlin/io/tolgee/constants/Message.kt",
+"backend/app/src/test/kotlin/io/tolgee/api/v2/controllers/v2ProjectsController/ProjectsControllerPermissionsTest.kt",
+"backend/data/src/main/kotlin/io/tolgee/model/enums/Scope.kt",
+"e2e/cypress/e2e/projects/export/export.cy.ts"
+],
+"earliest_patch_date": "2024-04-17 14:26:51+02:00",
+"earliest_vuln_date": "2021-03-29 19:18:39+02:00",
+"vuln_files": [
+"backend/data/src/main/kotlin/io/tolgee/service/security/PermissionService.kt",
+"backend/api/src/main/kotlin/io/tolgee/api/v2/controllers/ApiKeyController.kt",
+"backend/api/src/main/kotlin/io/tolgee/api/v2/controllers/translation/TranslationsController.kt",
+"backend/data/src/main/kotlin/io/tolgee/service/security/SecurityService.kt",
+"backend/data/src/main/kotlin/io/tolgee/service/security/ApiKeyService.kt",
+"backend/testing/src/main/kotlin/io/tolgee/fixtures/ProjectApiKeyAuthRequestPerformer.kt",
+"backend/app/src/test/kotlin/io/tolgee/api/v2/controllers/V2InvitationControllerTest.kt",
+"backend/data/src/main/kotlin/io/tolgee/service/LanguageService.kt",
+"backend/security/src/main/kotlin/io/tolgee/security/authorization/ProjectAuthorizationInterceptor.kt",
+"backend/app/src/test/kotlin/io/tolgee/api/v2/controllers/v2ProjectsController/ProjectsControllerTest.kt",
+"backend/security/src/test/kotlin/io/tolgee/security/authorization/ProjectAuthorizationInterceptorTest.kt",
+"backend/app/src/test/kotlin/io/tolgee/api/v2/controllers/v2ProjectsController/ProjectsControllerPermissionsTest.kt",
+"backend/data/src/main/kotlin/io/tolgee/model/enums/Scope.kt",
+"e2e/cypress/e2e/projects/export/export.cy.ts"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"backend/data/src/main/kotlin/io/tolgee/service/security/SecurityService.kt"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-32470",
+"patch_date": [
+"2024-04-17 17:35:07+02:00"
+],
+"patch_files": [
+"backend/security/src/test/kotlin/io/tolgee/security/authorization/ProjectAuthorizationInterceptorTest.kt",
+"backend/security/src/main/kotlin/io/tolgee/security/authorization/ProjectAuthorizationInterceptor.kt"
+],
+"earliest_patch_date": "2024-04-17 17:35:07+02:00",
+"earliest_vuln_date": "2023-10-03 18:57:48+02:00",
+"vuln_files": [
+"backend/security/src/main/kotlin/io/tolgee/security/authorization/ProjectAuthorizationInterceptor.kt"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"backend/security/src/test/kotlin/io/tolgee/security/authorization/ProjectAuthorizationInterceptorTest.kt",
+"backend/security/src/main/kotlin/io/tolgee/security/authorization/ProjectAuthorizationInterceptor.kt"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

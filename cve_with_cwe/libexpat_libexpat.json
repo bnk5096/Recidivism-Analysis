@@ -1,0 +1,130 @@
+[
+{
+"cve_id": "CVE-2019-15903",
+"patch_date": [
+"2019-08-28 15:14:26+02:00"
+],
+"patch_files": [
+"expat/lib/xmlparse.c"
+],
+"earliest_patch_date": "2019-08-28 15:14:26+02:00",
+"earliest_vuln_date": "2004-01-07 17:12:04+00:00",
+"vuln_files": [
+"expat/lib/xmlparse.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-776",
+"CWE-125"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-52426",
+"patch_date": [
+"2023-11-06 20:43:09+01:00"
+],
+"patch_files": [
+"expat/xmlwf/xmlwf.c",
+"expat/lib/expat.h",
+"expat/lib/xmlparse.c",
+"expat/lib/internal.h",
+"expat/lib/libexpat.def.cmake",
+"expat/CMakeLists.txt"
+],
+"earliest_patch_date": "2023-11-06 20:43:09+01:00",
+"earliest_vuln_date": "2021-05-07 18:25:07+02:00",
+"vuln_files": [
+"expat/lib/libexpat.def.cmake",
+"expat/xmlwf/xmlwf.c",
+"expat/lib/xmlparse.c",
+"expat/CMakeLists.txt"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 5.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-776"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-776"
+],
+"intro_duplicate_type": true,
+"intro_duplicated_types": [
+"CWE-776"
+],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"expat/lib/xmlparse.c"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"expat/lib/xmlparse.c"
+]
+}
+]

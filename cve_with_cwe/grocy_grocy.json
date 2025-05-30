@@ -1,0 +1,104 @@
+[
+{
+"cve_id": "CVE-2020-15253",
+"patch_date": [
+"2020-09-08 18:10:30+02:00",
+"2020-09-08 18:25:42+02:00"
+],
+"patch_files": [
+"views/shoppinglist.blade.php",
+"public/viewjs/recipes.js",
+"public/viewjs/mealplan.js",
+"public/viewjs/productgroups.js",
+"public/viewjs/locations.js",
+"public/viewjs/shoppinglist.js",
+"public/viewjs/users.js",
+"public/viewjs/chores.js",
+"public/viewjs/products.js",
+"public/viewjs/userentities.js",
+"public/viewjs/batteries.js",
+"public/viewjs/userfields.js",
+"public/viewjs/shoppinglocations.js",
+"public/viewjs/recipeform.js",
+"public/viewjs/quantityunits.js",
+"public/viewjs/components/productpicker.js",
+"public/viewjs/equipment.js",
+"public/viewjs/taskcategories.js",
+"public/viewjs/tasks.js",
+"public/js/extensions.js"
+],
+"earliest_patch_date": "2020-09-08 18:10:30+02:00",
+"earliest_vuln_date": "2018-04-21 19:18:00+02:00",
+"vuln_files": [
+"public/viewjs/users.js",
+"public/viewjs/components/productpicker.js",
+"public/viewjs/chores.js",
+"public/viewjs/equipment.js",
+"public/viewjs/taskcategories.js",
+"public/viewjs/tasks.js",
+"public/viewjs/mealplan.js",
+"public/viewjs/recipes.js",
+"public/viewjs/productgroups.js",
+"public/viewjs/products.js",
+"public/viewjs/userentities.js",
+"public/viewjs/recipeform.js",
+"public/viewjs/locations.js",
+"public/viewjs/shoppinglocations.js",
+"public/viewjs/shoppinglist.js",
+"public/viewjs/batteries.js",
+"public/viewjs/quantityunits.js",
+"public/viewjs/userfields.js",
+"views/shoppinglist.blade.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.8,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.7,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

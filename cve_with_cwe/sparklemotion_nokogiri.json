@@ -1,0 +1,352 @@
+[
+{
+"cve_id": "CVE-2020-26247",
+"patch_date": [
+"2020-12-03 14:08:11-05:00"
+],
+"patch_files": [
+"ext/nokogiri/xml_relax_ng.c",
+"test/xml/test_relax_ng.rb",
+"ext/java/nokogiri/XmlRelaxng.java",
+"lib/nokogiri/xml/relax_ng.rb",
+"lib/nokogiri/xml/schema.rb",
+"test/xml/test_schema.rb",
+"ext/java/nokogiri/XmlSchema.java",
+"lib/nokogiri/xml/parse_options.rb",
+"ext/nokogiri/xml_schema.c"
+],
+"earliest_patch_date": "2020-12-03 14:08:11-05:00",
+"earliest_vuln_date": "2009-03-27 13:12:15-07:00",
+"vuln_files": [
+"ext/nokogiri/xml_relax_ng.c",
+"ext/java/nokogiri/XmlRelaxng.java",
+"lib/nokogiri/xml/relax_ng.rb",
+"lib/nokogiri/xml/schema.rb",
+"ext/java/nokogiri/XmlSchema.java",
+"ext/nokogiri/xml_schema.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-611"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-41098",
+"patch_date": [
+"2021-09-26 17:44:03-04:00"
+],
+"patch_files": [
+"ext/java/nokogiri/Html4SaxPushParser.java",
+"ext/java/nokogiri/XmlSaxParserContext.java",
+"ext/java/nokogiri/internals/XmlDomParserContext.java",
+"ext/java/nokogiri/internals/NokogiriErrorHandler.java",
+"test/xml/sax/test_parser.rb",
+"ext/java/nokogiri/internals/NokogiriNonStrictErrorHandler.java",
+"ext/java/nokogiri/internals/NokogiriNonStrictErrorHandler4NekoHtml.java",
+"test/xml/sax/test_push_parser.rb",
+"ext/java/nokogiri/XmlSaxPushParser.java",
+"ext/java/nokogiri/internals/NokogiriHandler.java",
+"ext/java/nokogiri/internals/NokogiriStrictErrorHandler.java",
+"ext/java/nokogiri/internals/NokogiriEntityResolver.java"
+],
+"earliest_patch_date": "2021-09-26 17:44:03-04:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-24836",
+"patch_date": [
+"2022-04-10 14:42:04-04:00"
+],
+"patch_files": [
+"lib/nokogiri/html4/document.rb",
+"test/html4/test_document_encoding.rb"
+],
+"earliest_patch_date": "2022-04-10 14:42:04-04:00",
+"earliest_vuln_date": "2021-10-26 10:04:54-04:00",
+"vuln_files": [
+"lib/nokogiri/html4/document.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-1333"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-29181",
+"patch_date": [
+"2022-05-06 21:59:33-04:00"
+],
+"patch_files": [
+"test/html4/sax/test_parser_context.rb",
+"ext/java/nokogiri/XmlSaxParserContext.java",
+"lib/nokogiri/html4/sax/parser.rb",
+"test/xml/sax/test_parser.rb",
+"ext/java/nokogiri/Html4SaxParserContext.java",
+"test/xml/sax/test_parser_context.rb",
+"CHANGELOG.md",
+"ext/nokogiri/xml_sax_parser_context.c",
+"ext/java/nokogiri/internals/ParserContext.java",
+"test/html4/sax/test_parser.rb",
+"ext/nokogiri/html4_sax_parser_context.c"
+],
+"earliest_patch_date": "2022-05-06 21:59:33-04:00",
+"earliest_vuln_date": "2009-04-08 15:16:29-07:00",
+"vuln_files": [
+"ext/java/nokogiri/XmlSaxParserContext.java",
+"lib/nokogiri/html4/sax/parser.rb",
+"test/xml/sax/test_parser.rb",
+"ext/nokogiri/xml_sax_parser_context.c",
+"ext/java/nokogiri/internals/ParserContext.java",
+"test/html4/sax/test_parser.rb",
+"ext/nokogiri/html4_sax_parser_context.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 8.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 4.2
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-843"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"ext/java/nokogiri/XmlSaxParserContext.java",
+"test/xml/sax/test_parser.rb"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-23476",
+"patch_date": [
+"2022-12-06 21:36:27-05:00",
+"2022-12-07 21:25:07+00:00"
+],
+"patch_files": [
+"ext/nokogiri/xml_reader.c",
+"test/xml/test_reader.rb",
+"CHANGELOG.md"
+],
+"earliest_patch_date": "2022-12-06 21:36:27-05:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"CHANGELOG.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

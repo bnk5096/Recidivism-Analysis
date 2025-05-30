@@ -1,0 +1,391 @@
+[
+{
+"cve_id": "CVE-2022-46154",
+"patch_date": [
+"2022-11-17 22:11:27+08:00"
+],
+"patch_files": [
+"static/js/app/src/editor/main.js",
+"static/js/app/src/explorer/main.js",
+"static/js/app/src/user/main.js",
+"static/js/app/src/setting/main.js",
+"static/style/skin/base/app_code_edit.css",
+"static/style/skin/base/app_setting.css",
+"config/version.php",
+"static/js/app/src/plugins/main.js",
+"static/js/app/src/shareExplorer/main.js",
+"static/style/skin/base/app_editor.css",
+"static/js/app/src/api/default/main.js",
+"static/js/app/src/shareIndex/main.js",
+"static/style/skin/base/app_explorer.css",
+"app/function/web.function.php",
+"static/js/app/src/explorerWap/main.js",
+"static/style/skin/base/app_desktop.css",
+"static/js/app/src/api/view/main.js",
+"static/js/app/src/shareEditor/main.js",
+"static/js/app/src/edit/main.js",
+"static/js/app/src/app/main.js",
+"app/controller/utils.php",
+"plugins/toolsCommon/static/pie/.pie.tif",
+"ChangeLog.md",
+"static/js/app/src/desktop/main.js"
+],
+"earliest_patch_date": "2022-11-17 22:11:27+08:00",
+"earliest_vuln_date": "2022-08-25 16:44:24+08:00",
+"vuln_files": [
+"static/js/app/src/desktop/main.js",
+"static/js/app/src/editor/main.js",
+"static/js/app/src/explorer/main.js",
+"static/js/app/src/api/default/main.js",
+"static/js/app/src/app/main.js",
+"static/js/app/src/edit/main.js",
+"static/js/app/src/explorerWap/main.js",
+"app/controller/utils.php",
+"plugins/toolsCommon/static/pie/.pie.tif",
+"static/js/app/src/shareEditor/main.js",
+"static/js/app/src/shareIndex/main.js",
+"static/js/app/src/user/main.js",
+"static/js/app/src/setting/main.js",
+"config/version.php",
+"static/js/app/src/plugins/main.js",
+"static/js/app/src/shareExplorer/main.js",
+"static/js/app/src/api/view/main.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-6850",
+"patch_date": [
+"2023-12-15 03:02:35+08:00"
+],
+"patch_files": [
+"app/kod/ImageThumb.class.php",
+"app/controller/api.class.php",
+"app/controller/utils.php",
+"plugins/toolsCommon/static/pie/.pie.tif",
+"static/style/skin/base/app_desktop.css",
+"static/style/skin/base/app_code_edit.css",
+"static/style/skin/base/app_setting.css",
+"ChangeLog.md",
+"static/style/skin/base/app_explorer.css",
+"config/version.php",
+"app/function/file.function.php",
+"app/function/helper.function.php",
+"app/sdks/lessc.class.php",
+"static/style/skin/base/app_editor.css"
+],
+"earliest_patch_date": "2023-12-15 03:02:35+08:00",
+"earliest_vuln_date": "2014-07-07 02:24:21+08:00",
+"vuln_files": [
+"app/kod/ImageThumb.class.php",
+"app/controller/api.class.php",
+"app/controller/utils.php",
+"plugins/toolsCommon/static/pie/.pie.tif",
+"config/version.php",
+"app/function/file.function.php",
+"app/function/helper.function.php",
+"app/sdks/lessc.class.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"app/controller/utils.php",
+"plugins/toolsCommon/static/pie/.pie.tif",
+"static/style/skin/base/app_desktop.css",
+"static/style/skin/base/app_code_edit.css",
+"static/style/skin/base/app_setting.css",
+"ChangeLog.md",
+"static/style/skin/base/app_explorer.css",
+"config/version.php",
+"static/style/skin/base/app_editor.css"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-6851",
+"patch_date": [
+"2023-12-15 03:02:35+08:00"
+],
+"patch_files": [
+"app/kod/ImageThumb.class.php",
+"app/controller/api.class.php",
+"app/controller/utils.php",
+"plugins/toolsCommon/static/pie/.pie.tif",
+"static/style/skin/base/app_desktop.css",
+"static/style/skin/base/app_code_edit.css",
+"static/style/skin/base/app_setting.css",
+"ChangeLog.md",
+"static/style/skin/base/app_explorer.css",
+"config/version.php",
+"app/function/file.function.php",
+"app/function/helper.function.php",
+"app/sdks/lessc.class.php",
+"static/style/skin/base/app_editor.css"
+],
+"earliest_patch_date": "2023-12-15 03:02:35+08:00",
+"earliest_vuln_date": "2014-07-07 02:24:21+08:00",
+"vuln_files": [
+"app/kod/ImageThumb.class.php",
+"app/controller/api.class.php",
+"app/controller/utils.php",
+"plugins/toolsCommon/static/pie/.pie.tif",
+"config/version.php",
+"app/function/file.function.php",
+"app/function/helper.function.php",
+"app/sdks/lessc.class.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"app/kod/ImageThumb.class.php",
+"app/controller/api.class.php",
+"app/controller/utils.php",
+"plugins/toolsCommon/static/pie/.pie.tif",
+"static/style/skin/base/app_desktop.css",
+"static/style/skin/base/app_code_edit.css",
+"static/style/skin/base/app_setting.css",
+"ChangeLog.md",
+"static/style/skin/base/app_explorer.css",
+"config/version.php",
+"app/function/file.function.php",
+"app/function/helper.function.php",
+"app/sdks/lessc.class.php",
+"static/style/skin/base/app_editor.css"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-6852",
+"patch_date": [
+"2023-12-15 03:02:35+08:00"
+],
+"patch_files": [
+"app/kod/ImageThumb.class.php",
+"app/controller/api.class.php",
+"app/controller/utils.php",
+"plugins/toolsCommon/static/pie/.pie.tif",
+"static/style/skin/base/app_desktop.css",
+"static/style/skin/base/app_code_edit.css",
+"static/style/skin/base/app_setting.css",
+"ChangeLog.md",
+"static/style/skin/base/app_explorer.css",
+"config/version.php",
+"app/function/file.function.php",
+"app/function/helper.function.php",
+"app/sdks/lessc.class.php",
+"static/style/skin/base/app_editor.css"
+],
+"earliest_patch_date": "2023-12-15 03:02:35+08:00",
+"earliest_vuln_date": "2014-07-07 02:24:21+08:00",
+"vuln_files": [
+"app/kod/ImageThumb.class.php",
+"app/controller/api.class.php",
+"app/controller/utils.php",
+"plugins/toolsCommon/static/pie/.pie.tif",
+"config/version.php",
+"app/function/file.function.php",
+"app/function/helper.function.php",
+"app/sdks/lessc.class.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"app/kod/ImageThumb.class.php",
+"app/controller/api.class.php",
+"app/controller/utils.php",
+"plugins/toolsCommon/static/pie/.pie.tif",
+"static/style/skin/base/app_desktop.css",
+"static/style/skin/base/app_code_edit.css",
+"static/style/skin/base/app_setting.css",
+"ChangeLog.md",
+"static/style/skin/base/app_explorer.css",
+"config/version.php",
+"app/function/file.function.php",
+"app/function/helper.function.php",
+"app/sdks/lessc.class.php",
+"static/style/skin/base/app_editor.css"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-6853",
+"patch_date": [
+"2023-12-15 03:02:35+08:00"
+],
+"patch_files": [
+"app/kod/ImageThumb.class.php",
+"app/controller/api.class.php",
+"app/controller/utils.php",
+"plugins/toolsCommon/static/pie/.pie.tif",
+"static/style/skin/base/app_desktop.css",
+"static/style/skin/base/app_code_edit.css",
+"static/style/skin/base/app_setting.css",
+"ChangeLog.md",
+"static/style/skin/base/app_explorer.css",
+"config/version.php",
+"app/function/file.function.php",
+"app/function/helper.function.php",
+"app/sdks/lessc.class.php",
+"static/style/skin/base/app_editor.css"
+],
+"earliest_patch_date": "2023-12-15 03:02:35+08:00",
+"earliest_vuln_date": "2014-07-07 02:24:21+08:00",
+"vuln_files": [
+"app/kod/ImageThumb.class.php",
+"app/controller/api.class.php",
+"app/controller/utils.php",
+"plugins/toolsCommon/static/pie/.pie.tif",
+"config/version.php",
+"app/function/file.function.php",
+"app/function/helper.function.php",
+"app/sdks/lessc.class.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"app/kod/ImageThumb.class.php",
+"app/controller/api.class.php",
+"app/controller/utils.php",
+"plugins/toolsCommon/static/pie/.pie.tif",
+"static/style/skin/base/app_desktop.css",
+"static/style/skin/base/app_code_edit.css",
+"static/style/skin/base/app_setting.css",
+"ChangeLog.md",
+"static/style/skin/base/app_explorer.css",
+"config/version.php",
+"app/function/file.function.php",
+"app/function/helper.function.php",
+"app/sdks/lessc.class.php",
+"static/style/skin/base/app_editor.css"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

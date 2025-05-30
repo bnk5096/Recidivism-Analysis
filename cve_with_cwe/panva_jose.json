@@ -1,0 +1,87 @@
+[
+{
+"cve_id": "CVE-2022-36083",
+"patch_date": [
+"2022-09-01 09:47:26+02:00"
+],
+"patch_files": [
+"src/lib/decrypt_key_management.ts",
+"test/jwe/flattened.decrypt.test.mjs",
+"src/types.d.ts",
+"src/jwe/flattened/decrypt.ts"
+],
+"earliest_patch_date": "2022-09-01 09:47:26+02:00",
+"earliest_vuln_date": "2020-11-14 18:26:46+01:00",
+"vuln_files": [
+"src/lib/decrypt_key_management.ts",
+"test/jwe/flattened.decrypt.test.mjs",
+"src/jwe/flattened/decrypt.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "LOW",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"CWE-834"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-28176",
+"patch_date": [
+"2024-03-07 12:02:29+01:00",
+"2024-03-07 12:47:15+01:00"
+],
+"patch_files": [
+"docs/README.md",
+"test/jwe/sanity.test.js",
+"types/index.d.ts",
+"docs/modules/util_errors.md",
+"lib/jwe/decrypt.js",
+"test/jwe/flattened.decrypt.test.mjs",
+"docs/classes/util_errors.JWEDecompressionFailed.md",
+"src/runtime/node/zlib.ts"
+],
+"earliest_patch_date": "2024-03-07 12:02:29+01:00",
+"earliest_vuln_date": "2019-02-22 22:26:33+01:00",
+"vuln_files": [
+"lib/jwe/decrypt.js",
+"src/runtime/node/zlib.ts"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"test/jwe/flattened.decrypt.test.mjs"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

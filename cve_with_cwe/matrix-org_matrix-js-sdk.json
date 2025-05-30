@@ -1,0 +1,523 @@
+[
+{
+"cve_id": "CVE-2022-39236",
+"patch_date": [
+"2022-09-28 13:55:15+01:00"
+],
+"patch_files": [
+"src/@types/crypto.ts",
+"spec/integ/megolm-integ.spec.ts",
+"src/models/beacon.ts",
+"src/crypto/store/indexeddb-crypto-store.ts",
+"src/content-helpers.ts",
+"spec/integ/matrix-client-crypto.spec.ts",
+"src/crypto/OlmDevice.ts",
+"src/models/event.ts",
+"src/crypto/olmlib.ts",
+"src/crypto/store/base.ts",
+"src/crypto/backup.ts",
+"spec/integ/matrix-client-syncing.spec.ts",
+"spec/unit/crypto/algorithms/megolm.spec.ts",
+"spec/unit/crypto.spec.ts",
+"spec/unit/crypto/backup.spec.ts",
+"src/crypto/algorithms/megolm.ts",
+"src/NamespacedValue.ts",
+"src/crypto/store/indexeddb-crypto-store-backend.ts",
+"spec/unit/crypto/secrets.spec.ts",
+"src/sync.ts",
+"src/crypto/verification/Base.ts",
+"src/crypto/algorithms/olm.ts",
+"src/crypto/SecretStorage.ts",
+"src/crypto/index.ts",
+"src/crypto/store/memory-crypto-store.ts",
+"spec/unit/crypto/verification/sas.spec.ts",
+"src/client.ts",
+"spec/unit/content-helpers.spec.ts",
+"spec/unit/models/beacon.spec.ts",
+"src/event-mapper.ts"
+],
+"earliest_patch_date": "2022-09-28 13:55:15+01:00",
+"earliest_vuln_date": "2016-11-16 22:24:11+00:00",
+"vuln_files": [
+"src/crypto/verification/Base.ts",
+"src/crypto/index.ts",
+"src/crypto/OlmDevice.ts",
+"spec/unit/crypto.spec.ts",
+"spec/integ/megolm-integ.spec.ts",
+"spec/unit/crypto/verification/sas.spec.ts",
+"src/crypto/algorithms/megolm.ts",
+"src/NamespacedValue.ts",
+"src/models/event.ts",
+"spec/unit/crypto/secrets.spec.ts",
+"src/models/beacon.ts",
+"src/content-helpers.ts",
+"src/sync.ts",
+"src/crypto/backup.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "LOW",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-39249",
+"patch_date": [
+"2022-09-28 13:55:15+01:00"
+],
+"patch_files": [
+"src/@types/crypto.ts",
+"spec/integ/megolm-integ.spec.ts",
+"src/models/beacon.ts",
+"src/crypto/store/indexeddb-crypto-store.ts",
+"src/content-helpers.ts",
+"spec/integ/matrix-client-crypto.spec.ts",
+"src/crypto/OlmDevice.ts",
+"src/models/event.ts",
+"src/crypto/olmlib.ts",
+"src/crypto/store/base.ts",
+"src/crypto/backup.ts",
+"spec/integ/matrix-client-syncing.spec.ts",
+"spec/unit/crypto/algorithms/megolm.spec.ts",
+"spec/unit/crypto.spec.ts",
+"spec/unit/crypto/backup.spec.ts",
+"src/crypto/algorithms/megolm.ts",
+"src/NamespacedValue.ts",
+"src/crypto/store/indexeddb-crypto-store-backend.ts",
+"spec/unit/crypto/secrets.spec.ts",
+"src/sync.ts",
+"src/crypto/verification/Base.ts",
+"src/crypto/algorithms/olm.ts",
+"src/crypto/SecretStorage.ts",
+"src/crypto/index.ts",
+"src/crypto/store/memory-crypto-store.ts",
+"spec/unit/crypto/verification/sas.spec.ts",
+"src/client.ts",
+"spec/unit/content-helpers.spec.ts",
+"spec/unit/models/beacon.spec.ts",
+"src/event-mapper.ts"
+],
+"earliest_patch_date": "2022-09-28 13:55:15+01:00",
+"earliest_vuln_date": "2016-11-16 22:24:11+00:00",
+"vuln_files": [
+"src/crypto/verification/Base.ts",
+"src/crypto/index.ts",
+"src/crypto/OlmDevice.ts",
+"spec/unit/crypto.spec.ts",
+"spec/integ/megolm-integ.spec.ts",
+"spec/unit/crypto/verification/sas.spec.ts",
+"src/crypto/algorithms/megolm.ts",
+"src/NamespacedValue.ts",
+"src/models/event.ts",
+"spec/unit/crypto/secrets.spec.ts",
+"src/models/beacon.ts",
+"src/content-helpers.ts",
+"src/sync.ts",
+"src/crypto/backup.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-287"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/@types/crypto.ts",
+"spec/integ/megolm-integ.spec.ts",
+"src/models/beacon.ts",
+"src/crypto/store/indexeddb-crypto-store.ts",
+"src/content-helpers.ts",
+"spec/integ/matrix-client-crypto.spec.ts",
+"src/crypto/OlmDevice.ts",
+"src/models/event.ts",
+"src/crypto/olmlib.ts",
+"src/crypto/store/base.ts",
+"src/crypto/backup.ts",
+"spec/integ/matrix-client-syncing.spec.ts",
+"spec/unit/crypto/algorithms/megolm.spec.ts",
+"spec/unit/crypto.spec.ts",
+"spec/unit/crypto/backup.spec.ts",
+"src/crypto/algorithms/megolm.ts",
+"src/NamespacedValue.ts",
+"src/crypto/store/indexeddb-crypto-store-backend.ts",
+"spec/unit/crypto/secrets.spec.ts",
+"src/sync.ts",
+"src/crypto/verification/Base.ts",
+"src/crypto/algorithms/olm.ts",
+"src/crypto/SecretStorage.ts",
+"src/crypto/index.ts",
+"src/crypto/store/memory-crypto-store.ts",
+"spec/unit/crypto/verification/sas.spec.ts",
+"src/client.ts",
+"spec/unit/content-helpers.spec.ts",
+"spec/unit/models/beacon.spec.ts",
+"src/event-mapper.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-39250",
+"patch_date": [
+"2022-09-28 13:55:15+01:00"
+],
+"patch_files": [
+"src/@types/crypto.ts",
+"spec/integ/megolm-integ.spec.ts",
+"src/models/beacon.ts",
+"src/crypto/store/indexeddb-crypto-store.ts",
+"src/content-helpers.ts",
+"spec/integ/matrix-client-crypto.spec.ts",
+"src/crypto/OlmDevice.ts",
+"src/models/event.ts",
+"src/crypto/olmlib.ts",
+"src/crypto/store/base.ts",
+"src/crypto/backup.ts",
+"spec/integ/matrix-client-syncing.spec.ts",
+"spec/unit/crypto/algorithms/megolm.spec.ts",
+"spec/unit/crypto.spec.ts",
+"spec/unit/crypto/backup.spec.ts",
+"src/crypto/algorithms/megolm.ts",
+"src/NamespacedValue.ts",
+"src/crypto/store/indexeddb-crypto-store-backend.ts",
+"spec/unit/crypto/secrets.spec.ts",
+"src/sync.ts",
+"src/crypto/verification/Base.ts",
+"src/crypto/algorithms/olm.ts",
+"src/crypto/SecretStorage.ts",
+"src/crypto/index.ts",
+"src/crypto/store/memory-crypto-store.ts",
+"spec/unit/crypto/verification/sas.spec.ts",
+"src/client.ts",
+"spec/unit/content-helpers.spec.ts",
+"spec/unit/models/beacon.spec.ts",
+"src/event-mapper.ts"
+],
+"earliest_patch_date": "2022-09-28 13:55:15+01:00",
+"earliest_vuln_date": "2016-11-16 22:24:11+00:00",
+"vuln_files": [
+"src/crypto/verification/Base.ts",
+"src/crypto/index.ts",
+"src/crypto/OlmDevice.ts",
+"spec/unit/crypto.spec.ts",
+"spec/integ/megolm-integ.spec.ts",
+"spec/unit/crypto/verification/sas.spec.ts",
+"src/crypto/algorithms/megolm.ts",
+"src/NamespacedValue.ts",
+"src/models/event.ts",
+"spec/unit/crypto/secrets.spec.ts",
+"src/models/beacon.ts",
+"src/content-helpers.ts",
+"src/sync.ts",
+"src/crypto/backup.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-287"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-287"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/@types/crypto.ts",
+"spec/integ/megolm-integ.spec.ts",
+"src/models/beacon.ts",
+"src/crypto/store/indexeddb-crypto-store.ts",
+"src/content-helpers.ts",
+"spec/integ/matrix-client-crypto.spec.ts",
+"src/crypto/OlmDevice.ts",
+"src/models/event.ts",
+"src/crypto/olmlib.ts",
+"src/crypto/store/base.ts",
+"src/crypto/backup.ts",
+"spec/integ/matrix-client-syncing.spec.ts",
+"spec/unit/crypto/algorithms/megolm.spec.ts",
+"spec/unit/crypto.spec.ts",
+"spec/unit/crypto/backup.spec.ts",
+"src/crypto/algorithms/megolm.ts",
+"src/NamespacedValue.ts",
+"src/crypto/store/indexeddb-crypto-store-backend.ts",
+"spec/unit/crypto/secrets.spec.ts",
+"src/sync.ts",
+"src/crypto/verification/Base.ts",
+"src/crypto/algorithms/olm.ts",
+"src/crypto/SecretStorage.ts",
+"src/crypto/index.ts",
+"src/crypto/store/memory-crypto-store.ts",
+"spec/unit/crypto/verification/sas.spec.ts",
+"src/client.ts",
+"spec/unit/content-helpers.spec.ts",
+"spec/unit/models/beacon.spec.ts",
+"src/event-mapper.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-39251",
+"patch_date": [
+"2022-09-28 13:55:15+01:00"
+],
+"patch_files": [
+"src/@types/crypto.ts",
+"spec/integ/megolm-integ.spec.ts",
+"src/models/beacon.ts",
+"src/crypto/store/indexeddb-crypto-store.ts",
+"src/content-helpers.ts",
+"spec/integ/matrix-client-crypto.spec.ts",
+"src/crypto/OlmDevice.ts",
+"src/models/event.ts",
+"src/crypto/olmlib.ts",
+"src/crypto/store/base.ts",
+"src/crypto/backup.ts",
+"spec/integ/matrix-client-syncing.spec.ts",
+"spec/unit/crypto/algorithms/megolm.spec.ts",
+"spec/unit/crypto.spec.ts",
+"spec/unit/crypto/backup.spec.ts",
+"src/crypto/algorithms/megolm.ts",
+"src/NamespacedValue.ts",
+"src/crypto/store/indexeddb-crypto-store-backend.ts",
+"spec/unit/crypto/secrets.spec.ts",
+"src/sync.ts",
+"src/crypto/verification/Base.ts",
+"src/crypto/algorithms/olm.ts",
+"src/crypto/SecretStorage.ts",
+"src/crypto/index.ts",
+"src/crypto/store/memory-crypto-store.ts",
+"spec/unit/crypto/verification/sas.spec.ts",
+"src/client.ts",
+"spec/unit/content-helpers.spec.ts",
+"spec/unit/models/beacon.spec.ts",
+"src/event-mapper.ts"
+],
+"earliest_patch_date": "2022-09-28 13:55:15+01:00",
+"earliest_vuln_date": "2016-11-16 22:24:11+00:00",
+"vuln_files": [
+"src/crypto/verification/Base.ts",
+"src/crypto/index.ts",
+"src/crypto/OlmDevice.ts",
+"spec/unit/crypto.spec.ts",
+"spec/integ/megolm-integ.spec.ts",
+"spec/unit/crypto/verification/sas.spec.ts",
+"src/crypto/algorithms/megolm.ts",
+"src/NamespacedValue.ts",
+"src/models/event.ts",
+"spec/unit/crypto/secrets.spec.ts",
+"src/models/beacon.ts",
+"src/content-helpers.ts",
+"src/sync.ts",
+"src/crypto/backup.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-287"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-287"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/@types/crypto.ts",
+"spec/integ/megolm-integ.spec.ts",
+"src/models/beacon.ts",
+"src/crypto/store/indexeddb-crypto-store.ts",
+"src/content-helpers.ts",
+"spec/integ/matrix-client-crypto.spec.ts",
+"src/crypto/OlmDevice.ts",
+"src/models/event.ts",
+"src/crypto/olmlib.ts",
+"src/crypto/store/base.ts",
+"src/crypto/backup.ts",
+"spec/integ/matrix-client-syncing.spec.ts",
+"spec/unit/crypto/algorithms/megolm.spec.ts",
+"spec/unit/crypto.spec.ts",
+"spec/unit/crypto/backup.spec.ts",
+"src/crypto/algorithms/megolm.ts",
+"src/NamespacedValue.ts",
+"src/crypto/store/indexeddb-crypto-store-backend.ts",
+"spec/unit/crypto/secrets.spec.ts",
+"src/sync.ts",
+"src/crypto/verification/Base.ts",
+"src/crypto/algorithms/olm.ts",
+"src/crypto/SecretStorage.ts",
+"src/crypto/index.ts",
+"src/crypto/store/memory-crypto-store.ts",
+"spec/unit/crypto/verification/sas.spec.ts",
+"src/client.ts",
+"spec/unit/content-helpers.spec.ts",
+"spec/unit/models/beacon.spec.ts",
+"src/event-mapper.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-42369",
+"patch_date": [
+"2024-08-20 11:27:28+01:00"
+],
+"patch_files": [
+"src/client.ts"
+],
+"earliest_patch_date": "2024-08-20 11:27:28+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "LOW",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"CWE-674"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/client.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-47080",
+"patch_date": [
+"2024-10-15 11:48:16+01:00"
+],
+"patch_files": [
+"src/client.ts",
+"src/models/MSC3089TreeSpace.ts",
+"spec/unit/models/MSC3089TreeSpace.spec.ts"
+],
+"earliest_patch_date": "2024-10-15 11:48:16+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {},
+"cwes": [
+"CWE-200",
+"CWE-287"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-287"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/client.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

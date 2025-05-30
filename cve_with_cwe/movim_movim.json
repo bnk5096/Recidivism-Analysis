@@ -1,0 +1,49 @@
+[
+{
+"cve_id": "CVE-2023-2848",
+"patch_date": [
+"2023-05-07 17:37:28+02:00",
+"2023-05-07 14:24:28+02:00"
+],
+"patch_files": [
+"src/Movim/Daemon/Core.php",
+"CHANGELOG.md"
+],
+"earliest_patch_date": "2023-05-07 14:24:28+02:00",
+"earliest_vuln_date": "2015-01-16 18:25:28+01:00",
+"vuln_files": [
+"src/Movim/Daemon/Core.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-346"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

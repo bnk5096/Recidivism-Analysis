@@ -1,0 +1,220 @@
+[
+{
+"cve_id": "CVE-2020-7769",
+"patch_date": [
+"2020-11-12 10:03:18+02:00"
+],
+"patch_files": [
+"test/sendmail/le-unix.test.js",
+"test/sendmail/sendmail-test.js",
+"lib/fetch/cookies.js",
+"lib/smtp-connection/index.js",
+"test/smtp-transport/smtp-tranport-test.js",
+"lib/well-known/services.json",
+"test/ses-transport/ses-transport-test.js",
+"test/smtp-connection/http-proxy-client-test.js",
+"test/dkim/sign-test.js",
+"test/well-known/well-known-test.js",
+"lib/sendmail-transport/index.js",
+"lib/mime-funcs/mime-types.js",
+"lib/mailer/mail-message.js",
+"lib/fetch/index.js",
+"lib/xoauth2/index.js",
+"package.json",
+"test/sendmail/le-windows-test.js",
+"lib/nodemailer.js",
+"test/smtp-connection/smtp-connection-test.js",
+"test/smtp-connection/xoauth2-mock-server.js",
+"test/ethereal-test.js",
+"test/fetch/cookies-test.js",
+"lib/well-known/index.js",
+"lib/smtp-connection/http-proxy-client.js",
+"test/stream-transport/stream-transport-test.js",
+"test/json-transport/json-transport-test.js",
+"test/dkim/relaxed-body-test.js",
+"test/qp/qp-test.js",
+"lib/shared/index.js",
+"test/dkim/message-parser-test.js",
+"Gruntfile.js",
+"test/smtp-pool/smtp-pool-test.js",
+"test/xoauth2/server.js",
+"test/xoauth2/xoauth2-test.js",
+"lib/dkim/message-parser.js",
+"test/base64/base64-test.js",
+".travis.yml",
+"test/shared/shared-test.js",
+"test/dkim/dkim-test.js",
+"test/fetch/fetch-test.js"
+],
+"earliest_patch_date": "2020-11-12 10:03:18+02:00",
+"earliest_vuln_date": "2014-06-25 15:25:55+02:00",
+"vuln_files": [
+"test/sendmail/le-unix.test.js",
+"test/sendmail/sendmail-test.js",
+"lib/fetch/cookies.js",
+"lib/smtp-connection/index.js",
+"test/smtp-transport/smtp-tranport-test.js",
+"lib/well-known/services.json",
+"test/ses-transport/ses-transport-test.js",
+"test/smtp-connection/http-proxy-client-test.js",
+"test/dkim/sign-test.js",
+"test/well-known/well-known-test.js",
+"lib/mime-funcs/mime-types.js",
+"lib/mailer/mail-message.js",
+"lib/fetch/index.js",
+"lib/xoauth2/index.js",
+"package.json",
+"test/sendmail/le-windows-test.js",
+"lib/nodemailer.js",
+"test/smtp-connection/smtp-connection-test.js",
+"test/smtp-connection/xoauth2-mock-server.js",
+"test/ethereal-test.js",
+"test/fetch/cookies-test.js",
+"lib/well-known/index.js",
+"lib/smtp-connection/http-proxy-client.js",
+"test/stream-transport/stream-transport-test.js",
+"test/json-transport/json-transport-test.js",
+"test/dkim/relaxed-body-test.js",
+"test/qp/qp-test.js",
+"lib/shared/index.js",
+"test/dkim/message-parser-test.js",
+"Gruntfile.js",
+"test/smtp-pool/smtp-pool-test.js",
+"test/xoauth2/server.js",
+"test/xoauth2/xoauth2-test.js",
+"lib/dkim/message-parser.js",
+"test/base64/base64-test.js",
+"test/shared/shared-test.js",
+"test/dkim/dkim-test.js",
+"test/fetch/fetch-test.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-88"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-23400",
+"patch_date": [
+"2021-05-23 13:18:53+03:00"
+],
+"patch_files": [
+".travis.yml",
+"lib/mime-node/index.js",
+"examples/mailcomposer.js",
+"package.json",
+"CHANGELOG.md"
+],
+"earliest_patch_date": "2021-05-23 13:18:53+03:00",
+"earliest_vuln_date": "2017-01-31 11:41:39+02:00",
+"vuln_files": [
+"examples/mailcomposer.js",
+"lib/mime-node/index.js",
+".travis.yml",
+"package.json"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-74"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+".travis.yml",
+"package.json"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,82 @@
+[
+{
+"cve_id": "CVE-2024-21636",
+"patch_date": [
+"2024-01-04 11:25:54-08:00",
+"2024-01-08 13:20:45-08:00"
+],
+"patch_files": [
+"test/sandbox/app/components/deprecated_slots_setter_component.rb",
+"lib/view_component/compiler.rb",
+"test/sandbox/app/components/custom_test_controller_component.rb",
+"test/sandbox/app/components/render_check_component.rb",
+"test/sandbox/test/collection_test.rb",
+"lib/view_component/base.rb",
+"docs/CHANGELOG.md",
+"test/sandbox/app/components/after_render_component.rb",
+"test/sandbox/config/routes.rb",
+"test/sandbox/app/components/inline_render_component.rb",
+"test/sandbox/app/controllers/integration_examples_controller.rb",
+"test/test_helper.rb",
+"test/sandbox/app/components/message_component.rb",
+"test/sandbox/app/components/unsafe_postamble_component.rb",
+"test/sandbox/test/rendering_test.rb",
+".github/workflows/ci.yml",
+"test/sandbox/app/components/unsafe_component.rb",
+"test/sandbox/app/components/variant_ivar_component.rb",
+".rubocop.yml",
+"test/sandbox/app/components/inherited_from_uncompilable_component.rb",
+"test/sandbox/test/integration_test.rb",
+"lib/view_component/test_helpers.rb",
+"test/sandbox/app/components/content_predicate_component.rb"
+],
+"earliest_patch_date": "2024-01-04 11:25:54-08:00",
+"earliest_vuln_date": "2020-03-31 14:11:15-06:00",
+"vuln_files": [
+"test/sandbox/app/components/render_check_component.rb",
+"test/sandbox/test/rendering_test.rb",
+".github/workflows/ci.yml",
+"test/sandbox/app/components/inline_render_component.rb",
+"test/sandbox/app/components/variant_ivar_component.rb",
+"lib/view_component/base.rb",
+"test/sandbox/app/components/inherited_from_uncompilable_component.rb",
+"test/sandbox/app/components/message_component.rb",
+"lib/view_component/test_helpers.rb",
+"test/sandbox/app/components/content_predicate_component.rb",
+"test/sandbox/app/components/custom_test_controller_component.rb",
+"test/sandbox/app/components/after_render_component.rb",
+"test/sandbox/test/collection_test.rb",
+"test/sandbox/app/components/deprecated_slots_setter_component.rb",
+"test/sandbox/test/integration_test.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

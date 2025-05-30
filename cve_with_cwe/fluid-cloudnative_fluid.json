@@ -1,0 +1,102 @@
+[
+{
+"cve_id": "CVE-2023-30840",
+"patch_date": [
+"2023-05-08 14:46:24+08:00",
+"2023-05-08 14:46:24+08:00"
+],
+"patch_files": [
+"pkg/csi/plugins/nodeserver.go",
+"cmd/csi/app/csi.go",
+"charts/fluid/fluid/templates/role/webhook/rabc.yaml",
+"charts/fluid/fluid/Chart.yaml",
+"charts/fluid/fluid/values.yaml",
+"pkg/utils/kubelet/node_auth_client.go",
+"charts/fluid/fluid/templates/role/csi/rbac.yaml",
+"charts/fluid/fluid/CHANGELOG.md",
+"pkg/csi/plugins/driver.go",
+"charts/fluid/fluid/templates/csi/daemonset.yaml",
+"charts/fluid/fluid/templates/webhook/webhook.yaml",
+"pkg/csi/config/config.go",
+"pkg/csi/plugins/register.go"
+],
+"earliest_patch_date": "2023-05-08 14:46:24+08:00",
+"earliest_vuln_date": "2020-07-12 11:10:40+08:00",
+"vuln_files": [
+"pkg/csi/plugins/nodeserver.go",
+"cmd/csi/app/csi.go",
+"charts/fluid/fluid/templates/role/webhook/rabc.yaml",
+"charts/fluid/fluid/Chart.yaml",
+"charts/fluid/fluid/values.yaml",
+"charts/fluid/fluid/templates/role/csi/rbac.yaml",
+"pkg/csi/plugins/driver.go",
+"charts/fluid/fluid/templates/csi/daemonset.yaml",
+"charts/fluid/fluid/templates/webhook/webhook.yaml",
+"pkg/csi/config/config.go",
+"pkg/csi/plugins/register.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-51699",
+"patch_date": [
+"2024-03-13 20:38:50+08:00"
+],
+"patch_files": [
+"pkg/ddc/juicefs/transform_fuse.go",
+"pkg/ddc/juicefs/operations/base.go",
+"pkg/ddc/juicefs/ufs_test.go",
+"pkg/ddc/juicefs/operations/base_test.go",
+"pkg/utils/security/escape_test.go",
+"charts/juicefs/Chart.yaml",
+"pkg/utils/security/escape.go"
+],
+"earliest_patch_date": "2024-03-13 20:38:50+08:00",
+"earliest_vuln_date": "2021-11-22 11:42:33+08:00",
+"vuln_files": [
+"pkg/ddc/juicefs/transform_fuse.go",
+"pkg/ddc/juicefs/operations/base.go",
+"pkg/ddc/juicefs/ufs_test.go",
+"pkg/ddc/juicefs/operations/base_test.go",
+"charts/juicefs/Chart.yaml"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

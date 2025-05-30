@@ -1,0 +1,522 @@
+[
+{
+"cve_id": "CVE-2023-37476",
+"patch_date": [
+"2023-07-17 08:28:52+02:00"
+],
+"patch_files": [
+"main/src/com/google/refine/io/FileProjectManager.java",
+"main/tests/data/zip-slip.tar",
+"main/tests/server/src/com/google/refine/io/FileProjectManagerTests.java"
+],
+"earliest_patch_date": "2023-07-17 08:28:52+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-41887",
+"patch_date": [
+"2023-09-11 18:56:50+02:00"
+],
+"patch_files": [
+"extensions/database/src/com/google/refine/extension/database/pgsql/PgSQLConnectionManager.java",
+"extensions/database/src/com/google/refine/extension/database/DatabaseConfiguration.java",
+"extensions/database/src/com/google/refine/extension/database/sqlite/SQLiteConnectionManager.java",
+"extensions/database/src/com/google/refine/extension/database/mariadb/MariaDBConnectionManager.java",
+"extensions/database/tests/src/com/google/refine/extension/database/DatabaseConfigurationTest.java",
+"extensions/database/src/com/google/refine/extension/database/mysql/MySQLConnectionManager.java"
+],
+"earliest_patch_date": "2023-09-11 18:56:50+02:00",
+"earliest_vuln_date": "2018-01-13 20:24:56-06:00",
+"vuln_files": [
+"extensions/database/src/com/google/refine/extension/database/mariadb/MariaDBConnectionManager.java",
+"extensions/database/src/com/google/refine/extension/database/pgsql/PgSQLConnectionManager.java",
+"extensions/database/src/com/google/refine/extension/database/sqlite/SQLiteConnectionManager.java",
+"extensions/database/src/com/google/refine/extension/database/mysql/MySQLConnectionManager.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-41886",
+"patch_date": [
+"2023-09-12 08:34:13+02:00"
+],
+"patch_files": [
+"extensions/database/src/com/google/refine/extension/database/pgsql/PgSQLConnectionManager.java",
+"extensions/database/src/com/google/refine/extension/database/DatabaseConfiguration.java",
+"extensions/database/src/com/google/refine/extension/database/sqlite/SQLiteConnectionManager.java",
+"extensions/database/src/com/google/refine/extension/database/mariadb/MariaDBConnectionManager.java",
+"extensions/database/tests/src/com/google/refine/extension/database/DatabaseConfigurationTest.java",
+"extensions/database/src/com/google/refine/extension/database/mysql/MySQLConnectionManager.java"
+],
+"earliest_patch_date": "2023-09-12 08:34:13+02:00",
+"earliest_vuln_date": "2018-01-13 20:24:56-06:00",
+"vuln_files": [
+"extensions/database/src/com/google/refine/extension/database/mariadb/MariaDBConnectionManager.java",
+"extensions/database/src/com/google/refine/extension/database/pgsql/PgSQLConnectionManager.java",
+"extensions/database/src/com/google/refine/extension/database/sqlite/SQLiteConnectionManager.java",
+"extensions/database/src/com/google/refine/extension/database/mysql/MySQLConnectionManager.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"extensions/database/src/com/google/refine/extension/database/pgsql/PgSQLConnectionManager.java",
+"extensions/database/src/com/google/refine/extension/database/DatabaseConfiguration.java",
+"extensions/database/src/com/google/refine/extension/database/sqlite/SQLiteConnectionManager.java",
+"extensions/database/src/com/google/refine/extension/database/mariadb/MariaDBConnectionManager.java",
+"extensions/database/tests/src/com/google/refine/extension/database/DatabaseConfigurationTest.java",
+"extensions/database/src/com/google/refine/extension/database/mysql/MySQLConnectionManager.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-23833",
+"patch_date": [
+"2024-02-10 17:53:33+01:00"
+],
+"patch_files": [
+"extensions/database/src/com/google/refine/extension/database/DatabaseConfiguration.java",
+"extensions/database/tests/src/com/google/refine/extension/database/DatabaseConfigurationTest.java"
+],
+"earliest_patch_date": "2024-02-10 17:53:33+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-863"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"extensions/database/src/com/google/refine/extension/database/DatabaseConfiguration.java",
+"extensions/database/tests/src/com/google/refine/extension/database/DatabaseConfigurationTest.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-47879",
+"patch_date": [
+"2024-10-24 09:03:22+02:00"
+],
+"patch_files": [
+"main/webapp/modules/core/scripts/util/csrf.js",
+"main/webapp/modules/core/scripts/dialogs/scatterplot-dialog.js",
+"main/tests/server/src/com/google/refine/commands/browsing/ComputeClustersCommandTests.java",
+"main/src/com/google/refine/commands/browsing/ComputeFacetsCommand.java",
+"main/src/com/google/refine/commands/browsing/GetScatterplotCommand.java",
+"main/tests/server/src/com/google/refine/commands/project/ExportRowsCommandTests.java",
+"main/tests/server/src/com/google/refine/commands/expr/PreviewExpressionCommandTests.java",
+"main/webapp/modules/core/scripts/dialogs/expression-preview-dialog.js",
+"main/webapp/modules/core/scripts/project/browsing-engine.js",
+"main/webapp/modules/core/scripts/dialogs/custom-tabular-exporter-dialog.js",
+"main/webapp/modules/core/scripts/project/exporters.js",
+"main/webapp/modules/core/scripts/dialogs/clustering-dialog.js",
+"main/src/com/google/refine/commands/browsing/ComputeClustersCommand.java",
+"main/webapp/modules/core/scripts/dialogs/sql-exporter-dialog.js",
+"main/tests/server/src/com/google/refine/commands/browsing/ComputeFacetsCommandTests.java",
+"main/src/com/google/refine/commands/project/ExportRowsCommand.java",
+"main/src/com/google/refine/commands/expr/PreviewExpressionCommand.java",
+"main/webapp/modules/core/scripts/dialogs/templating-exporter-dialog.js",
+"main/webapp/modules/core/scripts/facets/scatterplot-facet.js",
+"main/tests/server/src/com/google/refine/commands/browsing/ScatterplotDrawCommandTests.java",
+"extensions/wikibase/module/scripts/menu-bar-extension.js"
+],
+"earliest_patch_date": "2024-10-24 09:03:22+02:00",
+"earliest_vuln_date": "2010-01-30 01:05:30+00:00",
+"vuln_files": [
+"main/webapp/modules/core/scripts/dialogs/expression-preview-dialog.js",
+"main/webapp/modules/core/scripts/util/csrf.js",
+"main/webapp/modules/core/scripts/project/browsing-engine.js",
+"main/tests/server/src/com/google/refine/commands/browsing/ScatterplotDrawCommandTests.java",
+"main/webapp/modules/core/scripts/dialogs/custom-tabular-exporter-dialog.js",
+"main/webapp/modules/core/scripts/project/exporters.js",
+"main/webapp/modules/core/scripts/dialogs/scatterplot-dialog.js",
+"extensions/wikibase/module/scripts/menu-bar-extension.js",
+"main/webapp/modules/core/scripts/dialogs/clustering-dialog.js",
+"main/webapp/modules/core/scripts/dialogs/sql-exporter-dialog.js",
+"main/tests/server/src/com/google/refine/commands/expr/PreviewExpressionCommandTests.java",
+"main/webapp/modules/core/scripts/dialogs/templating-exporter-dialog.js",
+"main/webapp/modules/core/scripts/facets/scatterplot-facet.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-352"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-47878",
+"patch_date": [
+"2024-10-24 09:03:24+02:00"
+],
+"patch_files": [
+"extensions/gdata/module/authorized.vt",
+"extensions/gdata/src/com/google/refine/extension/gdata/AuthorizedCommand.java",
+"extensions/gdata/module/MOD-INF/controller.js"
+],
+"earliest_patch_date": "2024-10-24 09:03:24+02:00",
+"earliest_vuln_date": "2011-08-07 23:26:51+00:00",
+"vuln_files": [
+"extensions/gdata/module/authorized.vt",
+"extensions/gdata/module/MOD-INF/controller.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-47880",
+"patch_date": [
+"2024-10-24 09:08:24+02:00"
+],
+"patch_files": [
+"main/src/com/google/refine/commands/project/ExportRowsCommand.java"
+],
+"earliest_patch_date": "2024-10-24 09:08:24+02:00",
+"earliest_vuln_date": "2011-08-30 19:19:46+00:00",
+"vuln_files": [
+"main/src/com/google/refine/commands/project/ExportRowsCommand.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.9,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.6,
+"impactScore": 4.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"main/src/com/google/refine/commands/project/ExportRowsCommand.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-47881",
+"patch_date": [
+"2024-10-24 09:25:44+02:00"
+],
+"patch_files": [
+"extensions/database/tests/conf/appveyor_tests.xml",
+"extensions/database/tests/conf/github_actions_tests.xml",
+"extensions/database/tests/src/com/google/refine/extension/database/sqlite/SQLiteDatabaseServiceTest.java",
+"extensions/database/src/com/google/refine/extension/database/sqlite/SQLiteConnectionManager.java",
+"extensions/database/tests/conf/tests.xml",
+"extensions/database/tests/src/com/google/refine/extension/database/sqlite/SQLiteConnectionManagerTest.java",
+"extensions/database/tests/src/com/google/refine/extension/database/DBExtensionTests.java",
+"extensions/database/tests/resources/test_db.sqlite"
+],
+"earliest_patch_date": "2024-10-24 09:25:44+02:00",
+"earliest_vuln_date": "2020-02-22 21:53:12-06:00",
+"vuln_files": [
+"extensions/database/tests/conf/appveyor_tests.xml",
+"extensions/database/tests/conf/github_actions_tests.xml",
+"extensions/database/tests/src/com/google/refine/extension/database/sqlite/SQLiteDatabaseServiceTest.java",
+"extensions/database/src/com/google/refine/extension/database/sqlite/SQLiteConnectionManager.java",
+"extensions/database/tests/conf/tests.xml",
+"extensions/database/tests/src/com/google/refine/extension/database/sqlite/SQLiteConnectionManagerTest.java",
+"extensions/database/tests/src/com/google/refine/extension/database/DBExtensionTests.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"extensions/database/src/com/google/refine/extension/database/sqlite/SQLiteConnectionManager.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-47882",
+"patch_date": [
+"2024-10-24 09:25:44+02:00"
+],
+"patch_files": [
+"modules/core/src/main/java/com/google/refine/commands/HttpUtilities.java"
+],
+"earliest_patch_date": "2024-10-24 09:25:44+02:00",
+"earliest_vuln_date": "2024-02-28 11:13:55+01:00",
+"vuln_files": [
+"modules/core/src/main/java/com/google/refine/commands/HttpUtilities.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-49760",
+"patch_date": [
+"2024-10-24 09:25:44+02:00"
+],
+"patch_files": [
+"main/tests/server/src/com/google/refine/commands/lang/LoadLanguageCommandTests.java",
+"main/src/com/google/refine/commands/lang/LoadLanguageCommand.java"
+],
+"earliest_patch_date": "2024-10-24 09:25:44+02:00",
+"earliest_vuln_date": "2022-08-05 12:39:55+02:00",
+"vuln_files": [
+"main/src/com/google/refine/commands/lang/LoadLanguageCommand.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

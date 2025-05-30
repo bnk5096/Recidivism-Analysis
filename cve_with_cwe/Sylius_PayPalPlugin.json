@@ -1,0 +1,58 @@
+[
+{
+"cve_id": "CVE-2021-41120",
+"patch_date": [
+"2021-10-04 15:57:45+02:00",
+"2021-10-05 21:45:14+02:00"
+],
+"patch_files": [
+"src/Controller/PayWithPayPalFormAction.php",
+"src/Resources/config/shop_routing.yaml",
+"phpstan.neon",
+"src/Resources/views/payWithPaypal.html.twig",
+"UPGRADE.md",
+"psalm.xml",
+"spec/Payum/Action/ResolveNextRouteActionSpec.php",
+"src/Payum/Action/ResolveNextRouteAction.php"
+],
+"earliest_patch_date": "2021-10-04 15:57:45+02:00",
+"earliest_vuln_date": "2020-09-22 08:34:38+02:00",
+"vuln_files": [
+"src/Resources/views/payWithPaypal.html.twig"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-639"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

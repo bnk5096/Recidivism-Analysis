@@ -1,0 +1,130 @@
+[
+{
+"cve_id": "CVE-2022-24861",
+"patch_date": [
+"2022-04-18 11:43:33+08:00"
+],
+"patch_files": [
+"core/src/main/java/com/databasir/core/infrastructure/jwt/JwtTokens.java",
+"core/src/test/resources/application-ut.properties",
+"api/src/main/resources/application-local.properties",
+"core/src/main/java/com/databasir/core/infrastructure/driver/DriverResources.java",
+"core/src/main/java/com/databasir/core/domain/database/service/DatabaseTypeService.java",
+"core/src/main/java/com/databasir/core/domain/DomainErrors.java",
+"api/src/main/resources/application.properties",
+"core/src/test/java/com/databasir/core/domain/database/service/DatabaseTypeServiceTest.java",
+"core/src/main/java/com/databasir/core/infrastructure/connection/CustomDatabaseConnectionFactory.java"
+],
+"earliest_patch_date": "2022-04-18 11:43:33+08:00",
+"earliest_vuln_date": "2022-01-24 22:58:47+08:00",
+"vuln_files": [
+"core/src/main/java/com/databasir/core/infrastructure/jwt/JwtTokens.java",
+"core/src/test/resources/application-ut.properties",
+"api/src/main/resources/application-local.properties",
+"core/src/main/java/com/databasir/core/domain/database/service/DatabaseTypeService.java",
+"core/src/main/java/com/databasir/core/infrastructure/connection/CustomDatabaseConnectionFactory.java",
+"core/src/main/java/com/databasir/core/domain/DomainErrors.java",
+"api/src/main/resources/application.properties",
+"core/src/main/java/com/databasir/core/infrastructure/driver/DriverResources.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-20"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-31196",
+"patch_date": [
+"2022-07-29 11:18:51+08:00"
+],
+"patch_files": [
+"core/src/main/java/com/databasir/core/infrastructure/driver/DriverResources.java"
+],
+"earliest_patch_date": "2022-07-29 11:18:51+08:00",
+"earliest_vuln_date": "2022-04-23 18:03:48+08:00",
+"vuln_files": [
+"core/src/main/java/com/databasir/core/infrastructure/driver/DriverResources.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"core/src/main/java/com/databasir/core/infrastructure/driver/DriverResources.java"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"core/src/main/java/com/databasir/core/infrastructure/driver/DriverResources.java"
+]
+}
+]

@@ -1,0 +1,99 @@
+[
+{
+"cve_id": "CVE-2014-125078",
+"patch_date": [
+"2014-07-08 13:08:15+01:00"
+],
+"patch_files": [
+"openstack_dashboard/dashboards/admin/groups/tables.py",
+"horizon/static/horizon/js/horizon.instances.js",
+"openstack_dashboard/dashboards/project/stacks/tabs.py",
+"horizon/tables/base.py",
+"openstack_dashboard/dashboards/admin/users/tables.py",
+"openstack_dashboard/dashboards/project/stacks/tables.py"
+],
+"earliest_patch_date": "2014-07-08 13:08:15+01:00",
+"earliest_vuln_date": "2013-05-27 21:45:41-07:00",
+"vuln_files": [
+"openstack_dashboard/dashboards/admin/groups/tables.py",
+"horizon/static/horizon/js/horizon.instances.js",
+"horizon/tables/base.py",
+"openstack_dashboard/dashboards/admin/users/tables.py",
+"openstack_dashboard/dashboards/project/stacks/tables.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2014-125070",
+"patch_date": [
+"2014-08-19 15:28:52+01:00"
+],
+"patch_files": [
+"openstack_dashboard/dashboards/admin/aggregates/tables.py"
+],
+"earliest_patch_date": "2014-08-19 15:28:52+01:00",
+"earliest_vuln_date": "2014-03-04 15:25:32+00:00",
+"vuln_files": [
+"openstack_dashboard/dashboards/admin/aggregates/tables.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

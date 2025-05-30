@@ -1,0 +1,308 @@
+[
+{
+"cve_id": "CVE-2015-9235",
+"patch_date": [
+"2015-03-16 20:36:22-03:00"
+],
+"patch_files": [
+"test/wrong_alg.tests.js",
+".jshintrc",
+"index.js"
+],
+"earliest_patch_date": "2015-03-16 20:36:22-03:00",
+"earliest_vuln_date": "2015-03-06 09:29:00-03:00",
+"vuln_files": [
+".jshintrc"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-327"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-23539",
+"patch_date": [
+"2022-12-21 13:36:01+01:00"
+],
+"patch_files": [
+"test/dsa-public.pem",
+"test/schema.tests.js",
+"test/secp521r1-private.pem",
+"test/rsa-pss-invalid-salt-length-private.pem",
+"README.md",
+"test/prime256v1-private.pem",
+"lib/validateAsymmetricKey.js",
+"test/dsa-private.pem",
+"lib/asymmetricKeyDetailsSupported.js",
+"sign.js",
+"test/rsa-pss-private.pem",
+"test/secp384r1-private.pem",
+"test/jwt.asymmetric_signing.tests.js",
+"CHANGELOG.md",
+"lib/rsaPssKeyDetailsSupported.js",
+"package.json",
+"test/verify.tests.js",
+"verify.js",
+"test/validateAsymmetricKey.tests.js"
+],
+"earliest_patch_date": "2022-12-21 13:36:01+01:00",
+"earliest_vuln_date": "2015-03-06 16:33:05-05:00",
+"vuln_files": [
+"package.json",
+"test/schema.tests.js",
+"test/verify.tests.js",
+"test/jwt.asymmetric_signing.tests.js",
+"sign.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.2
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-23540",
+"patch_date": [
+"2022-12-21 13:36:01+01:00"
+],
+"patch_files": [
+"test/dsa-public.pem",
+"test/schema.tests.js",
+"test/secp521r1-private.pem",
+"test/rsa-pss-invalid-salt-length-private.pem",
+"README.md",
+"test/prime256v1-private.pem",
+"lib/validateAsymmetricKey.js",
+"test/dsa-private.pem",
+"lib/asymmetricKeyDetailsSupported.js",
+"sign.js",
+"test/rsa-pss-private.pem",
+"test/secp384r1-private.pem",
+"test/jwt.asymmetric_signing.tests.js",
+"CHANGELOG.md",
+"lib/rsaPssKeyDetailsSupported.js",
+"package.json",
+"test/verify.tests.js",
+"verify.js",
+"test/validateAsymmetricKey.tests.js"
+],
+"earliest_patch_date": "2022-12-21 13:36:01+01:00",
+"earliest_vuln_date": "2015-03-06 16:33:05-05:00",
+"vuln_files": [
+"package.json",
+"test/schema.tests.js",
+"test/verify.tests.js",
+"test/jwt.asymmetric_signing.tests.js",
+"sign.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "HIGH",
+"availabilityImpact": "LOW",
+"baseScore": 7.6,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 4.7
+}
+},
+"cwes": [
+"CWE-347"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"test/dsa-public.pem",
+"test/schema.tests.js",
+"test/secp521r1-private.pem",
+"test/rsa-pss-invalid-salt-length-private.pem",
+"README.md",
+"test/prime256v1-private.pem",
+"lib/validateAsymmetricKey.js",
+"test/dsa-private.pem",
+"lib/asymmetricKeyDetailsSupported.js",
+"sign.js",
+"test/rsa-pss-private.pem",
+"test/secp384r1-private.pem",
+"test/jwt.asymmetric_signing.tests.js",
+"CHANGELOG.md",
+"lib/rsaPssKeyDetailsSupported.js",
+"package.json",
+"test/verify.tests.js",
+"verify.js",
+"test/validateAsymmetricKey.tests.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-23541",
+"patch_date": [
+"2022-12-21 13:36:01+01:00"
+],
+"patch_files": [
+"test/dsa-public.pem",
+"test/schema.tests.js",
+"test/secp521r1-private.pem",
+"test/rsa-pss-invalid-salt-length-private.pem",
+"README.md",
+"test/prime256v1-private.pem",
+"lib/validateAsymmetricKey.js",
+"test/dsa-private.pem",
+"lib/asymmetricKeyDetailsSupported.js",
+"sign.js",
+"test/rsa-pss-private.pem",
+"test/secp384r1-private.pem",
+"test/jwt.asymmetric_signing.tests.js",
+"CHANGELOG.md",
+"lib/rsaPssKeyDetailsSupported.js",
+"package.json",
+"test/verify.tests.js",
+"verify.js",
+"test/validateAsymmetricKey.tests.js"
+],
+"earliest_patch_date": "2022-12-21 13:36:01+01:00",
+"earliest_vuln_date": "2015-03-06 16:33:05-05:00",
+"vuln_files": [
+"package.json",
+"test/schema.tests.js",
+"test/verify.tests.js",
+"test/jwt.asymmetric_signing.tests.js",
+"sign.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "LOW",
+"baseScore": 6.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.4
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"test/dsa-public.pem",
+"test/schema.tests.js",
+"test/secp521r1-private.pem",
+"test/rsa-pss-invalid-salt-length-private.pem",
+"README.md",
+"test/prime256v1-private.pem",
+"lib/validateAsymmetricKey.js",
+"test/dsa-private.pem",
+"lib/asymmetricKeyDetailsSupported.js",
+"sign.js",
+"test/rsa-pss-private.pem",
+"test/secp384r1-private.pem",
+"test/jwt.asymmetric_signing.tests.js",
+"CHANGELOG.md",
+"lib/rsaPssKeyDetailsSupported.js",
+"package.json",
+"test/verify.tests.js",
+"verify.js",
+"test/validateAsymmetricKey.tests.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

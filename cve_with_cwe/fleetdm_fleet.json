@@ -1,0 +1,336 @@
+[
+{
+"cve_id": "CVE-2020-26276",
+"patch_date": [
+"2020-12-14 18:14:14-08:00"
+],
+"patch_files": [
+"server/sso/validate_test.go",
+"go.mod",
+"go.sum",
+"server/sso/validate.go"
+],
+"earliest_patch_date": "2020-12-14 18:14:14-08:00",
+"earliest_vuln_date": "2017-05-08 19:43:48-05:00",
+"vuln_files": [
+"go.mod",
+"server/sso/validate.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-290"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-21296",
+"patch_date": [
+"2021-02-03 08:47:43-08:00"
+],
+"patch_files": [
+"server/service/endpoint_campaigns.go",
+"server/service/service_campaigns.go"
+],
+"earliest_patch_date": "2021-02-03 08:47:43-08:00",
+"earliest_vuln_date": "2016-11-29 10:20:06-08:00",
+"vuln_files": [
+"server/service/endpoint_campaigns.go",
+"server/service/service_campaigns.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "LOW",
+"baseScore": 2.7,
+"baseSeverity": "LOW"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-23600",
+"patch_date": [
+"2022-02-02 15:51:04-08:00"
+],
+"patch_files": [
+"server/sso/validate_test.go",
+"server/sso/types.go",
+"server/sso/validate.go",
+"server/service/service_sessions.go",
+"changes/sso-check-audience"
+],
+"earliest_patch_date": "2022-02-02 15:51:04-08:00",
+"earliest_vuln_date": "2017-05-08 19:43:48-05:00",
+"vuln_files": [
+"server/service/service_sessions.go",
+"server/sso/types.go",
+"server/sso/validate_test.go",
+"server/sso/validate.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-287"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"server/sso/validate_test.go",
+"server/sso/validate.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-24841",
+"patch_date": [
+"2022-04-18 10:27:30-07:00"
+],
+"patch_files": [
+"server/service/scheduled_queries_test.go",
+"frontend/pages/Homepage/cards/Software/Software.tsx",
+"frontend/pages/admin/UserManagementPage/components/UserForm/UserForm.tsx",
+"server/authz/policy.rego",
+"server/fleet/authz.go",
+"cypress/integration/free/maintainer.spec.ts",
+"server/service/team_schedule.go",
+"frontend/pages/software/ManageSoftwarePage/ManageSoftwarePage.tsx",
+"server/fleet/packs.go",
+"server/service/team_schedule_test.go",
+"server/authz/policy_test.go",
+"server/service/global_schedule_test.go",
+"server/service/hosts.go",
+"changes/activities-rbac",
+"server/authz/authz.go",
+"server/service/users_test.go",
+"frontend/pages/admin/TeamManagementPage/TeamDetailsWrapper/MembersPage/MembersPage.tsx",
+"server/service/activities_test.go",
+"server/service/endpoint_utils_test.go",
+"server/service/software_test.go",
+"cypress/integration/premium/maintainer.spec.ts",
+"frontend/pages/policies/ManagePoliciesPage/ManagePoliciesPage.tsx",
+"server/service/software.go",
+"server/service/global_schedule.go",
+"changes/issue-GHSA-pr2g-j78h-84cr",
+"cypress/integration/premium/team_admin.spec.ts",
+"cypress/integration/premium/team_maintainer_observer.spec.ts",
+"server/fleet/software.go",
+"cypress/integration/free/observer.spec.ts",
+"server/service/users.go",
+"cypress/integration/premium/admin.spec.ts"
+],
+"earliest_patch_date": "2022-04-18 10:27:30-07:00",
+"earliest_vuln_date": "2016-11-16 09:48:43-08:00",
+"vuln_files": [
+"server/service/scheduled_queries_test.go",
+"frontend/pages/Homepage/cards/Software/Software.tsx",
+"frontend/pages/admin/UserManagementPage/components/UserForm/UserForm.tsx",
+"server/authz/policy.rego",
+"cypress/integration/free/maintainer.spec.ts",
+"server/service/team_schedule.go",
+"frontend/pages/software/ManageSoftwarePage/ManageSoftwarePage.tsx",
+"server/fleet/packs.go",
+"server/service/team_schedule_test.go",
+"server/authz/policy_test.go",
+"server/service/global_schedule_test.go",
+"server/service/hosts.go",
+"server/service/users_test.go",
+"frontend/pages/admin/TeamManagementPage/TeamDetailsWrapper/MembersPage/MembersPage.tsx",
+"server/service/activities_test.go",
+"server/service/endpoint_utils_test.go",
+"server/service/software_test.go",
+"cypress/integration/premium/maintainer.spec.ts",
+"frontend/pages/policies/ManagePoliciesPage/ManagePoliciesPage.tsx",
+"server/service/software.go",
+"server/service/global_schedule.go",
+"cypress/integration/premium/team_admin.spec.ts",
+"cypress/integration/premium/team_maintainer_observer.spec.ts",
+"cypress/integration/free/observer.spec.ts",
+"server/service/users.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.2
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-863"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

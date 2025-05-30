@@ -1,0 +1,94 @@
+[
+{
+"cve_id": "CVE-2023-37918",
+"patch_date": [
+"2023-07-20 15:33:57-07:00"
+],
+"patch_files": [
+"pkg/runtime/security/token.go",
+"docs/release_notes/v1.11.2.md",
+"pkg/http/server.go",
+"pkg/runtime/security/token_test.go"
+],
+"earliest_patch_date": "2023-07-20 15:33:57-07:00",
+"earliest_vuln_date": "2020-05-27 15:55:48-07:00",
+"vuln_files": [
+"pkg/runtime/security/token.go",
+"docs/release_notes/v1.11.2.md",
+"pkg/http/server.go",
+"pkg/runtime/security/token_test.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-287"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-35223",
+"patch_date": [
+"2024-05-20 14:57:52-07:00"
+],
+"patch_files": [
+"tests/integration/suite/daprd/serviceinvocation/grpc/appapitoken/selfnotoken.go",
+"tests/integration/suite/daprd/serviceinvocation/grpc/appapitoken/selfwithtoken.go",
+"tests/integration/suite/daprd/serviceinvocation/grpc/appapitoken/server.go",
+"tests/integration/suite/daprd/serviceinvocation/grpc/appapitoken/remotereceivernotoken.go",
+"tests/integration/suite/daprd/serviceinvocation/http/appapitoken/remotereceiverhastoken.go",
+"tests/integration/suite/daprd/serviceinvocation/http/appapitoken/selfwithtoken.go",
+"tests/integration/suite/daprd/serviceinvocation/grpc/grpc.go",
+"tests/integration/suite/daprd/serviceinvocation/grpc/appapitoken/remotereceiverhastoken.go",
+"pkg/messaging/grpc_proxy.go",
+"tests/integration/suite/daprd/serviceinvocation/http/appapitoken/remotereceivernotoken.go",
+"tests/integration/suite/daprd/serviceinvocation/http/appapitoken/remotebothtokens.go",
+"tests/integration/framework/process/daprd/options.go",
+"tests/integration/suite/daprd/serviceinvocation/http/http.go",
+"tests/integration/suite/daprd/serviceinvocation/grpc/appapitoken/remotebothtokens.go",
+"tests/integration/suite/daprd/serviceinvocation/http/appapitoken/selfnotoken.go",
+"pkg/messaging/grpc_proxy_test.go",
+"docs/release_notes/v1.13.3.md"
+],
+"earliest_patch_date": "2024-05-20 14:57:52-07:00",
+"earliest_vuln_date": "2022-09-28 11:39:35-07:00",
+"vuln_files": [
+"pkg/messaging/grpc_proxy.go",
+"pkg/messaging/grpc_proxy_test.go"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

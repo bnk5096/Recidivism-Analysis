@@ -1,0 +1,195 @@
+[
+{
+"cve_id": "CVE-2018-6656",
+"patch_date": [
+"2016-05-30 17:52:56+08:00"
+],
+"patch_files": [
+".gitignore",
+"zb_users/plugin/AppCentre/client.php",
+"zb_users/plugin/AppCentre/app_pack.php",
+"zb_users/plugin/AppCentre/images/Cube2.png",
+"zb_users/plugin/AppCentre/submit.php",
+"zb_users/plugin/AppCentre/tpl/include.html",
+"zb_users/plugin/AppCentre/language/zh-cn.php",
+"zb_users/plugin/AppCentre/images/delete.png",
+"zb_users/plugin/AppCentre/app_del.php",
+"zb_users/plugin/AppCentre/language/zh-tw.php",
+"zb_users/plugin/AppCentre/plugin.xml",
+"zb_users/plugin/AppCentre/images/refresh.png",
+"zb_users/plugin/AppCentre/images/plugin.png",
+"zb_users/plugin/AppCentre/tpl/main.html",
+"zb_users/plugin/AppCentre/images/theme.png",
+"zb_users/plugin/AppCentre/language/en.php",
+"zb_users/plugin/AppCentre/images/loading.gif",
+"zb_users/plugin/AppCentre/images/refresh2.png",
+"zb_users/plugin/AppCentre/include.php",
+"zb_users/plugin/AppCentre/app_upload.php",
+"zb_users/plugin/AppCentre/logo.png",
+"zb_users/plugin/AppCentre/main.php",
+"zb_users/plugin/AppCentre/images/style.css",
+"zb_users/plugin/AppCentre/setting.php",
+"zb_users/plugin/AppCentre/update.php",
+"zb_users/plugin/AppCentre/theme_edit.php",
+"zb_users/plugin/AppCentre/plugin.js.php",
+"zb_users/plugin/AppCentre/function.php",
+"zb_users/plugin/AppCentre/plugin_edit.php",
+"zb_users/plugin/AppCentre/images/application_edit.png",
+"zb_users/plugin/AppCentre/theme.js.php",
+"zb_users/plugin/AppCentre/images/download.png",
+"zb_users/plugin/AppCentre/images/bricks.png",
+"zb_users/plugin/AppCentre/images/document_empty.png",
+"zb_users/plugin/AppCentre/images/drive-upload.png",
+"zb_users/plugin/AppCentre/images/Cube1.png"
+],
+"earliest_patch_date": "2016-05-30 17:52:56+08:00",
+"earliest_vuln_date": "2013-08-21 08:54:26+00:00",
+"vuln_files": [
+".gitignore",
+"zb_users/plugin/AppCentre/client.php",
+"zb_users/plugin/AppCentre/app_pack.php",
+"zb_users/plugin/AppCentre/submit.php",
+"zb_users/plugin/AppCentre/tpl/include.html",
+"zb_users/plugin/AppCentre/language/zh-cn.php",
+"zb_users/plugin/AppCentre/app_del.php",
+"zb_users/plugin/AppCentre/language/zh-tw.php",
+"zb_users/plugin/AppCentre/plugin.xml",
+"zb_users/plugin/AppCentre/tpl/main.html",
+"zb_users/plugin/AppCentre/language/en.php",
+"zb_users/plugin/AppCentre/main.php",
+"zb_users/plugin/AppCentre/include.php",
+"zb_users/plugin/AppCentre/app_upload.php",
+"zb_users/plugin/AppCentre/setting.php",
+"zb_users/plugin/AppCentre/update.php",
+"zb_users/plugin/AppCentre/images/style.css",
+"zb_users/plugin/AppCentre/theme_edit.php",
+"zb_users/plugin/AppCentre/plugin.js.php",
+"zb_users/plugin/AppCentre/plugin_edit.php",
+"zb_users/plugin/AppCentre/function.php",
+"zb_users/plugin/AppCentre/theme.js.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 4.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-352"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-23352",
+"patch_date": [
+"2020-05-21 17:54:45+08:00"
+],
+"patch_files": [
+"zb_system/function/c_system_common.php",
+"zb_system/function/lib/zblogphp.php",
+"zb_system/function/c_system_compat.php",
+"zb_users/plugin/passwordvisit/include.php",
+"phpcs.xml"
+],
+"earliest_patch_date": "2020-05-21 17:54:45+08:00",
+"earliest_vuln_date": "2013-08-15 17:19:37+00:00",
+"vuln_files": [
+"zb_system/function/c_system_common.php",
+"zb_system/function/lib/zblogphp.php",
+"zb_users/plugin/passwordvisit/include.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

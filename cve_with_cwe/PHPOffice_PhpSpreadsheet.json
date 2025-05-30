@@ -1,0 +1,180 @@
+[
+{
+"cve_id": "CVE-2020-7776",
+"patch_date": [
+"2020-11-19 11:59:57+01:00"
+],
+"patch_files": [
+"CHANGELOG.md",
+"composer.json",
+"composer.lock",
+"src/PhpSpreadsheet/Writer/Html.php",
+"tests/PhpSpreadsheetTests/Writer/Html/XssVulnerabilityTest.php"
+],
+"earliest_patch_date": "2020-11-19 11:59:57+01:00",
+"earliest_vuln_date": "2017-02-25 17:38:45+09:00",
+"vuln_files": [
+"composer.json",
+"composer.lock",
+"src/PhpSpreadsheet/Writer/Html.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.1,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-45046",
+"patch_date": [
+"2024-04-14 23:24:47+00:00"
+],
+"patch_files": [
+"CHANGELOG.md",
+"composer.json",
+"composer.lock",
+"src/PhpSpreadsheet/Writer/Html.php",
+"tests/PhpSpreadsheetTests/Writer/Html/HtmlCommentsTest.php",
+"tests/PhpSpreadsheetTests/Writer/Html/XssVulnerabilityTest.php"
+],
+"earliest_patch_date": "2024-04-14 23:24:47+00:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"CHANGELOG.md",
+"composer.json",
+"composer.lock",
+"src/PhpSpreadsheet/Writer/Html.php",
+"tests/PhpSpreadsheetTests/Writer/Html/XssVulnerabilityTest.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-45048",
+"patch_date": [
+"2024-07-29 16:22:43+09:00"
+],
+"patch_files": [
+"CHANGELOG.md",
+"tests/data/Reader/Xml/XEETestInvalidUTF-7-single-quote.xml",
+"src/PhpSpreadsheet/Reader/Security/XmlScanner.php",
+"tests/data/Reader/Xml/XEETestValidUTF-8-single-quote.xml"
+],
+"earliest_patch_date": "2024-07-29 16:22:43+09:00",
+"earliest_vuln_date": "2019-07-01 00:55:25+02:00",
+"vuln_files": [
+"src/PhpSpreadsheet/Reader/Security/XmlScanner.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-611"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"CHANGELOG.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

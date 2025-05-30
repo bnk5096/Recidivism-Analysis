@@ -1,0 +1,77 @@
+[
+{
+"cve_id": "CVE-2021-32708",
+"patch_date": [
+"2021-06-23 23:56:05+02:00",
+"2021-06-24 00:07:10+02:00"
+],
+"patch_files": [
+"src/CorruptedPathDetected.php",
+"tests/UtilTests.php",
+"src/WhitespacePathNormalizerTest.php",
+"src/Util.php",
+"src/WhitespacePathNormalizer.php",
+".gitignore"
+],
+"earliest_patch_date": "2021-06-23 23:56:05+02:00",
+"earliest_vuln_date": "2017-01-25 00:20:23-08:00",
+"vuln_files": [
+"tests/UtilTests.php",
+"src/Util.php",
+"src/WhitespacePathNormalizer.php",
+"src/WhitespacePathNormalizerTest.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "COMPLETE",
+"integrityImpact": "COMPLETE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 9.3
+},
+"severity": "HIGH",
+"exploitabilityScore": 8.6,
+"impactScore": 10,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-367"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

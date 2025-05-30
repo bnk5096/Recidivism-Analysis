@@ -1,0 +1,98 @@
+[
+{
+"cve_id": "CVE-2023-51698",
+"patch_date": [
+"2024-01-07 22:17:05+00:00"
+],
+"patch_files": [
+"backend/comics/comics-document.h",
+"backend/comics/ev-archive.h",
+"backend/comics/ev-archive.c",
+"backend/comics/comics-document.c",
+"configure.ac",
+"libdocument/ev-document.h",
+"backend/comics/Makefile.am"
+],
+"earliest_patch_date": "2024-01-07 22:17:05+00:00",
+"earliest_vuln_date": "2011-11-09 18:17:43-03:00",
+"vuln_files": [
+"backend/comics/comics-document.h",
+"backend/comics/comics-document.c",
+"backend/comics/Makefile.am"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-52076",
+"patch_date": [
+"2024-01-17 22:39:09+00:00"
+],
+"patch_files": [
+"backend/epub/epub-document.c"
+],
+"earliest_patch_date": "2024-01-17 22:39:09+00:00",
+"earliest_vuln_date": "2014-05-30 00:11:14+05:30",
+"vuln_files": [
+"backend/epub/epub-document.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

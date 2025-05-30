@@ -1,0 +1,773 @@
+[
+{
+"cve_id": "CVE-2021-4080",
+"patch_date": [
+"2021-12-29 18:03:20+05:30"
+],
+"patch_files": [
+"app/Rules/Base64Mime.php",
+"app/Http/Controllers/V1/Admin/Settings/CompanyController.php",
+"app/Http/Requests/CompanyLogoRequest.php",
+"app/Http/Controllers/V1/Admin/Expense/ExpensesController.php",
+"app/Http/Requests/ExpenseRequest.php",
+"app/Http/Controllers/V1/Admin/Expense/UploadReceiptController.php",
+"app/Http/Requests/AvatarRequest.php"
+],
+"earliest_patch_date": "2021-12-29 18:03:20+05:30",
+"earliest_vuln_date": "2020-12-02 17:54:08+05:30",
+"vuln_files": [
+"app/Http/Controllers/V1/Admin/Expense/UploadReceiptController.php",
+"app/Http/Controllers/V1/Admin/Settings/CompanyController.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-0372",
+"patch_date": [
+"2021-12-29 18:03:20+05:30"
+],
+"patch_files": [
+"app/Rules/Base64Mime.php",
+"app/Http/Controllers/V1/Admin/Settings/CompanyController.php",
+"app/Http/Requests/CompanyLogoRequest.php",
+"app/Http/Controllers/V1/Admin/Expense/ExpensesController.php",
+"app/Http/Requests/ExpenseRequest.php",
+"app/Http/Controllers/V1/Admin/Expense/UploadReceiptController.php",
+"app/Http/Requests/AvatarRequest.php"
+],
+"earliest_patch_date": "2021-12-29 18:03:20+05:30",
+"earliest_vuln_date": "2020-12-02 17:54:08+05:30",
+"vuln_files": [
+"app/Http/Controllers/V1/Admin/Expense/UploadReceiptController.php",
+"app/Http/Controllers/V1/Admin/Settings/CompanyController.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"app/Rules/Base64Mime.php",
+"app/Http/Controllers/V1/Admin/Settings/CompanyController.php",
+"app/Http/Requests/CompanyLogoRequest.php",
+"app/Http/Controllers/V1/Admin/Expense/ExpensesController.php",
+"app/Http/Requests/ExpenseRequest.php",
+"app/Http/Controllers/V1/Admin/Expense/UploadReceiptController.php",
+"app/Http/Requests/AvatarRequest.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-0242",
+"patch_date": [
+"2022-01-10 19:33:59+05:30"
+],
+"patch_files": [
+"public/build/assets/BaseMultiselect.b84023ff.js",
+"public/build/assets/LayoutLogin.d574a04a.js",
+"public/build/assets/global.8697213a.js",
+"public/build/assets/Index.009ded38.js",
+"public/build/assets/PaymentModeModal.c3a19345.js",
+"public/build/assets/SelectNotePopup.b35e7850.js",
+"public/build/assets/EstimateIndexDropdown.5b4a2113.js",
+"public/build/assets/ForgotPassword.3e4f7a08.js",
+"public/build/assets/CustomerIndexDropdown.8fced79d.js",
+"public/build/assets/LayoutBasic.93ba7a34.js",
+"public/build/assets/PreferencesSetting.1aed7c20.js",
+"public/build/assets/ItemUnitModal.076e3ed4.js",
+"public/build/assets/ResetPassword.5e8676a5.js",
+"public/build/assets/Dashboard.63b9cd0b.js",
+"public/build/assets/Index.16cd769b.js",
+"public/build/assets/View.bd09940e.js",
+"public/build/assets/DragIcon.88fb50b8.js",
+"public/build/assets/AddressInformation.1c2a332c.js",
+"public/build/assets/auth.77d12976.js",
+"public/build/assets/CustomFieldsSetting.501ee588.js",
+"resources/scripts/admin/components/modal-components/CustomerModal.vue",
+"public/build/assets/Create.d23f75f8.js",
+"public/build/assets/UpdateAppSetting.6d85b6d6.js",
+"public/build/assets/exchange-rate.45b62b37.js",
+"public/build/assets/Index.e2a0d22a.js",
+"public/build/assets/disk.3cfd12a4.js",
+"public/build/assets/Installation.6e376b8f.js",
+"public/build/assets/SalesTax.da1d755f.js",
+"public/build/assets/Index.d9ed68a7.js",
+"public/build/assets/BaseTable.440de545.js",
+"public/build/assets/BackupSetting.55f66228.js",
+"public/build/assets/NotificationRoot.9c69192b.js",
+"public/build/assets/ExchangeRateProviderSetting.9a85b8a9.js",
+"public/build/assets/users.936a04ee.js",
+"public/build/assets/CustomerSettings.e1586718.js",
+"public/build/assets/mail-driver.1b5e2a8f.js",
+"public/build/assets/SettingsIndex.a567c11a.js",
+"public/build/assets/estimate.5745bb55.js",
+"public/build/assets/NotificationsSetting.11df416b.js",
+"public/build/assets/LayoutInstallation.46a8b6d2.js",
+"public/build/assets/Index.e0ef1077.js",
+"public/build/assets/LayoutLogin.2470450f.js",
+"public/build/assets/Index.d59517a0.js",
+"public/build/assets/LayoutBasic.9356da77.js",
+"public/build/assets/RecurringInvoiceCreate.6dc9a09d.js",
+"public/build/assets/Index.b07c0ccb.js",
+"public/build/assets/CompanyInfoSettings.7205fcd8.js",
+"public/build/assets/SettingsIndex.137f25aa.js",
+"public/build/assets/ResetPassword.d74cc4af.js",
+"public/build/assets/RolesSettings.eab2dae6.js",
+"public/build/assets/InvoiceIndexDropdown.a0cb5742.js",
+"public/build/assets/View.323e6604.js",
+"public/build/assets/Login.ac27c54a.js",
+"public/build/assets/ForgotPassword.0995a53b.js",
+"public/build/assets/View.9e3aab31.js",
+"public/build/assets/LayoutInstallation.cb149016.js",
+"public/build/assets/Dashboard.82801319.js",
+"public/build/assets/invoice.fd03309f.js",
+"public/build/assets/Index.2e179c87.js",
+"public/build/assets/TaxTypesSetting.fd3301df.js",
+"public/build/assets/RecurringInvoiceIndexDropdown.c53e92ab.js",
+"public/build/assets/Index.4e4fe99e.js",
+"public/build/assets/CustomizationSetting.737665c8.js",
+"public/build/assets/InvoiceCreate.1070946f.js",
+"public/build/assets/MailConfigSetting.bed82965.js",
+"public/build/assets/NotesSetting.e9205a98.js",
+"public/build/assets/Index.e62ad0f6.js",
+"public/build/assets/Login.983aaf9c.js",
+"public/build/assets/Create.475a76c5.js",
+"public/build/assets/Create.7565e912.js",
+"public/build/assets/expense.e774182e.js",
+"public/build/assets/View.8105b510.js",
+"public/build/assets/PaymentsModeSetting.dcc78254.js",
+"public/build/assets/SendInvoiceModal.35678ab1.js",
+"public/build/assets/View.9d1371a6.js",
+"public/build/assets/payment.372edbf1.js",
+"public/build/assets/CreateCustomFields.940787b7.js",
+"resources/scripts/admin/views/modules/View.vue",
+"public/build/assets/payment.b36842df.js",
+"public/build/assets/Create.475841f0.js",
+"public/build/assets/LoadingIcon.cfb2fcf9.js",
+"public/build/assets/LineChart.cef8475e.js",
+"public/build/assets/TaxTypeModal.cf69664d.js",
+"public/build/assets/BaseListItem.9b6cf3ed.js",
+"public/build/assets/Create.2eca81af.js",
+"public/build/assets/BaseEditor.ef23aa4a.js",
+"public/build/assets/Index.2bd1ee98.js",
+"public/build/assets/category.c27e9638.js",
+"public/build/assets/NoteModal.a07ce50b.js",
+"public/build/assets/SendEstimateModal.63b9a1be.js",
+"public/build/manifest.json",
+"public/build/assets/CategoryModal.9d414df9.js",
+"public/build/assets/main.832b14c7.js",
+"public/build/assets/EstimateIcon.4571f94d.js",
+"public/build/assets/FileDiskSetting.d58a523e.js",
+"public/build/assets/View.da3f3d2d.js",
+"public/build/assets/LayoutLogin.ff8102a9.js",
+"public/build/assets/Index.783e6ec5.js",
+"public/build/assets/SendPaymentModal.a713aa7b.js",
+"public/build/assets/View.e4530ad0.js",
+"public/build/assets/ExpenseCategorySetting.c1ee4ee9.js",
+"public/build/assets/View.a394d4d6.js",
+"public/build/assets/EstimateCreate.74ff5f87.js",
+"public/build/assets/View.07e96e55.js",
+"public/build/assets/AccountSetting.da52ee4f.js",
+"public/build/assets/ExchangeRateConverter.357f31c9.js",
+"public/build/assets/Index.b248ed67.js"
+],
+"earliest_patch_date": "2022-01-10 19:33:59+05:30",
+"earliest_vuln_date": "2021-11-30 18:58:19+05:30",
+"vuln_files": [
+"public/build/assets/ForgotPassword.6a2c79cb.js",
+"public/build/assets/NotificationRoot.a98180ab.js",
+"public/build/assets/View.00b10884.js",
+"public/build/assets/View.f7652815.js",
+"public/build/assets/RecurringInvoiceIndexDropdown.37d4a992.js",
+"public/build/assets/Index.c0a868bd.js",
+"public/build/assets/BaseListItem.4eea691c.js",
+"public/build/assets/View.aa6cd8ac.js",
+"public/build/assets/Create.bffd06e1.js",
+"public/build/assets/main.75722495.js",
+"public/build/assets/exchange-rate.dffa79b6.js",
+"public/build/assets/global.08b6a984.js",
+"public/build/assets/LayoutBasic.e1f34a75.js",
+"public/build/assets/CategoryModal.9a2e05b9.js",
+"public/build/assets/TaxTypeModal.bf6662b3.js",
+"public/build/assets/CustomerIndexDropdown.3adf4218.js",
+"resources/scripts/admin/components/modal-components/CustomerModal.vue",
+"public/build/assets/Index.56add046.js",
+"public/build/assets/NoteModal.f6d01f84.js",
+"public/build/assets/View.abc1c107.js",
+"public/build/assets/AccountSetting.d3009f2e.js",
+"public/build/assets/View.02e08873.js",
+"public/build/assets/SettingsIndex.7750922b.js",
+"public/build/assets/SendInvoiceModal.89e6012d.js",
+"public/build/assets/disk.518ebc4b.js",
+"public/build/assets/View.958a5524.js",
+"public/build/assets/ExpenseCategorySetting.80e0d8ac.js",
+"public/build/assets/mail-driver.4ea1af6b.js",
+"public/build/assets/NotificationsSetting.90090d1e.js",
+"public/build/assets/ForgotPassword.51f99d8b.js",
+"public/build/assets/estimate.e6573e64.js",
+"public/build/assets/AddressInformation.908aefd5.js",
+"public/build/assets/PaymentsModeSetting.963d7ca9.js",
+"public/build/assets/InvoiceIndexDropdown.430bc329.js",
+"public/build/assets/auth.4644c288.js",
+"public/build/assets/Dashboard.bdf9de48.js",
+"public/build/assets/LayoutBasic.df06fd51.js",
+"public/build/assets/View.1a50dc40.js",
+"public/build/assets/Index.9d0bbfbe.js",
+"public/build/assets/Login.9abd1acb.js",
+"public/build/assets/ExchangeRateProviderSetting.57eedd6c.js",
+"public/build/assets/MailConfigSetting.91f66b99.js",
+"public/build/assets/Create.a722899f.js",
+"public/build/assets/Index.97b641ce.js",
+"public/build/assets/Index.de1759af.js",
+"public/build/assets/Index.f1fe364f.js",
+"public/build/assets/TaxTypesSetting.332f7c14.js",
+"public/build/assets/ResetPassword.485b38b4.js",
+"public/build/assets/PreferencesSetting.abc39a72.js",
+"public/build/assets/LayoutInstallation.cb149016.js",
+"public/build/assets/Index.a00a8636.js",
+"public/build/assets/CreateCustomFields.a3a572c4.js",
+"public/build/assets/EstimateIcon.1f3b368d.js",
+"public/build/assets/Installation.e5762019.js",
+"public/build/assets/View.796e2446.js",
+"public/build/assets/ExchangeRateConverter.7d8c4309.js",
+"public/build/assets/DragIcon.213b1d78.js",
+"public/build/assets/Index.2f43174e.js",
+"public/build/assets/users.73a3faa4.js",
+"public/build/assets/ResetPassword.970ec316.js",
+"public/build/assets/FileDiskSetting.b99dc80a.js",
+"public/build/assets/Create.625aeacb.js",
+"public/build/assets/Create.3e41e2ab.js",
+"public/build/assets/UpdateAppSetting.dcf672e8.js",
+"public/build/assets/category.4b37f0ed.js",
+"public/build/assets/LayoutLogin.96ca0d8f.js",
+"public/build/assets/BackupSetting.f5a6fab0.js",
+"public/build/assets/InvoiceCreate.8ae6be7c.js",
+"public/build/assets/SendEstimateModal.a8bc3854.js",
+"public/build/assets/payment.037dd620.js",
+"public/build/assets/RecurringInvoiceCreate.e076e6ab.js",
+"public/build/assets/invoice.b61ade7d.js",
+"resources/scripts/admin/views/modules/View.vue",
+"public/build/assets/Index.83e96e3c.js",
+"public/build/assets/PaymentModeModal.9b5fc610.js",
+"public/build/assets/BaseTable.6e206ca7.js",
+"public/build/assets/Login.e5a5b4de.js",
+"public/build/assets/expense.e270a61c.js",
+"public/build/assets/CustomizationSetting.5e54e84c.js",
+"public/build/assets/payment.5c57bec3.js",
+"public/build/assets/ItemUnitModal.01494bfb.js",
+"public/build/assets/Dashboard.4e48457e.js",
+"public/build/assets/SalesTax.0ff2d954.js",
+"public/build/assets/LoadingIcon.44a6304d.js",
+"public/build/assets/CompanyInfoSettings.a1bb8458.js",
+"public/build/assets/EstimateCreate.4010e1b1.js",
+"public/build/assets/Index.492a896e.js",
+"public/build/assets/NotesSetting.2f08acf1.js",
+"public/build/assets/SelectNotePopup.781ad74a.js",
+"public/build/manifest.json",
+"public/build/assets/SettingsIndex.25913381.js",
+"public/build/assets/Index.a3eeb117.js",
+"public/build/assets/EstimateIndexDropdown.4eab32d4.js",
+"public/build/assets/View.6c9abcf9.js",
+"public/build/assets/BaseEditor.d94e3dc1.js",
+"public/build/assets/Create.be897594.js",
+"public/build/assets/BaseMultiselect.b73cc8d6.js",
+"public/build/assets/LayoutLogin.ff8102a9.js",
+"public/build/assets/CustomFieldsSetting.9f0813a0.js",
+"public/build/assets/Index.36ae4778.js",
+"public/build/assets/CustomerSettings.3e617f27.js",
+"public/build/assets/SendPaymentModal.1bb9d371.js",
+"public/build/assets/LineChart.a92f3bea.js",
+"public/build/assets/RolesSettings.3be3bc63.js",
+"public/build/assets/Index.857b8662.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 6.8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-0203",
+"patch_date": [
+"2022-01-13 12:23:26+05:30"
+],
+"patch_files": [
+"app/Models/PaymentMethod.php",
+"app/Models/Invoice.php",
+"app/Http/Controllers/V1/PDF/DownloadReceiptController.php",
+"app/Http/Controllers/V1/Admin/Payment/PaymentMethodsController.php",
+"app/Http/Controllers/V1/Admin/Invoice/InvoicesController.php"
+],
+"earliest_patch_date": "2022-01-13 12:23:26+05:30",
+"earliest_vuln_date": "2020-01-05 07:22:36+00:00",
+"vuln_files": [
+"app/Http/Controllers/V1/Admin/Invoice/InvoicesController.php",
+"app/Http/Controllers/V1/Admin/Payment/PaymentMethodsController.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-862"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-0515",
+"patch_date": [
+"2022-02-11 09:39:11+05:30"
+],
+"patch_files": [
+"routes/web.php"
+],
+"earliest_patch_date": "2022-02-11 09:39:11+05:30",
+"earliest_vuln_date": "2022-01-10 16:06:17+05:30",
+"vuln_files": [
+"routes/web.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-352"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-0514",
+"patch_date": [
+"2022-03-04 12:08:03+05:30"
+],
+"patch_files": [
+"database/migrations/2022_03_04_051438_calculate_base_values_for_invoice_items.php",
+"app/Http/Controllers/V1/Admin/Settings/UpdateCompanySettingsController.php",
+"app/Models/Invoice.php"
+],
+"earliest_patch_date": "2022-03-04 12:08:03+05:30",
+"earliest_vuln_date": "2022-03-03 13:25:12+05:30",
+"vuln_files": [
+"app/Http/Controllers/V1/Admin/Settings/UpdateCompanySettingsController.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"app/Models/Invoice.php"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"app/Models/Invoice.php"
+]
+},
+{
+"cve_id": "CVE-2022-1033",
+"patch_date": [
+"2022-03-22 16:58:55+05:30"
+],
+"patch_files": [
+"app/Http/Requests/UploadExpenseReceiptRequest.php"
+],
+"earliest_patch_date": "2022-03-22 16:58:55+05:30",
+"earliest_vuln_date": "2022-02-03 11:39:18+05:30",
+"vuln_files": [
+"app/Http/Requests/UploadExpenseReceiptRequest.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-434"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-1032",
+"patch_date": [
+"2022-03-29 12:55:35+05:30"
+],
+"patch_files": [
+"app/Http/Requests/UnzipUpdateRequest.php",
+"app/Http/Controllers/V1/Admin/Modules/UploadModuleController.php",
+"app/Http/Requests/UploadModuleRequest.php",
+"app/Http/Controllers/V1/Admin/Modules/UnzipModuleController.php"
+],
+"earliest_patch_date": "2022-03-29 12:55:35+05:30",
+"earliest_vuln_date": "2022-01-10 16:06:17+05:30",
+"vuln_files": [
+"app/Http/Controllers/V1/Admin/Modules/UploadModuleController.php",
+"app/Http/Controllers/V1/Admin/Modules/UnzipModuleController.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-502"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

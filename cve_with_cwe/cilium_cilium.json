@@ -1,0 +1,196 @@
+[
+{
+"cve_id": "CVE-2024-28860",
+"patch_date": [
+"2024-03-26 14:54:22+01:00",
+"2024-03-26 14:54:38+01:00",
+"2024-03-26 14:54:47+01:00"
+],
+"patch_files": [
+"pkg/datapath/linux/ipsec/ipsec_linux.go"
+],
+"earliest_patch_date": "2024-03-26 14:54:22+01:00",
+"earliest_vuln_date": "2024-03-26 14:54:22+01:00",
+"vuln_files": [
+"pkg/datapath/linux/ipsec/ipsec_linux.go"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-37307",
+"patch_date": [
+"2024-06-07 20:37:07+03:00",
+"2024-06-07 20:23:46+03:00",
+"2024-06-07 20:37:07+03:00",
+"2024-06-07 20:49:49-07:00",
+"2024-06-07 20:23:46+03:00",
+"2024-06-07 20:49:49-07:00"
+],
+"patch_files": [
+"bugtool/cmd/root.go",
+"bugtool/cmd/mask_test.go",
+"bugtool/cmd/mask.go"
+],
+"earliest_patch_date": "2024-06-07 20:23:46+03:00",
+"earliest_vuln_date": "2023-02-03 23:30:32+01:00",
+"vuln_files": [
+"bugtool/cmd/root.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2,
+"impactScore": 4
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-42488",
+"patch_date": [
+"2024-07-04 12:52:34+00:00"
+],
+"patch_files": [
+"pkg/endpointmanager/manager_test.go",
+"pkg/endpointmanager/host.go",
+"pkg/endpoint/endpoint.go"
+],
+"earliest_patch_date": "2024-07-04 12:52:34+00:00",
+"earliest_vuln_date": "2021-10-26 08:19:35+02:00",
+"vuln_files": [
+"pkg/endpointmanager/host.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.8,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 4
+}
+},
+"cwes": [
+"CWE-362"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-42486",
+"patch_date": [
+"2024-07-29 04:46:30+00:00"
+],
+"patch_files": [
+"operator/pkg/gateway-api/gateway.go"
+],
+"earliest_patch_date": "2024-07-29 04:46:30+00:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-42487",
+"patch_date": [
+"2024-08-01 00:35:44+00:00"
+],
+"patch_files": [
+"operator/pkg/model/translation/envoy_virtual_host.go",
+"operator/pkg/model/translation/envoy_virtual_host_test.go",
+"operator/pkg/model/translation/gateway-api/translator_fixture_test.go"
+],
+"earliest_patch_date": "2024-08-01 00:35:44+00:00",
+"earliest_vuln_date": "2023-03-17 13:20:04+01:00",
+"vuln_files": [
+"operator/pkg/model/translation/gateway-api/translator_fixture_test.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"CWE-436"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,244 @@
+[
+{
+"cve_id": "CVE-2022-0764",
+"patch_date": [
+"2022-02-24 16:48:08+01:00"
+],
+"patch_files": [
+"packages/cli/create-strapi-starter/utils/fetch-npm-starter.js",
+"packages/generators/app/lib/utils/fetch-npm-template.js"
+],
+"earliest_patch_date": "2022-02-24 16:48:08+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 6.7,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 0.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "COMPLETE",
+"integrityImpact": "COMPLETE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 7.2
+},
+"severity": "HIGH",
+"exploitabilityScore": 3.9,
+"impactScore": 10,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-34093",
+"patch_date": [
+"2023-06-07 14:44:04+02:00"
+],
+"patch_files": [
+"packages/core/strapi/lib/services/entity-validator/__tests__/biginteger-validators.test.js",
+"packages/core/strapi/lib/services/entity-validator/__tests__/float-validators.test.js",
+"packages/core/utils/lib/__tests__/content-types.test.js",
+"packages/core/utils/lib/sanitize/visitors/remove-private.js",
+"packages/core/strapi/lib/services/entity-validator/__tests__/string-validators.test.js",
+"packages/core/strapi/lib/services/entity-service/__tests__/entity-service.test.js",
+"packages/core/utils/lib/content-types.js",
+"packages/core/strapi/lib/services/entity-service/__tests__/entity-service-events.test.js",
+"packages/core/strapi/lib/services/entity-validator/__tests__/timestamp-validators.test.js",
+"packages/core/strapi/lib/services/entity-validator/__tests__/uid-validators.test.js",
+"packages/core/admin/server/services/__tests__/permissions-manager.test.js",
+"packages/core/strapi/lib/core/domain/content-type/index.js",
+"packages/core/strapi/lib/services/entity-validator/__tests__/integer-validators.test.js",
+"packages/core/strapi/lib/services/entity-validator/__tests__/datetime-validators.test.js",
+"packages/core/strapi/lib/services/entity-validator/__tests__/date-validators.test.js",
+"api-tests/core/database/transactions.test.api.js",
+"packages/core/strapi/lib/services/entity-validator/__tests__/time-validators.test.js"
+],
+"earliest_patch_date": "2023-06-07 14:44:04+02:00",
+"earliest_vuln_date": "2020-10-01 17:47:08+02:00",
+"vuln_files": [
+"packages/core/strapi/lib/services/entity-validator/__tests__/biginteger-validators.test.js",
+"packages/core/utils/lib/__tests__/content-types.test.js",
+"packages/core/strapi/lib/services/entity-validator/__tests__/float-validators.test.js",
+"packages/core/utils/lib/sanitize/visitors/remove-private.js",
+"packages/core/utils/lib/content-types.js",
+"packages/core/strapi/lib/services/entity-service/__tests__/entity-service.test.js",
+"packages/core/strapi/lib/services/entity-validator/__tests__/string-validators.test.js",
+"packages/core/strapi/lib/services/entity-service/__tests__/entity-service-events.test.js",
+"packages/core/strapi/lib/services/entity-validator/__tests__/timestamp-validators.test.js",
+"packages/core/strapi/lib/services/entity-validator/__tests__/uid-validators.test.js",
+"packages/core/admin/server/services/__tests__/permissions-manager.test.js",
+"packages/core/strapi/lib/core/domain/content-type/index.js",
+"packages/core/strapi/lib/services/entity-validator/__tests__/integer-validators.test.js",
+"packages/core/strapi/lib/services/entity-validator/__tests__/datetime-validators.test.js",
+"packages/core/strapi/lib/services/entity-validator/__tests__/date-validators.test.js",
+"api-tests/core/database/transactions.test.api.js",
+"packages/core/strapi/lib/services/entity-validator/__tests__/time-validators.test.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 7.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 4.2
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-29181",
+"patch_date": [
+"2024-01-29 15:29:46+01:00"
+],
+"patch_files": [
+"packages/core/content-type-builder/admin/src/components/FormModal/FormModal.tsx",
+"packages/core/content-type-builder/server/src/services/schema-builder/component-builder.ts",
+"packages/core/content-type-builder/admin/src/components/FormModal/forms/utils/createCollectionName.ts",
+"packages/core/content-type-builder/admin/src/components/FormModal/forms/forms.ts",
+"packages/core/content-type-builder/admin/src/components/FormModal/component/createComponentSchema.ts"
+],
+"earliest_patch_date": "2024-01-29 15:29:46+01:00",
+"earliest_vuln_date": "2021-01-07 18:14:09+01:00",
+"vuln_files": [
+"packages/core/content-type-builder/admin/src/components/FormModal/component/createComponentSchema.ts",
+"packages/core/content-type-builder/admin/src/components/FormModal/FormModal.tsx",
+"packages/core/content-type-builder/admin/src/components/FormModal/forms/forms.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 3.5,
+"baseSeverity": "LOW"
+},
+"exploitabilityScore": 2.1,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"CWE-639"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-31217",
+"patch_date": [
+"2024-04-02 11:08:26+02:00"
+],
+"patch_files": [
+"packages/core/content-releases/admin/src/components/ReleaseModal.tsx",
+"packages/core/content-releases/admin/src/pages/ReleaseDetailsPage.tsx"
+],
+"earliest_patch_date": "2024-04-02 11:08:26+02:00",
+"earliest_vuln_date": "2023-12-13 15:59:37+01:00",
+"vuln_files": [
+"packages/core/content-releases/admin/src/components/ReleaseModal.tsx",
+"packages/core/content-releases/admin/src/pages/ReleaseDetailsPage.tsx"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"NVD-CWE-Other"
+],
+"intro_duplicate_type": true,
+"intro_duplicated_types": [
+"NVD-CWE-Other"
+],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

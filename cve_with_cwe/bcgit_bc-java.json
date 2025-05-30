@@ -1,0 +1,1043 @@
+[
+{
+"cve_id": "CVE-2016-1000344",
+"patch_date": [
+"2016-08-27 11:41:27+10:00"
+],
+"patch_files": [
+"prov/src/test/java/org/bouncycastle/jce/provider/test/DHIESTest.java",
+"prov/src/test/java/org/bouncycastle/jce/provider/test/ECIESTest.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/ies/AlgorithmParametersSpi.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/DH.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/dh/IESCipher.java",
+"prov/src/main/java/org/bouncycastle/jce/spec/IESParameterSpec.java",
+"prov/src/test/java/org/bouncycastle/jce/provider/test/ECIESVectorTest.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/util/IESUtil.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/EC.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/ec/IESCipher.java"
+],
+"earliest_patch_date": "2016-08-27 11:41:27+10:00",
+"earliest_vuln_date": "2013-02-08 13:37:08+11:00",
+"vuln_files": [
+"prov/src/test/java/org/bouncycastle/jce/provider/test/DHIESTest.java",
+"prov/src/test/java/org/bouncycastle/jce/provider/test/ECIESTest.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/ies/AlgorithmParametersSpi.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/DH.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/dh/IESCipher.java",
+"prov/src/test/java/org/bouncycastle/jce/provider/test/ECIESVectorTest.java",
+"prov/src/main/java/org/bouncycastle/jce/spec/IESParameterSpec.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/util/IESUtil.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/EC.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/ec/IESCipher.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.4,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 5.2
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 4.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-310"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2016-1000352",
+"patch_date": [
+"2016-08-27 11:41:27+10:00"
+],
+"patch_files": [
+"prov/src/test/java/org/bouncycastle/jce/provider/test/DHIESTest.java",
+"prov/src/test/java/org/bouncycastle/jce/provider/test/ECIESTest.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/ies/AlgorithmParametersSpi.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/DH.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/dh/IESCipher.java",
+"prov/src/main/java/org/bouncycastle/jce/spec/IESParameterSpec.java",
+"prov/src/test/java/org/bouncycastle/jce/provider/test/ECIESVectorTest.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/util/IESUtil.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/EC.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/ec/IESCipher.java"
+],
+"earliest_patch_date": "2016-08-27 11:41:27+10:00",
+"earliest_vuln_date": "2013-02-08 13:37:08+11:00",
+"vuln_files": [
+"prov/src/test/java/org/bouncycastle/jce/provider/test/DHIESTest.java",
+"prov/src/test/java/org/bouncycastle/jce/provider/test/ECIESTest.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/ies/AlgorithmParametersSpi.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/DH.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/dh/IESCipher.java",
+"prov/src/test/java/org/bouncycastle/jce/provider/test/ECIESVectorTest.java",
+"prov/src/main/java/org/bouncycastle/jce/spec/IESParameterSpec.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/util/IESUtil.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/EC.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/ec/IESCipher.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.4,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 5.2
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 4.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-310"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-310"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"prov/src/test/java/org/bouncycastle/jce/provider/test/DHIESTest.java",
+"prov/src/test/java/org/bouncycastle/jce/provider/test/ECIESTest.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/ies/AlgorithmParametersSpi.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/DH.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/dh/IESCipher.java",
+"prov/src/main/java/org/bouncycastle/jce/spec/IESParameterSpec.java",
+"prov/src/test/java/org/bouncycastle/jce/provider/test/ECIESVectorTest.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/util/IESUtil.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/EC.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/ec/IESCipher.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2016-1000345",
+"patch_date": [
+"2016-08-27 13:20:05+10:00"
+],
+"patch_files": [
+"prov/src/test/java/org/bouncycastle/jce/provider/test/DHIESTest.java",
+"prov/src/test/java/org/bouncycastle/jce/provider/test/ECIESTest.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/rsa/CipherSpi.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/dh/IESCipher.java",
+"core/src/main/java/org/bouncycastle/crypto/engines/IESEngine.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/util/BadBlockException.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/ec/IESCipher.java"
+],
+"earliest_patch_date": "2016-08-27 13:20:05+10:00",
+"earliest_vuln_date": "2013-02-08 13:37:08+11:00",
+"vuln_files": [
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/rsa/CipherSpi.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/dh/IESCipher.java",
+"core/src/main/java/org/bouncycastle/crypto/engines/IESEngine.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/ec/IESCipher.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.9,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-361"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"prov/src/test/java/org/bouncycastle/jce/provider/test/DHIESTest.java",
+"prov/src/test/java/org/bouncycastle/jce/provider/test/ECIESTest.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/dh/IESCipher.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/ec/IESCipher.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2016-1000338",
+"patch_date": [
+"2016-10-15 09:50:44+11:00"
+],
+"patch_files": [
+"prov/src/test/java/org/bouncycastle/jce/provider/test/DSATest.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/dsa/DSASigner.java"
+],
+"earliest_patch_date": "2016-10-15 09:50:44+11:00",
+"earliest_vuln_date": "2013-02-08 13:37:08+11:00",
+"vuln_files": [
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/dsa/DSASigner.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-347"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2016-1000342",
+"patch_date": [
+"2016-10-15 11:21:05+11:00"
+],
+"patch_files": [
+"core/src/test/java/org/bouncycastle/asn1/test/MiscTest.java",
+"prov/src/test/java/org/bouncycastle/jce/provider/test/ECDSA5Test.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/dsa/DSASigner.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/ec/SignatureSpi.java",
+"core/src/main/java/org/bouncycastle/asn1/ASN1Integer.java",
+"core/src/main/java/org/bouncycastle/asn1/ASN1Enumerated.java",
+"prov/src/test/java/org/bouncycastle/jce/provider/test/DSATest.java"
+],
+"earliest_patch_date": "2016-10-15 11:21:05+11:00",
+"earliest_vuln_date": "2013-02-08 13:37:08+11:00",
+"vuln_files": [
+"prov/src/test/java/org/bouncycastle/jce/provider/test/DSATest.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/ec/SignatureSpi.java",
+"prov/src/test/java/org/bouncycastle/jce/provider/test/ECDSA5Test.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-347"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-347"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/dsa/DSASigner.java",
+"prov/src/test/java/org/bouncycastle/jce/provider/test/DSATest.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2016-1000341",
+"patch_date": [
+"2016-10-15 13:44:15+11:00"
+],
+"patch_files": [
+"prov/src/test/java/org/bouncycastle/jce/provider/test/DSATest.java",
+"core/src/main/java/org/bouncycastle/crypto/signers/DSASigner.java",
+"core/src/test/java/org/bouncycastle/crypto/test/DSATest.java"
+],
+"earliest_patch_date": "2016-10-15 13:44:15+11:00",
+"earliest_vuln_date": "2014-08-20 19:25:26+07:00",
+"vuln_files": [
+"prov/src/test/java/org/bouncycastle/jce/provider/test/DSATest.java",
+"core/src/main/java/org/bouncycastle/crypto/signers/DSASigner.java",
+"core/src/test/java/org/bouncycastle/crypto/test/DSATest.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.9,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-361"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-361"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"prov/src/test/java/org/bouncycastle/jce/provider/test/DSATest.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2016-1000346",
+"patch_date": [
+"2016-10-29 14:10:40+11:00"
+],
+"patch_files": [
+"core/src/main/java/org/bouncycastle/crypto/engines/IESEngine.java",
+"core/src/main/java/org/bouncycastle/crypto/params/DHPublicKeyParameters.java",
+"core/src/main/java/org/bouncycastle/crypto/agreement/DHAgreement.java",
+"core/src/main/java/org/bouncycastle/crypto/agreement/DHBasicAgreement.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/dh/KeyAgreementSpi.java"
+],
+"earliest_patch_date": "2016-10-29 14:10:40+11:00",
+"earliest_vuln_date": "2013-02-08 13:37:08+11:00",
+"vuln_files": [
+"core/src/main/java/org/bouncycastle/crypto/params/DHPublicKeyParameters.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/dh/KeyAgreementSpi.java",
+"core/src/main/java/org/bouncycastle/crypto/agreement/DHAgreement.java",
+"core/src/main/java/org/bouncycastle/crypto/agreement/DHBasicAgreement.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 3.7,
+"baseSeverity": "LOW"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-320"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"core/src/main/java/org/bouncycastle/crypto/engines/IESEngine.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2016-1000339",
+"patch_date": [
+"2016-11-29 14:00:05+11:00",
+"2016-11-01 09:51:30+11:00"
+],
+"patch_files": [
+"core/src/main/java/org/bouncycastle/crypto/engines/AESFastEngine.java",
+"core/src/main/java/org/bouncycastle/crypto/engines/AESEngine.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/dh/KeyFactorySpi.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/symmetric/AES.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/drbg/DRBG.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/util/DHUtil.java",
+"core/src/main/java/org/bouncycastle/crypto/params/DHPublicKeyParameters.java",
+"prov/src/test/java/org/bouncycastle/jce/provider/test/DHTest.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/ec/IESCipher.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/dh/BCDHPublicKey.java"
+],
+"earliest_patch_date": "2016-11-01 09:51:30+11:00",
+"earliest_vuln_date": "2013-02-08 13:37:08+11:00",
+"vuln_files": [
+"prov/src/main/java/org/bouncycastle/jcajce/provider/drbg/DRBG.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/symmetric/AES.java",
+"core/src/main/java/org/bouncycastle/crypto/engines/AESEngine.java",
+"core/src/main/java/org/bouncycastle/crypto/params/DHPublicKeyParameters.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/dh/BCDHPublicKey.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/dh/KeyFactorySpi.java",
+"prov/src/test/java/org/bouncycastle/jce/provider/test/DHTest.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/ec/IESCipher.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-310"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-310"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"core/src/main/java/org/bouncycastle/crypto/params/DHPublicKeyParameters.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/ec/IESCipher.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2016-1000343",
+"patch_date": [
+"2016-11-04 10:04:21+11:00"
+],
+"patch_files": [
+"prov/src/test/java/org/bouncycastle/jce/provider/test/DSATest.java",
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/dsa/KeyPairGeneratorSpi.java"
+],
+"earliest_patch_date": "2016-11-04 10:04:21+11:00",
+"earliest_vuln_date": "2013-02-08 13:37:08+11:00",
+"vuln_files": [
+"prov/src/main/java/org/bouncycastle/jcajce/provider/asymmetric/dsa/KeyPairGeneratorSpi.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-310"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-310"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"prov/src/test/java/org/bouncycastle/jce/provider/test/DSATest.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2016-1000340",
+"patch_date": [
+"2016-11-29 13:56:16+11:00"
+],
+"patch_files": [
+"core/src/test/java/org/bouncycastle/math/ec/custom/sec/test/SecP256R1FieldTest.java",
+"core/src/main/java/org/bouncycastle/math/raw/Nat224.java",
+"core/src/main/java/org/bouncycastle/math/raw/Nat192.java",
+"core/src/main/java/org/bouncycastle/math/raw/Nat128.java",
+"core/src/main/java/org/bouncycastle/math/raw/Nat160.java",
+"core/src/test/java/org/bouncycastle/math/ec/custom/sec/test/SecP384R1FieldTest.java",
+"core/src/main/java/org/bouncycastle/math/raw/Nat256.java"
+],
+"earliest_patch_date": "2016-11-29 13:56:16+11:00",
+"earliest_vuln_date": "2014-01-03 17:39:15+07:00",
+"vuln_files": [
+"core/src/main/java/org/bouncycastle/math/raw/Nat224.java",
+"core/src/main/java/org/bouncycastle/math/raw/Nat192.java",
+"core/src/main/java/org/bouncycastle/math/raw/Nat128.java",
+"core/src/main/java/org/bouncycastle/math/raw/Nat160.java",
+"core/src/main/java/org/bouncycastle/math/raw/Nat256.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-19"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2017-13098",
+"patch_date": [
+"2017-12-12 08:41:43+07:00"
+],
+"patch_files": [
+"tls/src/main/java/org/bouncycastle/tls/crypto/impl/jcajce/JceDefaultTlsCredentialedDecryptor.java"
+],
+"earliest_patch_date": "2017-12-12 08:41:43+07:00",
+"earliest_vuln_date": "2016-10-25 17:05:03+11:00",
+"vuln_files": [
+"tls/src/main/java/org/bouncycastle/tls/crypto/impl/jcajce/JceDefaultTlsCredentialedDecryptor.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.9,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-203"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2018-1000613",
+"patch_date": [
+"2018-03-03 15:54:14+11:00",
+"2018-03-03 14:06:34+11:00"
+],
+"patch_files": [
+"core/src/main/java/org/bouncycastle/pqc/crypto/xmss/XMSSUtil.java",
+"core/src/main/java/org/bouncycastle/pqc/crypto/gmss/GMSSKeyPairGenerator.java",
+"core/src/main/java/org/bouncycastle/pqc/math/linearalgebra/GF2nField.java",
+"core/src/main/java/org/bouncycastle/pqc/crypto/xmss/XMSSPrivateKeyParameters.java",
+"prov/src/main/java/org/bouncycastle/pqc/jcajce/provider/xmss/BCXMSSMTPrivateKey.java",
+"core/src/main/java/org/bouncycastle/pqc/crypto/xmss/XMSSMTPrivateKeyParameters.java",
+"prov/src/main/java/org/bouncycastle/pqc/jcajce/provider/xmss/BCXMSSPrivateKey.java",
+"core/src/main/java/org/bouncycastle/pqc/crypto/rainbow/RainbowParameters.java",
+"core/src/test/java/org/bouncycastle/pqc/crypto/test/XMSSMTPrivateKeyTest.java",
+"docs/releasenotes.html"
+],
+"earliest_patch_date": "2018-03-03 14:06:34+11:00",
+"earliest_vuln_date": "2013-02-08 13:37:08+11:00",
+"vuln_files": [
+"core/src/main/java/org/bouncycastle/pqc/crypto/gmss/GMSSKeyPairGenerator.java",
+"core/src/main/java/org/bouncycastle/pqc/crypto/rainbow/RainbowParameters.java",
+"core/src/main/java/org/bouncycastle/pqc/math/linearalgebra/GF2nField.java",
+"core/src/main/java/org/bouncycastle/pqc/crypto/xmss/XMSSMTPrivateKeyParameters.java",
+"core/src/main/java/org/bouncycastle/pqc/crypto/xmss/XMSSPrivateKeyParameters.java",
+"core/src/main/java/org/bouncycastle/pqc/crypto/xmss/XMSSUtil.java",
+"core/src/test/java/org/bouncycastle/pqc/crypto/test/XMSSMTPrivateKeyTest.java",
+"prov/src/main/java/org/bouncycastle/pqc/jcajce/provider/xmss/BCXMSSMTPrivateKey.java",
+"prov/src/main/java/org/bouncycastle/pqc/jcajce/provider/xmss/BCXMSSPrivateKey.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-470"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2018-1000180",
+"patch_date": [
+"2018-04-19 18:40:01+10:00",
+"2018-04-23 08:14:24+10:00"
+],
+"patch_files": [
+"core/src/main/java/org/bouncycastle/crypto/generators/RSAKeyPairGenerator.java"
+],
+"earliest_patch_date": "2018-04-19 18:40:01+10:00",
+"earliest_vuln_date": "2015-12-16 09:58:03+11:00",
+"vuln_files": [
+"core/src/main/java/org/bouncycastle/crypto/generators/RSAKeyPairGenerator.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-327"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-33201",
+"patch_date": [
+"2023-04-25 23:11:52-04:00"
+],
+"patch_files": [
+"prov/src/main/java/org/bouncycastle/jce/provider/X509LDAPCertStoreSpi.java"
+],
+"earliest_patch_date": "2023-04-25 23:11:52-04:00",
+"earliest_vuln_date": "2013-05-31 17:07:45+10:00",
+"vuln_files": [
+"prov/src/main/java/org/bouncycastle/jce/provider/X509LDAPCertStoreSpi.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"CWE-295"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

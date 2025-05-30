@@ -1,0 +1,72 @@
+[
+{
+"cve_id": "CVE-2021-21234",
+"patch_date": [
+"2021-01-01 22:36:07+01:00",
+"2021-01-01 22:46:05+01:00"
+],
+"patch_files": [
+"lib/src/test/java/eu/hinsch/spring/boot/actuator/logview/LogViewEndpointTest.java",
+"lib/src/main/java/eu/hinsch/spring/boot/actuator/logview/LogViewEndpoint.java",
+".gitignore",
+".travis.yml"
+],
+"earliest_patch_date": "2021-01-01 22:36:07+01:00",
+"earliest_vuln_date": "2015-02-25 23:08:29+01:00",
+"vuln_files": [
+"lib/src/test/java/eu/hinsch/spring/boot/actuator/logview/LogViewEndpointTest.java",
+"lib/src/main/java/eu/hinsch/spring/boot/actuator/logview/LogViewEndpoint.java",
+".travis.yml"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.7,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.1,
+"impactScore": 4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,155 @@
+[
+{
+"cve_id": "CVE-2021-21366",
+"patch_date": [
+"2021-03-08 22:21:56-05:00"
+],
+"patch_files": [
+"test/error/xml-reader-dom-handler-errors.test.js",
+"test/parse/doctype.test.js",
+"lib/dom.js",
+"lib/sax.js",
+"test/error/reported.js",
+"test/error/error-handler.test.js",
+"test/error/__snapshots__/xml-error.test.js.snap",
+"test/error/error.test.js",
+"test/error/reported-levels.test.js",
+"test/parse/parse-error.test.js",
+"test/xmltest/__snapshots__/not-wf.test.js.snap",
+"test/html/__snapshots__/normalize.test.js.snap",
+"lib/dom-parser.js",
+"test/error/__snapshots__/reported-levels.test.js.snap"
+],
+"earliest_patch_date": "2021-03-08 22:21:56-05:00",
+"earliest_vuln_date": "2012-01-04 12:45:15+00:00",
+"vuln_files": [
+"lib/dom.js",
+"lib/sax.js",
+"test/error/__snapshots__/xml-error.test.js.snap",
+"test/error/error.test.js",
+"test/xmltest/__snapshots__/not-wf.test.js.snap",
+"test/html/__snapshots__/normalize.test.js.snap",
+"lib/dom-parser.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-32796",
+"patch_date": [
+"2021-07-27 22:32:03+02:00"
+],
+"patch_files": [
+"lib/dom.js",
+"test/dom/serializer.test.js"
+],
+"earliest_patch_date": "2021-07-27 22:32:03+02:00",
+"earliest_vuln_date": "2016-11-28 13:19:27+08:00",
+"vuln_files": [
+"lib/dom.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-91",
+"CWE-116"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/dom.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

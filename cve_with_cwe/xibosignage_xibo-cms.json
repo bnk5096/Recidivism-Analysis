@@ -1,0 +1,378 @@
+[
+{
+"cve_id": "CVE-2023-33177",
+"patch_date": [
+"2023-05-07 14:07:57+01:00",
+"2023-05-04 15:51:36+01:00"
+],
+"patch_files": [
+"lib/Factory/LayoutFactory.php",
+".github/workflows/build-tag.yaml",
+"lib/Helper/Environment.php",
+".github/workflows/test-suite.yaml",
+"lib/Factory/BaseFactory.php",
+".github/workflows/build-container.yaml",
+"lib/Entity/DataSet.php",
+"lib/Controller/Base.php",
+"lib/Factory/DisplayFactory.php",
+".github/workflows/build-cypress.yaml"
+],
+"earliest_patch_date": "2023-05-04 15:51:36+01:00",
+"earliest_vuln_date": "2015-02-14 16:09:17+00:00",
+"vuln_files": [
+"lib/Factory/LayoutFactory.php",
+".github/workflows/build-tag.yaml",
+".github/workflows/test-suite.yaml",
+"lib/Helper/Environment.php",
+".github/workflows/build-container.yaml",
+"lib/Entity/DataSet.php",
+".github/workflows/build-cypress.yaml",
+"lib/Controller/Base.php",
+"lib/Factory/DisplayFactory.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-29023",
+"patch_date": [
+"2024-03-18 12:43:29+00:00",
+"2024-03-18 12:40:49+00:00"
+],
+"patch_files": [
+"lib/Xmds/Soap.php",
+"lib/Helper/Environment.php",
+"lib/Helper/Session.php",
+"lib/Factory/SessionFactory.php",
+"views/sessions-form-confirm-logout.twig",
+"lib/Controller/Sessions.php"
+],
+"earliest_patch_date": "2024-03-18 12:40:49+00:00",
+"earliest_vuln_date": "2015-07-06 13:51:28+01:00",
+"vuln_files": [
+"lib/Xmds/Soap.php",
+"lib/Helper/Environment.php",
+"lib/Helper/Session.php",
+"lib/Factory/SessionFactory.php",
+"views/sessions-form-confirm-logout.twig",
+"lib/Controller/Sessions.php"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/Helper/Environment.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-41944",
+"patch_date": [
+"2024-07-11 20:25:30+01:00"
+],
+"patch_files": [
+"lib/Report/ProofOfPlay.php"
+],
+"earliest_patch_date": "2024-07-11 20:25:30+01:00",
+"earliest_vuln_date": "2019-07-18 13:29:32+01:00",
+"vuln_files": [
+"lib/Report/ProofOfPlay.php"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-41803",
+"patch_date": [
+"2024-07-12 18:00:39+01:00"
+],
+"patch_files": [
+"lib/Entity/DataSetColumn.php",
+"lib/Entity/DataSet.php"
+],
+"earliest_patch_date": "2024-07-12 18:00:39+01:00",
+"earliest_vuln_date": "2019-09-23 16:03:31+01:00",
+"vuln_files": [
+"lib/Entity/DataSetColumn.php",
+"lib/Entity/DataSet.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.9,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-89"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/Entity/DataSet.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-41804",
+"patch_date": [
+"2024-07-12 18:00:39+01:00"
+],
+"patch_files": [
+"lib/Entity/DataSetColumn.php",
+"lib/Entity/DataSet.php"
+],
+"earliest_patch_date": "2024-07-12 18:00:39+01:00",
+"earliest_vuln_date": "2019-09-23 16:03:31+01:00",
+"vuln_files": [
+"lib/Entity/DataSetColumn.php",
+"lib/Entity/DataSet.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 5.2
+}
+},
+"cwes": [
+"CWE-89"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-89"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/Entity/DataSetColumn.php",
+"lib/Entity/DataSet.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-41802",
+"patch_date": [
+"2024-07-15 11:54:28+01:00"
+],
+"patch_files": [
+"lib/Controller/DataSet.php",
+"lib/Controller/DataSetData.php",
+"lib/Entity/DataSet.php"
+],
+"earliest_patch_date": "2024-07-15 11:54:28+01:00",
+"earliest_vuln_date": "2015-07-23 14:09:36+01:00",
+"vuln_files": [
+"lib/Controller/DataSet.php",
+"lib/Controller/DataSetData.php",
+"lib/Entity/DataSet.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.2
+}
+},
+"cwes": [
+"CWE-89"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-89"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/Entity/DataSet.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-43413",
+"patch_date": [
+"2024-08-13 00:19:17+08:00"
+],
+"patch_files": [
+"views/dataset-dataentry-page.twig"
+],
+"earliest_patch_date": "2024-08-13 00:19:17+08:00",
+"earliest_vuln_date": "2018-02-24 09:43:54+00:00",
+"vuln_files": [
+"views/dataset-dataentry-page.twig"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.8,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.7,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-43412",
+"patch_date": [
+"2024-08-14 16:06:39+08:00"
+],
+"patch_files": [
+"lib/Controller/Module.php",
+"modules/genericfile.xml",
+"lib/Factory/ModuleFactory.php",
+"lib/Controller/Library.php",
+"lib/Entity/Module.php",
+"views/module-form-settings.twig"
+],
+"earliest_patch_date": "2024-08-14 16:06:39+08:00",
+"earliest_vuln_date": "2022-04-12 13:35:51+01:00",
+"vuln_files": [
+"lib/Controller/Library.php",
+"views/module-form-settings.twig"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

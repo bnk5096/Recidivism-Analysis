@@ -1,0 +1,195 @@
+[
+{
+"cve_id": "CVE-2022-36113",
+"patch_date": [
+"2022-09-14 10:54:44+02:00"
+],
+"patch_files": [
+"src/cargo/sources/registry/mod.rs"
+],
+"earliest_patch_date": "2022-09-14 10:54:44+02:00",
+"earliest_vuln_date": "2020-11-07 17:01:21+00:00",
+"vuln_files": [
+"src/cargo/sources/registry/mod.rs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.2
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-36114",
+"patch_date": [
+"2022-09-14 10:54:48+02:00"
+],
+"patch_files": [
+"src/cargo/util/mod.rs",
+"src/cargo/util/io.rs",
+"src/cargo/sources/registry/mod.rs"
+],
+"earliest_patch_date": "2022-09-14 10:54:48+02:00",
+"earliest_vuln_date": "2021-05-25 17:42:05-07:00",
+"vuln_files": [
+"src/cargo/sources/registry/mod.rs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/cargo/sources/registry/mod.rs"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-40030",
+"patch_date": [
+"2023-06-20 12:39:27-07:00",
+"2023-08-24 18:21:11+01:00"
+],
+"patch_files": [
+"crates/resolver-tests/src/lib.rs",
+"tests/testsuite/features.rs",
+"src/cargo/core/resolver/version_prefs.rs",
+"src/cargo/core/summary.rs",
+"src/cargo/sources/registry/index.rs",
+"CHANGELOG.md",
+"src/cargo/util/toml/mod.rs"
+],
+"earliest_patch_date": "2023-06-20 12:39:27-07:00",
+"earliest_vuln_date": "2019-05-03 07:23:00-07:00",
+"vuln_files": [
+"crates/resolver-tests/src/lib.rs",
+"tests/testsuite/features.rs",
+"src/cargo/core/resolver/version_prefs.rs",
+"src/cargo/core/summary.rs",
+"src/cargo/sources/registry/index.rs",
+"src/cargo/util/toml/mod.rs",
+"CHANGELOG.md"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-38497",
+"patch_date": [
+"2023-08-03 12:58:25+00:00"
+],
+"patch_files": [
+"src/cargo/util/mod.rs",
+"tests/testsuite/vendor.rs",
+"tests/testsuite/registry.rs",
+"src/cargo/sources/registry/mod.rs"
+],
+"earliest_patch_date": "2023-08-03 12:58:25+00:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.3,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.3,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/cargo/util/mod.rs",
+"src/cargo/sources/registry/mod.rs"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

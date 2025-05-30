@@ -1,0 +1,621 @@
+[
+{
+"cve_id": "CVE-2018-6560",
+"patch_date": [
+"2018-01-30 12:06:14+01:00"
+],
+"patch_files": [
+"dbus-proxy/flatpak-proxy.c"
+],
+"earliest_patch_date": "2018-01-30 12:06:14+01:00",
+"earliest_vuln_date": "2015-05-19 10:56:21+02:00",
+"vuln_files": [
+"dbus-proxy/flatpak-proxy.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2,
+"impactScore": 6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4.6
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 3.9,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-436"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-21261",
+"patch_date": [
+"2021-01-14 09:33:24+01:00",
+"2021-01-14 09:33:24+01:00",
+"2021-01-14 09:33:24+01:00",
+"2021-01-14 09:33:24+01:00"
+],
+"patch_files": [
+"portal/flatpak-portal.c",
+"common/flatpak-bwrap-private.h",
+"doc/flatpak-build.xml",
+"common/flatpak-bwrap.c",
+"common/flatpak-context.c",
+"doc/flatpak-run.xml",
+"doc/flatpak-build-finish.xml",
+"doc/flatpak-override.xml",
+"common/flatpak-run.c"
+],
+"earliest_patch_date": "2021-01-14 09:33:24+01:00",
+"earliest_vuln_date": "2016-05-26 09:43:56+02:00",
+"vuln_files": [
+"portal/flatpak-portal.c",
+"common/flatpak-run.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2,
+"impactScore": 6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "COMPLETE",
+"integrityImpact": "COMPLETE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 7.2
+},
+"severity": "HIGH",
+"exploitabilityScore": 3.9,
+"impactScore": 10,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-21381",
+"patch_date": [
+"2021-03-10 11:13:38+01:00",
+"2021-03-10 11:13:38+01:00",
+"2021-03-10 11:13:38+01:00"
+],
+"patch_files": [
+"common/flatpak-dir.c"
+],
+"earliest_patch_date": "2021-03-10 11:13:38+01:00",
+"earliest_vuln_date": "2021-03-10 11:13:38+01:00",
+"vuln_files": [
+"common/flatpak-dir.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 8.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 5.8
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-41133",
+"patch_date": [
+"2021-10-08 12:53:20+02:00",
+"2021-10-08 12:53:20+02:00",
+"2021-10-08 12:53:20+02:00",
+"2021-10-08 12:53:20+02:00",
+"2021-10-08 12:53:20+02:00",
+"2021-10-08 12:53:20+02:00",
+"2021-10-08 12:53:20+02:00",
+"2021-10-08 12:53:20+02:00"
+],
+"patch_files": [
+"common/Makefile.am.inc",
+"common/flatpak-run.c",
+"common/flatpak-syscalls-private.h"
+],
+"earliest_patch_date": "2021-10-08 12:53:20+02:00",
+"earliest_vuln_date": "2016-04-29 15:52:44+02:00",
+"vuln_files": [
+"common/flatpak-run.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4.6
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 3.9,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"common/flatpak-run.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-43860",
+"patch_date": [
+"2022-01-12 19:48:16+01:00",
+"2022-01-12 19:48:16+01:00",
+"2022-01-12 19:48:16+01:00",
+"2022-01-12 19:48:16+01:00",
+"2022-01-12 19:48:16+01:00"
+],
+"patch_files": [
+"common/flatpak-dir.c",
+"common/flatpak-transaction.c",
+"tests/Makefile-test-matrix.am.inc",
+"common/flatpak-utils.c",
+"tests/Makefile.am.inc",
+"tests/test-metadata-validation.sh"
+],
+"earliest_patch_date": "2022-01-12 19:48:16+01:00",
+"earliest_vuln_date": "2016-04-19 13:31:55+02:00",
+"vuln_files": [
+"common/flatpak-transaction.c",
+"common/flatpak-dir.c",
+"common/flatpak-utils.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.6,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-276"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"common/flatpak-dir.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-21682",
+"patch_date": [
+"2022-01-12 19:48:34+01:00",
+"2022-01-12 19:48:34+01:00"
+],
+"patch_files": [
+"doc/flatpak-build.xml",
+"common/flatpak-context.c",
+"doc/flatpak-run.xml",
+"doc/flatpak-build-finish.xml",
+"doc/flatpak-override.xml"
+],
+"earliest_patch_date": "2022-01-12 19:48:34+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"doc/flatpak-build.xml",
+"common/flatpak-context.c",
+"doc/flatpak-run.xml",
+"doc/flatpak-build-finish.xml",
+"doc/flatpak-override.xml"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-28100",
+"patch_date": [
+"2023-03-16 09:54:14+00:00"
+],
+"patch_files": [
+"tests/test-seccomp.sh",
+"tests/try-syscall.c",
+"common/flatpak-run.c"
+],
+"earliest_patch_date": "2023-03-16 09:54:14+00:00",
+"earliest_vuln_date": "2021-10-25 23:33:46+01:00",
+"vuln_files": [
+"tests/test-seccomp.sh"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2,
+"impactScore": 4
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"common/flatpak-run.c"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"common/flatpak-run.c"
+]
+},
+{
+"cve_id": "CVE-2023-28101",
+"patch_date": [
+"2023-03-16 09:54:14+00:00",
+"2023-03-16 09:54:14+00:00",
+"2023-03-16 09:54:14+00:00"
+],
+"patch_files": [
+"tests/make-test-app.sh",
+"tests/testcommon.c",
+"tests/test-info.sh",
+"tests/test-context.c",
+"app/flatpak-cli-transaction.c",
+"common/flatpak-context.c",
+"app/flatpak-builtins-remote-info.c",
+"common/flatpak-utils.c",
+"app/flatpak-builtins-info.c",
+"common/flatpak-utils-private.h"
+],
+"earliest_patch_date": "2023-03-16 09:54:14+00:00",
+"earliest_vuln_date": "2017-06-19 10:58:09+02:00",
+"vuln_files": [
+"tests/test-info.sh",
+"app/flatpak-cli-transaction.c",
+"app/flatpak-builtins-remote-info.c",
+"app/flatpak-builtins-info.c",
+"common/flatpak-context.c",
+"tests/test-context.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"common/flatpak-context.c",
+"common/flatpak-utils.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-32462",
+"patch_date": [
+"2024-04-17 18:14:29+01:00",
+"2024-04-17 18:13:39+01:00",
+"2024-04-17 18:12:01+01:00",
+"2024-04-17 18:10:31+01:00"
+],
+"patch_files": [
+"common/flatpak-dir.c",
+"app/flatpak-builtins-build.c",
+"common/flatpak-run-dbus.c",
+"common/flatpak-run.c"
+],
+"earliest_patch_date": "2024-04-17 18:10:31+01:00",
+"earliest_vuln_date": "2017-10-24 08:22:07+00:00",
+"vuln_files": [
+"app/flatpak-builtins-build.c",
+"common/flatpak-run.c"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"common/flatpak-dir.c",
+"common/flatpak-run.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-42472",
+"patch_date": [
+"2024-08-12 19:33:25+01:00",
+"2024-08-12 19:26:44+01:00",
+"2024-08-12 19:33:33+01:00",
+"2024-08-14 13:45:33+01:00",
+"2024-08-14 13:43:29+01:00",
+"2024-08-14 13:43:54+01:00"
+],
+"patch_files": [
+"tests/test-run.sh",
+"common/flatpak-context.c"
+],
+"earliest_patch_date": "2024-08-12 19:26:44+01:00",
+"earliest_vuln_date": "2018-02-05 14:31:30+00:00",
+"vuln_files": [
+"tests/test-run.sh",
+"common/flatpak-context.c"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"common/flatpak-context.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

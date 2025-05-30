@@ -1,0 +1,118 @@
+[
+{
+"cve_id": "CVE-2023-44463",
+"patch_date": [
+"2023-09-11 09:57:37+02:00"
+],
+"patch_files": [
+"src/pretix/settings.py"
+],
+"earliest_patch_date": "2023-09-11 09:57:37+02:00",
+"earliest_vuln_date": "2019-07-09 16:13:37+02:00",
+"vuln_files": [
+"src/pretix/settings.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-44464",
+"patch_date": [
+"2023-09-12 11:50:20+02:00"
+],
+"patch_files": [
+"src/pretix/control/forms/__init__.py",
+"src/pretix/base/settings.py",
+"src/pretix/helpers/images.py",
+"src/pretix/helpers/monkeypatching.py",
+"src/pretix/settings.py",
+"src/pretix/control/forms/organizer.py",
+"src/pretix/api/views/order.py",
+"src/pretix/base/forms/questions.py",
+"src/pretix/helpers/thumb.py",
+"src/pretix/plugins/sendmail/forms.py",
+"src/pretix/helpers/reportlab.py",
+"src/pretix/base/pdf.py",
+"src/pretix/base/models/orders.py"
+],
+"earliest_patch_date": "2023-09-12 11:50:20+02:00",
+"earliest_vuln_date": "2017-08-21 15:14:45+02:00",
+"vuln_files": [
+"src/pretix/control/forms/__init__.py",
+"src/pretix/base/settings.py",
+"src/pretix/helpers/images.py",
+"src/pretix/control/forms/organizer.py",
+"src/pretix/api/views/order.py",
+"src/pretix/base/forms/questions.py",
+"src/pretix/helpers/thumb.py",
+"src/pretix/plugins/sendmail/forms.py",
+"src/pretix/helpers/reportlab.py",
+"src/pretix/base/pdf.py",
+"src/pretix/base/models/orders.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"NVD-CWE-noinfo"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/pretix/settings.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

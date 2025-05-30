@@ -1,0 +1,679 @@
+[
+{
+"cve_id": "CVE-2018-17553",
+"patch_date": [
+"2018-09-22 09:00:50+02:00"
+],
+"patch_files": [
+"lib/packages/files/files.php",
+"navigate_upload.php"
+],
+"earliest_patch_date": "2018-09-22 09:00:50+02:00",
+"earliest_vuln_date": "2012-12-30 10:27:42+01:00",
+"vuln_files": [
+"lib/packages/files/files.php",
+"navigate_upload.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-22",
+"CWE-434"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2018-17552",
+"patch_date": [
+"2018-09-24 10:29:24+02:00"
+],
+"patch_files": [
+"lib/packages/payment_methods/payment_method.class.php",
+"lib/packages/comments/comments.php",
+"lib/webgets/liveedit.php",
+"web/nvweb_routes.php",
+"lib/layout/navibars.class.php",
+"lib/packages/webuser_votes/webuser_vote.class.php",
+"lib/webgets/comments.php",
+"lib/core/user.class.php",
+"lib/webgets/search.php",
+"lib/packages/products/product.class.php",
+"lib/packages/about/about.php",
+"lib/packages/products/products.php",
+"lib/webgets/product.php",
+"lib/webgets/gallery.php",
+"lib/webgets/properties.php",
+"lib/packages/users_log/users_log.class.php",
+"lib/webgets/blocks.php",
+"lib/packages/comments/comment.class.php",
+"lib/packages/brands/brand.class.php",
+"lib/packages/permissions/permission.class.php",
+"lib/packages/structure/structure.php",
+"lib/packages/shipping_methods/shipping_methods.php",
+"lib/packages/blocks/block.class.php",
+"lib/packages/files/file.class.php",
+"lib/packages/webdictionary/webdictionary.class.php",
+"lib/packages/shipping_methods/shipping_method.class.php",
+"lib/webgets/tags.php",
+"lib/packages/themes/themes.php",
+"lib/packages/webusers/webuser.class.php",
+"lib/packages/websites/website.class.php",
+"lib/packages/items/item.class.php",
+"lib/packages/users/users.php",
+"lib/packages/files/files.php",
+"lib/packages/orders/order.class.php",
+"lib/webgets/metatags.php",
+"lib/packages/themes/theme.class.php",
+"lib/packages/extensions/extension.class.php",
+"lib/packages/properties/property.class.php",
+"lib/core/language.class.php",
+"web/nvweb_templates.php",
+"lib/webgets/conditional.php",
+"lib/webgets/votes.php",
+"lib/core/core.php",
+"web/nvweb_xmlrpc.php",
+"lib/packages/feeds/feeds.php",
+"lib/webgets/contact.php",
+"lib/packages/properties/property.layout.php",
+"lib/webgets/list.php",
+"lib/core/database.class.php",
+"lib/packages/templates/template.class.php",
+"lib/packages/items/items.php",
+"login.php",
+"lib/webgets/menu.php",
+"lib/packages/blocks/block_group.class.php",
+"lib/packages/webusers/webuser_group.class.php",
+"lib/packages/blocks/blocks.php",
+"lib/packages/dashboard/dashboard.php",
+"lib/webgets/webuser.php",
+"lib/packages/webdictionary/webdictionary_history.class.php",
+"lib/packages/feeds/feed.class.php",
+"lib/packages/orders/orders.php",
+"lib/packages/templates/templates.php",
+"lib/packages/websites/websites.php",
+"lib/packages/structure/structure.class.php",
+"lib/layout/layout.class.php",
+"web/nvweb_plugins.php",
+"lib/packages/coupons/coupon.class.php",
+"lib/packages/paths/path.class.php",
+"lib/packages/extensions/extensions.php",
+"lib/webgets/content.php",
+"lib/packages/grid_notes/grid_notes.class.php",
+"lib/layout/naviforms.class.php"
+],
+"earliest_patch_date": "2018-09-24 10:29:24+02:00",
+"earliest_vuln_date": "2012-12-30 10:27:42+01:00",
+"vuln_files": [
+"lib/webgets/liveedit.php",
+"lib/packages/comments/comments.php",
+"web/nvweb_routes.php",
+"lib/packages/payment_methods/payment_method.class.php",
+"lib/layout/navibars.class.php",
+"lib/packages/webuser_votes/webuser_vote.class.php",
+"lib/webgets/comments.php",
+"lib/core/user.class.php",
+"lib/webgets/search.php",
+"lib/packages/products/product.class.php",
+"lib/packages/about/about.php",
+"lib/webgets/properties.php",
+"lib/packages/products/products.php",
+"lib/webgets/gallery.php",
+"lib/webgets/product.php",
+"lib/packages/users_log/users_log.class.php",
+"lib/webgets/blocks.php",
+"lib/packages/comments/comment.class.php",
+"lib/packages/brands/brand.class.php",
+"lib/packages/structure/structure.php",
+"lib/webgets/tags.php",
+"lib/packages/shipping_methods/shipping_methods.php",
+"lib/packages/blocks/block.class.php",
+"lib/packages/files/file.class.php",
+"lib/packages/webdictionary/webdictionary.class.php",
+"lib/packages/shipping_methods/shipping_method.class.php",
+"lib/packages/themes/themes.php",
+"lib/packages/webusers/webuser.class.php",
+"lib/packages/websites/website.class.php",
+"lib/packages/items/item.class.php",
+"lib/packages/users/users.php",
+"lib/packages/files/files.php",
+"lib/webgets/metatags.php",
+"lib/packages/orders/order.class.php",
+"lib/packages/themes/theme.class.php",
+"lib/packages/extensions/extension.class.php",
+"lib/packages/properties/property.class.php",
+"lib/core/language.class.php",
+"web/nvweb_templates.php",
+"lib/webgets/votes.php",
+"lib/webgets/conditional.php",
+"lib/core/core.php",
+"web/nvweb_xmlrpc.php",
+"lib/packages/feeds/feeds.php",
+"lib/webgets/contact.php",
+"lib/webgets/list.php",
+"lib/packages/properties/property.layout.php",
+"lib/core/database.class.php",
+"lib/packages/templates/template.class.php",
+"lib/packages/items/items.php",
+"login.php",
+"lib/webgets/menu.php",
+"lib/packages/blocks/block_group.class.php",
+"lib/packages/webusers/webuser_group.class.php",
+"lib/packages/blocks/blocks.php",
+"lib/packages/dashboard/dashboard.php",
+"lib/webgets/webuser.php",
+"lib/packages/webdictionary/webdictionary_history.class.php",
+"lib/packages/feeds/feed.class.php",
+"lib/packages/templates/templates.php",
+"lib/packages/websites/websites.php",
+"lib/packages/orders/orders.php",
+"lib/packages/structure/structure.class.php",
+"web/nvweb_plugins.php",
+"lib/layout/layout.class.php",
+"lib/packages/coupons/coupon.class.php",
+"lib/packages/paths/path.class.php",
+"lib/packages/extensions/extensions.php",
+"lib/webgets/content.php",
+"lib/packages/grid_notes/grid_notes.class.php",
+"lib/packages/permissions/permission.class.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-89"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/packages/files/files.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-13795",
+"patch_date": [
+"2020-05-09 08:50:51+02:00"
+],
+"patch_files": [
+"lib/packages/themes/themes.php",
+"lib/packages/templates/templates.php",
+"lib/packages/templates/template.class.php"
+],
+"earliest_patch_date": "2020-05-09 08:50:51+02:00",
+"earliest_vuln_date": "2012-12-30 10:27:42+01:00",
+"vuln_files": [
+"lib/packages/themes/themes.php",
+"lib/packages/templates/templates.php",
+"lib/packages/templates/template.class.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-22"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/packages/themes/themes.php",
+"lib/packages/templates/templates.php",
+"lib/packages/templates/template.class.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-13796",
+"patch_date": [
+"2020-05-17 16:16:05+02:00"
+],
+"patch_files": [
+"lib/packages/feeds/feed.class.php",
+"lib/packages/structure/structure.class.php",
+"lib/packages/menus/menu.class.php",
+"lib/packages/websites/website.class.php",
+"lib/packages/menus/menus.php"
+],
+"earliest_patch_date": "2020-05-17 16:16:05+02:00",
+"earliest_vuln_date": "2012-12-30 10:27:42+01:00",
+"vuln_files": [
+"lib/packages/feeds/feed.class.php",
+"lib/packages/structure/structure.class.php",
+"lib/packages/menus/menu.class.php",
+"lib/packages/websites/website.class.php",
+"lib/packages/menus/menus.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/packages/feeds/feed.class.php",
+"lib/packages/structure/structure.class.php",
+"lib/packages/websites/website.class.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-13797",
+"patch_date": [
+"2020-05-17 16:16:05+02:00"
+],
+"patch_files": [
+"lib/packages/feeds/feed.class.php",
+"lib/packages/structure/structure.class.php",
+"lib/packages/menus/menu.class.php",
+"lib/packages/websites/website.class.php",
+"lib/packages/menus/menus.php"
+],
+"earliest_patch_date": "2020-05-17 16:16:05+02:00",
+"earliest_vuln_date": "2012-12-30 10:27:42+01:00",
+"vuln_files": [
+"lib/packages/feeds/feed.class.php",
+"lib/packages/structure/structure.class.php",
+"lib/packages/menus/menu.class.php",
+"lib/packages/websites/website.class.php",
+"lib/packages/menus/menus.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/packages/feeds/feed.class.php",
+"lib/packages/structure/structure.class.php",
+"lib/packages/menus/menu.class.php",
+"lib/packages/websites/website.class.php",
+"lib/packages/menus/menus.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-13798",
+"patch_date": [
+"2020-05-17 16:16:05+02:00"
+],
+"patch_files": [
+"lib/packages/feeds/feed.class.php",
+"lib/packages/structure/structure.class.php",
+"lib/packages/menus/menu.class.php",
+"lib/packages/websites/website.class.php",
+"lib/packages/menus/menus.php"
+],
+"earliest_patch_date": "2020-05-17 16:16:05+02:00",
+"earliest_vuln_date": "2012-12-30 10:27:42+01:00",
+"vuln_files": [
+"lib/packages/feeds/feed.class.php",
+"lib/packages/structure/structure.class.php",
+"lib/packages/menus/menu.class.php",
+"lib/packages/websites/website.class.php",
+"lib/packages/menus/menus.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/packages/feeds/feed.class.php",
+"lib/packages/structure/structure.class.php",
+"lib/packages/menus/menu.class.php",
+"lib/packages/websites/website.class.php",
+"lib/packages/menus/menus.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-14067",
+"patch_date": [
+"2020-06-11 12:20:32+02:00"
+],
+"patch_files": [
+"lib/packages/themes/theme.class.php",
+"lib/packages/extensions/extension.class.php",
+"lib/packages/themes/themes.js",
+"lib/packages/themes/themes.php",
+"lib/packages/extensions/extensions.php",
+"lib/packages/extensions/extensions.js"
+],
+"earliest_patch_date": "2020-06-11 12:20:32+02:00",
+"earliest_vuln_date": "2012-12-30 10:27:42+01:00",
+"vuln_files": [
+"lib/packages/themes/theme.class.php",
+"lib/packages/extensions/extension.class.php",
+"lib/packages/themes/themes.js",
+"lib/packages/themes/themes.php",
+"lib/packages/extensions/extensions.php",
+"lib/packages/extensions/extensions.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-434"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-434"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/packages/themes/theme.class.php",
+"lib/packages/extensions/extension.class.php",
+"lib/packages/themes/themes.php",
+"lib/packages/extensions/extensions.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

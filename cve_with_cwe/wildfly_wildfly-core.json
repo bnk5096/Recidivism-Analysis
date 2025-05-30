@@ -1,0 +1,47 @@
+[
+{
+"cve_id": "CVE-2021-3644",
+"patch_date": [
+"2021-07-16 09:00:03+02:00",
+"2021-07-16 08:58:36+02:00"
+],
+"patch_files": [
+"controller/src/main/java/org/jboss/as/controller/access/constraint/SensitiveVaultExpressionConstraint.java",
+"testsuite/rbac/src/test/java/org/jboss/as/test/integration/mgmt/access/VaultExpressionSensitivityTestCase.java"
+],
+"earliest_patch_date": "2021-07-16 08:58:36+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 3.3,
+"baseSeverity": "LOW"
+},
+"exploitabilityScore": 0.7,
+"impactScore": 2.5
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

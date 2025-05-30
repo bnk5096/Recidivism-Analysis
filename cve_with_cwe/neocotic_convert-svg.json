@@ -1,0 +1,238 @@
+[
+{
+"cve_id": "CVE-2022-25759",
+"patch_date": [
+"2022-05-29 16:40:52+01:00"
+],
+"patch_files": [
+"packages/convert-svg-to-jpeg/test/fixtures/expected/35.jpeg",
+"packages/convert-svg-to-jpeg/test/fixtures/expected/28.jpeg",
+"packages/convert-svg-to-jpeg/test/fixtures/expected/36.jpeg",
+"packages/convert-svg-core/package.json",
+"packages/convert-svg-test-helper/src/fixtures/input/issue-81.svg",
+"packages/convert-svg-to-png/test/fixtures/expected/28.png",
+"packages/convert-svg-core/src/Converter.js",
+"packages/convert-svg-test-helper/src/tests.json",
+"packages/convert-svg-to-jpeg/test/fixtures/expected/38.jpeg",
+"package-lock.json",
+"packages/convert-svg-to-jpeg/test/fixtures/expected/37.jpeg"
+],
+"earliest_patch_date": "2022-05-29 16:40:52+01:00",
+"earliest_vuln_date": "2017-10-28 23:07:17+01:00",
+"vuln_files": [
+"packages/convert-svg-core/package.json",
+"packages/convert-svg-core/src/Converter.js",
+"package-lock.json"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-94"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-24429",
+"patch_date": [
+"2022-06-06 11:56:36+01:00"
+],
+"patch_files": [
+"packages/convert-svg-test-helper/src/fixtures/input/width-height-viewbox-2.svg",
+"packages/convert-svg-to-jpeg/README.md",
+"packages/convert-svg-test-helper/src/fixtures/input/width-height-viewbox-3.svg",
+"packages/convert-svg-to-webp/test/fixtures/expected/20.webp",
+"package.json",
+"packages/convert-svg-to-webp/README.md",
+"packages/convert-svg-to-jpeg/test/fixtures/expected/20.jpeg",
+"packages/convert-svg-core/README.md",
+"packages/convert-svg-to-png/README.md",
+"packages/convert-svg-core/src/Converter.js",
+"packages/convert-svg-test-helper/src/fixtures/input/viewbox-only-2.svg",
+"packages/convert-svg-test-helper/src/fixtures/input/data-url-font.svg",
+"packages/convert-svg-to-png/test/fixtures/expected/20.png",
+"packages/convert-svg-test-helper/src/fixtures/input/width-height-viewbox.svg"
+],
+"earliest_patch_date": "2022-06-06 11:56:36+01:00",
+"earliest_vuln_date": "2017-10-18 13:29:33+01:00",
+"vuln_files": [
+"packages/convert-svg-test-helper/src/fixtures/input/width-height-viewbox-2.svg",
+"packages/convert-svg-to-jpeg/README.md",
+"packages/convert-svg-test-helper/src/fixtures/input/width-height-viewbox-3.svg",
+"packages/convert-svg-to-webp/README.md",
+"packages/convert-svg-core/README.md",
+"packages/convert-svg-to-png/README.md",
+"packages/convert-svg-core/src/Converter.js",
+"packages/convert-svg-test-helper/src/fixtures/input/viewbox-only-2.svg",
+"packages/convert-svg-test-helper/src/fixtures/input/data-url-font.svg",
+"packages/convert-svg-test-helper/src/fixtures/input/width-height-viewbox.svg"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-94"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-94"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/convert-svg-core/src/Converter.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-24278",
+"patch_date": [
+"2022-06-07 10:29:11+01:00"
+],
+"patch_files": [
+"packages/convert-svg-to-jpeg/test/fixtures/expected/36.jpeg",
+"packages/convert-svg-to-jpeg/test/fixtures/expected/29.jpeg",
+"packages/convert-svg-test-helper/src/fixtures/input/issue-86.svg",
+"packages/convert-svg-to-jpeg/test/fixtures/expected/39.jpeg",
+"packages/convert-svg-core/src/Converter.js",
+"packages/convert-svg-to-png/test/fixtures/expected/29.png",
+"packages/convert-svg-test-helper/src/tests.json",
+"packages/convert-svg-to-jpeg/test/fixtures/expected/38.jpeg",
+"packages/convert-svg-to-jpeg/test/fixtures/expected/37.jpeg",
+"packages/convert-svg-to-webp/test/fixtures/expected/29.webp"
+],
+"earliest_patch_date": "2022-06-07 10:29:11+01:00",
+"earliest_vuln_date": "2022-06-06 11:56:36+01:00",
+"vuln_files": [
+"packages/convert-svg-core/src/Converter.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/convert-svg-to-jpeg/test/fixtures/expected/36.jpeg",
+"packages/convert-svg-core/src/Converter.js",
+"packages/convert-svg-test-helper/src/tests.json",
+"packages/convert-svg-to-jpeg/test/fixtures/expected/38.jpeg",
+"packages/convert-svg-to-jpeg/test/fixtures/expected/37.jpeg"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"packages/convert-svg-to-jpeg/test/fixtures/expected/36.jpeg",
+"packages/convert-svg-core/src/Converter.js",
+"packages/convert-svg-test-helper/src/tests.json",
+"packages/convert-svg-to-jpeg/test/fixtures/expected/38.jpeg",
+"packages/convert-svg-to-jpeg/test/fixtures/expected/37.jpeg"
+]
+}
+]

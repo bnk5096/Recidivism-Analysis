@@ -1,0 +1,8 @@
+template/{{python_name}}/.yarnrc.yml,template/.yarnrc.yml
+template/{% if test %}conftest.py{% endif %}.jinja,template/{% if test and kind == 'server' %}conftest.py{% endif %}.jinja
+template/{{python_name}}/{% if test %}tests{% endif %}/__init__.py.jinja,template/{{python_name}}/{% if test and kind == 'server' %}tests{% endif %}/__init__.py.jinja
+template/{{python_name}}/{% if test %}tests{% endif %}/test_handlers.py.jinja,template/{{python_name}}/{% if test and kind == 'server' %}tests{% endif %}/test_handlers.py.jinja
+template/RELEASE.md,template/RELEASE.md.jinja
+template/style/base.css,template/style/{% if kind != 'theme' %}base.css{% endif %}
+template/style/index.js,template/style/{% if kind != 'theme' %}index.js{% endif %}
+template/tsconfig.json.jinja,template/tsconfig.json

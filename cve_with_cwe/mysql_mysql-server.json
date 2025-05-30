@@ -1,0 +1,246 @@
+[
+{
+"cve_id": "CVE-2015-3152",
+"patch_date": [
+"2013-10-31 11:35:15+02:00"
+],
+"patch_files": [
+"mysql-test/r/ssl_cipher.result",
+"sql-common/client.c",
+"include/mysql.h.pp",
+"cmake/mysql_version.cmake",
+"client/mysqladmin.cc",
+"client/mysqlbinlog.cc",
+"client/mysqltest.cc",
+"mysql-test/t/mysql_ssl.test",
+"sql/rpl_slave.cc",
+"mysql-test/t/plugin_auth_sha256_server_default_tls.test",
+"mysql-test/r/mysql_ssl.result",
+"client/mysqlslap.c",
+"include/sslopt-longopts.h",
+"client/mysql_secure_installation.cc",
+"client/mysqlimport.c",
+"mysql-test/t/ssl_cipher.test",
+"tests/mysql_client_test.c",
+"include/sslopt-case.h",
+"include/mysql.h",
+"include/sql_common.h",
+"client/mysql.cc",
+"sql-common/client_authentication.cc",
+"client/mysqldump.c",
+"client/mysqlshow.c",
+"include/sslopt-vars.h",
+"client/mysql_upgrade.c",
+"mysql-test/t/mysql_ssl-master.opt",
+"mysql-test/r/plugin_auth_sha256_server_default_tls.result",
+"client/mysqlcheck.c"
+],
+"earliest_patch_date": "2013-10-31 11:35:15+02:00",
+"earliest_vuln_date": "2000-07-31 21:29:14+02:00",
+"vuln_files": [
+"mysql-test/r/ssl_cipher.result",
+"sql-common/client.c",
+"include/mysql.h.pp",
+"cmake/mysql_version.cmake",
+"client/mysqladmin.cc",
+"client/mysqlbinlog.cc",
+"client/mysqltest.cc",
+"sql/rpl_slave.cc",
+"mysql-test/t/plugin_auth_sha256_server_default_tls.test",
+"client/mysqlslap.c",
+"include/sslopt-longopts.h",
+"client/mysql_secure_installation.cc",
+"client/mysqlimport.c",
+"mysql-test/t/ssl_cipher.test",
+"include/sslopt-case.h",
+"include/mysql.h",
+"client/mysql.cc",
+"client/mysqldump.c",
+"client/mysqlshow.c",
+"include/sslopt-vars.h",
+"client/mysqlcheck.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 5.9,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-295"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2016-0546",
+"patch_date": [
+"2015-11-06 16:41:55+05:30"
+],
+"patch_files": [
+"libmysql/conf_to_src.c",
+"client/mysqlshow.c",
+"client/mysql_plugin.c",
+"regex/main.c"
+],
+"earliest_patch_date": "2015-11-06 16:41:55+05:30",
+"earliest_vuln_date": "2000-07-31 21:29:14+02:00",
+"vuln_files": [
+"libmysql/conf_to_src.c",
+"client/mysqlshow.c",
+"client/mysql_plugin.c",
+"regex/main.c"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:C/I:C/A:C",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "COMPLETE",
+"integrityImpact": "COMPLETE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 7.2
+},
+"severity": "HIGH",
+"exploitabilityScore": 3.9,
+"impactScore": 10,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"client/mysqlshow.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2016-6663",
+"patch_date": [
+"2016-08-25 13:38:54+05:30"
+],
+"patch_files": [
+"storage/myisam/mi_check.c",
+"include/my_sys.h",
+"include/myisam.h",
+"mysys/my_redel.c",
+"storage/myisam/myisamchk.c",
+"storage/myisam/ha_myisam.cc"
+],
+"earliest_patch_date": "2016-08-25 13:38:54+05:30",
+"earliest_vuln_date": "2000-07-31 21:29:14+02:00",
+"vuln_files": [
+"storage/myisam/mi_check.c",
+"include/myisam.h",
+"storage/myisam/myisamchk.c",
+"mysys/my_redel.c",
+"storage/myisam/ha_myisam.cc"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "HIGH",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4.4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 3.4,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-362"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

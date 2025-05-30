@@ -1,0 +1,122 @@
+[
+{
+"cve_id": "CVE-2021-21369",
+"patch_date": [
+"2020-06-26 09:07:11+10:00"
+],
+"patch_files": [
+"ethereum/api/src/main/java/org/hyperledger/besu/ethereum/api/jsonrpc/authentication/AuthenticationUtils.java",
+"ethereum/api/src/test/resources/JsonRpcHttpService/auth.toml",
+"ethereum/api/src/main/java/org/hyperledger/besu/ethereum/api/jsonrpc/internal/methods/JsonRpcMethod.java",
+"ethereum/api/src/test/java/org/hyperledger/besu/ethereum/api/jsonrpc/JsonRpcHttpServiceLoginTest.java",
+"ethereum/api/src/test/java/org/hyperledger/besu/ethereum/api/jsonrpc/internal/methods/NetListeningTest.java"
+],
+"earliest_patch_date": "2020-06-26 09:07:11+10:00",
+"earliest_vuln_date": "2019-02-13 21:01:54+10:00",
+"vuln_files": [
+"ethereum/api/src/main/java/org/hyperledger/besu/ethereum/api/jsonrpc/authentication/AuthenticationUtils.java",
+"ethereum/api/src/test/java/org/hyperledger/besu/ethereum/api/jsonrpc/internal/methods/NetListeningTest.java",
+"ethereum/api/src/main/java/org/hyperledger/besu/ethereum/api/jsonrpc/internal/methods/JsonRpcMethod.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-41272",
+"patch_date": [
+"2021-11-11 07:56:53-07:00"
+],
+"patch_files": [
+"evm/src/main/java/org/hyperledger/besu/evm/operation/ShlOperation.java",
+"evm/src/main/java/org/hyperledger/besu/evm/operation/ShrOperation.java",
+"evm/src/main/java/org/hyperledger/besu/evm/operation/SarOperation.java"
+],
+"earliest_patch_date": "2021-11-11 07:56:53-07:00",
+"earliest_vuln_date": "2021-09-23 16:39:45+10:00",
+"vuln_files": [
+"evm/src/main/java/org/hyperledger/besu/evm/operation/ShlOperation.java",
+"evm/src/main/java/org/hyperledger/besu/evm/operation/ShrOperation.java",
+"evm/src/main/java/org/hyperledger/besu/evm/operation/SarOperation.java"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

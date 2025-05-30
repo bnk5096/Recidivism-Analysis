@@ -1,0 +1,58 @@
+[
+{
+"cve_id": "CVE-2023-23631",
+"patch_date": [
+"2023-01-26 18:57:03+01:00",
+"2023-02-09 20:42:32+01:00",
+"2023-02-09 20:28:30+01:00"
+],
+"patch_files": [
+"hamt/shardeddir.go",
+"hamt/shardeddir_test.go",
+"version.json",
+"go.sum",
+"data/builder/dirshard.go",
+"go.mod",
+"hamt/util.go"
+],
+"earliest_patch_date": "2023-01-26 18:57:03+01:00",
+"earliest_vuln_date": "2021-03-04 20:40:05-08:00",
+"vuln_files": [
+"hamt/util.go",
+"hamt/shardeddir.go",
+"data/builder/dirshard.go",
+"go.mod",
+"go.sum",
+"hamt/shardeddir_test.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,131 @@
+[
+{
+"cve_id": "CVE-2018-17057",
+"patch_date": [
+"2018-09-14 14:28:55+01:00"
+],
+"patch_files": [
+"tcpdf.php",
+"include/tcpdf_images.php",
+"composer.json",
+"include/tcpdf_static.php",
+"include/tcpdf_fonts.php",
+"CHANGELOG.TXT"
+],
+"earliest_patch_date": "2018-09-14 14:28:55+01:00",
+"earliest_vuln_date": "2010-11-02 12:30:55+01:00",
+"vuln_files": [
+"tcpdf.php",
+"include/tcpdf_images.php",
+"composer.json",
+"include/tcpdf_static.php",
+"include/tcpdf_fonts.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-502"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-32489",
+"patch_date": [
+"2024-03-25 23:52:22+00:00"
+],
+"patch_files": [
+"tcpdf.php",
+"phpstan.neon.dist",
+"LICENSE.TXT",
+"tcpdf_barcodes_1d.php",
+"tests/composer.json",
+"include/barcodes/qrcode.php",
+"config/tcpdf_config.php",
+"examples/example_066.php",
+"include/tcpdf_static.php",
+"examples/config/tcpdf_config_alt.php",
+"tcpdf_autoconfig.php",
+"VERSION",
+"examples/example_049.php",
+"include/tcpdf_fonts.php",
+"CHANGELOG.TXT",
+"README.md"
+],
+"earliest_patch_date": "2024-03-25 23:52:22+00:00",
+"earliest_vuln_date": "2009-03-24 19:37:18+01:00",
+"vuln_files": [
+"tcpdf.php",
+"phpstan.neon.dist",
+"LICENSE.TXT",
+"tcpdf_barcodes_1d.php",
+"tests/composer.json",
+"examples/example_066.php",
+"include/tcpdf_static.php",
+"VERSION",
+"include/tcpdf_fonts.php",
+"examples/example_049.php",
+"README.md"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"tcpdf.php",
+"include/tcpdf_static.php",
+"include/tcpdf_fonts.php",
+"CHANGELOG.TXT"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

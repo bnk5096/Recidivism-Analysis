@@ -1,0 +1,135 @@
+[
+{
+"cve_id": "CVE-2021-3690",
+"patch_date": [
+"2021-07-31 00:26:57+03:00"
+],
+"patch_files": [
+"websockets-jsr/src/main/java/io/undertow/websockets/jsr/FrameHandler.java"
+],
+"earliest_patch_date": "2021-07-31 00:26:57+03:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-401"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-3859",
+"patch_date": [
+"2022-02-05 03:35:44-03:00"
+],
+"patch_files": [
+"core/src/main/java/io/undertow/protocols/http2/Http2Channel.java",
+"core/src/test/java/io/undertow/client/http/H2CUpgradeContinuationTestCase.java",
+"core/src/main/java/io/undertow/protocols/http2/HpackEncoder.java"
+],
+"earliest_patch_date": "2022-02-05 03:35:44-03:00",
+"earliest_vuln_date": "2014-09-19 09:25:37+10:00",
+"vuln_files": [
+"core/src/main/java/io/undertow/protocols/http2/Http2Channel.java",
+"core/src/main/java/io/undertow/protocols/http2/HpackEncoder.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-1319",
+"patch_date": [
+"2022-06-13 13:23:50+02:00",
+"2022-06-09 23:01:52-03:00"
+],
+"patch_files": [
+"core/src/main/java/io/undertow/server/protocol/ajp/AjpReadListener.java"
+],
+"earliest_patch_date": "2022-06-09 23:01:52-03:00",
+"earliest_vuln_date": "2021-02-03 13:25:29-03:00",
+"vuln_files": [
+"core/src/main/java/io/undertow/server/protocol/ajp/AjpReadListener.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

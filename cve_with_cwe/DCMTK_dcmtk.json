@@ -1,0 +1,424 @@
+[
+{
+"cve_id": "CVE-2021-41689",
+"patch_date": [
+"2021-09-15 09:04:12+02:00"
+],
+"patch_files": [
+"dcmnet/libsrc/diutil.cc"
+],
+"earliest_patch_date": "2021-09-15 09:04:12+02:00",
+"earliest_vuln_date": "2018-05-11 18:01:56+02:00",
+"vuln_files": [
+"dcmnet/libsrc/diutil.cc"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-476"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-41687",
+"patch_date": [
+"2021-10-02 00:36:16+02:00"
+],
+"patch_files": [
+"dcmnet/libsrc/dulextra.cc",
+"dcmnet/libsrc/dcuserid.cc",
+"dcmnet/libsrc/dulconst.cc",
+"dcmnet/libsrc/dulfsm.cc",
+"dcmnet/libsrc/helpers.cc",
+"dcmnet/libsrc/Makefile.in",
+"dcmnet/libsrc/CMakeLists.txt",
+"dcmnet/include/dcmtk/dcmnet/helpers.h",
+"dcmnet/libsrc/dul.cc",
+"dcmnet/libsrc/assoc.cc",
+"dcmnet/libsrc/dulparse.cc",
+"dcmnet/libsrc/dulpres.cc",
+"dcmnet/libsrc/dulstruc.h"
+],
+"earliest_patch_date": "2021-10-02 00:36:16+02:00",
+"earliest_vuln_date": "1996-03-26 18:38:44+00:00",
+"vuln_files": [
+"dcmnet/libsrc/dulparse.cc",
+"dcmnet/libsrc/assoc.cc",
+"dcmnet/libsrc/Makefile.in",
+"dcmnet/libsrc/dulfsm.cc"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-401"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-41688",
+"patch_date": [
+"2021-10-02 00:36:16+02:00"
+],
+"patch_files": [
+"dcmnet/libsrc/dulextra.cc",
+"dcmnet/libsrc/dcuserid.cc",
+"dcmnet/libsrc/dulconst.cc",
+"dcmnet/libsrc/dulfsm.cc",
+"dcmnet/libsrc/helpers.cc",
+"dcmnet/libsrc/Makefile.in",
+"dcmnet/libsrc/CMakeLists.txt",
+"dcmnet/include/dcmtk/dcmnet/helpers.h",
+"dcmnet/libsrc/dul.cc",
+"dcmnet/libsrc/assoc.cc",
+"dcmnet/libsrc/dulparse.cc",
+"dcmnet/libsrc/dulpres.cc",
+"dcmnet/libsrc/dulstruc.h"
+],
+"earliest_patch_date": "2021-10-02 00:36:16+02:00",
+"earliest_vuln_date": "1996-03-26 18:38:44+00:00",
+"vuln_files": [
+"dcmnet/libsrc/dulparse.cc",
+"dcmnet/libsrc/assoc.cc",
+"dcmnet/libsrc/Makefile.in",
+"dcmnet/libsrc/dulfsm.cc"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-415"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"dcmnet/libsrc/dulextra.cc",
+"dcmnet/libsrc/dcuserid.cc",
+"dcmnet/libsrc/dulconst.cc",
+"dcmnet/libsrc/dulfsm.cc",
+"dcmnet/libsrc/helpers.cc",
+"dcmnet/libsrc/Makefile.in",
+"dcmnet/libsrc/CMakeLists.txt",
+"dcmnet/include/dcmtk/dcmnet/helpers.h",
+"dcmnet/libsrc/dul.cc",
+"dcmnet/libsrc/assoc.cc",
+"dcmnet/libsrc/dulparse.cc",
+"dcmnet/libsrc/dulpres.cc",
+"dcmnet/libsrc/dulstruc.h"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-41690",
+"patch_date": [
+"2021-10-02 00:36:16+02:00"
+],
+"patch_files": [
+"dcmnet/libsrc/dulextra.cc",
+"dcmnet/libsrc/dcuserid.cc",
+"dcmnet/libsrc/dulconst.cc",
+"dcmnet/libsrc/dulfsm.cc",
+"dcmnet/libsrc/helpers.cc",
+"dcmnet/libsrc/Makefile.in",
+"dcmnet/libsrc/CMakeLists.txt",
+"dcmnet/include/dcmtk/dcmnet/helpers.h",
+"dcmnet/libsrc/dul.cc",
+"dcmnet/libsrc/assoc.cc",
+"dcmnet/libsrc/dulparse.cc",
+"dcmnet/libsrc/dulpres.cc",
+"dcmnet/libsrc/dulstruc.h"
+],
+"earliest_patch_date": "2021-10-02 00:36:16+02:00",
+"earliest_vuln_date": "1996-03-26 18:38:44+00:00",
+"vuln_files": [
+"dcmnet/libsrc/dulparse.cc",
+"dcmnet/libsrc/assoc.cc",
+"dcmnet/libsrc/Makefile.in",
+"dcmnet/libsrc/dulfsm.cc"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-401"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-401"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"dcmnet/libsrc/dulextra.cc",
+"dcmnet/libsrc/dcuserid.cc",
+"dcmnet/libsrc/dulconst.cc",
+"dcmnet/libsrc/dulfsm.cc",
+"dcmnet/libsrc/helpers.cc",
+"dcmnet/libsrc/Makefile.in",
+"dcmnet/libsrc/CMakeLists.txt",
+"dcmnet/include/dcmtk/dcmnet/helpers.h",
+"dcmnet/libsrc/dul.cc",
+"dcmnet/libsrc/assoc.cc",
+"dcmnet/libsrc/dulparse.cc",
+"dcmnet/libsrc/dulpres.cc",
+"dcmnet/libsrc/dulstruc.h"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-27628",
+"patch_date": [
+"2024-02-21 11:06:32+01:00"
+],
+"patch_files": [
+"dcmect/libsrc/enhanced_ct.cc",
+"dcmect/tests/Makefile.dep",
+"dcmect/tests/Makefile.in",
+"dcmect/tests/CMakeLists.txt",
+"dcmect/tests/t_overflow.cc",
+"dcmect/tests/tests.cc"
+],
+"earliest_patch_date": "2024-02-21 11:06:32+01:00",
+"earliest_vuln_date": "2019-12-10 17:55:54+01:00",
+"vuln_files": [
+"dcmect/tests/Makefile.in",
+"dcmect/libsrc/enhanced_ct.cc"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-34508",
+"patch_date": [
+"2024-03-13 17:15:58+01:00"
+],
+"patch_files": [
+"dcmnet/libsrc/dimcmd.cc",
+"dcmdata/libsrc/dcelem.cc"
+],
+"earliest_patch_date": "2024-03-13 17:15:58+01:00",
+"earliest_vuln_date": "1996-03-26 18:38:44+00:00",
+"vuln_files": [
+"dcmnet/libsrc/dimcmd.cc"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-34509",
+"patch_date": [
+"2024-03-13 17:15:58+01:00"
+],
+"patch_files": [
+"dcmnet/libsrc/dimcmd.cc",
+"dcmdata/libsrc/dcelem.cc"
+],
+"earliest_patch_date": "2024-03-13 17:15:58+01:00",
+"earliest_vuln_date": "1996-03-26 18:38:44+00:00",
+"vuln_files": [
+"dcmnet/libsrc/dimcmd.cc"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"dcmnet/libsrc/dimcmd.cc",
+"dcmdata/libsrc/dcelem.cc"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

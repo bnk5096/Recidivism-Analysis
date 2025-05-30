@@ -1,0 +1,996 @@
+[
+{
+"cve_id": "CVE-2024-32648",
+"patch_date": [
+"2021-10-02 22:58:47-07:00"
+],
+"patch_files": [
+"vyper/old_codegen/function_definitions/internal_function.py",
+"tests/functional/codegen/test_struct_return.py",
+"vyper/semantics/types/indexable/sequence.py",
+"tests/cli/outputs/test_storage_layout.py",
+"tests/conftest.py",
+"vyper/old_codegen/parser_utils.py",
+"vyper/builtin_functions/functions.py",
+"vyper/old_codegen/stmt.py",
+"vyper/old_codegen/function_definitions/utils.py",
+"vyper/semantics/namespace.py",
+"vyper/old_codegen/arg_clamps.py",
+"vyper/old_codegen/function_definitions/common.py",
+"vyper/old_codegen/global_context.py",
+"vyper/old_codegen/function_definitions/parse_internal_function.py",
+"setup.py",
+"vyper/old_codegen/parser.py",
+"tests/parser/types/test_node_types.py",
+"vyper/semantics/types/function.py",
+"tests/functional/codegen/test_abi_encode.py",
+"vyper/old_codegen/types/types.py",
+"vyper/old_codegen/types/check.py",
+"tests/parser/functions/test_return_struct.py",
+"vyper/old_codegen/function_definitions/external_function.py",
+"vyper/semantics/types/value/array_value.py",
+"docs/built-in-functions.rst",
+"vyper/ast/signatures/function_signature.py",
+"vyper/lll/optimizer.py",
+"vyper/utils.py",
+"tests/parser/features/external_contracts/test_self_call_struct.py",
+"vyper/builtin_functions/convert.py",
+"tests/functional/context/types/test_size_in_bytes.py",
+"vyper/lll/compile_lll.py",
+"tests/parser/features/decorators/test_private.py",
+"vyper/old_codegen/events.py",
+"tests/parser/features/test_init.py",
+"tests/compiler/test_source_map.py",
+"vyper/old_codegen/keccak256_helper.py",
+"vyper/old_codegen/function_definitions/__init__.py",
+"vyper/old_codegen/function_definitions/parse_external_function.py",
+"tests/functional/test_storage_slots.py",
+"tests/parser/features/external_contracts/test_external_contract_calls.py",
+"vyper/ast/signatures/sig_utils.py",
+"vyper/old_codegen/self_call.py",
+"vyper/old_codegen/abi.py",
+"vyper/old_codegen/lll_node.py",
+"tests/parser/functions/test_abi.py",
+"vyper/ast/signatures/interface.py",
+"tests/parser/features/iteration/test_repeater.py",
+"vyper/evm/opcodes.py",
+"tests/parser/exceptions/test_argument_exception.py",
+"vyper/old_codegen/context.py",
+"vyper/old_codegen/function_definitions/parse_function.py",
+"vyper/old_codegen/expr.py",
+"tests/parser/types/numbers/test_constants.py",
+"vyper/old_codegen/return_.py",
+"vyper/old_codegen/external_call.py"
+],
+"earliest_patch_date": "2021-10-02 22:58:47-07:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"CWE-667"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-24787",
+"patch_date": [
+"2022-04-02 08:30:04-07:00"
+],
+"patch_files": [
+"tests/parser/types/test_string.py",
+"vyper/codegen/keccak256_helper.py",
+"vyper/codegen/core.py",
+"vyper/codegen/expr.py",
+"tests/parser/functions/test_slice.py"
+],
+"earliest_patch_date": "2022-04-02 08:30:04-07:00",
+"earliest_vuln_date": "2018-05-16 17:11:52+02:00",
+"vuln_files": [
+"vyper/codegen/expr.py",
+"vyper/codegen/keccak256_helper.py",
+"vyper/codegen/core.py",
+"tests/parser/types/test_string.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-697"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-24788",
+"patch_date": [
+"2022-04-13 06:39:37-07:00"
+],
+"patch_files": [
+"vyper/codegen/core.py",
+"vyper/codegen/function_definitions/external_function.py",
+"vyper/codegen/types/convert.py",
+"tests/parser/functions/test_interfaces.py",
+"vyper/codegen/ir_node.py",
+"vyper/codegen/external_call.py"
+],
+"earliest_patch_date": "2022-04-13 06:39:37-07:00",
+"earliest_vuln_date": "2018-04-19 15:39:52+02:00",
+"vuln_files": [
+"vyper/codegen/core.py",
+"vyper/codegen/function_definitions/external_function.py",
+"vyper/codegen/types/convert.py",
+"tests/parser/functions/test_interfaces.py",
+"vyper/codegen/ir_node.py",
+"vyper/codegen/external_call.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-119"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"vyper/codegen/core.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-24845",
+"patch_date": [
+"2022-04-13 06:39:37-07:00"
+],
+"patch_files": [
+"vyper/codegen/core.py",
+"vyper/codegen/function_definitions/external_function.py",
+"vyper/codegen/types/convert.py",
+"tests/parser/functions/test_interfaces.py",
+"vyper/codegen/ir_node.py",
+"vyper/codegen/external_call.py"
+],
+"earliest_patch_date": "2022-04-13 06:39:37-07:00",
+"earliest_vuln_date": "2018-04-19 15:39:52+02:00",
+"vuln_files": [
+"vyper/codegen/core.py",
+"vyper/codegen/function_definitions/external_function.py",
+"vyper/codegen/types/convert.py",
+"tests/parser/functions/test_interfaces.py",
+"vyper/codegen/ir_node.py",
+"vyper/codegen/external_call.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-190"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"vyper/codegen/core.py",
+"vyper/codegen/function_definitions/external_function.py",
+"vyper/codegen/types/convert.py",
+"tests/parser/functions/test_interfaces.py",
+"vyper/codegen/ir_node.py",
+"vyper/codegen/external_call.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-29255",
+"patch_date": [
+"2022-06-06 11:38:28-07:00"
+],
+"patch_files": [
+"vyper/codegen/external_call.py",
+"tests/parser/features/external_contracts/test_external_contract_calls.py"
+],
+"earliest_patch_date": "2022-06-06 11:38:28-07:00",
+"earliest_vuln_date": "2022-05-13 13:40:37-07:00",
+"vuln_files": [
+"vyper/codegen/external_call.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-670"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"vyper/codegen/external_call.py",
+"tests/parser/features/external_contracts/test_external_contract_calls.py"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"vyper/codegen/external_call.py",
+"tests/parser/features/external_contracts/test_external_contract_calls.py"
+]
+},
+{
+"cve_id": "CVE-2023-32675",
+"patch_date": [
+"2023-01-20 08:06:25-08:00"
+],
+"patch_files": [
+"vyper/codegen/function_definitions/external_function.py",
+"vyper/codegen/module.py",
+"tests/parser/features/test_init.py"
+],
+"earliest_patch_date": "2023-01-20 08:06:25-08:00",
+"earliest_vuln_date": "2020-06-24 19:12:00-04:00",
+"vuln_files": [
+"vyper/codegen/function_definitions/external_function.py",
+"vyper/codegen/module.py",
+"tests/parser/features/test_init.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"vyper/codegen/function_definitions/external_function.py",
+"tests/parser/features/test_init.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-30629",
+"patch_date": [
+"2023-04-24 10:41:02-07:00"
+],
+"patch_files": [
+"vyper/builtins/functions.py",
+"tests/parser/functions/test_raw_call.py"
+],
+"earliest_patch_date": "2023-04-24 10:41:02-07:00",
+"earliest_vuln_date": "2020-03-17 21:18:18+04:00",
+"vuln_files": [
+"vyper/builtins/functions.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-30837",
+"patch_date": [
+"2023-04-28 17:40:15-07:00"
+],
+"patch_files": [
+"docs/types.rst",
+"tests/cli/outputs/test_storage_layout_overrides.py",
+"vyper/semantics/analysis/data_positions.py",
+"vyper/semantics/types/subscriptable.py",
+"tests/functional/test_storage_slots.py"
+],
+"earliest_patch_date": "2023-04-28 17:40:15-07:00",
+"earliest_vuln_date": "2021-07-22 14:04:00-07:00",
+"vuln_files": [
+"vyper/semantics/analysis/data_positions.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"tests/functional/test_storage_slots.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-46247",
+"patch_date": [
+"2023-04-28 17:40:15-07:00"
+],
+"patch_files": [
+"docs/types.rst",
+"tests/cli/outputs/test_storage_layout_overrides.py",
+"vyper/semantics/analysis/data_positions.py",
+"vyper/semantics/types/subscriptable.py",
+"tests/functional/test_storage_slots.py"
+],
+"earliest_patch_date": "2023-04-28 17:40:15-07:00",
+"earliest_vuln_date": "2021-07-22 14:04:00-07:00",
+"vuln_files": [
+"vyper/semantics/analysis/data_positions.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"docs/types.rst",
+"tests/cli/outputs/test_storage_layout_overrides.py",
+"vyper/semantics/analysis/data_positions.py",
+"vyper/semantics/types/subscriptable.py",
+"tests/functional/test_storage_slots.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-31146",
+"patch_date": [
+"2023-05-11 13:30:00-07:00"
+],
+"patch_files": [
+"vyper/codegen/core.py",
+"tests/parser/types/test_dynamic_array.py"
+],
+"earliest_patch_date": "2023-05-11 13:30:00-07:00",
+"earliest_vuln_date": "2022-02-15 08:08:36-08:00",
+"vuln_files": [
+"vyper/codegen/core.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.1,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.2
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"vyper/codegen/core.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-32058",
+"patch_date": [
+"2023-05-11 13:35:44-07:00"
+],
+"patch_files": [
+"vyper/codegen/stmt.py",
+"tests/parser/features/iteration/test_repeater.py"
+],
+"earliest_patch_date": "2023-05-11 13:35:44-07:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"tests/parser/features/iteration/test_repeater.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-32481",
+"patch_date": [
+"2023-05-11 13:35:44-07:00",
+"2023-12-24 16:10:45+00:00"
+],
+"patch_files": [
+"vyper/exceptions.py",
+"tests/functional/syntax/exceptions/test_invalid_literal_exception.py",
+"vyper/semantics/analysis/local.py",
+"vyper/codegen/stmt.py",
+"docs/control-structures.rst",
+"tests/functional/codegen/features/iteration/test_for_in_list.py",
+"tests/functional/syntax/test_for_range.py",
+"tests/parser/features/iteration/test_repeater.py",
+"vyper/codegen/ir_node.py",
+"tests/functional/codegen/features/iteration/test_for_range.py",
+"tests/functional/codegen/integration/test_crowdfund.py"
+],
+"earliest_patch_date": "2023-05-11 13:35:44-07:00",
+"earliest_vuln_date": "2017-09-18 11:04:59-05:00",
+"vuln_files": [
+"docs/control-structures.rst",
+"tests/functional/codegen/features/iteration/test_for_in_list.py",
+"tests/functional/syntax/test_for_range.py",
+"tests/functional/codegen/features/iteration/test_for_range.py",
+"vyper/codegen/stmt.py",
+"tests/functional/codegen/integration/test_crowdfund.py",
+"tests/functional/syntax/exceptions/test_invalid_literal_exception.py",
+"vyper/semantics/analysis/local.py",
+"vyper/codegen/ir_node.py",
+"vyper/exceptions.py"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"vyper/codegen/stmt.py",
+"tests/parser/features/iteration/test_repeater.py",
+"vyper/codegen/ir_node.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-32059",
+"patch_date": [
+"2023-05-11 13:47:41-07:00"
+],
+"patch_files": [
+"vyper/codegen/context.py",
+"tests/parser/features/test_internal_call.py"
+],
+"earliest_patch_date": "2023-05-11 13:47:41-07:00",
+"earliest_vuln_date": "2021-09-11 14:38:30-07:00",
+"vuln_files": [
+"vyper/codegen/context.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-37902",
+"patch_date": [
+"2023-07-25 07:41:12-07:00"
+],
+"patch_files": [
+"vyper/builtins/functions.py",
+"tests/parser/functions/test_ecrecover.py"
+],
+"earliest_patch_date": "2023-07-25 07:41:12-07:00",
+"earliest_vuln_date": "2020-06-24 19:12:00-04:00",
+"vuln_files": [
+"vyper/builtins/functions.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"vyper/builtins/functions.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-42441",
+"patch_date": [
+"2023-09-15 22:01:03+00:00"
+],
+"patch_files": [
+"vyper/exceptions.py",
+"tests/parser/test_call_graph_stability.py",
+"vyper/semantics/namespace.py",
+"vyper/ast/identifiers.py",
+"vyper/semantics/types/base.py",
+"tests/parser/features/decorators/test_nonreentrant.py",
+"tests/parser/exceptions/test_structure_exception.py",
+"vyper/semantics/types/function.py",
+"tests/parser/types/test_identifier_naming.py"
+],
+"earliest_patch_date": "2023-09-15 22:01:03+00:00",
+"earliest_vuln_date": "2019-08-30 18:38:25+02:00",
+"vuln_files": [
+"vyper/exceptions.py",
+"tests/parser/test_call_graph_stability.py",
+"vyper/semantics/namespace.py",
+"vyper/semantics/types/base.py",
+"tests/parser/features/decorators/test_nonreentrant.py",
+"tests/parser/exceptions/test_structure_exception.py",
+"vyper/semantics/types/function.py",
+"tests/parser/types/test_identifier_naming.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"CWE-667"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-667"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"vyper/exceptions.py",
+"vyper/semantics/namespace.py",
+"vyper/semantics/types/function.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-22419",
+"patch_date": [
+"2024-01-18 18:08:03+00:00"
+],
+"patch_files": [
+"tests/functional/builtins/codegen/test_concat.py",
+"vyper/builtins/functions.py"
+],
+"earliest_patch_date": "2024-01-18 18:08:03+00:00",
+"earliest_vuln_date": "2019-02-27 16:06:29-07:00",
+"vuln_files": [
+"vyper/builtins/functions.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-787"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"vyper/builtins/functions.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-24564",
+"patch_date": [
+"2024-06-18 19:49:36+00:00"
+],
+"patch_files": [
+"tests/functional/builtins/codegen/test_extract32.py",
+"vyper/builtins/functions.py",
+"tests/functional/builtins/codegen/test_slice.py"
+],
+"earliest_patch_date": "2024-06-18 19:49:36+00:00",
+"earliest_vuln_date": "2023-07-17 00:14:35+00:00",
+"vuln_files": [
+"tests/functional/builtins/codegen/test_slice.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"vyper/builtins/functions.py"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"vyper/builtins/functions.py"
+]
+}
+]

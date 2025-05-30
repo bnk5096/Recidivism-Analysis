@@ -1,0 +1,499 @@
+[
+{
+"cve_id": "CVE-2024-2032",
+"patch_date": [
+"2024-03-04 10:05:43+01:00"
+],
+"patch_files": [
+"tests/integration/functional/zen_stores/test_zen_store.py",
+"src/zenml/zen_stores/migrations/versions/72675226b2de_unique_users.py",
+"src/zenml/zen_stores/schemas/user_schemas.py",
+"src/zenml/zen_stores/sql_zen_store.py"
+],
+"earliest_patch_date": "2024-03-04 10:05:43+01:00",
+"earliest_vuln_date": "2022-04-26 09:50:35+02:00",
+"vuln_files": [
+"tests/integration/functional/zen_stores/test_zen_store.py",
+"src/zenml/zen_stores/schemas/user_schemas.py",
+"src/zenml/zen_stores/sql_zen_store.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:N/I:L/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "HIGH",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "LOW",
+"baseScore": 3.1,
+"baseSeverity": "LOW"
+},
+"exploitabilityScore": 0.5,
+"impactScore": 2.5
+}
+},
+"cwes": [
+"CWE-362"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-2083",
+"patch_date": [
+"2024-03-05 09:02:33+01:00"
+],
+"patch_files": [
+"src/zenml/materializers/structured_string_materializer.py",
+"src/zenml/materializers/built_in_materializer.py",
+"tests/integration/functional/artifacts/test_utils.py",
+"tests/integration/functional/artifacts/test_base_artifact_store.py",
+"tests/unit/materializers/test_cloudpickle_materializer.py",
+"tests/unit/test_general.py",
+"src/zenml/materializers/pandas_materializer.py",
+"src/zenml/materializers/cloudpickle_materializer.py",
+"tests/unit/artifacts/test_utils.py",
+"src/zenml/artifact_stores/base_artifact_store.py",
+"src/zenml/materializers/service_materializer.py",
+"src/zenml/materializers/numpy_materializer.py",
+"src/zenml/orchestrators/output_utils.py",
+"src/zenml/artifacts/utils.py",
+"src/zenml/logging/step_logging.py",
+"src/zenml/materializers/base_materializer.py",
+"tests/unit/materializers/test_built_in_materializer.py"
+],
+"earliest_patch_date": "2024-03-05 09:02:33+01:00",
+"earliest_vuln_date": "2021-12-13 19:13:03+01:00",
+"vuln_files": [
+"src/zenml/materializers/structured_string_materializer.py",
+"src/zenml/materializers/built_in_materializer.py",
+"tests/integration/functional/artifacts/test_utils.py",
+"tests/unit/materializers/test_cloudpickle_materializer.py",
+"tests/unit/test_general.py",
+"src/zenml/materializers/pandas_materializer.py",
+"src/zenml/materializers/cloudpickle_materializer.py",
+"tests/unit/artifacts/test_utils.py",
+"src/zenml/artifact_stores/base_artifact_store.py",
+"src/zenml/materializers/service_materializer.py",
+"src/zenml/materializers/numpy_materializer.py",
+"src/zenml/orchestrators/output_utils.py",
+"src/zenml/artifacts/utils.py",
+"src/zenml/logging/step_logging.py",
+"src/zenml/materializers/base_materializer.py",
+"tests/unit/materializers/test_built_in_materializer.py"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-2035",
+"patch_date": [
+"2024-03-12 17:09:59+01:00"
+],
+"patch_files": [
+"src/zenml/models/v2/misc/external_user.py",
+"src/zenml/zen_server/auth.py",
+"src/zenml/zen_stores/migrations/versions/1a9a9d2a836d_admin_users.py",
+"tests/integration/functional/zen_stores/utils.py",
+"tests/unit/conftest.py",
+"src/zenml/cli/user_management.py",
+"src/zenml/models/v2/core/user.py",
+"src/zenml/zen_stores/sql_zen_store.py",
+"src/zenml/zen_server/rbac/utils.py",
+"tests/integration/functional/zen_stores/test_zen_store.py",
+"src/zenml/zen_server/rbac/endpoint_utils.py",
+"src/zenml/zen_server/routers/users_endpoints.py",
+"src/zenml/client.py",
+"tests/unit/models/test_user_models.py",
+"src/zenml/zen_server/utils.py",
+"src/zenml/models/v2/core/service_account.py",
+"src/zenml/zen_stores/schemas/user_schemas.py",
+"examples/quickstart/README.md"
+],
+"earliest_patch_date": "2024-03-12 17:09:59+01:00",
+"earliest_vuln_date": "2022-10-02 17:01:00+02:00",
+"vuln_files": [
+"tests/integration/functional/zen_stores/utils.py",
+"src/zenml/cli/user_management.py",
+"src/zenml/models/v2/core/user.py",
+"src/zenml/zen_server/rbac/utils.py",
+"tests/integration/functional/zen_stores/test_zen_store.py",
+"src/zenml/zen_server/routers/users_endpoints.py",
+"src/zenml/zen_server/rbac/endpoint_utils.py",
+"src/zenml/client.py",
+"tests/unit/models/test_user_models.py",
+"src/zenml/zen_server/utils.py",
+"examples/quickstart/README.md"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 5.2
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/zenml/zen_stores/sql_zen_store.py",
+"tests/integration/functional/zen_stores/test_zen_store.py",
+"src/zenml/zen_stores/schemas/user_schemas.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-2171",
+"patch_date": [
+"2024-03-25 21:23:48+00:00"
+],
+"patch_files": [
+"src/zenml/zen_server/deploy/helm/README.md",
+"src/zenml/zen_stores/migrations/versions/0.56.2_release.py",
+"README.md",
+"src/zenml/zen_server/deploy/helm/Chart.yaml",
+"src/zenml/VERSION",
+"RELEASE_NOTES.md",
+"pyproject.toml"
+],
+"earliest_patch_date": "2024-03-25 21:23:48+00:00",
+"earliest_vuln_date": "2024-03-20 23:54:09+00:00",
+"vuln_files": [
+"src/zenml/zen_server/deploy/helm/README.md",
+"README.md",
+"src/zenml/zen_server/deploy/helm/Chart.yaml",
+"src/zenml/VERSION",
+"RELEASE_NOTES.md",
+"pyproject.toml"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.8,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.7,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-2260",
+"patch_date": [
+"2024-03-25 21:23:48+00:00"
+],
+"patch_files": [
+"src/zenml/zen_server/deploy/helm/README.md",
+"src/zenml/zen_stores/migrations/versions/0.56.2_release.py",
+"README.md",
+"src/zenml/zen_server/deploy/helm/Chart.yaml",
+"src/zenml/VERSION",
+"RELEASE_NOTES.md",
+"pyproject.toml"
+],
+"earliest_patch_date": "2024-03-25 21:23:48+00:00",
+"earliest_vuln_date": "2024-03-20 23:54:09+00:00",
+"vuln_files": [
+"src/zenml/zen_server/deploy/helm/README.md",
+"README.md",
+"src/zenml/zen_server/deploy/helm/Chart.yaml",
+"src/zenml/VERSION",
+"RELEASE_NOTES.md",
+"pyproject.toml"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/zenml/zen_server/deploy/helm/README.md",
+"src/zenml/zen_stores/migrations/versions/0.56.2_release.py",
+"README.md",
+"src/zenml/zen_server/deploy/helm/Chart.yaml",
+"src/zenml/VERSION",
+"RELEASE_NOTES.md",
+"pyproject.toml"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-2383",
+"patch_date": [
+"2024-04-06 17:32:36+02:00"
+],
+"patch_files": [
+"src/zenml/zen_server/zen_server_api.py",
+"src/zenml/zen_server/deploy/helm/values.yaml",
+"src/zenml/config/server_config.py",
+"src/zenml/zen_server/deploy/docker/docker_zen_server.py",
+"src/zenml/constants.py",
+"docker/zenml-server-dev.Dockerfile",
+"docs/book/deploying-zenml/zenml-self-hosted/deploy-with-docker.md",
+"docker/zenml-server-hf-spaces.Dockerfile",
+"src/zenml/zen_server/deploy/local/local_zen_server.py",
+"docker/base.Dockerfile",
+"src/zenml/zen_server/utils.py",
+"src/zenml/zen_server/deploy/helm/templates/_environment.tpl",
+"pyproject.toml"
+],
+"earliest_patch_date": "2024-04-06 17:32:36+02:00",
+"earliest_vuln_date": "2022-10-02 17:01:00+02:00",
+"vuln_files": [
+"docker/zenml-server-dev.Dockerfile",
+"src/zenml/config/server_config.py",
+"docker/base.Dockerfile",
+"docker/zenml-server-hf-spaces.Dockerfile"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/zenml/zen_server/utils.py",
+"pyproject.toml"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-2213",
+"patch_date": [
+"2024-04-09 09:22:03+02:00"
+],
+"patch_files": [
+"src/zenml/cli/user_management.py",
+"src/zenml/models/v2/core/user.py",
+"src/zenml/zen_server/routers/users_endpoints.py",
+"src/zenml/cli/server.py",
+"src/zenml/zen_stores/rest_zen_store.py",
+"src/zenml/client.py",
+"src/zenml/zen_stores/schemas/user_schemas.py"
+],
+"earliest_patch_date": "2024-04-09 09:22:03+02:00",
+"earliest_vuln_date": "2022-10-02 17:01:00+02:00",
+"vuln_files": [
+"src/zenml/cli/user_management.py",
+"src/zenml/zen_server/routers/users_endpoints.py",
+"src/zenml/cli/server.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 3.3,
+"baseSeverity": "LOW"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"NVD-CWE-Other"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/zenml/cli/user_management.py",
+"src/zenml/models/v2/core/user.py",
+"src/zenml/zen_server/routers/users_endpoints.py",
+"src/zenml/client.py",
+"src/zenml/zen_stores/schemas/user_schemas.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-4311",
+"patch_date": [
+"2024-04-30 11:24:42+02:00"
+],
+"patch_files": [
+"src/zenml/zen_server/routers/users_endpoints.py",
+"src/zenml/zen_server/rate_limit.py"
+],
+"earliest_patch_date": "2024-04-30 11:24:42+02:00",
+"earliest_vuln_date": "2024-03-21 14:39:58+01:00",
+"vuln_files": [
+"src/zenml/zen_server/routers/users_endpoints.py",
+"src/zenml/zen_server/rate_limit.py"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/zenml/zen_server/routers/users_endpoints.py"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"src/zenml/zen_server/routers/users_endpoints.py"
+]
+},
+{
+"cve_id": "CVE-2024-5062",
+"patch_date": [
+"2024-05-27 18:12:08+02:00"
+],
+"patch_files": [
+"src/zenml/zen_server/deploy/helm/README.md",
+"README.md",
+"src/zenml/zen_server/deploy/helm/Chart.yaml",
+"src/zenml/VERSION",
+"RELEASE_NOTES.md",
+"src/zenml/zen_stores/migrations/versions/0.58.0_release.py",
+"pyproject.toml"
+],
+"earliest_patch_date": "2024-05-27 18:12:08+02:00",
+"earliest_vuln_date": "2024-05-09 12:57:40+01:00",
+"vuln_files": [
+"src/zenml/zen_server/deploy/helm/README.md",
+"README.md",
+"src/zenml/zen_server/deploy/helm/Chart.yaml",
+"src/zenml/VERSION",
+"pyproject.toml"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/zenml/zen_server/deploy/helm/README.md",
+"README.md",
+"src/zenml/zen_server/deploy/helm/Chart.yaml",
+"src/zenml/VERSION",
+"RELEASE_NOTES.md",
+"pyproject.toml"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"src/zenml/zen_server/deploy/helm/README.md",
+"README.md",
+"src/zenml/zen_server/deploy/helm/Chart.yaml",
+"src/zenml/VERSION",
+"RELEASE_NOTES.md",
+"pyproject.toml"
+]
+}
+]

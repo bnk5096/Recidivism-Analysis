@@ -1,0 +1,398 @@
+[
+{
+"cve_id": "CVE-2020-36315",
+"patch_date": [
+"2020-08-02 01:53:19+02:00"
+],
+"patch_files": [
+"src/cp/relic_cp_rsa.c"
+],
+"earliest_patch_date": "2020-08-02 01:53:19+02:00",
+"earliest_vuln_date": "2009-09-06 21:10:02+00:00",
+"vuln_files": [
+"src/cp/relic_cp_rsa.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-327"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-36316",
+"patch_date": [
+"2020-08-02 01:53:19+02:00"
+],
+"patch_files": [
+"src/cp/relic_cp_rsa.c"
+],
+"earliest_patch_date": "2020-08-02 01:53:19+02:00",
+"earliest_vuln_date": "2009-09-06 21:10:02+00:00",
+"vuln_files": [
+"src/cp/relic_cp_rsa.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 5.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-120"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/cp/relic_cp_rsa.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-36326",
+"patch_date": [
+"2022-11-14 21:49:05+01:00"
+],
+"patch_files": [
+"src/md/relic_md_sha384.c",
+"src/bn/relic_bn_srt.c",
+"src/ed/relic_ed_mul_fix.c",
+"src/cp/relic_cp_cmlhs.c",
+"src/epx/relic_ep4_mul_fix.c",
+"src/bn/relic_bn_shift.c",
+"src/pp/relic_pp_map_k12.c",
+"src/md/relic_md_sha512.c",
+"src/bn/relic_bn_prime.c",
+"src/ep/relic_ep_util.c",
+"src/fb/relic_fb_util.c",
+"src/epx/relic_ep2_mul_sim.c",
+"src/epx/relic_ep2_util.c",
+"include/relic_fb.h",
+"src/md/relic_md_sha256.c",
+"src/cp/relic_cp_rsa.c",
+"test/test_pc.c",
+"src/epx/relic_ep2_mul.c",
+"include/relic_fpx.h",
+"src/bn/relic_bn_gcd.c",
+"src/ep/relic_ep_map.c",
+"src/relic_util.c",
+"src/ed/relic_ed_util.c",
+"src/epx/relic_ep2_mul_fix.c",
+"include/relic_fp.h",
+"bench/bench_bn.c",
+"src/ep/relic_ep_mul_sim.c",
+"include/relic_bn.h",
+"include/relic_ep.h",
+"include/relic_rand.h",
+"src/cp/relic_cp_pbpsi.c",
+"src/epx/relic_ep4_mul.c",
+"src/fpx/relic_fpx_cyc.c",
+"test/test_rand.c",
+"src/cp/relic_cp_vbnn.c",
+"bench/bench_cp.c",
+"bench/bench_epx.c",
+"src/cp/relic_cp_bls.c",
+"src/fp/relic_fp_util.c",
+"src/ed/relic_ed_map.c",
+"src/fb/relic_fb_exp.c",
+"src/epx/relic_ep4_map.c",
+"include/relic_epx.h",
+"src/ep/relic_ep_mul.c",
+"include/relic_eb.h",
+"src/bn/relic_bn_mxp.c",
+"src/bn/relic_bn_smb.c",
+"src/rand/relic_rand_core.c",
+"test/test_bn.c",
+"src/epx/relic_ep4_util.c",
+"src/fp/relic_fp_prime.c",
+"src/eb/relic_eb_util.c",
+"src/pp/relic_pp_map_k54.c",
+"include/relic_cp.h",
+"src/md/relic_md_blake2s.c",
+"include/relic_md.h",
+"src/bn/relic_bn_mem.c",
+"src/epx/relic_ep2_map.c",
+"src/fpx/relic_fpx_exp.c",
+"src/md/relic_md_hmac.c",
+"src/pp/relic_pp_map_k8.c",
+"test/test_core.c",
+"src/bn/relic_bn_rec.c",
+"include/relic_util.h",
+"src/md/relic_md_kdf.c",
+"src/cp/relic_cp_sokaka.c",
+"src/ep/relic_ep_mul_fix.c",
+"src/eb/relic_eb_map.c",
+"src/fpx/relic_fpx_util.c",
+"include/relic_ed.h",
+"src/eb/relic_eb_mul_sim.c",
+"src/bn/relic_bn_util.c",
+"src/ed/relic_ed_mul_sim.c",
+"src/rand/relic_rand_hashd.c",
+"src/pp/relic_pp_map_k24.c",
+"src/eb/relic_eb_mul.c",
+"src/pp/relic_pp_map_k48.c",
+"src/md/relic_md_mgf.c",
+"src/md/relic_md_sha224.c",
+"src/fp/relic_fp_exp.c",
+"src/epx/relic_ep4_mul_sim.c",
+"src/ed/relic_ed_mul.c"
+],
+"earliest_patch_date": "2022-11-14 21:49:05+01:00",
+"earliest_vuln_date": "2009-07-24 21:28:44+00:00",
+"vuln_files": [
+"src/md/relic_md_sha384.c",
+"src/bn/relic_bn_srt.c",
+"src/ed/relic_ed_mul_fix.c",
+"src/cp/relic_cp_cmlhs.c",
+"src/epx/relic_ep4_mul_fix.c",
+"src/bn/relic_bn_shift.c",
+"src/pp/relic_pp_map_k12.c",
+"src/md/relic_md_sha512.c",
+"src/bn/relic_bn_prime.c",
+"src/ep/relic_ep_util.c",
+"src/fb/relic_fb_util.c",
+"src/epx/relic_ep2_mul_sim.c",
+"src/epx/relic_ep2_util.c",
+"include/relic_fb.h",
+"src/md/relic_md_sha256.c",
+"src/cp/relic_cp_rsa.c",
+"test/test_pc.c",
+"src/epx/relic_ep2_mul.c",
+"include/relic_fpx.h",
+"src/bn/relic_bn_gcd.c",
+"src/ep/relic_ep_map.c",
+"src/relic_util.c",
+"src/ed/relic_ed_util.c",
+"src/epx/relic_ep2_mul_fix.c",
+"include/relic_fp.h",
+"bench/bench_bn.c",
+"src/ep/relic_ep_mul_sim.c",
+"include/relic_bn.h",
+"include/relic_ep.h",
+"include/relic_rand.h",
+"src/epx/relic_ep4_mul.c",
+"test/test_rand.c",
+"src/fpx/relic_fpx_cyc.c",
+"src/cp/relic_cp_vbnn.c",
+"bench/bench_cp.c",
+"bench/bench_epx.c",
+"src/cp/relic_cp_bls.c",
+"src/fp/relic_fp_util.c",
+"src/ed/relic_ed_map.c",
+"src/fb/relic_fb_exp.c",
+"src/epx/relic_ep4_map.c",
+"include/relic_epx.h",
+"src/ep/relic_ep_mul.c",
+"include/relic_eb.h",
+"src/bn/relic_bn_mxp.c",
+"src/bn/relic_bn_smb.c",
+"src/rand/relic_rand_core.c",
+"test/test_bn.c",
+"src/epx/relic_ep4_util.c",
+"src/fp/relic_fp_prime.c",
+"src/eb/relic_eb_util.c",
+"src/pp/relic_pp_map_k54.c",
+"include/relic_cp.h",
+"src/md/relic_md_blake2s.c",
+"include/relic_md.h",
+"src/bn/relic_bn_mem.c",
+"src/epx/relic_ep2_map.c",
+"src/fpx/relic_fpx_exp.c",
+"src/md/relic_md_hmac.c",
+"src/pp/relic_pp_map_k8.c",
+"src/bn/relic_bn_rec.c",
+"include/relic_util.h",
+"src/md/relic_md_kdf.c",
+"src/cp/relic_cp_sokaka.c",
+"src/ep/relic_ep_mul_fix.c",
+"src/eb/relic_eb_map.c",
+"src/fpx/relic_fpx_util.c",
+"include/relic_ed.h",
+"src/eb/relic_eb_mul_sim.c",
+"src/bn/relic_bn_util.c",
+"src/ed/relic_ed_mul_sim.c",
+"src/rand/relic_rand_hashd.c",
+"src/pp/relic_pp_map_k24.c",
+"src/eb/relic_eb_mul.c",
+"src/pp/relic_pp_map_k48.c",
+"src/md/relic_md_mgf.c",
+"src/md/relic_md_sha224.c",
+"src/fp/relic_fp_exp.c",
+"src/epx/relic_ep4_mul_sim.c",
+"src/ed/relic_ed_mul.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-190"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/cp/relic_cp_rsa.c"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-36327",
+"patch_date": [
+"2022-11-14 21:49:05+01:00"
+],
+"patch_files": [
+"include/relic_label.h",
+"src/bn/relic_bn_prime.c",
+"include/relic_bn.h",
+"test/test_cp.c"
+],
+"earliest_patch_date": "2022-11-14 21:49:05+01:00",
+"earliest_vuln_date": "2013-04-15 07:47:43+00:00",
+"vuln_files": [
+"src/bn/relic_bn_prime.c",
+"include/relic_bn.h",
+"test/test_cp.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-190"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-190"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/bn/relic_bn_prime.c",
+"include/relic_bn.h"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

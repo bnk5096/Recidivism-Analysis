@@ -1,0 +1,76 @@
+[
+{
+"cve_id": "CVE-2015-8852",
+"patch_date": [
+"2015-03-16 15:53:15+01:00",
+"2015-03-16 15:49:08+01:00"
+],
+"patch_files": [
+"bin/varnishd/cache_http.c",
+"include/vct.h",
+"bin/varnishtest/tests/b00040.vtc",
+"bin/varnishtest/vtc_http.c",
+"bin/varnishtest/tests/b00041.vtc",
+"bin/varnishtest/tests/r00102.vtc"
+],
+"earliest_patch_date": "2015-03-16 15:49:08+01:00",
+"earliest_vuln_date": "2008-06-15 16:11:17+00:00",
+"vuln_files": [
+"bin/varnishd/cache_http.c",
+"bin/varnishtest/tests/r00102.vtc",
+"bin/varnishtest/vtc_http.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": true,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

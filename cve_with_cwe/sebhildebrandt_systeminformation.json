@@ -1,0 +1,520 @@
+[
+{
+"cve_id": "CVE-2020-26300",
+"patch_date": [
+"2020-05-19 17:02:51+02:00"
+],
+"patch_files": [
+"lib/util.js"
+],
+"earliest_patch_date": "2020-05-19 17:02:51+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-78"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-7752",
+"patch_date": [
+"2020-10-26 10:53:59+01:00"
+],
+"patch_files": [
+"lib/internet.js",
+"docs/history.html",
+"CHANGELOG.md",
+"docs/index.html"
+],
+"earliest_patch_date": "2020-10-26 10:53:59+01:00",
+"earliest_vuln_date": "2020-05-19 14:56:58+02:00",
+"vuln_files": [
+"lib/internet.js",
+"docs/index.html"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-78"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-78"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-26245",
+"patch_date": [
+"2020-11-26 18:15:15+01:00"
+],
+"patch_files": [
+"lib/index.js",
+"lib/processes.js",
+"lib/util.js",
+"lib/internet.js",
+"docs/history.html",
+"lib/network.js",
+"CHANGELOG.md",
+"docs/index.html"
+],
+"earliest_patch_date": "2020-11-26 18:15:15+01:00",
+"earliest_vuln_date": "2020-05-19 14:56:58+02:00",
+"vuln_files": [
+"lib/network.js",
+"lib/processes.js",
+"docs/index.html"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-78"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-78"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/util.js",
+"lib/internet.js",
+"docs/history.html",
+"CHANGELOG.md",
+"docs/index.html"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-26274",
+"patch_date": [
+"2020-12-11 21:35:35+01:00"
+],
+"patch_files": [
+"lib/util.js",
+"docs/history.html",
+"docs/security.html",
+"CHANGELOG.md",
+"docs/index.html"
+],
+"earliest_patch_date": "2020-12-11 21:35:35+01:00",
+"earliest_vuln_date": "2020-11-28 10:40:02+01:00",
+"vuln_files": [
+"docs/index.html"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-78"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-78"
+],
+"intro_duplicate_type": true,
+"intro_duplicated_types": [
+"CWE-78"
+],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/util.js",
+"docs/history.html",
+"CHANGELOG.md",
+"docs/index.html"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"lib/util.js",
+"docs/history.html",
+"CHANGELOG.md",
+"docs/index.html"
+]
+},
+{
+"cve_id": "CVE-2021-21315",
+"patch_date": [
+"2021-02-14 11:59:07+01:00"
+],
+"patch_files": [
+"lib/internet.js",
+"lib/docker.js",
+"lib/processes.js",
+"lib/network.js"
+],
+"earliest_patch_date": "2021-02-14 11:59:07+01:00",
+"earliest_vuln_date": "2016-11-04 12:03:16+01:00",
+"vuln_files": [
+"lib/internet.js",
+"lib/docker.js",
+"lib/processes.js",
+"lib/network.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4.6
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 3.9,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-78"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-78"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/internet.js",
+"lib/processes.js",
+"lib/network.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-21388",
+"patch_date": [
+"2021-03-15 11:42:12+01:00",
+"2021-03-15 11:21:32+01:00",
+"2021-03-15 11:51:30+01:00"
+],
+"patch_files": [
+"docs/v4/security.html",
+"lib/docker.js",
+"lib/processes.js",
+"lib/util.js",
+"lib/internet.js",
+"docs/v4/history.html",
+"lib/network.js",
+"docs/v4/index.html",
+"docs/history.html",
+"docs/security.html",
+"CHANGELOG.md",
+"docs/index.html"
+],
+"earliest_patch_date": "2021-03-15 11:21:32+01:00",
+"earliest_vuln_date": "2016-11-03 12:06:46+01:00",
+"vuln_files": [
+"lib/internet.js",
+"lib/docker.js",
+"lib/processes.js",
+"lib/network.js",
+"CHANGELOG.md",
+"docs/index.html",
+"docs/security.html",
+"docs/v4/index.html",
+"docs/v4/security.html",
+"lib/util.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-78"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-78"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/docker.js",
+"lib/processes.js",
+"lib/util.js",
+"lib/internet.js",
+"lib/network.js",
+"docs/history.html",
+"docs/security.html",
+"CHANGELOG.md",
+"docs/index.html"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-42810",
+"patch_date": [
+"2023-09-19 17:39:39+02:00"
+],
+"patch_files": [
+"lib/wifi.js",
+"docs/history.html",
+"docs/security.html",
+"docs/index.html"
+],
+"earliest_patch_date": "2023-09-19 17:39:39+02:00",
+"earliest_vuln_date": "2020-11-28 10:40:02+01:00",
+"vuln_files": [
+"lib/wifi.js",
+"docs/security.html",
+"docs/index.html"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"docs/history.html",
+"docs/security.html",
+"docs/index.html"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"docs/history.html",
+"docs/index.html"
+]
+}
+]

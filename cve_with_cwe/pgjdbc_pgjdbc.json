@@ -1,0 +1,255 @@
+[
+{
+"cve_id": "CVE-2020-13692",
+"patch_date": [
+"2020-06-01 08:54:32-04:00"
+],
+"patch_files": [
+"pgjdbc/src/main/java/org/postgresql/jdbc/PgConnection.java",
+"pgjdbc/src/main/java/org/postgresql/core/BaseConnection.java",
+"pgjdbc/src/main/java/org/postgresql/xml/NullErrorHandler.java",
+"pgjdbc/src/main/java/org/postgresql/xml/EmptyStringEntityResolver.java",
+"pgjdbc/src/main/java/org/postgresql/xml/DefaultPGXmlFactoryFactory.java",
+"pgjdbc/src/test/java/org/postgresql/jdbc/PgSQLXMLTest.java",
+"pgjdbc/src/main/java/org/postgresql/PGProperty.java",
+"pgjdbc/src/main/java/org/postgresql/xml/PGXmlFactoryFactory.java",
+"pgjdbc/src/main/java/org/postgresql/xml/LegacyInsecurePGXmlFactoryFactory.java",
+"pgjdbc/src/main/java/org/postgresql/ds/common/BaseDataSource.java",
+"pgjdbc/src/main/java/org/postgresql/jdbc/PgSQLXML.java"
+],
+"earliest_patch_date": "2020-06-01 08:54:32-04:00",
+"earliest_vuln_date": "2015-04-10 02:18:26-07:00",
+"vuln_files": [
+"pgjdbc/src/test/java/org/postgresql/jdbc/PgSQLXMLTest.java",
+"pgjdbc/src/main/java/org/postgresql/jdbc/PgSQLXML.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "LOW",
+"availabilityImpact": "HIGH",
+"baseScore": 7.7,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 5.5
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-611"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-21724",
+"patch_date": [
+"2022-02-01 07:27:13-05:00"
+],
+"patch_files": [
+"pgjdbc/src/test/java/org/postgresql/test/util/ObjectFactoryTest.java",
+"pgjdbc/src/main/java/org/postgresql/ssl/MakeSSL.java",
+"pgjdbc/src/main/java/org/postgresql/core/v3/AuthenticationPluginManager.java",
+"pgjdbc/src/main/java/org/postgresql/core/SocketFactoryFactory.java",
+"pgjdbc/src/main/java/org/postgresql/util/ObjectFactory.java",
+"pgjdbc/src/main/java/org/postgresql/ssl/LibPQFactory.java"
+],
+"earliest_patch_date": "2022-02-01 07:27:13-05:00",
+"earliest_vuln_date": "2015-12-20 22:46:25+03:00",
+"vuln_files": [
+"pgjdbc/src/main/java/org/postgresql/ssl/MakeSSL.java",
+"pgjdbc/src/main/java/org/postgresql/core/v3/AuthenticationPluginManager.java",
+"pgjdbc/src/main/java/org/postgresql/core/SocketFactoryFactory.java",
+"pgjdbc/src/main/java/org/postgresql/util/ObjectFactory.java",
+"pgjdbc/src/main/java/org/postgresql/ssl/LibPQFactory.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-665"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-31197",
+"patch_date": [
+"2022-08-01 12:46:26-04:00"
+],
+"patch_files": [
+"pgjdbc/src/test/java/org/postgresql/test/jdbc2/ResultSetRefreshTest.java",
+"pgjdbc/src/test/java/org/postgresql/test/jdbc2/Jdbc2TestSuite.java",
+"pgjdbc/src/main/java/org/postgresql/jdbc/PgResultSet.java"
+],
+"earliest_patch_date": "2022-08-01 12:46:26-04:00",
+"earliest_vuln_date": "2002-07-25 22:45:28+00:00",
+"vuln_files": [
+"pgjdbc/src/main/java/org/postgresql/jdbc/PgResultSet.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.1,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-41946",
+"patch_date": [
+"2022-11-23 09:25:08-05:00"
+],
+"patch_files": [
+"pgjdbc/src/main/java/org/postgresql/util/StreamWrapper.java",
+"CHANGELOG.md",
+"docs/content/changelogs/2022-11-21-42.5.1-release.md",
+"contributors.json",
+"docs/layouts/partials/home/info.html",
+"docs/data/homepagedata.toml",
+"docs/data/versions.toml"
+],
+"earliest_patch_date": "2022-11-23 09:25:08-05:00",
+"earliest_vuln_date": "2014-11-23 21:16:00+01:00",
+"vuln_files": [
+"pgjdbc/src/main/java/org/postgresql/util/StreamWrapper.java",
+"CHANGELOG.md",
+"contributors.json",
+"docs/layouts/partials/home/info.html",
+"docs/data/homepagedata.toml",
+"docs/data/versions.toml"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-668"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

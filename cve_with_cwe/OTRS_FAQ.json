@@ -1,0 +1,77 @@
+[
+{
+"cve_id": "CVE-2016-5843",
+"patch_date": [
+"2016-06-27 16:28:09-05:00",
+"2016-06-27 17:18:15-05:00",
+"2016-06-27 18:20:03-05:00"
+],
+"patch_files": [
+"scripts/test/FAQSearch/InConditionGet.t",
+"CHANGES-FAQ",
+"FAQ.sopm",
+"scripts/test/FAQSearch.t",
+"doc/en/FAQ.xml",
+"Kernel/System/FAQSearch.pm",
+"CHANGES-FAQ.md"
+],
+"earliest_patch_date": "2016-06-27 16:28:09-05:00",
+"earliest_vuln_date": "2013-09-11 08:38:35-05:00",
+"vuln_files": [
+"doc/en/FAQ.xml",
+"scripts/test/FAQSearch.t",
+"Kernel/System/FAQSearch.pm"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "LOW",
+"baseScore": 9.4,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.5
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:C/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "COMPLETE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 9
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 8.5,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-89"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

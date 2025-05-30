@@ -1,0 +1,548 @@
+[
+{
+"cve_id": "CVE-2015-8813",
+"patch_date": [
+"2015-11-25 18:05:57+01:00"
+],
+"patch_files": [
+"src/Umbraco.Web/umbraco.presentation/umbraco/dashboard/FeedProxy.aspx.cs"
+],
+"earliest_patch_date": "2015-11-25 18:05:57+01:00",
+"earliest_vuln_date": "2012-04-10 08:42:10-02:00",
+"vuln_files": [
+"src/Umbraco.Web/umbraco.presentation/umbraco/dashboard/FeedProxy.aspx.cs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 8.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 4.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-918"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2015-8814",
+"patch_date": [
+"2015-11-25 19:39:24+01:00"
+],
+"patch_files": [
+"src/Umbraco.Web/Umbraco.Web.csproj",
+"src/Umbraco.Web.UI/umbraco_client/Application/Extensions.js",
+"src/Umbraco.Web/WebServices/ExamineManagementApiController.cs",
+"src/Umbraco.Web/WebServices/SaveFileController.cs",
+"src/Umbraco.Web/WebServices/XmlDataIntegrityController.cs",
+"src/Umbraco.Web/WebApi/Filters/AngularAntiForgeryHelper.cs",
+"src/Umbraco.Web/WebServices/DomainsApiController.cs",
+"src/Umbraco.Web/Mvc/ValidateMvcAngularAntiForgeryTokenAttribute.cs",
+"src/Umbraco.Web/WebServices/BulkPublishController.cs"
+],
+"earliest_patch_date": "2015-11-25 19:39:24+01:00",
+"earliest_vuln_date": "2013-12-02 17:20:50+11:00",
+"vuln_files": [
+"src/Umbraco.Web/WebApi/Filters/AngularAntiForgeryHelper.cs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-352"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2017-15279",
+"patch_date": [
+"2017-10-06 14:38:21+02:00"
+],
+"patch_files": [
+"src/Umbraco.Web/umbraco.presentation/umbraco/dialogs/notifications.aspx.cs",
+"src/Umbraco.Web.UI/umbraco/dialogs/Publish.aspx.cs"
+],
+"earliest_patch_date": "2017-10-06 14:38:21+02:00",
+"earliest_vuln_date": "2009-06-19 07:39:16+00:00",
+"vuln_files": [
+"src/Umbraco.Web/umbraco.presentation/umbraco/dialogs/notifications.aspx.cs",
+"src/Umbraco.Web.UI/umbraco/dialogs/Publish.aspx.cs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2017-15280",
+"patch_date": [
+"2017-10-06 15:14:41+02:00"
+],
+"patch_files": [
+"src/Umbraco.Web/umbraco.presentation/umbraco/dialogs/importDocumenttype.aspx.cs"
+],
+"earliest_patch_date": "2017-10-06 15:14:41+02:00",
+"earliest_vuln_date": "2010-01-28 12:51:46+00:00",
+"vuln_files": [
+"src/Umbraco.Web/umbraco.presentation/umbraco/dialogs/importDocumenttype.aspx.cs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-611"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-37267",
+"patch_date": [
+"2023-07-13 06:03:39+02:00",
+"2023-07-13 06:10:51+02:00",
+"2023-07-13 06:18:34+02:00"
+],
+"patch_files": [
+"src/Umbraco.Web.BackOffice/Install/InstallApiController.cs",
+"src/Umbraco.Infrastructure/Runtime/RuntimeState.cs"
+],
+"earliest_patch_date": "2023-07-13 06:03:39+02:00",
+"earliest_vuln_date": "2019-01-10 16:01:13+01:00",
+"vuln_files": [
+"src/Umbraco.Web.BackOffice/Install/InstallApiController.cs",
+"src/Umbraco.Infrastructure/Runtime/RuntimeState.cs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-29035",
+"patch_date": [
+"2024-02-06 09:53:17+01:00"
+],
+"patch_files": [
+"src/Umbraco.Core/EmbeddedResources/Lang/en_us.xml",
+"src/Umbraco.Core/EmbeddedResources/Lang/da.xml",
+"src/Umbraco.Web.BackOffice/Mapping/WebhookMapDefinition.cs"
+],
+"earliest_patch_date": "2024-02-06 09:53:17+01:00",
+"earliest_vuln_date": "2023-10-31 10:06:14+01:00",
+"vuln_files": [
+"src/Umbraco.Web.BackOffice/Mapping/WebhookMapDefinition.cs"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-35218",
+"patch_date": [
+"2024-02-06 09:53:40+01:00",
+"2024-02-06 09:53:40+01:00",
+"2024-02-06 09:53:40+01:00",
+"2024-02-06 09:53:40+01:00"
+],
+"patch_files": [
+"src/Umbraco.Core/DependencyInjection/UmbracoBuilder.cs",
+"src/Umbraco.Core/PropertyEditors/MarkdownPropertyEditor.cs",
+"src/Umbraco.Core/PropertyEditors/MarkDownPropertyValueEditor.cs",
+"src/Umbraco.Core/Security/NoopMarkdownSanitizer.cs",
+"src/Umbraco.Core/Composing/CompositionExtensions/Services.cs",
+"src/Umbraco.Core/Security/IMarkdownSanitizer.cs",
+"src/Umbraco.Web/PropertyEditors/MarkDownPropertyValueEditor.cs",
+"src/Umbraco.Web/PropertyEditors/MarkdownPropertyEditor.cs",
+"src/Umbraco.Core/Umbraco.Core.csproj",
+"src/Umbraco.Web/Umbraco.Web.csproj"
+],
+"earliest_patch_date": "2024-02-06 09:53:40+01:00",
+"earliest_vuln_date": "2018-01-24 11:44:44+01:00",
+"vuln_files": [
+"src/Umbraco.Web/PropertyEditors/MarkdownPropertyEditor.cs"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/Umbraco.Web/Umbraco.Web.csproj"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"src/Umbraco.Web/Umbraco.Web.csproj"
+]
+},
+{
+"cve_id": "CVE-2024-28868",
+"patch_date": [
+"2024-03-18 08:28:25+01:00"
+],
+"patch_files": [
+"src/Umbraco.Infrastructure/Security/UmbracoUserManager.cs"
+],
+"earliest_patch_date": "2024-03-18 08:28:25+01:00",
+"earliest_vuln_date": "2020-12-04 01:38:36+11:00",
+"vuln_files": [
+"src/Umbraco.Infrastructure/Security/UmbracoUserManager.cs"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-34071",
+"patch_date": [
+"2024-05-17 08:37:51+02:00",
+"2024-05-17 08:37:51+02:00",
+"2024-05-17 08:37:51+02:00",
+"2024-05-17 08:37:51+02:00"
+],
+"patch_files": [
+"src/Umbraco.Core/Routing/WebPath.cs",
+"src/Umbraco.Web/Routing/WebPath.cs",
+"src/Umbraco.Tests/Umbraco.Tests.csproj",
+"tests/Umbraco.Tests.UnitTests/Umbraco.Core/Routing/WebPathTests.cs",
+"src/Umbraco.Web.BackOffice/Controllers/PreviewController.cs",
+"src/Umbraco.Tests/Routing/WebPathTests.cs",
+"src/Umbraco.Web/Editors/ImagesController.cs",
+"src/Umbraco.Web/Umbraco.Web.csproj",
+"src/Umbraco.Web.BackOffice/Controllers/ImagesController.cs"
+],
+"earliest_patch_date": "2024-05-17 08:37:51+02:00",
+"earliest_vuln_date": "2018-12-19 15:47:31+01:00",
+"vuln_files": [
+"src/Umbraco.Web.BackOffice/Controllers/PreviewController.cs",
+"src/Umbraco.Web.BackOffice/Controllers/ImagesController.cs",
+"src/Umbraco.Web/Editors/ImagesController.cs"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/Umbraco.Web/Umbraco.Web.csproj"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"src/Umbraco.Web/Umbraco.Web.csproj"
+]
+},
+{
+"cve_id": "CVE-2024-43377",
+"patch_date": [
+"2024-08-19 15:10:24+02:00"
+],
+"patch_files": [
+"src/Umbraco.Cms.Api.Management/Security/Authorization/DenyLocalLogin/DenyLocalLoginHandler.cs",
+"src/Umbraco.Cms.Api.Management/Security/Authorization/User/BackOfficeRequirement.cs",
+"src/Umbraco.Cms.Api.Management/DependencyInjection/BackOfficeAuthPolicyBuilderExtensions.cs",
+"src/Umbraco.Cms.Api.Management/Security/Authorization/User/BackOfficeHandler.cs"
+],
+"earliest_patch_date": "2024-08-19 15:10:24+02:00",
+"earliest_vuln_date": "2023-07-19 08:02:51+02:00",
+"vuln_files": [
+"src/Umbraco.Cms.Api.Management/Security/Authorization/DenyLocalLogin/DenyLocalLoginHandler.cs",
+"src/Umbraco.Cms.Api.Management/DependencyInjection/BackOfficeAuthPolicyBuilderExtensions.cs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-43376",
+"patch_date": [
+"2024-08-19 15:10:44+02:00"
+],
+"patch_files": [
+"src/Umbraco.Cms.Api.Management/DependencyInjection/ApplicationBuilderExtensions.cs",
+"src/Umbraco.Web.Common/AspNetCore/AspNetCoreHostingEnvironment.cs"
+],
+"earliest_patch_date": "2024-08-19 15:10:44+02:00",
+"earliest_vuln_date": "2020-09-07 15:28:58+02:00",
+"vuln_files": [
+"src/Umbraco.Cms.Api.Management/DependencyInjection/ApplicationBuilderExtensions.cs",
+"src/Umbraco.Web.Common/AspNetCore/AspNetCoreHostingEnvironment.cs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"CWE-209"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,47 @@
+[
+{
+"cve_id": "CVE-2023-32062",
+"patch_date": [
+"2023-06-01 21:52:17+03:00",
+"2023-06-01 21:52:06+03:00"
+],
+"patch_files": [
+"Tests/Behat/Features/Fixtures/SystemCalendarEvent.yml",
+"Tests/Behat/Features/system_calendar_event_by_direct_link.feature",
+"Tests/Behat/behat.yml",
+"Controller/SystemCalendarEventController.php"
+],
+"earliest_patch_date": "2023-06-01 21:52:06+03:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,211 @@
+[
+{
+"cve_id": "CVE-2021-25977",
+"patch_date": [
+"2021-09-26 15:28:32+02:00"
+],
+"patch_files": [
+"core/Piranha.Manager/assets/dist/js/piranha.pagelist.min.js",
+"core/Piranha.Manager/assets/dist/js/piranha.pagelist.js",
+"core/Piranha.Manager/assets/src/js/components/sitemap-item.vue"
+],
+"earliest_patch_date": "2021-09-26 15:28:32+02:00",
+"earliest_vuln_date": "2020-02-18 13:54:12+01:00",
+"vuln_files": [
+"core/Piranha.Manager/assets/dist/js/piranha.pagelist.min.js",
+"core/Piranha.Manager/assets/dist/js/piranha.pagelist.js",
+"core/Piranha.Manager/assets/src/js/components/sitemap-item.vue"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-25976",
+"patch_date": [
+"2021-10-25 21:47:54+02:00"
+],
+"patch_files": [
+"core/Piranha.Manager/Controllers/AliasApiController.cs",
+"core/Piranha.Manager/assets/dist/js/piranha.pageedit.js",
+"core/Piranha.Manager/Areas/Manager/Shared/Partial/_PagePickerModal.cshtml",
+"core/Piranha.Manager/assets/dist/js/piranha.pageedit.min.js",
+"core/Piranha.Manager/assets/dist/js/piranha.alias.min.js",
+"core/Piranha.Manager/Areas/Manager/Shared/Partial/_ContentPickerModal.cshtml",
+"core/Piranha.Manager/ManagerExtensions.cs",
+"core/Piranha.Manager/assets/src/scss/inc/_actions.scss",
+"identity/Piranha.AspNetCore.Identity/assets/piranha.userlist.js",
+"core/Piranha.Manager/Controllers/ConfigApiController.cs",
+"core/Piranha.Manager/assets/src/js/piranha.siteedit.js",
+"core/Piranha.Manager/Areas/Manager/Shared/Partial/_PreviewModal.cshtml",
+"core/Piranha.Manager/Areas/Manager/Shared/Partial/_MediaPickerModal.cshtml",
+"core/Piranha.Manager/Areas/Manager/Shared/_Layout.cshtml",
+"core/Piranha.Manager/Controllers/ModuleApiController.cs",
+"core/Piranha.Manager/ManagerStartupExtensions.cs",
+"core/Piranha.Manager/assets/dist/js/piranha.contentedit.min.js",
+"core/Piranha.Manager/Controllers/CommentApiController.cs",
+"core/Piranha.Manager/assets/src/js/piranha.utils.js",
+"core/Piranha.Manager/assets/dist/js/piranha.contentedit.js",
+"core/Piranha.Manager/assets/dist/js/piranha.min.js",
+"core/Piranha.Manager/assets/dist/js/piranha.siteedit.js",
+"core/Piranha.Manager/assets/src/js/piranha.pageedit.js",
+"core/Piranha.Manager/assets/dist/js/piranha.postedit.min.js",
+"core/Piranha.Manager/assets/dist/js/piranha.contentlist.min.js",
+"core/Piranha.Manager/Controllers/SiteApiController.cs",
+"identity/Piranha.AspNetCore.Identity/Controllers/UserController.cs",
+"identity/Piranha.AspNetCore.Identity/assets/piranha.useredit.js",
+"core/Piranha.Manager/assets/src/js/piranha.dropzone.js",
+"core/Piranha.Manager/assets/dist/js/piranha.js",
+"core/Piranha.Manager/assets/src/js/piranha.contentedit.js",
+"core/Piranha.Manager/assets/src/js/piranha.mediapicker.js",
+"core/Piranha.Manager/Controllers/PostApiController.cs",
+"core/Piranha.Manager/Controllers/PageApiController.cs",
+"core/Piranha.Manager/assets/dist/js/piranha.media.js",
+"core/Piranha.Manager/assets/dist/js/piranha.postedit.js",
+"core/Piranha.Manager.LocalAuth/Areas/Manager/Pages/Login.cshtml.cs",
+"core/Piranha.Manager/assets/dist/js/piranha.alias.js",
+"core/Piranha.Manager/assets/dist/js/piranha.contentlist.js",
+"core/Piranha.Manager/assets/dist/js/piranha.components.min.js",
+"core/Piranha.Manager/assets/dist/js/piranha.pagelist.min.js",
+"core/Piranha.Manager/Areas/Manager/Shared/Partial/_PostPickerModal.cshtml",
+"core/Piranha.Manager/assets/src/js/components/post-archive.vue",
+"core/Piranha.Manager/assets/src/js/piranha.media.js",
+"core/Piranha.Manager/assets/src/js/piranha.notifications.js",
+"identity/Piranha.AspNetCore.Identity/Areas/Manager/Views/Role/List.cshtml",
+"core/Piranha.Manager/assets/src/scss/inc/_notifications.scss",
+"core/Piranha.Manager/assets/src/js/piranha.contentlist.js",
+"core/Piranha.Manager/assets/dist/js/piranha.media.min.js",
+"core/Piranha.Manager/Controllers/PermissionApiController.cs",
+"core/Piranha.Manager/ManagerOptions.cs",
+"core/Piranha.Manager/assets/dist/js/piranha.comment.min.js",
+"core/Piranha.Manager/assets/dist/js/piranha.config.js",
+"core/Piranha.Manager/Areas/Manager/Pages/Index.cshtml.cs",
+"core/Piranha.Manager/assets/dist/js/piranha.components.js",
+"core/Piranha.Manager/Controllers/ContentApiController.cs",
+"core/Piranha.Manager/assets/dist/js/piranha.config.min.js",
+"core/Piranha.Manager/assets/src/js/piranha.alias.js",
+"core/Piranha.Manager/Models/LanguageEditModel.cs",
+"core/Piranha.Manager/Controllers/AuthController.cs",
+"core/Piranha.Manager/assets/dist/js/piranha.siteedit.min.js",
+"core/Piranha.Manager/assets/src/js/piranha.comment.js",
+"core/Piranha.Manager/assets/src/js/piranha.languageedit.js",
+"core/Piranha.Manager/assets/src/js/piranha.postedit.js",
+"core/Piranha.Manager/assets/dist/js/piranha.comment.js",
+"core/Piranha.Manager/assets/dist/css/full.min.css",
+"core/Piranha.Manager/assets/dist/css/slim.min.css",
+"core/Piranha.Manager/assets/src/js/piranha.pagelist.js",
+"core/Piranha.Manager/Controllers/MediaApiController.cs",
+"identity/Piranha.AspNetCore.Identity/Controllers/RoleController.cs",
+"core/Piranha.Manager/assets/src/js/piranha.config.js",
+"core/Piranha.Manager/assets/dist/js/piranha.pagelist.js",
+"core/Piranha.Manager/Controllers/LanguageApiController.cs"
+],
+"earliest_patch_date": "2021-10-25 21:47:54+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.2
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:H/Au:N/C:N/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "HIGH",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 4.9,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-352"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"core/Piranha.Manager/assets/dist/js/piranha.pagelist.min.js",
+"core/Piranha.Manager/assets/dist/js/piranha.pagelist.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

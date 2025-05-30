@@ -1,0 +1,125 @@
+[
+{
+"cve_id": "CVE-2023-30798",
+"patch_date": [
+"2023-02-14 09:01:32+01:00"
+],
+"patch_files": [
+"starlette/requests.py",
+"docs/requests.md",
+"tests/test_formparsers.py",
+"starlette/formparsers.py"
+],
+"earliest_patch_date": "2023-02-14 09:01:32+01:00",
+"earliest_vuln_date": "2018-10-12 18:15:04+01:00",
+"vuln_files": [
+"starlette/requests.py",
+"starlette/formparsers.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-400"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-24762",
+"patch_date": [
+"2024-02-03 05:34:10-07:00"
+],
+"patch_files": [
+"pyproject.toml"
+],
+"earliest_patch_date": "2024-02-03 05:34:10-07:00",
+"earliest_vuln_date": "2022-08-24 07:50:13+02:00",
+"vuln_files": [
+"pyproject.toml"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-1333"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-47874",
+"patch_date": [
+"2024-10-15 08:40:51+02:00"
+],
+"patch_files": [
+"tests/test_formparsers.py",
+"starlette/formparsers.py"
+],
+"earliest_patch_date": "2024-10-15 08:40:51+02:00",
+"earliest_vuln_date": "2019-06-24 19:59:09+02:00",
+"vuln_files": [
+"tests/test_formparsers.py",
+"starlette/formparsers.py"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"tests/test_formparsers.py",
+"starlette/formparsers.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

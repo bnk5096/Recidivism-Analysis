@@ -1,0 +1,153 @@
+[
+{
+"cve_id": "CVE-2023-37271",
+"patch_date": [
+"2023-07-08 07:14:27+00:00"
+],
+"patch_files": [
+"docs/contributing/index.rst",
+"CHANGES.rst",
+"tests/transformer/test_inspect.py",
+"src/RestrictedPython/transformer.py"
+],
+"earliest_patch_date": "2023-07-08 07:14:27+00:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.9,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.1,
+"impactScore": 6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-41039",
+"patch_date": [
+"2023-08-30 08:28:28+02:00"
+],
+"patch_files": [
+"src/RestrictedPython/Utilities.py",
+"src/RestrictedPython/Guards.py",
+"CHANGES.rst",
+"tests/builtins/test_utilities.py",
+"tests/test_Guards.py",
+"tests/test_Utilities.py"
+],
+"earliest_patch_date": "2023-08-30 08:28:28+02:00",
+"earliest_vuln_date": "2007-06-03 15:02:49+00:00",
+"vuln_files": [
+"src/RestrictedPython/Utilities.py",
+"tests/test_Guards.py",
+"tests/builtins/test_utilities.py",
+"src/RestrictedPython/Guards.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.7,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.1,
+"impactScore": 4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"CHANGES.rst"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-47532",
+"patch_date": [
+"2024-09-30 08:58:30+02:00"
+],
+"patch_files": [
+"src/RestrictedPython/Utilities.py",
+"CHANGES.rst",
+"tests/builtins/test_utilities.py"
+],
+"earliest_patch_date": "2024-09-30 08:58:30+02:00",
+"earliest_vuln_date": "2023-08-30 08:28:28+02:00",
+"vuln_files": [
+"src/RestrictedPython/Utilities.py",
+"tests/builtins/test_utilities.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/RestrictedPython/Utilities.py",
+"CHANGES.rst",
+"tests/builtins/test_utilities.py"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"CHANGES.rst"
+]
+}
+]

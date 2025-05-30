@@ -1,0 +1,241 @@
+[
+{
+"cve_id": "CVE-2022-21700",
+"patch_date": [
+"2019-11-18 08:23:08+01:00"
+],
+"patch_files": [
+"core/src/main/java/io/micronaut/core/type/DefaultArgument.java",
+"http-server-netty/src/main/java/io/micronaut/http/server/netty/binders/CompletableFutureBodyBinder.java",
+"http-server/src/main/java/io/micronaut/http/server/cors/CorsOriginConverter.java",
+"core/src/main/java/io/micronaut/core/type/Argument.java",
+"http-server-netty/src/main/java/io/micronaut/http/server/netty/RoutingInBoundHandler.java",
+"runtime/src/main/java/io/micronaut/cache/interceptor/CacheInterceptor.java",
+"session/src/main/java/io/micronaut/session/binder/SessionArgumentBinder.java",
+"http-server/src/main/java/io/micronaut/http/server/cors/CorsFilter.java",
+"core/src/main/java/io/micronaut/core/convert/value/ConvertibleMultiValues.java",
+"http-client/src/main/java/io/micronaut/http/client/exceptions/HttpClientErrorDecoder.java",
+"http/src/main/java/io/micronaut/http/HttpHeaders.java",
+"http/src/main/java/io/micronaut/http/MediaType.java",
+"runtime/src/main/java/io/micronaut/scheduling/io/watch/FileWatchCondition.java",
+"core/src/main/java/io/micronaut/core/convert/ConversionContext.java",
+"http-server-netty/src/test/groovy/io/micronaut/http/server/netty/cors/CorsFilterSpec.groovy",
+"http-server-netty/src/main/java/io/micronaut/http/server/netty/binders/PublisherBodyBinder.java",
+"core/src/main/java/io/micronaut/core/convert/DefaultArgumentConversionContext.java",
+"core/src/main/java/io/micronaut/core/convert/value/ConvertibleValues.java"
+],
+"earliest_patch_date": "2019-11-18 08:23:08+01:00",
+"earliest_vuln_date": "2017-07-11 12:24:27+02:00",
+"vuln_files": [
+"core/src/main/java/io/micronaut/core/type/DefaultArgument.java",
+"http-server-netty/src/main/java/io/micronaut/http/server/netty/binders/CompletableFutureBodyBinder.java",
+"http-server/src/main/java/io/micronaut/http/server/cors/CorsOriginConverter.java",
+"core/src/main/java/io/micronaut/core/type/Argument.java",
+"http-server-netty/src/main/java/io/micronaut/http/server/netty/RoutingInBoundHandler.java",
+"session/src/main/java/io/micronaut/session/binder/SessionArgumentBinder.java",
+"runtime/src/main/java/io/micronaut/cache/interceptor/CacheInterceptor.java",
+"http-server/src/main/java/io/micronaut/http/server/cors/CorsFilter.java",
+"http/src/main/java/io/micronaut/http/HttpHeaders.java",
+"http-client/src/main/java/io/micronaut/http/client/exceptions/HttpClientErrorDecoder.java",
+"runtime/src/main/java/io/micronaut/scheduling/io/watch/FileWatchCondition.java",
+"http-server-netty/src/test/groovy/io/micronaut/http/server/netty/cors/CorsFilterSpec.groovy",
+"http-server-netty/src/main/java/io/micronaut/http/server/netty/binders/PublisherBodyBinder.java",
+"core/src/main/java/io/micronaut/core/convert/DefaultArgumentConversionContext.java",
+"core/src/main/java/io/micronaut/core/convert/value/ConvertibleValues.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "LOW",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-400"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-7611",
+"patch_date": [
+"2020-03-09 14:20:28-04:00"
+],
+"patch_files": [
+"http-netty/src/main/java/io/micronaut/http/netty/NettyHttpHeaders.java"
+],
+"earliest_patch_date": "2020-03-09 14:20:28-04:00",
+"earliest_vuln_date": "2018-01-12 15:59:46+01:00",
+"vuln_files": [
+"http-netty/src/main/java/io/micronaut/http/netty/NettyHttpHeaders.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-444"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-32769",
+"patch_date": [
+"2021-07-14 12:35:31-04:00"
+],
+"patch_files": [
+"core/src/main/java/io/micronaut/core/io/scan/DefaultClassPathResourceLoader.java",
+"inject/src/main/java/io/micronaut/context/env/DefaultEnvironment.java",
+"core/src/test/groovy/io/micronaut/core/io/FileSystemResourceLoaderSpec.groovy",
+"inject/src/test/groovy/io/micronaut/context/env/DefaultEnvironmentSpec.groovy",
+"core/src/main/java/io/micronaut/core/io/file/DefaultFileSystemResourceLoader.java",
+"core/src/test/resources/other/shouldNotAccess.txt",
+"core/src/test/groovy/io/micronaut/core/io/ClasspathResourceLoaderSpec.groovy"
+],
+"earliest_patch_date": "2021-07-14 12:35:31-04:00",
+"earliest_vuln_date": "2018-03-19 01:06:06-04:00",
+"vuln_files": [
+"core/src/main/java/io/micronaut/core/io/scan/DefaultClassPathResourceLoader.java",
+"inject/src/main/java/io/micronaut/context/env/DefaultEnvironment.java",
+"core/src/test/groovy/io/micronaut/core/io/FileSystemResourceLoaderSpec.groovy",
+"inject/src/test/groovy/io/micronaut/context/env/DefaultEnvironmentSpec.groovy",
+"core/src/main/java/io/micronaut/core/io/file/DefaultFileSystemResourceLoader.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

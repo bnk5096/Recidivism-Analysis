@@ -1,0 +1,44 @@
+[
+{
+"cve_id": "CVE-2024-35183",
+"patch_date": [
+"2023-01-25 13:49:36+00:00",
+"2024-05-14 12:54:11+01:00"
+],
+"patch_files": [
+"pkg/advisory/data_session.go",
+"pkg/git/git.go",
+"pkg/git/tag.go",
+"pkg/update/update.go",
+"pkg/git/submodules/update_test.go",
+"pkg/update/deps/cleanup.go",
+"pkg/update/package.go",
+"pkg/git/submodules/testdata/multiple_submodules/.gitmodules",
+"pkg/git/submodules/testdata/.gitmodules",
+"pkg/git/submodules/update.go"
+],
+"earliest_patch_date": "2023-01-25 13:49:36+00:00",
+"earliest_vuln_date": "2022-11-25 15:38:24+00:00",
+"vuln_files": [
+"pkg/git/submodules/update_test.go",
+"pkg/git/submodules/update.go",
+"pkg/update/update.go",
+"pkg/advisory/data_session.go",
+"pkg/git/git.go",
+"pkg/git/submodules/testdata/multiple_submodules/.gitmodules",
+"pkg/git/tag.go",
+"pkg/update/deps/cleanup.go",
+"pkg/update/package.go"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

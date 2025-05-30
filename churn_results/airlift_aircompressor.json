@@ -1,0 +1,1616 @@
+{
+ "base_commit": "a869e97549cc8624e6b9af5ebe5975301c89e607",
+ "commit_author": "dain@iq80.com",
+ "datetime": "2024-08-16 17:25:25-07:00",
+ "parent_commit": "fba650ad813f4fba64b650ee4eba676cf761630f",
+ "metrics": [
+  {
+   "file_path": "src/main/java/io/airlift/compress/v2/lz4/Lz4RawDecompressor.java",
+   "lines_added": 0,
+   "lines_deleted": 199,
+   "total_lines_changed": 199
+  },
+  {
+   "file_path": "src/main/java/io/airlift/compress/v2/lzo/LzoRawDecompressor.java",
+   "lines_added": 0,
+   "lines_deleted": 359,
+   "total_lines_changed": 359
+  },
+  {
+   "file_path": "src/main/java/io/airlift/compress/v2/snappy/SnappyRawDecompressor.java",
+   "lines_added": 0,
+   "lines_deleted": 322,
+   "total_lines_changed": 322
+  },
+  {
+   "file_path": "src/main/java/io/airlift/compress/v2/zstd/Huffman.java",
+   "lines_added": 0,
+   "lines_deleted": 325,
+   "total_lines_changed": 325
+  },
+  {
+   "file_path": "src/main/java/io/airlift/compress/v2/zstd/ZstdFrameDecompressor.java",
+   "lines_added": 0,
+   "lines_deleted": 981,
+   "total_lines_changed": 981
+  },
+  {
+   "file_path": "src/main/java/io/airlift/compress/v3/lz4/Lz4RawDecompressor.java",
+   "lines_added": 199,
+   "lines_deleted": 0,
+   "total_lines_changed": 199
+  },
+  {
+   "file_path": "src/main/java/io/airlift/compress/v3/lzo/LzoRawDecompressor.java",
+   "lines_added": 359,
+   "lines_deleted": 0,
+   "total_lines_changed": 359
+  },
+  {
+   "file_path": "src/main/java/io/airlift/compress/v3/snappy/SnappyRawDecompressor.java",
+   "lines_added": 322,
+   "lines_deleted": 0,
+   "total_lines_changed": 322
+  },
+  {
+   "file_path": "src/main/java/io/airlift/compress/v3/zstd/Huffman.java",
+   "lines_added": 325,
+   "lines_deleted": 0,
+   "total_lines_changed": 325
+  },
+  {
+   "file_path": "src/main/java/io/airlift/compress/v3/zstd/ZstdFrameDecompressor.java",
+   "lines_added": 981,
+   "lines_deleted": 0,
+   "total_lines_changed": 981
+  },
+  {
+   "file_path": "src/test/java/io/airlift/compress/v2/lz4/TestLz4.java",
+   "lines_added": 0,
+   "lines_deleted": 48,
+   "total_lines_changed": 48
+  },
+  {
+   "file_path": "src/test/java/io/airlift/compress/v2/lzo/TestLzo.java",
+   "lines_added": 0,
+   "lines_deleted": 134,
+   "total_lines_changed": 134
+  },
+  {
+   "file_path": "src/test/java/io/airlift/compress/v2/snappy/AbstractTestSnappy.java",
+   "lines_added": 0,
+   "lines_deleted": 58,
+   "total_lines_changed": 58
+  },
+  {
+   "file_path": "src/test/java/io/airlift/compress/v2/zstd/TestZstd.java",
+   "lines_added": 0,
+   "lines_deleted": 47,
+   "total_lines_changed": 47
+  },
+  {
+   "file_path": "src/test/java/io/airlift/compress/v3/lz4/TestLz4.java",
+   "lines_added": 48,
+   "lines_deleted": 0,
+   "total_lines_changed": 48
+  },
+  {
+   "file_path": "src/test/java/io/airlift/compress/v3/lzo/TestLzo.java",
+   "lines_added": 134,
+   "lines_deleted": 0,
+   "total_lines_changed": 134
+  },
+  {
+   "file_path": "src/test/java/io/airlift/compress/v3/snappy/AbstractTestSnappy.java",
+   "lines_added": 58,
+   "lines_deleted": 0,
+   "total_lines_changed": 58
+  },
+  {
+   "file_path": "src/test/java/io/airlift/compress/v3/zstd/TestZstd.java",
+   "lines_added": 47,
+   "lines_deleted": 0,
+   "total_lines_changed": 47
+  }
+ ],
+ "history": [
+  {
+   "commit_id": "3b4a4b1d410ddd799a12ef718ebdf80b81a2447b",
+   "commit_author": "dain@iq80.com",
+   "datetime": "2024-07-01 22:10:05-07:00",
+   "parent_commit": "818baa528f13eec5c351e914572509666c5a8bcc",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/lz4/Lz4RawDecompressor.java",
+     "lines_added": 0,
+     "lines_deleted": 199,
+     "total_lines_changed": 199
+    },
+    {
+     "file_path": "src/main/java/io/airlift/compress/lzo/LzoRawDecompressor.java",
+     "lines_added": 0,
+     "lines_deleted": 359,
+     "total_lines_changed": 359
+    },
+    {
+     "file_path": "src/main/java/io/airlift/compress/snappy/SnappyRawDecompressor.java",
+     "lines_added": 0,
+     "lines_deleted": 322,
+     "total_lines_changed": 322
+    },
+    {
+     "file_path": "src/main/java/io/airlift/compress/v2/lz4/Lz4RawDecompressor.java",
+     "lines_added": 199,
+     "lines_deleted": 0,
+     "total_lines_changed": 199
+    },
+    {
+     "file_path": "src/main/java/io/airlift/compress/v2/lzo/LzoRawDecompressor.java",
+     "lines_added": 359,
+     "lines_deleted": 0,
+     "total_lines_changed": 359
+    },
+    {
+     "file_path": "src/main/java/io/airlift/compress/v2/snappy/SnappyRawDecompressor.java",
+     "lines_added": 322,
+     "lines_deleted": 0,
+     "total_lines_changed": 322
+    },
+    {
+     "file_path": "src/main/java/io/airlift/compress/v2/zstd/Huffman.java",
+     "lines_added": 325,
+     "lines_deleted": 0,
+     "total_lines_changed": 325
+    },
+    {
+     "file_path": "src/main/java/io/airlift/compress/v2/zstd/ZstdFrameDecompressor.java",
+     "lines_added": 981,
+     "lines_deleted": 0,
+     "total_lines_changed": 981
+    },
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/Huffman.java",
+     "lines_added": 0,
+     "lines_deleted": 325,
+     "total_lines_changed": 325
+    },
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/ZstdFrameDecompressor.java",
+     "lines_added": 0,
+     "lines_deleted": 981,
+     "total_lines_changed": 981
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/lz4/TestLz4.java",
+     "lines_added": 0,
+     "lines_deleted": 48,
+     "total_lines_changed": 48
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/lzo/TestLzo.java",
+     "lines_added": 0,
+     "lines_deleted": 134,
+     "total_lines_changed": 134
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/snappy/AbstractTestSnappy.java",
+     "lines_added": 0,
+     "lines_deleted": 58,
+     "total_lines_changed": 58
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/v2/lz4/TestLz4.java",
+     "lines_added": 48,
+     "lines_deleted": 0,
+     "total_lines_changed": 48
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/v2/lzo/TestLzo.java",
+     "lines_added": 134,
+     "lines_deleted": 0,
+     "total_lines_changed": 134
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/v2/snappy/AbstractTestSnappy.java",
+     "lines_added": 58,
+     "lines_deleted": 0,
+     "total_lines_changed": 58
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/v2/zstd/TestZstd.java",
+     "lines_added": 47,
+     "lines_deleted": 0,
+     "total_lines_changed": 47
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/zstd/TestZstd.java",
+     "lines_added": 0,
+     "lines_deleted": 47,
+     "total_lines_changed": 47
+    }
+   ]
+  },
+  {
+   "commit_id": "a73d3e27c17d6d2e008cdba7675d12678b821958",
+   "commit_author": "dain@iq80.com",
+   "datetime": "2024-07-01 22:10:05-07:00",
+   "parent_commit": "8a0851cf27b476d8ad992c2f940c6ecce238ac83",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/snappy/SnappyRawDecompressor.java",
+     "lines_added": 1,
+     "lines_deleted": 1,
+     "total_lines_changed": 2
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/lz4/TestLz4.java",
+     "lines_added": 1,
+     "lines_deleted": 51,
+     "total_lines_changed": 52
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/snappy/AbstractTestSnappy.java",
+     "lines_added": 58,
+     "lines_deleted": 0,
+     "total_lines_changed": 58
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/snappy/TestSnappy.java",
+     "lines_added": 0,
+     "lines_deleted": 80,
+     "total_lines_changed": 80
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/zstd/TestZstd.java",
+     "lines_added": 3,
+     "lines_deleted": 226,
+     "total_lines_changed": 229
+    }
+   ]
+  },
+  {
+   "commit_id": "8a0851cf27b476d8ad992c2f940c6ecce238ac83",
+   "commit_author": "dain@iq80.com",
+   "datetime": "2024-07-01 22:10:05-07:00",
+   "parent_commit": "ba1c681f8ed74273eb1854788018838c4b0a5ec3",
+   "metrics": [
+    {
+     "file_path": "src/test/java/io/airlift/compress/lz4/TestLz4.java",
+     "lines_added": 4,
+     "lines_deleted": 4,
+     "total_lines_changed": 8
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/snappy/TestSnappy.java",
+     "lines_added": 4,
+     "lines_deleted": 4,
+     "total_lines_changed": 8
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/zstd/TestZstd.java",
+     "lines_added": 9,
+     "lines_deleted": 9,
+     "total_lines_changed": 18
+    }
+   ]
+  },
+  {
+   "commit_id": "e193075eaa7d02d732c7771ad68813e352b63a99",
+   "commit_author": "dain@iq80.com",
+   "datetime": "2024-07-01 22:10:05-07:00",
+   "parent_commit": "b19c21eee44a4fed837a5f733e175377b4c7e903",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/lz4/Lz4RawDecompressor.java",
+     "lines_added": 1,
+     "lines_deleted": 1,
+     "total_lines_changed": 2
+    },
+    {
+     "file_path": "src/main/java/io/airlift/compress/lzo/LzoRawDecompressor.java",
+     "lines_added": 1,
+     "lines_deleted": 1,
+     "total_lines_changed": 2
+    },
+    {
+     "file_path": "src/main/java/io/airlift/compress/snappy/SnappyRawDecompressor.java",
+     "lines_added": 1,
+     "lines_deleted": 1,
+     "total_lines_changed": 2
+    }
+   ]
+  },
+  {
+   "commit_id": "b19c21eee44a4fed837a5f733e175377b4c7e903",
+   "commit_author": "dain@iq80.com",
+   "datetime": "2024-07-01 22:10:05-07:00",
+   "parent_commit": "1c427dc47f2e6a5661eba1a7501306ea012edc9a",
+   "metrics": [
+    {
+     "file_path": "src/test/java/io/airlift/compress/zstd/TestZstd.java",
+     "lines_added": 1,
+     "lines_deleted": 1,
+     "total_lines_changed": 2
+    }
+   ]
+  },
+  {
+   "commit_id": "5c7f557edeaa2c2d97cbe87d20cfcc5e0b877609",
+   "commit_author": "dain@iq80.com",
+   "datetime": "2024-03-21 09:00:42-07:00",
+   "parent_commit": "cb0eedd693f172e0c969b454143a167d2ef58e62",
+   "metrics": [
+    {
+     "file_path": "src/test/java/io/airlift/compress/zstd/TestZstd.java",
+     "lines_added": 10,
+     "lines_deleted": 11,
+     "total_lines_changed": 21
+    }
+   ]
+  },
+  {
+   "commit_id": "cb0eedd693f172e0c969b454143a167d2ef58e62",
+   "commit_author": "dain@iq80.com",
+   "datetime": "2024-03-21 09:00:42-07:00",
+   "parent_commit": "397e4bc54e0dd259a6acc7fcafad146bc2cd9d78",
+   "metrics": [
+    {
+     "file_path": "src/test/java/io/airlift/compress/lz4/TestLz4.java",
+     "lines_added": 4,
+     "lines_deleted": 4,
+     "total_lines_changed": 8
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/lzo/TestLzo.java",
+     "lines_added": 4,
+     "lines_deleted": 4,
+     "total_lines_changed": 8
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/snappy/TestSnappy.java",
+     "lines_added": 4,
+     "lines_deleted": 4,
+     "total_lines_changed": 8
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/zstd/TestZstd.java",
+     "lines_added": 28,
+     "lines_deleted": 20,
+     "total_lines_changed": 48
+    }
+   ]
+  },
+  {
+   "commit_id": "cf66151541edb062ea88b6f3baab3f95e48b7b7f",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2024-02-13 08:10:53-08:00",
+   "parent_commit": "d01ecb779375a092d00e224abe7869cdf49ddc3e",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/ZstdFrameDecompressor.java",
+     "lines_added": 3,
+     "lines_deleted": 3,
+     "total_lines_changed": 6
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/zstd/TestZstd.java",
+     "lines_added": 1,
+     "lines_deleted": 1,
+     "total_lines_changed": 2
+    }
+   ]
+  },
+  {
+   "commit_id": "d01ecb779375a092d00e224abe7869cdf49ddc3e",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2024-02-13 08:10:53-08:00",
+   "parent_commit": "2cea90a45534f9aacbb77426fb64e975504dee6e",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/lz4/Lz4RawDecompressor.java",
+     "lines_added": 3,
+     "lines_deleted": 0,
+     "total_lines_changed": 3
+    },
+    {
+     "file_path": "src/main/java/io/airlift/compress/lzo/LzoRawDecompressor.java",
+     "lines_added": 1,
+     "lines_deleted": 1,
+     "total_lines_changed": 2
+    },
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/ZstdFrameDecompressor.java",
+     "lines_added": 4,
+     "lines_deleted": 2,
+     "total_lines_changed": 6
+    }
+   ]
+  },
+  {
+   "commit_id": "2cea90a45534f9aacbb77426fb64e975504dee6e",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2024-02-13 08:10:53-08:00",
+   "parent_commit": "15e68df9eb0c2bfde7f796231ee7cd1982965071",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/snappy/SnappyRawDecompressor.java",
+     "lines_added": 3,
+     "lines_deleted": 0,
+     "total_lines_changed": 3
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/snappy/TestSnappy.java",
+     "lines_added": 10,
+     "lines_deleted": 0,
+     "total_lines_changed": 10
+    }
+   ]
+  },
+  {
+   "commit_id": "15e68df9eb0c2bfde7f796231ee7cd1982965071",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2024-02-13 08:10:53-08:00",
+   "parent_commit": "99de82a53a539cca07ddc918e60d0cb089b52941",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/lz4/Lz4RawDecompressor.java",
+     "lines_added": 6,
+     "lines_deleted": 0,
+     "total_lines_changed": 6
+    },
+    {
+     "file_path": "src/main/java/io/airlift/compress/lzo/LzoRawDecompressor.java",
+     "lines_added": 7,
+     "lines_deleted": 0,
+     "total_lines_changed": 7
+    },
+    {
+     "file_path": "src/main/java/io/airlift/compress/snappy/SnappyRawDecompressor.java",
+     "lines_added": 6,
+     "lines_deleted": 0,
+     "total_lines_changed": 6
+    },
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/Huffman.java",
+     "lines_added": 2,
+     "lines_deleted": 0,
+     "total_lines_changed": 2
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/lz4/TestLz4.java",
+     "lines_added": 49,
+     "lines_deleted": 0,
+     "total_lines_changed": 49
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/lzo/TestLzo.java",
+     "lines_added": 81,
+     "lines_deleted": 0,
+     "total_lines_changed": 81
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/snappy/TestSnappy.java",
+     "lines_added": 22,
+     "lines_deleted": 0,
+     "total_lines_changed": 22
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/zstd/TestZstd.java",
+     "lines_added": 51,
+     "lines_deleted": 0,
+     "total_lines_changed": 51
+    }
+   ]
+  },
+  {
+   "commit_id": "b89db180bb97debe025b640dc40ed43816e8c7d2",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2024-02-08 13:50:39-05:00",
+   "parent_commit": "ca561c8214100b1e646a395c2683212419719dc8",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/snappy/SnappyRawDecompressor.java",
+     "lines_added": 4,
+     "lines_deleted": 5,
+     "total_lines_changed": 9
+    }
+   ]
+  },
+  {
+   "commit_id": "ca208a740a367e0bbcaea29afc16142163df85f3",
+   "commit_author": "dain@iq80.com",
+   "datetime": "2023-03-03 11:45:35-08:00",
+   "parent_commit": "35a522882df8e55a05420b69c56f38191ffbd8fe",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/ZstdFrameDecompressor.java",
+     "lines_added": 27,
+     "lines_deleted": 11,
+     "total_lines_changed": 38
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/zstd/TestZstd.java",
+     "lines_added": 3,
+     "lines_deleted": 2,
+     "total_lines_changed": 5
+    }
+   ]
+  },
+  {
+   "commit_id": "2e92da720538c3296cf882a642b4b20883fc546f",
+   "commit_author": "clayton.m.walker@gmail.com",
+   "datetime": "2022-08-30 07:52:10-07:00",
+   "parent_commit": "50a6b12ec8d96750c6fce1c468ba9228706b1ef5",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/ZstdFrameDecompressor.java",
+     "lines_added": 2,
+     "lines_deleted": 1,
+     "total_lines_changed": 3
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/zstd/TestZstd.java",
+     "lines_added": 10,
+     "lines_deleted": 0,
+     "total_lines_changed": 10
+    }
+   ]
+  },
+  {
+   "commit_id": "21ca48bab7168604488290af835e3e5eabe5d154",
+   "commit_author": "arnej@yahooinc.com",
+   "datetime": "2022-07-20 10:52:17-07:00",
+   "parent_commit": "101a6149bfc894967357ef13ca8a17b476848da9",
+   "metrics": [
+    {
+     "file_path": "src/test/java/io/airlift/compress/zstd/TestZstd.java",
+     "lines_added": 4,
+     "lines_deleted": 2,
+     "total_lines_changed": 6
+    }
+   ]
+  },
+  {
+   "commit_id": "101a6149bfc894967357ef13ca8a17b476848da9",
+   "commit_author": "arnej@yahooinc.com",
+   "datetime": "2022-07-20 10:52:17-07:00",
+   "parent_commit": "422426c0f6363a1d7accf994445cb7d727edd740",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/ZstdFrameDecompressor.java",
+     "lines_added": 1,
+     "lines_deleted": 1,
+     "total_lines_changed": 2
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/zstd/TestZstd.java",
+     "lines_added": 14,
+     "lines_deleted": 0,
+     "total_lines_changed": 14
+    }
+   ]
+  },
+  {
+   "commit_id": "422426c0f6363a1d7accf994445cb7d727edd740",
+   "commit_author": "piotr.findeisen@gmail.com",
+   "datetime": "2022-04-25 13:21:36-07:00",
+   "parent_commit": "4afa36fb46d6d860d0a244121bc0b76b3c928f10",
+   "metrics": [
+    {
+     "file_path": "src/test/java/io/airlift/compress/zstd/TestZstd.java",
+     "lines_added": 21,
+     "lines_deleted": 0,
+     "total_lines_changed": 21
+    }
+   ]
+  },
+  {
+   "commit_id": "55b8f0141d85808527e4ebd2fbbbed74b26709bd",
+   "commit_author": "piotr.findeisen@gmail.com",
+   "datetime": "2022-04-12 21:48:31+02:00",
+   "parent_commit": "c5e6972bd37e1d3834514957447028060a268eea",
+   "metrics": [
+    {
+     "file_path": "src/test/java/io/airlift/compress/zstd/TestZstd.java",
+     "lines_added": 1,
+     "lines_deleted": 1,
+     "total_lines_changed": 2
+    }
+   ]
+  },
+  {
+   "commit_id": "1e364f713390008eada1daa451e7b42cd6647250",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2021-08-31 10:53:23-07:00",
+   "parent_commit": "6b5cbbad3a91d4f9fd5e808be3045ab982f59f92",
+   "metrics": [
+    {
+     "file_path": "src/test/java/io/airlift/compress/zstd/TestZstd.java",
+     "lines_added": 20,
+     "lines_deleted": 0,
+     "total_lines_changed": 20
+    }
+   ]
+  },
+  {
+   "commit_id": "24b4f18dcb8a70d273ba1d1cd4c0715f15909573",
+   "commit_author": "marius@volkhart.com",
+   "datetime": "2020-08-12 20:24:15-07:00",
+   "parent_commit": "c463f0ac1781d0cab1a94e2e5600224ace76645e",
+   "metrics": [
+    {
+     "file_path": "src/test/java/io/airlift/compress/lz4/TestLz4.java",
+     "lines_added": 5,
+     "lines_deleted": 4,
+     "total_lines_changed": 9
+    }
+   ]
+  },
+  {
+   "commit_id": "cabfa6593244b9d7fcb1765eb06df4a1d860bf51",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2020-06-16 09:47:40-07:00",
+   "parent_commit": "cfac9154191c39b2079fd1515d47c2d3c9d26558",
+   "metrics": [
+    {
+     "file_path": "src/test/java/io/airlift/compress/zstd/TestZstd.java",
+     "lines_added": 11,
+     "lines_deleted": 0,
+     "total_lines_changed": 11
+    }
+   ]
+  },
+  {
+   "commit_id": "8cac415cb8cb41a19daddf8fbf01ccd7aa1a49df",
+   "commit_author": "david@acz.org",
+   "datetime": "2019-10-14 10:56:54-07:00",
+   "parent_commit": "a10b5f92c811e93501102455527a52424d8801e1",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/ZstdFrameDecompressor.java",
+     "lines_added": 1,
+     "lines_deleted": 10,
+     "total_lines_changed": 11
+    }
+   ]
+  },
+  {
+   "commit_id": "fd53d209cb7c8de0bb3d6a89360817a72e0ec9d2",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2019-06-06 23:07:13-07:00",
+   "parent_commit": "b8ac5f5c6a3a5bc16ab908bc95fda6d8eda1d98f",
+   "metrics": [
+    {
+     "file_path": "src/test/java/io/airlift/compress/zstd/TestZstd.java",
+     "lines_added": 20,
+     "lines_deleted": 0,
+     "total_lines_changed": 20
+    }
+   ]
+  },
+  {
+   "commit_id": "83dced48682dc7bedfbbca836cec49e14d9a9bb3",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2019-06-04 16:22:18-07:00",
+   "parent_commit": "16b39bbe7f00aea540aab24d253f69d962df6608",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/Huffman.java",
+     "lines_added": 2,
+     "lines_deleted": 0,
+     "total_lines_changed": 2
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/zstd/TestZstd.java",
+     "lines_added": 20,
+     "lines_deleted": 0,
+     "total_lines_changed": 20
+    }
+   ]
+  },
+  {
+   "commit_id": "16b39bbe7f00aea540aab24d253f69d962df6608",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2019-06-04 16:22:18-07:00",
+   "parent_commit": "15a2f998490ca2189f0dc5be98cd630dc2113b80",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/Huffman.java",
+     "lines_added": 5,
+     "lines_deleted": 5,
+     "total_lines_changed": 10
+    }
+   ]
+  },
+  {
+   "commit_id": "b2c23f454ea63abf5af4f4083bea3cfe69ce60d5",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2019-06-04 16:22:18-07:00",
+   "parent_commit": "ffa8fc969c4ffcdb1715d7905a0d7cf62a5da665",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/ZstdFrameDecompressor.java",
+     "lines_added": 2,
+     "lines_deleted": 2,
+     "total_lines_changed": 4
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/zstd/TestZstd.java",
+     "lines_added": 2,
+     "lines_deleted": 3,
+     "total_lines_changed": 5
+    }
+   ]
+  },
+  {
+   "commit_id": "99d60436be497dae5d60240d3291298a46884634",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2019-06-04 16:22:18-07:00",
+   "parent_commit": "1dedc31248315558561d40c6ea7e379295de70f2",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/Huffman.java",
+     "lines_added": 2,
+     "lines_deleted": 2,
+     "total_lines_changed": 4
+    },
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/ZstdFrameDecompressor.java",
+     "lines_added": 52,
+     "lines_deleted": 75,
+     "total_lines_changed": 127
+    }
+   ]
+  },
+  {
+   "commit_id": "1dedc31248315558561d40c6ea7e379295de70f2",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2019-06-04 16:22:18-07:00",
+   "parent_commit": "774df9350bdaa620e08c3a7097b0c8fb681a31fa",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/Huffman.java",
+     "lines_added": 13,
+     "lines_deleted": 13,
+     "total_lines_changed": 26
+    },
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/ZstdFrameDecompressor.java",
+     "lines_added": 4,
+     "lines_deleted": 4,
+     "total_lines_changed": 8
+    }
+   ]
+  },
+  {
+   "commit_id": "e2d2cf72d3ce1b97b8f8040d498cc125519adc91",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2019-06-04 16:22:18-07:00",
+   "parent_commit": "715b262ed09f83a879e782eabeda83ea1b6cc436",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/Huffman.java",
+     "lines_added": 7,
+     "lines_deleted": 2,
+     "total_lines_changed": 9
+    }
+   ]
+  },
+  {
+   "commit_id": "715b262ed09f83a879e782eabeda83ea1b6cc436",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2019-06-04 16:22:18-07:00",
+   "parent_commit": "54df181a643a1475d17ebaf543b3b582281577ba",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/ZstdFrameDecompressor.java",
+     "lines_added": 3,
+     "lines_deleted": 3,
+     "total_lines_changed": 6
+    }
+   ]
+  },
+  {
+   "commit_id": "3debe2db8e8e7c324a6a6bb6b82c1a256005ffba",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2018-10-22 13:43:39-07:00",
+   "parent_commit": "f093ed08b58e7fee174de53cfb1c8a2c8ff6018a",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/ZstdFrameDecompressor.java",
+     "lines_added": 7,
+     "lines_deleted": 4,
+     "total_lines_changed": 11
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/zstd/TestZstd.java",
+     "lines_added": 11,
+     "lines_deleted": 0,
+     "total_lines_changed": 11
+    }
+   ]
+  },
+  {
+   "commit_id": "489500b6a3efe027719504f4ef8295c88cfafa73",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2018-09-10 22:50:50-07:00",
+   "parent_commit": "158b727635f359e7c6716bc74a72b271a1353297",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/lzo/LzoRawDecompressor.java",
+     "lines_added": 1,
+     "lines_deleted": 0,
+     "total_lines_changed": 1
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/lz4/TestLz4.java",
+     "lines_added": 1,
+     "lines_deleted": 1,
+     "total_lines_changed": 2
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/snappy/TestSnappy.java",
+     "lines_added": 1,
+     "lines_deleted": 1,
+     "total_lines_changed": 2
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/zstd/TestZstd.java",
+     "lines_added": 1,
+     "lines_deleted": 1,
+     "total_lines_changed": 2
+    }
+   ]
+  },
+  {
+   "commit_id": "f3d054f79be3bd08dd8cea5b6c09ec1e437cc1b1",
+   "commit_author": "hluo@twitter.com",
+   "datetime": "2018-09-08 16:50:04-07:00",
+   "parent_commit": "d12648501ed9696eabcb7ec9c03a0b3630a0f120",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/lzo/LzoRawDecompressor.java",
+     "lines_added": 33,
+     "lines_deleted": 46,
+     "total_lines_changed": 79
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/lzo/TestLzo.java",
+     "lines_added": 2,
+     "lines_deleted": 3,
+     "total_lines_changed": 5
+    }
+   ]
+  },
+  {
+   "commit_id": "fcf7ffa3b974105176e92256b300a53f6352c2b8",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2018-05-04 07:42:14-07:00",
+   "parent_commit": "135770323a9f97f36126df097dda4b3153cce9be",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/ZstdFrameDecompressor.java",
+     "lines_added": 12,
+     "lines_deleted": 6,
+     "total_lines_changed": 18
+    }
+   ]
+  },
+  {
+   "commit_id": "135770323a9f97f36126df097dda4b3153cce9be",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2018-05-04 07:42:14-07:00",
+   "parent_commit": "5a2464af5fbde8492eadb48b52b32e57609d2538",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/ZstdFrameDecompressor.java",
+     "lines_added": 9,
+     "lines_deleted": 1,
+     "total_lines_changed": 10
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/zstd/TestZstd.java",
+     "lines_added": 13,
+     "lines_deleted": 0,
+     "total_lines_changed": 13
+    }
+   ]
+  },
+  {
+   "commit_id": "5a2464af5fbde8492eadb48b52b32e57609d2538",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2018-05-04 07:42:14-07:00",
+   "parent_commit": "a07ecca9b532ae7b003e443a719564bddecccba0",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/ZstdFrameDecompressor.java",
+     "lines_added": 1,
+     "lines_deleted": 2,
+     "total_lines_changed": 3
+    }
+   ]
+  },
+  {
+   "commit_id": "a07ecca9b532ae7b003e443a719564bddecccba0",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2018-05-04 07:42:14-07:00",
+   "parent_commit": "f4392165ea4e8bd71e61f911b5866eda56079c0f",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/ZstdFrameDecompressor.java",
+     "lines_added": 3,
+     "lines_deleted": 1,
+     "total_lines_changed": 4
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/zstd/TestZstd.java",
+     "lines_added": 21,
+     "lines_deleted": 0,
+     "total_lines_changed": 21
+    }
+   ]
+  },
+  {
+   "commit_id": "21592057adadc0cd1b98baf9c356fa2e240fece3",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2018-04-25 17:48:01-07:00",
+   "parent_commit": "6179293a9047f04e5138431458b0af899c51fd3b",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/ZstdFrameDecompressor.java",
+     "lines_added": 10,
+     "lines_deleted": 7,
+     "total_lines_changed": 17
+    }
+   ]
+  },
+  {
+   "commit_id": "6179293a9047f04e5138431458b0af899c51fd3b",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2018-04-25 17:48:01-07:00",
+   "parent_commit": "aaf5fd350ddcbc9da3073a6aff9f2b09d3cfbb0f",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/ZstdFrameDecompressor.java",
+     "lines_added": 3,
+     "lines_deleted": 2,
+     "total_lines_changed": 5
+    }
+   ]
+  },
+  {
+   "commit_id": "aaf5fd350ddcbc9da3073a6aff9f2b09d3cfbb0f",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2018-04-25 17:48:01-07:00",
+   "parent_commit": "a14a4d064abb80f823173156f56bfaa8083af948",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/ZstdFrameDecompressor.java",
+     "lines_added": 46,
+     "lines_deleted": 44,
+     "total_lines_changed": 90
+    }
+   ]
+  },
+  {
+   "commit_id": "a14a4d064abb80f823173156f56bfaa8083af948",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2018-01-10 22:28:37-08:00",
+   "parent_commit": "99e891ea055e5647d78a81a4836cf64b5f452639",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/lz4/Lz4RawDecompressor.java",
+     "lines_added": 8,
+     "lines_deleted": 4,
+     "total_lines_changed": 12
+    }
+   ]
+  },
+  {
+   "commit_id": "99e891ea055e5647d78a81a4836cf64b5f452639",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2018-01-06 17:21:16-08:00",
+   "parent_commit": "b20666088b7553776bacbe7a3dfb38763ab26a88",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/lz4/Lz4RawDecompressor.java",
+     "lines_added": 5,
+     "lines_deleted": 3,
+     "total_lines_changed": 8
+    }
+   ]
+  },
+  {
+   "commit_id": "b20666088b7553776bacbe7a3dfb38763ab26a88",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2018-01-06 12:14:03-08:00",
+   "parent_commit": "ec93ba7f919611f3cc064b6702925a0755794e16",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/lz4/Lz4RawDecompressor.java",
+     "lines_added": 0,
+     "lines_deleted": 1,
+     "total_lines_changed": 1
+    }
+   ]
+  },
+  {
+   "commit_id": "32a1f53e60722f02435561e55e01edd9ca0de476",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2017-07-25 12:01:23-07:00",
+   "parent_commit": "e296d30992017cc88b5b908d0fd86bad18c027b2",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/ZstdFrameDecompressor.java",
+     "lines_added": 4,
+     "lines_deleted": 0,
+     "total_lines_changed": 4
+    }
+   ]
+  },
+  {
+   "commit_id": "6c2c4187766c1f8b820f6402cc23238b0160c7eb",
+   "commit_author": "dain@iq80.com",
+   "datetime": "2017-05-16 15:11:42-07:00",
+   "parent_commit": "9b0aa1942578d101ace8ca5bdf9d33044e7bd0cd",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/snappy/SnappyRawDecompressor.java",
+     "lines_added": 3,
+     "lines_deleted": 3,
+     "total_lines_changed": 6
+    }
+   ]
+  },
+  {
+   "commit_id": "e9e0de88fac2d3640a9021a7d9c9f41b009e0d93",
+   "commit_author": "mtraverso@gmail.com",
+   "datetime": "2017-04-18 09:26:40-07:00",
+   "parent_commit": "967dd015fbf0f57c3b9a2cd0c0fc7c47b074e490",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/Huffman.java",
+     "lines_added": 316,
+     "lines_deleted": 0,
+     "total_lines_changed": 316
+    },
+    {
+     "file_path": "src/main/java/io/airlift/compress/zstd/ZstdFrameDecompressor.java",
+     "lines_added": 966,
+     "lines_deleted": 0,
+     "total_lines_changed": 966
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/zstd/TestZstd.java",
+     "lines_added": 49,
+     "lines_deleted": 0,
+     "total_lines_changed": 49
+    }
+   ]
+  },
+  {
+   "commit_id": "20a17502ef7c66c8ec362cc5ab2ae0562e224a38",
+   "commit_author": "dain@iq80.com",
+   "datetime": "2016-03-05 13:26:54-08:00",
+   "parent_commit": "9cccff370b0fbddeb01a42336c523c80151d2021",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/lzo/LzoRawDecompressor.java",
+     "lines_added": 1,
+     "lines_deleted": 2,
+     "total_lines_changed": 3
+    },
+    {
+     "file_path": "src/main/java/io/airlift/compress/snappy/SnappyRawDecompressor.java",
+     "lines_added": 1,
+     "lines_deleted": 2,
+     "total_lines_changed": 3
+    }
+   ]
+  },
+  {
+   "commit_id": "5fbbabf1c788c88a8af39fa7d7a8ef460125bca9",
+   "commit_author": "dain@iq80.com",
+   "datetime": "2015-07-20 17:14:27-07:00",
+   "parent_commit": "0660d4c2b120f1272645e34e052d60a010e53491",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/lz4/Lz4RawDecompressor.java",
+     "lines_added": 7,
+     "lines_deleted": 5,
+     "total_lines_changed": 12
+    },
+    {
+     "file_path": "src/main/java/io/airlift/compress/lzo/LzoRawDecompressor.java",
+     "lines_added": 5,
+     "lines_deleted": 3,
+     "total_lines_changed": 8
+    },
+    {
+     "file_path": "src/main/java/io/airlift/compress/snappy/SnappyRawDecompressor.java",
+     "lines_added": 4,
+     "lines_deleted": 2,
+     "total_lines_changed": 6
+    }
+   ]
+  },
+  {
+   "commit_id": "0660d4c2b120f1272645e34e052d60a010e53491",
+   "commit_author": "dain@iq80.com",
+   "datetime": "2015-07-20 16:47:16-07:00",
+   "parent_commit": "90ac2c6b1bece834906df8be4a5c66c119ffd877",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/snappy/SnappyRawDecompressor.java",
+     "lines_added": 0,
+     "lines_deleted": 4,
+     "total_lines_changed": 4
+    }
+   ]
+  },
+  {
+   "commit_id": "9a416f3da3a1e55441970df0b05c27110c16caed",
+   "commit_author": "dain@iq80.com",
+   "datetime": "2015-07-20 15:45:32-07:00",
+   "parent_commit": "2e6b3e12238bea4e1bf9a0315c6473272ddcf32e",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/lzo/LzoRawDecompressor.java",
+     "lines_added": 19,
+     "lines_deleted": 7,
+     "total_lines_changed": 26
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/lzo/TestLzo.java",
+     "lines_added": 8,
+     "lines_deleted": 42,
+     "total_lines_changed": 50
+    }
+   ]
+  },
+  {
+   "commit_id": "62f588efb9104d12b8fd241963a52ea5f43c4e21",
+   "commit_author": "dain@iq80.com",
+   "datetime": "2015-07-20 12:04:09-07:00",
+   "parent_commit": "2055f47d38642e01bc996f2545af95d074b057d4",
+   "metrics": [
+    {
+     "file_path": "src/test/java/io/airlift/compress/lz4/TestLz4.java",
+     "lines_added": 14,
+     "lines_deleted": 6,
+     "total_lines_changed": 20
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/lzo/TestLzo.java",
+     "lines_added": 14,
+     "lines_deleted": 34,
+     "total_lines_changed": 48
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/snappy/TestSnappy.java",
+     "lines_added": 13,
+     "lines_deleted": 21,
+     "total_lines_changed": 34
+    }
+   ]
+  },
+  {
+   "commit_id": "1fc02f5fbc77b861a41bc92284f96f41f3d071b8",
+   "commit_author": "dain@iq80.com",
+   "datetime": "2015-07-18 17:46:44-07:00",
+   "parent_commit": "dd4560259dde7ccdb3bf6b441641f13ee2a4424e",
+   "metrics": [
+    {
+     "file_path": "src/test/java/io/airlift/compress/lzo/TestLzo.java",
+     "lines_added": 28,
+     "lines_deleted": 0,
+     "total_lines_changed": 28
+    }
+   ]
+  },
+  {
+   "commit_id": "dd4560259dde7ccdb3bf6b441641f13ee2a4424e",
+   "commit_author": "martint@fb.com",
+   "datetime": "2015-07-18 16:41:51-07:00",
+   "parent_commit": "618a2f71468c9d0380f12e09b83606d45b882f04",
+   "metrics": [
+    {
+     "file_path": "src/test/java/io/airlift/compress/lzo/TestLzo.java",
+     "lines_added": 2,
+     "lines_deleted": 1,
+     "total_lines_changed": 3
+    }
+   ]
+  },
+  {
+   "commit_id": "0ee4baafe3cf19febdd60a36427c8b7043a45af8",
+   "commit_author": "dain@iq80.com",
+   "datetime": "2015-07-17 17:22:28-07:00",
+   "parent_commit": "6c9758e7d431fe631aba18049fa722cea5e014a4",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/snappy/SnappyRawDecompressor.java",
+     "lines_added": 42,
+     "lines_deleted": 30,
+     "total_lines_changed": 72
+    }
+   ]
+  },
+  {
+   "commit_id": "a2a29419cf1a8b36e0f992283a15fd95e31d5958",
+   "commit_author": "dain@iq80.com",
+   "datetime": "2015-07-16 23:14:12-07:00",
+   "parent_commit": "75d9dd90d13ae1f70b88dd8ad97ad2d5eb435998",
+   "metrics": [
+    {
+     "file_path": "src/test/java/io/airlift/compress/lzo/TestLzo.java",
+     "lines_added": 1,
+     "lines_deleted": 1,
+     "total_lines_changed": 2
+    }
+   ]
+  },
+  {
+   "commit_id": "473dafae93eaee2638bc1389c3a34827139b1d17",
+   "commit_author": "martint@fb.com",
+   "datetime": "2015-07-16 17:20:51-07:00",
+   "parent_commit": "a236e5b9a838a45d132a8637d446bb45134f65e4",
+   "metrics": [
+    {
+     "file_path": "src/test/java/io/airlift/compress/snappy/TestSnappy.java",
+     "lines_added": 1,
+     "lines_deleted": 8,
+     "total_lines_changed": 9
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/snappy/TestSnappyLegacy.java",
+     "lines_added": 0,
+     "lines_deleted": 72,
+     "total_lines_changed": 72
+    }
+   ]
+  },
+  {
+   "commit_id": "2b94e0bee379a7c08bf581e5ac53f6fd8166f568",
+   "commit_author": "dain@iq80.com",
+   "datetime": "2015-07-16 17:06:32-07:00",
+   "parent_commit": "2518ced43c4a99c81e880bcd7b3307f32ebc603a",
+   "metrics": [
+    {
+     "file_path": "src/test/java/io/airlift/compress/snappy/TestSnappyLegacy.java",
+     "lines_added": 3,
+     "lines_deleted": 3,
+     "total_lines_changed": 6
+    }
+   ]
+  },
+  {
+   "commit_id": "2518ced43c4a99c81e880bcd7b3307f32ebc603a",
+   "commit_author": "dain@iq80.com",
+   "datetime": "2015-07-16 17:06:32-07:00",
+   "parent_commit": "1a743190bbc250da5eba4536c1583b219a1c4aa6",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/snappy/SnappyRawDecompressor.java",
+     "lines_added": 2,
+     "lines_deleted": 6,
+     "total_lines_changed": 8
+    }
+   ]
+  },
+  {
+   "commit_id": "b92d3984dfd0a224ba00ae2cf415b337f3aa8f0d",
+   "commit_author": "martint@fb.com",
+   "datetime": "2015-07-16 16:56:21-07:00",
+   "parent_commit": "39910326e4ada8e53f74ee848fe6d2103480260c",
+   "metrics": [
+    {
+     "file_path": "src/test/java/io/airlift/compress/lz4/TestLz4.java",
+     "lines_added": 7,
+     "lines_deleted": 0,
+     "total_lines_changed": 7
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/lzo/TestLzo.java",
+     "lines_added": 13,
+     "lines_deleted": 0,
+     "total_lines_changed": 13
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/snappy/TestSnappy.java",
+     "lines_added": 14,
+     "lines_deleted": 0,
+     "total_lines_changed": 14
+    }
+   ]
+  },
+  {
+   "commit_id": "39910326e4ada8e53f74ee848fe6d2103480260c",
+   "commit_author": "martint@fb.com",
+   "datetime": "2015-07-16 16:56:21-07:00",
+   "parent_commit": "03bccdb9a70104c73164420015e6e822d9feb31e",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/lz4/Lz4RawDecompressor.java",
+     "lines_added": 5,
+     "lines_deleted": 7,
+     "total_lines_changed": 12
+    }
+   ]
+  },
+  {
+   "commit_id": "424e78827acbd25cbd84d901575bc95cfb775e12",
+   "commit_author": "martint@fb.com",
+   "datetime": "2015-07-16 11:19:07-07:00",
+   "parent_commit": "7849abd81151e837699b2b8e1627ad2baa9fd6c0",
+   "metrics": [
+    {
+     "file_path": "src/test/java/io/airlift/compress/snappy/TestSnappyLegacy.java",
+     "lines_added": 0,
+     "lines_deleted": 38,
+     "total_lines_changed": 38
+    }
+   ]
+  },
+  {
+   "commit_id": "7849abd81151e837699b2b8e1627ad2baa9fd6c0",
+   "commit_author": "martint@fb.com",
+   "datetime": "2015-07-16 11:19:07-07:00",
+   "parent_commit": "6b23cc12c30dbd20605901d783e5e4090ba1dfa8",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/snappy/SnappyRawDecompressor.java",
+     "lines_added": 309,
+     "lines_deleted": 0,
+     "total_lines_changed": 309
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/snappy/TestSnappy.java",
+     "lines_added": 49,
+     "lines_deleted": 0,
+     "total_lines_changed": 49
+    }
+   ]
+  },
+  {
+   "commit_id": "6b23cc12c30dbd20605901d783e5e4090ba1dfa8",
+   "commit_author": "martint@fb.com",
+   "datetime": "2015-07-16 11:12:44-07:00",
+   "parent_commit": "5b6ad4d6db970c2ed7ce773a6a97f8c62d86a568",
+   "metrics": [
+    {
+     "file_path": "src/test/java/io/airlift/compress/snappy/TestSnappy.java",
+     "lines_added": 0,
+     "lines_deleted": 110,
+     "total_lines_changed": 110
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/snappy/TestSnappyLegacy.java",
+     "lines_added": 110,
+     "lines_deleted": 0,
+     "total_lines_changed": 110
+    }
+   ]
+  },
+  {
+   "commit_id": "5b6ad4d6db970c2ed7ce773a6a97f8c62d86a568",
+   "commit_author": "martint@fb.com",
+   "datetime": "2015-07-16 11:06:17-07:00",
+   "parent_commit": "0f6aeb04309200abde5450175eb562eb0d0f5efa",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/lz4/Lz4RawDecompressor.java",
+     "lines_added": 4,
+     "lines_deleted": 1,
+     "total_lines_changed": 5
+    }
+   ]
+  },
+  {
+   "commit_id": "0f6aeb04309200abde5450175eb562eb0d0f5efa",
+   "commit_author": "martint@fb.com",
+   "datetime": "2015-07-16 11:06:17-07:00",
+   "parent_commit": "b3c76d2f06ddfd1d277071a6eec91eda3ff27a92",
+   "metrics": [
+    {
+     "file_path": "src/test/java/io/airlift/compress/TestLz4.java",
+     "lines_added": 0,
+     "lines_deleted": 32,
+     "total_lines_changed": 32
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/lz4/TestLz4.java",
+     "lines_added": 33,
+     "lines_deleted": 0,
+     "total_lines_changed": 33
+    }
+   ]
+  },
+  {
+   "commit_id": "c4fd0244de210892d79638822043422983d000fc",
+   "commit_author": "dain@iq80.com",
+   "datetime": "2015-07-16 10:39:26-07:00",
+   "parent_commit": "e68ba5b1689ec7eb396369659bea74e912445ea7",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/lzo/LzoRawDecompressor.java",
+     "lines_added": 351,
+     "lines_deleted": 0,
+     "total_lines_changed": 351
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/lzo/TestLzo.java",
+     "lines_added": 66,
+     "lines_deleted": 0,
+     "total_lines_changed": 66
+    }
+   ]
+  },
+  {
+   "commit_id": "caf9a246448e60e75bb37c82df863fe5b912bcff",
+   "commit_author": "martint@fb.com",
+   "datetime": "2015-07-15 16:49:20-07:00",
+   "parent_commit": "8b8b23e385a8683d230d7d0c70b8ab4c9b716aca",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/lz4/Lz4RawDecompressor.java",
+     "lines_added": 1,
+     "lines_deleted": 1,
+     "total_lines_changed": 2
+    }
+   ]
+  },
+  {
+   "commit_id": "8b8b23e385a8683d230d7d0c70b8ab4c9b716aca",
+   "commit_author": "martint@fb.com",
+   "datetime": "2015-07-15 16:49:20-07:00",
+   "parent_commit": "ef33203d84baad7a874a1b4ac4a1daee204d0bb9",
+   "metrics": [
+    {
+     "file_path": "src/test/java/io/airlift/compress/TestLz4.java",
+     "lines_added": 32,
+     "lines_deleted": 0,
+     "total_lines_changed": 32
+    }
+   ]
+  },
+  {
+   "commit_id": "c832551ade1818ee2b766d4711fa3b4c4ca52317",
+   "commit_author": "martint@fb.com",
+   "datetime": "2015-07-15 15:32:07-07:00",
+   "parent_commit": "fc32a28911e260b457311b8768c8f47d6b87ef5c",
+   "metrics": [
+    {
+     "file_path": "src/main/java/io/airlift/compress/lz4/Lz4RawDecompressor.java",
+     "lines_added": 182,
+     "lines_deleted": 0,
+     "total_lines_changed": 182
+    }
+   ]
+  },
+  {
+   "commit_id": "2880e926651f2d4255ab0b11ce84f2b69203d248",
+   "commit_author": "dain@iq80.com",
+   "datetime": "2015-07-15 11:12:16-07:00",
+   "parent_commit": "5c0a8d566dbc0af0d2dba0d374c002739bb0b8e8",
+   "metrics": [
+    {
+     "file_path": "src/test/java/io/airlift/compress/SnappyTest.java",
+     "lines_added": 0,
+     "lines_deleted": 110,
+     "total_lines_changed": 110
+    },
+    {
+     "file_path": "src/test/java/io/airlift/compress/snappy/TestSnappy.java",
+     "lines_added": 110,
+     "lines_deleted": 0,
+     "total_lines_changed": 110
+    }
+   ]
+  },
+  {
+   "commit_id": "444a22af027e4682c74976adc8bf275e2537a6e7",
+   "commit_author": "dain@iq80.com",
+   "datetime": "2015-07-15 11:12:16-07:00",
+   "parent_commit": "52288b2be4ef4127782b6d634286bc7b24ef425b",
+   "metrics": [
+    {
+     "file_path": "src/test/java/io/airlift/compress/SnappyTest.java",
+     "lines_added": 34,
+     "lines_deleted": 104,
+     "total_lines_changed": 138
+    }
+   ]
+  },
+  {
+   "commit_id": "89d6bef290eaf11af6858d262ebd9e60d8a2eff9",
+   "commit_author": "martint@fb.com",
+   "datetime": "2012-07-24 19:54:11-07:00",
+   "parent_commit": "a8cd35577446e7068abcf9078c77965fd54e8782",
+   "metrics": [
+    {
+     "file_path": "src/test/java/io/airlift/compress/SnappyTest.java",
+     "lines_added": 1,
+     "lines_deleted": 1,
+     "total_lines_changed": 2
+    }
+   ]
+  },
+  {
+   "commit_id": "a8cd35577446e7068abcf9078c77965fd54e8782",
+   "commit_author": "martint@fb.com",
+   "datetime": "2012-07-24 19:49:17-07:00",
+   "parent_commit": "602f4d7d71237f6a599389575edf5367da6cea37",
+   "metrics": [
+    {
+     "file_path": "src/test/java/io/airlift/compress/SnappyTest.java",
+     "lines_added": 180,
+     "lines_deleted": 0,
+     "total_lines_changed": 180
+    },
+    {
+     "file_path": "src/test/java/org/iq80/snappy/SnappyTest.java",
+     "lines_added": 0,
+     "lines_deleted": 180,
+     "total_lines_changed": 180
+    }
+   ]
+  },
+  {
+   "commit_id": "fb924246a350a90e4016c442e3d82552a9ca85e1",
+   "commit_author": "algirdas.r@jbees.com",
+   "datetime": "2012-06-07 23:49:57+03:00",
+   "parent_commit": "ecda4a0473084746596f1f00a3b52d496d02c462",
+   "metrics": [
+    {
+     "file_path": "src/test/java/org/iq80/snappy/SnappyTest.java",
+     "lines_added": 1,
+     "lines_deleted": 2,
+     "total_lines_changed": 3
+    }
+   ]
+  },
+  {
+   "commit_id": "e1fd96830b86df6c2e2874628373d9a644498ced",
+   "commit_author": "dain@iq80.com",
+   "datetime": "2011-09-29 13:32:28-07:00",
+   "parent_commit": "21177c0d3246cdb9b82387c7b67f03753ffffce8",
+   "metrics": [
+    {
+     "file_path": "src/test/java/org/iq80/snappy/SnappyTest.java",
+     "lines_added": 17,
+     "lines_deleted": 0,
+     "total_lines_changed": 17
+    }
+   ]
+  },
+  {
+   "commit_id": "c7fd16ae9f36653efa1fb56fa8ba8d6b1ac68fdd",
+   "commit_author": "david@acz.org",
+   "datetime": "2011-09-21 17:07:08-07:00",
+   "parent_commit": "b4fe1b3c13ded98e7d7e232b76bb02be6530a44f",
+   "metrics": [
+    {
+     "file_path": "src/test/java/org/iq80/snappy/SnappyTest.java",
+     "lines_added": 8,
+     "lines_deleted": 5,
+     "total_lines_changed": 13
+    }
+   ]
+  },
+  {
+   "commit_id": "dfde2e23132e9675f13ac63fd10afb37ad65e886",
+   "commit_author": "dain@iq80.com",
+   "datetime": "2011-09-14 22:40:24-07:00",
+   "parent_commit": "parent not available",
+   "metrics": [
+    {
+     "file_path": "src/test/java/org/iq80/snappy/SnappyTest.java",
+     "lines_added": 161,
+     "lines_deleted": 0,
+     "total_lines_changed": 161
+    }
+   ]
+  }
+ ]
+}

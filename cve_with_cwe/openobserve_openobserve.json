@@ -1,0 +1,84 @@
+[
+{
+"cve_id": "CVE-2024-41809",
+"patch_date": [
+"2023-05-16 11:30:00+05:30",
+"2024-04-05 12:20:36+05:30"
+],
+"patch_files": [
+"web/src/aws-exports.ts",
+"web/src/views/User.vue",
+"web/src/plugins/traces/Index.vue",
+"web/src/enterprise/components/billings/plans.vue",
+"web/src/components/ingestion/recommended/FrontendRumConfig.vue",
+"web/src/utils/zincutils.ts",
+"web/src/locales/languages/en.json",
+"web/src/enterprise/components/organizations/Organization.vue",
+"web/src/plugins/logs/Index.vue",
+"web/src/layouts/MainLayout.vue",
+"web/src/views/Functions.vue",
+"web/src/views/LogStream.vue",
+"web/src/composables/shared/router.ts",
+"web/src/components/PendingSubscriptionWarning.vue",
+"web/src/views/Ingestion.vue",
+"web/src/views/MemberSubscription.vue",
+"web/src/enterprise/components/organizations/AddUpdateOrganization.vue",
+"web/src/enterprise/composables/router.ts",
+"web/src/services/organizations.ts",
+"web/src/views/AppAlerts.vue",
+"web/src/plugins/metrics/Index.vue",
+"web/src/composables/useLogs.ts"
+],
+"earliest_patch_date": "2023-05-16 11:30:00+05:30",
+"earliest_vuln_date": "2023-02-02 09:03:11+05:30",
+"vuln_files": [
+"web/src/views/MemberSubscription.vue",
+"web/src/enterprise/components/organizations/AddUpdateOrganization.vue",
+"web/src/layouts/MainLayout.vue",
+"web/src/views/Functions.vue",
+"web/src/views/LogStream.vue",
+"web/src/enterprise/components/billings/plans.vue",
+"web/src/views/AppAlerts.vue",
+"web/src/views/Ingestion.vue",
+"web/src/services/organizations.ts",
+"web/src/locales/languages/en.json",
+"web/src/enterprise/components/organizations/Organization.vue",
+"web/src/components/ingestion/recommended/FrontendRumConfig.vue",
+"web/src/composables/useLogs.ts",
+"web/src/plugins/logs/Index.vue",
+"web/src/plugins/metrics/Index.vue",
+"web/src/plugins/traces/Index.vue"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

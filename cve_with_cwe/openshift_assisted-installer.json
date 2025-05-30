@@ -1,0 +1,52 @@
+[
+{
+"cve_id": "CVE-2021-3684",
+"patch_date": [
+"2021-08-09 09:42:34+00:00",
+"2021-08-05 09:40:56+00:00"
+],
+"patch_files": [
+"src/assisted_installer_controller/assisted_installer_controller.go",
+"src/ops/ops_test.go",
+"src/ops/ops.go"
+],
+"earliest_patch_date": "2021-08-05 09:40:56+00:00",
+"earliest_vuln_date": "2020-05-06 20:59:48+03:00",
+"vuln_files": [
+"src/ops/ops_test.go",
+"src/ops/ops.go",
+"src/assisted_installer_controller/assisted_installer_controller.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-532"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

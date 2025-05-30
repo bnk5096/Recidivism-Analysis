@@ -1,0 +1,229 @@
+[
+{
+"cve_id": "CVE-2019-16771",
+"patch_date": [
+"2019-12-05 18:35:47+09:00"
+],
+"patch_files": [
+"core/src/test/java/com/linecorp/armeria/common/HttpHeaderNamesTest.java",
+"core/src/main/java/com/linecorp/armeria/common/HttpHeaderNames.java",
+"core/src/test/java/com/linecorp/armeria/server/HttpServerHeaderValidationTest.java",
+"core/src/test/java/com/linecorp/armeria/common/HttpHeadersBaseTest.java",
+"core/src/main/java/com/linecorp/armeria/internal/ArmeriaHttpUtil.java",
+"core/src/main/java/com/linecorp/armeria/common/HttpHeadersBase.java"
+],
+"earliest_patch_date": "2019-12-05 18:35:47+09:00",
+"earliest_vuln_date": "2019-01-07 19:02:28+09:00",
+"vuln_files": [
+"core/src/test/java/com/linecorp/armeria/common/HttpHeaderNamesTest.java",
+"core/src/main/java/com/linecorp/armeria/common/HttpHeaderNames.java",
+"core/src/test/java/com/linecorp/armeria/common/HttpHeadersBaseTest.java",
+"core/src/main/java/com/linecorp/armeria/internal/ArmeriaHttpUtil.java",
+"core/src/main/java/com/linecorp/armeria/common/HttpHeadersBase.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 2.5
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-74"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-43795",
+"patch_date": [
+"2021-12-02 19:54:13+09:00"
+],
+"patch_files": [
+"core/src/test/java/com/linecorp/armeria/internal/common/PathAndQueryTest.java",
+"core/src/test/java/com/linecorp/armeria/internal/common/ArmeriaHttpUtilTest.java",
+"core/src/test/java/com/linecorp/armeria/server/RoutingResultTest.java",
+"core/src/main/java/com/linecorp/armeria/server/RoutingResultBuilder.java",
+"core/src/main/java/com/linecorp/armeria/internal/common/PathAndQuery.java",
+"core/src/main/java/com/linecorp/armeria/internal/common/ArmeriaHttpUtil.java"
+],
+"earliest_patch_date": "2021-12-02 19:54:13+09:00",
+"earliest_vuln_date": "2018-08-10 18:05:09+09:00",
+"vuln_files": [
+"core/src/test/java/com/linecorp/armeria/internal/common/PathAndQueryTest.java",
+"core/src/test/java/com/linecorp/armeria/internal/common/ArmeriaHttpUtilTest.java",
+"core/src/test/java/com/linecorp/armeria/server/RoutingResultTest.java",
+"core/src/main/java/com/linecorp/armeria/server/RoutingResultBuilder.java",
+"core/src/main/java/com/linecorp/armeria/internal/common/PathAndQuery.java",
+"core/src/main/java/com/linecorp/armeria/internal/common/ArmeriaHttpUtil.java"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-38493",
+"patch_date": [
+"2023-07-25 20:33:17+09:00"
+],
+"patch_files": [
+"it/spring/boot3-jetty11/src/main/resources/application.properties",
+"spring/boot3-webflux-autoconfigure/src/test/java/com/linecorp/armeria/spring/web/reactive/MatrixVariablesTest.java",
+"jetty/jetty9/src/main/java/com/linecorp/armeria/server/jetty/JettyService.java",
+"jetty/jetty11/src/main/java/com/linecorp/armeria/server/jetty/JettyService.java",
+"core/src/main/java/com/linecorp/armeria/server/RoutingContext.java",
+"core/src/main/java/com/linecorp/armeria/server/ParameterizedPathMapping.java",
+"it/spring/boot3-jetty11/src/main/resources/config/application.yml",
+"it/spring/boot3-jetty11/src/main/java/com/linecorp/armeria/spring/jetty/ErrorHandlingController.java",
+"core/src/main/java/com/linecorp/armeria/common/SystemPropertyFlagsProvider.java",
+"it/spring/boot3-tomcat10/src/test/java/com/linecorp/armeria/spring/tomcat/MatrixVariablesTest.java",
+"core/src/test/java/com/linecorp/armeria/internal/common/DefaultRequestTargetTest.java",
+"core/src/main/java/com/linecorp/armeria/internal/common/DefaultRequestTarget.java",
+"tomcat10/src/main/java/com/linecorp/armeria/server/tomcat/TomcatService.java",
+"settings.gradle",
+"it/spring/boot3-jetty11/src/test/java/com/linecorp/armeria/spring/jetty/SpringJettyApplicationItTest.java",
+"core/src/main/java/com/linecorp/armeria/common/DefaultFlagsProvider.java",
+"core/src/main/java/com/linecorp/armeria/common/Flags.java",
+"it/spring/boot3-jetty11/src/test/java/com/linecorp/armeria/spring/jetty/ActuatorAutoConfigurationHealthGroupTest.java",
+"it/spring/boot3-tomcat10/src/test/resources/application-testbed.yml",
+"it/spring/boot3-jetty11/src/test/java/com/linecorp/armeria/spring/jetty/ErrorHandlingTest.java",
+"it/spring/boot3-tomcat10/src/main/java/com/linecorp/armeria/spring/tomcat/MatrixVariablesController.java",
+"it/spring/boot3-jetty11/build.gradle",
+"it/spring/boot3-jetty11/src/main/java/com/linecorp/armeria/spring/jetty/MatrixVariablesController.java",
+"it/spring/boot3-jetty11/src/test/resources/application-healthGroupTest.yml",
+"it/spring/boot3-jetty11/src/main/java/com/linecorp/armeria/spring/jetty/GlobalExceptionHandler.java",
+"it/spring/boot3-jetty11/src/main/java/com/linecorp/armeria/spring/jetty/SpringJettyApplication.java",
+"it/spring/boot3-tomcat10/src/test/java/com/linecorp/armeria/spring/tomcat/ErrorHandlingTest.java",
+"core/src/main/java/com/linecorp/armeria/common/AbstractRequestContextBuilder.java",
+"it/spring/boot3-tomcat10/src/test/java/com/linecorp/armeria/spring/tomcat/ActuatorAutoConfigurationHealthGroupTest.java",
+"it/spring/boot3-jetty11/src/main/java/com/linecorp/armeria/spring/jetty/package-info.java",
+"core/src/main/java/com/linecorp/armeria/server/ExactPathMapping.java",
+"core/src/main/java/com/linecorp/armeria/common/RequestTarget.java",
+"spring/boot3-webflux-autoconfigure/build.gradle",
+"it/spring/boot3-jetty11/src/main/java/com/linecorp/armeria/spring/jetty/GlobalBaseException.java",
+"it/spring/boot3-jetty11/src/test/resources/application-testbed.yml",
+"core/src/main/java/com/linecorp/armeria/internal/common/util/MappedPathUtil.java",
+"core/src/main/java/com/linecorp/armeria/server/PrefixPathMapping.java",
+"it/spring/boot3-jetty11/src/main/java/com/linecorp/armeria/spring/jetty/Greeting.java",
+"it/spring/boot3-jetty11/src/test/java/com/linecorp/armeria/spring/jetty/MatrixVariablesTest.java",
+"core/src/test/java/com/linecorp/armeria/server/RouteTest.java",
+"core/src/main/java/com/linecorp/armeria/common/FlagsProvider.java",
+"spring/boot3-webflux-autoconfigure/src/main/java/com/linecorp/armeria/spring/web/reactive/ArmeriaServerHttpRequest.java",
+"core/src/test/java/com/linecorp/armeria/server/MatrixVariablesTest.java",
+"it/spring/boot3-jetty11/src/main/java/com/linecorp/armeria/spring/jetty/GreetingController.java"
+],
+"earliest_patch_date": "2023-07-25 20:33:17+09:00",
+"earliest_vuln_date": "2016-08-01 12:30:21+09:00",
+"vuln_files": [
+"it/spring/boot3-tomcat10/src/test/java/com/linecorp/armeria/spring/tomcat/ErrorHandlingTest.java",
+"spring/boot3-webflux-autoconfigure/src/main/java/com/linecorp/armeria/spring/web/reactive/ArmeriaServerHttpRequest.java",
+"core/src/main/java/com/linecorp/armeria/common/AbstractRequestContextBuilder.java",
+"it/spring/boot3-tomcat10/src/test/java/com/linecorp/armeria/spring/tomcat/ActuatorAutoConfigurationHealthGroupTest.java",
+"jetty/jetty11/src/main/java/com/linecorp/armeria/server/jetty/JettyService.java",
+"core/src/main/java/com/linecorp/armeria/common/RequestTarget.java",
+"core/src/main/java/com/linecorp/armeria/internal/common/DefaultRequestTarget.java",
+"core/src/test/java/com/linecorp/armeria/internal/common/DefaultRequestTargetTest.java",
+"tomcat10/src/main/java/com/linecorp/armeria/server/tomcat/TomcatService.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

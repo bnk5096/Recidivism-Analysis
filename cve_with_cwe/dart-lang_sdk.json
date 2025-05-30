@@ -1,0 +1,339 @@
+[
+{
+"cve_id": "CVE-2021-22540",
+"patch_date": [
+"2021-04-13 23:29:08+00:00"
+],
+"patch_files": [
+"tests/lib_2/html/node_validator_important_if_you_suppress_make_the_bug_critical_test.dart",
+"tools/dom/src/Validators.dart",
+"sdk/lib/html/dart2js/html_dart2js.dart",
+"tests/lib/html/node_validator_important_if_you_suppress_make_the_bug_critical_test.dart"
+],
+"earliest_patch_date": "2021-04-13 23:29:08+00:00",
+"earliest_vuln_date": "2015-04-09 19:47:34+00:00",
+"vuln_files": [
+"tools/dom/src/Validators.dart",
+"sdk/lib/html/dart2js/html_dart2js.dart"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-22568",
+"patch_date": [
+"2021-09-14 16:05:00+00:00"
+],
+"patch_files": [
+"CHANGELOG.md",
+"DEPS"
+],
+"earliest_patch_date": "2021-09-14 16:05:00+00:00",
+"earliest_vuln_date": "2021-09-13 11:02:19+00:00",
+"vuln_files": [
+"CHANGELOG.md",
+"DEPS"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:H/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "HIGH",
+"availabilityImpact": "LOW",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.3
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 6.8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-668"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-22567",
+"patch_date": [
+"2021-11-17 11:39:23+01:00"
+],
+"patch_files": [
+"pkg/compiler/test/rti/rti_need_test_helper.dart",
+"runtime/vm/isolate.cc",
+"pkg/front_end/testcases/extensions/extension_methods.dart",
+"tests/language/const/instantiated_function_constant_error_test.dart",
+"pkg/compiler/test/rti/rti_emission_test_helper.dart",
+"pkg/front_end/testcases/extensions/use_this.dart",
+"tests/language/const/constant_type_variable_test.dart",
+"tests/language/generic_methods/explicit_instantiated_tearoff_test.dart",
+"pkg/analyzer/test/src/diagnostics/test_all.dart",
+"CHANGELOG.md",
+"pkg/dev_compiler/lib/src/kernel/compiler.dart",
+"pkg/analyzer/messages.yaml",
+"tests/language/async_star/regression_47610_test.dart",
+"tests/language/typedef/aliased_constructor_tear_off_test.dart",
+"tests/language/nonfunction_type_aliases/nnbd_syntax_test.dart",
+"tests/language_2/async_star/regression_47610_test.dart",
+"runtime/tests/vm/dart_2/isolates/send_object_to_spawn_uri_isolate_test.dart",
+"tests/lib/mirrors/method_mirror_extension_test.dart",
+"pkg/front_end/messages.yaml",
+"tests/language/constructor/tear_off_test.dart",
+"tests/language/typedef/aliased_type_literal_instantiation_test.dart",
+"pkg/analyzer/lib/error/error.dart",
+"pkg/front_end/testcases/constructor_tearoffs/folder.options",
+"pkg/front_end/lib/src/fasta/source/stack_listener_impl.dart",
+"tests/language/constructor/explicit_instantiation_syntax_test.dart",
+"runtime/vm/experimental_features.cc",
+"tests/language/constructor/unnamed_new_test.dart",
+"pkg/compiler/lib/src/js/rewrite_async.dart",
+"tests/language/explicit_type_instantiation_parsing_test.dart",
+"tests/language/nonfunction_type_aliases/basic_syntax_test.dart",
+"tools/VERSION",
+"tests/language/nnbd/flow_analysis/local_boolean_implicitly_typed_new_test.dart",
+"pkg/compiler/test/sourcemaps/stacktrace_test.dart",
+"tests/language/mixin/regress_47645_test.dart",
+"runtime/vm/compiler/frontend/kernel_binary_flowgraph.cc",
+"tests/language/const/constant_type_variable_error_test.dart",
+"runtime/tests/vm/vm.status",
+"tests/language/const/instantiated_function_constant_test.dart",
+"tests/language/type_object/explicit_instantiated_type_literal_error_test.dart",
+"pkg/_fe_analyzer_shared/lib/src/messages/codes_generated.dart",
+"pkg/analyzer/test/verify_diagnostics_test.dart",
+"runtime/tests/vm/dart/isolates/send_object_to_spawn_uri_isolate_test.dart",
+"pkg/front_end/lib/src/api_prototype/experimental_flags_generated.dart",
+"runtime/lib/isolate.cc",
+"pkg/analyzer/test/src/diagnostics/text_direction_code_point_test.dart",
+"pkg/analyzer/lib/src/dart/error/hint_codes.g.dart",
+"tests/language/regress/regress47566_test.dart",
+"tests/language_2/mixin/regress_47645_test.dart",
+"pkg/analyzer/lib/src/dart/micro/library_analyzer.dart",
+"pkg/front_end/testcases/constructor_tearoffs/lowering/folder.options",
+"pkg/analyzer/tool/diagnostics/diagnostics.md",
+"pkg/compiler/test/async_await/async_await_js_transform_test.dart",
+"runtime/vm/isolate.h",
+"pkg/analyzer/lib/src/error/unicode_text_verifier.dart",
+"runtime/observatory/tests/service/constructor_tear_off_test.dart",
+"tests/language/type_object/explicit_instantiated_type_literal_test.dart",
+"tests/language/vm/regress_flutter_42845_test.dart",
+"tools/experimental_features.yaml",
+"tests/language/constructor/unnamed_new_error_test.dart",
+"pkg/analyzer/lib/src/dart/analysis/library_analyzer.dart"
+],
+"earliest_patch_date": "2021-11-17 11:39:23+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 3.5,
+"baseSeverity": "LOW"
+},
+"exploitabilityScore": 2.1,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"CHANGELOG.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-0451",
+"patch_date": [
+"2022-01-27 20:49:42+00:00"
+],
+"patch_files": [
+"tests/standalone_2/io/http_redirect_test.dart",
+"CHANGELOG.md",
+"sdk/lib/_http/http.dart",
+"sdk/lib/_http/http_impl.dart",
+"tests/standalone/io/http_redirect_test.dart"
+],
+"earliest_patch_date": "2022-01-27 20:49:42+00:00",
+"earliest_vuln_date": "2013-02-21 11:58:11+00:00",
+"vuln_files": [
+"sdk/lib/_http/http_impl.dart",
+"tests/standalone/io/http_redirect_test.dart",
+"tests/standalone_2/io/http_redirect_test.dart"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-863"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"CHANGELOG.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,2041 @@
+[
+{
+"cve_id": "CVE-2018-7634",
+"patch_date": [
+"2018-03-01 14:40:05+01:00"
+],
+"patch_files": [
+"src/templates/user/change-email-confirm.mustache",
+"src/www/project/admin/editgenericmember.php",
+"src/common/event/Event.class.php",
+"src/www/account/change_email.php",
+"src/templates/user/change-email-complete.mustache",
+"site-content/en_US/account/account.tab",
+"site-content/fr_FR/LC_MESSAGES/tuleap-core.po",
+"src/common/system_event/SystemEventManager.class.php",
+"src/common/dao/UserDao.class.php",
+"src/common/autoload.php",
+"site-content/tuleap-core.pot",
+"src/common/user/Account/ChangePasswordController.php",
+"src/common/user/Account/ChangePasswordPresenter.php",
+"src/templates/user/change-email.mustache",
+"src/common/user/UserManager.class.php",
+"src/www/account/change_email-complete.php",
+"src/www/account/change_email-confirm.php",
+"site-content/fr_FR/account/account.tab"
+],
+"earliest_patch_date": "2018-03-01 14:40:05+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-352"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-41148",
+"patch_date": [
+"2020-06-26 15:53:36+02:00"
+],
+"patch_files": [
+"plugins/hudson/include/HudsonJobWidget.class.php"
+],
+"earliest_patch_date": "2020-06-26 15:53:36+02:00",
+"earliest_vuln_date": "2009-01-08 13:59:14+00:00",
+"vuln_files": [
+"plugins/hudson/include/HudsonJobWidget.class.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-89"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-41147",
+"patch_date": [
+"2020-07-20 10:20:17+02:00"
+],
+"patch_files": [
+"plugins/cardwall/include/OnTop/ColumnMappingFieldValueDao.class.php"
+],
+"earliest_patch_date": "2020-07-20 10:20:17+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-89"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-89"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-41155",
+"patch_date": [
+"2020-08-12 12:57:32+02:00"
+],
+"patch_files": [
+"src/www/cvs/commit_utils.php",
+"src/www/cvs/browse_commit.php"
+],
+"earliest_patch_date": "2020-08-12 12:57:32+02:00",
+"earliest_vuln_date": "2003-05-20 05:45:07+00:00",
+"vuln_files": [
+"src/www/cvs/commit_utils.php",
+"src/www/cvs/browse_commit.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-89"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-89"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-41154",
+"patch_date": [
+"2020-08-12 13:01:20+02:00"
+],
+"patch_files": [
+"src/www/svn/browse_revision.php",
+"src/common/Widget/Widget_ProjectLatestSvnCommits.class.php",
+"src/www/svn/svn_utils.php",
+"src/common/svn/SVN_LogFactory.class.php",
+"tests/psalm/tuleap-baseline.xml",
+"src/common/Widget/Widget_MyLatestSvnCommits.class.php"
+],
+"earliest_patch_date": "2020-08-12 13:01:20+02:00",
+"earliest_vuln_date": "2004-05-05 08:48:17+00:00",
+"vuln_files": [
+"src/www/svn/browse_revision.php",
+"src/common/Widget/Widget_ProjectLatestSvnCommits.class.php",
+"src/www/svn/svn_utils.php",
+"src/common/svn/SVN_LogFactory.class.php",
+"tests/psalm/tuleap-baseline.xml",
+"src/common/Widget/Widget_MyLatestSvnCommits.class.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-89"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-89"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-41142",
+"patch_date": [
+"2021-07-26 13:46:58+02:00"
+],
+"patch_files": [
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_File.php",
+"plugins/tracker/include/Tracker/Artifact/Tracker_Artifact_ChangesetValue_File.class.php"
+],
+"earliest_patch_date": "2021-07-26 13:46:58+02:00",
+"earliest_vuln_date": "2011-11-30 13:05:52+00:00",
+"vuln_files": [
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_File.php",
+"plugins/tracker/include/Tracker/Artifact/Tracker_Artifact_ChangesetValue_File.class.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-41276",
+"patch_date": [
+"2021-11-17 16:46:33+01:00"
+],
+"patch_files": [
+"plugins/ldap/include/LDAP_DirectorySynchronization.class.php",
+"src/common/DB/Compat/Legacy2018/LegacyDataAccessInterface.php"
+],
+"earliest_patch_date": "2021-11-17 16:46:33+01:00",
+"earliest_vuln_date": "2011-01-26 15:21:58+00:00",
+"vuln_files": [
+"plugins/ldap/include/LDAP_DirectorySynchronization.class.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 6.8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-74"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-43782",
+"patch_date": [
+"2021-11-23 15:14:54+01:00"
+],
+"patch_files": [
+"src/common/DB/Compat/Legacy2018/CompatPDODataAccess.php",
+"plugins/ldap/include/LDAP_UserManager.class.php",
+"src/common/DB/Compat/Legacy2018/LegacyDataAccessInterface.php",
+"plugins/ldap/include/LDAP_ProjectGroupDao.class.php"
+],
+"earliest_patch_date": "2021-11-23 15:14:54+01:00",
+"earliest_vuln_date": "2014-12-04 14:55:18+00:00",
+"vuln_files": [
+"plugins/ldap/include/LDAP_UserManager.class.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 6.8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-74"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-74"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/common/DB/Compat/Legacy2018/LegacyDataAccessInterface.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-43806",
+"patch_date": [
+"2021-12-07 16:05:44+01:00"
+],
+"patch_files": [
+"src/www/cvs/commit_utils.php"
+],
+"earliest_patch_date": "2021-12-07 16:05:44+01:00",
+"earliest_vuln_date": "2007-10-02 08:39:08+00:00",
+"vuln_files": [
+"src/www/cvs/commit_utils.php"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/www/cvs/commit_utils.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-24896",
+"patch_date": [
+"2022-04-27 17:27:14+02:00"
+],
+"patch_files": [
+"plugins/tracker/include/Tracker/Widget/Tracker_Widget_Renderer.class.php",
+"plugins/graphontrackersv5/include/data-access/GraphOnTrackersV5_ChartFactory.class.php"
+],
+"earliest_patch_date": "2022-04-27 17:27:14+02:00",
+"earliest_vuln_date": "2011-08-31 08:40:48+00:00",
+"vuln_files": [
+"plugins/tracker/include/Tracker/Widget/Tracker_Widget_Renderer.class.php",
+"plugins/graphontrackersv5/include/data-access/GraphOnTrackersV5_ChartFactory.class.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-31032",
+"patch_date": [
+"2022-06-02 11:14:01+02:00",
+"2022-06-06 14:20:26+02:00"
+],
+"patch_files": [
+"tests/unit/common/Project/Registration/Template/TemplateFromProjectForCreationTest.php",
+"tests/rest/bin/setup.sh",
+"tests/rest/_fixtures/16-public-template/user_map.csv",
+"tests/unit/common/Project/Registration/Template/TemplateFactoryTest.php",
+"tests/rest/_fixtures/16-public-template/users.xml",
+"tests/rest/_fixtures/17-private-template/user_map.csv",
+"tests/rest/lib/TestDataBuilder.php",
+"site-content/fr_FR/LC_MESSAGES/tuleap-core.po",
+"src/common/Project/Registration/Template/TemplateFactory.php",
+"src/common/Project/REST/v1/ProjectCreationDataPOSTProjectBuilder.php",
+"src/common/Project/Registration/Template/ProjectTemplateNotActiveException.php",
+"tests/rest/_fixtures/16-public-template/project.xml",
+"tests/unit/common/Project/REST/v1/ProjectCreationDataPOSTProjectBuilderTest.php",
+"tests/rest/_fixtures/17-private-template/project.xml",
+"tests/unit/common/Project/REST/v1/RestProjectCreatorTest.php",
+"tests/rest/tests/ProjectTest.php",
+"src/common/Project/REST/v1/ProjectResource.class.php",
+"src/common/Project/Registration/Template/TemplateFromProjectForCreation.php",
+"site-content/pt_BR/LC_MESSAGES/tuleap-core.po",
+"tests/rest/lib/RestBase.php",
+"plugins/program_management/tests/rest/v1/ProjectResourceTest.php",
+"src/common/Project/Registration/Template/InsufficientPermissionToUseCompanyTemplateException.php",
+"tests/rest/_fixtures/17-private-template/users.xml",
+"tests/lib/TestDataBuilder.php",
+"tests/rest/tests/ReadOnlyAdministrator/ProjectTest.php",
+"tests/rest/bin/init_data.php"
+],
+"earliest_patch_date": "2022-06-02 11:14:01+02:00",
+"earliest_vuln_date": "2014-03-20 09:27:17+01:00",
+"vuln_files": [
+"site-content/pt_BR/LC_MESSAGES/tuleap-core.po",
+"tests/rest/lib/RestBase.php",
+"tests/rest/tests/ReadOnlyAdministrator/ProjectTest.php",
+"plugins/program_management/tests/rest/v1/ProjectResourceTest.php",
+"tests/unit/common/Project/REST/v1/ProjectCreationDataPOSTProjectBuilderTest.php",
+"site-content/fr_FR/LC_MESSAGES/tuleap-core.po",
+"src/common/Project/Registration/Template/TemplateFactory.php",
+"tests/unit/common/Project/REST/v1/RestProjectCreatorTest.php",
+"src/common/Project/REST/v1/ProjectCreationDataPOSTProjectBuilder.php",
+"tests/rest/tests/ProjectTest.php",
+"src/common/Project/Registration/Template/ProjectTemplateNotActiveException.php",
+"src/common/Project/REST/v1/ProjectResource.class.php",
+"tests/unit/common/Project/Registration/Template/TemplateFromProjectForCreationTest.php",
+"src/common/Project/Registration/Template/TemplateFromProjectForCreation.php",
+"tests/unit/common/Project/Registration/Template/TemplateFactoryTest.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"site-content/fr_FR/LC_MESSAGES/tuleap-core.po"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-31058",
+"patch_date": [
+"2022-06-09 17:52:00+02:00"
+],
+"patch_files": [
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_Numeric.php",
+"plugins/agiledashboard/include/AgileDashboard/FormElement/Burnup.php",
+"plugins/tracker/include/Tracker/Report/Tracker_Report_Renderer_Table.class.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_ArtifactId.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_List_Bind.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_PermissionsOnArtifact.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_LastUpdateDate.php",
+"plugins/tracker_encryption/include/Tracker_FormElement_Field_Encrypted.class.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_SubmittedBy.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_List_Bind_Null.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_List_Bind_Ugroups.php",
+"plugins/testmanagement/include/TestManagement/Step/Execution/Field/StepExecution.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_Date.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_File.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_List_Bind_Users.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_List.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_ArtifactLink.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_List_Bind_Static.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_Alphanum.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_Burndown.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_Text.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_PerTrackerArtifactIdclass.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_LastModifiedBy.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_SubmittedOn.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_Priority.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_Computed.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_CrossReferences.php"
+],
+"earliest_patch_date": "2022-06-09 17:52:00+02:00",
+"earliest_vuln_date": "2011-08-02 14:27:36+00:00",
+"vuln_files": [
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_Numeric.php",
+"plugins/agiledashboard/include/AgileDashboard/FormElement/Burnup.php",
+"plugins/tracker/include/Tracker/Report/Tracker_Report_Renderer_Table.class.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_ArtifactId.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_List_Bind.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_PermissionsOnArtifact.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_Priority.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_LastUpdateDate.php",
+"plugins/tracker_encryption/include/Tracker_FormElement_Field_Encrypted.class.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_List_Bind_Null.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_List_Bind_Ugroups.php",
+"plugins/testmanagement/include/TestManagement/Step/Execution/Field/StepExecution.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_Date.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_File.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_List_Bind_Users.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_List.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_ArtifactLink.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_List_Bind_Static.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_Alphanum.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_Burndown.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_Text.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_PerTrackerArtifactIdclass.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_LastModifiedBy.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_SubmittedOn.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_SubmittedBy.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_Computed.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_CrossReferences.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_File.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-31063",
+"patch_date": [
+"2022-06-14 10:59:47+02:00"
+],
+"patch_files": [
+"plugins/docman/include/view/Docman_View_Admin_LockInfos.class.php",
+"plugins/docman/include/Docman_Widget_MyDocmanSearch.class.php"
+],
+"earliest_patch_date": "2022-06-14 10:59:47+02:00",
+"earliest_vuln_date": "2009-07-09 15:15:33+00:00",
+"vuln_files": [
+"plugins/docman/include/view/Docman_View_Admin_LockInfos.class.php",
+"plugins/docman/include/Docman_Widget_MyDocmanSearch.class.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-31128",
+"patch_date": [
+"2022-07-05 17:49:53+02:00"
+],
+"patch_files": [
+"plugins/git/tests/unit/REST/v1/Branch/BranchCreatorTest.php",
+"plugins/git/include/REST/v1/Branch/BranchCreator.php",
+"plugins/git/include/REST/v1/RepositoryResource.class.php"
+],
+"earliest_patch_date": "2022-07-05 17:49:53+02:00",
+"earliest_vuln_date": "2022-06-13 18:12:04+02:00",
+"vuln_files": [
+"plugins/git/tests/unit/REST/v1/Branch/BranchCreatorTest.php",
+"plugins/git/include/REST/v1/Branch/BranchCreator.php",
+"plugins/git/include/REST/v1/RepositoryResource.class.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.5
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-39233",
+"patch_date": [
+"2022-09-20 16:46:38+02:00"
+],
+"patch_files": [
+"plugins/gitlab/include/REST/v1/GitlabRepositoryResource.php",
+"plugins/gitlab/tests/unit/Artifact/Action/CreateBranchPrefixUpdaterTest.php",
+"plugins/gitlab/include/Artifact/Action/CreateBranchPrefixUpdater.php"
+],
+"earliest_patch_date": "2022-09-20 16:46:38+02:00",
+"earliest_vuln_date": "2021-06-21 09:50:46+02:00",
+"vuln_files": [
+"plugins/gitlab/include/REST/v1/GitlabRepositoryResource.php",
+"plugins/gitlab/tests/unit/Artifact/Action/CreateBranchPrefixUpdaterTest.php",
+"plugins/gitlab/include/Artifact/Action/CreateBranchPrefixUpdater.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.5
+}
+},
+"cwes": [
+"CWE-862"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-23938",
+"patch_date": [
+"2023-02-01 15:26:07+01:00"
+],
+"patch_files": [
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_List_Bind_StaticValue.php"
+],
+"earliest_patch_date": "2023-02-01 15:26:07+01:00",
+"earliest_vuln_date": "2022-05-06 08:00:14+02:00",
+"vuln_files": [
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_List_Bind_StaticValue.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.8,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.7,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-30619",
+"patch_date": [
+"2023-04-20 18:16:19+02:00"
+],
+"patch_files": [
+"plugins/tracker/tests/unit/Tracker/Semantic/Tooltip/TooltipFetcherTest.php",
+"plugins/tracker/include/Tracker/Artifact/Artifact.php",
+"plugins/tracker/templates/tooltip/artifact-tooltip-title.mustache",
+"plugins/tracker/include/Tracker/Semantic/Tooltip/TooltipFetcher.php"
+],
+"earliest_patch_date": "2023-04-20 18:16:19+02:00",
+"earliest_vuln_date": "2023-04-07 07:52:42+02:00",
+"vuln_files": [
+"plugins/tracker/tests/unit/Tracker/Semantic/Tooltip/TooltipFetcherTest.php",
+"plugins/tracker/include/Tracker/Semantic/Tooltip/TooltipFetcher.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-32072",
+"patch_date": [
+"2023-05-05 15:45:25+02:00"
+],
+"patch_files": [
+"plugins/hudson_git/include/hudson_gitPlugin.php",
+"plugins/hudson_git/include/HudsonGit/GitWebhooksSettingsEnhancer.php",
+"plugins/hudson_git/include/HudsonGit/JenkinsWebhookPresenter.php"
+],
+"earliest_patch_date": "2023-05-05 15:45:25+02:00",
+"earliest_vuln_date": "2016-05-23 14:03:19+02:00",
+"vuln_files": [
+"plugins/hudson_git/include/hudson_gitPlugin.php",
+"plugins/hudson_git/include/HudsonGit/GitWebhooksSettingsEnhancer.php",
+"plugins/hudson_git/include/HudsonGit/JenkinsWebhookPresenter.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.8,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.7,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-35938",
+"patch_date": [
+"2023-06-07 15:30:18+02:00"
+],
+"patch_files": [
+"plugins/project_ownership/site-content/pt_BR/LC_MESSAGES/tuleap-project_ownership.po",
+"src/common/system_event/include/SystemEvent_PROJECT_IS_PRIVATE.class.php",
+"plugins/project_ownership/include/ProjectAdmin/UpdateVisibilityChecker.php",
+"src/common/Project/Admin/ForceRemovalOfRestrictedAdministrator.php",
+"src/common/Project/Admin/ProjectVisibilityPresenter.class.php",
+"src/common/Project/Admin/Visibility/UpdateVisibilityIsAllowedEvent.php",
+"plugins/project_ownership/tests/unit/ProjectOwner/ProjectOwnerRemoverTest.php",
+"src/common/Request/RouteCollector.php",
+"src/common/Project/Registration/ProjectRegistrationPresenter.php",
+"tests/unit/common/Project/Admin/ProjectVisibilityOptionsForPresenterGeneratorTest.php",
+"plugins/ldap/bin/ldap_sync.php",
+"src/common/Project/Admin/ProjectVisibilityPresenterBuilder.php",
+"src/common/Project/Admin/Visibility/UpdateVisibilityChecker.php",
+"src/common/Project/Admin/Visibility/UpdateVisibilityStatus.php",
+"src/common/Project/Admin/ProjectUGroup/MemberRemovalController.php",
+"tests/unit/common/Project/Admin/Visibility/UpdateVisibilityCheckerTest.php",
+"src/common/Project/UserRemoverDao.php",
+"src/common/Project/UserRemover.php",
+"plugins/ldap/include/LDAP_DirectorySynchronization.class.php",
+"src/common/Project/Admin/ProjectVisibilityOptionsForPresenterGenerator.php",
+"site-content/fr_FR/LC_MESSAGES/tuleap-core.po",
+"src/common/Project/Project.class.php",
+"plugins/project_ownership/include/ProjectOwner/ProjectOwnerRemover.php",
+"tests/unit/common/SystemEvent/SystemEventPROJECTISPRIVATETest.php",
+"plugins/project_ownership/tests/unit/ProjectAdmin/UpdateVisibilityCheckerTest.php",
+"src/templates/project/project_visibility.mustache",
+"tests/unit/common/Project/ProjectDetails/ProjectDetailsControllerTest.php",
+"plugins/ldap/include/ldapPlugin.php",
+"src/common/Config/ForgeConfig.php",
+"tests/unit/common/Project/UserRemoverTest.php",
+"site-content/pt_BR/LC_MESSAGES/tuleap-core.po",
+"plugins/project_ownership/site-content/fr_FR/LC_MESSAGES/tuleap-project_ownership.po",
+"src/common/Project/Admin/ProjectMembers/ProjectMembersController.php",
+"plugins/project_ownership/include/ProjectOwner/ProjectOwnerDAO.php",
+"src/common/system_event/SystemEventManager.class.php",
+"src/common/Project/ProjectXMLImporter.class.php",
+"plugins/project_ownership/include/project_ownershipPlugin.php",
+"src/common/User/SwitchToPresenterBuilder.php",
+"src/common/Project/UGroupManager.class.php",
+"src/common/admin/ProjectCreation/ProjectVisibility/ProjectVisibilityConfigPresenter.php",
+"src/common/Project/Admin/ProjectDetails/ProjectDetailsController.php",
+"src/www/project/admin/editgroupinfo.php"
+],
+"earliest_patch_date": "2023-06-07 15:30:18+02:00",
+"earliest_vuln_date": "2015-04-14 10:36:25+02:00",
+"vuln_files": [
+"src/common/system_event/include/SystemEvent_PROJECT_IS_PRIVATE.class.php",
+"src/common/Project/Admin/ProjectVisibilityPresenter.class.php",
+"src/common/Request/RouteCollector.php",
+"src/common/Project/Registration/ProjectRegistrationPresenter.php",
+"plugins/ldap/bin/ldap_sync.php",
+"src/common/Project/Admin/ProjectUGroup/MemberRemovalController.php",
+"src/www/project/admin/editgroupinfo.php",
+"src/common/Project/UserRemoverDao.php",
+"src/common/Project/UserRemover.php",
+"plugins/ldap/include/LDAP_DirectorySynchronization.class.php",
+"tests/unit/common/SystemEvent/SystemEventPROJECTISPRIVATETest.php",
+"site-content/fr_FR/LC_MESSAGES/tuleap-core.po",
+"src/common/Project/Project.class.php",
+"src/templates/project/project_visibility.mustache",
+"tests/unit/common/Project/ProjectDetails/ProjectDetailsControllerTest.php",
+"plugins/ldap/include/ldapPlugin.php",
+"src/common/Config/ForgeConfig.php",
+"tests/unit/common/Project/UserRemoverTest.php",
+"src/common/Project/Admin/ProjectMembers/ProjectMembersController.php",
+"src/common/system_event/SystemEventManager.class.php",
+"src/common/Project/ProjectXMLImporter.class.php",
+"src/common/User/SwitchToPresenterBuilder.php",
+"src/common/Project/UGroupManager.class.php",
+"src/common/Project/Admin/ProjectDetails/ProjectDetailsController.php",
+"tests/unit/common/Project/Admin/ProjectVisibilityOptionsForPresenterGeneratorTest.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"plugins/ldap/include/LDAP_DirectorySynchronization.class.php",
+"site-content/fr_FR/LC_MESSAGES/tuleap-core.po",
+"site-content/pt_BR/LC_MESSAGES/tuleap-core.po",
+"src/common/system_event/SystemEventManager.class.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-35929",
+"patch_date": [
+"2023-06-22 11:19:52+02:00"
+],
+"patch_files": [
+"plugins/agiledashboard/scripts/lib/card-fields/src/index.js",
+"plugins/agiledashboard/scripts/lib/card-fields/src/highlight-filter.js",
+"plugins/agiledashboard/scripts/lib/card-fields/vite.config.ts",
+"plugins/agiledashboard/scripts/lib/card-fields/src/highlight-filter-template.test.ts",
+"plugins/agiledashboard/scripts/lib/card-fields/pnpm-lock.yaml",
+"plugins/agiledashboard/scripts/lib/card-fields/src/card-fields-service.js",
+"plugins/agiledashboard/scripts/lib/card-fields/src/highlight-filter-template.ts",
+"plugins/agiledashboard/scripts/lib/card-fields/src/card-fields.tpl.html",
+"plugins/agiledashboard/scripts/lib/card-fields/package.json"
+],
+"earliest_patch_date": "2023-06-22 11:19:52+02:00",
+"earliest_vuln_date": "2016-02-12 14:30:54+00:00",
+"vuln_files": [
+"plugins/agiledashboard/scripts/lib/card-fields/src/index.js",
+"plugins/agiledashboard/scripts/lib/card-fields/src/highlight-filter.js",
+"plugins/agiledashboard/scripts/lib/card-fields/vite.config.ts",
+"plugins/agiledashboard/scripts/lib/card-fields/pnpm-lock.yaml",
+"plugins/agiledashboard/scripts/lib/card-fields/src/card-fields-service.js",
+"plugins/agiledashboard/scripts/lib/card-fields/src/card-fields.tpl.html",
+"plugins/agiledashboard/scripts/lib/card-fields/package.json"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-38508",
+"patch_date": [
+"2023-07-25 15:21:28+02:00"
+],
+"patch_files": [
+"plugins/tracker/include/Tracker/FormElement/Field/ArtifactLink/Type/ArtifactInTypeTablePresenter.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_ArtifactLink.php",
+"plugins/tracker/include/Tracker/FormElement/Field/ArtifactLink/Type/TypeTablePresenter.php"
+],
+"earliest_patch_date": "2023-07-25 15:21:28+02:00",
+"earliest_vuln_date": "2016-03-14 12:00:04+01:00",
+"vuln_files": [
+"plugins/tracker/include/Tracker/FormElement/Field/ArtifactLink/Type/ArtifactInTypeTablePresenter.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_ArtifactLink.php",
+"plugins/tracker/include/Tracker/FormElement/Field/ArtifactLink/Type/TypeTablePresenter.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"CWE-862"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-862"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_ArtifactLink.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-39521",
+"patch_date": [
+"2023-08-07 10:18:32+02:00"
+],
+"patch_files": [
+"plugins/kanban/scripts/kanban/src/app/kanban-service.js",
+"plugins/kanban/scripts/kanban/po/fr_FR.po"
+],
+"earliest_patch_date": "2023-08-07 10:18:32+02:00",
+"earliest_vuln_date": "2016-10-21 11:36:42+02:00",
+"vuln_files": [
+"plugins/kanban/scripts/kanban/src/app/kanban-service.js",
+"plugins/kanban/scripts/kanban/po/fr_FR.po"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.8,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.7,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-48715",
+"patch_date": [
+"2023-11-23 12:02:10+01:00"
+],
+"patch_files": [
+"src/www/file/file_utils.php"
+],
+"earliest_patch_date": "2023-11-23 12:02:10+01:00",
+"earliest_vuln_date": "2004-08-19 09:07:21+00:00",
+"vuln_files": [
+"src/www/file/file_utils.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-23344",
+"patch_date": [
+"2024-01-19 18:50:01+01:00"
+],
+"patch_files": [
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/MilestoneFactoryGetMilestoneTest.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/MilestoneFactoryTest.php",
+"plugins/tracker/tests/unit/Tracker/Semantic/Timeframe/TimeframeWithEndDateTest.php",
+"plugins/tracker/tests/unit/Tracker/Semantic/Timeframe/TimeframeWithDurationTest.php",
+"plugins/tracker/tests/unit/Builders/ArtifactTestBuilder.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/MilestoneFactoryGetTopMilestonesTest.php",
+"plugins/tracker/tests/unit/Tracker/Artifact/ArtifactTest.php",
+"plugins/roadmap/tests/unit/Roadmap/REST/v1/IterationsRetrieverTest.php",
+"plugins/tracker/include/Tracker/Artifact/Artifact.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/MilestoneFactoryGetBareMilestoneByArtifactIdTest.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Milestone/Sidebar/PromotedMilestoneBuilderTest.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/MilestoneFactoryGetPaginatedMilestonesTest.php",
+"plugins/roadmap/tests/unit/Roadmap/REST/v1/RoadmapTasksRetrieverTest.php",
+"plugins/tracker/tests/unit/Tracker/Semantic/Timeframe/TimeframeNotConfiguredTest.php"
+],
+"earliest_patch_date": "2024-01-19 18:50:01+01:00",
+"earliest_vuln_date": "2023-11-16 14:05:56+01:00",
+"vuln_files": [
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/MilestoneFactoryGetMilestoneTest.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/MilestoneFactoryTest.php",
+"plugins/tracker/tests/unit/Tracker/Semantic/Timeframe/TimeframeWithEndDateTest.php",
+"plugins/tracker/tests/unit/Tracker/Semantic/Timeframe/TimeframeWithDurationTest.php",
+"plugins/tracker/tests/unit/Builders/ArtifactTestBuilder.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/MilestoneFactoryGetTopMilestonesTest.php",
+"plugins/roadmap/tests/unit/Roadmap/REST/v1/IterationsRetrieverTest.php",
+"plugins/tracker/include/Tracker/Artifact/Artifact.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/MilestoneFactoryGetBareMilestoneByArtifactIdTest.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Milestone/Sidebar/PromotedMilestoneBuilderTest.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/MilestoneFactoryGetPaginatedMilestonesTest.php",
+"plugins/roadmap/tests/unit/Roadmap/REST/v1/RoadmapTasksRetrieverTest.php",
+"plugins/tracker/tests/unit/Tracker/Semantic/Timeframe/TimeframeNotConfiguredTest.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"plugins/tracker/include/Tracker/Artifact/Artifact.php"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"plugins/tracker/include/Tracker/Artifact/Artifact.php"
+]
+},
+{
+"cve_id": "CVE-2024-25130",
+"patch_date": [
+"2024-02-14 11:58:46+01:00"
+],
+"patch_files": [
+"plugins/tracker/include/Tracker/MasschangeDataValueExtractor.class.php",
+"plugins/tracker/site-content/pt_BR/LC_MESSAGES/tuleap-tracker.po",
+"plugins/tracker/tests/unit/Tracker/MasschangeDataValueExtractorTest.php",
+"plugins/tracker/site-content/fr_FR/LC_MESSAGES/tuleap-tracker.po",
+"plugins/tracker/scripts/legacy/src/TrackerFormElementFieldPermissions.js",
+"plugins/tracker/templates/form-element/permissions_on_artifact_massupdate.mustache",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_PermissionsOnArtifact.php"
+],
+"earliest_patch_date": "2024-02-14 11:58:46+01:00",
+"earliest_vuln_date": "2011-08-04 13:57:16+00:00",
+"vuln_files": [
+"plugins/tracker/scripts/legacy/src/TrackerFormElementFieldPermissions.js",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_PermissionsOnArtifact.php",
+"plugins/tracker/tests/unit/Tracker/MasschangeDataValueExtractorTest.php"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_PermissionsOnArtifact.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-30246",
+"patch_date": [
+"2024-03-28 17:34:09+01:00"
+],
+"patch_files": [
+"plugins/tracker/include/Tracker/Artifact/ArtifactsDeletion/ArchiveAndDeleteArtifactTaskBuilder.php",
+"plugins/tracker/include/Tracker/Artifact/ArtifactsDeletion/ArtifactDependenciesCleaner.php",
+"plugins/tracker/include/Tracker/Artifact/ArtifactsDeletion/ArtifactChangesetValueDeletorDAO.php",
+"plugins/tracker/include/Tracker/Artifact/ArtifactsDeletion/PendingArtifactRemovalDao.php",
+"plugins/tracker/tests/unit/Tracker/Artifact/ArtifactsDeletion/ArtifactDependenciesDeletorTest.php"
+],
+"earliest_patch_date": "2024-03-28 17:34:09+01:00",
+"earliest_vuln_date": "2018-09-28 16:02:06+02:00",
+"vuln_files": [
+"plugins/tracker/include/Tracker/Artifact/ArtifactsDeletion/ArchiveAndDeleteArtifactTaskBuilder.php",
+"plugins/tracker/include/Tracker/Artifact/ArtifactsDeletion/ArtifactDependenciesCleaner.php",
+"plugins/tracker/include/Tracker/Artifact/ArtifactsDeletion/ArtifactChangesetValueDeletorDAO.php",
+"plugins/tracker/include/Tracker/Artifact/ArtifactsDeletion/PendingArtifactRemovalDao.php",
+"plugins/tracker/tests/unit/Tracker/Artifact/ArtifactsDeletion/ArtifactDependenciesDeletorTest.php"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-37167",
+"patch_date": [
+"2024-06-07 14:33:32+02:00"
+],
+"patch_files": [
+"plugins/cardwall/include/Pane.class.php",
+"plugins/tracker/include/Tracker/Permission/TrackersPermissionsRetriever.php",
+"plugins/agiledashboard/include/AgileDashboard/REST/v1/ProjectBacklogResource.class.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Milestone/Backlog/AgileDashboard_Milestone_Backlog_BacklogItemCollectionFactoryTest.php",
+"plugins/agiledashboard/include/AgileDashboard/REST/v2/ProjectBacklogResource.class.php",
+"plugins/agiledashboard/include/AgileDashboard/REST/v1/MilestoneResource.class.php",
+"plugins/agiledashboard/include/AgileDashboard/Milestone/Backlog/BacklogItemCollectionFactory.class.php",
+"plugins/tracker/tests/unit/Stub/Tracker/Permission/TrackersPermissionsPassthroughRetriever.php",
+"plugins/projectmilestones/include/Widget/ProjectMilestonesPresenterBuilder.php",
+"plugins/agiledashboard/include/agiledashboardPlugin.php",
+"plugins/agiledashboard/include/AgileDashboard/REST/v1/ContentForMiletoneProvider.php"
+],
+"earliest_patch_date": "2024-06-07 14:33:32+02:00",
+"earliest_vuln_date": "2015-06-03 14:20:55+02:00",
+"vuln_files": [
+"plugins/cardwall/include/Pane.class.php",
+"plugins/tracker/include/Tracker/Permission/TrackersPermissionsRetriever.php",
+"plugins/agiledashboard/include/AgileDashboard/REST/v1/ProjectBacklogResource.class.php",
+"plugins/agiledashboard/include/AgileDashboard/REST/v2/ProjectBacklogResource.class.php",
+"plugins/agiledashboard/include/AgileDashboard/REST/v1/MilestoneResource.class.php",
+"plugins/agiledashboard/include/AgileDashboard/Milestone/Backlog/BacklogItemCollectionFactory.class.php",
+"plugins/projectmilestones/include/Widget/ProjectMilestonesPresenterBuilder.php",
+"plugins/agiledashboard/include/agiledashboardPlugin.php",
+"plugins/agiledashboard/include/AgileDashboard/REST/v1/ContentForMiletoneProvider.php"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-39902",
+"patch_date": [
+"2024-07-09 14:23:20+00:00"
+],
+"patch_files": [
+"plugins/document/scripts/document/components/Folder/Permissions/PermissionsUpdateFolderSubItems.vue",
+"plugins/document/scripts/document/helpers/emitter.ts",
+"plugins/document/scripts/document/components/Folder/Permissions/PermissionsUpdateFolderSubItems.test.ts",
+"plugins/document/scripts/document/components/Folder/Permissions/PermissionsUpdateModal.test.js",
+"plugins/document/scripts/document/components/Folder/Permissions/PermissionsUpdateModal.vue"
+],
+"earliest_patch_date": "2024-07-09 14:23:20+00:00",
+"earliest_vuln_date": "2019-08-16 15:46:16+02:00",
+"vuln_files": [
+"plugins/document/scripts/document/components/Folder/Permissions/PermissionsUpdateModal.vue",
+"plugins/document/scripts/document/components/Folder/Permissions/PermissionsUpdateFolderSubItems.vue"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-46980",
+"patch_date": [
+"2024-09-17 15:45:24+02:00"
+],
+"patch_files": [
+"src/common/Reference/CrossReferenceFactory.php"
+],
+"earliest_patch_date": "2024-09-17 15:45:24+02:00",
+"earliest_vuln_date": "2013-02-19 17:55:36+01:00",
+"vuln_files": [
+"src/common/Reference/CrossReferenceFactory.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.8,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.7,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-47767",
+"patch_date": [
+"2024-10-01 16:11:38+02:00",
+"2024-10-03 10:51:21+02:00",
+"2024-09-30 13:16:21+00:00"
+],
+"patch_files": [
+"plugins/agiledashboard/include/AgileDashboard/Milestone/HeaderOptionsProvider.php",
+"plugins/tracker/include/Tracker/Semantic/Tracker_SemanticManager.class.php",
+"plugins/program_management/include/Adapter/Program/PlanningAdapter.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/NearestPlanningTrackerProviderTest.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/MilestoneFactoryGetMilestoneTest.php",
+"plugins/tracker/tests/unit/Tracker/TrackerManagerTest.php",
+"plugins/velocity/include/Velocity/Semantic/SemanticVelocity.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Milestone/Backlog/AgileDashboard_SequenceIdManagerTest.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/PlanningControllerTest.php",
+"plugins/tracker/include/Tracker/FormElement/Event/MessageFetcherAdditionalWarnings.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Milestone/HeaderOptionsProviderTest.php",
+"plugins/agiledashboard/include/AgileDashboard/Artifact/EventRedirectAfterArtifactCreationOrUpdateHandler.php",
+"plugins/agiledashboard/include/Planning/MilestoneController.class.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/PlanningFactoryDuplicationTest.php",
+"plugins/agiledashboard/include/AgileDashboard/Milestone/Pane/Planning/SubmilestoneFinder.class.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/FormElement/MessageFetcherTest.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/MilestoneFactoryGetMilestoneFromArtifactTest.php",
+"plugins/agiledashboard/include/AgileDashboard/Milestone/Backlog/Backlog.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/MilestoneFactoryGetMilestoneWithAncestorsTest.php",
+"plugins/agiledashboard/include/AgileDashboard/BacklogItem/PaginatedBacklogItemsRepresentationsBuilder.class.php",
+"plugins/agiledashboard/include/AgileDashboard/Milestone/Pane/Details/DetailsPresenterBuilder.php",
+"plugins/agiledashboard/include/AgileDashboard/Planning/NearestPlanningTrackerProvider.class.php",
+"plugins/agiledashboard/include/AgileDashboard/Milestone/MilestoneParentLinker.php",
+"plugins/agiledashboard/include/AgileDashboard/REST/v1/MilestoneResourceValidator.class.php",
+"plugins/tracker/include/Tracker/TrackerFactory.class.php",
+"plugins/velocity/include/Velocity/Semantic/BacklogRetriever.php",
+"plugins/velocity/include/Velocity/Semantic/SemanticVelocityAdminPresenterBuilder.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Milestone/Pane/Planning/SubmilestoneFinderTest.php",
+"plugins/agiledashboard/include/AgileDashboard/Milestone/MilestoneReportCriterionOptionsProvider.class.php",
+"plugins/agiledashboard/include/Planning/ArtifactLinker.class.php",
+"plugins/agiledashboard/include/Planning/MilestonePaneFactory.class.php",
+"plugins/tracker/include/Tracker/TrackerEventTrackersDuplicated.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/PlanningFactoryTestGetPlanningTest.php",
+"plugins/agiledashboard/include/Planning/PlanningTrackerNotFoundFault.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/PlanningFactoryTestGetVirtualTopPlanningTest.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Milestone/MilestoneReportCriterionOptionsProviderTest.php",
+"plugins/agiledashboard/include/Planning/Planning.class.php",
+"tests/rest/tests/CardsTest.php",
+"plugins/agiledashboard/tests/unit/Planning/Planning_RequestValidatorTest.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/PlanningFactoryTestGetPlanningByPlanningTrackerTest.php",
+"plugins/agiledashboard/include/AgileDashboard/PaneInfoFactory.class.php",
+"plugins/cardwall/include/SingleCardBuilder.class.php",
+"plugins/agiledashboard/include/AgileDashboard/Milestone/Backlog/BacklogFactory.class.php",
+"plugins/agiledashboard/include/Planning/PlanningFactory.class.php",
+"plugins/agiledashboard/include/Planning/PlanningRequestValidator.class.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Artifact/EventRedirectAfterArtifactCreationOrUpdateHandlerTest.php",
+"plugins/tracker/tests/unit/Tracker/TrackerFactoryDuplicationTest.php",
+"plugins/agiledashboard/include/AgileDashboard/REST/v1/Milestone/MilestoneRepresentationBuilder.php",
+"plugins/agiledashboard/include/AgileDashboard/REST/v1/MilestoneResource.class.php",
+"plugins/velocity/include/Velocity/Semantic/SemanticVelocityPresenterBuilder.php",
+"plugins/agiledashboard/include/AgileDashboard/REST/v1/PlanningResource.class.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/MilestoneFactoryGetBareMilestoneByArtifactIdTest.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/MilestoneFactoryGetPaginatedMilestonesTest.php",
+"plugins/agiledashboard/include/AgileDashboard/Planning/HeaderOptionsForPlanningProvider.php",
+"plugins/cardwall/include/cardwallPlugin.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/MilestoneFactoryGetMilestoneFromArtifactWithPlannedArtifactsTest.php",
+"plugins/agiledashboard/include/AgileDashboard/FormElement/MessageFetcher.php",
+"plugins/tracker/include/Tracker/TrackerManager.class.php",
+"plugins/velocity/include/velocityPlugin.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_Text.php",
+"plugins/agiledashboard/include/Planning/PlanningController.class.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/MilestoneFactoryGetLastMilestoneCreatedTest.php",
+"plugins/tracker/include/Tracker/FormElement/ChartMessageFetcher.php",
+"plugins/program_management/tests/unit/Adapter/Events/TrackersDuplicatedHandlerTest.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/ArtifactLinkerTest.php",
+"tests/psalm/psalm.xml",
+"plugins/agiledashboard/include/AgileDashboard/SequenceIdManager.php",
+"plugins/agiledashboard/include/AgileDashboard/Milestone/Sidebar/PromotedMilestoneBuilder.php",
+"plugins/tracker/include/trackerPlugin.php",
+"plugins/agiledashboard/include/Planning/PlanningTrackerNotReadableFault.php",
+"plugins/projectmilestones/include/Widget/ProjectMilestonesPresenterBuilder.php",
+"plugins/agiledashboard/include/Planning/MilestoneFactory.class.php",
+"plugins/agiledashboard/include/agiledashboardPlugin.php"
+],
+"earliest_patch_date": "2024-09-30 13:16:21+00:00",
+"earliest_vuln_date": "2012-02-21 11:00:35+00:00",
+"vuln_files": [
+"plugins/agiledashboard/include/AgileDashboard/Milestone/HeaderOptionsProvider.php",
+"plugins/tracker/include/Tracker/Semantic/Tracker_SemanticManager.class.php",
+"plugins/program_management/include/Adapter/Program/PlanningAdapter.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Milestone/Backlog/AgileDashboard_SequenceIdManagerTest.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/MilestoneFactoryGetMilestoneTest.php",
+"plugins/velocity/include/Velocity/Semantic/SemanticVelocity.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/PlanningControllerTest.php",
+"plugins/tracker/include/Tracker/FormElement/Event/MessageFetcherAdditionalWarnings.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Milestone/HeaderOptionsProviderTest.php",
+"plugins/agiledashboard/include/AgileDashboard/Artifact/EventRedirectAfterArtifactCreationOrUpdateHandler.php",
+"plugins/agiledashboard/include/Planning/MilestoneController.class.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/PlanningFactoryDuplicationTest.php",
+"plugins/agiledashboard/include/AgileDashboard/Milestone/Pane/Planning/SubmilestoneFinder.class.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/FormElement/MessageFetcherTest.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/MilestoneFactoryGetMilestoneWithAncestorsTest.php",
+"plugins/agiledashboard/include/AgileDashboard/Milestone/Backlog/Backlog.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/MilestoneFactoryGetMilestoneFromArtifactTest.php",
+"plugins/agiledashboard/include/AgileDashboard/BacklogItem/PaginatedBacklogItemsRepresentationsBuilder.class.php",
+"plugins/agiledashboard/include/AgileDashboard/Milestone/Pane/Details/DetailsPresenterBuilder.php",
+"plugins/agiledashboard/include/AgileDashboard/Milestone/MilestoneParentLinker.php",
+"plugins/agiledashboard/include/AgileDashboard/REST/v1/MilestoneResourceValidator.class.php",
+"plugins/tracker/include/Tracker/TrackerFactory.class.php",
+"plugins/velocity/include/Velocity/Semantic/BacklogRetriever.php",
+"plugins/velocity/include/Velocity/Semantic/SemanticVelocityAdminPresenterBuilder.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Milestone/Pane/Planning/SubmilestoneFinderTest.php",
+"plugins/agiledashboard/include/AgileDashboard/Milestone/MilestoneReportCriterionOptionsProvider.class.php",
+"plugins/agiledashboard/include/Planning/ArtifactLinker.class.php",
+"plugins/agiledashboard/include/Planning/MilestonePaneFactory.class.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/PlanningFactoryTestGetPlanningTest.php",
+"plugins/agiledashboard/include/Planning/Planning.class.php",
+"plugins/agiledashboard/tests/unit/Planning/Planning_RequestValidatorTest.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/PlanningFactoryTestGetPlanningByPlanningTrackerTest.php",
+"plugins/agiledashboard/include/AgileDashboard/PaneInfoFactory.class.php",
+"plugins/agiledashboard/include/AgileDashboard/Milestone/Backlog/BacklogFactory.class.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Artifact/EventRedirectAfterArtifactCreationOrUpdateHandlerTest.php",
+"plugins/agiledashboard/include/Planning/PlanningFactory.class.php",
+"plugins/agiledashboard/include/Planning/PlanningRequestValidator.class.php",
+"plugins/agiledashboard/include/AgileDashboard/REST/v1/Milestone/MilestoneRepresentationBuilder.php",
+"plugins/agiledashboard/include/AgileDashboard/REST/v1/MilestoneResource.class.php",
+"plugins/velocity/include/Velocity/Semantic/SemanticVelocityPresenterBuilder.php",
+"plugins/agiledashboard/include/AgileDashboard/REST/v1/PlanningResource.class.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/MilestoneFactoryGetBareMilestoneByArtifactIdTest.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/MilestoneFactoryGetPaginatedMilestonesTest.php",
+"plugins/agiledashboard/include/AgileDashboard/Planning/HeaderOptionsForPlanningProvider.php",
+"plugins/cardwall/include/cardwallPlugin.php",
+"plugins/agiledashboard/include/AgileDashboard/Milestone/Sidebar/PromotedMilestoneBuilder.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/MilestoneFactoryGetMilestoneFromArtifactWithPlannedArtifactsTest.php",
+"plugins/agiledashboard/include/AgileDashboard/FormElement/MessageFetcher.php",
+"plugins/tracker/include/Tracker/TrackerManager.class.php",
+"plugins/velocity/include/velocityPlugin.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_Text.php",
+"plugins/agiledashboard/include/Planning/PlanningController.class.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/MilestoneFactoryGetLastMilestoneCreatedTest.php",
+"plugins/tracker/include/Tracker/FormElement/ChartMessageFetcher.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/ArtifactLinkerTest.php",
+"tests/psalm/psalm.xml",
+"plugins/agiledashboard/include/AgileDashboard/SequenceIdManager.php",
+"plugins/cardwall/include/SingleCardBuilder.class.php",
+"plugins/projectmilestones/include/Widget/ProjectMilestonesPresenterBuilder.php",
+"plugins/agiledashboard/include/Planning/MilestoneFactory.class.php",
+"plugins/agiledashboard/include/agiledashboardPlugin.php",
+"plugins/agiledashboard/include/AgileDashboard/Planning/NearestPlanningTrackerProvider.class.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Milestone/MilestoneReportCriterionOptionsProviderTest.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/NearestPlanningTrackerProviderTest.php",
+"tests/rest/tests/CardsTest.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/PlanningFactoryTestGetVirtualTopPlanningTest.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"CWE-755"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/MilestoneFactoryGetMilestoneTest.php",
+"plugins/agiledashboard/include/AgileDashboard/REST/v1/MilestoneResource.class.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/MilestoneFactoryGetBareMilestoneByArtifactIdTest.php",
+"plugins/agiledashboard/tests/unit/AgileDashboard/Planning/MilestoneFactoryGetPaginatedMilestonesTest.php",
+"plugins/tracker/include/Tracker/FormElement/Tracker_FormElement_Field_Text.php",
+"plugins/projectmilestones/include/Widget/ProjectMilestonesPresenterBuilder.php",
+"plugins/agiledashboard/include/agiledashboardPlugin.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-47766",
+"patch_date": [
+"2024-10-03 10:53:10+02:00"
+],
+"patch_files": [
+"plugins/tracker/tests/integration/Permission/TrackersPermissionsDaoOnTrackersTest.php",
+"plugins/tracker/include/Tracker/Permission/TrackersPermissionsRetriever.php",
+"plugins/tracker/tests/integration/Permission/TrackersPermissionsDaoOnArtifactsTest.php",
+"plugins/tracker/include/Tracker/Permission/SearchUserGroupsPermissionOnTrackers.php",
+"plugins/tracker/tests/unit/Stub/Tracker/Permission/SearchUserGroupsPermissionOnTrackersStub.php",
+"plugins/tracker/tests/unit/Stub/Tracker/Permission/SearchUserGroupsPermissionOnFieldsStub.php",
+"plugins/tracker/include/Tracker/Permission/UserGroupInProject.php",
+"plugins/tracker/tests/integration/Permission/TrackersPermissionsDaoOnFieldsTest.php",
+"plugins/tracker/include/Tracker/Permission/SearchUserGroupsPermissionOnFields.php",
+"plugins/tracker/include/Tracker/Permission/TrackersPermissionsDao.php"
+],
+"earliest_patch_date": "2024-10-03 10:53:10+02:00",
+"earliest_vuln_date": "2024-04-17 10:31:17+02:00",
+"vuln_files": [
+"plugins/tracker/tests/integration/Permission/TrackersPermissionsDaoOnTrackersTest.php",
+"plugins/tracker/include/Tracker/Permission/TrackersPermissionsRetriever.php",
+"plugins/tracker/include/Tracker/Permission/SearchUserGroupsPermissionOnTrackers.php",
+"plugins/tracker/tests/unit/Stub/Tracker/Permission/SearchUserGroupsPermissionOnTrackersStub.php",
+"plugins/tracker/tests/unit/Stub/Tracker/Permission/SearchUserGroupsPermissionOnFieldsStub.php",
+"plugins/tracker/tests/integration/Permission/TrackersPermissionsDaoOnFieldsTest.php",
+"plugins/tracker/include/Tracker/Permission/SearchUserGroupsPermissionOnFields.php",
+"plugins/tracker/include/Tracker/Permission/TrackersPermissionsDao.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.9,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-755"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-755"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"plugins/tracker/include/Tracker/Permission/TrackersPermissionsRetriever.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,157 @@
+[
+{
+"cve_id": "CVE-2024-6908",
+"patch_date": [
+"2024-03-07 17:38:51+05:30",
+"2024-03-06 15:27:18+05:30"
+],
+"patch_files": [
+"managed/src/main/resources/swagger-strict.json",
+"managed/src/main/resources/swagger.json",
+"managed/src/main/java/com/yugabyte/yw/controllers/UsersController.java",
+"managed/src/main/java/com/yugabyte/yw/controllers/YbcController.java",
+"managed/src/test/java/com/yugabyte/yw/controllers/UsersControllerTest.java"
+],
+"earliest_patch_date": "2024-03-06 15:27:18+05:30",
+"earliest_vuln_date": "2019-12-20 15:44:33-08:00",
+"vuln_files": [
+"managed/src/main/java/com/yugabyte/yw/controllers/UsersController.java",
+"managed/src/main/resources/swagger-strict.json",
+"managed/src/main/resources/swagger.json"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-6895",
+"patch_date": [
+"2024-04-25 19:49:07+05:30"
+],
+"patch_files": [
+"managed/src/main/java/com/yugabyte/yw/common/RedactingService.java",
+"managed/src/main/java/com/yugabyte/yw/rbac/handlers/AuthorizationHandler.java",
+"managed/src/main/resources/swagger-strict.json",
+"managed/src/main/resources/swagger.json",
+"managed/src/main/resources/v1.routes",
+"managed/src/main/java/com/yugabyte/yw/controllers/UsersController.java",
+"managed/src/main/java/com/yugabyte/yw/rbac/enums/SourceType.java",
+"managed/src/test/java/com/yugabyte/yw/controllers/UsersControllerTest.java",
+"managed/src/main/java/com/yugabyte/yw/forms/UserPasswordChangeFormData.java"
+],
+"earliest_patch_date": "2024-04-25 19:49:07+05:30",
+"earliest_vuln_date": "2020-02-07 11:39:24-08:00",
+"vuln_files": [
+"managed/src/main/java/com/yugabyte/yw/rbac/handlers/AuthorizationHandler.java",
+"managed/src/main/resources/swagger-strict.json",
+"managed/src/main/resources/swagger.json",
+"managed/src/main/java/com/yugabyte/yw/controllers/UsersController.java",
+"managed/src/main/java/com/yugabyte/yw/rbac/enums/SourceType.java",
+"managed/src/test/java/com/yugabyte/yw/controllers/UsersControllerTest.java"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"managed/src/main/resources/swagger-strict.json",
+"managed/src/main/resources/swagger.json",
+"managed/src/main/java/com/yugabyte/yw/controllers/UsersController.java",
+"managed/src/test/java/com/yugabyte/yw/controllers/UsersControllerTest.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-0006",
+"patch_date": [
+"2024-06-21 18:57:20-07:00",
+"2024-06-21 07:34:40-07:00",
+"2024-06-21 07:40:18-07:00"
+],
+"patch_files": [
+"managed/src/main/java/com/yugabyte/yw/common/NodeUniverseManager.java"
+],
+"earliest_patch_date": "2024-06-21 07:34:40-07:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-11193",
+"patch_date": [
+"2024-08-26 14:35:05+00:00"
+],
+"patch_files": [
+"managed/src/main/java/com/yugabyte/yw/common/RedactingService.java",
+"managed/src/main/java/com/yugabyte/yw/commissioner/TaskExecutor.java",
+"managed/src/main/java/com/yugabyte/yw/commissioner/tasks/upgrade/GFlagsUpgrade.java"
+],
+"earliest_patch_date": "2024-08-26 14:35:05+00:00",
+"earliest_vuln_date": "2023-02-28 15:46:53+03:00",
+"vuln_files": [
+"managed/src/main/java/com/yugabyte/yw/commissioner/TaskExecutor.java",
+"managed/src/main/java/com/yugabyte/yw/commissioner/tasks/upgrade/GFlagsUpgrade.java"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"managed/src/main/java/com/yugabyte/yw/common/RedactingService.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-11165",
+"patch_date": [
+"2024-09-03 08:23:19+00:00"
+],
+"patch_files": [
+"managed/src/main/java/com/yugabyte/yw/common/RedactingService.java",
+"managed/src/main/java/com/yugabyte/yw/common/ShellProcessHandler.java",
+"managed/src/main/java/com/yugabyte/yw/models/helpers/CommonUtils.java"
+],
+"earliest_patch_date": "2024-09-03 08:23:19+00:00",
+"earliest_vuln_date": "2022-06-09 22:30:21+03:00",
+"vuln_files": [
+"managed/src/main/java/com/yugabyte/yw/common/ShellProcessHandler.java",
+"managed/src/main/java/com/yugabyte/yw/models/helpers/CommonUtils.java"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"managed/src/main/java/com/yugabyte/yw/common/RedactingService.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,129 @@
+[
+{
+"cve_id": "CVE-2024-2221",
+"patch_date": [
+"2024-03-06 10:38:44+01:00"
+],
+"patch_files": [
+"Cargo.lock",
+"lib/common/common/src/defaults.rs",
+"lib/api/Cargo.toml",
+"docs/redoc/v1.8.x/openapi.json",
+"docs/redoc/index.html",
+"Cargo.toml",
+"docs/redoc/default_version.js",
+"tools/missed_cherry_picks.sh"
+],
+"earliest_patch_date": "2024-03-06 10:38:44+01:00",
+"earliest_vuln_date": "2023-10-09 11:40:18+02:00",
+"vuln_files": [
+"lib/common/common/src/defaults.rs",
+"Cargo.lock",
+"lib/api/Cargo.toml",
+"Cargo.toml",
+"docs/redoc/default_version.js",
+"tools/missed_cherry_picks.sh"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-3078",
+"patch_date": [
+"2024-03-19 13:31:45+01:00"
+],
+"patch_files": [
+"lib/collection/src/collection/snapshots.rs",
+"lib/storage/src/content_manager/snapshots/mod.rs",
+"tests/openapi/openapi_integration/test_snapshot.py",
+"lib/collection/src/operations/types.rs",
+"lib/storage/src/content_manager/errors.rs"
+],
+"earliest_patch_date": "2024-03-19 13:31:45+01:00",
+"earliest_vuln_date": "2022-07-18 17:11:23+02:00",
+"vuln_files": [
+"lib/collection/src/collection/snapshots.rs",
+"lib/storage/src/content_manager/snapshots/mod.rs"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-3584",
+"patch_date": [
+"2024-04-09 09:43:26+02:00"
+],
+"patch_files": [
+"src/actix/api/snapshot_api.rs"
+],
+"earliest_patch_date": "2024-04-09 09:43:26+02:00",
+"earliest_vuln_date": "2023-04-03 09:43:55+02:00",
+"vuln_files": [
+"src/actix/api/snapshot_api.rs"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-3829",
+"patch_date": [
+"2024-04-15 15:31:08+02:00"
+],
+"patch_files": [
+"lib/collection/src/common/validate_snapshot_archive.rs",
+"lib/segment/src/segment.rs",
+"lib/collection/src/collection/snapshots.rs",
+"src/snapshots.rs",
+"lib/collection/src/tests/snapshot_test.rs",
+"lib/collection/src/common/mod.rs",
+"lib/segment/src/common/validate_snapshot_archive.rs",
+"lib/collection/src/shards/shard_holder.rs",
+"lib/segment/src/common/mod.rs"
+],
+"earliest_patch_date": "2024-04-15 15:31:08+02:00",
+"earliest_vuln_date": "2022-07-01 13:21:57+02:00",
+"vuln_files": [
+"lib/segment/src/segment.rs",
+"lib/collection/src/collection/snapshots.rs",
+"src/snapshots.rs",
+"lib/collection/src/tests/snapshot_test.rs",
+"lib/collection/src/shards/shard_holder.rs"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/collection/src/collection/snapshots.rs"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

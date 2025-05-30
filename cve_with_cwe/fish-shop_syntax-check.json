@@ -1,0 +1,50 @@
+[
+{
+"cve_id": "CVE-2024-42482",
+"patch_date": [
+"2024-08-11 14:16:42+01:00",
+"2024-08-09 18:15:49+01:00"
+],
+"patch_files": [
+".github/workflows/test.yml",
+"action.yml",
+"README.md"
+],
+"earliest_patch_date": "2024-08-09 18:15:49+01:00",
+"earliest_vuln_date": "2021-05-22 22:24:10+01:00",
+"vuln_files": [
+"action.yml"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 2.5
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

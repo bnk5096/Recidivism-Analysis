@@ -1,0 +1,117 @@
+[
+{
+"cve_id": "CVE-2023-33964",
+"patch_date": [
+"2023-04-19 19:18:52+03:00"
+],
+"patch_files": [
+"process/transaction/metaProcess.go",
+"process/transaction/metaProcess_test.go"
+],
+"earliest_patch_date": "2023-04-19 19:18:52+03:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-34458",
+"patch_date": [
+"2023-05-28 18:51:48+03:00"
+],
+"patch_files": [
+"integrationTests/vm/txsFee/relayedAsyncESDT_test.go",
+"integrationTests/vm/txsFee/multiShard/relayedTxScCalls_test.go",
+"integrationTests/vm/txsFee/utils/utils.go",
+"integrationTests/vm/txsFee/multiShard/relayedScDeploy_test.go",
+"config/tomlConfig_test.go",
+"process/transaction/shardProcess.go",
+"common/enablers/epochFlags.go",
+"common/enablers/enableEpochsHandler_test.go",
+"cmd/node/config/enableEpochs.toml",
+"testscommon/enableEpochsHandlerStub.go",
+"common/interface.go",
+"integrationTests/testInitializer.go",
+"config/epochConfig.go",
+"common/enablers/enableEpochsHandler.go",
+"process/transaction/export_test.go",
+"integrationTests/multiShard/relayedTx/edgecases/edgecases_test.go",
+"sharding/mock/enableEpochsHandlerMock.go",
+"process/transaction/shardProcess_test.go",
+"integrationTests/vm/txsFee/relayedBuiltInFunctions_test.go",
+"integrationTests/vm/txsFee/relayedScCalls_test.go",
+"integrationTests/vm/txsFee/relayedScDeploy_test.go",
+"integrationTests/vm/txsFee/relayedDns_test.go",
+"integrationTests/vm/txsFee/relayedAsyncCall_test.go",
+"integrationTests/vm/txsFee/multiShard/relayedBuiltInFunctions_test.go",
+"integrationTests/vm/txsFee/multiShard/relayedMoveBalance_test.go",
+"integrationTests/vm/txsFee/relayedESDT_test.go",
+"integrationTests/vm/txsFee/relayedMoveBalance_test.go"
+],
+"earliest_patch_date": "2023-05-28 18:51:48+03:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "LOW",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"NVD-CWE-noinfo"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

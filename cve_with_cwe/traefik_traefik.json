@@ -1,0 +1,143 @@
+[
+{
+"cve_id": "CVE-2022-46153",
+"patch_date": [
+"2022-12-06 18:28:05+01:00"
+],
+"patch_files": [
+"integration/tcp_test.go",
+"pkg/server/router/tcp/manager.go",
+"pkg/tls/tlsmanager_test.go",
+"pkg/tls/tlsmanager.go",
+"integration/fixtures/https/https_invalid_tls_options.toml",
+"pkg/server/router/router.go",
+"pkg/server/router/router_test.go",
+"pkg/server/router/tcp/router.go",
+"pkg/server/routerfactory.go",
+"integration/https_test.go",
+"integration/fixtures/tcp/multi-tls-options.toml"
+],
+"earliest_patch_date": "2022-12-06 18:28:05+01:00",
+"earliest_vuln_date": "2019-06-21 17:18:05+02:00",
+"vuln_files": [
+"pkg/tls/tlsmanager_test.go",
+"pkg/server/router/tcp/manager.go",
+"pkg/tls/tlsmanager.go",
+"pkg/server/router/router.go",
+"pkg/server/router/router_test.go",
+"pkg/server/router/tcp/router.go",
+"pkg/server/routerfactory.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-295"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-29013",
+"patch_date": [
+"2023-04-06 18:10:03+02:00"
+],
+"patch_files": [
+"CHANGELOG.md",
+"docs/scripts/verify.sh",
+"script/gcg/traefik-bugfix.toml",
+"docs/content/https/acme.md"
+],
+"earliest_patch_date": "2023-04-06 18:10:03+02:00",
+"earliest_vuln_date": "2019-05-10 09:58:05+02:00",
+"vuln_files": [
+"docs/scripts/verify.sh",
+"script/gcg/traefik-bugfix.toml",
+"docs/content/https/acme.md"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-28869",
+"patch_date": [
+"2024-04-11 17:18:03+02:00"
+],
+"patch_files": [
+"docs/content/reference/static-configuration/cli-ref.md",
+"pkg/config/static/static_config.go",
+"docs/content/reference/static-configuration/env-ref.md",
+"docs/content/routing/entrypoints.md",
+"docs/content/migration/v2.md"
+],
+"earliest_patch_date": "2024-04-11 17:18:03+02:00",
+"earliest_vuln_date": "2024-04-11 15:48:04+02:00",
+"vuln_files": [
+"docs/content/reference/static-configuration/cli-ref.md",
+"pkg/config/static/static_config.go",
+"docs/content/reference/static-configuration/env-ref.md",
+"docs/content/routing/entrypoints.md",
+"docs/content/migration/v2.md"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

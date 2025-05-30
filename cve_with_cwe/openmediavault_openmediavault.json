@@ -1,0 +1,175 @@
+[
+{
+"cve_id": "CVE-2017-1000065",
+"patch_date": [
+"2017-03-17 11:26:15+01:00"
+],
+"patch_files": [
+"deb/openmediavault/var/www/openmediavault/js/omv/module/admin/service/rsyncd/Modules.js",
+"deb/openmediavault/var/www/openmediavault/js/omv/module/admin/service/smb/Shares.js",
+"deb/openmediavault-route/debian/control",
+"deb/openmediavault-usbbackup/debian/changelog",
+"deb/openmediavault/var/www/openmediavault/js/omv/module/admin/system/cron/Cron.js",
+"deb/openmediavault-iscsitarget/debian/changelog",
+"deb/openmediavault/var/www/openmediavault/js/omv/grid/column/Text.js",
+"deb/openmediavault/var/www/openmediavault/js/omv/module/admin/storage/smart/ScheduledJobs.js",
+"deb/openmediavault/var/www/openmediavault/js/omv/module/admin/privilege/sharedfolder/SharedFolder.js",
+"deb/openmediavault/var/www/openmediavault/js/omv/module/admin/system/certificate/Ssh.js",
+"deb/openmediavault/var/www/openmediavault/js/omv/module/admin/system/network/Firewall.js",
+"deb/openmediavault-netatalk/debian/changelog",
+"deb/openmediavault/var/www/openmediavault/js/omv/module/admin/system/network/Interfaces.js",
+"deb/openmediavault-netatalk/var/www/openmediavault/js/omv/module/admin/service/afp/Shares.js",
+"deb/openmediavault-route/var/www/openmediavault/js/omv/module/admin/system/network/Route.js",
+"deb/openmediavault/var/www/openmediavault/js/omv/module/admin/service/nfs/Shares.js",
+"deb/openmediavault/debian/changelog",
+"deb/openmediavault/var/www/openmediavault/js/omv/module/admin/system/powermanagement/ScheduledJobs.js",
+"deb/openmediavault/var/www/openmediavault/js/omv/module/admin/service/rsync/Jobs.js",
+"deb/openmediavault-iscsitarget/debian/control",
+"deb/openmediavault-usbbackup/var/www/openmediavault/js/omv/module/admin/service/usbbackup/Jobs.js",
+"deb/openmediavault-netatalk/debian/control",
+"deb/openmediavault-clamav/debian/changelog",
+"deb/openmediavault-iscsitarget/var/www/openmediavault/js/omv/module/admin/service/iscsitarget/Targets.js",
+"deb/openmediavault-clamav/debian/control",
+"deb/openmediavault/var/www/openmediavault/js/omv/workspace/grid/Panel.js",
+"deb/openmediavault/var/www/openmediavault/js/omv/module/admin/service/ftp/Shares.js",
+"deb/openmediavault/var/www/openmediavault/js/omv/module/admin/system/certificate/Ssl.js",
+"deb/openmediavault/var/www/openmediavault/js/omv/module/admin/privilege/group/Group.js",
+"deb/openmediavault/var/www/openmediavault/js/omv/window/MessageBox.js",
+"deb/openmediavault-usbbackup/debian/control",
+"deb/openmediavault/var/www/openmediavault/js/omv/module/admin/privilege/user/User.js",
+"deb/openmediavault-route/debian/changelog",
+"deb/openmediavault-clamav/var/www/openmediavault/js/omv/module/admin/service/clamav/Jobs.js"
+],
+"earliest_patch_date": "2017-03-17 11:26:15+01:00",
+"earliest_vuln_date": "2013-05-25 20:17:57+00:00",
+"vuln_files": [
+"deb/openmediavault-iscsitarget/debian/control",
+"deb/openmediavault-clamav/debian/control",
+"deb/openmediavault-usbbackup/debian/control",
+"deb/openmediavault-route/debian/control",
+"deb/openmediavault/var/www/openmediavault/js/omv/window/MessageBox.js",
+"deb/openmediavault-netatalk/debian/control"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-26124",
+"patch_date": [
+"2020-09-26 22:36:04+02:00"
+],
+"patch_files": [
+"deb/openmediavault/usr/share/php/openmediavault/functions.inc",
+"deb/openmediavault/usr/share/php/openmediavault/config/databasebackend.inc",
+"deb/openmediavault/usr/share/openmediavault/unittests/php/test_openmediavault_functions.php",
+"deb/openmediavault/usr/share/openmediavault/unittests/php/test_openmediavault_config_databasebackend.php"
+],
+"earliest_patch_date": "2020-09-26 22:36:04+02:00",
+"earliest_vuln_date": "2016-03-11 15:02:55+00:00",
+"vuln_files": [
+"deb/openmediavault/usr/share/php/openmediavault/config/databasebackend.inc",
+"deb/openmediavault/usr/share/php/openmediavault/functions.inc"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "COMPLETE",
+"integrityImpact": "COMPLETE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 9
+},
+"severity": "HIGH",
+"exploitabilityScore": 8,
+"impactScore": 10,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-94"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,54 @@
+[
+{
+"cve_id": "CVE-2023-37378",
+"patch_date": [
+"2023-05-21 16:15:16+00:00",
+"2023-06-21 23:38:48+00:00",
+"2023-06-03 15:10:54+00:00"
+],
+"patch_files": [
+"Source/exehead/util.c",
+"Source/exehead/Main.c",
+"Docs/src/history.but",
+"Source/build.cpp"
+],
+"earliest_patch_date": "2023-05-21 16:15:16+00:00",
+"earliest_vuln_date": "2002-08-02 10:01:35+00:00",
+"vuln_files": [
+"Source/exehead/util.c",
+"Source/exehead/Main.c",
+"Source/build.cpp"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,145 @@
+[
+{
+"cve_id": "CVE-2020-15224",
+"patch_date": [
+"2020-10-12 13:40:03-07:00"
+],
+"patch_files": [
+"syscall/consolefs.c",
+"syscall/syscall.c",
+"syscall/devices/hostepoll/hostepoll.c",
+"include/openenclave/internal/syscall/sys/socket.h",
+"syscall/devices/hostfs/hostfs.c",
+"syscall/socket.c",
+"syscall/devices/hostresolver/hostresolver.c",
+"syscall/iov.c",
+"include/openenclave/internal/syscall/fd.h",
+"include/openenclave/edl/socket.edl",
+"syscall/devices/hostsock/hostsock.c",
+"include/openenclave/internal/syscall/iov.h"
+],
+"earliest_patch_date": "2020-10-12 13:40:03-07:00",
+"earliest_vuln_date": "2019-04-25 11:46:46-05:00",
+"vuln_files": [
+"syscall/consolefs.c",
+"syscall/syscall.c",
+"syscall/devices/hostepoll/hostepoll.c",
+"include/openenclave/internal/syscall/sys/socket.h",
+"syscall/socket.c",
+"syscall/devices/hostfs/hostfs.c",
+"syscall/iov.c",
+"syscall/devices/hostresolver/hostresolver.c",
+"include/openenclave/internal/syscall/fd.h",
+"include/openenclave/edl/socket.edl",
+"syscall/devices/hostsock/hostsock.c",
+"include/openenclave/internal/syscall/iov.h"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+"attackVector": "ADJACENT_NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.8,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:A/AC:L/Au:S/C:P/I:N/A:N",
+"accessVector": "ADJACENT_NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 2.7
+},
+"severity": "LOW",
+"exploitabilityScore": 5.1,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-37479",
+"patch_date": [
+"2023-07-17 10:33:00-07:00"
+],
+"patch_files": [
+"enclave/core/sgx/asmcommon.inc",
+"tests/abi/host/host.cpp",
+"tests/abi/enc/enc.cpp",
+"enclave/core/sgx/enter.S",
+"tests/libc/enc/enc.c",
+"tests/abi/abi_utils.h",
+"enclave/core/sgx/context.inc",
+"enclave/core/sgx/asmdefs.c",
+"enclave/core/sgx/calls.c"
+],
+"earliest_patch_date": "2023-07-17 10:33:00-07:00",
+"earliest_vuln_date": "2020-07-13 22:22:14+00:00",
+"vuln_files": [
+"enclave/core/sgx/asmcommon.inc",
+"tests/abi/enc/enc.cpp",
+"tests/libc/enc/enc.c",
+"enclave/core/sgx/asmdefs.c",
+"enclave/core/sgx/calls.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

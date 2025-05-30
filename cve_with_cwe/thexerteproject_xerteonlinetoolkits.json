@@ -1,0 +1,359 @@
+[
+{
+"cve_id": "CVE-2021-44662",
+"patch_date": [
+"2020-03-27 13:13:00+01:00"
+],
+"patch_files": [
+"modules/xerte/templates/FutureTeacher/.htaccess",
+"languages/.htaccess",
+"website_code/php/management/upload.php",
+"editor/elfinder/browse.php",
+"modules/xerte/templates/mediaInteractions/.htaccess",
+"plugins/file_uploading-extension-check.php",
+"print/index.php",
+"print/print.php",
+"error_logs/.htaccess",
+"USER-FILES/.htaccess",
+"editor/elfinder/php/elFinderVolumeDriver.class.php",
+"website_code/php/import/fileupload.php",
+"editor/elfinder/php/connector.php",
+"editor/elfinder/php/mime.types",
+"modules/xerte/templates/multipersp/.htaccess",
+"modules/site/templates/site/.htaccess",
+"setup/htaccess.conf",
+"modules/decision/templates/decision/.htaccess",
+"modules/xerte/templates/Nottingham/.htaccess",
+"import/.htaccess",
+"modules/xerte/templates/Rss/.htaccess"
+],
+"earliest_patch_date": "2020-03-27 13:13:00+01:00",
+"earliest_vuln_date": "2010-04-29 13:06:21+00:00",
+"vuln_files": [
+"plugins/file_uploading-extension-check.php",
+"editor/elfinder/php/connector.php",
+"editor/elfinder/php/mime.types",
+"print/index.php",
+"print/print.php",
+"setup/htaccess.conf",
+"USER-FILES/.htaccess",
+"editor/elfinder/browse.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-44663",
+"patch_date": [
+"2020-03-27 13:13:00+01:00"
+],
+"patch_files": [
+"modules/xerte/templates/FutureTeacher/.htaccess",
+"languages/.htaccess",
+"website_code/php/management/upload.php",
+"editor/elfinder/browse.php",
+"modules/xerte/templates/mediaInteractions/.htaccess",
+"plugins/file_uploading-extension-check.php",
+"print/index.php",
+"print/print.php",
+"error_logs/.htaccess",
+"USER-FILES/.htaccess",
+"editor/elfinder/php/elFinderVolumeDriver.class.php",
+"website_code/php/import/fileupload.php",
+"editor/elfinder/php/connector.php",
+"editor/elfinder/php/mime.types",
+"modules/xerte/templates/multipersp/.htaccess",
+"modules/site/templates/site/.htaccess",
+"setup/htaccess.conf",
+"modules/decision/templates/decision/.htaccess",
+"modules/xerte/templates/Nottingham/.htaccess",
+"import/.htaccess",
+"modules/xerte/templates/Rss/.htaccess"
+],
+"earliest_patch_date": "2020-03-27 13:13:00+01:00",
+"earliest_vuln_date": "2010-04-29 13:06:21+00:00",
+"vuln_files": [
+"plugins/file_uploading-extension-check.php",
+"editor/elfinder/php/connector.php",
+"editor/elfinder/php/mime.types",
+"print/index.php",
+"print/print.php",
+"setup/htaccess.conf",
+"USER-FILES/.htaccess",
+"editor/elfinder/browse.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"modules/xerte/templates/FutureTeacher/.htaccess",
+"languages/.htaccess",
+"website_code/php/management/upload.php",
+"editor/elfinder/browse.php",
+"modules/xerte/templates/mediaInteractions/.htaccess",
+"plugins/file_uploading-extension-check.php",
+"print/index.php",
+"print/print.php",
+"error_logs/.htaccess",
+"USER-FILES/.htaccess",
+"editor/elfinder/php/elFinderVolumeDriver.class.php",
+"website_code/php/import/fileupload.php",
+"editor/elfinder/php/connector.php",
+"editor/elfinder/php/mime.types",
+"modules/xerte/templates/multipersp/.htaccess",
+"modules/site/templates/site/.htaccess",
+"setup/htaccess.conf",
+"modules/decision/templates/decision/.htaccess",
+"modules/xerte/templates/Nottingham/.htaccess",
+"import/.htaccess",
+"modules/xerte/templates/Rss/.htaccess"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-44664",
+"patch_date": [
+"2021-05-07 16:59:18+02:00"
+],
+"patch_files": [
+"modules/site/engine/upload.php",
+"website_code/php/import/fileupload.php",
+"editor/uploadImage.php",
+"editor/elfinder/php/connector.php",
+"modules/decision/engine/upload.php"
+],
+"earliest_patch_date": "2021-05-07 16:59:18+02:00",
+"earliest_vuln_date": "2021-03-19 17:57:26+01:00",
+"vuln_files": [
+"modules/site/engine/upload.php",
+"website_code/php/import/fileupload.php",
+"editor/uploadImage.php",
+"editor/elfinder/php/connector.php",
+"modules/decision/engine/upload.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-22",
+"CWE-434"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"website_code/php/import/fileupload.php",
+"editor/elfinder/php/connector.php"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"website_code/php/import/fileupload.php",
+"editor/elfinder/php/connector.php"
+]
+},
+{
+"cve_id": "CVE-2021-44665",
+"patch_date": [
+"2021-11-18 16:41:49+01:00"
+],
+"patch_files": [
+"getfile.php"
+],
+"earliest_patch_date": "2021-11-18 16:41:49+01:00",
+"earliest_vuln_date": "2011-03-25 13:18:07+00:00",
+"vuln_files": [
+"getfile.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-22"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

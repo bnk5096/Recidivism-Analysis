@@ -1,0 +1,264 @@
+[
+{
+"cve_id": "CVE-2012-3408",
+"patch_date": [
+"2012-06-26 17:11:37-07:00"
+],
+"patch_files": [
+"lib/puppet/network/authstore.rb",
+"spec/integration/network/rest_authconfig_spec.rb"
+],
+"earliest_patch_date": "2012-06-26 17:11:37-07:00",
+"earliest_vuln_date": "2009-12-18 14:10:38+11:00",
+"vuln_files": [
+"lib/puppet/network/authstore.rb",
+"spec/integration/network/rest_authconfig_spec.rb"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:H/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "HIGH",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 2.6
+},
+"severity": "LOW",
+"exploitabilityScore": 4.9,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-287"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2012-3864",
+"patch_date": [
+"2012-06-27 12:26:08-07:00",
+"2012-06-26 17:11:57-07:00"
+],
+"patch_files": [
+"lib/puppet/file_serving/configuration.rb",
+"lib/puppet/indirector/file_metadata/selector.rb",
+"spec/unit/file_serving/metadata_spec.rb",
+"spec/shared_behaviours/file_serving.rb",
+"lib/puppet/file_serving/metadata.rb",
+"lib/puppet/application/master.rb",
+"spec/unit/file_serving/content_spec.rb",
+"lib/puppet/indirector/file_content/selector.rb",
+"spec/unit/file_serving/indirection_hooks_spec.rb",
+"lib/puppet/file_serving/indirection_hooks.rb",
+"lib/puppet/file_serving/content.rb"
+],
+"earliest_patch_date": "2012-06-26 17:11:57-07:00",
+"earliest_vuln_date": "2007-10-18 14:36:38-05:00",
+"vuln_files": [
+"lib/puppet/file_serving/configuration.rb",
+"spec/unit/file_serving/metadata_spec.rb",
+"spec/shared_behaviours/file_serving.rb",
+"lib/puppet/file_serving/metadata.rb",
+"spec/unit/file_serving/content_spec.rb",
+"lib/puppet/file_serving/terminus_selector.rb",
+"spec/unit/file_serving/terminus_selector_spec.rb",
+"lib/puppet/file_serving/content.rb"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-200"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2012-3867",
+"patch_date": [
+"2012-06-27 14:04:23-07:00",
+"2012-06-26 17:12:28-07:00"
+],
+"patch_files": [
+"lib/puppet/ssl/certificate_authority.rb",
+"spec/unit/ssl/certificate_authority_spec.rb"
+],
+"earliest_patch_date": "2012-06-26 17:12:28-07:00",
+"earliest_vuln_date": "2008-04-15 21:34:05-05:00",
+"vuln_files": [
+"spec/unit/ssl/certificate_authority_spec.rb"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-264"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2012-3866",
+"patch_date": [
+"2012-06-26 17:35:23-07:00"
+],
+"patch_files": [
+"lib/puppet/defaults.rb"
+],
+"earliest_patch_date": "2012-06-26 17:35:23-07:00",
+"earliest_vuln_date": "2006-10-16 02:46:50+00:00",
+"vuln_files": [
+"lib/puppet/defaults.rb"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "LOCAL",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 2.1
+},
+"severity": "LOW",
+"exploitabilityScore": 3.9,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-264"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-264"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2012-3865",
+"patch_date": [
+"2012-06-28 15:17:40-07:00",
+"2012-06-28 14:13:19-07:00"
+],
+"patch_files": [
+"spec/unit/reports/store_spec.rb",
+"lib/puppet/reports/store.rb"
+],
+"earliest_patch_date": "2012-06-28 14:13:19-07:00",
+"earliest_vuln_date": "2006-10-07 20:52:19+00:00",
+"vuln_files": [
+"lib/puppet/reports/store.rb"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

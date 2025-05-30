@@ -1,0 +1,187 @@
+[
+{
+"cve_id": "CVE-2023-27580",
+"patch_date": [
+"2023-03-10 23:01:18-06:00"
+],
+"patch_files": [
+"src/Controllers/RegisterController.php",
+"src/Language/de/Auth.php",
+"src/Language/sk/Auth.php",
+"src/Controllers/LoginController.php",
+"src/Language/pt-BR/Auth.php",
+"src/Authentication/Passwords.php",
+"src/Language/fa/Auth.php",
+"tests/Controllers/RegisterTest.php",
+"src/Language/it/Auth.php",
+"src/Language/en/Auth.php",
+"docs/index.md",
+"docs/guides/strengthen_password.md",
+"src/Authentication/Passwords/ValidationRules.php",
+"src/Language/id/Auth.php",
+"README.md",
+"src/Language/tr/Auth.php",
+"src/Authentication/Authenticators/Session.php",
+"tests/Controllers/LoginTest.php",
+"UPGRADING.md",
+"mkdocs.yml",
+"src/Language/es/Auth.php",
+"tests/Authentication/Authenticators/SessionAuthenticatorTest.php",
+"src/Config/Auth.php",
+"tests/Unit/PasswordsTest.php",
+"src/Language/ja/Auth.php",
+"src/Language/fr/Auth.php"
+],
+"earliest_patch_date": "2023-03-10 23:01:18-06:00",
+"earliest_vuln_date": "2020-12-30 00:53:42-06:00",
+"vuln_files": [
+"src/Controllers/RegisterController.php",
+"src/Controllers/LoginController.php",
+"src/Authentication/Authenticators/Session.php",
+"src/Authentication/Passwords.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.9,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-48707",
+"patch_date": [
+"2023-11-23 08:22:00+09:00"
+],
+"patch_files": [
+"phpunit.xml.dist",
+"src/Commands/Setup.php",
+"src/Authentication/HMAC/HmacEncrypter.php",
+"src/Config/AuthToken.php",
+"src/Config/BaseAuthToken.php",
+"src/Authentication/Authenticators/HmacSha256.php",
+"tests/Authentication/HasHmacTokensTest.php",
+"docs/guides/api_hmac_keys.md",
+"docs/references/authentication/hmac.md",
+"src/Commands/Hmac.php",
+"tests/Commands/HmacTest.php",
+"UPGRADING.md",
+"tests/Authentication/Filters/HmacFilterTest.php",
+"src/Models/UserIdentityModel.php",
+"tests/Authentication/Authenticators/HmacAuthenticatorTest.php"
+],
+"earliest_patch_date": "2023-11-23 08:22:00+09:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"UPGRADING.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-48708",
+"patch_date": [
+"2023-11-23 08:32:26+09:00"
+],
+"patch_files": [
+"src/Config/AuthToken.php",
+"src/Authentication/Authenticators/HmacSha256.php",
+"docs/getting_started/configuration.md",
+"docs/references/authentication/hmac.md",
+"docs/addons/jwt.md",
+"docs/references/authentication/tokens.md",
+"src/Authentication/Authenticators/AccessTokens.php",
+"phpstan-baseline.php",
+"src/Authentication/Authenticators/JWT.php",
+"tests/Authentication/Authenticators/AccessTokenAuthenticatorTest.php",
+"tests/Authentication/Authenticators/HmacAuthenticatorTest.php",
+"tests/Authentication/Authenticators/JWTAuthenticatorTest.php"
+],
+"earliest_patch_date": "2023-11-23 08:32:26+09:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/Config/AuthToken.php",
+"src/Authentication/Authenticators/HmacSha256.php",
+"docs/references/authentication/hmac.md",
+"tests/Authentication/Authenticators/HmacAuthenticatorTest.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

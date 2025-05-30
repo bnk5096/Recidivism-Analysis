@@ -1,0 +1,100 @@
+[
+{
+"cve_id": "CVE-2022-4929",
+"patch_date": [
+"2022-12-09 10:21:34+01:00"
+],
+"patch_files": [
+"addons/Commons/src/tts-utils.js",
+"changelog.txt",
+"addons/Table/src/presenter.js"
+],
+"earliest_patch_date": "2022-12-09 10:21:34+01:00",
+"earliest_vuln_date": "2018-05-14 14:31:25+02:00",
+"vuln_files": [
+"addons/Commons/src/tts-utils.js",
+"addons/Table/src/presenter.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-4928",
+"patch_date": [
+"2022-12-20 11:57:27+01:00"
+],
+"patch_files": [
+"changelog.txt",
+"addons/Text_Selection/src/presenter.js"
+],
+"earliest_patch_date": "2022-12-20 11:57:27+01:00",
+"earliest_vuln_date": "2018-06-15 11:19:08+02:00",
+"vuln_files": [
+"addons/Text_Selection/src/presenter.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"changelog.txt"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

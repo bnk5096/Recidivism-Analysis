@@ -1,0 +1,138 @@
+[
+{
+"cve_id": "CVE-2023-37268",
+"patch_date": [
+"2023-07-07 20:41:00+02:00"
+],
+"patch_files": [
+"warpgate-protocol-http/src/api/sso_provider_list.rs"
+],
+"earliest_patch_date": "2023-07-07 20:41:00+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-43660",
+"patch_date": [
+"2023-09-27 22:08:49+02:00"
+],
+"patch_files": [
+"warpgate-protocol-ssh/src/server/russh_handler.rs",
+"Cargo.lock",
+"warpgate-protocol-ssh/src/server/session.rs",
+"warpgate-protocol-ssh/Cargo.toml"
+],
+"earliest_patch_date": "2023-09-27 22:08:49+02:00",
+"earliest_vuln_date": "2022-04-10 22:58:58+02:00",
+"vuln_files": [
+"Cargo.lock",
+"warpgate-protocol-ssh/src/server/session.rs",
+"warpgate-protocol-ssh/Cargo.toml"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-347"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-48712",
+"patch_date": [
+"2023-11-23 18:35:27+01:00"
+],
+"patch_files": [
+"warpgate-protocol-http/src/common.rs",
+"warpgate-protocol-http/src/api/auth.rs"
+],
+"earliest_patch_date": "2023-11-23 18:35:27+01:00",
+"earliest_vuln_date": "2022-08-05 20:04:40+02:00",
+"vuln_files": [
+"warpgate-protocol-http/src/common.rs",
+"warpgate-protocol-http/src/api/auth.rs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

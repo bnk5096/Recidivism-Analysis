@@ -1,0 +1,363 @@
+[
+{
+"cve_id": "CVE-2023-25157",
+"patch_date": [
+"2023-02-13 09:43:43-08:00"
+],
+"patch_files": [
+"src/community/jdbcconfig/src/main/java/org/geoserver/jdbcconfig/internal/OracleDialect.java",
+"src/community/jdbcconfig/src/test/java/org/geoserver/jdbcconfig/JDBCConfigTestSupport.java",
+"src/community/jdbcconfig/src/main/java/org/geoserver/jdbcloader/JDBCLoaderProperties.java",
+"src/community/jdbcconfig/src/test/java/org/geoserver/jdbcconfig/internal/QueryBuilderTest.java",
+"src/community/jdbcconfig/src/main/java/org/geoserver/jdbcconfig/internal/ConfigDatabase.java",
+"src/community/jdbcconfig/src/main/resources/jdbcconfig.properties.h2",
+"src/community/jdbcconfig/src/main/resources/jdbcconfig.properties.postgres",
+"src/community/jdbcconfig/src/main/java/org/geoserver/jdbcconfig/internal/Dialect.java",
+"src/community/jdbcconfig/src/main/resources/applicationContext.xml",
+"src/community/jdbcconfig/src/main/java/org/geoserver/jdbcconfig/internal/FilterToCatalogSQL.java",
+"src/community/jdbcconfig/src/main/resources/jdbcconfig.properties",
+"src/community/jdbcconfig/src/main/java/org/geoserver/jdbcconfig/internal/QueryBuilder.java"
+],
+"earliest_patch_date": "2023-02-13 09:43:43-08:00",
+"earliest_vuln_date": "2012-08-29 11:31:40-06:00",
+"vuln_files": [
+"src/community/jdbcconfig/src/main/java/org/geoserver/jdbcconfig/internal/OracleDialect.java",
+"src/community/jdbcconfig/src/test/java/org/geoserver/jdbcconfig/JDBCConfigTestSupport.java",
+"src/community/jdbcconfig/src/test/java/org/geoserver/jdbcconfig/internal/QueryBuilderTest.java",
+"src/community/jdbcconfig/src/main/java/org/geoserver/jdbcconfig/internal/ConfigDatabase.java",
+"src/community/jdbcconfig/src/main/java/org/geoserver/jdbcconfig/internal/Dialect.java",
+"src/community/jdbcconfig/src/main/java/org/geoserver/jdbcconfig/internal/FilterToCatalogSQL.java",
+"src/community/jdbcconfig/src/main/java/org/geoserver/jdbcconfig/internal/QueryBuilder.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-89"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-51445",
+"patch_date": [
+"2023-10-08 21:26:26-07:00"
+],
+"patch_files": [
+"src/restconfig/src/main/java/org/geoserver/rest/resources/ResourceController.java",
+"src/restconfig/src/test/java/org/geoserver/rest/resources/ResourceControllerTest.java"
+],
+"earliest_patch_date": "2023-10-08 21:26:26-07:00",
+"earliest_vuln_date": "2017-03-31 10:13:17+02:00",
+"vuln_files": [
+"src/restconfig/src/main/java/org/geoserver/rest/resources/ResourceController.java",
+"src/restconfig/src/test/java/org/geoserver/rest/resources/ResourceControllerTest.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.8,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.7,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-23818",
+"patch_date": [
+"2023-10-16 13:41:57-07:00",
+"2023-10-16 14:21:33-07:00"
+],
+"patch_files": [
+"src/wms/src/test/java/org/geoserver/wms/map/OpenLayersMapOutputFormatTest.java",
+"src/wms/src/main/resources/org/geoserver/wms/map/OpenLayers2MapTemplate.ftl",
+"src/wms/src/main/java/org/geoserver/wms/map/AbstractOpenLayersMapOutputFormat.java",
+"src/wms/src/main/resources/org/geoserver/wms/map/OpenLayers3MapTemplate.ftl"
+],
+"earliest_patch_date": "2023-10-16 13:41:57-07:00",
+"earliest_vuln_date": "2011-06-18 17:08:19+00:00",
+"vuln_files": [
+"src/wms/src/test/java/org/geoserver/wms/map/OpenLayersMapOutputFormatTest.java",
+"src/wms/src/main/resources/org/geoserver/wms/map/OpenLayers2MapTemplate.ftl",
+"src/wms/src/main/resources/org/geoserver/wms/map/OpenLayers3MapTemplate.ftl"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.8,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.7,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-51444",
+"patch_date": [
+"2023-10-30 17:15:03+01:00",
+"2023-10-30 14:12:25+01:00"
+],
+"patch_files": [
+"src/platform/src/main/java/org/geoserver/platform/resource/Files.java",
+"src/platform/src/main/java/org/geoserver/platform/resource/URIs.java",
+"src/platform/src/test/java/org/geoserver/platform/resource/ResourceTheoryTest.java"
+],
+"earliest_patch_date": "2023-10-30 14:12:25+01:00",
+"earliest_vuln_date": "2015-11-20 11:24:44+01:00",
+"vuln_files": [
+"src/platform/src/main/java/org/geoserver/platform/resource/Files.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-434"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-23642",
+"patch_date": [
+"2023-11-28 11:29:12-08:00",
+"2023-11-20 14:19:57+01:00"
+],
+"patch_files": [
+"src/wms/src/main/java/org/geoserver/wms/svg/StreamingSVGMap.java",
+"src/wms/src/test/java/org/geoserver/wms/svg/SVGMapProducerTest.java"
+],
+"earliest_patch_date": "2023-11-20 14:19:57+01:00",
+"earliest_vuln_date": "2011-06-18 17:08:19+00:00",
+"vuln_files": [
+"src/wms/src/main/java/org/geoserver/wms/svg/StreamingSVGMap.java",
+"src/wms/src/test/java/org/geoserver/wms/svg/SVGMapProducerTest.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.8,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.7,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-23819",
+"patch_date": [
+"2023-11-20 14:20:43+01:00",
+"2023-11-20 14:48:06+01:00"
+],
+"patch_files": [
+"src/extension/mapml/src/test/java/org/geoserver/mapml/MapMLControllerTest.java",
+"src/extension/mapml/src/main/java/org/geoserver/mapml/MapMLController.java"
+],
+"earliest_patch_date": "2023-11-20 14:20:43+01:00",
+"earliest_vuln_date": "2019-06-11 17:14:22-07:00",
+"vuln_files": [
+"src/extension/mapml/src/main/java/org/geoserver/mapml/MapMLController.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.8,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.7,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-23634",
+"patch_date": [
+"2024-01-22 12:52:53+01:00",
+"2024-01-22 12:00:07-08:00"
+],
+"patch_files": [
+"src/restconfig/src/test/java/org/geoserver/rest/catalog/DataStoreFileUploadTest.java",
+"src/restconfig/src/main/java/org/geoserver/rest/catalog/AbstractStoreUploadController.java",
+"src/restconfig/src/main/java/org/geoserver/rest/catalog/DataStoreFileController.java",
+"src/restconfig/src/test/java/org/geoserver/rest/catalog/CoverageStoreFileUploadTest.java",
+"src/restconfig/src/main/java/org/geoserver/rest/catalog/CoverageStoreFileController.java"
+],
+"earliest_patch_date": "2024-01-22 12:52:53+01:00",
+"earliest_vuln_date": "2017-03-28 19:02:07+02:00",
+"vuln_files": [
+"src/restconfig/src/main/java/org/geoserver/rest/catalog/DataStoreFileController.java",
+"src/restconfig/src/main/java/org/geoserver/rest/catalog/AbstractStoreUploadController.java",
+"src/restconfig/src/main/java/org/geoserver/rest/catalog/CoverageStoreFileController.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:L/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "HIGH",
+"baseScore": 6,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 4.7
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

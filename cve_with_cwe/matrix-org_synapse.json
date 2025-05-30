@@ -1,0 +1,747 @@
+[
+{
+"cve_id": "CVE-2018-10657",
+"patch_date": [
+"2018-05-01 17:54:19+01:00"
+],
+"patch_files": [
+"synapse/api/constants.py",
+"synapse/handlers/message.py",
+"synapse/federation/federation_base.py"
+],
+"earliest_patch_date": "2018-05-01 17:54:19+01:00",
+"earliest_vuln_date": "2014-12-04 15:50:01+00:00",
+"vuln_files": [
+"synapse/handlers/message.py",
+"synapse/federation/federation_base.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-20"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-21273",
+"patch_date": [
+"2020-12-02 11:09:24-05:00"
+],
+"patch_files": [
+"tests/rest/media/v1/test_media_storage.py",
+"synapse/rest/media/v1/media_repository.py",
+"tests/storage/test_purge.py",
+"tests/rest/key/v2/test_remote_key_resource.py",
+"tests/api/test_filtering.py",
+"synapse/app/generic_worker.py",
+"tests/storage/test_roommember.py",
+"tests/handlers/test_profile.py",
+"synapse/http/client.py",
+"tests/storage/test_redaction.py",
+"synapse/handlers/federation.py",
+"tests/handlers/test_presence.py",
+"synapse/federation/transport/client.py",
+"tests/rest/client/v1/test_rooms.py",
+"synapse/push/httppusher.py",
+"tests/handlers/test_typing.py",
+"synapse/crypto/keyring.py",
+"synapse/config/federation.py",
+"tests/handlers/test_federation.py",
+"tests/replication/_base.py",
+"tests/rest/client/v1/test_typing.py",
+"tests/test_server.py",
+"synapse/http/federation/matrix_federation_agent.py",
+"tests/app/test_openid_listener.py",
+"tests/rest/client/v1/test_profile.py",
+"tests/app/test_frontend_proxy.py",
+"tests/test_federation.py",
+"tests/storage/test_e2e_room_keys.py",
+"tests/handlers/test_device.py",
+"synapse/federation/federation_server.py",
+"changelog.d/8821.bugfix",
+"tests/handlers/test_directory.py",
+"tests/crypto/test_keyring.py",
+"synapse/handlers/identity.py",
+"tests/replication/test_pusher_shard.py",
+"tests/replication/test_federation_sender_shard.py",
+"synapse/server.py",
+"docs/sample_config.yaml",
+"tests/push/test_http.py",
+"tests/rest/client/v1/test_presence.py",
+"synapse/http/matrixfederationclient.py",
+"tests/rest/admin/test_admin.py",
+"tests/http/federation/test_matrix_federation_agent.py"
+],
+"earliest_patch_date": "2020-12-02 11:09:24-05:00",
+"earliest_vuln_date": "2014-08-12 15:10:52+01:00",
+"vuln_files": [
+"tests/rest/media/v1/test_media_storage.py",
+"synapse/rest/media/v1/media_repository.py",
+"tests/storage/test_purge.py",
+"tests/rest/key/v2/test_remote_key_resource.py",
+"tests/api/test_filtering.py",
+"synapse/app/generic_worker.py",
+"tests/storage/test_roommember.py",
+"tests/handlers/test_profile.py",
+"synapse/http/client.py",
+"tests/storage/test_redaction.py",
+"synapse/handlers/federation.py",
+"tests/handlers/test_presence.py",
+"synapse/federation/transport/client.py",
+"tests/rest/client/v1/test_rooms.py",
+"synapse/push/httppusher.py",
+"tests/handlers/test_typing.py",
+"synapse/crypto/keyring.py",
+"synapse/config/federation.py",
+"tests/handlers/test_federation.py",
+"tests/replication/_base.py",
+"tests/rest/client/v1/test_typing.py",
+"tests/test_server.py",
+"synapse/http/federation/matrix_federation_agent.py",
+"tests/app/test_openid_listener.py",
+"tests/rest/client/v1/test_profile.py",
+"tests/app/test_frontend_proxy.py",
+"tests/test_federation.py",
+"tests/storage/test_e2e_room_keys.py",
+"tests/handlers/test_device.py",
+"synapse/federation/federation_server.py",
+"tests/handlers/test_directory.py",
+"tests/crypto/test_keyring.py",
+"synapse/handlers/identity.py",
+"tests/replication/test_pusher_shard.py",
+"tests/replication/test_federation_sender_shard.py",
+"synapse/server.py",
+"docs/sample_config.yaml",
+"tests/push/test_http.py",
+"tests/rest/client/v1/test_presence.py",
+"synapse/http/matrixfederationclient.py",
+"tests/rest/admin/test_admin.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-601"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-26257",
+"patch_date": [
+"2020-12-09 10:38:39+00:00"
+],
+"patch_files": [
+"synapse/federation/transport/server.py",
+"changelog.d/8776.bugfix",
+"tests/handlers/test_federation.py",
+"synapse/federation/federation_server.py",
+"synapse/handlers/federation.py"
+],
+"earliest_patch_date": "2020-12-09 10:38:39+00:00",
+"earliest_vuln_date": "2015-03-05 20:55:40+00:00",
+"vuln_files": [
+"tests/handlers/test_federation.py",
+"synapse/federation/transport/server.py",
+"synapse/handlers/federation.py",
+"synapse/federation/federation_server.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-400"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"tests/handlers/test_federation.py",
+"synapse/federation/federation_server.py",
+"synapse/handlers/federation.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-21274",
+"patch_date": [
+"2020-12-16 17:25:24-05:00"
+],
+"patch_files": [
+"changelog.d/8950.misc",
+"synapse/http/federation/well_known_resolver.py",
+"synapse/http/matrixfederationclient.py",
+"synapse/http/client.py",
+"tests/http/federation/test_matrix_federation_agent.py"
+],
+"earliest_patch_date": "2020-12-16 17:25:24-05:00",
+"earliest_vuln_date": "2016-01-24 18:47:27-05:00",
+"vuln_files": [
+"synapse/http/client.py",
+"synapse/http/federation/well_known_resolver.py",
+"synapse/http/matrixfederationclient.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-770"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"synapse/http/matrixfederationclient.py",
+"synapse/http/client.py",
+"tests/http/federation/test_matrix_federation_agent.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-21332",
+"patch_date": [
+"2021-01-27 10:59:50-05:00"
+],
+"patch_files": [
+"synapse/push/mailer.py",
+"synapse/config/registration.py",
+"changelog.d/9200.misc",
+"synapse/res/templates/sso_login_idp_picker.html",
+"synapse/config/captcha.py",
+"UPGRADE.rst",
+"synapse/res/templates/sso_auth_bad_user.html",
+"synapse/res/templates/sso_auth_confirm.html",
+"synapse/res/templates/sso_error.html",
+"synapse/config/_base.py",
+"synapse/config/consent_config.py",
+"synapse/res/templates/sso_redirect_confirm.html"
+],
+"earliest_patch_date": "2021-01-27 10:59:50-05:00",
+"earliest_vuln_date": "2016-04-28 10:55:08+01:00",
+"vuln_files": [
+"synapse/push/mailer.py",
+"synapse/config/registration.py",
+"synapse/res/templates/sso_login_idp_picker.html",
+"synapse/config/captcha.py",
+"synapse/res/templates/sso_auth_bad_user.html",
+"synapse/res/templates/sso_auth_confirm.html",
+"synapse/res/templates/sso_error.html",
+"synapse/config/_base.py",
+"synapse/config/consent_config.py",
+"synapse/res/templates/sso_redirect_confirm.html"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 8.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 4.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-21333",
+"patch_date": [
+"2021-01-27 10:59:50-05:00"
+],
+"patch_files": [
+"synapse/push/mailer.py",
+"synapse/config/registration.py",
+"changelog.d/9200.misc",
+"synapse/res/templates/sso_login_idp_picker.html",
+"synapse/config/captcha.py",
+"UPGRADE.rst",
+"synapse/res/templates/sso_auth_bad_user.html",
+"synapse/res/templates/sso_auth_confirm.html",
+"synapse/res/templates/sso_error.html",
+"synapse/config/_base.py",
+"synapse/config/consent_config.py",
+"synapse/res/templates/sso_redirect_confirm.html"
+],
+"earliest_patch_date": "2021-01-27 10:59:50-05:00",
+"earliest_vuln_date": "2016-04-28 10:55:08+01:00",
+"vuln_files": [
+"synapse/push/mailer.py",
+"synapse/config/registration.py",
+"synapse/res/templates/sso_login_idp_picker.html",
+"synapse/config/captcha.py",
+"synapse/res/templates/sso_auth_bad_user.html",
+"synapse/res/templates/sso_auth_confirm.html",
+"synapse/res/templates/sso_error.html",
+"synapse/config/_base.py",
+"synapse/config/consent_config.py",
+"synapse/res/templates/sso_redirect_confirm.html"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.6,
+"impactScore": 4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:H/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "HIGH",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 2.6
+},
+"severity": "LOW",
+"exploitabilityScore": 4.9,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"synapse/push/mailer.py",
+"synapse/config/registration.py",
+"changelog.d/9200.misc",
+"synapse/res/templates/sso_login_idp_picker.html",
+"synapse/config/captcha.py",
+"UPGRADE.rst",
+"synapse/res/templates/sso_auth_bad_user.html",
+"synapse/res/templates/sso_auth_confirm.html",
+"synapse/res/templates/sso_error.html",
+"synapse/config/_base.py",
+"synapse/config/consent_config.py",
+"synapse/res/templates/sso_redirect_confirm.html"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-29471",
+"patch_date": [
+"2021-05-11 11:47:23+02:00"
+],
+"patch_files": [
+"synapse/util/__init__.py",
+"synapse/push/push_rule_evaluator.py",
+"synapse/config/tls.py",
+"tests/push/test_push_rule_evaluator.py",
+"tests/util/test_glob_to_regex.py",
+"tests/federation/test_federation_server.py"
+],
+"earliest_patch_date": "2021-05-11 11:47:23+02:00",
+"earliest_vuln_date": "2016-01-18 14:48:29+00:00",
+"vuln_files": [
+"synapse/util/__init__.py",
+"synapse/push/push_rule_evaluator.py",
+"synapse/config/tls.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "LOW",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-331"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-31052",
+"patch_date": [
+"2022-06-28 14:29:08+01:00"
+],
+"patch_files": [
+"tests/rest/media/v1/test_html_preview.py",
+"synapse/rest/media/v1/preview_html.py"
+],
+"earliest_patch_date": "2022-06-28 14:29:08+01:00",
+"earliest_vuln_date": "2021-12-13 17:55:07+00:00",
+"vuln_files": [
+"synapse/rest/media/v1/preview_html.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-43796",
+"patch_date": [
+"2023-10-31 13:59:09+00:00"
+],
+"patch_files": [
+"synapse/handlers/e2e_keys.py",
+"synapse/handlers/device.py",
+"synapse/federation/federation_server.py"
+],
+"earliest_patch_date": "2023-10-31 13:59:09+00:00",
+"earliest_vuln_date": "2022-02-12 10:44:16+00:00",
+"vuln_files": [
+"synapse/federation/federation_server.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"synapse/federation/federation_server.py"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"synapse/federation/federation_server.py"
+]
+}
+]

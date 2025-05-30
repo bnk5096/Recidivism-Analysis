@@ -1,0 +1,152 @@
+[
+{
+"cve_id": "CVE-2023-29003",
+"patch_date": [
+"2023-04-04 10:42:00-07:00"
+],
+"patch_files": [
+"packages/kit/types/index.d.ts",
+".changeset/cool-lies-fly.md",
+"packages/kit/src/runtime/server/respond.js",
+"packages/kit/test/apps/basics/test/server.test.js",
+"packages/kit/src/utils/http.js"
+],
+"earliest_patch_date": "2023-04-04 10:42:00-07:00",
+"earliest_vuln_date": "2022-09-01 13:24:09-04:00",
+"vuln_files": [
+"packages/kit/src/utils/http.js",
+"packages/kit/src/runtime/server/respond.js",
+"packages/kit/test/apps/basics/test/server.test.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-352"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-29008",
+"patch_date": [
+"2023-04-06 08:45:55-07:00"
+],
+"patch_files": [
+"packages/kit/src/utils/http.js",
+".changeset/happy-pots-move.md",
+"packages/kit/test/apps/basics/test/server.test.js"
+],
+"earliest_patch_date": "2023-04-06 08:45:55-07:00",
+"earliest_vuln_date": "2022-10-10 16:36:36+02:00",
+"vuln_files": [
+"packages/kit/src/utils/http.js",
+"packages/kit/test/apps/basics/test/server.test.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-352"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-352"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/kit/src/utils/http.js",
+"packages/kit/test/apps/basics/test/server.test.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-23641",
+"patch_date": [
+"2024-01-22 15:49:37-05:00"
+],
+"patch_files": [
+".changeset/smooth-kids-cover.md",
+"packages/kit/src/exports/node/index.js"
+],
+"earliest_patch_date": "2024-01-22 15:49:37-05:00",
+"earliest_vuln_date": "2022-09-08 23:08:47-07:00",
+"vuln_files": [
+"packages/kit/src/exports/node/index.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

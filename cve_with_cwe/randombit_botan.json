@@ -1,0 +1,270 @@
+[
+{
+"cve_id": "CVE-2016-9132",
+"patch_date": [
+"2016-11-28 05:31:02-05:00"
+],
+"patch_files": [
+"src/lib/utils/safeint.h",
+"src/lib/asn1/ber_dec.cpp",
+"src/lib/utils/info.txt",
+"doc/security.rst"
+],
+"earliest_patch_date": "2016-11-28 05:31:02-05:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-190"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2018-12435",
+"patch_date": [
+"2018-06-13 11:01:17-04:00"
+],
+"patch_files": [
+"src/lib/pubkey/ec_group/ec_group.cpp",
+"src/lib/pubkey/ec_group/ec_group.h",
+"doc/security.rst",
+"src/lib/pubkey/ecdsa/ecdsa.cpp",
+"src/lib/pubkey/dsa/dsa.cpp"
+],
+"earliest_patch_date": "2018-06-13 11:01:17-04:00",
+"earliest_vuln_date": "2015-02-03 08:11:45+00:00",
+"vuln_files": [
+"src/lib/pubkey/ecdsa/ecdsa.cpp",
+"src/lib/pubkey/dsa/dsa.cpp"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:L/AC:H/PR:N/UI:N/S:C/C:H/I:N/A:N",
+"attackVector": "LOCAL",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.9,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.4,
+"impactScore": 4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:L/AC:M/Au:N/C:P/I:N/A:N",
+"accessVector": "LOCAL",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 1.9
+},
+"severity": "LOW",
+"exploitabilityScore": 3.4,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-200"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"doc/security.rst"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-34703",
+"patch_date": [
+"2024-02-20 07:52:20-05:00",
+"2024-02-20 06:32:57-05:00"
+],
+"patch_files": [
+"src/lib/pubkey/ec_group/ec_group.cpp"
+],
+"earliest_patch_date": "2024-02-20 06:32:57-05:00",
+"earliest_vuln_date": "2018-06-20 21:55:44-04:00",
+"vuln_files": [
+"src/lib/pubkey/ec_group/ec_group.cpp"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/lib/pubkey/ec_group/ec_group.cpp"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"src/lib/pubkey/ec_group/ec_group.cpp"
+]
+},
+{
+"cve_id": "CVE-2024-34702",
+"patch_date": [
+"2024-07-08 10:50:21-04:00",
+"2024-05-13 06:49:29-04:00",
+"2024-05-13 18:30:36-04:00",
+"2024-05-10 05:02:43-04:00",
+"2024-05-14 04:37:15-04:00",
+"2024-07-08 10:39:41-04:00"
+],
+"patch_files": [
+"src/lib/x509/asn1_alt_name.cpp",
+"src/lib/x509/name_constraint.cpp",
+"src/lib/asn1/ber_dec.h",
+"src/python/botan2.py",
+"src/tests/unit_x509.cpp",
+"src/tests/test_name_constraint.cpp",
+"src/lib/x509/x509self.cpp",
+"src/lib/x509/x509path.cpp",
+"src/lib/asn1/ber_dec.cpp",
+"src/lib/asn1/asn1_obj.h",
+"src/lib/utils/stl_util.h",
+"src/lib/x509/x509cert.cpp",
+"src/lib/x509/alt_name.cpp",
+"src/lib/x509/pkcs10.cpp",
+"src/scripts/run_limbo_tests.py",
+"src/lib/x509/pkix_types.h",
+"src/scripts/test_python.py",
+"src/lib/x509/x509_ext.cpp"
+],
+"earliest_patch_date": "2024-05-10 05:02:43-04:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/lib/asn1/ber_dec.cpp"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-50382",
+"patch_date": [
+"2024-10-20 16:01:15-04:00"
+],
+"patch_files": [
+"src/lib/utils/donna128.h",
+"src/lib/utils/ghash/ghash.cpp"
+],
+"earliest_patch_date": "2024-10-20 16:01:15-04:00",
+"earliest_vuln_date": "2017-10-06 21:09:01-04:00",
+"vuln_files": [
+"src/lib/utils/donna128.h",
+"src/lib/utils/ghash/ghash.cpp"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-50383",
+"patch_date": [
+"2024-10-20 16:01:15-04:00"
+],
+"patch_files": [
+"src/lib/utils/donna128.h",
+"src/lib/utils/ghash/ghash.cpp"
+],
+"earliest_patch_date": "2024-10-20 16:01:15-04:00",
+"earliest_vuln_date": "2017-10-06 21:09:01-04:00",
+"vuln_files": [
+"src/lib/utils/donna128.h",
+"src/lib/utils/ghash/ghash.cpp"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/lib/utils/donna128.h",
+"src/lib/utils/ghash/ghash.cpp"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

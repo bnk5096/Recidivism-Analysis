@@ -1,0 +1,309 @@
+[
+{
+"cve_id": "CVE-2022-31093",
+"patch_date": [
+"2022-06-10 13:52:00+02:00",
+"2022-06-20 10:38:21+02:00"
+],
+"patch_files": [
+"packages/next-auth/src/core/index.ts",
+"docs/docs/errors.md",
+"packages/next-auth/src/core/errors.ts",
+"packages/next-auth/src/core/lib/cookie.ts",
+"packages/next-auth/tests/assert.test.ts",
+"packages/next-auth/src/core/lib/assert.ts"
+],
+"earliest_patch_date": "2022-06-10 13:52:00+02:00",
+"earliest_vuln_date": "2022-02-04 16:01:26+01:00",
+"vuln_files": [
+"packages/next-auth/src/core/index.ts",
+"docs/docs/errors.md"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-31127",
+"patch_date": [
+"2022-07-05 16:02:04+02:00"
+],
+"patch_files": [
+"packages/next-auth/src/core/types.ts",
+"packages/next-auth/tests/email.test.ts",
+"apps/dev/pages/api/auth/[...nextauth].ts",
+"packages/next-auth/src/providers/email.ts",
+"packages/next-auth/src/core/routes/signin.ts",
+"packages/next-auth/src/core/lib/email/signin.ts",
+"docs/docs/configuration/options.md",
+"docs/docs/providers/email.md",
+"packages/next-auth/src/core/init.ts"
+],
+"earliest_patch_date": "2022-07-05 16:02:04+02:00",
+"earliest_vuln_date": "2020-05-17 17:45:00+01:00",
+"vuln_files": [
+"packages/next-auth/tests/email.test.ts",
+"packages/next-auth/src/providers/email.ts",
+"packages/next-auth/src/core/routes/signin.ts",
+"docs/docs/configuration/options.md",
+"docs/docs/providers/email.md",
+"packages/next-auth/src/core/lib/email/signin.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-35924",
+"patch_date": [
+"2022-08-01 13:43:19+02:00"
+],
+"patch_files": [
+"packages/next-auth/config/jest.core.config.js",
+"packages/next-auth/tests/email.test.ts",
+"packages/next-auth/src/providers/email.ts",
+"packages/next-auth/tsconfig.json",
+"packages/next-auth/tests/lib.ts",
+"packages/next-auth/tests/getServerSession.test.ts",
+"packages/next-auth/config/jest.config.js",
+"packages/next-auth/src/core/routes/signin.ts",
+"docs/docs/providers/email.md",
+"packages/next-auth/package.json",
+"packages/next-auth/src/core/lib/email/signin.ts",
+"packages/next-auth/config/jest.client.config.js"
+],
+"earliest_patch_date": "2022-08-01 13:43:19+02:00",
+"earliest_vuln_date": "2021-05-05 19:45:11+02:00",
+"vuln_files": [
+"packages/next-auth/config/jest.core.config.js",
+"packages/next-auth/src/providers/email.ts",
+"packages/next-auth/tsconfig.json",
+"packages/next-auth/tests/getServerSession.test.ts",
+"packages/next-auth/src/core/routes/signin.ts",
+"packages/next-auth/tests/lib.ts",
+"packages/next-auth/package.json",
+"packages/next-auth/src/core/lib/email/signin.ts",
+"packages/next-auth/config/jest.client.config.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 9.1,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.2
+}
+},
+"cwes": [
+"CWE-863"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"packages/next-auth/tests/email.test.ts",
+"packages/next-auth/src/providers/email.ts",
+"packages/next-auth/src/core/routes/signin.ts",
+"docs/docs/providers/email.md",
+"packages/next-auth/src/core/lib/email/signin.ts"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-39263",
+"patch_date": [
+"2022-09-25 09:10:55+01:00"
+],
+"patch_files": [
+"packages/adapter-upstash-redis/src/index.ts"
+],
+"earliest_patch_date": "2022-09-25 09:10:55+01:00",
+"earliest_vuln_date": "2022-02-04 22:40:32+01:00",
+"vuln_files": [
+"packages/adapter-upstash-redis/src/index.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-48309",
+"patch_date": [
+"2023-11-10 19:01:12+01:00"
+],
+"patch_files": [
+"packages/next-auth/src/jwt/types.ts",
+"packages/next-auth/src/core/lib/oauth/checks.ts",
+"packages/next-auth/src/jwt/index.ts"
+],
+"earliest_patch_date": "2023-11-10 19:01:12+01:00",
+"earliest_vuln_date": "2021-02-01 10:01:10+01:00",
+"vuln_files": [
+"packages/next-auth/src/core/lib/oauth/checks.ts",
+"packages/next-auth/src/jwt/index.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

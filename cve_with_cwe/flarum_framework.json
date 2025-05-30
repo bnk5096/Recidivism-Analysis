@@ -1,0 +1,182 @@
+[
+{
+"cve_id": "CVE-2022-41938",
+"patch_date": [
+"2022-11-18 22:09:22+01:00"
+],
+"patch_files": [
+"framework/core/js/src/common/Application.tsx",
+"framework/core/views/frontend/app.blade.php"
+],
+"earliest_patch_date": "2022-11-18 22:09:22+01:00",
+"earliest_vuln_date": "2021-12-27 18:15:12-05:00",
+"vuln_files": [
+"framework/core/js/src/common/Application.tsx",
+"framework/core/views/frontend/app.blade.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-27577",
+"patch_date": [
+"2023-03-04 20:38:19+01:00"
+],
+"patch_files": [
+"framework/core/src/Forum/ValidateCustomLess.php",
+"framework/core/locale/core.yml"
+],
+"earliest_patch_date": "2023-03-04 20:38:19+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.9,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-40033",
+"patch_date": [
+"2023-05-20 15:15:53+01:00"
+],
+"patch_files": [
+"framework/core/src/Api/Controller/UploadLogoController.php",
+"framework/core/js/src/forum/components/AvatarEditor.js",
+"framework/core/src/Api/Controller/UploadFaviconController.php",
+"framework/core/src/User/AvatarValidator.php",
+"framework/core/src/User/Command/UploadAvatarHandler.php"
+],
+"earliest_patch_date": "2023-05-20 15:15:53+01:00",
+"earliest_vuln_date": "2021-12-12 22:34:10+01:00",
+"vuln_files": [
+"framework/core/src/User/Command/UploadAvatarHandler.php",
+"framework/core/src/Api/Controller/UploadLogoController.php",
+"framework/core/src/Api/Controller/UploadFaviconController.php",
+"framework/core/src/User/AvatarValidator.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 7.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 4.2
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-21641",
+"patch_date": [
+"2024-01-05 15:33:10+00:00"
+],
+"patch_files": [
+"framework/core/src/Forum/Controller/LogOutController.php"
+],
+"earliest_patch_date": "2024-01-05 15:33:10+00:00",
+"earliest_vuln_date": "2017-03-04 14:51:21+03:30",
+"vuln_files": [
+"framework/core/src/Forum/Controller/LogOutController.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.7,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

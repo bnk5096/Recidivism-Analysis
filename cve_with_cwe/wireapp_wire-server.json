@@ -1,0 +1,122 @@
+[
+{
+"cve_id": "CVE-2021-21396",
+"patch_date": [
+"2021-03-02 12:14:30+01:00"
+],
+"patch_files": [
+"services/brig/src/Brig/API/Public.hs",
+"libs/wire-api/src/Wire/API/UserMap.hs",
+"services/brig/test/integration/API/User/Client.hs",
+"libs/wire-api/src/Wire/API/User/Client.hs",
+"libs/wire-api/test/unit/Test/Wire/API/Swagger.hs"
+],
+"earliest_patch_date": "2021-03-02 12:14:30+01:00",
+"earliest_vuln_date": "2020-05-25 11:54:52+02:00",
+"vuln_files": [
+"services/brig/src/Brig/API/Public.hs",
+"libs/wire-api/src/Wire/API/UserMap.hs",
+"services/brig/test/integration/API/User/Client.hs",
+"libs/wire-api/src/Wire/API/User/Client.hs",
+"libs/wire-api/test/unit/Test/Wire/API/Swagger.hs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-22737",
+"patch_date": [
+"2022-12-09 11:45:52+00:00"
+],
+"patch_files": [
+"changelog.d/3-bug-fixes/pr-2870",
+"services/galley/src/Galley/API/Update.hs",
+"services/brig/src/Brig/Provider/API.hs",
+"services/brig/test/integration/API/Team/Util.hs",
+"services/brig/test/integration/API/Provider.hs"
+],
+"earliest_patch_date": "2022-12-09 11:45:52+00:00",
+"earliest_vuln_date": "2018-07-04 18:52:36+02:00",
+"vuln_files": [
+"services/brig/test/integration/API/Team/Util.hs",
+"services/galley/src/Galley/API/Update.hs"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

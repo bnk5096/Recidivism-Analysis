@@ -1,0 +1,101 @@
+[
+{
+"cve_id": "CVE-2013-1801",
+"patch_date": [
+"2013-01-10 15:45:09-05:00"
+],
+"patch_files": [
+"History",
+"lib/httparty/parser.rb",
+"examples/custom_parsers.rb",
+"spec/httparty/request_spec.rb",
+"spec/httparty_spec.rb",
+"spec/httparty/parser_spec.rb"
+],
+"earliest_patch_date": "2013-01-10 15:45:09-05:00",
+"earliest_vuln_date": "2009-02-11 12:29:12+08:00",
+"vuln_files": [
+"spec/httparty_spec.rb",
+"spec/httparty/request_spec.rb",
+"spec/httparty/parser_spec.rb",
+"lib/httparty/parser.rb"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-264"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-22049",
+"patch_date": [
+"2022-12-30 15:59:07-05:00"
+],
+"patch_files": [
+"spec/httparty/request/body_spec.rb",
+"lib/httparty/request/body.rb"
+],
+"earliest_patch_date": "2022-12-30 15:59:07-05:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"CWE-668"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

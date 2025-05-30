@@ -1,0 +1,96 @@
+[
+{
+"cve_id": "CVE-2024-38368",
+"patch_date": [
+"2023-09-22 07:40:00-04:00"
+],
+"patch_files": [
+"spec/functional/claims_controller_spec.rb",
+"app/views/claims/thanks.slim",
+"app/controllers/claims_controller.rb"
+],
+"earliest_patch_date": "2023-09-22 07:40:00-04:00",
+"earliest_vuln_date": "2014-02-10 01:02:06+01:00",
+"vuln_files": [
+"spec/functional/claims_controller_spec.rb",
+"app/views/claims/thanks.slim",
+"app/controllers/claims_controller.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "LOW",
+"baseScore": 9.3,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 4.7
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-38367",
+"patch_date": [
+"2023-10-27 09:18:49+01:00"
+],
+"patch_files": [
+"app/controllers/api/sessions_controller.rb"
+],
+"earliest_patch_date": "2023-10-27 09:18:49+01:00",
+"earliest_vuln_date": "2014-05-16 16:06:16+02:00",
+"vuln_files": [
+"app/controllers/api/sessions_controller.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.6,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 6
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

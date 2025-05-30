@@ -1,0 +1,192 @@
+[
+{
+"cve_id": "CVE-2023-26920",
+"patch_date": [
+"2023-02-12 20:47:25+05:30"
+],
+"patch_files": [
+"lib/fxp.min.js",
+"lib/fxp.min.js.map",
+"package-lock.json",
+"src/xmlparser/OrderedObjParser.js",
+"lib/fxparser.min.js",
+"lib/fxparser.min.js.map",
+"src/xmlparser/xmlNode.js",
+"package.json"
+],
+"earliest_patch_date": "2023-02-12 20:47:25+05:30",
+"earliest_vuln_date": "2023-02-02 14:43:16+05:30",
+"vuln_files": [
+"lib/fxp.min.js",
+"lib/fxp.min.js.map",
+"package-lock.json",
+"lib/fxparser.min.js",
+"lib/fxparser.min.js.map",
+"package.json"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-1321"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-34104",
+"patch_date": [
+"2023-06-05 11:14:13+05:30",
+"2023-02-26 13:11:42+05:30"
+],
+"patch_files": [
+"spec/entities_spec.js",
+"src/xmlparser/DocTypeReader.js"
+],
+"earliest_patch_date": "2023-02-26 13:11:42+05:30",
+"earliest_vuln_date": "2021-11-30 06:53:52+05:30",
+"vuln_files": [
+"src/xmlparser/DocTypeReader.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-1333"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-41818",
+"patch_date": [
+"2024-07-28 06:16:23+05:30",
+"2024-02-24 10:08:30+05:30"
+],
+"patch_files": [
+"src/v5/XmlSpecialTagsReader.js",
+"CHANGELOG.md",
+"src/v5/TagPathMatcher.js",
+"src/v5/valueParsers/booleanParserExt.js",
+"src/v5/OutputBuilders/BaseOutputBuilder.js",
+"spec/v5/test.js",
+"docs/v5/1. Getting Started.md",
+"src/v5/XMLParser.js",
+"src/v5/XmlPartReader.js",
+"src/v5/valueParsers/number.js",
+"package-lock.json",
+"src/v5/OutputBuilders/JsObjBuilder.js",
+"src/v5/OutputBuilders/JsMinArrBuilder.js",
+"src/v5/inputSource/BufferSource.js",
+"src/v5/valueParsers/currency.js",
+"src/v5/inputSource/StringSource.js",
+"src/v5/Report.js",
+"src/v5/TagPath.js",
+"src/v5/Xml2JsParser.js",
+"README.md",
+"src/v5/valueParsers/join.js",
+"src/v5/valueParsers/trim.js",
+"src/v5/OutputBuilders/JsArrBuilder.js",
+"src/v5/valueParsers/EntitiesParser.js",
+"src/v5/EntitiesParser.js",
+"src/v5/OutputBuilders/ParserOptionsBuilder.js",
+"src/v5/valueParsers/booleanParser.js",
+"src/v5/OptionsBuilder.js",
+"src/v5/CharsSymbol.js",
+"package.json"
+],
+"earliest_patch_date": "2024-02-24 10:08:30+05:30",
+"earliest_vuln_date": "2023-07-30 13:42:55+05:30",
+"vuln_files": [
+"src/v5/OutputBuilders/JsArrBuilder.js",
+"src/v5/OutputBuilders/JsObjBuilder.js",
+"src/v5/OutputBuilders/JsMinArrBuilder.js",
+"src/v5/valueParsers/currency.js",
+"src/v5/OutputBuilders/ParserOptionsBuilder.js",
+"README.md",
+"package-lock.json",
+"package.json"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"package-lock.json",
+"package.json"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"package-lock.json",
+"package.json"
+]
+}
+]

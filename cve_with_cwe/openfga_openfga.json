@@ -1,0 +1,398 @@
+[
+{
+"cve_id": "CVE-2022-39341",
+"patch_date": [
+"2022-10-20 16:29:12-06:00"
+],
+"patch_files": [
+"server/test/check.go",
+"server/commands/expand.go",
+"server/commands/check_utils.go",
+"server/commands/check.go",
+"server/test/expand.go"
+],
+"earliest_patch_date": "2022-10-20 16:29:12-06:00",
+"earliest_vuln_date": "2022-06-08 12:54:18-06:00",
+"vuln_files": [
+"server/test/check.go",
+"server/commands/expand.go",
+"server/commands/check_utils.go",
+"server/commands/check.go",
+"server/test/expand.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-39342",
+"patch_date": [
+"2022-10-21 10:18:07-06:00"
+],
+"patch_files": [
+"pkg/typesystem/typesystem.go",
+"server/test/write_authzmodel.go"
+],
+"earliest_patch_date": "2022-10-21 10:18:07-06:00",
+"earliest_vuln_date": "2022-06-08 12:54:18-06:00",
+"vuln_files": [
+"pkg/typesystem/typesystem.go",
+"server/test/write_authzmodel.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"NVD-CWE-Other"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-39340",
+"patch_date": [
+"2022-10-21 09:19:48-07:00"
+],
+"patch_files": [
+"pkg/cmd/service/service.go",
+"server/middleware/logging.go",
+"pkg/cmd/service/service_test.go",
+"server/server.go"
+],
+"earliest_patch_date": "2022-10-21 09:19:48-07:00",
+"earliest_vuln_date": "2022-06-08 12:54:18-06:00",
+"vuln_files": [
+"pkg/cmd/service/service.go",
+"pkg/cmd/service/service_test.go",
+"server/server.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"CWE-862"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-35933",
+"patch_date": [
+"2023-06-26 12:12:07-06:00"
+],
+"patch_files": [
+"pkg/server/server.go",
+"pkg/server/test/write_authzmodel.go",
+"pkg/server/test/connected_objects.go",
+"pkg/server/test/server.go",
+"pkg/typesystem/typesystem.go",
+"pkg/server/test/expand.go",
+"pkg/server/test/list_objects.go",
+"pkg/server/commands/write_authzmodel.go",
+"pkg/server/server_test.go",
+"cmd/validatemodels/validate_models.go",
+"pkg/typesystem/typesystem_test.go",
+"pkg/server/commands/expand.go"
+],
+"earliest_patch_date": "2023-06-26 12:12:07-06:00",
+"earliest_vuln_date": "2022-06-08 12:54:18-06:00",
+"vuln_files": [
+"pkg/server/server.go",
+"pkg/server/test/connected_objects.go",
+"pkg/server/test/server.go",
+"pkg/typesystem/typesystem.go",
+"pkg/server/test/expand.go",
+"pkg/server/test/list_objects.go",
+"pkg/server/commands/write_authzmodel.go",
+"cmd/validatemodels/validate_models.go",
+"pkg/typesystem/typesystem_test.go",
+"pkg/server/server_test.go",
+"pkg/server/commands/expand.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"pkg/typesystem/typesystem.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-43645",
+"patch_date": [
+"2023-09-26 12:12:49-06:00"
+],
+"patch_files": [
+"pkg/server/server.go",
+"internal/graph/check.go",
+"pkg/server/test/write_authzmodel.go",
+"pkg/server/commands/reverseexpand/reverse_expand.go",
+"pkg/typesystem/typesystem.go",
+"pkg/server/commands/list_objects.go",
+"internal/graph/check_test.go",
+"pkg/server/server_test.go",
+"CHANGELOG.md",
+"pkg/server/test/reverse_expand.go",
+"pkg/typesystem/typesystem_test.go"
+],
+"earliest_patch_date": "2023-09-26 12:12:49-06:00",
+"earliest_vuln_date": "2022-09-11 12:15:33-07:00",
+"vuln_files": [
+"pkg/server/server.go",
+"internal/graph/check.go",
+"pkg/server/test/write_authzmodel.go",
+"pkg/server/commands/reverseexpand/reverse_expand.go",
+"pkg/server/server_test.go",
+"CHANGELOG.md",
+"pkg/server/test/reverse_expand.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 5.9,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"pkg/server/server.go",
+"pkg/server/test/write_authzmodel.go",
+"pkg/typesystem/typesystem.go",
+"pkg/server/server_test.go",
+"pkg/typesystem/typesystem_test.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-23820",
+"patch_date": [
+"2024-01-25 15:10:51-07:00"
+],
+"patch_files": [
+"pkg/testfixtures/storage/postgres.go",
+"pkg/server/commands/reverseexpand/reverse_expand.go",
+"pkg/testfixtures/storage/mysql.go",
+"pkg/server/commands/reverseexpand/reverse_expand_test.go",
+"pkg/server/commands/list_objects.go",
+"pkg/server/test/list_objects.go",
+"pkg/server/server_test.go",
+"pkg/server/test/reverse_expand.go",
+"tests/listobjects/listobjects_test.go"
+],
+"earliest_patch_date": "2024-01-25 15:10:51-07:00",
+"earliest_vuln_date": "2022-08-11 14:28:28-07:00",
+"vuln_files": [
+"pkg/testfixtures/storage/postgres.go",
+"pkg/server/commands/reverseexpand/reverse_expand.go",
+"pkg/testfixtures/storage/mysql.go",
+"pkg/server/commands/reverseexpand/reverse_expand_test.go",
+"pkg/server/commands/list_objects.go",
+"pkg/server/test/list_objects.go",
+"pkg/server/test/reverse_expand.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-401"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"pkg/server/commands/reverseexpand/reverse_expand.go",
+"pkg/server/commands/list_objects.go",
+"pkg/server/test/list_objects.go",
+"pkg/server/server_test.go",
+"pkg/server/test/reverse_expand.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-31452",
+"patch_date": [
+"2024-04-16 14:27:19-07:00"
+],
+"patch_files": [
+"pkg/server/server.go",
+"internal/graph/check.go",
+"internal/graph/cycle_check_resolver_test.go",
+"internal/graph/cached_resolver_test.go",
+"internal/graph/cycle_check_resolver.go",
+"internal/graph/cached_resolver.go",
+"pkg/server/commands/list_objects.go",
+"internal/graph/check_test.go",
+"assets/tests/consolidated_1_1_tests.yaml",
+"internal/graph/graph.go",
+"pkg/server/server_test.go"
+],
+"earliest_patch_date": "2024-04-16 14:27:19-07:00",
+"earliest_vuln_date": "2023-02-07 08:04:10-07:00",
+"vuln_files": [
+"pkg/server/server.go",
+"internal/graph/check.go",
+"internal/graph/cycle_check_resolver_test.go",
+"internal/graph/cached_resolver_test.go",
+"internal/graph/cycle_check_resolver.go",
+"internal/graph/cached_resolver.go",
+"pkg/server/commands/list_objects.go",
+"internal/graph/check_test.go",
+"pkg/server/server_test.go"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"pkg/server/server.go",
+"internal/graph/check.go",
+"pkg/server/commands/list_objects.go",
+"internal/graph/check_test.go",
+"pkg/server/server_test.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

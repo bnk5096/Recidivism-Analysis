@@ -1,0 +1,342 @@
+[
+{
+"cve_id": "CVE-2020-5280",
+"patch_date": [
+"2020-03-24 21:47:23-04:00",
+"2020-03-24 21:47:23-04:00",
+"2020-03-24 21:47:23-04:00"
+],
+"patch_files": [
+"tests/src/test/scala/org/http4s/metrics/MetricsOpsSpec.scala",
+"project/plugins.sbt",
+"core/src/main/scala/org/http4s/metrics/MetricsOps.scala",
+"server/src/test/scala/org/http4s/server/staticcontent/WebjarServiceSpec.scala",
+"server/src/test/scala/org/http4s/server/staticcontent/FileServiceSpec.scala",
+"server/src/test/scala/org/http4s/server/staticcontent/ResourceServiceSpec.scala",
+"version.sbt",
+"server/src/main/scala/org/http4s/server/staticcontent/ResourceService.scala",
+"server/src/test/resources/Dir/partial-prefix.txt",
+"server/src/test/resources/test/keep.txt",
+"project/build.properties",
+"build.sbt",
+"server/src/test/resources/symlink",
+"website/src/hugo/content/changelog.md",
+"server/src/test/resources/space truckin'.txt",
+"server/src/main/scala/org/http4s/server/staticcontent/WebjarService.scala",
+"server/src/test/resources/META-INF/resources/webjars/deep purple/machine head/space truckin'.txt",
+"server/src/main/scala/org/http4s/server/staticcontent/FileService.scala"
+],
+"earliest_patch_date": "2020-03-24 21:47:23-04:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-21294",
+"patch_date": [
+"2021-02-02 10:51:01-05:00"
+],
+"patch_files": [
+"ember-client/src/main/scala/org/http4s/ember/client/EmberClientBuilder.scala",
+"server/src/main/scala/org/http4s/server/package.scala",
+"core/src/main/scala-2.12/scala/annotation/nowarn.scala",
+"tests/src/test/scala/org/http4s/parser/UriParserSpec.scala",
+"project/plugins.sbt",
+"build.sbt",
+"website/src/hugo/content/changelog.md",
+"core/src/main/scala/org/http4s/headers/Referer.scala",
+"core/src/main/scala/org/http4s/Uri.scala",
+"core/src/main/scala/org/http4s/headers/Content-Location.scala",
+"ember-client/src/test/scala/org/http4s/ember/client/internal/ClientHelpersSpec.scala",
+"ember-core/src/test/scala/org/http4s/ember/core/EncoderSuite.scala",
+"core/src/main/scala/org/http4s/headers/Origin.scala",
+"blaze-server/src/main/scala/org/http4s/server/blaze/BlazeServerBuilder.scala",
+"ember-core/src/main/scala/org/http4s/ember/core/Util.scala",
+"core/src/main/scala/org/http4s/headers/Forwarded.scala",
+"ember-client/src/main/scala/org/http4s/ember/client/internal/ClientHelpers.scala",
+"ember-core/src/main/scala/org/http4s/ember/core/Encoder.scala",
+"client/src/test/scala/org/http4s/client/middleware/FollowRedirectSuite.scala",
+"ember-core/src/main/scala/org/http4s/ember/core/Parser.scala",
+"core/src/main/scala/org/http4s/headers/X-Forwarded-For.scala",
+"ember-server/src/main/scala/org/http4s/ember/server/EmberServerBuilder.scala",
+"ember-core/src/test/scala/org/http4s/ember/core/ParsingSpec.scala",
+"core/src/main/scala/org/http4s/headers/Location.scala",
+"ember-server/src/main/scala/org/http4s/ember/server/internal/ServerHelpers.scala",
+"core/src/main/scala/org/http4s/headers/Host.scala",
+"core/src/main/scala/org/http4s/headers/Link.scala",
+"project/Http4sPlugin.scala"
+],
+"earliest_patch_date": "2021-02-02 10:51:01-05:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-770"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"project/plugins.sbt",
+"build.sbt",
+"website/src/hugo/content/changelog.md"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-32643",
+"patch_date": [
+"2021-05-26 00:38:03-04:00"
+],
+"patch_files": [
+"core/src/main/scala/org/http4s/StaticFile.scala",
+"tests/src/test/scala/org/http4s/StaticFileSuite.scala"
+],
+"earliest_patch_date": "2021-05-26 00:38:03-04:00",
+"earliest_vuln_date": "2020-06-29 07:19:50+05:30",
+"vuln_files": [
+"core/src/main/scala/org/http4s/StaticFile.scala",
+"tests/src/test/scala/org/http4s/StaticFileSuite.scala"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.8,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-22"
+],
+"intro_duplicate_type": true,
+"intro_duplicated_types": [
+"CWE-22"
+],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-41084",
+"patch_date": [
+"2021-09-21 09:03:00-04:00"
+],
+"patch_files": [
+"tests/shared/src/test/scala/org/http4s/StatusSpec.scala",
+"ember-core/src/test/scala/org/http4s/ember/core/ResponseSplittingSuite.scala",
+"core/shared/src/main/scala/org/http4s/Status.scala",
+"blaze-server/src/test/scala/org/http4s/blaze/server/Http1ServerStageSpec.scala",
+"core/shared/src/main/scala/org/http4s/Header.scala",
+"ember-core/src/test/scala/org/http4s/ember/core/RequestSplittingSuite.scala",
+"build.sbt",
+"blaze-core/src/main/scala/org/http4s/blazecore/Http1Stage.scala",
+"tests/shared/src/test/scala/org/http4s/HeaderSuite.scala",
+"ember-core/src/main/scala/org/http4s/ember/core/Encoder.scala",
+"blaze-server/src/main/scala/org/http4s/blaze/server/Http1ServerStage.scala",
+"core/shared/src/main/scala/org/http4s/util/Renderable.scala",
+"tests/src/test/scala/org/http4s/internal/StringWriterSuite.scala",
+"client/shared/src/test/scala/org/http4s/client/ClientRouteTestBattery.scala",
+"ember-client/shared/src/main/scala/org/http4s/ember/client/EmberClientBuilder.scala",
+"scalafix/rules/src/main/scala/fix/v0_22.scala",
+"laws/src/main/scala/org/http4s/laws/discipline/ArbitraryInstances.scala",
+"blaze-client/src/main/scala/org/http4s/blaze/client/Http1Connection.scala",
+"core/shared/src/main/scala/org/http4s/internal/package.scala",
+"server-testing/src/test/scala/org/http4s/server/ServerRouteTestBattery.scala",
+"scripts/scaffold_server.js",
+"project/Http4sPlugin.scala",
+"jetty-client/src/main/scala/org/http4s/jetty/client/JettyClient.scala"
+],
+"earliest_patch_date": "2021-09-21 09:03:00-04:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.7,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-74"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"build.sbt",
+"ember-core/src/main/scala/org/http4s/ember/core/Encoder.scala",
+"project/Http4sPlugin.scala"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

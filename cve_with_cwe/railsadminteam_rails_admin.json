@@ -1,0 +1,53 @@
+[
+{
+"cve_id": "CVE-2024-39308",
+"patch_date": [
+"2024-07-06 18:51:52+09:00",
+"2024-07-06 23:08:50+09:00"
+],
+"patch_files": [
+"spec/integration/actions/index_spec.rb",
+"app/views/rails_admin/main/index.html.erb",
+"app/views/rails_admin/main/index.html.haml",
+".rubocop_todo.yml"
+],
+"earliest_patch_date": "2024-07-06 18:51:52+09:00",
+"earliest_vuln_date": "2019-05-02 15:48:45+09:00",
+"vuln_files": [
+"app/views/rails_admin/main/index.html.erb",
+".rubocop_todo.yml",
+"app/views/rails_admin/main/index.html.haml"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

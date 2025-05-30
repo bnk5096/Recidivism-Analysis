@@ -1,0 +1,127 @@
+[
+{
+"cve_id": "CVE-2022-24949",
+"patch_date": [
+"2021-11-03 12:09:01-05:00"
+],
+"patch_files": [
+"CMakeLists.txt",
+"src/terminal/forwarding/PortForwardHandler.cpp",
+"src/terminal/UserTerminalRouter.hpp",
+"src/base/LogHandler.cpp",
+"external/easyloggingpp",
+"src/base/PipeSocketHandler.cpp",
+"src/terminal/TerminalClient.cpp",
+"src/terminal/UserTerminalRouter.cpp",
+".gitmodules"
+],
+"earliest_patch_date": "2021-11-03 12:09:01-05:00",
+"earliest_vuln_date": "2018-09-24 20:56:31-07:00",
+"vuln_files": [
+"CMakeLists.txt",
+"src/base/PipeSocketHandler.cpp",
+"src/terminal/TerminalClient.cpp",
+".gitmodules"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.6,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-362",
+"CWE-120"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-24950",
+"patch_date": [
+"2021-11-03 12:09:01-05:00"
+],
+"patch_files": [
+"CMakeLists.txt",
+"src/terminal/forwarding/PortForwardHandler.cpp",
+"src/terminal/UserTerminalRouter.hpp",
+"src/base/LogHandler.cpp",
+"external/easyloggingpp",
+"src/base/PipeSocketHandler.cpp",
+"src/terminal/TerminalClient.cpp",
+"src/terminal/UserTerminalRouter.cpp",
+".gitmodules"
+],
+"earliest_patch_date": "2021-11-03 12:09:01-05:00",
+"earliest_vuln_date": "2018-09-24 20:56:31-07:00",
+"vuln_files": [
+"CMakeLists.txt",
+"src/base/PipeSocketHandler.cpp",
+"src/terminal/TerminalClient.cpp",
+".gitmodules"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.6,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-362"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-362"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"CMakeLists.txt",
+"src/terminal/forwarding/PortForwardHandler.cpp",
+"src/terminal/UserTerminalRouter.hpp",
+"src/base/LogHandler.cpp",
+"external/easyloggingpp",
+"src/base/PipeSocketHandler.cpp",
+"src/terminal/TerminalClient.cpp",
+"src/terminal/UserTerminalRouter.cpp",
+".gitmodules"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

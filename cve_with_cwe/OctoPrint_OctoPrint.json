@@ -1,0 +1,215 @@
+[
+{
+"cve_id": "CVE-2023-41047",
+"patch_date": [
+"2023-10-09 14:31:21+02:00"
+],
+"patch_files": [
+"src/octoprint/settings/__init__.py"
+],
+"earliest_patch_date": "2023-10-09 14:31:21+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 0.6,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-1336"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-23637",
+"patch_date": [
+"2024-01-31 13:10:40+01:00"
+],
+"patch_files": [
+"src/octoprint/server/util/flask.py",
+"src/octoprint/server/views.py",
+"src/octoprint/static/js/app/client/settings.js",
+"src/octoprint/templates/dialogs/reauthenticate.jinja2",
+"src/octoprint/schema/config/access_control.py",
+"src/octoprint/templates/snippets/settings/accesscontrol/users.jinja2",
+"src/octoprint/server/util/__init__.py",
+"docs/bundledplugins/appkeys.rst",
+"src/octoprint/templates/login.jinja2",
+"src/octoprint/plugins/appkeys/templates/appkeys_usersettings.jinja2",
+"src/octoprint/plugins/pluginmanager/__init__.py",
+"src/octoprint/access/__init__.py",
+"tests/static/js/test-helpers.js",
+"src/octoprint/templates/dialogs/settings/api.jinja2",
+"src/octoprint/templates/snippets/settings/accesscontrol/groups.jinja2",
+"src/octoprint/plugins/appkeys/templates/appkeys.jinja2",
+"src/octoprint/server/api/settings.py",
+"src/octoprint/plugins/appkeys/templates/appkeys_settings.jinja2",
+"src/octoprint/templates/initscript.jinja2",
+"src/octoprint/plugins/appkeys/static/clientjs/appkeys.js",
+"docs/api/access.rst",
+"src/octoprint/static/js/app/viewmodels/settings.js",
+"docs/configuration/config_yaml.rst",
+"src/octoprint/server/api/access.py",
+"src/octoprint/server/api/__init__.py",
+"src/octoprint/server/__init__.py",
+"src/octoprint/static/js/app/helpers.js",
+"src/octoprint/static/js/app/viewmodels/access.js",
+"src/octoprint/templates/index.jinja2",
+"src/octoprint/plugins/appkeys/__init__.py",
+"src/octoprint/plugins/appkeys/static/js/appkeys.js",
+"src/octoprint/plugins/pluginmanager/static/js/pluginmanager.js",
+"src/octoprint/static/js/app/viewmodels/loginstate.js"
+],
+"earliest_patch_date": "2024-01-31 13:10:40+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 4.9,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-287"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-28237",
+"patch_date": [
+"2024-03-12 17:53:42+01:00"
+],
+"patch_files": [
+"src/octoprint/plugins/classicwebcam/static/js/classicwebcam_settings.js"
+],
+"earliest_patch_date": "2024-03-12 17:53:42+01:00",
+"earliest_vuln_date": "2023-01-17 11:22:56+01:00",
+"vuln_files": [
+"src/octoprint/plugins/classicwebcam/static/js/classicwebcam_settings.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.8,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.7,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-32977",
+"patch_date": [
+"2024-05-13 15:26:34+02:00"
+],
+"patch_files": [
+"src/octoprint/server/util/flask.py",
+"src/octoprint/server/api/system.py",
+"src/octoprint/server/views.py",
+"src/octoprint/server/util/sockjs.py",
+"src/octoprint/schema/config/access_control.py",
+"src/octoprint/server/util/tornado.py",
+"tests/util/test_net.py",
+"src/octoprint/schema/config/server.py",
+"src/octoprint/templates/dialogs/settings.jinja2",
+"src/octoprint/util/net.py",
+"src/octoprint/server/api/settings.py",
+"src/octoprint/static/css/octoprint.css",
+"src/octoprint/templates/reverse_proxy_test.jinja2",
+"src/octoprint/static/less/octoprint.less",
+"src/octoprint/static/js/app/viewmodels/settings.js",
+"docs/configuration/config_yaml.rst",
+"src/octoprint/server/api/__init__.py",
+"src/octoprint/server/__init__.py",
+"src/octoprint/plugins/appkeys/__init__.py"
+],
+"earliest_patch_date": "2024-05-13 15:26:34+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/octoprint/server/util/flask.py",
+"src/octoprint/server/views.py",
+"src/octoprint/schema/config/access_control.py",
+"src/octoprint/server/api/settings.py",
+"src/octoprint/static/js/app/viewmodels/settings.js",
+"docs/configuration/config_yaml.rst",
+"src/octoprint/server/api/__init__.py",
+"src/octoprint/server/__init__.py",
+"src/octoprint/plugins/appkeys/__init__.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

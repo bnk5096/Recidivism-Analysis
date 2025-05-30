@@ -1,0 +1,322 @@
+[
+{
+"cve_id": "CVE-2023-36456",
+"patch_date": [
+"2023-07-06 18:15:46+02:00",
+"2023-07-06 18:13:19+02:00"
+],
+"patch_files": [
+"website/docs/installation/configuration.md",
+"authentik/lib/default.yml",
+"internal/web/web.go",
+"internal/utils/web/http_forwarded.go",
+"authentik/lib/utils/http.py",
+"internal/config/struct.go",
+"website/sidebars.js",
+"website/docs/security/CVE-2023-36456.md"
+],
+"earliest_patch_date": "2023-07-06 18:13:19+02:00",
+"earliest_vuln_date": "2018-11-14 19:14:14+01:00",
+"vuln_files": [
+"authentik/lib/default.yml",
+"internal/web/web.go",
+"authentik/lib/utils/http.py",
+"internal/config/struct.go",
+"website/sidebars.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "LOW",
+"baseScore": 7.3,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-39522",
+"patch_date": [
+"2023-08-29 19:07:49+02:00"
+],
+"patch_files": [
+"website/docs/releases/2023/v2023.5.md",
+"authentik/stages/identification/tests.py",
+"website/docs/security/CVE-2023-39522.md",
+"website/sidebars.js",
+"website/docs/releases/2023/v2023.6.md",
+"authentik/stages/email/tests/test_sending.py",
+"authentik/stages/email/stage.py",
+"authentik/stages/identification/stage.py"
+],
+"earliest_patch_date": "2023-08-29 19:07:49+02:00",
+"earliest_vuln_date": "2020-05-10 18:45:16+02:00",
+"vuln_files": [
+"authentik/stages/email/tests/test_sending.py",
+"authentik/stages/identification/tests.py",
+"authentik/stages/email/stage.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"website/sidebars.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-46249",
+"patch_date": [
+"2023-10-28 21:26:53+02:00",
+"2023-10-28 21:24:06+02:00"
+],
+"patch_files": [
+"authentik/flows/migrations/0027_auto_20231028_1424.py",
+"blueprints/system/bootstrap.yaml",
+"website/docs/releases/2023/v2023.8.md",
+"blueprints/default/flow-oobe.yaml",
+"website/docs/releases/2023/v2023.10.md",
+"website/docs/security/GHSA-rjvp-29xq-f62w.md",
+"authentik/flows/migrations/0026_alter_flow_options.py",
+"website/sidebars.js"
+],
+"earliest_patch_date": "2023-10-28 21:24:06+02:00",
+"earliest_vuln_date": "2023-07-31 19:34:46+02:00",
+"vuln_files": [
+"blueprints/system/bootstrap.yaml"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-306"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"website/sidebars.js"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"website/sidebars.js"
+]
+},
+{
+"cve_id": "CVE-2023-48228",
+"patch_date": [
+"2023-11-21 18:13:50+01:00",
+"2023-11-21 18:13:54+01:00",
+"2023-11-21 18:10:07+01:00"
+],
+"patch_files": [
+"website/sidebars.js",
+"website/docs/security/CVE-2023-48228.md",
+"authentik/providers/oauth2/views/token.py",
+"authentik/providers/oauth2/tests/test_token_pkce.py"
+],
+"earliest_patch_date": "2023-11-21 18:10:07+01:00",
+"earliest_vuln_date": "2020-08-19 10:32:44+02:00",
+"vuln_files": [
+"authentik/providers/oauth2/views/token.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"website/sidebars.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-42490",
+"patch_date": [
+"2024-08-22 17:18:55+02:00",
+"2024-08-22 17:18:58+02:00"
+],
+"patch_files": [
+"authentik/outposts/api/service_connections.py",
+"authentik/crypto/tests.py",
+"website/docs/security/CVE-2024-42490.md",
+"authentik/core/api/used_by.py",
+"authentik/flows/api/flows.py",
+"authentik/crypto/api.py",
+"website/sidebars.js"
+],
+"earliest_patch_date": "2024-08-22 17:18:55+02:00",
+"earliest_vuln_date": "2021-04-02 13:39:22+02:00",
+"vuln_files": [
+"authentik/core/api/used_by.py",
+"authentik/flows/api/flows.py",
+"authentik/crypto/api.py",
+"authentik/outposts/api/service_connections.py"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"website/sidebars.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-47077",
+"patch_date": [
+"2024-09-27 16:19:15+02:00",
+"2024-09-27 16:19:24+02:00"
+],
+"patch_files": [
+"website/sidebars.js",
+"website/docs/security/CVE-2024-47077.md",
+"authentik/providers/oauth2/tests/test_introspect.py",
+"authentik/providers/oauth2/views/introspection.py"
+],
+"earliest_patch_date": "2024-09-27 16:19:15+02:00",
+"earliest_vuln_date": "2022-06-11 18:49:16+02:00",
+"vuln_files": [
+"authentik/providers/oauth2/tests/test_introspect.py",
+"authentik/providers/oauth2/views/introspection.py"
+],
+"impact": {},
+"cwes": [
+"CWE-863"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"website/sidebars.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-47070",
+"patch_date": [
+"2024-09-27 16:20:38+02:00",
+"2024-09-27 16:20:41+02:00"
+],
+"patch_files": [
+"website/docs/security/CVE-2024-42490.md",
+"authentik/lib/tests/test_http.py",
+"website/docs/security/CVE-2024-47070.md",
+"blueprints/default/flow-default-authentication-flow.yaml",
+"website/sidebars.js",
+"authentik/root/middleware.py"
+],
+"earliest_patch_date": "2024-09-27 16:20:38+02:00",
+"earliest_vuln_date": "2023-12-19 13:32:10+01:00",
+"vuln_files": [
+"authentik/root/middleware.py"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"website/docs/security/CVE-2024-42490.md",
+"website/sidebars.js"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"website/sidebars.js"
+]
+}
+]

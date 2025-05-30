@@ -1,0 +1,91 @@
+[
+{
+"cve_id": "CVE-2021-33950",
+"patch_date": [
+"2021-05-20 08:40:19+02:00"
+],
+"patch_files": [
+"src/main/java/com/openkm/extractor/OpenOfficeTextExtractor.java",
+"src/main/java/com/openkm/extractor/XMLTextExtractor.java"
+],
+"earliest_patch_date": "2021-05-20 08:40:19+02:00",
+"earliest_vuln_date": "2017-03-06 18:37:26+01:00",
+"vuln_files": [
+"src/main/java/com/openkm/extractor/OpenOfficeTextExtractor.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-611"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-3969",
+"patch_date": [
+"2022-09-05 10:18:54+02:00"
+],
+"patch_files": [
+"src/main/java/com/openkm/util/FileUtils.java"
+],
+"earliest_patch_date": "2022-09-05 10:18:54+02:00",
+"earliest_vuln_date": "2017-03-06 18:37:26+01:00",
+"vuln_files": [
+"src/main/java/com/openkm/util/FileUtils.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

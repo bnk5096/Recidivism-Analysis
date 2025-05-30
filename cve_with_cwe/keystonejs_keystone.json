@@ -1,0 +1,180 @@
+[
+{
+"cve_id": "CVE-2022-0087",
+"patch_date": [
+"2022-01-10 13:17:09+11:00"
+],
+"patch_files": [
+"packages/auth/src/pages/SigninPage.tsx",
+"packages/auth/src/lib/useFromRedirect.ts",
+"packages/auth/src/pages/InitPage.tsx",
+"packages/auth/src/index.ts",
+".changeset/quiet-wasps-draw.md"
+],
+"earliest_patch_date": "2022-01-10 13:17:09+11:00",
+"earliest_vuln_date": "2020-11-02 18:04:16+11:00",
+"vuln_files": [
+"packages/auth/src/pages/InitPage.tsx",
+"packages/auth/src/pages/SigninPage.tsx",
+"packages/auth/src/index.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-39322",
+"patch_date": [
+"2022-10-18 09:08:07+11:00"
+],
+"patch_files": [
+".changeset/two-ghosts-jog.md",
+"packages/core/src/fields/types/multiselect/index.ts"
+],
+"earliest_patch_date": "2022-10-18 09:08:07+11:00",
+"earliest_vuln_date": "2022-08-10 15:10:34+10:00",
+"vuln_files": [
+"packages/core/src/fields/types/multiselect/index.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-863"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-40027",
+"patch_date": [
+"2023-08-15 12:03:06+10:00"
+],
+"patch_files": [
+"packages/core/src/admin-ui/system/createAdminMeta.ts",
+"packages/core/src/admin-ui/system/adminMetaSchema.ts",
+"packages/core/src/fields/types/relationship/index.ts",
+"packages/core/src/admin-ui/system/generateAdminUI.ts",
+"packages/core/src/admin-ui/templates/app.ts",
+".changeset/fix-admin-meta-access.md",
+"packages/core/src/lib/createSystem.ts",
+"packages/core/src/scripts/dev.ts",
+"packages/core/src/lib/createGraphQLSchema.ts",
+"packages/core/src/admin-ui/system/index.ts",
+"packages/core/src/admin-ui/templates/index.ts"
+],
+"earliest_patch_date": "2023-08-15 12:03:06+10:00",
+"earliest_vuln_date": "2021-06-08 05:58:53+00:00",
+"vuln_files": [
+"packages/core/src/lib/admin-meta-resolver.ts",
+"packages/core/src/fields/types/relationship/index.ts",
+"packages/core/src/admin-ui/system/generateAdminUI.ts",
+"packages/core/src/admin-ui/templates/app.ts",
+"packages/core/src/lib/create-admin-meta.ts",
+"packages/core/src/lib/createSystem.ts",
+"packages/core/src/scripts/dev.ts",
+"packages/core/src/lib/createGraphQLSchema.ts",
+"packages/core/src/admin-ui/system/index.ts",
+"packages/core/src/admin-ui/templates/index.ts"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,73 @@
+[
+{
+"cve_id": "CVE-2022-25845",
+"patch_date": [
+"2022-05-06 15:18:39+08:00",
+"2022-05-02 14:16:19+08:00"
+],
+"patch_files": [
+"src/test/java/com/alibaba/json/bvt/bug/Bug_for_Exception.java",
+"src/test/java/com/alibaba/json/bvt/PointTest2.java",
+"src/main/java/com/alibaba/fastjson/parser/ParserConfig.java"
+],
+"earliest_patch_date": "2022-05-02 14:16:19+08:00",
+"earliest_vuln_date": "2011-12-09 20:25:27+08:00",
+"vuln_files": [
+"src/test/java/com/alibaba/json/bvt/PointTest2.java",
+"src/main/java/com/alibaba/fastjson/parser/ParserConfig.java",
+"src/test/java/com/alibaba/json/bvt/bug/Bug_for_Exception.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-502"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

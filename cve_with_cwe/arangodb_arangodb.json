@@ -1,0 +1,250 @@
+[
+{
+"cve_id": "CVE-2021-25938",
+"patch_date": [
+"2021-04-16 17:34:59+03:00"
+],
+"patch_files": [
+"js/apps/system/_admin/aardvark/APP/react/build/index.html.gz",
+"js/apps/system/_admin/aardvark/APP/react/build/static/js/main.6c4bc28f.chunk.js.map.gz",
+"js/apps/system/_admin/aardvark/APP/react/build/static/js/main.f761f5e5.chunk.js.LICENSE.txt",
+"js/apps/system/_admin/aardvark/APP/react/build/static/js/main.6c4bc28f.chunk.js.gz",
+"js/apps/system/_admin/aardvark/APP/frontend/js/lib/jquery.uploadfile.min.js",
+"js/apps/system/_admin/aardvark/APP/react/build/precache-manifest.6a6cf59d0e8f4babe46316c29c96f1c4.js",
+"js/apps/system/_admin/aardvark/APP/react/build/precache-manifest.6a6cf59d0e8f4babe46316c29c96f1c4.js.gz",
+"js/apps/system/_admin/aardvark/APP/react/build/service-worker.js.gz",
+"js/apps/system/_admin/aardvark/APP/react/build/static/js/main.f761f5e5.chunk.js.map",
+"js/apps/system/_admin/aardvark/APP/react/build/static/js/main.f761f5e5.chunk.js.LICENSE.txt.gz",
+"js/apps/system/_admin/aardvark/APP/react/build/static/js/main.f761f5e5.chunk.js.map.gz",
+"js/apps/system/_admin/aardvark/APP/react/build/asset-manifest.json",
+"CHANGELOG",
+"js/apps/system/_admin/aardvark/APP/react/build/static/js/main.f761f5e5.chunk.js.gz",
+"js/apps/system/_admin/aardvark/APP/react/build/static/js/main.f761f5e5.chunk.js",
+"js/apps/system/_admin/aardvark/APP/react/build/service-worker.js",
+"js/apps/system/_admin/aardvark/APP/react/build/precache-manifest.f8fba6c99030fb8752864226ca8cb0bf.js.gz",
+"js/apps/system/_admin/aardvark/APP/react/build/index.html"
+],
+"earliest_patch_date": "2021-04-16 17:34:59+03:00",
+"earliest_vuln_date": "2019-11-28 18:26:04+01:00",
+"vuln_files": [
+"js/apps/system/_admin/aardvark/APP/frontend/js/lib/jquery.uploadfile.min.js",
+"js/apps/system/_admin/aardvark/APP/react/build/static/js/main.6c4bc28f.chunk.js",
+"js/apps/system/_admin/aardvark/APP/react/build/precache-manifest.f8fba6c99030fb8752864226ca8cb0bf.js",
+"js/apps/system/_admin/aardvark/APP/react/build/asset-manifest.json",
+"js/apps/system/_admin/aardvark/APP/react/build/static/js/main.6c4bc28f.chunk.js.map",
+"js/apps/system/_admin/aardvark/APP/react/build/service-worker.js",
+"js/apps/system/_admin/aardvark/APP/react/build/index.html"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-25940",
+"patch_date": [
+"2021-07-01 11:36:14+02:00"
+],
+"patch_files": [
+"arangod/GeneralServer/AuthenticationFeature.cpp",
+"tests/js/client/server_parameters/test-server-session-timeout.js",
+"arangod/RestHandler/RestAuthHandler.cpp",
+"arangod/RestServer/ServerFeature.cpp",
+"CHANGELOG",
+"arangod/RestHandler/RestAuthHandler.h",
+"arangod/GeneralServer/AuthenticationFeature.h"
+],
+"earliest_patch_date": "2021-07-01 11:36:14+02:00",
+"earliest_vuln_date": "2016-05-30 18:47:04+02:00",
+"vuln_files": [
+"arangod/RestServer/ServerFeature.cpp",
+"arangod/GeneralServer/AuthenticationFeature.cpp",
+"arangod/RestHandler/RestAuthHandler.cpp",
+"arangod/RestHandler/RestAuthHandler.h"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.1,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 6
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 6.8,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-613"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"CHANGELOG"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-25939",
+"patch_date": [
+"2021-12-14 11:24:01+01:00",
+"2021-12-30 06:34:00+03:00"
+],
+"patch_files": [
+"js/server/bootstrap/modules/internal.js",
+"js/server/modules/@arangodb/foxx/manager.js",
+"etc/testing/arangod-common.conf",
+"arangod/GeneralServer/ServerSecurityFeature.cpp",
+"js/apps/system/_admin/aardvark/APP/aardvark.js",
+"CHANGELOG",
+"js/actions/_admin/foxx/app.js",
+"tests/js/client/server_parameters/foxx-allow-install-from-remote-off.js",
+"arangod/V8Server/v8-actions.cpp",
+"arangod/GeneralServer/ServerSecurityFeature.h",
+"js/apps/system/_admin/aardvark/APP/frontend/js/routers/router.js",
+"js/apps/system/_admin/aardvark/APP/frontend/js/arango/arango.js",
+"tests/js/client/server_parameters/foxx-allow-install-from-remote-on.js"
+],
+"earliest_patch_date": "2021-12-14 11:24:01+01:00",
+"earliest_vuln_date": "2019-04-25 09:56:29+02:00",
+"vuln_files": [
+"arangod/GeneralServer/ServerSecurityFeature.cpp",
+"js/server/bootstrap/modules/internal.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 2.7,
+"baseSeverity": "LOW"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-918"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"CHANGELOG"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

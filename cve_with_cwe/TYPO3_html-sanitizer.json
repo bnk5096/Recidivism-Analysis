@@ -1,0 +1,157 @@
+[
+{
+"cve_id": "CVE-2022-36020",
+"patch_date": [
+"2022-09-13 09:29:06+02:00"
+],
+"patch_files": [
+"composer.json",
+"tests/ScenarioTest.php"
+],
+"earliest_patch_date": "2022-09-13 09:29:06+02:00",
+"earliest_vuln_date": "2021-07-06 12:48:43+02:00",
+"vuln_files": [
+"composer.json"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-38500",
+"patch_date": [
+"2023-07-25 09:14:55+02:00"
+],
+"patch_files": [
+"tests/CommonBuilderTest.php",
+"src/Sanitizer.php",
+"src/Behavior/Comment.php",
+"src/Builder/CommonBuilder.php",
+"src/Behavior.php",
+"tests/ScenarioTest.php",
+"tests/BehaviorTest.php",
+"src/Serializer/Rules.php",
+"src/Visitor/CommonVisitor.php",
+"src/Behavior/CdataSection.php"
+],
+"earliest_patch_date": "2023-07-25 09:14:55+02:00",
+"earliest_vuln_date": "2021-07-06 12:48:43+02:00",
+"vuln_files": [
+"tests/CommonBuilderTest.php",
+"src/Behavior/Comment.php",
+"src/Builder/CommonBuilder.php",
+"src/Behavior.php",
+"tests/ScenarioTest.php",
+"tests/BehaviorTest.php",
+"src/Behavior/CdataSection.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"tests/ScenarioTest.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-47125",
+"patch_date": [
+"2023-11-14 08:41:08+01:00"
+],
+"patch_files": [
+"tests/CommonBuilderTest.php",
+"src/Visitor/CommonVisitor.php",
+"src/Builder/CommonBuilder.php",
+"src/Behavior.php"
+],
+"earliest_patch_date": "2023-11-14 08:41:08+01:00",
+"earliest_vuln_date": "2022-10-19 15:10:45+02:00",
+"vuln_files": [
+"src/Builder/CommonBuilder.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"tests/CommonBuilderTest.php",
+"src/Visitor/CommonVisitor.php",
+"src/Builder/CommonBuilder.php",
+"src/Behavior.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

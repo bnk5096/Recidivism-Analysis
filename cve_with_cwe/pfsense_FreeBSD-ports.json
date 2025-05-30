@@ -1,0 +1,473 @@
+[
+{
+"cve_id": "CVE-2019-8953",
+"patch_date": [
+"2019-02-18 10:25:24-05:00",
+"2019-02-18 10:26:25-05:00"
+],
+"patch_files": [
+"net/pfSense-pkg-haproxy/Makefile",
+"net/pfSense-pkg-haproxy-devel/files/usr/local/www/haproxy/haproxy_listeners.php",
+"net/pfSense-pkg-haproxy-devel/Makefile",
+"net/pfSense-pkg-haproxy/files/usr/local/www/haproxy/haproxy_listeners.php"
+],
+"earliest_patch_date": "2019-02-18 10:25:24-05:00",
+"earliest_vuln_date": "2015-08-20 16:36:35-03:00",
+"vuln_files": [
+"net/pfSense-pkg-haproxy/files/usr/local/www/haproxy/haproxy_listeners.php",
+"net/pfSense-pkg-haproxy-devel/files/usr/local/www/haproxy/haproxy_listeners.php",
+"net/pfSense-pkg-haproxy-devel/Makefile",
+"net/pfSense-pkg-haproxy/Makefile"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-12347",
+"patch_date": [
+"2019-05-28 09:34:41-04:00"
+],
+"patch_files": [
+"security/pfSense-pkg-acme/files/usr/local/www/acme/acme_certificates.php",
+"security/pfSense-pkg-acme/Makefile",
+"security/pfSense-pkg-acme/files/usr/local/pkg/acme/pkg_acme_tabs.inc",
+"security/pfSense-pkg-acme/files/usr/local/www/acme/acme_accountkeys.php"
+],
+"earliest_patch_date": "2019-05-28 09:34:41-04:00",
+"earliest_vuln_date": "2017-01-23 17:13:06-02:00",
+"vuln_files": [
+"security/pfSense-pkg-acme/files/usr/local/www/acme/acme_certificates.php",
+"security/pfSense-pkg-acme/Makefile",
+"security/pfSense-pkg-acme/files/usr/local/pkg/acme/pkg_acme_tabs.inc",
+"security/pfSense-pkg-acme/files/usr/local/www/acme/acme_accountkeys.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-12584",
+"patch_date": [
+"2019-05-28 10:24:36-04:00"
+],
+"patch_files": [
+"sysutils/pfSense-pkg-apcupsd/files/usr/local/www/apcupsd_status.php",
+"sysutils/pfSense-pkg-apcupsd/Makefile"
+],
+"earliest_patch_date": "2019-05-28 10:24:36-04:00",
+"earliest_vuln_date": "2016-05-13 10:40:31-03:00",
+"vuln_files": [
+"sysutils/pfSense-pkg-apcupsd/files/usr/local/www/apcupsd_status.php",
+"sysutils/pfSense-pkg-apcupsd/Makefile"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-12585",
+"patch_date": [
+"2019-05-28 10:24:36-04:00"
+],
+"patch_files": [
+"sysutils/pfSense-pkg-apcupsd/files/usr/local/www/apcupsd_status.php",
+"sysutils/pfSense-pkg-apcupsd/Makefile"
+],
+"earliest_patch_date": "2019-05-28 10:24:36-04:00",
+"earliest_vuln_date": "2016-05-13 10:40:31-03:00",
+"vuln_files": [
+"sysutils/pfSense-pkg-apcupsd/files/usr/local/www/apcupsd_status.php",
+"sysutils/pfSense-pkg-apcupsd/Makefile"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 7.5
+},
+"severity": "HIGH",
+"exploitabilityScore": 10,
+"impactScore": 6.4,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-78"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"sysutils/pfSense-pkg-apcupsd/files/usr/local/www/apcupsd_status.php",
+"sysutils/pfSense-pkg-apcupsd/Makefile"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-18667",
+"patch_date": [
+"2019-10-31 08:28:28-04:00"
+],
+"patch_files": [
+"net/pfSense-pkg-freeradius3/files/usr/local/www/freeradius_view_config.php",
+"net/pfSense-pkg-freeradius3/Makefile"
+],
+"earliest_patch_date": "2019-10-31 08:28:28-04:00",
+"earliest_vuln_date": "2017-06-08 15:22:53-04:00",
+"vuln_files": [
+"net/pfSense-pkg-freeradius3/files/usr/local/www/freeradius_view_config.php",
+"net/pfSense-pkg-freeradius3/Makefile"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-21219",
+"patch_date": [
+"2019-11-08 10:43:32-05:00"
+],
+"patch_files": [
+"security/pfSense-pkg-acme/files/usr/local/www/acme/acme_certificates.php",
+"security/pfSense-pkg-acme/Makefile",
+"security/pfSense-pkg-acme/files/usr/local/pkg/acme/acme_sh.inc",
+"security/pfSense-pkg-acme/files/usr/local/www/acme/acme_accountkeys.php"
+],
+"earliest_patch_date": "2019-11-08 10:43:32-05:00",
+"earliest_vuln_date": "2017-01-23 17:13:06-02:00",
+"vuln_files": [
+"security/pfSense-pkg-acme/files/usr/local/www/acme/acme_certificates.php",
+"security/pfSense-pkg-acme/files/usr/local/pkg/acme/acme_sh.inc",
+"security/pfSense-pkg-acme/files/usr/local/www/acme/acme_accountkeys.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"security/pfSense-pkg-acme/files/usr/local/www/acme/acme_certificates.php",
+"security/pfSense-pkg-acme/Makefile",
+"security/pfSense-pkg-acme/files/usr/local/www/acme/acme_accountkeys.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-21487",
+"patch_date": [
+"2019-11-08 10:43:32-05:00"
+],
+"patch_files": [
+"security/pfSense-pkg-acme/files/usr/local/www/acme/acme_certificates.php",
+"security/pfSense-pkg-acme/Makefile",
+"security/pfSense-pkg-acme/files/usr/local/pkg/acme/acme_sh.inc",
+"security/pfSense-pkg-acme/files/usr/local/www/acme/acme_accountkeys.php"
+],
+"earliest_patch_date": "2019-11-08 10:43:32-05:00",
+"earliest_vuln_date": "2017-01-23 17:13:06-02:00",
+"vuln_files": [
+"security/pfSense-pkg-acme/files/usr/local/www/acme/acme_certificates.php",
+"security/pfSense-pkg-acme/files/usr/local/pkg/acme/acme_sh.inc",
+"security/pfSense-pkg-acme/files/usr/local/www/acme/acme_accountkeys.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.6,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 6
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"security/pfSense-pkg-acme/files/usr/local/www/acme/acme_certificates.php",
+"security/pfSense-pkg-acme/Makefile",
+"security/pfSense-pkg-acme/files/usr/local/pkg/acme/acme_sh.inc",
+"security/pfSense-pkg-acme/files/usr/local/www/acme/acme_accountkeys.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

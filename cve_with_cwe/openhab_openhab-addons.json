@@ -1,0 +1,177 @@
+[
+{
+"cve_id": "CVE-2020-5242",
+"patch_date": [
+"2020-02-19 19:34:16+01:00"
+],
+"patch_files": [
+"bundles/org.openhab.binding.exec/src/main/java/org/openhab/binding/exec/internal/handler/ExecHandler.java",
+"bundles/org.openhab.transform.exec/src/main/java/org/openhab/transform/exec/internal/ExecTransformationWhitelistWatchService.java",
+"bundles/org.openhab.binding.exec/src/main/java/org/openhab/binding/exec/internal/ExecWhitelistWatchService.java",
+"bundles/org.openhab.transform.exec/README.md",
+"bundles/org.openhab.binding.exec/README.md",
+"bundles/org.openhab.transform.exec/src/main/java/org/openhab/transform/exec/internal/profiles/ExecTransformationProfile.java",
+"bundles/org.openhab.transform.exec/src/main/java/org/openhab/transform/exec/internal/ExecTransformationService.java",
+"bundles/org.openhab.binding.exec/src/main/java/org/openhab/binding/exec/internal/ExecBindingConstants.java",
+"bundles/org.openhab.binding.exec/src/main/java/org/openhab/binding/exec/internal/ExecHandlerFactory.java"
+],
+"earliest_patch_date": "2020-02-19 19:34:16+01:00",
+"earliest_vuln_date": "2016-11-23 19:31:28+01:00",
+"vuln_files": [
+"bundles/org.openhab.binding.exec/src/main/java/org/openhab/binding/exec/internal/handler/ExecHandler.java",
+"bundles/org.openhab.transform.exec/README.md",
+"bundles/org.openhab.binding.exec/README.md",
+"bundles/org.openhab.transform.exec/src/main/java/org/openhab/transform/exec/internal/profiles/ExecTransformationProfile.java",
+"bundles/org.openhab.binding.exec/src/main/java/org/openhab/binding/exec/internal/ExecHandlerFactory.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "COMPLETE",
+"integrityImpact": "COMPLETE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 9.3
+},
+"severity": "HIGH",
+"exploitabilityScore": 8.6,
+"impactScore": 10,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-863"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-21266",
+"patch_date": [
+"2021-01-27 16:07:19+01:00"
+],
+"patch_files": [
+"bundles/org.openhab.binding.fsinternetradio/src/main/java/org/openhab/binding/fsinternetradio/internal/radio/FrontierSiliconRadioApiResult.java",
+"bundles/org.openhab.binding.fmiweather/src/main/java/org/openhab/binding/fmiweather/internal/client/Client.java",
+"bundles/org.openhab.binding.bosesoundtouch/src/main/java/org/openhab/binding/bosesoundtouch/internal/XMLResponseProcessor.java",
+"bundles/org.openhab.binding.sonos/src/main/java/org/openhab/binding/sonos/internal/SonosXMLParser.java",
+"bundles/org.openhab.binding.insteon/src/main/java/org/openhab/binding/insteon/internal/device/DeviceTypeLoader.java",
+"bundles/org.openhab.transform.xpath/src/main/java/org/openhab/transform/xpath/internal/XPathTransformationService.java",
+"bundles/org.openhab.binding.avmfritz/src/main/java/org/openhab/binding/avmfritz/internal/hardware/callbacks/FritzAhaUpdateTemplatesCallback.java",
+"bundles/org.openhab.binding.wemo/src/main/java/org/openhab/binding/wemo/internal/discovery/WemoLinkDiscoveryService.java",
+"bundles/org.openhab.binding.yamahareceiver/src/main/java/org/openhab/binding/yamahareceiver/internal/protocol/xml/XMLUtils.java",
+"bundles/org.openhab.binding.avmfritz/src/main/java/org/openhab/binding/avmfritz/internal/hardware/callbacks/FritzAhaUpdateCallback.java",
+"bundles/org.openhab.binding.insteon/src/main/java/org/openhab/binding/insteon/internal/message/XMLMessageReader.java",
+"bundles/org.openhab.binding.denonmarantz/src/main/java/org/openhab/binding/denonmarantz/internal/connector/http/DenonMarantzHttpConnector.java",
+"bundles/org.openhab.binding.wemo/src/main/java/org/openhab/binding/wemo/internal/handler/WemoMakerHandler.java",
+"bundles/org.openhab.binding.avmfritz/src/main/java/org/openhab/binding/avmfritz/internal/util/JAXBUtils.java",
+"bundles/org.openhab.binding.dlinksmarthome/src/main/java/org/openhab/binding/dlinksmarthome/internal/DLinkHNAPCommunication.java",
+"bundles/org.openhab.binding.insteon/src/main/java/org/openhab/binding/insteon/internal/device/FeatureTemplateLoader.java",
+"bundles/org.openhab.binding.onkyo/src/main/java/org/openhab/binding/onkyo/internal/handler/OnkyoHandler.java",
+"bundles/org.openhab.binding.hpprinter/src/main/java/org/openhab/binding/hpprinter/internal/api/HPWebServerClient.java",
+"bundles/org.openhab.binding.ihc/src/main/java/org/openhab/binding/ihc/internal/ws/projectfile/ProjectFileUtils.java",
+"bundles/org.openhab.binding.wemo/src/main/java/org/openhab/binding/wemo/internal/handler/WemoCoffeeHandler.java",
+"bundles/org.openhab.binding.wemo/src/main/java/org/openhab/binding/wemo/internal/handler/WemoHolmesHandler.java",
+"bundles/org.openhab.binding.denonmarantz/src/main/java/org/openhab/binding/denonmarantz/internal/handler/DenonMarantzHandler.java",
+"bundles/org.openhab.binding.samsungtv/src/main/java/org/openhab/binding/samsungtv/internal/service/SamsungTvUtils.java",
+"bundles/org.openhab.binding.homematic/src/main/java/org/openhab/binding/homematic/internal/communicator/message/XmlRpcResponse.java",
+"bundles/org.openhab.binding.tellstick/src/main/java/org/openhab/binding/tellstick/internal/live/TelldusLiveDeviceController.java",
+"bundles/org.openhab.binding.enigma2/src/main/java/org/openhab/binding/enigma2/internal/Enigma2Client.java",
+"bundles/org.openhab.binding.vitotronic/src/main/java/org/openhab/binding/vitotronic/internal/handler/VitotronicBridgeHandler.java",
+"bundles/org.openhab.binding.gce/src/main/java/org/openhab/binding/gce/internal/model/StatusFileInterpreter.java"
+],
+"earliest_patch_date": "2021-01-27 16:07:19+01:00",
+"earliest_vuln_date": "2020-09-20 23:52:13+02:00",
+"vuln_files": [
+"bundles/org.openhab.binding.denonmarantz/src/main/java/org/openhab/binding/denonmarantz/internal/handler/DenonMarantzHandler.java",
+"bundles/org.openhab.binding.avmfritz/src/main/java/org/openhab/binding/avmfritz/internal/hardware/callbacks/FritzAhaUpdateTemplatesCallback.java",
+"bundles/org.openhab.binding.yamahareceiver/src/main/java/org/openhab/binding/yamahareceiver/internal/protocol/xml/XMLUtils.java",
+"bundles/org.openhab.binding.enigma2/src/main/java/org/openhab/binding/enigma2/internal/Enigma2Client.java",
+"bundles/org.openhab.binding.dlinksmarthome/src/main/java/org/openhab/binding/dlinksmarthome/internal/DLinkHNAPCommunication.java",
+"bundles/org.openhab.binding.avmfritz/src/main/java/org/openhab/binding/avmfritz/internal/hardware/callbacks/FritzAhaUpdateCallback.java",
+"bundles/org.openhab.binding.gce/src/main/java/org/openhab/binding/gce/internal/model/StatusFileInterpreter.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.1,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

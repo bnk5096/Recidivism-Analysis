@@ -1,0 +1,84 @@
+[
+{
+"cve_id": "CVE-2018-15836",
+"patch_date": [
+"2018-08-24 12:18:42-04:00",
+"2018-08-22 12:32:49-04:00"
+],
+"patch_files": [
+"lib/liboswkeys/signatures.c",
+"debian/NEWS",
+"packaging/fedora/openswan.spec",
+"packaging/suse/openswan.spec",
+"packaging/centos5/openswan.spec",
+"Makefile.ver",
+"CHANGES",
+"debian/changelog",
+"packaging/rhel7/openswan.spec"
+],
+"earliest_patch_date": "2018-08-22 12:32:49-04:00",
+"earliest_vuln_date": "2016-09-23 16:59:50-04:00",
+"vuln_files": [
+"debian/NEWS",
+"packaging/fedora/openswan.spec",
+"packaging/suse/openswan.spec",
+"packaging/centos5/openswan.spec",
+"Makefile.ver",
+"debian/changelog",
+"packaging/rhel7/openswan.spec",
+"lib/liboswkeys/signatures.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-347"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

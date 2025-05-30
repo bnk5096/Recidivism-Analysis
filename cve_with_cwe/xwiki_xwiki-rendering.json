@@ -1,0 +1,247 @@
+[
+{
+"cve_id": "CVE-2023-32070",
+"patch_date": [
+"2022-06-30 16:47:21+02:00"
+],
+"patch_files": [
+"xwiki-rendering-integration-tests/src/test/resources/wiki/link/links8.test",
+"xwiki-rendering-integration-tests/src/test/resources/simple/verbatim/verbatim6.test",
+"xwiki-rendering-integration-tests/src/test/resources/simple/macros/macro10.test",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-xhtml/src/main/java/org/xwiki/rendering/internal/renderer/xhtml/XHTMLRenderer.java",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-html5/src/main/java/org/xwiki/rendering/internal/renderer/html5/HTML5Renderer.java",
+"xwiki-rendering-xml/src/main/java/org/xwiki/rendering/renderer/printer/XHTMLWikiPrinter.java",
+"xwiki-rendering-integration-tests/src/test/resources/simple/superscript/superscript2.test",
+"xwiki-rendering-integration-tests/src/test/resources/simple/list/list8.test",
+"xwiki-rendering-integration-tests/src/test/resources/simple/table/table3.test",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-annotatedhtml5/src/main/java/org/xwiki/rendering/internal/renderer/html5/AnnotatedHTML5Renderer.java",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-html5/src/main/java/org/xwiki/rendering/internal/renderer/html5/HTML5ChainingRenderer.java",
+"xwiki-rendering-integration-tests/src/test/resources/simple/strikedout/strikedout4.test",
+"xwiki-rendering-macros/xwiki-rendering-macro-html/src/main/java/org/xwiki/rendering/internal/macro/html/renderers/html5/HTMLMacroHTML5Renderer.java",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-annotatedxhtml/src/main/java/org/xwiki/rendering/internal/renderer/xhtml/AnnotatedXHTMLChainingRenderer.java",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-xhtml5/src/test/resources/xhtml5/simple/monospace/monospace2.inout.txt",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-html5/src/test/java/org/xwiki/rendering/internal/html5/HTML5ChainingRendererTest.java",
+"xwiki-rendering-macros/xwiki-rendering-macro-html/src/main/java/org/xwiki/rendering/internal/macro/html/renderers/annotatedxhtml/HTMLMacroAnnotatedXHTMLRenderer.java",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-xhtml/src/test/java/org/xwiki/rendering/internal/renderer/xhtml/XHTMLChainingRendererTest.java",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-xhtml/src/test/resources/xhtml10/specific/group/group1.test",
+"xwiki-rendering-integration-tests/src/test/resources/wiki/link/links15.test",
+"xwiki-rendering-integration-tests/src/test/resources/simple/list/definitionlist7.test",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-xhtml/src/main/java/org/xwiki/rendering/internal/renderer/xhtml/XHTMLChainingRenderer.java",
+"xwiki-rendering-integration-tests/src/test/resources/simple/group/group9.test",
+"xwiki-rendering-integration-tests/src/test/resources/simple/paragraph/paragraph6.test",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-annotatedxhtml/src/main/java/org/xwiki/rendering/internal/renderer/xhtml/AnnotatedXHTMLRenderer.java",
+"xwiki-rendering-integration-tests/src/test/resources/simple/subscript/subscript2.test",
+"xwiki-rendering-integration-tests/src/test/resources/simple/list/list13.test",
+"xwiki-rendering-integration-tests/src/test/resources/simple/section/section6.test",
+"xwiki-rendering-integration-tests/src/test/resources/wiki/image/image9.test",
+"xwiki-rendering-macros/xwiki-rendering-macro-html/src/main/java/org/xwiki/rendering/internal/macro/html/renderers/annotatedhtml5/HTMLMacroAnnotatedHTML5Renderer.java",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-xhtml/src/test/resources/xhtml10/specific/encoding/encoding1.test",
+"xwiki-rendering-integration-tests/src/test/resources/wiki/link/links14.test",
+"xwiki-rendering-integration-tests/src/test/resources/wiki/link/links19.test",
+"xwiki-rendering-integration-tests/src/test/resources/simple/horizontalline/horizontalline5.test",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-annotatedhtml5/src/main/java/org/xwiki/rendering/internal/renderer/html5/AnnotatedHTML5ChainingRenderer.java",
+"xwiki-rendering-integration-tests/src/test/resources/wiki/image/image1.test",
+"xwiki-rendering-integration-tests/src/test/resources/simple/quote/quote3.test",
+"xwiki-rendering-macros/xwiki-rendering-macro-html/src/main/java/org/xwiki/rendering/internal/macro/html/HTMLMacroXHTMLRenderer.java",
+"xwiki-rendering-integration-tests/src/test/resources/wiki/image/image8.test",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-xhtml/src/main/java/org/xwiki/rendering/internal/parser/xhtml/wikimodel/XHTMLXWikiGeneratorListener.java",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-xhtml/src/test/resources/xhtml10/specific/bold/bold4.test",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-annotatedhtml5/src/test/resources/annotatedhtml50/simple/monospace/monospace2.out.txt",
+"xwiki-rendering-integration-tests/src/test/resources/wiki/image/image12.test",
+"xwiki-rendering-integration-tests/src/test/resources/wiki/link/links2.test",
+"xwiki-rendering-integration-tests/src/test/resources/simple/escape/escape15.test",
+"xwiki-rendering-integration-tests/src/test/resources/simple/italic/italic8.test",
+"xwiki-rendering-integration-tests/src/test/resources/simple/verbatim/verbatim7.test",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-xhtml/src/test/resources/xhtml10/simple/monospace/monospace2.inout.txt"
+],
+"earliest_patch_date": "2022-06-30 16:47:21+02:00",
+"earliest_vuln_date": "2011-02-27 15:30:26+00:00",
+"vuln_files": [
+"xwiki-rendering-integration-tests/src/test/resources/wiki/link/links8.test",
+"xwiki-rendering-integration-tests/src/test/resources/simple/verbatim/verbatim6.test",
+"xwiki-rendering-integration-tests/src/test/resources/simple/macros/macro10.test",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-xhtml/src/main/java/org/xwiki/rendering/internal/renderer/xhtml/XHTMLRenderer.java",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-html5/src/main/java/org/xwiki/rendering/internal/renderer/html5/HTML5Renderer.java",
+"xwiki-rendering-xml/src/main/java/org/xwiki/rendering/renderer/printer/XHTMLWikiPrinter.java",
+"xwiki-rendering-integration-tests/src/test/resources/simple/superscript/superscript2.test",
+"xwiki-rendering-integration-tests/src/test/resources/simple/list/list8.test",
+"xwiki-rendering-integration-tests/src/test/resources/simple/table/table3.test",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-annotatedhtml5/src/main/java/org/xwiki/rendering/internal/renderer/html5/AnnotatedHTML5Renderer.java",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-html5/src/main/java/org/xwiki/rendering/internal/renderer/html5/HTML5ChainingRenderer.java",
+"xwiki-rendering-integration-tests/src/test/resources/simple/strikedout/strikedout4.test",
+"xwiki-rendering-macros/xwiki-rendering-macro-html/src/main/java/org/xwiki/rendering/internal/macro/html/renderers/html5/HTMLMacroHTML5Renderer.java",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-xhtml5/src/test/resources/xhtml5/simple/monospace/monospace2.inout.txt",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-annotatedxhtml/src/main/java/org/xwiki/rendering/internal/renderer/xhtml/AnnotatedXHTMLChainingRenderer.java",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-html5/src/test/java/org/xwiki/rendering/internal/html5/HTML5ChainingRendererTest.java",
+"xwiki-rendering-macros/xwiki-rendering-macro-html/src/main/java/org/xwiki/rendering/internal/macro/html/renderers/annotatedxhtml/HTMLMacroAnnotatedXHTMLRenderer.java",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-xhtml/src/test/java/org/xwiki/rendering/internal/renderer/xhtml/XHTMLChainingRendererTest.java",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-xhtml/src/test/resources/xhtml10/specific/group/group1.test",
+"xwiki-rendering-integration-tests/src/test/resources/wiki/link/links15.test",
+"xwiki-rendering-integration-tests/src/test/resources/simple/list/definitionlist7.test",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-xhtml/src/main/java/org/xwiki/rendering/internal/renderer/xhtml/XHTMLChainingRenderer.java",
+"xwiki-rendering-integration-tests/src/test/resources/simple/group/group9.test",
+"xwiki-rendering-integration-tests/src/test/resources/simple/paragraph/paragraph6.test",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-annotatedxhtml/src/main/java/org/xwiki/rendering/internal/renderer/xhtml/AnnotatedXHTMLRenderer.java",
+"xwiki-rendering-integration-tests/src/test/resources/simple/subscript/subscript2.test",
+"xwiki-rendering-integration-tests/src/test/resources/simple/list/list13.test",
+"xwiki-rendering-integration-tests/src/test/resources/simple/section/section6.test",
+"xwiki-rendering-integration-tests/src/test/resources/wiki/image/image9.test",
+"xwiki-rendering-macros/xwiki-rendering-macro-html/src/main/java/org/xwiki/rendering/internal/macro/html/renderers/annotatedhtml5/HTMLMacroAnnotatedHTML5Renderer.java",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-xhtml/src/test/resources/xhtml10/specific/encoding/encoding1.test",
+"xwiki-rendering-integration-tests/src/test/resources/wiki/link/links14.test",
+"xwiki-rendering-integration-tests/src/test/resources/wiki/link/links19.test",
+"xwiki-rendering-integration-tests/src/test/resources/simple/horizontalline/horizontalline5.test",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-annotatedhtml5/src/main/java/org/xwiki/rendering/internal/renderer/html5/AnnotatedHTML5ChainingRenderer.java",
+"xwiki-rendering-integration-tests/src/test/resources/wiki/image/image1.test",
+"xwiki-rendering-integration-tests/src/test/resources/simple/quote/quote3.test",
+"xwiki-rendering-macros/xwiki-rendering-macro-html/src/main/java/org/xwiki/rendering/internal/macro/html/HTMLMacroXHTMLRenderer.java",
+"xwiki-rendering-integration-tests/src/test/resources/wiki/image/image8.test",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-xhtml/src/main/java/org/xwiki/rendering/internal/parser/xhtml/wikimodel/XHTMLXWikiGeneratorListener.java",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-xhtml/src/test/resources/xhtml10/specific/bold/bold4.test",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-annotatedhtml5/src/test/resources/annotatedhtml50/simple/monospace/monospace2.out.txt",
+"xwiki-rendering-integration-tests/src/test/resources/wiki/image/image12.test",
+"xwiki-rendering-integration-tests/src/test/resources/wiki/link/links2.test",
+"xwiki-rendering-integration-tests/src/test/resources/simple/escape/escape15.test",
+"xwiki-rendering-integration-tests/src/test/resources/simple/italic/italic8.test",
+"xwiki-rendering-integration-tests/src/test/resources/simple/verbatim/verbatim7.test",
+"xwiki-rendering-syntaxes/xwiki-rendering-syntax-xhtml/src/test/resources/xhtml10/simple/monospace/monospace2.inout.txt"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-37908",
+"patch_date": [
+"2023-01-13 17:40:51+01:00"
+],
+"patch_files": [
+"xwiki-rendering-xml/src/test/java/org/xwiki/rendering/renderer/printer/XHTMLWikiPrinterTest.java",
+"xwiki-rendering-xml/src/main/java/org/xwiki/rendering/renderer/printer/XHTMLWikiPrinter.java"
+],
+"earliest_patch_date": "2023-01-13 17:40:51+01:00",
+"earliest_vuln_date": "2022-06-30 16:47:21+02:00",
+"vuln_files": [
+"xwiki-rendering-xml/src/main/java/org/xwiki/rendering/renderer/printer/XHTMLWikiPrinter.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.6,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 6
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"xwiki-rendering-xml/src/main/java/org/xwiki/rendering/renderer/printer/XHTMLWikiPrinter.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-37912",
+"patch_date": [
+"2023-02-16 13:46:00+01:00"
+],
+"patch_files": [
+"xwiki-rendering-macros/xwiki-rendering-macro-footnotes/src/test/resources/macrofootnote3.test",
+"xwiki-rendering-macros/xwiki-rendering-macro-footnotes/src/test/resources/macrofootnote6.test",
+"xwiki-rendering-macros/xwiki-rendering-macro-footnotes/src/main/java/org/xwiki/rendering/internal/macro/footnote/PutFootnotesMacro.java",
+"xwiki-rendering-macros/xwiki-rendering-macro-footnotes/src/main/checkstyle/checkstyle-suppressions.xml",
+"xwiki-rendering-macros/xwiki-rendering-macro-footnotes/src/main/java/org/xwiki/rendering/internal/macro/footnote/FootnoteMacro.java",
+"xwiki-rendering-macros/xwiki-rendering-macro-footnotes/src/test/java/org/xwiki/rendering/macro/footnote/ExecutedContentMacro.java",
+"xwiki-rendering-macros/xwiki-rendering-macro-footnotes/pom.xml",
+"xwiki-rendering-macros/xwiki-rendering-macro-footnotes/src/test/resources/META-INF/components.txt"
+],
+"earliest_patch_date": "2023-02-16 13:46:00+01:00",
+"earliest_vuln_date": "2011-03-09 20:50:19+00:00",
+"vuln_files": [
+"xwiki-rendering-macros/xwiki-rendering-macro-footnotes/src/test/resources/macrofootnote3.test",
+"xwiki-rendering-macros/xwiki-rendering-macro-footnotes/src/main/java/org/xwiki/rendering/internal/macro/footnote/PutFootnotesMacro.java",
+"xwiki-rendering-macros/xwiki-rendering-macro-footnotes/src/main/checkstyle/checkstyle-suppressions.xml",
+"xwiki-rendering-macros/xwiki-rendering-macro-footnotes/src/main/java/org/xwiki/rendering/internal/macro/footnote/FootnoteMacro.java",
+"xwiki-rendering-macros/xwiki-rendering-macro-footnotes/pom.xml"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

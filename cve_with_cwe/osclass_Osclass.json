@@ -1,0 +1,106 @@
+[
+{
+"cve_id": "CVE-2014-6280",
+"patch_date": [
+"2014-09-03 16:57:21+02:00"
+],
+"patch_files": [
+"oc-admin/themes/modern/appearance/view.php",
+"oc-includes/osclass/classes/datatables/ItemsDataTable.php",
+"oc-admin/appearance.php",
+"oc-admin/themes/modern/plugins/view.php",
+"oc-includes/osclass/classes/datatables/MediaDataTable.php"
+],
+"earliest_patch_date": "2014-09-03 16:57:21+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2014-6308",
+"patch_date": [
+"2014-09-03 16:57:21+02:00"
+],
+"patch_files": [
+"oc-admin/themes/modern/appearance/view.php",
+"oc-includes/osclass/classes/datatables/ItemsDataTable.php",
+"oc-admin/appearance.php",
+"oc-admin/themes/modern/plugins/view.php",
+"oc-includes/osclass/classes/datatables/MediaDataTable.php"
+],
+"earliest_patch_date": "2014-09-03 16:57:21+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"oc-admin/themes/modern/appearance/view.php",
+"oc-includes/osclass/classes/datatables/ItemsDataTable.php",
+"oc-admin/appearance.php",
+"oc-admin/themes/modern/plugins/view.php",
+"oc-includes/osclass/classes/datatables/MediaDataTable.php"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

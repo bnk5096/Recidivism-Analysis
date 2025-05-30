@@ -1,0 +1,225 @@
+[
+{
+"cve_id": "CVE-2021-41277",
+"patch_date": [
+"2021-09-21 11:55:06-07:00"
+],
+"patch_files": [
+"src/metabase/api/geojson.clj",
+"test/metabase/api/geojson_test.clj"
+],
+"earliest_patch_date": "2021-09-21 11:55:06-07:00",
+"earliest_vuln_date": "2020-01-13 13:36:27-08:00",
+"vuln_files": [
+"src/metabase/api/geojson.clj",
+"test/metabase/api/geojson_test.clj"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-39362",
+"patch_date": [
+"2022-10-03 15:24:26+03:00"
+],
+"patch_files": [
+"frontend/test/__support__/e2e/helpers/e2e-misc-helpers.js",
+"frontend/test/metabase/scenarios/native/native.cy.spec.js",
+"frontend/test/__support__/e2e/helpers/e2e-ad-hoc-question-helpers.js",
+"frontend/src/metabase/query_builder/actions/core/initializeQB.ts",
+"frontend/src/metabase/query_builder/actions/core/initializeQB.unit.spec.ts",
+"frontend/test/metabase/scenarios/visualizations/reproductions/11727-cancel-native-query-shortcut.cy.spec.js",
+"frontend/test/metabase/scenarios/permissions/permissions-baseline.cy.spec.js"
+],
+"earliest_patch_date": "2022-10-03 15:24:26+03:00",
+"earliest_vuln_date": "2020-01-24 13:55:00-05:00",
+"vuln_files": [
+"frontend/test/__support__/e2e/helpers/e2e-misc-helpers.js",
+"frontend/test/__support__/e2e/helpers/e2e-ad-hoc-question-helpers.js",
+"frontend/src/metabase/query_builder/actions/core/initializeQB.ts",
+"frontend/src/metabase/query_builder/actions/core/initializeQB.unit.spec.ts",
+"frontend/test/metabase/scenarios/permissions/permissions-baseline.cy.spec.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-39359",
+"patch_date": [
+"2022-10-06 20:18:58+00:00"
+],
+"patch_files": [
+"src/metabase/api/geojson.clj"
+],
+"earliest_patch_date": "2022-10-06 20:18:58+00:00",
+"earliest_vuln_date": "2020-01-13 13:36:27-08:00",
+"vuln_files": [
+"src/metabase/api/geojson.clj"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-601"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"src/metabase/api/geojson.clj"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-39360",
+"patch_date": [
+"2022-10-06 21:48:33+00:00"
+],
+"patch_files": [
+"src/metabase/email/password_reset.mustache",
+"src/metabase/email/messages.clj",
+"test/metabase/email/messages_test.clj",
+"src/metabase/api/session.clj",
+"test/metabase/email_test.clj"
+],
+"earliest_patch_date": "2022-10-06 21:48:33+00:00",
+"earliest_vuln_date": "2015-03-31 19:35:44-07:00",
+"vuln_files": [
+"src/metabase/email/password_reset.mustache",
+"src/metabase/email/messages.clj",
+"test/metabase/email/messages_test.clj",
+"src/metabase/api/session.clj",
+"test/metabase/email_test.clj"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-287"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,422 @@
+[
+{
+"cve_id": "CVE-2022-31190",
+"patch_date": [
+"2021-09-09 20:02:33+01:00"
+],
+"patch_files": [
+"dspace-xmlui/src/main/java/org/dspace/app/xmlui/cocoon/DSpaceOREGenerator.java",
+"dspace-xmlui/src/main/java/org/dspace/app/xmlui/objectmanager/AbstractAdapter.java",
+"dspace-xmlui/src/main/java/org/dspace/app/xmlui/cocoon/DSpaceMETSGenerator.java",
+"dspace-xmlui/src/main/java/org/dspace/app/xmlui/objectmanager/ContainerAdapter.java",
+"dspace-xmlui/src/main/java/org/dspace/app/xmlui/objectmanager/ItemAdapter.java",
+"dspace-xmlui/src/main/java/org/dspace/app/xmlui/objectmanager/RepositoryAdapter.java"
+],
+"earliest_patch_date": "2021-09-09 20:02:33+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"CWE-863"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-41189",
+"patch_date": [
+"2021-10-26 11:31:42-05:00",
+"2021-10-25 19:01:36+02:00"
+],
+"patch_files": [
+"dspace-api/src/main/java/org/dspace/content/CollectionServiceImpl.java",
+"dspace-server-webapp/src/test/java/org/dspace/app/rest/GroupRestRepositoryIT.java",
+"dspace-api/src/main/java/org/dspace/eperson/GroupServiceImpl.java",
+"dspace-api/src/main/java/org/dspace/content/service/CollectionService.java"
+],
+"earliest_patch_date": "2021-10-25 19:01:36+02:00",
+"earliest_vuln_date": "2020-04-09 10:10:18+02:00",
+"vuln_files": [
+"dspace-api/src/main/java/org/dspace/content/CollectionServiceImpl.java",
+"dspace-api/src/main/java/org/dspace/eperson/GroupServiceImpl.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:C/I:C/A:C",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "COMPLETE",
+"integrityImpact": "COMPLETE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 9
+},
+"severity": "HIGH",
+"exploitabilityScore": 8,
+"impactScore": 10,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-863"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-863"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-31192",
+"patch_date": [
+"2022-01-14 13:12:00+13:00",
+"2022-07-26 16:33:17+12:00"
+],
+"patch_files": [
+"dspace-jspui/src/main/java/org/dspace/app/webui/servlet/RequestItemServlet.java",
+"dspace-jspui/src/main/java/org/dspace/app/webui/servlet/ControlledVocabularyServlet.java",
+"dspace-jspui/src/main/java/org/dspace/app/webui/util/RequestItemManager.java"
+],
+"earliest_patch_date": "2022-01-14 13:12:00+13:00",
+"earliest_vuln_date": "2013-10-21 12:39:42+02:00",
+"vuln_files": [
+"dspace-jspui/src/main/java/org/dspace/app/webui/servlet/RequestItemServlet.java",
+"dspace-jspui/src/main/java/org/dspace/app/webui/util/RequestItemManager.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-31193",
+"patch_date": [
+"2022-01-14 13:12:00+13:00",
+"2022-01-14 13:12:46+13:00"
+],
+"patch_files": [
+"dspace-jspui/src/main/java/org/dspace/app/webui/servlet/ControlledVocabularyServlet.java"
+],
+"earliest_patch_date": "2022-01-14 13:12:00+13:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"dspace-jspui/src/main/java/org/dspace/app/webui/servlet/ControlledVocabularyServlet.java"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-31195",
+"patch_date": [
+"2022-07-26 16:18:05+12:00",
+"2022-01-14 13:25:59+13:00"
+],
+"patch_files": [
+"dspace-api/src/main/java/org/dspace/app/itemimport/ItemImportServiceImpl.java",
+"dspace-api/src/main/java/org/dspace/app/itemimport/ItemImport.java"
+],
+"earliest_patch_date": "2022-01-14 13:25:59+13:00",
+"earliest_vuln_date": "2014-10-20 17:27:58-04:00",
+"vuln_files": [
+"dspace-api/src/main/java/org/dspace/app/itemimport/ItemImport.java",
+"dspace-api/src/main/java/org/dspace/app/itemimport/ItemImportServiceImpl.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-31194",
+"patch_date": [
+"2022-05-28 11:51:28+12:00"
+],
+"patch_files": [
+"dspace-jspui/src/main/java/org/dspace/app/webui/util/FileUploadRequest.java",
+"dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SubmissionController.java"
+],
+"earliest_patch_date": "2022-05-28 11:51:28+12:00",
+"earliest_vuln_date": "2005-12-22 09:39:58+00:00",
+"vuln_files": [
+"dspace-jspui/src/main/java/org/dspace/app/webui/util/FileUploadRequest.java",
+"dspace-jspui/src/main/java/org/dspace/app/webui/servlet/SubmissionController.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.2,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-31191",
+"patch_date": [
+"2022-07-26 16:33:25+12:00",
+"2022-05-28 11:51:34+12:00",
+"2022-05-28 11:51:40+12:00",
+"2022-07-27 09:12:22+12:00"
+],
+"patch_files": [
+"dspace-jspui/src/main/webapp/search/discovery.jsp"
+],
+"earliest_patch_date": "2022-05-28 11:51:34+12:00",
+"earliest_vuln_date": "2012-09-13 12:31:23+02:00",
+"vuln_files": [
+"dspace-jspui/src/main/webapp/search/discovery.jsp"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-31189",
+"patch_date": [
+"2022-05-28 11:51:46+12:00"
+],
+"patch_files": [
+"dspace-jspui/src/main/java/org/dspace/app/webui/servlet/InternalErrorServlet.java",
+"dspace-jspui/src/main/webapp/error/internal.jsp"
+],
+"earliest_patch_date": "2022-05-28 11:51:46+12:00",
+"earliest_vuln_date": "2004-04-19 15:07:08+00:00",
+"vuln_files": [
+"dspace-jspui/src/main/java/org/dspace/app/webui/servlet/InternalErrorServlet.java",
+"dspace-jspui/src/main/webapp/error/internal.jsp"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-38364",
+"patch_date": [
+"2024-06-17 09:22:56+02:00"
+],
+"patch_files": [
+"dspace-server-webapp/src/test/java/org/dspace/app/rest/BitstreamFormatRestRepositoryIT.java",
+"dspace/config/dspace.cfg",
+"dspace/config/registries/bitstream-formats.xml",
+"dspace-server-webapp/src/test/java/org/dspace/app/rest/BitstreamRestControllerIT.java",
+"dspace-server-webapp/src/main/java/org/dspace/app/rest/BitstreamRestController.java"
+],
+"earliest_patch_date": "2024-06-17 09:22:56+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

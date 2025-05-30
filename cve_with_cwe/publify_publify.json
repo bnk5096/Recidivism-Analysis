@@ -1,0 +1,880 @@
+[
+{
+"cve_id": "CVE-2021-25973",
+"patch_date": [
+"2021-10-10 15:08:32+02:00"
+],
+"patch_files": [
+"publify_core/app/controllers/users/registrations_controller.rb",
+"publify_core/spec/features/signup_spec.rb",
+"publify_core/config/routes.rb",
+"publify_core/Manifest.txt"
+],
+"earliest_patch_date": "2021-10-10 15:08:32+02:00",
+"earliest_vuln_date": "2016-07-15 17:33:13+02:00",
+"vuln_files": [
+"publify_core/spec/features/signup_spec.rb",
+"publify_core/config/routes.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 2.5
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 6.4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-669"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-25974",
+"patch_date": [
+"2021-10-10 19:37:47+02:00"
+],
+"patch_files": [
+"themes/bootstrap-2/views/comments/_comment.html.erb",
+"publify_core/app/views/notes/index.html.erb",
+"publify_core/app/views/comments/_comment.html.erb",
+"themes/bootstrap-2/views/articles/view_page.html.erb",
+"publify_core/spec/helpers/base_helper_spec.rb",
+"publify_core/app/models/content_base.rb",
+"publify_core/app/models/feedback.rb",
+"publify_core/app/helpers/base_helper.rb",
+"publify_core/app/views/articles/view_page.html.erb",
+"publify_core/app/views/notes/_note.html.erb",
+"publify_core/app/views/articles/_full_article_content.html.erb",
+"publify_core/spec/models/article_spec.rb",
+"publify_core/spec/models/page_spec.rb",
+"publify_core/app/views/articles/_article_excerpt.html.erb",
+"publify_core/spec/models/comment_spec.rb",
+"publify_core/spec/models/note_spec.rb",
+"publify_core/spec/models/content_spec.rb"
+],
+"earliest_patch_date": "2021-10-10 19:37:47+02:00",
+"earliest_vuln_date": "2013-09-10 15:29:15+02:00",
+"vuln_files": [
+"themes/bootstrap-2/views/comments/_comment.html.erb",
+"publify_core/app/views/notes/index.html.erb",
+"publify_core/app/views/comments/_comment.html.erb",
+"themes/bootstrap-2/views/articles/view_page.html.erb",
+"publify_core/spec/helpers/base_helper_spec.rb",
+"publify_core/app/models/content_base.rb",
+"publify_core/app/models/feedback.rb",
+"publify_core/app/helpers/base_helper.rb",
+"publify_core/app/views/notes/_note.html.erb",
+"publify_core/app/views/articles/view_page.html.erb",
+"publify_core/app/views/articles/_full_article_content.html.erb",
+"publify_core/app/views/articles/_article_excerpt.html.erb",
+"publify_core/spec/models/comment_spec.rb",
+"publify_core/spec/models/content_spec.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2021-25975",
+"patch_date": [
+"2021-10-11 07:40:14+02:00"
+],
+"patch_files": [
+"publify_core/spec/controllers/admin/resources_controller_spec.rb",
+"publify_core/lib/publify_core/testing_support/fixtures/just_some.html",
+"publify_core/Manifest.txt",
+"publify_core/app/uploaders/resource_uploader.rb"
+],
+"earliest_patch_date": "2021-10-11 07:40:14+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-79"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"publify_core/Manifest.txt"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-0524",
+"patch_date": [
+"2022-02-07 23:13:44+01:00"
+],
+"patch_files": [
+"publify_core/spec/controllers/admin/content_controller_spec.rb",
+"publify_core/app/controllers/admin/content_controller.rb"
+],
+"earliest_patch_date": "2022-02-07 23:13:44+01:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-0574",
+"patch_date": [
+"2022-02-13 16:40:55+01:00"
+],
+"patch_files": [
+"publify_core/spec/models/article_spec.rb",
+"publify_core/app/models/article.rb",
+"publify_core/spec/controllers/comments_controller_spec.rb"
+],
+"earliest_patch_date": "2022-02-13 16:40:55+01:00",
+"earliest_vuln_date": "2007-05-08 05:46:13+00:00",
+"vuln_files": [
+"publify_core/spec/models/article_spec.rb",
+"publify_core/app/models/article.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 2.5
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 6.4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-863"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"publify_core/spec/models/article_spec.rb"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-0578",
+"patch_date": [
+"2022-02-13 18:12:03+01:00"
+],
+"patch_files": [
+"publify_core/spec/models/comment_spec.rb",
+"publify_core/app/models/feedback.rb"
+],
+"earliest_patch_date": "2022-02-13 18:12:03+01:00",
+"earliest_vuln_date": "2015-08-14 19:50:38+02:00",
+"vuln_files": [
+"publify_core/app/models/feedback.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 2.5
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 6.4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"publify_core/spec/models/comment_spec.rb",
+"publify_core/app/models/feedback.rb"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-1553",
+"patch_date": [
+"2022-05-14 19:24:53+02:00"
+],
+"patch_files": [
+"publify_core/spec/controllers/articles_controller_spec.rb",
+"spec/controllers/articles_controller_spec.rb",
+"publify_core/app/controllers/articles_controller.rb"
+],
+"earliest_patch_date": "2022-05-14 19:24:53+02:00",
+"earliest_vuln_date": "2011-07-24 21:20:46+02:00",
+"vuln_files": [
+"spec/controllers/articles_controller_spec.rb",
+"publify_core/app/controllers/articles_controller.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.9,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.2,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-863"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-863"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-1810",
+"patch_date": [
+"2022-05-22 13:24:24+02:00"
+],
+"patch_files": [
+"publify_core/spec/controllers/admin/content_controller_spec.rb",
+"publify_core/app/controllers/admin/content_controller.rb"
+],
+"earliest_patch_date": "2022-05-22 13:24:24+02:00",
+"earliest_vuln_date": "2013-02-24 11:23:41+01:00",
+"vuln_files": [
+"publify_core/app/controllers/admin/content_controller.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"publify_core/spec/controllers/admin/content_controller_spec.rb",
+"publify_core/app/controllers/admin/content_controller.rb"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-1811",
+"patch_date": [
+"2022-05-22 15:25:53+02:00"
+],
+"patch_files": [
+"publify_core/spec/controllers/admin/resources_controller_spec.rb",
+"publify_core/app/uploaders/resource_uploader.rb"
+],
+"earliest_patch_date": "2022-05-22 15:25:53+02:00",
+"earliest_vuln_date": "2017-05-28 15:28:07+02:00",
+"vuln_files": [
+"publify_core/app/uploaders/resource_uploader.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 3.5
+},
+"severity": "LOW",
+"exploitabilityScore": 6.8,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-434"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"publify_core/spec/controllers/admin/resources_controller_spec.rb",
+"publify_core/app/uploaders/resource_uploader.rb"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-0299",
+"patch_date": [
+"2022-08-14 14:02:12+02:00"
+],
+"patch_files": [
+"publify_core/spec/models/post_type_spec.rb",
+"publify_core/app/models/redirect.rb",
+"publify_core/app/models/resource.rb",
+"publify_core/app/models/feedback.rb",
+"publify_core/app/models/user.rb",
+"publify_core/spec/models/resource_spec.rb",
+"publify_core/app/models/content.rb",
+"publify_core/spec/models/redirect_spec.rb",
+"publify_core/spec/models/content_spec.rb",
+"publify_core/spec/models/tag_spec.rb",
+"publify_core/Manifest.txt",
+"publify_core/app/models/blog.rb",
+"publify_core/spec/models/user_spec.rb",
+"publify_core/app/models/tag.rb",
+"publify_core/spec/models/feedback_spec.rb",
+"publify_core/spec/models/blog_spec.rb",
+"publify_core/app/models/post_type.rb",
+"publify_core/spec/models/ping_spec.rb",
+"publify_core/app/models/ping.rb",
+"publify_core/app/models/concerns/string_length_limit.rb"
+],
+"earliest_patch_date": "2022-08-14 14:02:12+02:00",
+"earliest_vuln_date": "2019-04-22 11:05:53+02:00",
+"vuln_files": [
+"publify_core/spec/models/tag_spec.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"publify_core/app/models/feedback.rb",
+"publify_core/spec/models/content_spec.rb",
+"publify_core/Manifest.txt"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-1812",
+"patch_date": [
+"2022-08-14 14:02:31+02:00"
+],
+"patch_files": [
+"publify_core/spec/models/user_spec.rb",
+"publify_core/app/models/user.rb"
+],
+"earliest_patch_date": "2022-08-14 14:02:31+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"publify_core/spec/models/user_spec.rb",
+"publify_core/app/models/user.rb"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-2815",
+"patch_date": [
+"2022-08-15 07:19:23+02:00"
+],
+"patch_files": [
+"publify_core/spec/controllers/admin/resources_controller_spec.rb",
+"publify_core/lib/publify_core/testing_support/fixtures/testfile.jpg",
+"publify_core/Manifest.txt",
+"publify_core/app/uploaders/resource_uploader.rb"
+],
+"earliest_patch_date": "2022-08-15 07:19:23+02:00",
+"earliest_vuln_date": "2022-05-22 15:25:53+02:00",
+"vuln_files": [
+"publify_core/app/uploaders/resource_uploader.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"publify_core/spec/controllers/admin/resources_controller_spec.rb",
+"publify_core/Manifest.txt",
+"publify_core/app/uploaders/resource_uploader.rb"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"publify_core/spec/controllers/admin/resources_controller_spec.rb",
+"publify_core/Manifest.txt",
+"publify_core/app/uploaders/resource_uploader.rb"
+]
+},
+{
+"cve_id": "CVE-2023-0569",
+"patch_date": [
+"2022-08-19 23:41:41+02:00"
+],
+"patch_files": [
+"publify_core/spec/features/setup_spec.rb",
+"publify_core/spec/models/user_spec.rb",
+"publify_core/spec/controllers/setup_controller_spec.rb",
+"publify_core/lib/publify_core.rb",
+"publify_core/app/models/user.rb",
+"publify_core/publify_core.gemspec",
+"publify_core/spec/controllers/admin/users_controller_spec.rb",
+"publify_core/spec/features/reset_password_spec.rb",
+"publify_core/lib/publify_core/testing_support/factories.rb",
+"publify_core/spec/features/signup_spec.rb",
+"publify_core/spec/features/login_spec.rb"
+],
+"earliest_patch_date": "2022-08-19 23:41:41+02:00",
+"earliest_vuln_date": "2016-01-11 08:08:32+01:00",
+"vuln_files": [
+"publify_core/spec/features/setup_spec.rb",
+"publify_core/spec/controllers/setup_controller_spec.rb",
+"publify_core/app/models/user.rb",
+"publify_core/spec/controllers/admin/users_controller_spec.rb",
+"publify_core/spec/features/reset_password_spec.rb",
+"publify_core/lib/publify_core/testing_support/factories.rb",
+"publify_core/spec/features/signup_spec.rb",
+"publify_core/spec/features/login_spec.rb"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"publify_core/spec/models/user_spec.rb",
+"publify_core/app/models/user.rb",
+"publify_core/spec/features/signup_spec.rb"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,125 @@
+[
+{
+"cve_id": "CVE-2021-21404",
+"patch_date": [
+"2021-04-06 08:03:22+02:00"
+],
+"patch_files": [
+"lib/relay/protocol/protocol.go"
+],
+"earliest_patch_date": "2021-04-06 08:03:22+02:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-46165",
+"patch_date": [
+"2023-06-06 09:06:51+02:00"
+],
+"patch_files": [
+"gui/default/syncthing/device/editDeviceModalView.html",
+"gui/default/index.html",
+"gui/default/syncthing/core/editShareTemplate.html",
+"gui/default/syncthing/transfer/remoteNeededFilesModalView.html",
+"gui/default/syncthing/core/aboutModalView.html",
+"gui/default/assets/css/overrides.css",
+"gui/default/syncthing/device/globalChangesModalView.html",
+"gui/default/syncthing/folder/editFolderModalView.html",
+"gui/default/syncthing/transfer/localChangedFilesModalView.html",
+"gui/default/syncthing/core/syncthingController.js"
+],
+"earliest_patch_date": "2023-06-06 09:06:51+02:00",
+"earliest_vuln_date": "2014-12-01 20:50:27+01:00",
+"vuln_files": [
+"gui/default/syncthing/device/editDeviceModalView.html",
+"gui/default/index.html",
+"gui/default/syncthing/core/editShareTemplate.html",
+"gui/default/syncthing/transfer/remoteNeededFilesModalView.html",
+"gui/default/syncthing/core/aboutModalView.html",
+"gui/default/assets/css/overrides.css",
+"gui/default/syncthing/device/globalChangesModalView.html",
+"gui/default/syncthing/folder/editFolderModalView.html",
+"gui/default/syncthing/transfer/localChangedFilesModalView.html",
+"gui/default/syncthing/core/syncthingController.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

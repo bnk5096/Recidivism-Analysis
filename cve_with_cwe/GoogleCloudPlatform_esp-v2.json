@@ -1,0 +1,78 @@
+[
+{
+"cve_id": "CVE-2023-30845",
+"patch_date": [
+"2023-03-27 23:24:44-05:00",
+"2023-03-28 20:33:47+00:00",
+"2023-03-28 12:09:59-05:00"
+],
+"patch_files": [
+"examples/auth/envoy_config.json",
+"examples/testdata/sidecar_backend/envoy_config.json",
+"src/envoy/BUILD",
+"api/envoy/v11/http/header_sanitizer/BUILD",
+"src/go/configmanager/testdata/test_fixed_mode_dynamic_routing.go",
+"api/scripts/go_proto_gen.sh",
+"tests/integration_test/http1_integration_test/http1_integration_test.go",
+"src/envoy/http/header_sanitizer/filter.cc",
+"src/go/configmanager/testdata/test_fetch_listeners.go",
+"src/go/configgenerator/filtergen/header_sanitizer.go",
+"src/go/configgenerator/filter_generator.go",
+"examples/grpc_dynamic_routing/envoy_config.json",
+"src/envoy/http/header_sanitizer/filter.h",
+"src/go/util/marshal.go",
+"api/envoy/v11/http/header_sanitizer/config.proto",
+"examples/dynamic_routing/envoy_config.json",
+"api/README.md",
+"examples/testdata/route_match/envoy_config.json",
+"src/go/util/xds_name.go",
+"tests/env/platform/ports.go",
+"examples/service_control/envoy_config.json",
+"src/envoy/http/header_sanitizer/filter_factory.cc",
+"src/envoy/http/header_sanitizer/BUILD",
+"tests/integration_test/jwt_auth_integration_test/jwt_auth_integration_test.go",
+"CHANGELOG.md",
+"src/go/configgenerator/listener_generator_test.go",
+"src/envoy/http/service_control/filter.cc"
+],
+"earliest_patch_date": "2023-03-27 23:24:44-05:00",
+"earliest_vuln_date": "2018-12-12 18:52:04+00:00",
+"vuln_files": [
+"src/go/configmanager/testdata/test_fetch_listeners.go",
+"src/go/configgenerator/listener_generator_test.go",
+"src/go/configmanager/testdata/test_fixed_mode_dynamic_routing.go",
+"src/envoy/http/service_control/filter.cc",
+"tests/integration_test/http1_integration_test/http1_integration_test.go",
+"api/README.md"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

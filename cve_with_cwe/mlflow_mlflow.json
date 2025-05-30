@@ -1,0 +1,887 @@
+[
+{
+"cve_id": "CVE-2022-0736",
+"patch_date": [
+"2022-01-26 15:59:55-08:00"
+],
+"patch_files": [
+"mlflow/utils/file_utils.py"
+],
+"earliest_patch_date": "2022-01-26 15:59:55-08:00",
+"earliest_vuln_date": "2018-07-24 21:06:03-07:00",
+"vuln_files": [
+"mlflow/utils/file_utils.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-1176",
+"patch_date": [
+"2023-02-25 14:22:33+09:00"
+],
+"patch_files": [
+"mlflow/store/model_registry/file_store.py",
+"mlflow/utils/file_utils.py",
+"tests/store/model_registry/test_file_store.py"
+],
+"earliest_patch_date": "2023-02-25 14:22:33+09:00",
+"earliest_vuln_date": "2022-11-18 16:11:25-08:00",
+"vuln_files": [
+"mlflow/store/model_registry/file_store.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 3.3,
+"baseSeverity": "LOW"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"mlflow/utils/file_utils.py"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"mlflow/utils/file_utils.py"
+]
+},
+{
+"cve_id": "CVE-2023-2780",
+"patch_date": [
+"2023-03-31 08:16:10+00:00"
+],
+"patch_files": [
+"tests/tracking/integration_test_utils.py",
+"mlflow/utils/uri.py",
+"tests/utils/test_uri.py",
+"mlflow/environment_variables.py",
+"tests/tracking/test_rest_tracking.py",
+"mlflow/server/handlers.py"
+],
+"earliest_patch_date": "2023-03-31 08:16:10+00:00",
+"earliest_vuln_date": "2019-10-30 10:55:47-07:00",
+"vuln_files": [
+"tests/tracking/test_rest_tracking.py",
+"mlflow/utils/uri.py",
+"mlflow/server/handlers.py",
+"tests/tracking/integration_test_utils.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-2356",
+"patch_date": [
+"2023-04-20 13:51:51+00:00"
+],
+"patch_files": [
+"tests/tracking/test_rest_tracking.py",
+"mlflow/server/handlers.py"
+],
+"earliest_patch_date": "2023-04-20 13:51:51+00:00",
+"earliest_vuln_date": "2023-02-28 19:51:50+09:00",
+"vuln_files": [
+"tests/tracking/test_rest_tracking.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"tests/tracking/test_rest_tracking.py",
+"mlflow/server/handlers.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-3765",
+"patch_date": [
+"2023-07-18 09:31:13+08:00"
+],
+"patch_files": [
+"tests/models/test_cli.py",
+"mlflow/pyfunc/scoring_server/__init__.py",
+"mlflow/pyfunc/backend.py",
+"mlflow/pyfunc/_mlflow_pyfunc_backend_predict.py"
+],
+"earliest_patch_date": "2023-07-18 09:31:13+08:00",
+"earliest_vuln_date": "2019-05-22 21:03:17-07:00",
+"vuln_files": [
+"mlflow/pyfunc/scoring_server/__init__.py",
+"mlflow/pyfunc/backend.py",
+"tests/models/test_cli.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 10,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-4033",
+"patch_date": [
+"2023-07-18 09:31:13+08:00"
+],
+"patch_files": [
+"tests/models/test_cli.py",
+"mlflow/pyfunc/scoring_server/__init__.py",
+"mlflow/pyfunc/backend.py",
+"mlflow/pyfunc/_mlflow_pyfunc_backend_predict.py"
+],
+"earliest_patch_date": "2023-07-18 09:31:13+08:00",
+"earliest_vuln_date": "2019-05-22 21:03:17-07:00",
+"vuln_files": [
+"mlflow/pyfunc/scoring_server/__init__.py",
+"mlflow/pyfunc/backend.py",
+"tests/models/test_cli.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"tests/models/test_cli.py",
+"mlflow/pyfunc/scoring_server/__init__.py",
+"mlflow/pyfunc/backend.py",
+"mlflow/pyfunc/_mlflow_pyfunc_backend_predict.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-6568",
+"patch_date": [
+"2023-11-30 09:38:30+09:00"
+],
+"patch_files": [
+"docs/source/auth/rest-api.rst",
+"mlflow/server/auth/__init__.py",
+"mlflow/server/validation.py",
+"docs/source/rest-api.rst",
+"mlflow/server/handlers.py",
+"tests/server/test_handlers.py"
+],
+"earliest_patch_date": "2023-11-30 09:38:30+09:00",
+"earliest_vuln_date": "2023-04-14 15:23:33+09:00",
+"vuln_files": [
+"mlflow/server/auth/__init__.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 6.1,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"mlflow/server/handlers.py"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"mlflow/server/handlers.py"
+]
+},
+{
+"cve_id": "CVE-2024-0520",
+"patch_date": [
+"2023-12-04 18:52:51+09:00"
+],
+"patch_files": [
+"mlflow/data/http_dataset_source.py",
+"tests/data/test_http_dataset_source.py"
+],
+"earliest_patch_date": "2023-12-04 18:52:51+09:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-6709",
+"patch_date": [
+"2023-12-07 11:09:41-05:00"
+],
+"patch_files": [
+"mlflow/recipes/cards/__init__.py"
+],
+"earliest_patch_date": "2023-12-07 11:09:41-05:00",
+"earliest_vuln_date": "2022-06-23 16:25:37-07:00",
+"vuln_files": [
+"mlflow/recipes/cards/__init__.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-6977",
+"patch_date": [
+"2023-12-07 13:28:07-05:00"
+],
+"patch_files": [
+"mlflow/utils/uri.py",
+"tests/utils/test_uri.py"
+],
+"earliest_patch_date": "2023-12-07 13:28:07-05:00",
+"earliest_vuln_date": "2023-01-26 04:45:02+00:00",
+"vuln_files": [
+"mlflow/utils/uri.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"mlflow/utils/uri.py",
+"tests/utils/test_uri.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-6831",
+"patch_date": [
+"2023-12-08 15:00:19+09:00"
+],
+"patch_files": [
+"mlflow/utils/uri.py",
+"tests/utils/test_uri.py",
+"tests/tracking/test_rest_tracking.py",
+"tests/store/artifact/test_http_artifact_repo.py",
+"tests/server/test_handlers.py"
+],
+"earliest_patch_date": "2023-12-08 15:00:19+09:00",
+"earliest_vuln_date": "2022-10-28 17:12:46+09:00",
+"vuln_files": [
+"tests/tracking/test_rest_tracking.py",
+"mlflow/utils/uri.py",
+"tests/store/artifact/test_http_artifact_repo.py",
+"tests/server/test_handlers.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.2
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-22"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"mlflow/utils/uri.py",
+"tests/utils/test_uri.py",
+"tests/tracking/test_rest_tracking.py",
+"tests/server/test_handlers.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-6909",
+"patch_date": [
+"2023-12-08 15:00:19+09:00"
+],
+"patch_files": [
+"mlflow/utils/uri.py",
+"tests/utils/test_uri.py",
+"tests/tracking/test_rest_tracking.py",
+"tests/store/artifact/test_http_artifact_repo.py",
+"tests/server/test_handlers.py"
+],
+"earliest_patch_date": "2023-12-08 15:00:19+09:00",
+"earliest_vuln_date": "2022-10-28 17:12:46+09:00",
+"vuln_files": [
+"tests/tracking/test_rest_tracking.py",
+"mlflow/utils/uri.py",
+"tests/store/artifact/test_http_artifact_repo.py",
+"tests/server/test_handlers.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"mlflow/utils/uri.py",
+"tests/utils/test_uri.py",
+"tests/tracking/test_rest_tracking.py",
+"tests/store/artifact/test_http_artifact_repo.py",
+"tests/server/test_handlers.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-6753",
+"patch_date": [
+"2023-12-08 10:15:35-05:00"
+],
+"patch_files": [
+"mlflow/data/http_dataset_source.py",
+"tests/data/test_http_dataset_source.py"
+],
+"earliest_patch_date": "2023-12-08 10:15:35-05:00",
+"earliest_vuln_date": "2023-06-01 11:24:52-07:00",
+"vuln_files": [
+"mlflow/data/http_dataset_source.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"mlflow/data/http_dataset_source.py",
+"tests/data/test_http_dataset_source.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-6975",
+"patch_date": [
+"2023-12-12 17:35:51+09:00"
+],
+"patch_files": [
+"mlflow/store/artifact/ftp_artifact_repo.py",
+"tests/store/artifact/test_ftp_artifact_repo.py"
+],
+"earliest_patch_date": "2023-12-12 17:35:51+09:00",
+"earliest_vuln_date": "2020-03-07 23:26:34-08:00",
+"vuln_files": [
+"mlflow/store/artifact/ftp_artifact_repo.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-6976",
+"patch_date": [
+"2023-12-13 11:47:56+09:00"
+],
+"patch_files": [
+"mlflow/utils/uri.py",
+"mlflow/store/artifact/http_artifact_repo.py",
+"mlflow/server/handlers.py"
+],
+"earliest_patch_date": "2023-12-13 11:47:56+09:00",
+"earliest_vuln_date": "2021-11-09 08:30:01+09:00",
+"vuln_files": [
+"mlflow/store/artifact/http_artifact_repo.py",
+"mlflow/server/handlers.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 8.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"mlflow/utils/uri.py",
+"mlflow/server/handlers.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-6974",
+"patch_date": [
+"2023-12-13 11:43:32+08:00"
+],
+"patch_files": [
+"mlflow/utils/request_utils.py",
+"mlflow/environment_variables.py",
+"tests/utils/test_rest_utils.py",
+"tests/utils/test_request_utils.py",
+"tests/store/artifact/test_databricks_artifact_repo.py",
+"tests/store/tracking/test_rest_store.py",
+"tests/projects/test_databricks.py"
+],
+"earliest_patch_date": "2023-12-13 11:43:32+08:00",
+"earliest_vuln_date": "2023-12-11 22:14:04+00:00",
+"vuln_files": [
+"tests/store/artifact/test_databricks_artifact_repo.py",
+"mlflow/utils/request_utils.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.8,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 5.9
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"mlflow/environment_variables.py"
+],
+"file_fixed_before_vuln_again": true,
+"files_fixed_before_vuln_again": [
+"mlflow/environment_variables.py"
+]
+},
+{
+"cve_id": "CVE-2024-3573",
+"patch_date": [
+"2024-01-11 09:50:14+08:00"
+],
+"patch_files": [
+"tests/artifacts/test_artifacts.py",
+"tests/store/tracking/test_file_store.py",
+"mlflow/utils/uri.py",
+"tests/utils/test_uri.py",
+"mlflow/environment_variables.py",
+"tests/store/tracking/test_sqlalchemy_store.py",
+"tests/tracking/test_rest_tracking.py",
+"tests/utils/test_file_utils.py",
+"mlflow/server/handlers.py"
+],
+"earliest_patch_date": "2024-01-11 09:50:14+08:00",
+"earliest_vuln_date": "2023-01-26 04:45:02+00:00",
+"vuln_files": [
+"tests/artifacts/test_artifacts.py",
+"tests/store/tracking/test_file_store.py",
+"mlflow/utils/uri.py",
+"tests/utils/test_uri.py",
+"mlflow/environment_variables.py",
+"tests/store/tracking/test_sqlalchemy_store.py",
+"tests/tracking/test_rest_tracking.py",
+"tests/utils/test_file_utils.py",
+"mlflow/server/handlers.py"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"mlflow/utils/uri.py",
+"tests/utils/test_uri.py",
+"mlflow/environment_variables.py",
+"tests/tracking/test_rest_tracking.py",
+"mlflow/server/handlers.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-3848",
+"patch_date": [
+"2024-03-12 11:32:00+00:00"
+],
+"patch_files": [
+"mlflow/server/handlers.py",
+"tests/server/test_handlers.py"
+],
+"earliest_patch_date": "2024-03-12 11:32:00+00:00",
+"earliest_vuln_date": "2023-03-10 14:51:06+09:00",
+"vuln_files": [
+"mlflow/server/handlers.py"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"mlflow/server/handlers.py",
+"tests/server/test_handlers.py"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

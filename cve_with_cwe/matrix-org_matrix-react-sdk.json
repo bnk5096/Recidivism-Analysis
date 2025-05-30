@@ -1,0 +1,190 @@
+[
+{
+"cve_id": "CVE-2021-21320",
+"patch_date": [
+"2021-02-16 18:23:55+00:00"
+],
+"patch_files": [
+"src/usercontent/index.js",
+"src/components/views/messages/MFileBody.js"
+],
+"earliest_patch_date": "2021-02-16 18:23:55+00:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-30609",
+"patch_date": [
+"2023-04-25 09:35:55+01:00"
+],
+"patch_files": [
+"src/HtmlUtils.tsx",
+"src/components/views/rooms/SearchResultTile.tsx",
+"test/HtmlUtils-test.tsx"
+],
+"earliest_patch_date": "2023-04-25 09:35:55+01:00",
+"earliest_vuln_date": "2017-10-11 17:56:17+01:00",
+"vuln_files": [
+"src/HtmlUtils.tsx",
+"src/components/views/rooms/SearchResultTile.tsx",
+"test/HtmlUtils-test.tsx"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.7,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 1.4
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-37259",
+"patch_date": [
+"2023-07-18 13:23:27+01:00"
+],
+"patch_files": [
+"test/utils/exportUtils/HTMLExport-test.ts",
+"src/utils/exportUtils/HtmlExport.tsx"
+],
+"earliest_patch_date": "2023-07-18 13:23:27+01:00",
+"earliest_vuln_date": "2021-06-03 12:40:00+05:30",
+"vuln_files": [
+"src/utils/exportUtils/HtmlExport.tsx"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.4,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.3,
+"impactScore": 2.7
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-47824",
+"patch_date": [
+"2024-06-14 13:13:41+00:00"
+],
+"patch_files": [
+"src/components/views/dialogs/InviteDialog.tsx",
+"src/utils/RoomUpgrade.ts",
+"src/SlashCommands.tsx",
+"src/i18n/strings/en_EN.json",
+"src/utils/MultiInviter.ts",
+"src/RoomInvite.tsx"
+],
+"earliest_patch_date": "2024-06-14 13:13:41+00:00",
+"earliest_vuln_date": "2016-09-13 14:47:56+01:00",
+"vuln_files": [
+"src/components/views/dialogs/InviteDialog.tsx",
+"src/utils/RoomUpgrade.ts",
+"src/SlashCommands.tsx",
+"src/i18n/strings/en_EN.json",
+"src/utils/MultiInviter.ts",
+"src/RoomInvite.tsx"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

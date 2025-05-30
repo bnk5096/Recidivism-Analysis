@@ -1,0 +1,98 @@
+[
+{
+"cve_id": "CVE-2023-45138",
+"patch_date": [
+"2023-06-27 09:44:50+02:00"
+],
+"patch_files": [
+"application-changerequest-ui/src/main/resources/ChangeRequest/Code/ChangeRequestSheet.xml"
+],
+"earliest_patch_date": "2023-06-27 09:44:50+02:00",
+"earliest_vuln_date": "2022-03-18 10:29:45+01:00",
+"vuln_files": [
+"application-changerequest-ui/src/main/resources/ChangeRequest/Code/ChangeRequestSheet.xml"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 9.6,
+"baseSeverity": "CRITICAL"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-49280",
+"patch_date": [
+"2023-08-29 18:36:59+02:00"
+],
+"patch_files": [
+"application-changerequest-default/src/main/java/org/xwiki/contrib/changerequest/internal/handlers/AbstractChangeRequestActionHandler.java",
+"application-changerequest-default/src/main/java/org/xwiki/contrib/changerequest/internal/DefaultChangeRequestRightsManager.java",
+"application-changerequest-ui/src/main/resources/ChangeRequest/Code/SaveButtonsUIX.xml",
+"application-changerequest-default/src/test/java/org/xwiki/contrib/changerequest/internal/DefaultChangeRequestRightsManagerTest.java",
+"application-changerequest-default/src/checkstyle/checkstyle-suppressions.xml",
+"application-changerequest-ui/src/main/resources/ChangeRequest/Code/EditPageUIX.xml",
+"application-changerequest-default/src/main/java/org/xwiki/contrib/changerequest/script/ChangeRequestAuthorizationScriptService.java",
+"application-changerequest-api/src/main/java/org/xwiki/contrib/changerequest/ChangeRequestRightsManager.java",
+"application-changerequest-default/src/test/java/org/xwiki/contrib/changerequest/internal/handlers/CreateChangeRequestHandlerTest.java",
+"application-changerequest-default/src/test/java/org/xwiki/contrib/changerequest/internal/handlers/AddChangesChangeRequestHandlerTest.java"
+],
+"earliest_patch_date": "2023-08-29 18:36:59+02:00",
+"earliest_vuln_date": "2021-07-23 11:07:57+02:00",
+"vuln_files": [
+"application-changerequest-default/src/test/java/org/xwiki/contrib/changerequest/internal/handlers/CreateChangeRequestHandlerTest.java",
+"application-changerequest-default/src/test/java/org/xwiki/contrib/changerequest/internal/handlers/AddChangesChangeRequestHandlerTest.java"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 6.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 3.6
+}
+},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

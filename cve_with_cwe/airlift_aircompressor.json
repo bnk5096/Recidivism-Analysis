@@ -1,0 +1,39 @@
+[
+{
+"cve_id": "CVE-2024-36114",
+"patch_date": [
+"2024-02-13 08:10:53-08:00",
+"2024-02-13 08:10:53-08:00",
+"2024-02-13 08:10:53-08:00",
+"2024-02-13 08:10:53-08:00"
+],
+"patch_files": [
+"src/test/java/io/airlift/compress/lzo/TestLzo.java",
+"src/main/java/io/airlift/compress/lzo/LzoRawDecompressor.java",
+"src/test/java/io/airlift/compress/lz4/TestLz4.java",
+"src/main/java/io/airlift/compress/zstd/Huffman.java",
+"src/main/java/io/airlift/compress/snappy/SnappyRawDecompressor.java",
+"src/test/java/io/airlift/compress/snappy/TestSnappy.java",
+"src/main/java/io/airlift/compress/zstd/ZstdFrameDecompressor.java",
+"src/test/java/io/airlift/compress/zstd/TestZstd.java",
+"src/main/java/io/airlift/compress/lz4/Lz4RawDecompressor.java"
+],
+"earliest_patch_date": "2024-02-13 08:10:53-08:00",
+"earliest_vuln_date": "2015-07-16 10:39:26-07:00",
+"vuln_files": [
+"src/main/java/io/airlift/compress/zstd/ZstdFrameDecompressor.java",
+"src/test/java/io/airlift/compress/zstd/TestZstd.java",
+"src/main/java/io/airlift/compress/lzo/LzoRawDecompressor.java"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

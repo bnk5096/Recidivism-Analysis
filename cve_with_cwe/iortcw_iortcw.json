@@ -1,0 +1,83 @@
+[
+{
+"cve_id": "CVE-2017-6903",
+"patch_date": [
+"2017-03-13 19:37:39-04:00",
+"2017-03-14 03:25:17-04:00",
+"2017-03-14 03:26:09-04:00"
+],
+"patch_files": [
+"MP/code/client/cl_console.c",
+"MP/code/sys/sys_main.c",
+"MP/code/client/cl_main.c",
+"SP/code/client/snd_openal.c",
+"SP/code/qcommon/files.c",
+"SP/code/qcommon/common.c",
+"MP/code/qcommon/files.c",
+"SP/code/sys/sys_main.c",
+"SP/code/client/cl_console.c",
+"SP/code/client/cl_main.c",
+"MP/code/qcommon/common.c",
+"MP/code/client/snd_openal.c"
+],
+"earliest_patch_date": "2017-03-13 19:37:39-04:00",
+"earliest_vuln_date": "2014-01-14 00:37:57+00:00",
+"vuln_files": [
+"MP/code/client/cl_main.c",
+"SP/code/client/cl_main.c",
+"MP/code/client/snd_openal.c",
+"SP/code/client/snd_openal.c"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.0",
+"vectorString": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "HIGH",
+"baseScore": 7.8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 5.9
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:C/I:C/A:C",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "COMPLETE",
+"integrityImpact": "COMPLETE",
+"availabilityImpact": "COMPLETE",
+"baseScore": 9.3
+},
+"severity": "HIGH",
+"exploitabilityScore": 8.6,
+"impactScore": 10,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

@@ -1,0 +1,374 @@
+[
+{
+"cve_id": "CVE-2012-6109",
+"patch_date": [
+"2013-01-04 09:49:14-05:00"
+],
+"patch_files": [
+"lib/rack/multipart.rb",
+"test/spec_multipart.rb"
+],
+"earliest_patch_date": "2013-01-04 09:49:14-05:00",
+"earliest_vuln_date": "2011-05-02 22:08:16-07:00",
+"vuln_files": [
+"lib/rack/multipart.rb"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2013-0183",
+"patch_date": [
+"2013-01-07 10:18:29-08:00",
+"2013-01-07 10:17:35-08:00"
+],
+"patch_files": [
+"lib/rack/multipart/parser.rb",
+"test/spec_multipart.rb"
+],
+"earliest_patch_date": "2013-01-07 10:17:35-08:00",
+"earliest_vuln_date": "2011-05-02 22:37:36-07:00",
+"vuln_files": [
+"lib/rack/multipart/parser.rb"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:L/Au:N/C:N/I:N/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "LOW",
+"authentication": "NONE",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 10,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-119"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"test/spec_multipart.rb"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2013-0263",
+"patch_date": [
+"2013-02-07 14:47:10-08:00",
+"2013-02-07 14:46:20-08:00"
+],
+"patch_files": [
+"test/spec_utils.rb",
+"lib/rack/utils.rb",
+"lib/rack/session/cookie.rb"
+],
+"earliest_patch_date": "2013-02-07 14:46:20-08:00",
+"earliest_vuln_date": "2012-01-27 15:07:08+04:00",
+"vuln_files": [
+"lib/rack/session/cookie.rb"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:H/Au:N/C:P/I:P/A:P",
+"accessVector": "NETWORK",
+"accessComplexity": "HIGH",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "PARTIAL",
+"baseScore": 5.1
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 4.9,
+"impactScore": 6.4,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"NVD-CWE-noinfo"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2013-0262",
+"patch_date": [
+"2013-02-07 18:36:09-08:00"
+],
+"patch_files": [
+"lib/rack/file.rb"
+],
+"earliest_patch_date": "2013-02-07 18:36:09-08:00",
+"earliest_vuln_date": "2011-05-03 02:22:03-07:00",
+"vuln_files": [
+"lib/rack/file.rb"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-22"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2019-16782",
+"patch_date": [
+"2019-12-18 10:07:23-08:00"
+],
+"patch_files": [
+"lib/rack/session/abstract/id.rb",
+"test/spec_session_pool.rb",
+"lib/rack/session/cookie.rb",
+"lib/rack/session/pool.rb"
+],
+"earliest_patch_date": "2019-12-18 10:07:23-08:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.9,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 2.2,
+"impactScore": 3.6
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-203"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/rack/session/cookie.rb"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-26146",
+"patch_date": [
+"2024-02-21 11:08:16-08:00",
+"2024-02-21 11:08:06-08:00",
+"2024-02-21 11:06:39-08:00",
+"2024-02-21 11:07:52-08:00"
+],
+"patch_files": [
+"lib/rack/utils.rb"
+],
+"earliest_patch_date": "2024-02-21 11:06:39-08:00",
+"earliest_vuln_date": "2013-01-11 14:26:04-08:00",
+"vuln_files": [
+"lib/rack/utils.rb"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/rack/utils.rb"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-26141",
+"patch_date": [
+"2024-02-21 11:12:15-08:00",
+"2024-02-21 11:12:58-08:00"
+],
+"patch_files": [
+"lib/rack/utils.rb",
+"test/spec_utils.rb"
+],
+"earliest_patch_date": "2024-02-21 11:12:15-08:00",
+"earliest_vuln_date": "None",
+"vuln_files": [],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/rack/utils.rb",
+"test/spec_utils.rb"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-25126",
+"patch_date": [
+"2024-02-21 11:15:43-08:00",
+"2024-02-21 11:17:28-08:00"
+],
+"patch_files": [
+"lib/rack/media_type.rb"
+],
+"earliest_patch_date": "2024-02-21 11:15:43-08:00",
+"earliest_vuln_date": "2015-06-12 12:35:33+02:00",
+"vuln_files": [
+"lib/rack/media_type.rb"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-39316",
+"patch_date": [
+"2024-07-02 15:00:36+09:00"
+],
+"patch_files": [
+"lib/rack/request.rb"
+],
+"earliest_patch_date": "2024-07-02 15:00:36+09:00",
+"earliest_vuln_date": "2015-09-04 16:11:16-07:00",
+"vuln_files": [
+"lib/rack/request.rb"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

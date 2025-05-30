@@ -1,0 +1,60 @@
+[
+{
+"cve_id": "CVE-2014-8122",
+"patch_date": [
+"2014-12-04 11:17:00+01:00",
+"2014-12-04 11:16:55+01:00",
+"2014-12-04 11:24:22+01:00"
+],
+"patch_files": [
+"tests-arquillian/src/test/java/org/jboss/weld/tests/contexts/cache/ConversationScopedBean.java",
+"tests-arquillian/src/test/java/org/jboss/weld/tests/contexts/cache/SimpleServlet.java",
+"impl/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+"impl/src/main/java/org/jboss/weld/context/cache/RequestScopedCache.java",
+"impl/src/main/java/org/jboss/weld/servlet/ConversationContextActivator.java",
+"tests-arquillian/src/test/java/org/jboss/weld/tests/contexts/cache/RequestScopedCacheLeakTest.java",
+"impl/src/main/java/org/jboss/weld/logging/ServletLogger.java"
+],
+"earliest_patch_date": "2014-12-04 11:16:55+01:00",
+"earliest_vuln_date": "2011-07-19 09:57:58+10:00",
+"vuln_files": [
+"impl/src/main/java/org/jboss/weld/context/cache/RequestScopedCache.java",
+"impl/src/main/java/org/jboss/weld/logging/ServletLogger.java",
+"impl/src/main/java/org/jboss/weld/servlet/HttpContextLifecycle.java",
+"impl/src/main/java/org/jboss/weld/servlet/ConversationContextActivator.java"
+],
+"impact": {
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:N/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 4.3
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 2.9,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": false
+}
+},
+"cwes": [
+"CWE-362"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

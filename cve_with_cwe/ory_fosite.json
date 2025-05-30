@@ -1,0 +1,339 @@
+[
+{
+"cve_id": "CVE-2020-15222",
+"patch_date": [
+"2020-03-29 11:27:31+02:00"
+],
+"patch_files": [
+"internal/storage.go",
+"internal/access_request.go",
+"internal/client.go",
+"internal/authorize_code_strategy.go",
+"internal/oauth2_client_storage.go",
+"client_manager.go",
+"internal/revoke_handler.go",
+"internal/access_token_storage.go",
+"internal/oauth2_revoke_storage.go",
+"go.sum",
+"errors.go",
+"internal/access_response.go",
+"internal/token_handler.go",
+"client_authentication.go",
+"internal/pkce_storage_strategy.go",
+"internal/hash.go",
+"internal/oauth2_storage.go",
+"internal/authorize_code_storage.go",
+"internal/oauth2_strategy.go",
+"client_authentication_test.go",
+"handler/oauth2/flow_refresh.go",
+"internal/transactional.go",
+"internal/authorize_request.go",
+"internal/request.go",
+"internal/access_token_strategy.go",
+"internal/id_token_strategy.go",
+"internal/authorize_handler.go",
+"internal/openid_id_token_storage.go",
+"go.mod",
+"storage/memory.go",
+"internal/refresh_token_strategy.go",
+"internal/oauth2_owner_storage.go",
+"internal/introspector.go",
+"internal/authorize_response.go"
+],
+"earliest_patch_date": "2020-03-29 11:27:31+02:00",
+"earliest_vuln_date": "2016-06-29 15:11:02+02:00",
+"vuln_files": [
+"client_authentication_test.go",
+"go.mod",
+"storage/memory.go",
+"client_manager.go",
+"handler/oauth2/flow_refresh.go",
+"client_authentication.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 8.1,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 2.8,
+"impactScore": 5.2
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:N/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 5.8
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 8.6,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-345"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-15223",
+"patch_date": [
+"2020-09-24 12:00:29+02:00"
+],
+"patch_files": [
+".golangci.yml",
+"handler/openid/helper.go",
+"revoke_handler.go",
+"access_error.go",
+"handler/oauth2/revocation.go",
+"token/hmac/hmacsha.go",
+"access_write.go",
+"authorize_error.go",
+"errors_test.go",
+"handler/oauth2/revocation_test.go",
+"go_mod_indirect_pins.go",
+"errors.go"
+],
+"earliest_patch_date": "2020-09-24 12:00:29+02:00",
+"earliest_vuln_date": "2016-01-11 00:34:39+01:00",
+"vuln_files": [
+".golangci.yml",
+"revoke_handler.go",
+"handler/openid/helper.go",
+"access_error.go",
+"token/hmac/hmacsha.go",
+"access_write.go",
+"authorize_error.go",
+"errors_test.go",
+"handler/oauth2/revocation_test.go",
+"handler/oauth2/revocation.go",
+"errors.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "HIGH",
+"availabilityImpact": "NONE",
+"baseScore": 8,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 1.6,
+"impactScore": 5.8
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:H/Au:N/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "HIGH",
+"authentication": "NONE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 4.9,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-754"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"errors.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-15233",
+"patch_date": [
+"2020-10-02 15:15:49+02:00"
+],
+"patch_files": [
+"authorize_helper_test.go",
+"helper_test.go",
+"authorize_helper.go"
+],
+"earliest_patch_date": "2020-10-02 15:15:49+02:00",
+"earliest_vuln_date": "2016-01-06 11:40:09+01:00",
+"vuln_files": [
+"authorize_helper_test.go",
+"helper_test.go",
+"authorize_helper.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.8,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.7,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.9
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 6.8,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-601"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2020-15234",
+"patch_date": [
+"2020-10-02 15:15:49+02:00"
+],
+"patch_files": [
+"authorize_helper_test.go",
+"helper_test.go",
+"authorize_helper.go"
+],
+"earliest_patch_date": "2020-10-02 15:15:49+02:00",
+"earliest_vuln_date": "2016-01-06 11:40:09+01:00",
+"vuln_files": [
+"authorize_helper_test.go",
+"helper_test.go",
+"authorize_helper.go"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "HIGH",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.8,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.7,
+"impactScore": 2.7
+},
+"baseMetricV2": {
+"cvssV2": {
+"version": "2.0",
+"vectorString": "AV:N/AC:M/Au:S/C:P/I:P/A:N",
+"accessVector": "NETWORK",
+"accessComplexity": "MEDIUM",
+"authentication": "SINGLE",
+"confidentialityImpact": "PARTIAL",
+"integrityImpact": "PARTIAL",
+"availabilityImpact": "NONE",
+"baseScore": 4.9
+},
+"severity": "MEDIUM",
+"exploitabilityScore": 6.8,
+"impactScore": 4.9,
+"acInsufInfo": false,
+"obtainAllPrivilege": false,
+"obtainUserPrivilege": false,
+"obtainOtherPrivilege": false,
+"userInteractionRequired": true
+}
+},
+"cwes": [
+"CWE-178"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"authorize_helper_test.go",
+"helper_test.go",
+"authorize_helper.go"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

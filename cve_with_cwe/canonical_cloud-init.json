@@ -1,0 +1,165 @@
+[
+{
+"cve_id": "CVE-2021-3429",
+"patch_date": [
+"2021-03-19 10:06:42-04:00"
+],
+"patch_files": [
+"tests/unittests/test_util.py",
+"cloudinit/tests/test_util.py",
+"cloudinit/config/tests/test_set_passwords.py",
+"tests/integration_tests/modules/test_set_password.py",
+"cloudinit/config/cc_set_passwords.py",
+"cloudinit/util.py",
+"tests/integration_tests/test_logging.py"
+],
+"earliest_patch_date": "2021-03-19 10:06:42-04:00",
+"earliest_vuln_date": "2011-01-28 19:28:51+00:00",
+"vuln_files": [
+"cloudinit/config/tests/test_set_passwords.py",
+"cloudinit/config/cc_set_passwords.py",
+"cloudinit/util.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-532"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2022-2084",
+"patch_date": [
+"2022-06-29 17:27:44-05:00"
+],
+"patch_files": [
+"cloudinit/cmd/main.py",
+"cloudinit/config/schema.py",
+"tests/unittests/config/test_schema.py",
+"tests/integration_tests/modules/test_cli.py"
+],
+"earliest_patch_date": "2022-06-29 17:27:44-05:00",
+"earliest_vuln_date": "2017-05-31 16:43:12-04:00",
+"vuln_files": [
+"cloudinit/cmd/main.py",
+"cloudinit/config/schema.py",
+"tests/unittests/config/test_schema.py",
+"tests/integration_tests/modules/test_cli.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-532"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-532"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2023-1786",
+"patch_date": [
+"2023-04-26 15:11:55-05:00"
+],
+"patch_files": [
+"cloudinit/sources/DataSourceVultr.py",
+"tests/unittests/sources/test_init.py",
+"tests/unittests/test_stages.py",
+"cloudinit/sources/DataSourceLXD.py",
+"cloudinit/stages.py",
+"cloudinit/sources/__init__.py"
+],
+"earliest_patch_date": "2023-04-26 15:11:55-05:00",
+"earliest_vuln_date": "2018-09-25 21:59:16+00:00",
+"vuln_files": [
+"cloudinit/sources/DataSourceVultr.py",
+"tests/unittests/sources/test_init.py",
+"tests/unittests/test_stages.py",
+"cloudinit/sources/DataSourceLXD.py",
+"cloudinit/stages.py",
+"cloudinit/sources/__init__.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+"attackVector": "LOCAL",
+"attackComplexity": "LOW",
+"privilegesRequired": "LOW",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "HIGH",
+"integrityImpact": "NONE",
+"availabilityImpact": "NONE",
+"baseScore": 5.5,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.8,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-532"
+],
+"fix_duplicate_type": true,
+"fix_duplicate_types": [
+"CWE-532"
+],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

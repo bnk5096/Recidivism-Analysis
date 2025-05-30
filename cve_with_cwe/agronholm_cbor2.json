@@ -1,0 +1,58 @@
+[
+{
+"cve_id": "CVE-2024-26134",
+"patch_date": [
+"2024-01-14 14:12:40+02:00",
+"2024-02-03 13:03:38+02:00"
+],
+"patch_files": [
+"docs/versionhistory.rst",
+"source/decoder.c",
+"setup.py",
+"source/tags.c",
+"tests/test_decoder.py",
+"cbor2/_decoder.py"
+],
+"earliest_patch_date": "2024-01-14 14:12:40+02:00",
+"earliest_vuln_date": "2019-06-03 14:46:17+01:00",
+"vuln_files": [
+"cbor2/_decoder.py",
+"docs/versionhistory.rst",
+"source/decoder.c",
+"source/tags.c",
+"tests/test_decoder.py",
+"setup.py"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "NONE",
+"availabilityImpact": "HIGH",
+"baseScore": 7.5,
+"baseSeverity": "HIGH"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 3.6
+}
+},
+"cwes": [
+"CWE-120"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

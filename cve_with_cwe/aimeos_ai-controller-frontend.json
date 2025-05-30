@@ -1,0 +1,92 @@
+[
+{
+"cve_id": "CVE-2024-39325",
+"patch_date": [
+"2024-06-10 07:42:00+02:00",
+"2024-06-10 07:43:07+02:00",
+"2024-06-10 08:44:54+02:00",
+"2024-06-10 07:41:46+02:00",
+"2024-06-10 07:41:37+02:00"
+],
+"patch_files": [
+"src/Controller/Frontend/Basket/Standard.php",
+"controller/frontend/src/Controller/Frontend/Basket/Standard.php",
+"controller/frontend/src/Controller/Frontend/Order/Standard.php"
+],
+"earliest_patch_date": "2024-06-10 07:41:37+02:00",
+"earliest_vuln_date": "2024-06-10 07:41:37+02:00",
+"vuln_files": [
+"controller/frontend/src/Controller/Frontend/Order/Standard.php"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "LOW",
+"privilegesRequired": "NONE",
+"userInteraction": "NONE",
+"scope": "UNCHANGED",
+"confidentialityImpact": "NONE",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 5.3,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 3.9,
+"impactScore": 1.4
+}
+},
+"cwes": [
+"NVD-CWE-Other"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-39319",
+"patch_date": [
+"2024-06-11 09:06:28+02:00",
+"2024-06-11 08:55:24+02:00",
+"2024-06-11 08:57:49+02:00",
+"2024-06-11 09:06:44+02:00",
+"2024-06-11 09:07:17+02:00",
+"2024-06-11 08:56:51+02:00",
+"2024-06-11 08:53:41+02:00",
+"2024-06-11 09:07:03+02:00",
+"2024-06-11 08:53:49+02:00",
+"2024-06-11 09:06:53+02:00"
+],
+"patch_files": [
+"src/Controller/Frontend/Review/Standard.php",
+"controller/frontend/src/Controller/Frontend/Review/Standard.php",
+"src/Controller/Frontend/Subscription/Standard.php",
+"controller/frontend/src/Controller/Frontend/Subscription/Standard.php"
+],
+"earliest_patch_date": "2024-06-11 08:53:41+02:00",
+"earliest_vuln_date": "2019-01-10 14:33:51+01:00",
+"vuln_files": [
+"src/Controller/Frontend/Review/Standard.php",
+"src/Controller/Frontend/Subscription/Standard.php",
+"controller/frontend/src/Controller/Frontend/Subscription/Standard.php",
+"controller/frontend/src/Controller/Frontend/Review/Standard.php"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

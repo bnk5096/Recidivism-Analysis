@@ -1,0 +1,77 @@
+[
+{
+"cve_id": "CVE-2024-29886",
+"patch_date": [
+"2024-03-11 11:57:30+01:00"
+],
+"patch_files": [
+"tests/serverpod_test_server/test_integration/authentication/email_auth_provider_test.dart",
+"tests/serverpod_test_server/lib/server.dart",
+"tests/serverpod_test_server/lib/test_util/test_key_manager.dart",
+"modules/serverpod_auth/serverpod_auth_server/pubspec.yaml",
+"tests/serverpod_test_server/lib/src/generated/protocol.yaml",
+"modules/serverpod_auth/serverpod_auth_server/test/password_hash/legacy_to_argon2id_hash_test.dart",
+"tests/serverpod_test_server/test_e2e/authentication_test.dart",
+"modules/serverpod_auth/serverpod_auth_server/test/password_hash/legacy_password_hash_test.dart",
+"tests/serverpod_test_server/lib/src/generated/endpoints.dart",
+"tests/serverpod_test_client/lib/src/protocol/client.dart",
+"tests/serverpod_test_server/test_e2e/email_authentication_provider_test.dart",
+"modules/serverpod_auth/serverpod_auth_server/lib/src/business/config.dart",
+"modules/serverpod_auth/serverpod_auth_server/test/password_hash/argon2id_password_hash_test.dart",
+".github/workflows/dart-tests.yaml",
+"tests/serverpod_test_server/lib/src/endpoints/email_auth_provider.dart",
+"tests/serverpod_test_server/test_e2e/websocket_test.dart",
+"modules/serverpod_auth/serverpod_auth_server/lib/src/endpoints/email_endpoint.dart",
+"util/run_tests_unit",
+"modules/serverpod_auth/serverpod_auth_server/lib/src/business/email_auth.dart",
+"templates/pubspecs/modules/serverpod_auth/serverpod_auth_server/pubspec.yaml",
+"modules/serverpod_auth/serverpod_auth_server/lib/src/business/email_secrets.dart",
+"modules/serverpod_auth/serverpod_auth_server/test/password_hash/password_hash_test.dart",
+"modules/serverpod_auth/serverpod_auth_server/lib/src/business/password_hash.dart"
+],
+"earliest_patch_date": "2024-03-11 11:57:30+01:00",
+"earliest_vuln_date": "2021-09-20 20:26:33+02:00",
+"vuln_files": [
+"tests/serverpod_test_server/lib/src/generated/endpoints.dart",
+"tests/serverpod_test_server/test_e2e/websocket_test.dart",
+"modules/serverpod_auth/serverpod_auth_server/lib/src/endpoints/email_endpoint.dart",
+"modules/serverpod_auth/serverpod_auth_server/lib/src/business/email_auth.dart",
+"tests/serverpod_test_server/test_e2e/authentication_test.dart"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-29887",
+"patch_date": [
+"2024-03-22 15:28:28+01:00"
+],
+"patch_files": [
+"tests/serverpod_test_server/test_e2e/tsl_client_test.dart",
+"packages/serverpod_client/lib/src/serverpod_client_io.dart"
+],
+"earliest_patch_date": "2024-03-22 15:28:28+01:00",
+"earliest_vuln_date": "2019-06-18 15:08:57+02:00",
+"vuln_files": [
+"packages/serverpod_client/lib/src/serverpod_client_io.dart"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]

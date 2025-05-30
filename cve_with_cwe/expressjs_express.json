@@ -1,0 +1,79 @@
+[
+{
+"cve_id": "CVE-2024-29041",
+"patch_date": [
+"2024-03-20 10:18:54-05:00",
+"2024-03-25 09:29:41-05:00"
+],
+"patch_files": [
+"test/res.location.js",
+"History.md",
+"lib/response.js"
+],
+"earliest_patch_date": "2024-03-20 10:18:54-05:00",
+"earliest_vuln_date": "2014-03-05 22:06:14-08:00",
+"vuln_files": [
+"test/res.location.js",
+"lib/response.js"
+],
+"impact": {},
+"cwes": [],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": false,
+"files_fixed_before_fixed_again": [],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+},
+{
+"cve_id": "CVE-2024-43796",
+"patch_date": [
+"2024-09-10 04:00:58+02:00"
+],
+"patch_files": [
+"test/res.redirect.js",
+"lib/response.js"
+],
+"earliest_patch_date": "2024-09-10 04:00:58+02:00",
+"earliest_vuln_date": "2014-10-17 22:00:59-04:00",
+"vuln_files": [
+"test/res.redirect.js",
+"lib/response.js"
+],
+"impact": {
+"baseMetricV3": {
+"cvssV3": {
+"version": "3.1",
+"vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:C/C:L/I:L/A:N",
+"attackVector": "NETWORK",
+"attackComplexity": "HIGH",
+"privilegesRequired": "NONE",
+"userInteraction": "REQUIRED",
+"scope": "CHANGED",
+"confidentialityImpact": "LOW",
+"integrityImpact": "LOW",
+"availabilityImpact": "NONE",
+"baseScore": 4.7,
+"baseSeverity": "MEDIUM"
+},
+"exploitabilityScore": 1.6,
+"impactScore": 2.7
+}
+},
+"cwes": [
+"CWE-79"
+],
+"fix_duplicate_type": false,
+"fix_duplicate_types": [],
+"intro_duplicate_type": false,
+"intro_duplicated_types": [],
+"file_fixed_before_fixed_again": true,
+"files_fixed_before_fixed_again": [
+"lib/response.js"
+],
+"file_fixed_before_vuln_again": false,
+"files_fixed_before_vuln_again": []
+}
+]
